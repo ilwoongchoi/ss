@@ -1,0 +1,338 @@
+"""
+Nuclear fusion - clean build.
+
+No imports from old code. Only:
+- 6 subjects (quark, gluon, neutrino, photon, proton, electron)
+- 15 edges (all pairs)
+- 0.2828 (confinement constant)
+- 23 channels -> edge weights directly
+
+Day/night targets from motif degrees [6,8,8,10] and 0.2828 shift.
+Observer (neutron star) = BW axis.
+Neutrino path = SM axis.
+"""
+from __future__ import annotations
+
+import json
+import numpy as np
+from pathlib import Path
+from itertools import combinations
+
+# ── Fixed constants ────────────────────────────────────────────────────────
+C = 0.2828          # confinement / melatonin shift
+OMEGA = 7.4         # total norm target
+
+# 6 subjects
+SUBJECTS = ("quark", "gluon", "neutrino", "photon", "proton", "electron")
+IDX = {s: i for i, s in enumerate(SUBJECTS)}
+
+# 15 edges
+EDGES = [(a, b) for a, b in combinations(SUBJECTS, 2)]
+EIDX = {(a, b): i for i, (a, b) in enumerate(EDGES)}
+
+# ── Base edge weights (physics only, no channels) ─────────────────────────
+# From SM motif counts (nu-gamma=1, gamma-p=2, gamma-e=3, nu-p=3, p-e=3, nu-e=4)
+# normalized /16. Quark sector: quark-gluon = 1+0.2828, quark-proton = 1, gluon-proton = 1.
+BASE_W: dict[tuple, float] = {e: 0.0 for e in EDGES}
+BASE_W[("quark",   "gluon")]    = 1.0 + C
+BASE_W[("quark",   "proton")]   = 1.0
+BASE_W[("gluon",   "proton")]   = 1.0
+BASE_W[("neutrino","photon")]   = 1/16
+BASE_W[("photon",  "proton")]   = 2/16
+BASE_W[("photon",  "electron")] = 3/16
+BASE_W[("neutrino","proton")]   = 3/16
+BASE_W[("proton",  "electron")] = 3/16
+BASE_W[("neutrino","electron")] = 4/16
+
+# ── Channel -> edge delta map ──────────────────────────────────────────────
+# Each channel: {edge: {on: delta, off: delta, no_control: 0}}
+# "on" = activating, "off" = suppressing, "no_control" = 0
+CHANNEL_MAP: dict[str, dict[tuple, dict[str, float]]] = {
+    "gdh_gluon": {
+        ("quark","gluon"):    {"on":+C,    "off":-C*0.5, "no_control":0},
+    },
+    "female_gaba_b_latdorsi": {
+        ("proton","electron"): {"on":-0.10, "off":0, "no_control":0},
+        ("neutrino","proton"): {"on":-0.08, "off":0, "no_control":0},
+    },
+    "left_acetyl_coa": {
+        ("neutrino","photon"):   {"on":+0.10, "off":0, "no_control":0},
+        ("neutrino","electron"): {"on":+0.08, "off":0, "no_control":0},
+    },
+    "male_left_5ht": {   # left serotonin: SM_SW bridge
+        ("neutrino","electron"): {"on":+0.15, "off":0, "no_control":0},
+        ("proton","electron"):   {"on":+0.08, "off":0, "no_control":0},
+    },
+    "female_left_noradrenaline": {   # thin bridge BM-SM
+        ("neutrino","photon"): {"on":+0.12, "off":0, "no_control":0},
+        ("neutrino","proton"): {"on":+0.10, "off":0, "no_control":0},
+    },
+    "left_temporalis_5ht1a": {
+        ("photon","proton"):   {"on":-0.10, "off":0, "no_control":0},
+        ("photon","electron"): {"on":-0.08, "off":0, "no_control":0},
+    },
+    "left_estrogen": {   # BW release toward SW
+        ("proton","electron"): {"on":+0.15, "off":0, "no_control":0},
+        ("photon","proton"):   {"on":+0.10, "off":0, "no_control":0},
+    },
+    "right_love": {   # SM field open
+        ("neutrino","proton"):   {"on":+0.12, "off":0, "no_control":0},
+        ("neutrino","electron"): {"on":+0.12, "off":0, "no_control":0},
+    },
+    "hypoxia": {
+        ("photon","proton"):   {"on":+0.05, "off":0, "no_control":0},
+        ("photon","electron"): {"on":+0.05, "off":0, "no_control":0},
+    },
+    "right_dopamine": {   # BM spark/reward
+        ("photon","proton"):   {"on":+0.15, "off":0, "no_control":0},
+        ("photon","electron"): {"on":+0.10, "off":0, "no_control":0},
+    },
+    "vasopressin_female": {   # BW pressure binding
+        ("photon","proton"):   {"on":+0.12, "off":0, "no_control":0},
+        ("proton","electron"): {"on":+0.12, "off":0, "no_control":0},
+    },
+    "male_oxytocin": {   # SM bonding
+        ("neutrino","electron"): {"on":+0.15, "off":0, "no_control":0},
+        ("neutrino","proton"):   {"on":+0.10, "off":0, "no_control":0},
+    },
+    "muscle_a": {   # BW blood hold (capture phase)
+        ("gluon","proton"):  {"on":+0.10, "off":0, "no_control":0},
+        ("quark","proton"):  {"on":+0.08, "off":0, "no_control":0},
+    },
+    "muscle_b": {   # BW strong hold
+        ("gluon","proton"):  {"on":+0.15, "off":0, "no_control":0},
+        ("proton","electron"):{"on":+0.10, "off":0, "no_control":0},
+    },
+    "right_5ht1b_synchrotron": {
+        ("photon","electron"): {"on":+0.08, "off":-0.05, "no_control":0},
+    },
+    "right_androgen": {   # BM expansion
+        ("photon","proton"):   {"on":+0.12, "off":0, "no_control":0},
+        ("photon","electron"): {"on":+0.08, "off":0, "no_control":0},
+    },
+    "left_endorphin": {   # BW_SW relaxation
+        ("proton","electron"): {"on":+0.15, "off":-0.05, "no_control":0},
+    },
+    "left_frontalis_d2": {   # SM D2 stabilizer
+        ("neutrino","electron"): {"on":+0.10, "off":0, "no_control":0},
+        ("neutrino","proton"):   {"on":+0.10, "off":0, "no_control":0},
+    },
+    "right_occipitalis_gaba_a": {   # BM_SM stabilizer
+        ("neutrino","photon"): {"on":+0.15, "off":0, "no_control":0},
+    },
+    "right_acetylcholine": {
+        ("photon","proton"):   {"on":+0.10, "off":0, "no_control":0},
+        ("photon","electron"): {"on":+0.08, "off":0, "no_control":0},
+    },
+    "left_extraversion": {   # BM external
+        ("photon","proton"):   {"on":+0.10, "off":0, "no_control":0},
+        ("photon","electron"): {"on":+0.08, "off":0, "no_control":0},
+    },
+    "glucocorticoid": {   # BM_BW stress
+        ("photon","proton"):   {"on":+0.15, "off":-0.05, "no_control":0},
+    },
+    "right_cortisol": {   # BW drive / day confinement
+        ("photon","proton"):   {"on":+0.20, "off":-0.10, "no_control":0},
+        ("neutrino","photon"): {"on":+0.05, "off":-0.05, "no_control":0},
+    },
+    "right_alpha_2": {   # Z boson channel: 03:00-04:30 / alpha-2 OFF = disinhibition = Z opens
+        ("neutrino","proton"):   {"on":-0.05, "off":+0.20, "no_control":0},
+        ("neutrino","electron"): {"on":-0.05, "off":+0.20, "no_control":0},
+    },
+}
+
+
+def apply_channels(channels: dict[str, str]) -> dict[tuple, float]:
+    w = {e: float(v) for e, v in BASE_W.items()}
+    for ch, state in channels.items():
+        if ch not in CHANNEL_MAP:
+            continue
+        for edge, deltas in CHANNEL_MAP[ch].items():
+            delta = float(deltas.get(state, 0.0))
+            w[edge] = max(0.0, w[edge] + delta)
+    return w
+
+
+def laplacian(w: dict[tuple, float]) -> np.ndarray:
+    L = np.zeros((6, 6), dtype=float)
+    for (a, b), wv in w.items():
+        ia, ib = IDX[a], IDX[b]
+        L[ia, ia] += wv
+        L[ib, ib] += wv
+        L[ia, ib] -= wv
+        L[ib, ia] -= wv
+    return L
+
+
+def project4(x6: np.ndarray) -> np.ndarray:
+    """6-subject → 4-coordinate. Quark/gluon load onto SM/BW via 0.2828."""
+    q, g, nu, ph, pr, el = x6
+    BM = ph + C * g
+    BW = pr + C * g
+    SM = nu + C * q
+    SW = el + C * q
+    return np.array([BM, BW, SM, SW], dtype=float)
+
+
+def day_target() -> np.ndarray:
+    deg = np.array([6.0, 8.0, 8.0, 10.0])
+    return OMEGA * deg / np.linalg.norm(deg)
+
+
+def night_target() -> np.ndarray:
+    t = day_target().copy()
+    t[1] -= C   # BW down
+    t[2] += C   # SM up
+    return t
+
+
+def init_state6_from_target4(t4: np.ndarray) -> np.ndarray:
+    """Invert projection4 → approximate 6-subject state."""
+    BM, BW, SM, SW = t4
+    # gluon/quark start at small neutral value
+    g = 0.1
+    q = 0.1
+    ph = BM - C * g
+    pr = BW - C * g
+    nu = SM - C * q
+    el = SW - C * q
+    return np.array([q, g, nu, ph, pr, el], dtype=float)
+
+
+def run_phase(name: str, channels: dict[str, str], steps: int = 64, dt: float = 0.02) -> dict:
+    is_night = (name == "hysteresis")
+    t4 = night_target() if is_night else day_target()
+    x = init_state6_from_target4(t4)
+
+    w = apply_channels(channels)
+    L = laplacian(w)
+
+    # Hooke-like attractor in 6D mapped from 4D target
+    x_target = init_state6_from_target4(t4)
+    stiffness = 0.15
+
+    for _ in range(steps):
+        dx = -L @ x + stiffness * (x_target - x)
+        x = x + dt * dx
+        x = np.clip(x, 0.0, None)
+
+    x4 = project4(x)
+
+    # Spark = photon ignition energy (BM activation: dopamine + androgen + extraversion)
+    # NOT quark-gluon release — that's confinement. Spark is EM ignition.
+    spark = w[("photon","proton")] + w[("photon","electron")]
+    current_qg = w[("quark","gluon")]
+
+    # Z boson proxy = neutrino-proton + neutrino-electron edge weights
+    z_proxy = w[("neutrino","proton")] + w[("neutrino","electron")]
+
+    # Fusion rate: BW² × spark × Z_proxy × SM
+    BM, BW, SM, SW = x4
+    fusion = float((BW**2) * spark * z_proxy * SM)
+
+    return {
+        "phase": name,
+        "BM": float(BM), "BW": float(BW), "SM": float(SM), "SW": float(SW),
+        "omega4": float(np.linalg.norm(x4)),
+        "spark": spark,
+        "z_proxy": z_proxy,
+        "qg_tension": current_qg,
+        "fusion_rate": fusion,
+        "is_night": is_night,
+    }
+
+
+# ── 3-phase table ──────────────────────────────────────────────────────────
+PHASE_TABLE = {
+    "phase1": {
+        "gdh_gluon":"on", "female_gaba_b_latdorsi":"off",
+        "left_acetyl_coa":"on", "male_left_5ht":"off",
+        "female_left_noradrenaline":"on", "left_temporalis_5ht1a":"off",
+        "left_estrogen":"off", "right_love":"off", "hypoxia":"off",
+        "right_dopamine":"off", "vasopressin_female":"on",
+        "male_oxytocin":"off", "muscle_a":"on", "muscle_b":"on",
+        "right_5ht1b_synchrotron":"no_control", "right_androgen":"no_control",
+        "left_endorphin":"no_control", "left_frontalis_d2":"on",
+        "right_occipitalis_gaba_a":"on", "right_acetylcholine":"off",
+        "left_extraversion":"on", "glucocorticoid":"off", "right_cortisol":"on",
+        "right_alpha_2":"no_control",
+    },
+    "phase2": {
+        "gdh_gluon":"no_control", "female_gaba_b_latdorsi":"off",
+        "left_acetyl_coa":"no_control", "male_left_5ht":"no_control",
+        "female_left_noradrenaline":"off", "left_temporalis_5ht1a":"off",
+        "left_estrogen":"no_control", "right_love":"no_control", "hypoxia":"off",
+        "right_dopamine":"on", "vasopressin_female":"on",
+        "male_oxytocin":"no_control", "muscle_a":"no_control", "muscle_b":"no_control",
+        "right_5ht1b_synchrotron":"no_control", "right_androgen":"on",
+        "left_endorphin":"off", "left_frontalis_d2":"on",
+        "right_occipitalis_gaba_a":"on", "right_acetylcholine":"no_control",
+        "left_extraversion":"on", "glucocorticoid":"off", "right_cortisol":"no_control",
+        "right_alpha_2":"no_control",
+    },
+    "hysteresis": {
+        "gdh_gluon":"off", "female_gaba_b_latdorsi":"on",
+        "left_acetyl_coa":"off", "male_left_5ht":"on",
+        "female_left_noradrenaline":"no_control", "left_temporalis_5ht1a":"no_control",
+        "left_estrogen":"on", "right_love":"on", "hypoxia":"no_control",
+        "right_dopamine":"off", "vasopressin_female":"on",
+        "male_oxytocin":"no_control", "muscle_a":"on", "muscle_b":"no_control",
+        "right_5ht1b_synchrotron":"no_control", "right_androgen":"on",
+        "left_endorphin":"off", "left_frontalis_d2":"on",
+        "right_occipitalis_gaba_a":"on", "right_acetylcholine":"no_control",
+        "left_extraversion":"off", "glucocorticoid":"off", "right_cortisol":"off",
+        "right_alpha_2":"off",   # Z boson opens via disinhibition: alpha-2 OFF = Z neutral current
+    },
+}
+
+
+def closure_score(results: list[dict]) -> tuple[float, dict]:
+    r = {d["phase"]: d for d in results}
+    p1, p2, hy = r["phase1"], r["phase2"], r["hysteresis"]
+    checks = {
+        # Phase 1 should be RELATIVELY more BW than Phase 2 (pulsation, not absolute)
+        "BW_ratio_P1_gt_P2": (p1["BW"]/max(p1["SM"],1e-9)) > (p2["BW"]/max(p2["SM"],1e-9)),
+        "spark_rises_P2":  p2["spark"] > p1["spark"],
+        "SM_dominant_HY":  hy["SM"] > hy["BW"],
+        "Z_opens_HY":      hy["z_proxy"] > p1["z_proxy"],
+        "fusion_peaks_P2": p2["fusion_rate"] >= p1["fusion_rate"],
+    }
+    return sum(checks.values()) / len(checks), checks
+
+
+def main():
+    results = [run_phase(n, PHASE_TABLE[n]) for n in ("phase1", "phase2", "hysteresis")]
+    score, checks = closure_score(results)
+
+    dt = day_target()
+    nt = night_target()
+
+    out = {
+        "closure_pct": round(score * 100, 1),
+        "checks": checks,
+        "day_target":   {"BM": dt[0], "BW": dt[1], "SM": dt[2], "SW": dt[3]},
+        "night_target": {"BM": nt[0], "BW": nt[1], "SM": nt[2], "SW": nt[3]},
+        "phases": results,
+        "equation": "fusion = BW^2 * spark * Z_proxy * SM",
+        "note": "clean build: no old code. 6 subjects / 15 edges / 0.2828 only.",
+    }
+
+    out_path = Path("analysis_results/fusion_clean.json")
+    out_path.parent.mkdir(exist_ok=True)
+    out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2))
+
+    print("\n=== FUSION CLEAN BUILD ===")
+    print(f"CLOSURE: {score*100:.0f}%\n")
+    for k, v in checks.items():
+        print(f"  {'OK' if v else 'X '}  {k}")
+    print()
+    print(f"  day   target: BW={dt[1]:.3f}  SM={dt[2]:.3f}")
+    print(f"  night target: BW={nt[1]:.3f}  SM={nt[2]:.3f}  (shift={C})\n")
+    for r in results:
+        print(f"[{r['phase']:10s}]  BW={r['BW']:.3f}  SM={r['SM']:.3f}  "
+              f"spark={r['spark']:.4f}  Z={r['z_proxy']:.4f}  fusion={r['fusion_rate']:.5f}")
+    print(f"\n-> {out_path}")
+
+
+if __name__ == "__main__":
+    main()

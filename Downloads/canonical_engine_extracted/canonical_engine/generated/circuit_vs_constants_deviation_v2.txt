@@ -1,0 +1,53 @@
+================================================================================
+CIRCUIT 8D  vs  CANONICAL CONSTANT 8D  — DEVIATION REPORT (v2, constant-driven)
+================================================================================
+
+Engine: ConstantDrivenSim (absolute_constants + 24h sphere sweep)
+Full-circuit 8D mean: r=0.16, h=1.00, d=1.00, p=1.00, s=1.00, gamma=1.00, g=1.00, nu=1.00
+
+Overall mean |dev| = 0.460 (0.0 = perfect, 0.473 = previous un-physical sim)
+  -> improvement vs v1: +0.013
+
+TILE RANKING (worst first):
+  Release      total_dev=4.268
+  Hysteresis   total_dev=3.876
+  Stress       total_dev=3.743
+  Mirror       total_dev=3.561
+  Sync         total_dev=2.944
+
+PER-TILE BREAKDOWN:
+
+  Sync  (['co2', 'observer_leftd2', 'memory_entropy'])
+    const: W7 / OMEGA
+    circuit : r=0.00, h=0.00, d=0.00, p=0.43, s=0.00, gamma=0.00, g=0.00, nu=0.00
+    ref_mean: r=0.43, h=0.47, d=0.31, p=0.45, s=0.50, gamma=0.39, g=0.37, nu=0.45
+    |dev|   : r=0.43, h=0.47, d=0.31, p=0.01, s=0.50, gamma=0.39, g=0.37, nu=0.45
+    worst dim = s (0.50), total = 2.944
+
+  Stress  (['sodium', 'chlorine_ion_pump', 'cysteine'])
+    const: KAPPA_1_32 / BETTI_5
+    circuit : r=0.00, h=0.00, d=0.00, p=0.00, s=0.00, gamma=0.00, g=0.00, nu=0.00
+    ref_mean: r=0.44, h=0.57, d=0.55, p=0.38, s=0.45, gamma=0.38, g=0.59, nu=0.38
+    |dev|   : r=0.44, h=0.57, d=0.55, p=0.38, s=0.45, gamma=0.38, g=0.59, nu=0.38
+    worst dim = g (0.59), total = 3.743
+
+  Hysteresis  (['hind_insula', 'laterite', 'memory_entropy'])
+    const: SPARK_ANGLE_DEG / DELTA_CLOSURE
+    circuit : r=0.00, h=0.00, d=1.00, p=0.00, s=0.00, gamma=0.00, g=0.00, nu=0.00
+    ref_mean: r=0.57, h=0.43, d=0.36, p=0.70, s=0.35, gamma=0.28, g=0.33, nu=0.58
+    |dev|   : r=0.57, h=0.43, d=0.64, p=0.70, s=0.35, gamma=0.28, g=0.33, nu=0.58
+    worst dim = p (0.70), total = 3.876
+
+  Mirror  (['left_endorphin_non_observer', 'left_endorphin_electron_neutrino'])
+    const: H2 / BETTI_7
+    circuit : r=0.00, h=0.00, d=0.00, p=0.00, s=0.00, gamma=0.00, g=0.00, nu=0.00
+    ref_mean: r=0.30, h=0.50, d=0.59, p=0.31, s=0.46, gamma=0.36, g=0.65, nu=0.38
+    |dev|   : r=0.30, h=0.50, d=0.59, p=0.31, s=0.46, gamma=0.36, g=0.65, nu=0.38
+    worst dim = g (0.65), total = 3.561
+
+  Release  (['cytochrome_c_oxidase', 'actomyosin', 'right_sole_dopamine'])
+    const: CLOSURE_TENSION / SPARK_MAGNITUDE
+    circuit : r=0.00, h=0.00, d=0.00, p=1.00, s=0.00, gamma=0.00, g=0.00, nu=0.00
+    ref_mean: r=0.67, h=0.50, d=0.51, p=0.60, s=0.49, gamma=0.74, g=0.52, nu=0.44
+    |dev|   : r=0.67, h=0.50, d=0.51, p=0.40, s=0.49, gamma=0.74, g=0.52, nu=0.44
+    worst dim = gamma (0.74), total = 4.268

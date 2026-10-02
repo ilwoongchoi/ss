@@ -1,0 +1,88 @@
+﻿======================================================================
+TRUE ISOMORPHISM v2 (real physics, no clamp, no circular)
+======================================================================
+
+======================================================================
+6 ATTRACTOR × 6 PLANETARY BODIES (1:1, real physics)
+======================================================================
+
+  Sun (G2V):
+    → energy (proton dominant)
+    → gan_bulkhead (gluon dominant)
+    semi_major_au = 0
+    atmosphere    = H/He plasma
+    core_metallic = True
+
+  Mercury (planet):
+    → opioid (muon dominant)
+    → repair (tau dominant)
+    semi_major_au = 0.387
+    atmosphere    = trace
+    core_metallic = True
+
+  Earth (planet):
+    → information (neutrino dominant)
+    → cox_retrograde (electron dominant)
+    semi_major_au = 1.0
+    atmosphere    = N2/O2
+    core_metallic = True
+
+  Mars (planet):
+    → repair (tau dominant)
+    → opioid (muon dominant)
+    semi_major_au = 1.524
+    atmosphere    = CO2 thin
+    core_metallic = True
+
+  Jupiter (planet):
+    → gan_bulkhead (gluon dominant)
+    → energy (proton dominant)
+    semi_major_au = 5.203
+    atmosphere    = H2/He
+    core_metallic = True
+
+  Saturn (planet):
+    → gan_bulkhead (gluon dominant)
+    → cox_retrograde (electron dominant)
+    semi_major_au = 9.537
+    atmosphere    = H2/He
+    core_metallic = True
+
+======================================================================
+CRITICAL ISOMORPHISM TESTS (real bio vs real physics, NO clamp)
+======================================================================
+
+[1] observer_leftd2 (D2 Hill eq) ↔ Sgr A* (Bondi × Eddington, dimensionless)
+  step(0.7)           : residual = 0.026256  →  WEAK
+  pulse(0.9,1.5)      : residual = 0.035335  →  WEAK
+  const(0.5)          : residual = 0.015080  →  WEAK
+
+[2] quark_orogen_magma (dehydration kinetics) ↔ NS TOV (polytropic Γ)
+  step(0.6)           : residual = 0.049276  →  WEAK
+  pulse(0.8,1.5)      : residual = 0.058815  →  WEAK
+  const(0.5)          : residual = 0.042786  →  WEAK
+
+[3] observer_leftd2 (D2) ↔ MS Star (Mestel/Salpeter)
+  step(0.7)           : residual = 0.191867  →  HEURISTIC
+  pulse(0.9,1.5)      : residual = 0.276578  →  HEURISTIC
+  const(0.5)          : residual = 0.086743  →  WEAK
+
+[4] memory_entropy (CA1 3-input AND) ↔ CMB acoustic (Ma-Bertschinger)
+  step(0.6)           : residual = 0.022474  →  WEAK
+  pulse(0.7,1.0)      : residual = 0.051828  →  WEAK
+  const(0.5)          : residual = 0.007670  →  STRONG
+
+[SELF-TESTS]
+  observer_leftd2 vs itself: 0.00e+00 (expect 0)
+  Sgr A* vs itself:          0.00e+00 (expect 0)
+
+======================================================================
+VERDICT (no clamp, no circular):
+  EXACT=0, STRONG=1, WEAK=4 of 4 critical pairs
+    obs_leftd2_SgrA: WEAK (best = 0.015080)
+    qom_TOV: WEAK (best = 0.042786)
+    obs_leftd2_MS: WEAK (best = 0.086743)
+    mem_CMB: STRONG (best = 0.007670)
+======================================================================
+
+Wrote C:\Users\Administrator\.minimax-agent\projects\true_isomorphism_v2.json

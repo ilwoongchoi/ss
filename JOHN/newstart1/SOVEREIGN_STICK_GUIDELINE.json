@@ -1,0 +1,33 @@
+{
+  "objective": "Bounded oscillation + fast recovery under emotional shocks",
+  "target_zones": {
+    "normal_if_error_leq": 0.2,
+    "warning_if_error_leq": 0.35,
+    "danger_if_error_gt": 0.5
+  },
+  "control_policy": {
+    "normal": {
+      "alpha2": "follow schedule",
+      "vasopressin": "baseline",
+      "gaba_b": "baseline",
+      "action": "no intervention"
+    },
+    "warning": {
+      "alpha2": "decrease by ~0.15",
+      "vasopressin": "increase by ~0.15",
+      "gaba_b": "increase by ~0.10",
+      "action": "stabilize and monitor for 2-4 windows"
+    },
+    "danger": {
+      "alpha2": "force near OFF (0.0-0.2)",
+      "vasopressin": "set high (0.8-1.0)",
+      "gaba_b": "set high (0.8-1.0)",
+      "action": "emergency damping until back to warning band"
+    }
+  },
+  "acceptance": {
+    "periodic_lock_max": 1e-06,
+    "tail_risk_ratio_max": 0.1,
+    "avg_recovery_windows_max": 6.0
+  }
+}

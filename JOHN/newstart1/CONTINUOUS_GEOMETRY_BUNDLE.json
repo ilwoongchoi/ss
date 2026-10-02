@@ -1,0 +1,242 @@
+{
+  "control_plane": {
+    "gate": "w_gate(r,q0)",
+    "sh_band": {
+      "r_min": "SH_R_BAND_MIN",
+      "r_max": "SH_R_BAND_MAX",
+      "q0_min": "SH_Q0_MIN",
+      "q0_max": "SH_Q0_MAX"
+    },
+    "funnel": {
+      "x_min": 6.0,
+      "x_max": 10.0,
+      "y_min": 10.0,
+      "y_wrap": 32.0
+    }
+  },
+  "state_space": {
+    "coordinates": ["x", "y", "memory_y", "leg", "renorm"],
+    "flow": {
+      "dx_dt": "universal_field_vec(x,y; MALE_HORIZONTAL_AMP, REALITY_TENSION, TORSION_4D, GABA_C_V_APEX) * renorm",
+      "dy_dt": 0.3,
+      "drenorm_dt": "renorm_step_continuous(renorm,w_gate,kappa,lag,threshold_on,dt; COMPRESSION_GAP=3/32, kappa_baseline=1/32)"
+    },
+    "spark_jump": {
+      "angle_deg": 138.88,
+      "leap": 2.5,
+      "lattice": "3/32",
+      "quantize": true,
+      "reset_renorm": "3-term (R_after = R_before - L_comp + E_pole + G_recover)"
+    }
+  },
+  "locked_constants": {
+    "ref_cell": {
+      "value": {
+        "r_ref": 0.1117,
+        "q0_ref": 0.975,
+        "p_ref": 0.287347,
+        "p_max": 0.7641227
+      },
+      "source": "analysis_results/iter3_tda_v2/dist_all.csv",
+      "tolerance": {
+        "r_ref": 1e-6,
+        "q0_ref": 1e-6,
+        "p_ref": 1e-6,
+        "p_max": 1e-6
+      },
+      "derivation": "wasserstein_H1 minimum and max_persistence max"
+    },
+    "kappa_tda": {
+      "value": {
+        "min": 0.015625,
+        "mid": 0.03125,
+        "max": 0.0625
+      },
+      "source": "geometry_package/absolute_constants.py",
+      "tolerance": {
+        "min": 1e-12,
+        "mid": 1e-12,
+        "max": 1e-12
+      },
+      "derivation": "piecewise map anchors (1/64, 1/32, 1/16)"
+    },
+    "sh_band": {
+      "value": {
+        "r_min": 0.1116,
+        "r_max": 0.1126,
+        "q0_min": 0.960939,
+        "q0_max": 0.983
+      },
+      "source": "analysis_results/iter3_tda_v2/dist_all.csv",
+      "tolerance": {
+        "r_min": 5e-4,
+        "r_max": 5e-4,
+        "q0_min": 5e-4,
+        "q0_max": 5e-4
+      },
+      "derivation": "kappa_tda ~ 1/32 region"
+    },
+    "ridge_center": {
+      "value": {
+        "r_star": 0.11176217660269873,
+        "q0_star": 0.9756399979119454,
+        "sigma_L": 0.003385641891892055,
+        "sigma_R": 0.0035206081081079477
+      },
+      "source": "out/refine_lam10_det_ridge.csv",
+      "tolerance": {
+        "r_star": 5e-4,
+        "q0_star": 5e-4,
+        "sigma_L": 1e-3,
+        "sigma_R": 1e-3
+      },
+      "derivation": "rate_post-weighted center; sigma from half-max band"
+    },
+    "spark": {
+      "value": {
+        "angle_deg": 138.88,
+        "leap": 2.5,
+        "compression_gap": 0.09375
+      },
+      "source": "geometry_package/absolute_constants.py",
+      "tolerance": {
+        "angle_deg": 1e-6,
+        "leap": 1e-6,
+        "compression_gap": 1e-6
+      }
+    },
+    "twist": {
+      "value": {
+        "lunar_cycle": 0.03571428571428571,
+        "vertical_mobius_twist": 0.03571428571428571
+      },
+      "source": "geometry_package/absolute_constants.py",
+      "tolerance": {
+        "lunar_cycle": 1e-9,
+        "vertical_mobius_twist": 1e-9
+      }
+    },
+    "w7_area": {
+      "value": 0.15707963267948966,
+      "source": "geometry_package/absolute_constants.py",
+      "tolerance": 1e-12,
+      "derivation": "PI/20"
+    },
+    "h2_w7": {
+      "value": 0.1111111111111111,
+      "source": "geometry_package/absolute_constants.py",
+      "tolerance": 1e-12,
+      "derivation": "1/9"
+    },
+    "night_hysteresis": {
+      "value": 0.8418,
+      "source": "geometry_package/absolute_constants.py",
+      "tolerance": 1e-4
+    },
+    "night_hysteresis_area": {
+      "value": 1.0006547018771264,
+      "source": "out/strd_nmdb_hysteresis_metrics.json",
+      "tolerance": 1e-3,
+      "derivation": "W7_AREA / loop_area_flux_nmdb_norm"
+    }
+  },
+  "hysteresis": {
+    "memory_update": "memory_y <- (1-alpha)*memory_y + alpha*y",
+    "lag": "lag = memory_y - y",
+    "switch_on": "lag < threshold_on",
+    "switch_off": "lag > threshold_on*THRESHOLD_OFF_FACTOR",
+    "wrap_flip": true
+  },
+  "ridge": {
+    "calibrated": {
+      "r_star": 0.11214750,
+      "q0_star": 0.977738,
+      "sigma_L": 0.003717,
+      "sigma_R": 0.000908
+    },
+    "extraction": "DP seam on rate_post grid masked by eligible >= min_eligible",
+    "stability": {
+      "lambda": [5, 10, 20],
+      "seeds": 10,
+      "null_collapse": true
+    }
+  },
+  "beam": {
+    "alignment": "~0.999975 mean unit jump vector at ridge center",
+    "source": "run_trace_analysis.py"
+  },
+  "invariants": {
+    "posterior_rate": "(sparks+1)/(eligible+2)",
+    "ridge_stability": true,
+    "deterministic_equals_stochastic": true
+  },
+  "locked": [
+    "w_gate control sheet",
+    "closure ridge center/widths",
+    "ridge stability across lambda",
+    "null collapse under ones/shuffle",
+    "beam alignment high"
+  ],
+  "unresolved": [
+    "full leg x lag_sign phase atlas",
+    "PCA mode physical meaning",
+    "extended continuous invariants",
+    "state-space helix extraction"
+  ],
+  "source_files": [
+    "geometry_package/absolute_constants.py",
+    "geometry_package/universal_equation.py",
+    "run_detune_sweep_closure_v4_production.py",
+    "analyze_turn_pca_modes.py",
+    "analyze_turn_ridge_shape.py",
+    "run_trace_analysis.py",
+    "out/refine_lam10_det_ridge.csv",
+    "out/grid_tensor_lam10_det.npz",
+    "out/detune_closure_sweep_v4_production/constants_bundle.json"
+  ]
+  ,
+  "canonical_h2_production_freeze": {
+    "closure_separation_kept": true,
+    "delta_theta_near_zero": true,
+    "delta_renorm_near_zero_after_3term": true,
+    "rate_residual_is_artifact": true,
+    "verified_metrics": {
+      "closure": "center_in flash_rate > 0; out-band flash_rate == 0 in 4-point closure",
+      "delta_theta_mean_deg": 0.059,
+      "delta_renorm_mean": 0.002,
+      "rate_residual_abs_max_raw": 0.229,
+      "rate_residual_artifact_reason": "eligible/time-scaling + rate_post pseudo-count; must apply eligible-filter + pseudo-count-corrected metric before interpreting as geometry residual"
+    },
+    "renorm_terms": {
+      "law": "R_after = R_before - L_comp + E_pole + G_recover",
+      "L_comp": "3/32 compression loss (proportional to |x_before - x_compressed|, capped at 3/32)",
+      "E_pole": "North Pole emission seed (w_gate-driven; angle term treated as ~1 when delta_theta near zero)",
+      "G_recover": "continuous refill / bridge recovery (w_gate,kappa,lag dependent; dt-scaled between flashes)"
+    },
+    "excluded_from_current_freeze": {
+      "hypotheses": ["Higher order voids beyond H4"],
+      "rule": "Do not treat raw delta_rate_abs_max as evidence for new geometry unless eligible-filtered, pseudo-count-corrected residual remains structured across ridge/turn/leg/lag_sign."
+    }
+  },
+  "hypothesis_layers": {
+    "H2_accretion": {
+      "kappa": "1/32",
+      "nature": "Liquid / Continuous Flow",
+      "dominance": "Global Baseline"
+    },
+    "H3_cartilage": {
+      "kappa": "1/64",
+      "nature": "Fake 3D / Semi-Solid (Right Cortisol)",
+      "emergence_turn": 27,
+      "anatomical_anchor": "Right Procerus (Bottom Half) / Right Eye Socket",
+      "function": "Extraversion Bridge / Sunset Tie Weakening"
+    },
+    "H4_bone": {
+      "kappa": "1/128",
+      "nature": "True Solid / Calcification (Big Man Base)",
+      "turn_range": "0-25",
+      "function": "Introversion Support / Osteoporosis Base"
+    }
+  },
+  "hypothesis_layers_note": "Narrative/provisional layers not covered by geometry lock tests."
+}

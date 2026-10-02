@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { margin: 0; background: #000; overflow: hidden; }
+        canvas { width: 100vw; height: 100vh; display: block; }
+    </style>
+</head>
+<body>
+    <div id="fps" style="position: absolute; top: 10px; left: 10px; color: #0f0; font-family: monospace; background: rgba(0,0,0,0.8); padding: 5px 10px; border: 1px solid #0f0; z-index: 1000; pointer-events: none;">FPS: --</div>
+    <canvas id="c"></canvas>
+    <script id="vs" type="x-shader/x-vertex">#version 300 es
+        layout(location = 0) in vec2 a_gridPos; // Normalized [0,1]
+        
+        uniform float time;
+        uniform vec2 res;
+        
+        out float v_height;
+        out vec2 v_grid;
+        out vec3 v_pos;
+
+        // --- PURE FRAMEWORK PHYSICS ---
+        #define PI 3.14159265359
+        #define TENSION 1.0100375
+        #define METRIC_4D 1.0661
+        #define TORSION_4D 0.1746
+
+        float hash(vec2 p) {
+            return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453123);
+        }
+
+        float noise(vec2 p) {
+            vec2 i = floor(p); vec2 f = fract(p);
+            vec2 u = f*f*(3.0-2.0*f);
+            return mix(mix(hash(i), hash(i+vec2(1,0)), u.x), mix(hash(i+vec2(0,1)), hash(i+vec2(1,1)), u.x), u.y);
+        }
+
+        void main() {
+            vec2 p = a_gridPos * 16.0; // Map to 16x16 Grid
+            v_grid = p;
+
+            // 1. Base Elevation (Low Octave for Performance)
+            float h = noise(p * 0.5 + time * 0.1) * 2.0;
+            
+            // 2. Separatrix Ridges (X=5, X=11)
+            h += (1.0 / (abs(p.x - 5.0) + 0.6) + 1.0 / (abs(p.x - 11.0) + 0.6)) * 3.0 * TENSION;
+            
+            // 3. PLP Spine Valley
+            float spine = abs((p.x + p.y) - 16.0);
+            h -= (1.0 / (spine + 0.8)) * 4.0 * METRIC_4D;
+
+            v_height = h;
+            
+            // 3D Projection Logic
+            float angle = time * 0.1;
+            vec3 worldPos = vec3(p.x - 8.0, h, p.y - 8.0);
+            v_pos = worldPos;
+
+            // Camera Matrix (Simplified Hardware Connection)
+            float aspect = res.x / res.y;
+            mat4 proj = mat4(1.0/aspect,0,0,0, 0,1,0,0, 0,0,1,1, 0,0,-10,0);
+            mat4 view = mat4(cos(angle),0,sin(angle),0, 0,1,0,0, -sin(angle),0,cos(angle),0, 0,-5,-15,1);
+            
+            gl_Position = proj * view * vec4(worldPos, 1.0);
+            gl_PointSize = 2.0;
+        }
+    </script>
+    <script id="fs" type="x-shader/x-fragment">#version 300 es
+        precision highp float;
+        in float v_height;
+        in vec2 v_grid;
+        in vec3 v_pos;
+        uniform float time;
+        out vec4 outColor;
+
+        void main() {
+            // Color based on Physics Height and Metabolic Grid
+            vec3 col = 0.5 + 0.5 * cos(v_height * 0.5 + vec3(0, 2, 4) + time);
+            
+            // Separatrix Glow
+            float s_glow = smoothstep(0.7, 1.0, 1.0 / (abs(v_grid.x - 5.0) + 0.6)) +
+                           smoothstep(0.7, 1.0, 1.0 / (abs(v_grid.x - 11.0) + 0.6));
+            col += vec3(0.0, 1.0, 0.0) * s_glow;
+
+            // Spine Glow
+            float spine_glow = smoothstep(0.8, 1.0, 1.0 / (abs((v_grid.x + v_grid.y) - 16.0) + 0.8));
+            col += vec3(1.0, 0.5, 0.0) * spine_glow * 1.5;
+
+            // Simple Distance Fog for VRAM relief
+            float fog = exp(-0.02 * length(v_pos));
+            outColor = vec4(col * fog, 1.0);
+        }
+    </script>
+    <script>
+        const gl = c.getContext('webgl2');
+        const program = gl.createProgram();
+        [vs, fs].forEach(s => {
+            const sh = gl.createShader(s.type === 'x-shader/x-vertex' ? gl.VERTEX_SHADER : gl.FRAGMENT_SHADER);
+            gl.shaderSource(sh, s.text);
+            gl.compileShader(sh);
+            gl.attachShader(program, sh);
+        });
+        gl.linkProgram(program);
+        gl.useProgram(program);
+
+        // CREATE GRID MESH (128x128 = 16,384 vertices)
+        const size = 128;
+        const verts = [];
+        for(let y=0; y<=size; y++) {
+            for(let x=0; x<=size; x++) {
+                verts.push(x/size, y/size);
+            }
+        }
+        const indices = [];
+        for(let y=0; y<size; y++) {
+            for(let x=0; x<size; x++) {
+                let r = y * (size + 1) + x;
+                indices.push(r, r+1, r+size+1, r+size+1, r+1, r+size+2);
+            }
+        }
+
+        const vao = gl.createVertexArray();
+        gl.bindVertexArray(vao);
+        gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer());
+        gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(verts), gl.STATIC_DRAW);
+        gl.enableVertexAttribArray(0);
+        gl.vertexAttribPointer(0, 2, gl.FLOAT, false, 0, 0);
+        
+        gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, gl.createBuffer());
+        gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint32Array(indices), gl.STATIC_DRAW);
+
+        const tLoc = gl.getUniformLocation(program, 'time');
+        const rLoc = gl.getUniformLocation(program, 'res');
+        
+        let frames = 0, lastFpsUpdate = 0;
+        function draw(t) {
+            frames++;
+            if (t - lastFpsUpdate >= 1000) {
+                fps.innerText = `FPS: ${Math.round(frames * 1000 / (t - lastFpsUpdate))}`;
+                frames = 0, lastFpsUpdate = t;
+            }
+            gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+            gl.enable(gl.DEPTH_TEST);
+            gl.uniform1f(tLoc, t * 0.001);
+            gl.uniform2f(rLoc, c.width = innerWidth, c.height = innerHeight);
+            gl.viewport(0, 0, c.width, c.height);
+            gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_INT, 0);
+            requestAnimationFrame(draw);
+        }
+        draw(0);
+    </script>
+</body>
+</html>

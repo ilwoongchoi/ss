@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;overflow:hidden;font-family:'Courier New',monospace}
+canvas#c{display:block;width:100vw;height:100vh}
+#ui{position:absolute;top:16px;left:16px;background:rgba(0,0,0,.88);border:1px solid #0f0;padding:14px;pointer-events:none;font-size:11px;min-width:200px}
+#ui h1{font-size:12px;color:#0ff;letter-spacing:2px;margin-bottom:10px}
+.row{display:flex;justify-content:space-between;margin:3px 0}
+.l{color:#666}.v{color:#fff;font-weight:700}.g{color:#0f0}.y{color:#ff0}.o{color:#f80}
+#rp{position:absolute;top:16px;right:16px;background:rgba(0,0,0,.88);border:1px solid #0ff;padding:14px;pointer-events:none;font-size:11px}
+#rp h2{font-size:11px;color:#0ff;margin-bottom:8px;letter-spacing:1px}
+.pc{color:#888;margin:2px 0}.pc b{color:#ff0}
+#fg{position:absolute;bottom:16px;left:16px;border:1px solid #333}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="ui">
+  <h1>K6 FUSION</h1>
+  <div class="row"><span class="l">FPS</span><span id="fps" class="v g">60</span></div>
+  <div class="row"><span class="l">PHASE</span><span id="ph" class="v y">PHASE 1</span></div>
+  <div class="row"><span class="l">fusion</span><span id="fv" class="v g">15.148</span></div>
+  <div class="row"><span class="l">BW proton</span><span id="bw" class="v">2.615</span></div>
+  <div class="row"><span class="l">SM neutrino</span><span id="sm" class="v">3.554</span></div>
+  <div class="row"><span class="l">spark</span><span id="sp" class="v y">0.7625</span></div>
+  <div class="row"><span class="l">Z_proxy</span><span id="zp" class="v o">0.8175</span></div>
+</div>
+<div id="rp">
+  <h2>K6 CONSTANTS</h2>
+  <div class="pc">C = √2/5 = <b>0.2828</b></div>
+  <div class="pc">C² Yukawa = <b>0.0800</b></div>
+  <div class="pc">138.88° spark = <b>2.4254 rad</b></div>
+  <div class="pc">OMEGA = <b>7.4</b></div>
+  <div style="border-top:1px solid #333;margin:6px 0"></div>
+  <div class="pc">fusion = BW²·spark·Z·SM</div>
+  <div class="pc">p1 fus=<b>15.148</b> p2=<b>15.174</b></div>
+  <div class="pc">hysteresis fus=<b>19.121</b></div>
+</div>
+<canvas id="fg" width="200" height="50"></canvas>
+
+<script id="vs" type="x-shader/x-vertex">#version 300 es
+in vec2 p;
+void main(){gl_Position=vec4(p,0,1);}
+</script>
+
+<script id="fs" type="x-shader/x-fragment">#version 300 es
+precision highp float;
+uniform float T;
+uniform vec2  R;
+uniform float t;
+out vec4 O;
+
+const float C    = 0.28284271247;
+const float C2   = 0.08;
+const float PI   = 3.14159265359;
+const float SANG = 2.42542474216;
+
+float sm(float x){x=clamp(x,0.,1.);return x*x*(3.-2.*x);}
+float l3(float a,float b,float c,float tt){
+    if(tt<1.) return mix(a,b,sm(tt));
+    if(tt<2.) return mix(b,c,sm(tt-1.));
+    return mix(c,a,sm(tt-2.));
+}
+
+float pBW(float tt){return l3(2.615,2.528,2.587,tt);}
+float pSM(float tt){return l3(3.554,3.677,3.641,tt);}
+float pSP(float tt){return l3(0.7625,1.0125,0.5825,tt);}
+float pZ (float tt){return l3(0.8175,0.6375,1.3475,tt);}
+
+// K6 fusion equation: BW² × spark × Z × SM
+float fus(float BW,float sp,float Z,float SM){return BW*BW*sp*Z*SM;}
+
+// K6 gradient (Laplacian flow)
+vec2 grd(float BW,float SM,float sp,float Z){
+    return normalize(vec2(2.*BW*sp*Z*SM, BW*BW*sp*Z));
+}
+
+float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+
+void main(){
+    vec2 uv=(gl_FragCoord.xy-R*.5)/min(R.x,R.y);
+
+    float BW=pBW(T), SM=pSM(T), sp=pSP(T), Z=pZ(T);
+    float fv=fus(BW,sp,Z,SM);
+    float fN=clamp((fv-14.)/6.,0.,1.);
+
+    // Phase color
+    vec3 cP1=vec3(.04,.12,.55), cP2=vec3(.55,.28,.02), cHY=vec3(.22,.03,.48);
+    vec3 pc;
+    if(T<1.)      pc=mix(cP1,cP2,sm(T));
+    else if(T<2.) pc=mix(cP2,cHY,sm(T-1.));
+    else          pc=mix(cHY,cP1,sm(T-2.));
+
+    vec3 col=pc*.15;
+
+    // Fusion energy field across screen
+    // Screen maps to BW-SM phase space centred on current values
+    float BW_l=BW+uv.x*C*4.;
+    float SM_l=SM+uv.y*C*4.;
+    float fv_l=fus(BW_l,sp,Z,SM_l);
+    float fN_l=clamp((fv_l-12.)/10.,0.,1.);
+    col+=pc*fN_l*.6;
+
+    // Confinement wall (C boundary = Higgs symmetry)
+    float wBW=exp(-abs(uv.x*C*4.)/C*1.5);
+    float wSM=exp(-abs(uv.y*C*4.)/C*1.5);
+    col+=vec3(.7,.3,1.)*wBW*wSM*fN*.1;
+
+    // K6 gradient flow lines
+    vec2 g=grd(BW_l,SM_l,sp,Z);
+    float fl=sin(dot(uv,g)*18.+t*.6)*.5+.5;
+    col+=vec3(.1,.5,.15)*fl*wBW*wSM*.18;
+
+    // 128 particles (procedural, no buffer)
+    vec3 pCol=mix(vec3(.15,.4,1.),mix(vec3(1.,.65,.1),vec3(.5,.08,.9),sm(clamp(T-1.,0.,1.))),sm(clamp(T,0.,1.)));
+    for(int i=0;i<128;i++){
+        float ef=float(i)/128.;
+        float ang=ef*PI*2.+t*(.12+ef*.08);
+        float r=.22+.12*sin(ef*PI*5.+t*.25);
+        float px=r*cos(ang);
+        float py=r*sin(ang)*(.65+fN*.35);
+        // 138.88° spark at phase2
+        float spk=sm(clamp((T-.92)/.15,0.,1.))*sm(clamp((1.08-T)/.15,0.,1.));
+        px+=spk*.04*cos(SANG+ef*PI*2.);
+        py+=spk*.04*sin(SANG+ef*PI*2.);
+        vec2 d=uv-vec2(px,py);
+        float sz=.011+fN*.006;
+        col+=pCol*exp(-dot(d,d)/(sz*sz))*(.4+fN*.6);
+    }
+
+    // Fusion ring (BW² energy)
+    float rr=.14+fN*.05;
+    float rd=abs(length(uv)-rr)-.003;
+    col+=mix(vec3(.2,.5,1.),vec3(1.,.6,.1),sm(clamp(T,0.,1.)))*exp(-rd*rd*1800.)*(sp*1.2);
+
+    // Z boson ring (hysteresis)
+    float rz=abs(length(uv)-.21)-.003;
+    col+=vec3(.5,.08,.9)*exp(-rz*rz*2200.)*(Z*.7);
+
+    // Spark flash P1→P2
+    float fl2=sm(clamp((T-.95)/.08,0.,1.))*sm(clamp((1.05-T)/.08,0.,1.));
+    col+=vec3(1.,.8,.2)*fl2*exp(-length(uv)*length(uv)*8.)*3.;
+
+    // Hysteresis flash
+    float flH=sm(clamp((T-1.95)/.08,0.,1.))*sm(clamp((2.05-T)/.08,0.,1.));
+    col+=vec3(.6,.1,1.)*flH*exp(-length(uv)*length(uv)*8.)*3.;
+
+    // C tick marks on fusion ring (symmetry breaking visible)
+    float ang2=atan(uv.y,uv.x);
+    float tk=sm(1.-abs(fract(ang2/(C*PI)+.5)-.5)*12.);
+    col+=vec3(1.)*tk*exp(-abs(length(uv)-rr-.001)*600.)*.4;
+
+    // Vignette
+    col*=1.-smoothstep(.42,.82,length(uv));
+
+    // Gamma
+    col=pow(clamp(col,0.,1.),vec3(.72));
+    O=vec4(col,1.);
+}
+</script>
+
+<script>
+const cv=document.getElementById('c');
+const gl=cv.getContext('webgl2');
+function resize(){cv.width=innerWidth;cv.height=innerHeight;gl.viewport(0,0,cv.width,cv.height);}
+resize();
+window.addEventListener('resize',resize);
+
+function sh(type,src){
+    const s=gl.createShader(type);
+    gl.shaderSource(s,src);gl.compileShader(s);
+    const log=gl.getShaderInfoLog(s);
+    if(log&&log.trim())console.error('SHADER:',log);
+    return s;
+}
+const prog=gl.createProgram();
+gl.attachShader(prog,sh(gl.VERTEX_SHADER,document.getElementById('vs').text));
+gl.attachShader(prog,sh(gl.FRAGMENT_SHADER,document.getElementById('fs').text));
+gl.linkProgram(prog);
+const plog=gl.getProgramInfoLog(prog);
+if(plog&&plog.trim())console.error('PROG:',plog);
+gl.useProgram(prog);
+
+const buf=gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER,buf);
+gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);
+const pLoc=gl.getAttribLocation(prog,'p');
+gl.enableVertexAttribArray(pLoc);gl.vertexAttribPointer(pLoc,2,gl.FLOAT,false,0,0);
+
+const uT=gl.getUniformLocation(prog,'T');
+const uR=gl.getUniformLocation(prog,'R');
+const ut=gl.getUniformLocation(prog,'t');
+
+const smJ=x=>{x=Math.max(0,Math.min(1,x));return x*x*(3-2*x);}
+function l3(a,b,c,T){
+    if(T<1)return a+(b-a)*smJ(T);
+    if(T<2)return b+(c-b)*smJ(T-1);
+    return c+(a-c)*smJ(T-2);
+}
+const pNames=['PHASE 1 · BW CAPTURE','PHASE 2 · SPARK','HYSTERESIS · Z BOSON'];
+
+let frames=0,lastMs=0,lastFpsMs=0;
+const fpsH=new Array(60).fill(60);
+const fg=document.getElementById('fg'),fc=fg.getContext('2d');
+function drawFG(){
+    fc.fillStyle='rgba(0,0,0,.5)';fc.fillRect(0,0,200,50);
+    fc.strokeStyle='#0f0';fc.beginPath();
+    fpsH.forEach((v,i)=>{const x=i*(200/60),y=50-(v/120)*50;i?fc.lineTo(x,y):fc.moveTo(x,y);});
+    fc.stroke();
+    fc.strokeStyle='#333';fc.beginPath();fc.moveTo(0,25);fc.lineTo(200,25);fc.stroke();
+}
+
+function render(ms){
+    const rawT=ms*.001;
+    const phT=(rawT*.22)%3;
+
+    gl.uniform1f(uT,phT);
+    gl.uniform2f(uR,cv.width,cv.height);
+    gl.uniform1f(ut,rawT);
+    gl.drawArrays(gl.TRIANGLE_STRIP,0,4);
+
+    frames++;
+    if(ms-lastFpsMs>=1000){
+        const fps=Math.round(frames*1000/(ms-lastFpsMs));
+        fpsH.push(fps);fpsH.shift();drawFG();
+        document.getElementById('fps').textContent=fps;
+        document.getElementById('fps').className='v '+(fps>=55?'g':fps>=30?'y':'');
+        frames=0;lastFpsMs=ms;
+    }
+    const BW=l3(2.615,2.528,2.587,phT);
+    const SM=l3(3.554,3.677,3.641,phT);
+    const sp=l3(.7625,1.0125,.5825,phT);
+    const Z=l3(.8175,.6375,1.3475,phT);
+    const fv=BW*BW*sp*Z*SM;
+    document.getElementById('ph').textContent=pNames[Math.floor(phT)];
+    document.getElementById('fv').textContent=fv.toFixed(3);
+    document.getElementById('fv').className='v '+(fv>18?'o':fv>15.5?'y':'g');
+    document.getElementById('bw').textContent=BW.toFixed(3);
+    document.getElementById('sm').textContent=SM.toFixed(3);
+    document.getElementById('sp').textContent=sp.toFixed(4);
+    document.getElementById('zp').textContent=Z.toFixed(4);
+    requestAnimationFrame(render);
+}
+requestAnimationFrame(render);
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "source": "LHD_UNIFIED_BRIDGES_AGGREGATED.csv",
+  "filter": {
+    "nearest_dist_lt": 1.5,
+    "contact_ge": 0.85
+  },
+  "applied_bridge_weights": [
+    {
+      "bridge": "core_center__right_branch",
+      "count": 26,
+      "contact_mean": 0.9344261938286093,
+      "dist_mean": 3.1112628439713137
+    },
+    {
+      "bridge": "mediator:synthetic_alpha__core_center",
+      "count": 38,
+      "contact_mean": 0.4756536872985281,
+      "dist_mean": 1.204287685247287
+    },
+    {
+      "bridge": "mediator:synthetic_alpha__right_branch",
+      "count": 34,
+      "contact_mean": 0.006878878065321391,
+      "dist_mean": 0.6472530445616281
+    }
+  ],
+  "note": "Weights derived from BOLO+HALPHA (|bias|>=0.02, 1-1000 Hz, stride 64). No geometry coords changed; this is ready to inject as external bridge evidence."
+}

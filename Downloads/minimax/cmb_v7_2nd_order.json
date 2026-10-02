@@ -1,0 +1,15 @@
+{
+  "version": "v7_2nd_order",
+  "method": "2nd-order damped driven oscillator (3 peaks fixed at 220, 537, 810)",
+  "params": {
+    "A1": 100000000000.0,
+    "A2": 5000000000.0,
+    "A3": 500000000.0,
+    "gamma1": 50,
+    "gamma2": 100,
+    "gamma3": 85.0,
+    "silk_d": 1500
+  },
+  "chi2_n": 2582.943778179418,
+  "grade": "WEAK"
+}

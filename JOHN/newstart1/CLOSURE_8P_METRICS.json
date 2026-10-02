@@ -1,0 +1,10 @@
+{
+  "equation": "x_{k+1}=x_k+dt[-Lx_k+Uu_k+G H_k-v r_k], H_k=rho H_{k-1}+W_h x_{k-20}, r_k=||x_k||-7.4",
+  "lag_5_32_in_128": 20,
+  "periodic_error_l2": 1.3322676295501878e-15,
+  "tracking_error_l2_per_window": 3.8315011419927443e-16,
+  "max_abs_residual": 0.28166793252643085,
+  "residual_mean_abs": 0.13137238098167775,
+  "residual_target_1_64_plus_1_256": 0.01953125,
+  "residual_target_delta": 0.11184113098167775
+}

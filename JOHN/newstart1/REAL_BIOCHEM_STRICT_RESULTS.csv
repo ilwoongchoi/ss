@@ -1,0 +1,6 @@
+Z,part,feat,r,peak,name,lit_peak,dpeak
+60,gluon,cos,-0.8957582453089649,1.125,melatonin_pg_mL,3.0,-1.875
+50,z_boson,sin,-0.9518245285928715,5.625,cortisol_nmol_L,8.0625,-2.4375
+121,w_boson,mag,0.9094044757486064,20.4375,core_temp_C,18.0,2.4375
+41,higgs,cos,-0.8797709829120838,23.8125,growth_hormone_ng_mL,0.9375,-1.125
+50,z_boson,sin,-0.9518245285928717,5.625,testosterone_nmol_L,8.0625,-2.4375

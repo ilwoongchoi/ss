@@ -1,0 +1,322 @@
+{
+  "heme": {
+    "raw": "just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)",
+    "side": "left",
+    "region": "chest"
+  },
+  "cytochrome_c_oxidase": {
+    "raw": "inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)",
+    "side": "left",
+    "region": "other"
+  },
+  "water_vapour": {
+    "raw": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)",
+    "side": "center",
+    "region": "other"
+  },
+  "steel": {
+    "raw": "left anus muscle / rectum (직장) (inferred: left external anal sphincter / left rectal wall)",
+    "side": "left",
+    "region": "other"
+  },
+  "clay_gouge": {
+    "raw": "right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)",
+    "side": "right",
+    "region": "other"
+  },
+  "quark_orogen_magma": {
+    "raw": "right inner bum (inferred: right gluteal fold medial / right ischiorectal fossa upper)",
+    "side": "right",
+    "region": "other"
+  },
+  "observer_leftd2": {
+    "raw": "outer left frontalis",
+    "side": "left",
+    "region": "other"
+  },
+  "nonobserver_left_d2": {
+    "raw": "left frontalis outer strip lower (inferred: left superior frontal gyrus lateral / left frontalis outer strip lower)",
+    "side": "left",
+    "region": "other"
+  },
+  "left_endorphin_non_observer": {
+    "raw": "left levator superioris inner edge; actual expression contralateral right body (inferred: left upper lip levator insertion / contralateral right somatic expression)",
+    "side": "left",
+    "region": "face"
+  },
+  "observer_left_endorphin_electron_antineutrino": {
+    "raw": "left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)",
+    "side": "left",
+    "region": "head"
+  },
+  "mc1r": {
+    "raw": "just below GDH on left waist (inferred: left iliac crest / left waist below glutamate dehydrogenase projection)",
+    "side": "left",
+    "region": "waist"
+  },
+  "histosol": {
+    "raw": "left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)",
+    "side": "left",
+    "region": "foot"
+  },
+  "sulforaphane": {
+    "raw": "left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)",
+    "side": "left",
+    "region": "hip"
+  },
+  "aurora": {
+    "raw": "outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)",
+    "side": "center",
+    "region": "head"
+  },
+  "cysteine": {
+    "raw": "right inner brain opposite sulforaphane on the front (inferred: right ventromedial prefrontal cortex / right anterior cingulate)",
+    "side": "right",
+    "region": "brain"
+  },
+  "memory_entropy": {
+    "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)",
+    "side": "right",
+    "region": "other"
+  },
+  "hind_insula": {
+    "raw": "right posterior insula, lateral and posterior to memory_entropy",
+    "side": "right",
+    "region": "other"
+  },
+  "carbon": {
+    "raw": "right orbicularis",
+    "side": "right",
+    "region": "other"
+  },
+  "fold_belt": {
+    "raw": "opposite subduction zone on the left thigh (inferred: left medial thigh)",
+    "side": "left",
+    "region": "other"
+  },
+  "substance_p": {
+    "raw": "under right armpit (inferred: right axillary lymph node region / right axilla)",
+    "side": "right",
+    "region": "arm"
+  },
+  "methionine": {
+    "raw": "right exterior of hip where Jesus got stabbed in crucifixion (inferred: right iliac fossa / right lateral abdominal wall near McBurney point)",
+    "side": "right",
+    "region": "hip"
+  },
+  "adapter_protein": {
+    "raw": "second finger on the right (inferred: right index finger distal phalanx)",
+    "side": "right",
+    "region": "hand"
+  },
+  "succinate_dehydrogenase": {
+    "raw": "right pectoralis major (대흉문근) (inferred: right sternal head of pectoralis major)",
+    "side": "right",
+    "region": "head"
+  },
+  "collagen": {
+    "raw": "right Achilles tendon (inferred: right calcaneal tendon)",
+    "side": "right",
+    "region": "other"
+  },
+  "andosol": {
+    "raw": "between left sole and oxidised manganese (inferred: left plantar arch / left medial longitudinal arch)",
+    "side": "left",
+    "region": "other"
+  },
+  "cambisol": {
+    "raw": "inner side of both Achilles tendons (inferred: bilateral Achilles tendon medial aspects)",
+    "side": "bilateral",
+    "region": "other"
+  },
+  "sodium": {
+    "raw": "left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)",
+    "side": "left",
+    "region": "face"
+  },
+  "copper_iron_complex": {
+    "raw": "outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)",
+    "side": "right",
+    "region": "foot"
+  },
+  "water": {
+    "raw": "upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)",
+    "side": "unspecified",
+    "region": "face"
+  },
+  "chlorine_ion_pump": {
+    "raw": "right inner wrist where the watch face covers if worn inside (inferred: right ventral wrist / palmaris longus tendon region)",
+    "side": "right",
+    "region": "wrist"
+  },
+  "heath_aerenchyma": {
+    "raw": "left rib cage bone upper outside of manganese oxygen complex (inferred: left upper rib cage / left 3rd-4th rib anterior)",
+    "side": "left",
+    "region": "chest"
+  },
+  "podzol": {
+    "raw": "left hip, inverse reciprocal of methionine, left posterior hip (inferred: left posterior superior iliac spine / left gluteus medius posterior)",
+    "side": "left",
+    "region": "hip"
+  },
+  "lower_mantle": {
+    "raw": "opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)",
+    "side": "left",
+    "region": "back"
+  },
+  "basin": {
+    "raw": "just inside posterior exterior left waist (inferred: left posterior waist / left lumbar soft tissue)",
+    "side": "left",
+    "region": "waist"
+  },
+  "left_genital_d2": {
+    "raw": "left of the genital (inferred: left side of genitalia / left MPOA projection)",
+    "side": "left",
+    "region": "other"
+  },
+  "caco3_final_and": {
+    "raw": "outside of right knee (inferred: right lateral femoral condyle / right fibular head region)",
+    "side": "right",
+    "region": "knee"
+  },
+  "pentose_phosphate": {
+    "raw": "medial lower canthus right (inferred: right medial canthus / right lacrimal region)",
+    "side": "right",
+    "region": "other"
+  },
+  "disulfide_bond": {
+    "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)",
+    "side": "right",
+    "region": "other"
+  },
+  "peonidine": {
+    "raw": "just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)",
+    "side": "right",
+    "region": "brain"
+  },
+  "right_acetylcholine": {
+    "raw": "right temporalis inner strip, right acetylcholine switch (inferred: right temporalis muscle inner strip / right facial-vagal cholinergic cap)",
+    "side": "right",
+    "region": "other"
+  },
+  "co2": {
+    "raw": "right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)",
+    "side": "left",
+    "region": "back"
+  },
+  "glp1": {
+    "raw": "center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)",
+    "side": "center",
+    "region": "abdomen"
+  },
+  "cck": {
+    "raw": "back of the pancreas (inferred: pancreatic tail/body posterior)",
+    "side": "unspecified",
+    "region": "back"
+  },
+  "laterite": {
+    "raw": "left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)",
+    "side": "left",
+    "region": "foot"
+  },
+  "outer_core_convection": {
+    "raw": "crossroad between gluon orogen and podzol (inferred: left sacroiliac junction / left pelvis between gluteal fold and PSIS)",
+    "side": "left",
+    "region": "other"
+  },
+  "male_right_oxytocin": {
+    "raw": "muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)",
+    "side": "right",
+    "region": "head"
+  },
+  "gluon_orogen": {
+    "raw": "left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)",
+    "side": "left",
+    "region": "other"
+  },
+  "lactate_dehydrogenase": {
+    "raw": "left pectoralis major (대흉문근) (inferred: left sternal head of pectoralis major)",
+    "side": "left",
+    "region": "head"
+  },
+  "mangrove_aerenchyma": {
+    "raw": "opposite of heath aerenchyma on the right body (inferred: right upper rib cage / right 3rd-4th rib anterior)",
+    "side": "right",
+    "region": "chest"
+  },
+  "thorium": {
+    "raw": "just inner to center of body where it diverges between gluon orogen and steel (inferred: midline pelvic floor / perineal midline)",
+    "side": "center",
+    "region": "other"
+  },
+  "magnetite": {
+    "raw": "inside of left knee joint (inferred: left medial knee / left medial femoral condyle)",
+    "side": "left",
+    "region": "knee"
+  },
+  "oxidised_manganese": {
+    "raw": "left fourth toe (inferred: left 4th digit)",
+    "side": "left",
+    "region": "foot"
+  },
+  "manganese_oxygen_complex": {
+    "raw": "left rib cage diagonal bone outside of lung (inferred: left anterior rib cage / left costal cartilage diagonal)",
+    "side": "left",
+    "region": "chest"
+  },
+  "pi_electron_cloud": {
+    "raw": "left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)",
+    "side": "left",
+    "region": "other"
+  },
+  "ferritin": {
+    "raw": "just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)",
+    "side": "center",
+    "region": "other"
+  },
+  "methylation": {
+    "raw": "just above GLP-1 to the inner core of the left body, gap between lung rib and other organs (inferred: left upper abdomen / left hypochondrium between ribs and organs)",
+    "side": "left",
+    "region": "abdomen"
+  },
+  "sulfur_iron_complex": {
+    "raw": "inner of anterior right armpit near tendon, plus second locus near left outer thigh femoral nerve (inferred: right axillary tendon region AND left lateral thigh near femoral nerve)",
+    "side": "left",
+    "region": "arm"
+  },
+  "large_igneous_province": {
+    "raw": "midway between thoracic spinous processes and outer-core convection (inferred: mid-thoracic spine / T6-T8 spinous region)",
+    "side": "unspecified",
+    "region": "back"
+  },
+  "subduction_zone": {
+    "raw": "left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)",
+    "side": "left",
+    "region": "other"
+  },
+  "craton": {
+    "raw": "above quark orogen magma (inferred: right sacrum / right posterior pelvis above gluteal fold)",
+    "side": "right",
+    "region": "other"
+  },
+  "pyrite": {
+    "raw": "between actomyosin and right sole dopamine, plus second locus near left outer thigh (inferred: right 1st metatarsal head / right medial plantar AND left lateral thigh near femoral nerve)",
+    "side": "left",
+    "region": "head"
+  },
+  "right_sole_dopamine": {
+    "raw": "upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)",
+    "side": "right",
+    "region": "other"
+  },
+  "plume": {
+    "raw": "just outside opposite of thorium on right hip (inferred: right lateral hip / right greater trochanter region)",
+    "side": "right",
+    "region": "hip"
+  },
+  "actomyosin": {
+    "raw": "right thumb toe (inferred: right hallux / right 1st digit)",
+    "side": "right",
+    "region": "foot"
+  }
+}

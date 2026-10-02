@@ -1,0 +1,50 @@
+{
+  "input_csv": "earthquake_data.csv",
+  "params": {
+    "base_minmag": 6.5,
+    "ext_minmag": 5.5,
+    "max_dist_km": 800.0,
+    "max_dt_days": 120.0
+  },
+  "counts": {
+    "rows_total": 782,
+    "base_events": 782,
+    "extended_events": 782,
+    "added_events": 0
+  },
+  "closure": {
+    "base_components": 422,
+    "extended_components": 422,
+    "base_edges_total": 677,
+    "extended_edges_total": 677,
+    "mediator_candidates_found": 0,
+    "base_top_component_sizes": [
+      17,
+      11,
+      10,
+      10,
+      8,
+      8,
+      8,
+      8,
+      8,
+      7,
+      7,
+      7
+    ],
+    "extended_top_component_sizes": [
+      17,
+      11,
+      10,
+      10,
+      8,
+      8,
+      8,
+      8,
+      8,
+      7,
+      7,
+      7
+    ]
+  }
+}

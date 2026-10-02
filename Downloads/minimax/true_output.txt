@@ -1,0 +1,30 @@
+﻿======================================================================
+TRUE ISOMORPHISM (real textbook ODEs, real measured params)
+======================================================================
+
+[MEASURED CIRCUIT PARAMS]
+  muon ferritin 12nm: L_H = NOT_DEFINED  (NOT a real LC circuit)
+  heme 4nm:           C_F = NOT_DEFINED  (NOT a real RLC circuit)
+  → Both proteins are MOLECULES, not electrical circuits.
+  → Previous 'EXACT 0.000000' was CIRCULAR: same form, same constant.
+
+[1] observer_leftd2 (real D2 occupancy) ↔ Sgr A* (real Bondi+Eddington)
+python : Traceback (most recent call last):
+위치 줄:1 문자:54
++ ... imax-agent\projects"; python -X utf8 true_isomorphism.py 2>&1 | Out-F ...
++                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Administrator\.minimax-agent\projects\true_isomorphism.py", line 408, in <module>
+    main()
+  File "C:\Users\Administrator\.minimax-agent\projects\true_isomorphism.py", line 333, in main
+    r = res_1st(circuit_observer_leftd2, physical_sgra_full, 0.1, u, t_end=5.0, dt=0.005)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.minimax-agent\projects\true_isomorphism.py", line 305, in res_1st
+    return sum((xs1[i]-xs2[i])**2 for i in range(n)) / n
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.minimax-agent\projects\true_isomorphism.py", line 305, in <genexpr>
+    return sum((xs1[i]-xs2[i])**2 for i in range(n)) / n
+               ~~~~~~~~~~~~~~~^^~
+OverflowError: (34, 'Result too large')

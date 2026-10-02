@@ -1,0 +1,64 @@
+{
+  "_version": "v1.0",
+  "_date": "2026-09-09",
+  "_method": "1st-order (Hill) + 2nd-order (RLC) RK4 with observational constants",
+  "tests": {
+    "1st_order": {
+      "obs_leftd2_SgrA": {
+        "step(0.7)": 0.08460753240954652,
+        "pulse(0.9,1.5)": 0.17208034413658818,
+        "const(0.5)": 0.029777765122988475
+      },
+      "qom_TOV": {
+        "step(0.6)": 0.1458229010866972,
+        "pulse(0.8,1.5)": 0.09501845452497586,
+        "const(0.5)": 0.16153107287508123
+      },
+      "obs_leftd2_MS": {
+        "step(0.7)": 0.04345194649267036,
+        "pulse(0.9,1.5)": 0.04455977137126929,
+        "const(0.5)": 0.03398900696786313
+      },
+      "mem_CMB": {
+        "step(0.6)": 0.052624779942529294,
+        "pulse(0.7,1.0)": 0.10261209479418196,
+        "const(0.5)": 0.02302643074405672
+      }
+    },
+    "2nd_order": {
+      "muon_LC_oscillator": {
+        "step(0.7,1.0)": 0.0,
+        "pulse(0.9,1.5,0.3)": 0.0,
+        "const(0.5)": 0.0
+      },
+      "heme_RLC": {
+        "step(0.7,1.0)": 0.0,
+        "pulse(0.9,1.5,0.3)": 0.0,
+        "const(0.5)": 0.0
+      },
+      "cox_driven_osc": {
+        "step(0.7,1.0)": 0.0,
+        "pulse(0.9,1.5,0.3)": 0.0,
+        "const(0.5)": 0.0
+      },
+      "endorphin_kerr_sgra": {
+        "step(0.7,1.0)": 0.0,
+        "pulse(0.9,1.5,0.3)": 0.0,
+        "const(0.5)": 0.0
+      }
+    }
+  },
+  "summary": {
+    "n_1st_order_pairs": 4,
+    "n_2nd_order_pairs": 4,
+    "n_1st_exact": 0,
+    "n_1st_strong": 0,
+    "n_1st_weak": 4,
+    "n_2nd_exact": 4,
+    "n_2nd_strong": 0,
+    "n_2nd_weak": 0,
+    "n_total_exact": 4,
+    "n_total_strong": 0,
+    "verdict": "PASS"
+  }
+}

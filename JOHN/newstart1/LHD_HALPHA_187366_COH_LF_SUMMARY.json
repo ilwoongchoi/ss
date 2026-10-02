@@ -1,0 +1,50 @@
+{
+  "input_root": "Halpha-187366-1",
+  "params": {
+    "base_topk": 40,
+    "stride": 64,
+    "max_points": 32768,
+    "metric": "coherence",
+    "corr_threshold": 0.8,
+    "spectral_topk": 5,
+    "spectral_min_shared": 1,
+    "coh_window": 2048,
+    "coh_step": 1024,
+    "coh_fmin": 1.0,
+    "coh_fmax": 1000.0,
+    "coh_threshold": 0.05,
+    "phase_stability": 0.2,
+    "phase_bias": 0.1
+  },
+  "counts": {
+    "channels_total_found": 126,
+    "channels_loaded": 126,
+    "base_channels": 40,
+    "extended_channels": 126
+  },
+  "closure": {
+    "base_components": 16,
+    "extended_components": 1,
+    "base_components_inside_extended": 1,
+    "base_edges": 29,
+    "extended_edges": 340,
+    "mediator_channels_found": 34,
+    "directed_edges_count": 271,
+    "directed_balance": 0.7970479704797048,
+    "base_top_component_sizes": [
+      23,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "extended_top_component_sizes": [
+      126
+    ]
+  }
+}

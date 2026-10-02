@@ -1,0 +1,4 @@
+nearest_bridge,contact_mean,dist_mean,count
+core_center__right_branch,0.9344261938286093,3.1112628439713137,26
+mediator:synthetic_alpha__core_center,0.4756536872985281,1.204287685247287,38
+mediator:synthetic_alpha__right_branch,0.006878878065321391,0.6472530445616281,34

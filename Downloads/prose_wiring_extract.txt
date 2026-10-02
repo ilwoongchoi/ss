@@ -1,0 +1,173 @@
+﻿출력 out0은 회로 전체로 퍼진다: clay_gouge.in0, carbon.enable, steel.ctrl1, methylation.ctrl1, left_genital_d2.ctrl0, caco3.ctrl0, pi_electron_cloud.ctrl0, male_right_oxytocin.reset, right_sole_dopamine.reset 등. p-dim(waveform periodicity)을 지배한다 — 높은 토닉 DA는 drum machine적 예측 가능성(INDIE FOLK), 낮은 토닉 DA는 free jazz적 불예측성.
+입력: 두 XOR 게이트를 통과한다.
+출력:
+입력:
+출력:
+원소=C(6)/N(7), 입자=photon/electron_neutrino, 색상=YELLOW.
+입력:
+출력:
+원소=O(8)/Db(105), 입자=muon_neutrino, 색상=YELLOW.
+입력:
+출력:
+원소=F(9), 입자=electron_neutrino, 색상=BLUE, 그룹=Halogen.
+입력: in0 ← observer_leftd2.out0, in1 ← water_vapour.out0.
+출력: out0 → water_vapour_in1_xor.a | F(9) / electron_neutrino | 점토매트릭스 봉인.
+원소=Ne(10), 입자=neutron_star, 색상=YELLOW.
+입력: in0 ← nitrogenase_out_1_xnor.out (질소고정 XNOR 출력).
+출력: out0 → basin.d, gluon_orogen.enable, magnetite.in1 | Ne(10) / neutron_star | 심해마그마.
+원소=Mg(12), 입자=electron_antineutrino, 색상=GREEN, 그룹=AlkalineEarth.
+입력: in0 ← observer_leftd2.out0, in1 ← left_genital_d2_out0_nand.out, in2 ← nonobserver_left_d2.out.
+출력: out0 → observer_leftd2.in0, carbon.preset, autophagy.enable, plume_in0_xor.a | Mg(12) / electron_antineutrino | Mg²⁺ 피드백.
+출력:
+원소=P(15), 입자=higgs, 색상=YELLOW.
+입력: in0←pyrite.out1, in1←right_acetylcholine_out0_nand.out. 제어: ctrl0←carbon_q_or.out (in1 선택).
+출력: out0 → methanogenesis_out0_nand → mc1r.preset, peonidine.ctrl1 | P(15) / higgs.
+원소=S(16)/Sg(106), 입자=muon_antineutrino, 색상=YELLOW.
+입력:
+출력:
+원소=Ar(18), 입자=gluon, 색상=WHITE, 그룹=NobleGas, 역할=Observer_Nrf2.
+입력: in0←histosol.out1, in1←male_right_oxytocin_q_or.out. 제어: ctrl0←right_sole_dopamine.q, ctrl1←sodium.out0.
+출력:
+원소=Rb(37), 입자=muon, 색상=RED, 그룹=AlkaliMetal.
+입력: in0←sulforaphane.out1, in1←sodium.out1. 출력: out0 → left_genital_d2.in0 | Rb(37) / muon | Na⁺ 임계점.
+원소=Cs(55), 입자=strange_quark, 색상=RED, 그룹=AlkaliMetal.
+입력: in0←sulforaphane.out1, in1←mc1r_q_or.out. 출력: out0 → cysteine.in0, magnetite.ctrl0 | Cs(55) / strange_quark | CSF-ISF 교환.
+원소=Fr(87), 입자=energy, 색상=RED.
+입력: in0←glymphatic_system.out0, in1←mc1r_q_bar_or.out. 출력: out0 → memory_entropy.in_main, peonidine_in0_xor.a | Fr(87) / energy | GSH 전구체.
+원소=Ca(20)/Ti(22), 입자=electron, 색상=GREEN.
+입력: in_main←cysteine.out0, in_sub←mc1r_q_or.out, in_ctrl←actomyosin.out0.
+출력:
+원소=Sc(21), 입자=neutron, 색상=WHITE, 그룹=TransitionMetal.
+입력: in0←memory_entropy_out_hind_insula_xnor.out, in1←co2.out0. 제어: ctrl0←succinate_dehydrogenase_out0_nand.out (in1 선택).
+출력: out0 → hind_insula_out0_nand → carbon.d, sodium.ctrl1 | Sc(21).
+원소=Kr(36)/Eu(63)/Gd(64), 입자=photon, 색상=WHITE, 그룹=NobleGas, 역할=Observer.
+출력:
+원소=Mn(25)/Lr(103), 입자=muon(밤), 그룹=TransitionMetal.
+입력: in0←fold_belt_in0_xor (a←carbon_q_bar_or.out), in1←fold_belt_in1_xor (a←lactate_dehydrogenase.out0). 제어: ctrl0←basin_q_bar_or.out, ctrl1←oxidised_manganese.out0.
+출력:
+원소=Ra(88)/Zn(30), 입자=tau_antineutrino, 색상=GREEN.
+입력: in_main←methionine.out0, in_sub←adapter_protein_q_bar_or.out, in_ctrl←succinate_dehydrogenase_out0_nand.out.
+출력: out_mc1r → substance_p_out_mc1r_xnor → mc1r.enable | Ra(88). out_autophagy → substance_p_out_autophagy_xor → autophagy.s | Zn(30).
+원소=Ge(32), 입자=z_boson, 색상=YELLOW, 그룹=Metalloid.
+입력: in0←collagen_out0_nand.out, in1←copper_iron_complex.out0. 출력: out0 → substance_p.in_main, adapter_protein.d | Ge(32) | Ge-S 결합.
+출력: q → adapter_protein_q_or (3입력 AND with podzol.out1 + observer) → NaCl_in1_xor.a, pentose_phosphate.in_ctrl. q_bar → adapter_protein_q_bar_or → substance_p.in_sub, right_sole_dopamine.preset.
+원소=Br(35)/Kr(36), 입자=muon_neutrino/photon, 색상=BLUE/WHITE.
+입력: in0←water_vapour.out1, in1←actomyosin.out0. 제어: ctrl0←caco3.out0.
+출력:
+원소=Sr(38), 입자=tau_neutrino, 색상=GREEN, 그룹=AlkalineEarth.
+입력: in0←cambisol.out0, in1←NaCl.out0. 제어: ctrl0←succinate_dehydrogenase_out1_or.out (SDH ch.1이 NaCl 선택).
+출력: out0 → collagen_out0_nand → methionine.in0, pyrite_in0_xor.a | Sr(38) / tau_neutrino | Sr²⁺ 뼈/ECM.
+원소=Nh(113), 색상=BLACK, 그룹=TransActinide.
+입력: in0←fold_belt.out0, in1←oxidised_manganese.out0. 제어: ctrl0←succinate_dehydrogenase_out2_nand.out.
+출력: out0 → andosol_out0_nand → oxidised_manganese.in1, podzol.in1 | Nh(113).
+원소=U(92)/Np(93), 입자=dark_matter, 색상=BLACK, 그룹=Actinide.
+입력: in0←cambisol_in0_xor (a←actomyosin.out1), in1←cambisol_in1_xor (a←nitrogenase_out_2_nor.out). 제어: ctrl0←large_igneous_province.out0, ctrl1←manganese_nodule.q_bar.
+출력:
+원소=Pu(94)/Am(95), 입자=spark, 색상=YELLOW, 그룹=Actinide.
+입력: in0←NaCl_in0_xor (a←autophagy.r_out), in1←NaCl_in1_xor (a←adapter_protein_q_or.out). 제어: ctrl0←succinate_dehydrogenase.out0, ctrl1←NaCl.out0 (자기피드백).
+출력:
+원소=Tc(43)/Ru(44), 입자=w_boson, 색상=RED, 그룹=TransitionMetal.
+입력: in0←sodium_in0_xor (a←water_vapour.out0), in1←sodium_in1_xor (a←chlorine_ion_pump.out0). 제어: ctrl0←aurora.out0, ctrl1←hind_insula.out0.
+출력:
+원소=Cm(96), 색상=BLACK, 그룹=Actinide.
+입력: in0←cambisol.out0. 제어: ctrl0←carbon_q_bar_or.out.
+출력: out0 → actomyosin_in0_xor.a, mycorradicin_right_acetylcholine_or.a | Cm(96).
+원소=Ba(56), 입자=charm_quark, 색상=GREEN, 그룹=AlkalineEarth.
+입력: in0←histosol.out0, in1←cambisol.out0. 출력: out0 → fold_belt.ctrl1, methionine.in1 | Ba(56) / charm_quark | Cu-Fe 복합체.
+원소=Pd(46)/Rh(45).
+입력: in0←mycorradicin_autophagy_input_or.out. 제어: ctrl0←mc1r_q_bar_or.out. SR latch: s←substance_p_out_autophagy_xor.out, r←observer_leftd2.out0, enable←observer_left_endorphin_electron_antineutrino.out0.
+출력: out0 → t_ff.clk, mangrove_aerenchyma.in1 | Pd(46). r_out → NaCl_in0_xor.a. t_ff_out → water.ctrl0, lactate_dehydrogenase.ctrl0.
+원소=Cl(17)/Ag(47), 입자=tau, 색상=BLUE, 그룹=Halogen.
+입력: in0←podzol_out0_nand.out. 제어: ctrl0←chlorine_ion_pump.out1 (자기피드백). SR latch: set←manganese_oxygen_complex.out0, reset←sodium.out0, enable←water.out0.
+출력:
+원소=Fl(114), 색상=BLACK, 그룹=TransActinide.
+입력: in0←chlorine_ion_pump.out0. 제어: ctrl0←carbon_q_or.out. 출력: out0 → heath_aerenchyma_out0_and (AND with male_right_oxytocin_q_or.out) → cytochrome_c_oxidase_in0_xor.a.
+입력: in0←lower_mantle_q_or.out, in1←andosol_out0_nand.out. 제어: ctrl0←succinate_dehydrogenase.out0.
+출력:
+출력:
+출력:
+원소=Na(11), 입자=w_boson, 색상=RED.
+입력: in0←aurora.out0, in1←craton.out1. 제어: ctrl0←observer_leftd2.out0 (aurora 선택).
+출력: out0 → left_genital_d2_out0_nand → observer_left_endorphin_electron_antineutrino.in1, adapter_protein.clk, male_right_oxytocin.enable, right_sole_dopamine.clk.
+원소=K(19), 입자=up_quark, 색상=RED, 그룹=AlkaliMetal.
+입력: in0←pyrite.out1, in1←lactate_caco3_and.out. 제어: ctrl0←observer_leftd2.out0.
+출력: out0 → adapter_protein.enable, succinate_dehydrogenase.ctrl0, monazite.in1, caco3_laterite_and.a, craton.ctrl1 | K(19) / up_quark.
+원소=Sb(51)/Te(52), 입자=energy, 색상=RED, 그룹=Metalloid.
+입력: in0←peonidine_in0_xor (a←cysteine.out0), in1←peonidine_in1_xor (a←disulfide_bond.out0). 제어: ctrl0←manganese_nodule.q, ctrl1←methanogenesis.out0.
+출력:
+원소=Es(99), 입자=tau_neutrino, 색상=GREEN, 그룹=Actinide.
+입력: in0←cytochrome_c_oxidase.out0, in1←right_sole_dopamine_q_or.out. 제어: ctrl0←succinate_dehydrogenase.out0 (COX 선택).
+출력: out0 → right_acetylcholine_out0_nand → methanogenesis.in1, co2_in0_xor.a | Es(99).
+원소=Th(90)/Pa(91), 입자=dark_energy/time, 색상=BLACK, 그룹=Actinide.
+입력: in0←co2_in0_xor (a←right_acetylcholine_out0_nand.out), in1←co2_in1_xor (a←peonidine.out1). 제어: ctrl0←memory_entropy.out_co2_nor.out, ctrl1←co2.out0 (자기피드백).
+출력:
+출력:
+출력:
+원소=I(53)/Xe(54), 입자=muon_antineutrino, 색상=BLUE, 그룹=Halogen.
+출력:
+원소=In(49)/Sn(50), 입자=down_quark, 그룹=PostTransitionMetal.
+입력: in_main←peonidine.out0, in_sub←sulforaphane.out0, in_ctrl←adapter_protein_q_or.out.
+출력: out_1 → pentose_phosphate_out_1_xnor → disulfide_bond.in0 | In(49). out_2 → pentose_phosphate_out_2_nor → pyrite.ctrl0 | Sn(50).
+원소=No(102), 입자=z_boson, 색상=YELLOW, 그룹=Actinide.
+입력: in0←pentose_phosphate_out_1_xnor.out, in1←peonidine.out0. 출력: out0 → peonidine_in1_xor.a, ferritin_in1_xor.a, sulfur_iron_complex.ctrl1 | No(102).
+원소=At(85)/Nb(41)/Mo(42), 입자=higgs, 색상=BLUE, 그룹=Halogen.
+입력: in_main←laterite_q_or.out, in_sub←copper_iron_complex.out0, in_ctrl←basin_q_or.out.
+출력: out_1 → nitrogenase_out_1_xnor → quark_orogen_magma.in0 | At(85) / higgs. out_2 → nitrogenase_out_2_nor → cambisol_in1_xor.a | Nb(41). out_3 → monazite_thorium_and.a | Mo(42).
+원소=Fm(100), 입자=right_testosterone, 색상=RED, 그룹=Actinide.
+입력: in_main←sulfur_iron_complex.out1, in_sub←large_igneous_province.out0. 제어: ctrl0←autophagy.t_ff_out.
+출력: out0 → water_out0_nand → outer_core_convection.in1, plume.in1, actomyosin_ctrl.enable | Fm(100).
+원소=Ta(73), 입자=dark_matter, 색상=BLACK, 그룹=TransitionMetal.
+입력: in0←subduction_zone.out1, in1←water_out0_nand.out. 출력: out0 → lower_mantle.reset, craton_in1_xor.a | Ta(73).
+출력:
+출력:
+원소=Og(118)/Pb(82), 입자=gluon, 색상=WHITE.
+입력: in0←lower_mantle_q_bar_or.out, in1←fold_belt.out1, in2←autophagy.t_ff_out. 제어: ctrl0←left_genital_d2.out0, ctrl1←observer_left_endorphin_electron_antineutrino.out0.
+출력: out0 → lactate_caco3_and → caco3.in1 | Og(118). out1 → fold_belt_in1_xor.a | Pb(82).
+원소=Cn(112), 색상=WHITE, 그룹=TransActinide.
+입력: in0←mangrove_aerenchyma.out0, in1←caco3.out0. 제어: ctrl0←water_vapour.out1 (성층권 수증기가 탄산염 REE 경로 선택).
+출력: out0 → monazite_out0_nand → steel_in1_xor.a, subduction_zone_in1_xor.a, thorium.in0 | Cn(112).
+원소=Ac(89), 입자=dark_energy, 색상=BLACK, 그룹=Actinide.
+입력: in0←monazite_out0_nand.out, in1←oxidised_manganese.out0. 제어: ctrl0←NaCl.out1 (증발암 광물이 토륨을 pi 전자 풀로 라우팅).
+출력: out0 → thorium_out0_nand → manganese_oxygen_complex.in0, pi_electron_cloud.in0 | Ac(89).
+원소=Lv(116), 입자=photon, 색상=WHITE, 그룹=TransActinide.
+입력: in0←methylation.out1, in1←quark_orogen_magma.out0. 제어: ctrl0←glymphatic_system.out0 (글림프 청소가 호 마그네타이트 선택).
+출력: out0 → magnetite_out0_nand → oxidised_manganese.set, laterite.preset | Lv(116).
+원소=Ds(110)/Mt(109), 입자=neutron_star, 색상=WHITE, 그룹=TransActinide.
+출력:
+원소=Hs(108)/Mt(109), 입자=neutron, 색상=WHITE, 그룹=TransActinide.
+입력: in0←thorium_out0_nand.out, in1←histosol.out0. 제어: ctrl0←methylation.out1, ctrl1←fold_belt.out1.
+출력:
+원소=Md(101), 입자=photon, 색상=WHITE, 그룹=Actinide.
+입력: in0←thorium_out0_nand.out, in1←ferritin.out0. 제어: ctrl0←thorium_out0_nand.out (REE 라우팅이 ferritin-L 선택).
+출력: out0 → pi_electron_cloud_out0_nand → steel_in0_xor.a, histosol_in1_xor.a, quark_orogen_magma.ctrl0, glp1.reset | Md(101).
+원소=V(23)/Cr(24), 입자=graviton, 색상=BLACK, 그룹=TransitionMetal.
+입력: in0←ferritin_in0_xor (a←sulfur_iron_complex.out0), in1←ferritin_in1_xor (a←disulfide_bond.out0). 제어: ctrl0←laterite.q, ctrl1←chlorine_ion_pump.out1.
+출력:
+원소=Yb(70)/Lu(71), 입자=charm_quark, 색상=GREEN, 그룹=Lanthanide.
+입력: in0←methylation_in0_xor (a←ferritin.out1), in1←methylation_in1_xor (a←heme.out0). 제어: ctrl0←methylation.out1 (자기피드백), ctrl1←observer_leftd2.out0.
+출력:
+원소=Fe(26)/Co(27), 입자=w_boson(dark), 색상=CYAN, 그룹=TransitionMetal.
+입력: in0←actomyosin.out1, in1←male_right_oxytocin_q_bar_or.out. 제어: ctrl0←sulfur_iron_complex.out1 (자기피드백), ctrl1←disulfide_bond.out0.
+출력:
+원소=Au(79), 입자=photon, 색상=WHITE, 그룹=TransitionMetal.
+입력: in0←large_igneous_province_in0_xor (a←heme.out1), in1←large_igneous_province_in1_xor (a←manganese_nodule.q_bar). 제어: ctrl0←large_igneous_province.out1 (자기피드백), ctrl1←right_sole_dopamine_q_bar_or.out.
+출력:
+원소=Os(76)/Ir(77), 입자=dark_matter, 색상=BLACK, 그룹=TransitionMetal.
+입력: in0←subduction_zone_in0_xor (a←large_igneous_province.out1), in1←subduction_zone_in1_xor (a←monazite_out0_nand.out). 제어: ctrl0←lower_mantle_q_or.out, ctrl1←basin_q_bar_or.out.
+출력:
+원소=Cd(48)/Hf(72), 입자=neutron, 색상=WHITE, 그룹=TransitionMetal.
+입력: in0←craton_in0_xor (a←glp1_q_bar_or.out), in1←craton_in1_xor (a←outer_core_convection.out0). 제어: ctrl0←craton.out1 (자기피드백), ctrl1←caco3.out0.
+출력:
+원소=Ni(28)/Cu(29), 입자=up_quark(dark), 색상=CYAN, 그룹=TransitionMetal.
+입력: in0←pyrite_in0_xor (a←collagen_out0_nand.out), in1←pyrite_in1_xor (a←large_igneous_province.out0). 제어: ctrl0←pentose_phosphate_out_2_nor.out, ctrl1←craton.out0.
+출력:
+출력:
+원소=Pt(78), 입자=graviton, 색상=BLACK, 그룹=TransitionMetal.
+입력: in0←plume_in0_xor.out (left_endorphin XOR gluon_orogen_q_bar_or), in1←water_out0_nand.out. 제어: ctrl0←craton.out1 (크래톤 덮개 있으면 water 선택).
+출력: out0 → plume_out0_nand → lower_mantle.preset, laterite.reset | Pt(78).
+원소=Ho(67)/Er(68), 입자=tau, 색상=BLUE, 그룹=Lanthanide.
+입력: in0←actomyosin_in0_xor (a←mycorradicin.out0), in1←actomyosin_in1_xor (a←laterite_q_bar_or.out). 제어: ctrl0←actomyosin_ctrl.out, ctrl1←right_sole_dopamine_q_bar_or.out.
+출력:
+원소=Cf(98), 입자=w_boson, 색상=RED, 그룹=Actinide.
+입력: in0←ferritin.out1, in1←pyrite.out0. enable←glp1_q_or.out. 출력: out0 → cck_cox_ctrl_and (3입력 AND with oxidised_manganese + observer_leftd2) → cytochrome_c_oxidase.ctrl0 | Cf(98).
+입력: in0←fold_belt.out0, in1←autophagy.out0. 출력: out0 → monazite.in0 (→ gluon_orogen_clk OR에도 연결).

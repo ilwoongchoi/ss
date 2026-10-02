@@ -1,0 +1,16 @@
+﻿Total nodes audited: 200
+  VALID   (real physical/biochemical analog):  194
+  METAPHOR (interpretive overlay):             5
+  INVALID  (no direct analog):                  1
+
+INVALID nodes (math should NOT reference):
+  - t_FF: T flip-flop (digital logic component)
+
+METAPHOR nodes (math can reference with caveat):
+  - laterite: Laterite (tropical weathering) but TimeLatch mapping is interpretive
+  - NaCl_in0_xor: Logic abstraction of NaCl channel
+  - NaCl_in1_xor: Logic abstraction of NaCl channel
+  - sodium_in0_xor: Logic abstraction of Na+ pump
+  - sodium_in1_xor: Logic abstraction of Na+ pump
+
+Wrote C:\Users\Administrator\.minimax-agent\projects\circuit_node_audit.json

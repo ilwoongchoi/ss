@@ -1,0 +1,10 @@
+{
+  "id": "nc75305736",
+  "mag": 4.18,
+  "time_utc": "2026-02-02T15:01:13.640000+00:00",
+  "lat": 37.7563333333333,
+  "lon": -121.943666666667,
+  "window_start": "2026-02-02T14:59:13",
+  "window_end": "2026-02-02T15:09:13",
+  "station_url": "http://service.iris.edu/fdsnws/station/1/query?format=xml&starttime=2026-02-02T14%3A59%3A13&endtime=2026-02-02T15%3A09%3A13&minlat=35.7563333333333&maxlat=39.7563333333333&minlon=-123.943666666667&maxlon=-119.943666666667&level=channel"
+}

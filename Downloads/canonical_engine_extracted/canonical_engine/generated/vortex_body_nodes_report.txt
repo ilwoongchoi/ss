@@ -1,0 +1,80 @@
+================================================================================
+4-VORTEX SPIRAL BODY NODE GENERATOR
+================================================================================
+
+Total nodes generated: 1000
+
+■ Vortex Centers
+--------------------------------------------------------------------------------
+  V1_brain — alpha-Ketoglutarate (alpha-ketoglutarate)
+    face_center: (6.5, 11.0)  body_center: (8.0, 30.0)
+    spiral: a=2.5, b=0.0216, points=250
+    stress_pair: light_dark  sphere: Sun  attractor: Information
+    assigned circuit nodes (19): water_vapour, observer_leftd2, nonobserver_left_d2, left_endorphin_non_observer, observer_left_endorphin_electron_antineutrino, sulforaphane, aurora, cysteine...
+
+  V2_waist — Oxaloacetate (oxaloacetate)
+    face_center: (5.5, 8.0)  body_center: (8.0, 85.0)
+    spiral: a=3.0, b=0.0216, points=200
+    stress_pair: o2_co2  sphere: Earth  attractor: Repair
+    assigned circuit nodes (12): cytochrome_c_oxidase, mc1r, methionine, podzol, lower_mantle, basin, glp1, cck...
+
+  V3_chest — Succinate (SDH) (succinate)
+    face_center: (10.0, 9.0)  body_center: (8.0, 50.0)
+    spiral: a=3.58, b=0.0216, points=250
+    stress_pair: heat_cold  sphere: Moon  attractor: Energy
+    assigned circuit nodes (14): heme, carbon, fold_belt, substance_p, adapter_protein, succinate_dehydrogenase, chlorine_ion_pump, heath_aerenchyma...
+
+  V4_pelvis — Succinyl-CoA (succinyl-coa)
+    face_center: (8.0, 6.0)  body_center: (8.0, 125.0)
+    spiral: a=4.0, b=0.0216, points=300
+    stress_pair: matter_nonmatter  sphere: CoMag  attractor: Energy
+    assigned circuit nodes (19): steel, clay_gouge, quark_orogen_magma, histosol, collagen, andosol, cambisol, copper_iron_complex...
+
+■ Node Distribution by Vortex
+--------------------------------------------------------------------------------
+  V1_brain: 250 nodes
+  V2_waist: 200 nodes
+  V3_chest: 250 nodes
+  V4_pelvis: 300 nodes
+  TOTAL: 1000 nodes
+
+■ Sample Nodes (first 5 per vortex)
+--------------------------------------------------------------------------------
+  [V1_brain]
+    V1_brain_0000  body=(  2.4, 10.0)  node=co2                             elem=Th(90)/Pa(91)  tca=alpha-ketoglutarate
+    V1_brain_0001  body=(  2.5, 10.2)  node=co2                             elem=Th(90)/Pa(91)  tca=alpha-ketoglutarate
+    V1_brain_0002  body=(  2.8, 10.4)  node=co2                             elem=Th(90)/Pa(91)  tca=alpha-ketoglutarate
+    V1_brain_0003  body=(  3.5, 10.5)  node=co2                             elem=Th(90)/Pa(91)  tca=alpha-ketoglutarate
+    V1_brain_0004  body=(  4.3, 10.7)  node=co2                             elem=Th(90)/Pa(91)  tca=alpha-ketoglutarate
+
+  [V2_waist]
+    V2_waist_0000  body=(  2.9, 55.0)  node=lower_mantle                    elem=            tca=oxaloacetate
+    V2_waist_0001  body=(  2.9, 55.3)  node=lower_mantle                    elem=            tca=oxaloacetate
+    V2_waist_0002  body=(  3.2, 55.5)  node=lower_mantle                    elem=            tca=oxaloacetate
+    V2_waist_0003  body=(  3.7, 55.8)  node=lower_mantle                    elem=            tca=oxaloacetate
+    V2_waist_0004  body=(  4.3, 56.0)  node=lower_mantle                    elem=            tca=oxaloacetate
+
+  [V3_chest]
+    V3_chest_0000  body=(  3.3, 25.0)  node=heath_aerenchyma                elem=Fl(114)     tca=succinate
+    V3_chest_0001  body=(  3.3, 25.1)  node=heath_aerenchyma                elem=Fl(114)     tca=succinate
+    V3_chest_0002  body=(  3.5, 25.3)  node=heath_aerenchyma                elem=Fl(114)     tca=succinate
+    V3_chest_0003  body=(  3.7, 25.4)  node=heath_aerenchyma                elem=Fl(114)     tca=succinate
+    V3_chest_0004  body=(  4.1, 25.6)  node=heath_aerenchyma                elem=Fl(114)     tca=succinate
+
+  [V4_pelvis]
+    V4_pelvis_0000  body=(  2.0, 95.0)  node=gluon_orogen                    elem=            tca=succinyl-coa
+    V4_pelvis_0001  body=(  2.0, 95.3)  node=gluon_orogen                    elem=            tca=succinyl-coa
+    V4_pelvis_0002  body=(  2.0, 95.5)  node=gluon_orogen                    elem=            tca=succinyl-coa
+    V4_pelvis_0003  body=(  2.0, 95.8)  node=gluon_orogen                    elem=            tca=succinyl-coa
+    V4_pelvis_0004  body=(  2.0, 96.1)  node=gluon_orogen                    elem=            tca=succinyl-coa
+
+■ TCA Cycle Flow Through Vortices
+--------------------------------------------------------------------------------
+  V2(oxaloacetate) → V1(alpha-KG) → V4(succinyl-CoA) → V3(succinate) → V2
+  TCA: OAA → citrate → isocitrate → αKG → succinyl-CoA → succinate → fumarate → malate → OAA
+
+■ 8D Vector Sample (V1 first 3)
+--------------------------------------------------------------------------------
+  V1_brain_0000  r=0.50 h=0.64 d=0.50 p=0.50 s=0.48 γ=0.50 g=0.52 ν=0.50
+  V1_brain_0001  r=0.51 h=0.64 d=0.50 p=0.50 s=0.48 γ=0.54 g=0.52 ν=0.50
+  V1_brain_0002  r=0.52 h=0.64 d=0.50 p=0.50 s=0.48 γ=0.58 g=0.52 ν=0.50

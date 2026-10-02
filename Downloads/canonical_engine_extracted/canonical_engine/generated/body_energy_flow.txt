@@ -1,0 +1,833 @@
+================================================================================
+  BODY ENERGY FLOW — Unified Temporal→Spatial Circulation
+  Stem: time → phase → seed → BFS → body path → blood → 128-slot
+================================================================================
+
+  [1] CANONICAL BODY LOOP — 16 Waypoints
+--------------------------------------------------------------------------------
+  01. observer_leftd2                     | frontalis          | domain=math_dynamics    | outer left frontalis
+  02. observer_left_endorphin_electron_antineutrino | philtrum/face      | domain=neurochemistry   | left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)
+  03. pi_electron_cloud                   | throat             | domain=particle_physics | left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)
+  04. heme                                | chest              | domain=biochemistry     | just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)
+  05. left_genital_d2                     | pelvis             | domain=neurochemistry   | left of the genital (inferred: left side of genitalia / left MPOA projection)
+  06. gluon_orogen                        | left glute/pelvis  | domain=soil_geology     | left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)
+  07. laterite                            | left calf          | domain=soil_geology     | left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)
+  08. oxidised_manganese                  | left 4th toe       | domain=other            | left fourth toe (inferred: left 4th digit)
+  09. right_sole_dopamine                 | right sole         | domain=neurochemistry   | upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)
+  10. copper_iron_complex                 | right foot         | domain=soil_geology     | outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)
+  11. collagen                            | right Achilles     | domain=biology_muscle   | right Achilles tendon (inferred: right calcaneal tendon)
+  12. subduction_zone                     | left thigh         | domain=soil_geology     | left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)
+  13. water_vapour                        | thoracic spine     | domain=atmosphere_hydrosphere | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)
+  14. aurora                              | scalp              | domain=astronomy        | outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)
+  15. co2                                 | occiput            | domain=atmosphere_hydrosphere | right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)
+  16. memory_entropy                      | right brain        | domain=math_dynamics    | hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)
+
+  Segment verification:
+    observer_leftd2 -> observer_left_endorphin_electron_antineutrino: OK
+    observer_left_endorphin_electron_antineutrino -> pi_electron_cloud: OK
+    pi_electron_cloud -> heme: OK
+    heme -> left_genital_d2: OK
+    left_genital_d2 -> gluon_orogen: OK
+    gluon_orogen -> laterite: OK
+    laterite -> oxidised_manganese: OK
+    oxidised_manganese -> right_sole_dopamine: OK
+    right_sole_dopamine -> copper_iron_complex: OK
+    copper_iron_complex -> collagen: OK
+    collagen -> subduction_zone: OK
+    subduction_zone -> water_vapour: OK
+    water_vapour -> aurora: OK
+    aurora -> co2: OK
+    co2 -> memory_entropy: OK
+    Close loop: memory_entropy -> observer_leftd2: OK
+
+  [2] MASTER BFS LOOP — from observer_leftd2
+--------------------------------------------------------------------------------
+  01. observer_leftd2                | outer left frontalis
+  02. clay_gouge                     | right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)
+  03. observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)
+  04. carbon                         | right orbicularis
+  05. water_vapour                   | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)
+  06. mangrove_aerenchyma            | opposite of heath aerenchyma on the right body (inferred: right upper rib cage / right 3rd-4th rib anterior)
+  07. water                          | upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)
+  08. lactate_dehydrogenase          | left pectoralis major (대흉문근) (inferred: left sternal head of pectoralis major)
+  09. plume                          | just outside opposite of thorium on right hip (inferred: right lateral hip / right greater trochanter region)
+  10. heath_aerenchyma               | left rib cage bone upper outside of manganese oxygen complex (inferred: left upper rib cage / left 3rd-4th rib anterior)
+  11. succinate_dehydrogenase        | right pectoralis major (대흉문근) (inferred: right sternal head of pectoralis major)
+  12. fold_belt                      | opposite subduction zone on the left thigh (inferred: left medial thigh)
+  13. sodium                         | left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)
+  14. collagen                       | right Achilles tendon (inferred: right calcaneal tendon)
+  15. thorium                        | just inner to center of body where it diverges between gluon orogen and steel (inferred: midline pelvic floor / perineal midline)
+  16. outer_core_convection          | crossroad between gluon orogen and podzol (inferred: left sacroiliac junction / left pelvis between gluteal fold and PSIS)
+  17. chlorine_ion_pump              | right inner wrist where the watch face covers if worn inside (inferred: right ventral wrist / palmaris longus tendon region)
+  18. lower_mantle                   | opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)
+  19. laterite                       | left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)
+  20. mc1r                           | just below GDH on left waist (inferred: left iliac crest / left waist below glutamate dehydrogenase projection)
+  21. peonidine                      | just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)
+  22. actomyosin                     | right thumb toe (inferred: right hallux / right 1st digit)
+  23. andosol                        | between left sole and oxidised manganese (inferred: left plantar arch / left medial longitudinal arch)
+  24. manganese_oxygen_complex       | left rib cage diagonal bone outside of lung (inferred: left anterior rib cage / left costal cartilage diagonal)
+  25. sulforaphane                   | left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)
+  26. adapter_protein                | second finger on the right (inferred: right index finger distal phalanx)
+  27. aurora                         | outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)
+  28. glp1                           | center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)
+  29. hind_insula                    | right posterior insula, lateral and posterior to memory_entropy
+  30. substance_p                    | under right armpit (inferred: right axillary lymph node region / right axilla)
+  31. podzol                         | left hip, inverse reciprocal of methionine, left posterior hip (inferred: left posterior superior iliac spine / left gluteus medius posterior)
+  32. right_acetylcholine            | right temporalis inner strip, right acetylcholine switch (inferred: right temporalis muscle inner strip / right facial-vagal cholinergic cap)
+  33. male_right_oxytocin            | muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)
+  34. ferritin                       | just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)
+  35. caco3_final_and                | outside of right knee (inferred: right lateral femoral condyle / right fibular head region)
+  36. disulfide_bond                 | hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)
+  37. pentose_phosphate              | medial lower canthus right (inferred: right medial canthus / right lacrimal region)
+  38. cytochrome_c_oxidase           | inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)
+  39. sulfur_iron_complex            | inner of anterior right armpit near tendon, plus second locus near left outer thigh femoral nerve (inferred: right axillary tendon region AND left lateral thigh near femoral nerve)
+  40. histosol                       | left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)
+  41. heme                           | just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)
+  42. left_genital_d2                | left of the genital (inferred: left side of genitalia / left MPOA projection)
+  43. steel                          | left anus muscle / rectum (직장) (inferred: left external anal sphincter / left rectal wall)
+  44. subduction_zone                | left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)
+  45. methionine                     | right exterior of hip where Jesus got stabbed in crucifixion (inferred: right iliac fossa / right lateral abdominal wall near McBurney point)
+  46. craton                         | above quark orogen magma (inferred: right sacrum / right posterior pelvis above gluteal fold)
+  47. pi_electron_cloud              | left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)
+  48. cck                            | back of the pancreas (inferred: pancreatic tail/body posterior)
+  49. basin                          | just inside posterior exterior left waist (inferred: left posterior waist / left lumbar soft tissue)
+  50. memory_entropy                 | hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)
+  51. cysteine                       | right inner brain opposite sulforaphane on the front (inferred: right ventromedial prefrontal cortex / right anterior cingulate)
+  52. co2                            | right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)
+  53. cambisol                       | inner side of both Achilles tendons (inferred: bilateral Achilles tendon medial aspects)
+  54. oxidised_manganese             | left fourth toe (inferred: left 4th digit)
+  55. magnetite                      | inside of left knee joint (inferred: left medial knee / left medial femoral condyle)
+  56. right_sole_dopamine            | upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)
+  57. gluon_orogen                   | left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)
+  58. pyrite                         | between actomyosin and right sole dopamine, plus second locus near left outer thigh (inferred: right 1st metatarsal head / right medial plantar AND left lateral thigh near femoral nerve)
+  59. methylation                    | just above GLP-1 to the inner core of the left body, gap between lung rib and other organs (inferred: left upper abdomen / left hypochondrium between ribs and organs)
+  60. copper_iron_complex            | outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)
+  61. large_igneous_province         | midway between thoracic spinous processes and outer-core convection (inferred: mid-thoracic spine / T6-T8 spinous region)
+  62. quark_orogen_magma             | right inner bum (inferred: right gluteal fold medial / right ischiorectal fossa upper)
+
+  [3] CIRCADIAN 24h — phase × active node × region
+--------------------------------------------------------------------------------
+  00:00  phase=AB_spark        focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+  01:00  phase=AB_spark        focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+  02:00  phase=AB_spark        focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+  03:00  phase=A_accumulate    focus=laterite                   region=left calf       next=['oxidised_manganese', 'right_sole_dopamine', 'copper_iron_complex']
+  04:00  phase=A_accumulate    focus=laterite                   region=left calf       next=['oxidised_manganese', 'right_sole_dopamine', 'copper_iron_complex']
+  05:00  phase=A_accumulate    focus=laterite                   region=left calf       next=['oxidised_manganese', 'right_sole_dopamine', 'copper_iron_complex']
+  06:00  phase=A_accumulate    focus=laterite                   region=left calf       next=['oxidised_manganese', 'right_sole_dopamine', 'copper_iron_complex']
+  07:00  phase=A_accumulate    focus=laterite                   region=left calf       next=['oxidised_manganese', 'right_sole_dopamine', 'copper_iron_complex']
+  08:00  phase=A_accumulate    focus=laterite                   region=left calf       next=['oxidised_manganese', 'right_sole_dopamine', 'copper_iron_complex']
+  09:00  phase=O_accumulate    focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+  10:00  phase=O_accumulate    focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+  11:00  phase=O_accumulate    focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+  12:00  phase=O_accumulate    focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+  13:00  phase=O_accumulate    focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+  14:00  phase=O_accumulate    focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+  15:00  phase=B_accumulate    focus=co2                        region=occiput         next=['memory_entropy', 'observer_leftd2', 'observer_left_endorphin_electron_antineutrino']
+  16:00  phase=B_accumulate    focus=co2                        region=occiput         next=['memory_entropy', 'observer_leftd2', 'observer_left_endorphin_electron_antineutrino']
+  17:00  phase=B_accumulate    focus=co2                        region=occiput         next=['memory_entropy', 'observer_leftd2', 'observer_left_endorphin_electron_antineutrino']
+  18:00  phase=B_accumulate    focus=co2                        region=occiput         next=['memory_entropy', 'observer_leftd2', 'observer_left_endorphin_electron_antineutrino']
+  19:00  phase=B_accumulate    focus=co2                        region=occiput         next=['memory_entropy', 'observer_leftd2', 'observer_left_endorphin_electron_antineutrino']
+  20:00  phase=B_accumulate    focus=co2                        region=occiput         next=['memory_entropy', 'observer_leftd2', 'observer_left_endorphin_electron_antineutrino']
+  21:00  phase=AB_charge       focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+  22:00  phase=AB_charge       focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+  23:00  phase=AB_charge       focus=memory_entropy             region=right brain     next=['observer_leftd2', 'observer_left_endorphin_electron_antineutrino', 'pi_electron_cloud']
+
+  [4] TIME → BODY PATH — 5 representative hours
+--------------------------------------------------------------------------------
+  01:00 phase=AB_spark
+    -> co2                       | left   back       | right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)
+    -> hind_insula               | right  other      | right posterior insula, lateral and posterior to memory_entropy
+    -> observer_leftd2           | left   other      | outer left frontalis
+    -> clay_gouge                | right  other      | right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)
+    -> observer_left_endorphin_electron_antineutrino | left   head       | left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)
+    -> carbon                    | right  other      | right orbicularis
+    -> sodium                    | left   face       | left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)
+    -> sulforaphane              | left   hip        | left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)
+    -> adapter_protein           | right  hand       | second finger on the right (inferred: right index finger distal phalanx)
+    -> aurora                    | center head       | outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)
+    -> glp1                      | center abdomen    | center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)
+    -> laterite                  | left   foot       | left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)
+    -> water_vapour              | center other      | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)
+    -> mangrove_aerenchyma       | right  chest      | opposite of heath aerenchyma on the right body (inferred: right upper rib cage / right 3rd-4th rib anterior)
+    -> water                     | unspecified face       | upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)
+  06:00 phase=A_accumulate
+    -> laterite                  | left   foot       | left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)
+    -> ferritin                  | center other      | just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)
+    -> pi_electron_cloud         | left   other      | left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)
+    -> cck                       | unspecified back       | back of the pancreas (inferred: pancreatic tail/body posterior)
+    -> actomyosin                | right  foot       | right thumb toe (inferred: right hallux / right 1st digit)
+    -> cytochrome_c_oxidase      | left   other      | inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)
+    -> methylation               | left   abdomen    | just above GLP-1 to the inner core of the left body, gap between lung rib and other organs (inferred: left upper abdomen / left hypochondrium between ribs and organs)
+    -> succinate_dehydrogenase   | right  head       | right pectoralis major (대흉문근) (inferred: right sternal head of pectoralis major)
+    -> male_right_oxytocin       | right  head       | muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)
+    -> sulfur_iron_complex       | left   arm        | inner of anterior right armpit near tendon, plus second locus near left outer thigh femoral nerve (inferred: right axillary tendon region AND left lateral thigh near femoral nerve)
+    -> quark_orogen_magma        | right  other      | right inner bum (inferred: right gluteal fold medial / right ischiorectal fossa upper)
+    -> right_acetylcholine       | right  other      | right temporalis inner strip, right acetylcholine switch (inferred: right temporalis muscle inner strip / right facial-vagal cholinergic cap)
+    -> carbon                    | right  other      | right orbicularis
+    -> glp1                      | center abdomen    | center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)
+    -> lower_mantle              | left   back       | opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)
+  12:00 phase=O_accumulate
+    -> memory_entropy            | right  other      | hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)
+    -> hind_insula               | right  other      | right posterior insula, lateral and posterior to memory_entropy
+    -> co2                       | left   back       | right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)
+    -> observer_leftd2           | left   other      | outer left frontalis
+    -> carbon                    | right  other      | right orbicularis
+    -> sodium                    | left   face       | left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)
+    -> clay_gouge                | right  other      | right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)
+    -> observer_left_endorphin_electron_antineutrino | left   head       | left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)
+    -> sulforaphane              | left   hip        | left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)
+    -> adapter_protein           | right  hand       | second finger on the right (inferred: right index finger distal phalanx)
+    -> aurora                    | center head       | outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)
+    -> glp1                      | center abdomen    | center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)
+    -> laterite                  | left   foot       | left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)
+    -> heath_aerenchyma          | left   chest      | left rib cage bone upper outside of manganese oxygen complex (inferred: left upper rib cage / left 3rd-4th rib anterior)
+    -> histosol                  | left   foot       | left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)
+  18:00 phase=B_accumulate
+    -> hind_insula               | right  other      | right posterior insula, lateral and posterior to memory_entropy
+    -> carbon                    | right  other      | right orbicularis
+    -> sodium                    | left   face       | left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)
+    -> sulforaphane              | left   hip        | left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)
+    -> adapter_protein           | right  hand       | second finger on the right (inferred: right index finger distal phalanx)
+    -> aurora                    | center head       | outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)
+    -> glp1                      | center abdomen    | center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)
+    -> laterite                  | left   foot       | left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)
+    -> heath_aerenchyma          | left   chest      | left rib cage bone upper outside of manganese oxygen complex (inferred: left upper rib cage / left 3rd-4th rib anterior)
+    -> histosol                  | left   foot       | left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)
+    -> pentose_phosphate         | right  other      | medial lower canthus right (inferred: right medial canthus / right lacrimal region)
+    -> left_genital_d2           | left   other      | left of the genital (inferred: left side of genitalia / left MPOA projection)
+    -> fold_belt                 | left   other      | opposite subduction zone on the left thigh (inferred: left medial thigh)
+    -> manganese_oxygen_complex  | left   chest      | left rib cage diagonal bone outside of lung (inferred: left anterior rib cage / left costal cartilage diagonal)
+    -> cysteine                  | right  brain      | right inner brain opposite sulforaphane on the front (inferred: right ventromedial prefrontal cortex / right anterior cingulate)
+  23:00 phase=AB_charge
+    -> co2                       | left   back       | right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)
+    -> hind_insula               | right  other      | right posterior insula, lateral and posterior to memory_entropy
+    -> observer_leftd2           | left   other      | outer left frontalis
+    -> clay_gouge                | right  other      | right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)
+    -> observer_left_endorphin_electron_antineutrino | left   head       | left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)
+    -> carbon                    | right  other      | right orbicularis
+    -> sodium                    | left   face       | left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)
+    -> sulforaphane              | left   hip        | left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)
+    -> adapter_protein           | right  hand       | second finger on the right (inferred: right index finger distal phalanx)
+    -> aurora                    | center head       | outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)
+    -> glp1                      | center abdomen    | center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)
+    -> laterite                  | left   foot       | left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)
+    -> water_vapour              | center other      | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)
+    -> mangrove_aerenchyma       | right  chest      | opposite of heath aerenchyma on the right body (inferred: right upper rib cage / right 3rd-4th rib anterior)
+    -> water                     | unspecified face       | upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)
+
+  [5] BLOOD TYPE CIRCULATION PATTERNS
+--------------------------------------------------------------------------------
+
+  BLOOD O  complexity=1  mode=single sequential loop
+    O-main:
+      -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+      -> observer_leftd2                     | outer left frontalis
+      -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+      -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 
+      -> heme                                | just inner to left nipple (inferred: left chest medial 
+      -> left_genital_d2                     | left of the genital (inferred: left side of genitalia /
+      -> gluon_orogen                        | left inner bum (inferred: left gluteal fold medial / le
+      -> laterite                            | left calf between thumb toe and magnetite (inferred: le
+      -> oxidised_manganese                  | left fourth toe (inferred: left 4th digit)
+      -> right_sole_dopamine                 | upper center of right sole (inferred: right plantar arc
+      -> copper_iron_complex                 | outside of right foot where pinky toe meets foot (infer
+      -> collagen                            | right Achilles tendon (inferred: right calcaneal tendon
+      -> subduction_zone                     | left outer femoral nerve or just outside that on the th
+      -> water_vapour                        | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spi
+      -> aurora                              | outlet of energy from the middle of the brain to the ve
+      -> co2                                 | right back of head on left inner occipitalis muscle ver
+
+  BLOOD A  complexity=2  mode=two antiphase streams
+    A-forward:
+      -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+      -> observer_leftd2                     | outer left frontalis
+      -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+      -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 
+      -> heme                                | just inner to left nipple (inferred: left chest medial 
+      -> left_genital_d2                     | left of the genital (inferred: left side of genitalia /
+      -> gluon_orogen                        | left inner bum (inferred: left gluteal fold medial / le
+      -> laterite                            | left calf between thumb toe and magnetite (inferred: le
+    A-return:
+      -> oxidised_manganese                  | left fourth toe (inferred: left 4th digit)
+      -> right_sole_dopamine                 | upper center of right sole (inferred: right plantar arc
+      -> copper_iron_complex                 | outside of right foot where pinky toe meets foot (infer
+      -> collagen                            | right Achilles tendon (inferred: right calcaneal tendon
+      -> subduction_zone                     | left outer femoral nerve or just outside that on the th
+      -> water_vapour                        | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spi
+      -> aurora                              | outlet of energy from the middle of the brain to the ve
+      -> co2                                 | right back of head on left inner occipitalis muscle ver
+
+  BLOOD B  complexity=3  mode=triple spiral
+    B-spiral-0:
+      -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+      -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 
+      -> gluon_orogen                        | left inner bum (inferred: left gluteal fold medial / le
+      -> right_sole_dopamine                 | upper center of right sole (inferred: right plantar arc
+      -> subduction_zone                     | left outer femoral nerve or just outside that on the th
+      -> co2                                 | right back of head on left inner occipitalis muscle ver
+      -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+      -> left_genital_d2                     | left of the genital (inferred: left side of genitalia /
+      -> oxidised_manganese                  | left fourth toe (inferred: left 4th digit)
+    B-spiral-1:
+      -> observer_leftd2                     | outer left frontalis
+      -> heme                                | just inner to left nipple (inferred: left chest medial 
+      -> laterite                            | left calf between thumb toe and magnetite (inferred: le
+      -> copper_iron_complex                 | outside of right foot where pinky toe meets foot (infer
+      -> water_vapour                        | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spi
+      -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+      -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 
+      -> gluon_orogen                        | left inner bum (inferred: left gluteal fold medial / le
+      -> right_sole_dopamine                 | upper center of right sole (inferred: right plantar arc
+    B-spiral-2:
+      -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+      -> left_genital_d2                     | left of the genital (inferred: left side of genitalia /
+      -> oxidised_manganese                  | left fourth toe (inferred: left 4th digit)
+      -> collagen                            | right Achilles tendon (inferred: right calcaneal tendon
+      -> aurora                              | outlet of energy from the middle of the brain to the ve
+      -> observer_leftd2                     | outer left frontalis
+      -> heme                                | just inner to left nipple (inferred: left chest medial 
+      -> laterite                            | left calf between thumb toe and magnetite (inferred: le
+      -> copper_iron_complex                 | outside of right foot where pinky toe meets foot (infer
+
+  BLOOD AB  complexity=4  mode=4-quadrant spark discharge
+    AB-quadrant-0:
+      -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+      -> heme                                | just inner to left nipple (inferred: left chest medial 
+      -> oxidised_manganese                  | left fourth toe (inferred: left 4th digit)
+      -> subduction_zone                     | left outer femoral nerve or just outside that on the th
+      -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+    AB-quadrant-1:
+      -> observer_leftd2                     | outer left frontalis
+      -> left_genital_d2                     | left of the genital (inferred: left side of genitalia /
+      -> right_sole_dopamine                 | upper center of right sole (inferred: right plantar arc
+      -> water_vapour                        | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spi
+      -> observer_leftd2                     | outer left frontalis
+    AB-quadrant-2:
+      -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+      -> gluon_orogen                        | left inner bum (inferred: left gluteal fold medial / le
+      -> copper_iron_complex                 | outside of right foot where pinky toe meets foot (infer
+      -> aurora                              | outlet of energy from the middle of the brain to the ve
+      -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+    AB-quadrant-3:
+      -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 
+      -> laterite                            | left calf between thumb toe and magnetite (inferred: le
+      -> collagen                            | right Achilles tendon (inferred: right calcaneal tendon
+      -> co2                                 | right back of head on left inner occipitalis muscle ver
+      -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 
+
+  [6] 128-SLOT BODY TIMELINE
+--------------------------------------------------------------------------------
+  Slot Phase            Type         Entity                         BodyLoc                                  Loop#
+  ------------------------------------------------------------------------------
+     1 AB_Discharge     ENTP_AB_M    heme.out1                      just inner to left nipple (inferred: lef     3
+        release: hyperpop-adjacent                   P=1.00 Z=0.70 Q=0.75 W=0.95 H=0.70
+        stress:  noise pop; glitch opera            
+        extreme: big beat; IDM                      
+     2 AB_Discharge     INTP_AB_M    water_vapour.out1              thoracic spinous processes (흉추돌기) (infer    12
+        release: britpop classic                     P=0.83 Z=0.20 Q=0.65 W=0.80 H=0.30
+        stress:  harsh noise wall; musique concrète 
+        extreme: synthwave; progressive rock        
+     3 AB_Discharge     ENTJ_AB_M    podzol                         left hip, inverse reciprocal of methioni  None
+        release: indietronica                        P=0.40 Z=0.25 Q=0.30 W=0.60 H=0.40
+        stress:  avant-garde classical; contemporary classical
+        extreme: prog metal; tool-adjacent          
+     4 AB_Discharge     INTJ_AB_M    lower_mantle.q_bar             opposite craton on left back (inferred:   None
+        release: dance rock                          P=0.72 Z=0.35 Q=0.50 W=0.80 H=0.40
+        stress:  contemporary classical; neo-classical
+        extreme: minimalistic ambient; drone        
+     5 AB_Discharge     ENTP_AB_F    oxidised_manganese.out0        left fourth toe (inferred: left 4th digi     7
+        release: classic rock structured             P=0.55 Z=0.15 Q=0.50 W=0.50 H=0.45
+        stress:  noise; glitch                      
+        extreme: space rock; new wave               
+     6 AB_Discharge     ENFP_AB_M    pi_electron_cloud              left throat anterior (inferred: left ant     2
+        release: post rock                           P=0.25 Z=0.30 Q=0.65 W=0.20 H=0.55
+        stress:  free jazz; noise pop               
+        extreme: indie pop; psychedelic pop         
+     7 AB_Discharge     INTP_AB_F    sodium                         left outside of left endorphin on orbicu  None
+        release: noise pop                           P=0.50 Z=0.45 Q=0.65 W=0.40 H=0.65
+        stress:  musique concrète; noise ambient    
+        extreme: art pop; orchestral pop            
+     8 AB_Discharge     INFP_AB_M    methylation.out1               just above GLP-1 to the inner core of th  None
+        release: classic rock                        P=0.65 Z=0.25 Q=0.65 W=0.70 H=0.55
+        stress:  noise folk; free improvisation     
+        extreme: britpop; alternative rock          
+     9 AB_Discharge     ENTJ_AB_F    sulfur_iron_complex.out1       inner of anterior right armpit near tend  None
+        release: contemporary dance music            P=0.90 Z=0.50 Q=0.90 W=0.85 H=0.40
+        stress:  noise; free improvisation          
+        extreme: power pop; art rock                
+    10 AB_Discharge     INTJ_AB_F    glp1.q_bar                     center of triangle made by acetyl-CoA, f  None
+        release: experimental contemporary classical P=0.45 Z=0.80 Q=0.70 W=0.70 H=1.00
+        stress:  noise pop; deconstructed club      
+        extreme: drone; minimalistic ambient        
+    11 AB_Discharge     ENFJ_AB_M    pentose_phosphate.out_2        medial lower canthus right (inferred: ri  None
+        release: ghibli-adjacent                     P=0.20 Z=0.20 Q=0.25 W=0.55 H=0.15
+        stress:  free jazz; avant-garde             
+        extreme: soul; cinematic                    
+    12 AB_Discharge     ENFP_AB_F    substance_p.out_autophagy      under right armpit (inferred: right axil  None
+        release: lofi hip hop                        P=0.45 Z=0.30 Q=0.20 W=0.50 H=0.40
+        stress:  freak folk; experimental pop       
+        extreme: indie pop; space rock              
+    13 AB_Discharge     INFJ_AB_M    fold_belt                      opposite subduction zone on the left thi  None
+        release: noise ambient                       P=0.25 Z=0.60 Q=0.65 W=0.15 H=0.70
+        stress:  free improvisation; noise ambient  
+        extreme: dark ambient; drone                
+    14 AB_Discharge     INFP_AB_F    NaCl.out1                                                                None
+        release: symphonic metal                     P=0.45 Z=0.50 Q=0.50 W=0.35 H=0.75
+        stress:  experimental ambient; contemporary classical
+        extreme: britpop; indie rock                
+    15 AB_Discharge     ESTP_AB_M    fold_belt.out1                 opposite subduction zone on the left thi  None
+        release: dance pop                           P=0.85 Z=0.20 Q=0.70 W=0.85 H=0.30
+        stress:  jazz experimental; free jazz       
+        extreme: drone; minimalistic ambient        
+    16 AB_Discharge     ENFJ_AB_F    peonidine.out1                 just outside co2 to the right in the bra  None
+        release: dream pop                           P=0.25 Z=0.40 Q=0.55 W=0.45 H=0.30
+        stress:  free jazz; avant-garde pop         
+        extreme: dream pop; ethereal                
+    17 A_Accumulate     ENTP_A_M     magnetite.out0                 inside of left knee joint (inferred: lef  None
+        release: 4AD shoegaze                        P=0.20 Z=0.50 Q=0.45 W=0.40 H=0.50
+        stress:  autechre; IDM                      
+        extreme: big beat; breakbeat                
+    18 A_Accumulate     INTP_A_M     cytochrome_c_oxidase.out1      inner surface of intestine in the left (  None
+        release: country rock                        P=0.45 Z=0.20 Q=0.55 W=0.35 H=0.15
+        stress:  boards of canada; BoC-adjacent electronica
+        extreme: britpop; alternative rock          
+    19 A_Accumulate     ENTJ_A_M     collagen                       right Achilles tendon (inferred: right c    10
+        release: folk rock                           P=0.50 Z=0.20 Q=0.35 W=0.65 H=0.25
+        stress:  prog metal; symphonic metal        
+        extreme: ambient; drone                     
+    20 A_Accumulate     INTJ_A_M     copper_iron_complex            outside of right foot where pinky toe me     9
+        release: cinematic folk                      P=0.20 Z=0.15 Q=0.45 W=0.30 H=0.25
+        stress:  industrial electronic; EBM         
+        extreme: minimalistic ambient; dark ambient 
+    21 A_Accumulate     ENTP_A_F     mc1r                           just below GDH on left waist (inferred:   None
+        release: acoustic pop                        P=0.40 Z=0.05 Q=0.20 W=0.70 H=0.05
+        stress:  space rock without stoner; noise pop
+        extreme: synth pop; big beat                
+    22 A_Accumulate     ENFP_A_M     hind_insula                    right posterior insula, lateral and post  None
+        release: dark ambient                        P=0.00 Z=0.50 Q=0.05 W=0.10 H=0.55
+        stress:  space rock with stoner; indie psych
+        extreme: experimental; drone                
+    23 A_Accumulate     INTP_A_F     subduction_zone.out1           left outer femoral nerve or just outside    11
+        release: indie folk                          P=0.27 Z=0.05 Q=0.25 W=0.40 H=0.30
+        stress:  post rock; shoegaze                
+        extreme: art pop; chamber pop               
+    24 A_Accumulate     INFP_A_M     gluon_orogen                   left inner bum (inferred: left gluteal f     5
+        release: R&B experimental                    P=0.47 Z=0.75 Q=0.45 W=0.60 H=0.80
+        stress:  boards of canada; hauntology       
+        extreme: experimental classical; post rock  
+    25 A_Accumulate     ENTJ_A_F     oxidised_manganese             left fourth toe (inferred: left 4th digi     7
+        release: hyperpop                            P=1.00 Z=0.70 Q=0.90 W=1.00 H=0.70
+        stress:  symphonic; prog                    
+        extreme: ambient; folk                      
+    26 A_Accumulate     INTJ_A_F     right_sole_dopamine            upper center of right sole (inferred: ri     8
+        release: freak folk                          P=0.38 Z=0.40 Q=0.55 W=0.60 H=0.65
+        stress:  kate bush; art pop                 
+        extreme: drone; dark ambient                
+    27 A_Accumulate     ENFJ_A_M     glymphatic_system                                                        None
+        release: classic rock female                 P=0.72 Z=0.10 Q=0.45 W=0.70 H=0.30
+        stress:  progressive soul; jazz fusion      
+        extreme: ambient; minimalistic              
+    28 A_Accumulate     ENFP_A_F     quark_orogen_magma.out0        right inner bum (inferred: right gluteal  None
+        release: chamber pop                         P=0.55 Z=0.35 Q=0.45 W=0.70 H=0.35
+        stress:  noise rock; psychedelic rock       
+        extreme: indie folk; dream pop              
+    29 A_Accumulate     INFJ_A_M     aurora                         outlet of energy from the middle of the     13
+        release: hardcore                            P=0.85 Z=0.30 Q=0.80 W=0.45 H=0.50
+        stress:  power electronics; industrial      
+        extreme: ghibli; indie folk                 
+    30 A_Accumulate     INFP_A_F     large_igneous_province.out0    midway between thoracic spinous processe  None
+        release: ambient pop                         P=0.20 Z=0.30 Q=0.20 W=0.60 H=0.40
+        stress:  ghibli-adjacent; neo-classical     
+        extreme: indie folk; britpop                
+    31 A_Accumulate     ESTP_A_M     co2                            right back of head on left inner occipit    14
+        release: extreme metal                       P=1.00 Z=0.75 Q=0.95 W=0.45 H=0.90
+        stress:  thrash metal; heavy psych          
+        extreme: neo-classical; minimalistic ambient
+    32 A_Accumulate     ENFJ_A_F     lactate_dehydrogenase.out1     left pectoralis major (대흉문근) (inferred:   None
+        release: progressive rock                    P=0.70 Z=0.60 Q=0.70 W=0.70 H=0.55
+        stress:  art pop; orchestral                
+        extreme: soul; gospel                       
+    33 A_Accumulate     ISTP_A_M     steel                          left anus muscle / rectum (직장) (inferred  None
+        release: aero ambient                        P=0.30 Z=0.30 Q=0.45 W=0.45 H=0.10
+        stress:  heavy psych; fuzz rock             
+        extreme: ambient; minimalistic              
+    34 A_Accumulate     INFJ_A_F     LeftD2                                                                   None
+        release: hard rock                           P=0.73 Z=0.20 Q=0.65 W=0.65 H=0.50
+        stress:  björk; art pop experimental        
+        extreme: dark ambient; drone                
+    35 A_Accumulate     ESTP_A_F     actomyosin_ctrl.out            right thumb toe (inferred: right hallux   None
+        release: psychedelic funk                    P=0.62 Z=0.55 Q=0.55 W=0.65 H=0.60
+        stress:  no wave; noise pop                 
+        extreme: indie folk; acoustic               
+    36 A_Accumulate     ESTJ_A_M     memory_entropy.out_hind_insula hind of cysteine; choice point between c    15
+        release: new minimalism                      P=0.15 Z=0.35 Q=0.20 W=0.50 H=0.30
+        stress:  prog metal; technical metal        
+        extreme: ambient; folk                      
+    37 A_Accumulate     ISTP_A_F     manganese_oxygen_complex       left rib cage diagonal bone outside of l  None
+        release: glitch opera                        P=0.67 Z=0.95 Q=0.70 W=0.55 H=0.70
+        stress:  psychedelic folk; shoegaze         
+        extreme: acoustic; ambient                  
+    38 A_Accumulate     ISTJ_A_M     succinate_dehydrogenase        right pectoralis major (대흉문근) (inferred:  None
+        release: new age                             P=0.35 Z=0.25 Q=0.40 W=0.30 H=0.15
+        stress:  technical metal; prog metal        
+        extreme: orchestral pop; art pop            
+    39 A_Accumulate     ESTJ_A_F     memory_entropy.out_co2         hind of cysteine; choice point between c    15
+        release: cocteau twins                       P=0.25 Z=0.30 Q=0.45 W=0.55 H=0.45
+        stress:  post-punk; rock                    
+        extreme: folk; acoustic                     
+    40 A_Accumulate     ESFP_A_M     chlorine_ion_pump.out1         right inner wrist where the watch face c  None
+        release: indie rock                          P=0.80 Z=0.15 Q=0.70 W=0.65 H=0.35
+        stress:  funk; R&B                          
+        extreme: ambient; lo-fi                     
+    41 A_Accumulate     ISTJ_A_F     sulfur_iron_complex            inner of anterior right armpit near tend  None
+        release: indie psych                         P=0.53 Z=0.45 Q=0.65 W=0.60 H=0.60
+        stress:  post-punk; new wave                
+        extreme: chamber pop; orchestral pop        
+    42 A_Accumulate     ISFP_A_M     NaCl                                                                     None
+        release: metal                               P=0.72 Z=0.55 Q=0.65 W=0.25 H=0.80
+        stress:  shoegaze; post-britpop             
+        extreme: ambient; post rock                 
+    43 A_Accumulate     ESFP_A_F     outer_core_convection          crossroad between gluon orogen and podzo  None
+        release: lo-fi rock                          P=0.75 Z=0.20 Q=0.60 W=0.60 H=0.25
+        stress:  dance pop; electropop              
+        extreme: ambient; dream pop                 
+    44 A_Accumulate     ESFJ_A_M     cytochrome_c_oxidase           inner surface of intestine in the left (  None
+        release: glam rock                           P=0.85 Z=0.20 Q=0.70 W=0.75 H=0.55
+        stress:  arena rock; classic rock           
+        extreme: ambient; folk                      
+    45 A_Accumulate     ISFP_A_F     gluon_orogen.q_bar             left inner bum (inferred: left gluteal f     5
+        release: drone                               P=0.05 Z=0.80 Q=0.00 W=0.25 H=0.90
+        stress:  dream pop; noise pop               
+        extreme: britpop; indie folk                
+    46 A_Accumulate     ESFJ_A_F     pyrite                         between actomyosin and right sole dopami  None
+        release: funk                                P=0.67 Z=0.35 Q=0.55 W=0.50 H=0.40
+        stress:  indie pop; chamber pop             
+        extreme: experimental; ambient              
+    47 A_Accumulate     ISFJ_A_M     laterite                       left calf between thumb toe and magnetit     6
+        release: industrial electronic               P=1.00 Z=0.75 Q=0.90 W=0.90 H=0.75
+        stress:  arena rock; classic rock           
+        extreme: orchestral pop; chamber pop        
+    48 A_Accumulate     ISFJ_A_F     craton.out1                    above quark orogen magma (inferred: righ  None
+        release: dance                               P=0.85 Z=0.25 Q=0.65 W=0.90 H=0.25
+        stress:  art pop; orchestral pop            
+        extreme: orchestral pop; neo-classical      
+    49 O_Accumulate     ENTP_O_M     outer_core_convection.out0     crossroad between gluon orogen and podzo  None
+        release: city pop                            P=0.70 Z=0.25 Q=0.40 W=0.70 H=0.25
+        stress:  industrial electronic; EBM         
+        extreme: experimental classical; drone      
+    50 O_Accumulate     INTP_O_M     thorium                        just inner to center of body where it di  None
+        release: electronic dance                    P=0.85 Z=0.30 Q=0.80 W=0.75 H=0.45
+        stress:  synthwave; krautrock               
+        extreme: britpop; indie folk                
+    51 O_Accumulate     ENTJ_O_M     memory_entropy                 hind of cysteine; choice point between c    15
+        release: pop country                         P=0.65 Z=0.10 Q=0.35 W=0.65 H=0.15
+        stress:  death metal; extreme metal         
+        extreme: ambient; minimalistic              
+    52 O_Accumulate     INTJ_O_M     basin.q                        just inside posterior exterior left wais  None
+        release: black metal                         P=1.00 Z=0.60 Q=0.85 W=0.30 H=1.00
+        stress:  drone; dark ambient                
+        extreme: lofi hip hop; nujabes              
+    53 O_Accumulate     ENTP_O_F     cck                            back of the pancreas (inferred: pancreat  None
+        release: drone metal                         P=0.40 Z=0.95 Q=0.70 W=0.20 H=1.00
+        stress:  space rock; krautrock              
+        extreme: IDM; experimental electronic       
+    54 O_Accumulate     ENFP_O_M     heme                           just inner to left nipple (inferred: lef     3
+        release: noise rock                          P=0.95 Z=0.55 Q=0.80 W=0.65 H=0.85
+        stress:  space rock with stoner; krautrock  
+        extreme: experimental classical; drone      
+    55 O_Accumulate     INTP_O_F     nitrogenase.out_2                                                        None
+        release: prog rock                           P=0.70 Z=0.60 Q=0.70 W=0.70 H=0.45
+        stress:  shoegaze; post rock                
+        extreme: soul; indie pop                    
+    56 O_Accumulate     INFP_O_M     histosol.out1                  left outside of left foot just hind to o  None
+        release: power electronics                   P=0.62 Z=0.90 Q=0.80 W=0.65 H=1.00
+        stress:  radiohead; post-britpop art rock   
+        extreme: experimental classical; drone      
+    57 O_Accumulate     ENTJ_O_F     steel.out1                     left anus muscle / rectum (직장) (inferred  None
+        release: witch house                         P=0.57 Z=0.60 Q=0.50 W=0.35 H=0.80
+        stress:  metal; hard rock                   
+        extreme: ambient; minimalistic              
+    58 O_Accumulate     INTJ_O_F     autophagy.out0                                                           None
+        release: soft rock                           P=0.65 Z=0.00 Q=0.50 W=0.65 H=0.15
+        stress:  power electronics; industrial      
+        extreme: lofi nujabes; ghibli-adjacent      
+    59 O_Accumulate     ENFJ_O_M     sulforaphane                   left inner brain next to hippocampus (in  None
+        release: prog                                P=0.80 Z=0.55 Q=0.70 W=0.70 H=0.40
+        stress:  jazz fusion; progressive soul      
+        extreme: experimental classical; drone      
+    60 O_Accumulate     ENFP_O_F     co2.out0                       right back of head on left inner occipit    14
+        release: ambient electronica                 P=0.00 Z=0.30 Q=0.10 W=0.15 H=0.45
+        stress:  space rock with stoner; shoegaze   
+        extreme: experimental; dark ambient         
+    61 O_Accumulate     INFJ_O_M     cysteine                       right inner brain opposite sulforaphane   None
+        release: art rock                            P=0.72 Z=0.45 Q=0.60 W=0.68 H=0.70
+        stress:  drone; minimalistic ambient        
+        extreme: lofi hip hop; britpop              
+    62 O_Accumulate     INFP_O_F     ferritin.out0                  just inner to heme in the middle of the   None
+        release: technical metal                     P=0.95 Z=0.65 Q=0.55 W=0.55 H=0.90
+        stress:  dream pop; shoegaze                
+        extreme: experimental classical; drone      
+    63 O_Accumulate     ESTP_O_M     water_vapour                   thoracic spinous processes (흉추돌기) (infer    12
+        release: pop rock                            P=0.80 Z=0.20 Q=0.65 W=0.85 H=0.15
+        stress:  hardcore; punk                     
+        extreme: indie folk; minimalistic ambient   
+    64 O_Accumulate     ENFJ_O_F     subduction_zone                left outer femoral nerve or just outside    11
+        release: indie pop                           P=0.40 Z=0.10 Q=0.25 W=0.70 H=0.35
+        stress:  jazz; R&B experimental             
+        extreme: ambient; drone                     
+    65 O_Accumulate     ISTP_O_M     mc1r.q_bar                     just below GDH on left waist (inferred:   None
+        release: experimental rock                   P=0.80 Z=0.50 Q=0.75 W=0.75 H=0.70
+        stress:  doom metal; sludge                 
+        extreme: psychedelic rock; ambient          
+    66 O_Accumulate     INFJ_O_F     basin                          just inside posterior exterior left wais  None
+        release: progressive soul                    P=0.70 Z=0.35 Q=0.70 W=0.65 H=0.45
+        stress:  dark ambient; drone                
+        extreme: indie folk; ghibli                 
+    67 O_Accumulate     ESTP_O_F     adapter_protein                second finger on the right (inferred: ri  None
+        release: dream pop experimental              P=0.50 Z=0.45 Q=0.35 W=0.75 H=0.40
+        stress:  electropop; synth pop              
+        extreme: dream pop; indie folk              
+    68 O_Accumulate     ESTJ_O_M     pyrite.out1                    between actomyosin and right sole dopami  None
+        release: synth pop                           P=0.88 Z=0.15 Q=0.70 W=0.80 H=0.25
+        stress:  metal; prog rock                   
+        extreme: ambient; minimalistic              
+    69 O_Accumulate     ISTP_O_F     lower_mantle.q                 opposite craton on left back (inferred:   None
+        release: weird pop                           P=0.50 Z=0.45 Q=0.45 W=0.80 H=0.60
+        stress:  stoner rock; heavy blues           
+        extreme: ambient; acoustic folk             
+    70 O_Accumulate     ISTJ_O_M     water_vapour.out0              thoracic spinous processes (흉추돌기) (infer    12
+        release: tool-adjacent                       P=0.73 Z=0.55 Q=0.80 W=0.45 H=0.65
+        stress:  blues rock; southern rock          
+        extreme: soul; gospel                       
+    71 O_Accumulate     ESTJ_O_F     aurora.out0                    outlet of energy from the middle of the     13
+        release: ethereal wave                       P=0.18 Z=0.25 Q=0.40 W=0.50 H=0.30
+        stress:  rock; blues rock                   
+        extreme: ambient; folk                      
+    72 O_Accumulate     ESFP_O_M     subduction_zone.out0           left outer femoral nerve or just outside    11
+        release: experimental hip hop                P=0.83 Z=0.60 Q=0.70 W=0.70 H=0.50
+        stress:  dance; electronic dance            
+        extreme: ambient; post rock                 
+    73 O_Accumulate     ISTJ_O_F     adapter_protein.q_bar          second finger on the right (inferred: ri  None
+        release: pop soul                            P=0.50 Z=0.02 Q=0.40 W=0.73 H=0.13
+        stress:  indie pop; folk rock               
+        extreme: soul; gospel                       
+    74 O_Accumulate     ISFP_O_M     laterite.q_bar                 left calf between thumb toe and magnetit     6
+        release: baroque pop                         P=0.48 Z=0.40 Q=0.55 W=0.75 H=0.60
+        stress:  shoegaze; alternative rock         
+        extreme: experimental; ambient              
+    75 O_Accumulate     ESFP_O_F     pentose_phosphate              medial lower canthus right (inferred: ri  None
+        release: IDM                                 P=0.60 Z=0.45 Q=0.55 W=0.75 H=0.45
+        stress:  synth pop; dance pop               
+        extreme: ambient; acoustic folk             
+    76 O_Accumulate     ESFJ_O_M     methylation                    just above GLP-1 to the inner core of th  None
+        release: orchestral pop                      P=0.53 Z=0.20 Q=0.65 W=0.80 H=0.55
+        stress:  hard rock; southern rock           
+        extreme: ambient; minimalistic              
+    77 O_Accumulate     ISFP_O_F     manganese_nodule                                                         None
+        release: acoustic folk                       P=0.17 Z=0.07 Q=0.25 W=0.20 H=0.27
+        stress:  dream pop; shoegaze                
+        extreme: britpop; alternative               
+    78 O_Accumulate     ESFJ_O_F     right_acetylcholine            right temporalis inner strip, right acet  None
+        release: prog metal                          P=0.95 Z=0.55 Q=0.75 W=0.55 H=0.80
+        stress:  folk rock; americana               
+        extreme: experimental; drone                
+    79 O_Accumulate     ISFJ_O_M     none_observer                                                            None
+        release: fuzz rock                           P=0.53 Z=0.30 Q=0.65 W=0.30 H=0.55
+        stress:  hard rock; classic rock            
+        extreme: soul; gospel                       
+    80 O_Accumulate     ISFJ_O_F     disulfide_bond                 hind of cysteine; choice point between c  None
+        release: PC Music                            P=0.40 Z=0.55 Q=0.50 W=0.25 H=0.55
+        stress:  indie pop; singer-songwriter       
+        extreme: dream pop; soul                    
+    81 B_Accumulate     ENTP_B_M     plume_out0_nand                just outside opposite of thorium on righ  None
+        release: doom metal                          P=0.50 Z=0.55 Q=0.65 W=0.25 H=0.80
+        stress:  noise; harsh electronica           
+        extreme: big beat; industrial               
+    82 B_Accumulate     INTP_B_M     carbon.q                       right orbicularis                         None
+        release: lo-fi indie                         P=0.42 Z=0.15 Q=0.35 W=0.60 H=0.50
+        stress:  experimental contemporary classical; glitch
+        extreme: post rock; shoegaze                
+    83 B_Accumulate     ENTJ_B_M     male_right_oxytocin            muscle that links ear to the head, auric  None
+        release: experimental ambient                P=0.00 Z=0.50 Q=0.10 W=0.20 H=0.45
+        stress:  grindcore; black metal             
+        extreme: orchestral; cinematic              
+    84 B_Accumulate     INTJ_B_M     substance_p                    under right armpit (inferred: right axil  None
+        release: experimental folk                   P=0.40 Z=0.40 Q=0.30 W=0.50 H=0.55
+        stress:  harsh noise; power electronics     
+        extreme: lofi nujabes; minimalistic ambient 
+    85 B_Accumulate     ENTP_B_F     actomyosin                     right thumb toe (inferred: right hallux   None
+        release: mac demarco                         P=0.35 Z=0.35 Q=0.30 W=0.45 H=0.50
+        stress:  noise rock; sonic youth adjacent   
+        extreme: IDM; electronic experimental       
+    86 B_Accumulate     ENFP_B_M     glp1                           center of triangle made by acetyl-CoA, f  None
+        release: stoner rock                         P=0.60 Z=0.45 Q=0.70 W=0.50 H=0.70
+        stress:  krautrock; cosmic rock             
+        extreme: indie folk; singer-songwriter      
+    87 B_Accumulate     INTP_B_F     water                          upper philtrum halfway between nose and     12
+        release: triphop                             P=0.37 Z=0.30 Q=0.50 W=0.30 H=0.60
+        stress:  experimental classical; lowercase noise
+        extreme: indie folk; shoegaze               
+    88 B_Accumulate     INFP_B_M     sodium.out1                    left outside of left endorphin on orbicu  None
+        release: hans zimmer                         P=0.53 Z=0.25 Q=0.70 W=0.70 H=0.60
+        stress:  experimental ambient; lowercase    
+        extreme: britpop; indie folk                
+    89 B_Accumulate     ENTJ_B_F     magnetite                      inside of left knee joint (inferred: lef  None
+        release: neo-soul                            P=0.52 Z=0.25 Q=0.45 W=0.45 H=0.45
+        stress:  power electronics; noise           
+        extreme: orchestral; art rock               
+    90 B_Accumulate     INTJ_B_F     lactate_dehydrogenase          left pectoralis major (대흉문근) (inferred:   None
+        release: experimental pop                    P=0.80 Z=0.60 Q=0.65 W=0.75 H=0.55
+        stress:  arca; kelela                       
+        extreme: drone; minimalistic ambient        
+    91 B_Accumulate     ENFJ_B_M     carbon.q_bar                   right orbicularis                         None
+        release: arena rock                          P=0.83 Z=0.20 Q=0.65 W=0.80 H=0.45
+        stress:  experimental R&B; free jazz        
+        extreme: soul; gospel                       
+    92 B_Accumulate     ENFP_B_F     ferritin.out1                  just inner to heme in the middle of the   None
+        release: shoegaze                            P=0.17 Z=0.40 Q=0.40 W=0.35 H=0.60
+        stress:  space rock; psychedelic            
+        extreme: indie folk; dream pop              
+    93 B_Accumulate     INFJ_B_M     podzol.out1                    left hip, inverse reciprocal of methioni  None
+        release: experimental electronic             P=0.85 Z=0.60 Q=0.70 W=0.70 H=0.65
+        stress:  free jazz; post-punk experimental  
+        extreme: dark ambient; neo-classical        
+    94 B_Accumulate     INFP_B_F     co2.out1                       right back of head on left inner occipit    14
+        release: sludge metal                        P=0.65 Z=0.55 Q=0.75 W=0.30 H=0.85
+        stress:  ghibli; neo-classical              
+        extreme: indie folk; singer-songwriter      
+    95 B_Accumulate     ESTP_B_M     male_right_oxytocin.q_bar      muscle that links ear to the head, auric  None
+        release: hip hop                             P=0.70 Z=0.40 Q=0.55 W=0.75 H=0.60
+        stress:  grindcore; noise rock              
+        extreme: dark ambient; drone                
+    96 B_Accumulate     ENFJ_B_F     caco3                          outside of right knee (inferred: right l  None
+        release: britpop                             P=0.83 Z=0.20 Q=0.65 W=0.70 H=0.30
+        stress:  experimental R&B; avant-pop        
+        extreme: dream pop; indie folk              
+    97 B_Accumulate     ISTP_B_M     methanogenesis                                                           None
+        release: death metal                         P=0.90 Z=0.55 Q=0.90 W=0.45 H=0.65
+        stress:  noise rock; power electronics      
+        extreme: psychedelic rock; stoner           
+    98 B_Accumulate     INFJ_B_F     histosol                       left outside of left foot just hind to o  None
+        release: ambient                             P=0.00 Z=0.05 Q=0.00 W=0.25 H=0.10
+        stress:  björk; arca                        
+        extreme: ghibli; neo-classical              
+    99 B_Accumulate     ESTJ_B_M     chlorine_ion_pump              right inner wrist where the watch face c  None
+        release: post-britpop art rock               P=0.63 Z=0.35 Q=0.65 W=0.75 H=0.50
+        stress:  death metal; grindcore             
+        extreme: classic rock; prog                 
+   100 B_Accumulate     ESTP_B_F     water.out0                     upper philtrum halfway between nose and     12
+        release: conventional classical              P=0.40 Z=0.40 Q=0.70 W=0.50 H=0.40
+        stress:  noise rock; hardcore               
+        extreme: ethereal wave; dream pop           
+   101 B_Accumulate     ISTP_B_F     lower_mantle                   opposite craton on left back (inferred:   None
+        release: no wave                             P=0.70 Z=0.75 Q=0.75 W=0.55 H=0.75
+        stress:  psychedelic folk; blues experimental
+        extreme: psychedelic rock; stoner           
+   102 B_Accumulate     ISTJ_B_M     nitrogenase                                                              None
+        release: death metal instrumental            P=0.90 Z=0.55 Q=0.90 W=0.40 H=0.75
+        stress:  death metal; grindcore             
+        extreme: funk; soul                         
+   103 B_Accumulate     ESTJ_B_F     actomyosin.out1                right thumb toe (inferred: right hallux   None
+        release: neo-classical pop                   P=0.20 Z=0.25 Q=0.45 W=0.55 H=0.45
+        stress:  noise rock; hardcore               
+        extreme: country rock; folk                 
+   104 B_Accumulate     ESFP_B_M     left_endorphin_electron_neutrino.out0                                           None
+        release: folk                                P=0.45 Z=0.12 Q=0.18 W=0.43 H=0.23
+        stress:  drill; experimental hip hop        
+        extreme: soul; funk                         
+   105 B_Accumulate     ISTJ_B_F     craton.out0                    above quark orogen magma (inferred: righ  None
+        release: contemporary classical              P=0.20 Z=0.60 Q=0.60 W=0.45 H=0.65
+        stress:  noise rock; hardcore               
+        extreme: dream pop; indie folk              
+   106 B_Accumulate     ISFP_B_M     heath_aerenchyma.out0          left rib cage bone upper outside of mang  None
+        release: edm                                 P=0.77 Z=0.10 Q=0.75 W=0.70 H=0.40
+        stress:  lo-fi indie; slacker rock          
+        extreme: britpop; oasis-adjacent            
+   107 B_Accumulate     ESFP_B_F     craton                         above quark orogen magma (inferred: righ  None
+        release: electronic experimental             P=0.85 Z=0.65 Q=0.70 W=0.70 H=0.60
+        stress:  experimental pop; hyperpop         
+        extreme: dream pop; indie folk              
+   108 B_Accumulate     ESFJ_B_M     monazite_thorium_and           just inner to center of body where it di  None
+        release: technical instrumental metal        P=1.00 Z=0.80 Q=0.75 W=0.55 H=0.75
+        stress:  soul; R&B                          
+        extreme: folk; acoustic                     
+   109 B_Accumulate     ISFP_B_F     mycorradicin.out0                                                        None
+        release: chillstep                           P=0.40 Z=0.30 Q=0.40 W=0.35 H=0.65
+        stress:  shoegaze; dream pop experimental   
+        extreme: indie folk; acoustic               
+   110 B_Accumulate     ESFJ_B_F     manganese_nodule.q_bar                                                   None
+        release: ethereal                            P=0.10 Z=0.40 Q=0.20 W=0.50 H=0.40
+        stress:  synth pop; dance pop               
+        extreme: folk; acoustic                     
+   111 B_Accumulate     ISFJ_B_M     basin.q_bar                    just inside posterior exterior left wais  None
+        release: emotional hip hop                   P=0.45 Z=0.45 Q=0.45 W=0.55 H=0.40
+        stress:  R&B; jazz fusion                   
+        extreme: gospel; classic R&B                
+   112 B_Accumulate     ISFJ_B_F     large_igneous_province         midway between thoracic spinous processe  None
+        release: BoC-adjacent electronica            P=0.40 Z=0.55 Q=0.40 W=0.50 H=0.40
+        stress:  shoegaze; ethereal wave            
+        extreme: art pop; neo-classical             
+   113 AB_Accumulate    ISTP_AB_M    monazite                                                                 None
+        release: fever ray                           P=0.65 Z=0.75 Q=0.65 W=0.50 H=0.80
+        stress:  noise; free improvisation          
+        extreme: psychedelic rock; stoner           
+   114 AB_Accumulate    INFJ_AB_F    andosol.out0                   between left sole and oxidised manganese  None
+        release: ghibli                              P=0.40 Z=0.20 Q=0.25 W=0.45 H=0.40
+        stress:  arca; deconstructed club           
+        extreme: indie folk; singer-songwriter      
+   115 AB_Accumulate    ESTP_AB_F    right_sole_dopamine.q_bar      upper center of right sole (inferred: ri     8
+        release: ambient jazz                        P=0.05 Z=0.45 Q=0.20 W=0.40 H=0.45
+        stress:  experimental pop; hyperpop         
+        extreme: neo-classical; minimalistic ambient
+   116 AB_Accumulate    ESTJ_AB_M    methionine                     right exterior of hip where Jesus got st  None
+        release: k-pop structured                    P=0.90 Z=0.10 Q=0.75 W=1.00 H=0.10
+        stress:  jazz experimental; free jazz       
+        extreme: classic rock; hard rock            
+   117 AB_Accumulate    ISTP_AB_F    cambisol                       inner side of both Achilles tendons (inf  None
+        release: thrash metal                        P=0.95 Z=0.35 Q=0.55 W=0.60 H=0.75
+        stress:  noise folk; math rock              
+        extreme: quiet acoustic; ambient            
+   118 AB_Accumulate    ISTJ_AB_M    manganese_oxygen_complex.out1  left rib cage diagonal bone outside of l  None
+        release: ethereal indie                      P=0.30 Z=0.20 Q=0.40 W=0.40 H=0.35
+        stress:  free jazz; jazz experimental       
+        extreme: art pop; avant-pop                 
+   119 AB_Accumulate    ESTJ_AB_F    clay_gouge                     right anus muscle / rectum (직장) (inferre  None
+        release: industrial                          P=1.00 Z=0.70 Q=0.85 W=0.90 H=0.80
+        stress:  experimental rock; noise           
+        extreme: country rock; new wave             
+   120 AB_Accumulate    ESFP_AB_M    ferritin                       just inner to heme in the middle of the   None
+        release: soul                                P=0.63 Z=0.15 Q=0.65 W=0.60 H=0.35
+        stress:  experimental R&B; hyperpop         
+        extreme: funk; soul                         
+   121 AB_Accumulate    ISTJ_AB_F    nitrogenase.out_3                                                        None
+        release: alternative rock                    P=0.75 Z=0.40 Q=0.65 W=0.65 H=0.40
+        stress:  experimental rock; no wave         
+        extreme: avant-pop; art pop                 
+   122 AB_Accumulate    ISFP_AB_M    manganese_nodule.q                                                       None
+        release: minimalistic ambient                P=0.00 Z=0.05 Q=0.00 W=0.05 H=0.15
+        stress:  ambient jazz; nu-jazz              
+        extreme: britpop; indie rock                
+   123 AB_Accumulate    ESFP_AB_F    peonidine                      just outside co2 to the right in the bra  None
+        release: chillwave                           P=0.67 Z=0.35 Q=0.40 W=0.70 H=0.35
+        stress:  hyperpop; deconstructed club       
+        extreme: synth pop; pop                     
+   124 AB_Accumulate    ESFJ_AB_M    sulforaphane.out0              left inner brain next to hippocampus (in  None
+        release: electropop                          P=0.82 Z=0.25 Q=0.50 W=0.90 H=0.20
+        stress:  jazz; neo-soul                     
+        extreme: classic rock; folk                 
+   125 AB_Accumulate    ISFP_AB_F    cambisol.out1                  inner side of both Achilles tendons (inf  None
+        release: post rock climax                    P=0.62 Z=0.35 Q=0.90 W=0.55 H=0.75
+        stress:  city pop; indietronica             
+        extreme: indie folk; acoustic               
+   126 AB_Accumulate    ESFJ_AB_F    plume                          just outside opposite of thorium on righ  None
+        release: krautrock                           P=0.88 Z=0.60 Q=0.65 W=0.60 H=0.30
+        stress:  art pop; orchestral pop            
+        extreme: folk; acoustic pop                 
+   127 AB_Accumulate    ISFJ_AB_M    laterite.q                     left calf between thumb toe and magnetit     6
+        release: experimental classical              P=0.45 Z=0.65 Q=0.65 W=0.60 H=0.80
+        stress:  jazz fusion; neo-soul              
+        extreme: art pop; orchestral pop            
+   128 AB_Accumulate    ISFJ_AB_F    carbon                         right orbicularis                         None
+        release: post-metal                          P=0.70 Z=0.65 Q=0.90 W=0.50 H=0.60
+        stress:  indietronica; city pop             
+        extreme: avant-pop; art pop                 

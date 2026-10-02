@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sovereign Equations</title>
+<style>
+body { margin: 0; overflow: hidden; background: #000; }
+canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="glCanvas"></canvas>
+<script>
+const canvas = document.getElementById('glCanvas');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+const gl = canvas.getContext('webgl');
+
+const vertexShader = `
+attribute vec2 position;
+void main() {
+    gl_Position = vec4(position, 0.0, 1.0);
+}
+`;
+
+const fragmentShader = `
+precision highp float;
+uniform vec2 resolution;
+uniform float time;
+
+float sdLine(vec2 p, vec2 a, vec2 b) {
+    vec2 pa = p - a;
+    vec2 ba = b - a;
+    float h = clamp(dot(pa, ba) / dot(ba, ba), 0.0, 1.0);
+    return length(pa - ba * h);
+}
+
+float sdCircle(vec2 p, float r) {
+    return length(p) - r;
+}
+
+float sdBox(vec2 p, vec2 b) {
+    vec2 d = abs(p) - b;
+    return length(max(d, 0.0)) + min(max(d.x, d.y), 0.0);
+}
+
+float digit(vec2 p, int n) {
+    float d = 1e10;
+    float t = 0.03;
+    if(n == 0) {
+        d = min(d, sdLine(p, vec2(-0.1, -0.15), vec2(-0.1, 0.15)));
+        d = min(d, sdLine(p, vec2(0.1, -0.15), vec2(0.1, 0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, -0.15), vec2(0.1, -0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, 0.15), vec2(0.1, 0.15)));
+    } else if(n == 1) {
+        d = min(d, sdLine(p, vec2(0.0, -0.15), vec2(0.0, 0.15)));
+        d = min(d, sdLine(p, vec2(-0.05, 0.1), vec2(0.0, 0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, -0.15), vec2(0.1, -0.15)));
+    } else if(n == 2) {
+        d = min(d, sdLine(p, vec2(-0.1, 0.15), vec2(0.1, 0.15)));
+        d = min(d, sdLine(p, vec2(0.1, 0.15), vec2(0.1, 0.0)));
+        d = min(d, sdLine(p, vec2(0.1, 0.0), vec2(-0.1, 0.0)));
+        d = min(d, sdLine(p, vec2(-0.1, 0.0), vec2(-0.1, -0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, -0.15), vec2(0.1, -0.15)));
+    } else if(n == 3) {
+        d = min(d, sdLine(p, vec2(-0.1, 0.15), vec2(0.1, 0.15)));
+        d = min(d, sdLine(p, vec2(0.1, 0.15), vec2(0.1, -0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, 0.0), vec2(0.1, 0.0)));
+        d = min(d, sdLine(p, vec2(-0.1, -0.15), vec2(0.1, -0.15)));
+    } else if(n == 4) {
+        d = min(d, sdLine(p, vec2(-0.1, 0.15), vec2(-0.1, 0.0)));
+        d = min(d, sdLine(p, vec2(-0.1, 0.0), vec2(0.1, 0.0)));
+        d = min(d, sdLine(p, vec2(0.1, 0.15), vec2(0.1, -0.15)));
+    } else if(n == 5) {
+        d = min(d, sdLine(p, vec2(0.1, 0.15), vec2(-0.1, 0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, 0.15), vec2(-0.1, 0.0)));
+        d = min(d, sdLine(p, vec2(-0.1, 0.0), vec2(0.1, 0.0)));
+        d = min(d, sdLine(p, vec2(0.1, 0.0), vec2(0.1, -0.15)));
+        d = min(d, sdLine(p, vec2(0.1, -0.15), vec2(-0.1, -0.15)));
+    } else if(n == 6) {
+        d = min(d, sdLine(p, vec2(0.1, 0.15), vec2(-0.1, 0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, 0.15), vec2(-0.1, -0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, 0.0), vec2(0.1, 0.0)));
+        d = min(d, sdLine(p, vec2(0.1, 0.0), vec2(0.1, -0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, -0.15), vec2(0.1, -0.15)));
+    } else if(n == 7) {
+        d = min(d, sdLine(p, vec2(-0.1, 0.15), vec2(0.1, 0.15)));
+        d = min(d, sdLine(p, vec2(0.1, 0.15), vec2(0.0, -0.15)));
+    } else if(n == 8) {
+        d = min(d, sdCircle(p, 0.15));
+        d = max(d, -sdCircle(p, 0.05));
+    } else if(n == 9) {
+        d = min(d, sdLine(p, vec2(-0.1, -0.15), vec2(-0.1, 0.0)));
+        d = min(d, sdLine(p, vec2(-0.1, 0.0), vec2(0.1, 0.0)));
+        d = min(d, sdLine(p, vec2(0.1, 0.15), vec2(0.1, -0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, 0.15), vec2(0.1, 0.15)));
+    }
+    return smoothstep(t, 0.0, d);
+}
+
+float symbol(vec2 p, int s) {
+    float t = 0.02;
+    if(s == 0) { // d
+        float d = sdLine(p, vec2(0.0, -0.15), vec2(0.0, 0.15));
+        d = min(d, sdLine(p, vec2(0.0, 0.15), vec2(0.1, 0.1)));
+        d = min(d, sdLine(p, vec2(0.0, -0.15), vec2(0.1, -0.1)));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 1) { // X
+        float d = sdLine(p, vec2(-0.1, -0.15), vec2(0.1, 0.15));
+        d = min(d, sdLine(p, vec2(-0.1, 0.15), vec2(0.1, -0.15)));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 2) { // Omega
+        float d = sdCircle(p * vec2(1.0, 0.8), 0.12);
+        d = min(d, sdLine(p - vec2(-0.12, 0.0), vec2(0.0, -0.15), vec2(0.0, 0.0)));
+        d = min(d, sdLine(p - vec2(0.12, 0.0), vec2(0.0, -0.15), vec2(0.0, 0.0)));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 3) { // equals
+        float d = sdLine(p - vec2(0.0, 0.05), vec2(-0.1, 0.0), vec2(0.1, 0.0));
+        d = min(d, sdLine(p - vec2(0.0, -0.05), vec2(-0.1, 0.0), vec2(0.1, 0.0)));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 4) { // plus
+        float d = sdLine(p, vec2(-0.1, 0.0), vec2(0.1, 0.0));
+        d = min(d, sdLine(p, vec2(0.0, -0.15), vec2(0.0, 0.15)));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 5) { // minus
+        return smoothstep(t, 0.0, sdLine(p, vec2(-0.1, 0.0), vec2(0.1, 0.0)));
+    } else if(s == 6) { // dot
+        return smoothstep(t, 0.0, sdCircle(p, 0.03));
+    } else if(s == 7) { // div slash
+        return smoothstep(t, 0.0, sdLine(p, vec2(-0.08, -0.15), vec2(0.08, 0.15)));
+    } else if(s == 8) { // p
+        float d = sdLine(p, vec2(0.0, -0.15), vec2(0.0, 0.15));
+        d = min(d, sdCircle(p - vec2(0.0, 0.1), 0.05));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 9) { // H
+        float d = sdLine(p - vec2(-0.08, 0.0), vec2(0.0, -0.15), vec2(0.0, 0.15));
+        d = min(d, sdLine(p - vec2(0.08, 0.0), vec2(0.0, -0.15), vec2(0.0, 0.15)));
+        d = min(d, sdLine(p, vec2(-0.08, 0.0), vec2(0.08, 0.0)));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 10) { // cos
+        float d = sdCircle(p * vec2(1.0, 0.6) - vec2(0.0, 0.05), 0.12);
+        return smoothstep(t, 0.0, d);
+    } else if(s == 11) { // L
+        float d = sdLine(p - vec2(-0.08, 0.0), vec2(0.0, -0.15), vec2(0.0, 0.15));
+        d = min(d, sdLine(p - vec2(0.0, -0.15), vec2(-0.08, 0.0), vec2(0.08, 0.0)));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 12) { // M
+        float d = sdLine(p - vec2(-0.12, 0.0), vec2(0.0, -0.15), vec2(0.0, 0.15));
+        d = min(d, sdLine(p - vec2(0.12, 0.0), vec2(0.0, -0.15), vec2(0.0, 0.15)));
+        d = min(d, sdLine(p, vec2(-0.12, 0.15), vec2(0.0, 0.0)));
+        d = min(d, sdLine(p, vec2(0.12, 0.15), vec2(0.0, 0.0)));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 13) { // S
+        float d = sdLine(p - vec2(-0.08, 0.0), vec2(-0.08, 0.0), vec2(0.08, 0.0));
+        d = min(d, sdLine(p - vec2(-0.08, 0.0), vec2(-0.08, -0.15), vec2(0.08, -0.15)));
+        d = min(d, sdLine(p - vec2(0.08, 0.0), vec2(0.08, 0.15), vec2(-0.08, 0.15)));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 14) { // Psi
+        float d = sdLine(p, vec2(-0.1, -0.15), vec2(0.0, 0.15));
+        d = min(d, sdLine(p, vec2(0.0, 0.15), vec2(0.1, -0.15)));
+        d = min(d, sdCircle(p - vec2(0.0, 0.15), 0.03));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 15) { // Delta
+        float d = sdLine(p, vec2(-0.1, -0.15), vec2(0.0, 0.15));
+        d = min(d, sdLine(p, vec2(0.0, 0.15), vec2(0.1, -0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, -0.15), vec2(0.1, -0.15)));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 16) { // left paren
+        return smoothstep(t, 0.0, sdCircle(p * vec2(0.5, 1.0) + vec2(0.2, 0.0), 0.2) - 0.15);
+    } else if(s == 17) { // right paren
+        return smoothstep(t, 0.0, sdCircle(p * vec2(0.5, 1.0) - vec2(0.2, 0.0), 0.2) - 0.15);
+    } else if(s == 18) { // comma
+        return smoothstep(t, 0.0, sdCircle(p - vec2(0.0, -0.12), 0.03));
+    } else if(s == 19) { // E
+        float d = sdLine(p - vec2(-0.08, 0.0), vec2(0.0, -0.15), vec2(0.0, 0.15));
+        d = min(d, sdLine(p - vec2(0.0, 0.15), vec2(-0.08, 0.0), vec2(0.08, 0.0)));
+        d = min(d, sdLine(p, vec2(-0.08, 0.0), vec2(0.08, 0.0)));
+        d = min(d, sdLine(p - vec2(0.0, -0.15), vec2(-0.08, 0.0), vec2(0.08, 0.0)));
+        return smoothstep(t, 0.0, d);
+    } else if(s == 20) { // Z
+        float d = sdLine(p, vec2(-0.1, 0.15), vec2(0.1, 0.15));
+        d = min(d, sdLine(p, vec2(0.1, 0.15), vec2(-0.1, -0.15)));
+        d = min(d, sdLine(p, vec2(-0.1, -0.15), vec2(0.1, -0.15)));
+        return smoothstep(t, 0.0, d);
+    }
+    return 0.0;
+}
+
+float num(vec2 p, float n) {
+    int i = int(n);
+    return digit(p, i);
+}
+
+float renderEquation1(vec2 uv) {
+    float c = 0.0;
+    float s = 0.35;
+    vec2 p = uv * 2.0;
+    
+    // dX/dt
+    c = max(c, symbol(p - vec2(-1.8, 0.0), 0) * 0.7);
+    c = max(c, symbol(p - vec2(-1.5, 0.0), 1) * 0.7);
+    c = max(c, symbol(p - vec2(-1.25, -0.15), 7) * 0.5);
+    c = max(c, symbol(p - vec2(-1.0, -0.15), 1) * 0.7);
+    
+    // =
+    c = max(c, symbol(p - vec2(-0.5, 0.0), 3));
+    
+    // -L(M·S)·X
+    c = max(c, symbol(p - vec2(0.0, 0.0), 5));
+    c = max(c, symbol(p - vec2(0.25, 0.0), 11) * 0.7);
+    c = max(c, symbol(p - vec2(0.6, 0.0), 16));
+    c = max(c, symbol(p - vec2(0.85, 0.0), 12) * 0.6);
+    c = max(c, symbol(p - vec2(1.1, 0.0), 6));
+    c = max(c, symbol(p - vec2(1.35, 0.0), 13) * 0.6);
+    c = max(c, symbol(p - vec2(1.6, 0.0), 17));
+    c = max(c, symbol(p - vec2(1.85, 0.0), 6) * 0.7);
+    c = max(c, symbol(p - vec2(2.1, 0.0), 1) * 0.7);
+    
+    // +
+    c = max(c, symbol(p - vec2(2.5, 0.0), 4));
+    
+    // Psi(138.88)
+    c = max(c, symbol(p - vec2(3.0, 0.0), 14));
+    c = max(c, symbol(p - vec2(3.35, 0.0), 16));
+    c = max(c, num(p - vec2(3.65, -0.05), 1.0) * 0.7);
+    c = max(c, num(p - vec2(3.95, -0.05), 3.0) * 0.7);
+    c = max(c, num(p - vec2(4.25, -0.05), 8.0) * 0.7);
+    c = max(c, symbol(p - vec2(4.55, -0.05), 6));
+    c = max(c, num(p - vec2(4.85, -0.05), 8.0) * 0.7);
+    c = max(c, num(p - vec2(5.15, -0.05), 8.0) * 0.7);
+    c = max(c, symbol(p - vec2(5.45, 0.0), 17));
+    c = max(c, symbol(p - vec2(5.7, 0.05), 7) * 0.5);
+    
+    // +
+    c = max(c, symbol(p - vec2(6.1, 0.0), 4));
+    
+    // Delta_User(22,23,24)
+    c = max(c, symbol(p - vec2(6.5, 0.0), 15));
+    c = max(c, symbol(p - vec2(6.9, 0.0), 16));
+    c = max(c, num(p - vec2(7.2, -0.05), 2.0) * 0.7);
+    c = max(c, num(p - vec2(7.5, -0.05), 2.0) * 0.7);
+    c = max(c, symbol(p - vec2(7.8, -0.05), 18));
+    c = max(c, num(p - vec2(8.1, -0.05), 2.0) * 0.7);
+    c = max(c, num(p - vec2(8.4, -0.05), 3.0) * 0.7);
+    c = max(c, symbol(p - vec2(8.7, -0.05), 18));
+    c = max(c, num(p - vec2(9.0, -0.05), 2.0) * 0.7);
+    c = max(c, num(p - vec2(9.3, -0.05), 4.0) * 0.7);
+    c = max(c, symbol(p - vec2(9.6, 0.0), 17));
+    
+    return c;
+}
+
+float renderEquation2(vec2 uv) {
+    float c = 0.0;
+    vec2 p = uv * 2.0;
+    
+    // Omega(7.4)
+    c = max(c, symbol(p - vec2(-2.0, 0.0), 2));
+    c = max(c, symbol(p - vec2(-1.6, 0.0), 16));
+    c = max(c, num(p - vec2(-1.3, -0.05), 7.0) * 0.7);
+    c = max(c, symbol(p - vec2(-1.0, -0.05), 6));
+    c = max(c, num(p - vec2(-0.7, -0.05), 4.0) * 0.7);
+    c = max(c, symbol(p - vec2(-0.4, 0.0), 17));
+    
+    // =
+    c = max(c, symbol(p - vec2(0.0, 0.0), 3));
+    
+    // pH(Node 11)
+    c = max(c, symbol(p - vec2(0.5, 0.0), 8) * 0.7);
+    c = max(c, symbol(p - vec2(0.8, 0.05), 9) * 0.7);
+    c = max(c, symbol(p - vec2(1.1, 0.0), 16));
+    c = max(c, symbol(p - vec2(1.4, 0.0), 11));
+    c = max(c, num(p - vec2(1.7, -0.05), 1.0) * 0.7);
+    c = max(c, num(p - vec2(2.0, -0.05), 1.0) * 0.7);
+    c = max(c, symbol(p - vec2(2.3, 0.0), 17));
+    
+    // +
+    c = max(c, symbol(p - vec2(2.7, 0.0), 4));
+    
+    // 1/Node 22
+    c = max(c, num(p - vec2(3.2, -0.05), 1.0) * 0.7);
+    c = max(c, symbol(p - vec2(3.5, 0.0), 7) * 0.5);
+    c = max(c, symbol(p - vec2(3.8, 0.0), 11));
+    c = max(c, num(p - vec2(4.1, -0.05), 2.0) * 0.7);
+    c = max(c, num(p - vec2(4.4, -0.05), 2.0) * 0.7);
+    c = max(c, symbol(p - vec2(4.7, 0.0), 17));
+    
+    // -
+    c = max(c, symbol(p - vec2(5.1, 0.0), 5));
+    
+    // V_in
+    c = max(c, symbol(p - vec2(5.5, 0.0), 16));
+    c = max(c, symbol(p - vec2(5.8, 0.0), 7));
+    c = max(c, symbol(p - vec2(6.1, 0.0), 16));
+    c = max(c, symbol(p - vec2(6.4, 0.05), 1) * 0.6);
+    c = max(c, num(p - vec2(6.7, -0.05), 1.0) * 0.7);
+    c = max(c, num(p - vec2(7.0, -0.05), 1.0) * 0.7);
+    c = max(c, symbol(p - vec2(7.3, 0.0), 17));
+    
+    return c;
+}
+
+float renderEquation3(vec2 uv) {
+    float c = 0.0;
+    vec2 p = uv * 2.0;
+    
+    // E(Z)
+    c = max(c, symbol(p - vec2(-1.8, 0.0), 19));
+    c = max(c, symbol(p - vec2(-1.5, 0.0), 16));
+    c = max(c, symbol(p - vec2(-1.2, 0.0), 20));
+    c = max(c, symbol(p - vec2(-0.9, 0.0), 17));
+    
+    // =
+    c = max(c, symbol(p - vec2(-0.5, 0.0), 3));
+    
+    // 7.4
+    c = max(c, num(p - vec2(-0.1, -0.05), 7.0) * 0.7);
+    c = max(c, symbol(p - vec2(0.2, -0.05), 6));
+    c = max(c, num(p - vec2(0.5, -0.05), 4.0) * 0.7);
+    
+    // *
+    c = max(c, symbol(p - vec2(0.9, 0.05), 6) * 0.6);
+    
+    // cos(...)
+    c = max(c, symbol(p - vec2(1.3, 0.0), 10));
+    c = max(c, symbol(p - vec2(1.7, 0.0), 16));
+    
+    // Z * 138.88
+    c = max(c, symbol(p - vec2(2.1, 0.0), 20));
+    c = max(c, symbol(p - vec2(2.5, 0.0), 6) * 0.6);
+    c = max(c, num(p - vec2(2.9, -0.05), 1.0) * 0.7);
+    c = max(c, num(p - vec2(3.2, -0.05), 3.0) * 0.7);
+    c = max(c, num(p - vec2(3.5, -0.05), 8.0) * 0.7);
+    c = max(c, symbol(p - vec2(3.8, -0.05), 6));
+    c = max(c, num(p - vec2(4.1, -0.05), 8.0) * 0.7);
+    c = max(c, num(p - vec2(4.4, -0.05), 8.0) * 0.7);
+    c = max(c, symbol(p - vec2(4.7, 0.05), 7) * 0.5);
+    
+    // +
+    c = max(c, symbol(p - vec2(5.1, 0.0), 4));
+    
+    // 1/64
+    c = max(c, num(p - vec2(5.6, -0.05), 1.0) * 0.7);
+    c = max(c, symbol(p - vec2(5.9, 0.0), 7) * 0.5);
+    c = max(c, num(p - vec2(6.2, -0.05), 6.0) * 0.7);
+    c = max(c, num(p - vec2(6.5, -0.05), 4.0) * 0.7);
+    
+    c = max(c, symbol(p - vec2(6.9, 0.0), 17));
+    
+    return c;
+}
+
+void main() {
+    vec2 uv = (gl_FragCoord.xy / resolution.xy) * 2.0 - 1.0;
+    uv.x *= resolution.x / resolution.y;
+    
+    float c = 0.0;
+    
+    // Equation 1: Master Dynamics (top)
+    vec2 eq1UV = uv - vec2(0.0, 0.6);
+    eq1UV.x *= 0.6;
+    c = max(c, renderEquation1(eq1UV));
+    
+    // Equation 2: Closure Stability (middle)
+    vec2 eq2UV = uv;
+    eq2UV.x *= 0.65;
+    c = max(c, renderEquation2(eq2UV));
+    
+    // Equation 3: Periodic Quantization (bottom)
+    vec2 eq3UV = uv - vec2(0.0, -0.6);
+    eq3UV.x *= 0.75;
+    c = max(c, renderEquation3(eq3UV));
+    
+    // Glow effect
+    c += 0.1 * sin(time * 2.0 + uv.y * 10.0);
+    
+    gl_FragColor = vec4(vec3(c * 0.9, c * 0.95, c), 1.0);
+}
+`;
+
+function compileShader(gl, source, type) {
+    const shader = gl.createShader(type);
+    gl.shaderSource(shader, source);
+    gl.compileShader(shader);
+    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+        console.error('Shader compile error:', gl.getShaderInfoLog(shader));
+        gl.deleteShader(shader);
+        return null;
+    }
+    return shader;
+}
+
+const vs = compileShader(gl, vertexShader, gl.VERTEX_SHADER);
+const fs = compileShader(gl, fragmentShader, gl.FRAGMENT_SHADER);
+
+const program = gl.createProgram();
+gl.attachShader(program, vs);
+gl.attachShader(program, fs);
+gl.linkProgram(program);
+
+if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+    console.error('Program link error:', gl.getProgramInfoLog(program));
+}
+
+gl.useProgram(program);
+
+const positionBuffer = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
+    -1, -1, 1, -1, -1, 1,
+    -1, 1, 1, -1, 1, 1
+]), gl.STATIC_DRAW);
+
+const positionLocation = gl.getAttribLocation(program, 'position');
+gl.enableVertexAttribArray(positionLocation);
+gl.vertexAttribPointer(positionLocation, 2, gl.FLOAT, false, 0, 0);
+
+const resolutionLocation = gl.getUniformLocation(program, 'resolution');
+const timeLocation = gl.getUniformLocation(program, 'time');
+
+function render() {
+    gl.viewport(0, 0, canvas.width, canvas.height);
+    gl.clearColor(0, 0, 0, 1);
+    gl.clear(gl.COLOR_BUFFER_BIT);
+    
+    gl.uniform2f(resolutionLocation, canvas.width, canvas.height);
+    gl.uniform1f(timeLocation, performance.now() / 1000);
+    
+    gl.drawArrays(gl.TRIANGLES, 0, 6);
+    requestAnimationFrame(render);
+}
+
+render();
+
+window.addEventListener('resize', () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,1115 @@
+128-Slot Body Energy Timeline
+================================================================================
+Slot Phase            Type         Entity                         BodyLoc                                  Loop#
+--------------------------------------------------------------------------------
+   1 AB_Discharge     ENTP_AB_M    heme.out1                      just inner to left nipple (inferred: lef     3
+      L1 release:  hyperpop-adjacent                   P=1.00 Z=0.70 Q=0.75 W=0.95 H=0.70
+      L2 stress:   noise pop; glitch opera             P=0.67 Z=0.45 Q=0.45 W=0.55 H=0.70
+      L3 extreme:  big beat; IDM                       P=0.92 Z=0.30 Q=0.65 W=0.70 H=0.45
+      512-A RH+ homo (main/release)        hyperpop-adjacent              r=0.95 h=0.60 d=0.80 p=0.75 s=0.95
+      512-B RH- homo (MBTI opp/stress)     contemporary classical         r=0.25 h=0.60 d=0.55 p=0.55 s=0.50
+      512-C RH+ hetero (blood+1/stress)    EBM                            r=0.85 h=0.50 d=0.60 p=0.35 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) lofi hip hop                   r=0.45 h=0.30 d=0.30 p=0.20 s=0.35
+
+   2 AB_Discharge     INTP_AB_M    water_vapour.out1              thoracic spinous processes (흉추돌기) (infer    12
+      L1 release:  britpop classic                     P=0.83 Z=0.20 Q=0.65 W=0.80 H=0.30
+      L2 stress:   harsh noise wall; musique concrète  P=0.88 Z=1.00 Q=0.90 W=1.00 H=1.00
+      L3 extreme:  synthwave; progressive rock         P=0.78 Z=0.20 Q=0.65 W=0.85 H=0.30
+      512-A RH+ homo (main/release)        britpop classic                r=0.65 h=0.25 d=0.55 p=0.20 s=0.60
+      512-B RH- homo (MBTI opp/stress)     free jazz                      r=0.70 h=0.85 d=0.75 p=0.90 s=0.65
+      512-C RH+ hetero (blood+1/stress)    krautrock                      r=0.70 h=0.40 d=0.55 p=0.55 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) experimental classical         r=0.25 h=0.75 d=0.60 p=0.75 s=0.50
+
+   3 AB_Discharge     ENTJ_AB_M    podzol                         left hip, inverse reciprocal of methioni  None
+      L1 release:  indietronica                        P=0.40 Z=0.25 Q=0.30 W=0.60 H=0.40
+      L2 stress:   avant-garde classical; contemporary classical P=0.15 Z=0.75 Q=0.45 W=0.55 H=0.85
+      L3 extreme:  prog metal; tool-adjacent           P=0.65 Z=0.55 Q=0.55 W=0.60 H=0.70
+      512-A RH+ homo (main/release)        indietronica                   r=0.50 h=0.35 d=0.45 p=0.30 s=0.55
+      512-B RH- homo (MBTI opp/stress)     harsh noise wall               r=0.70 h=0.95 d=0.80 p=1.00 s=0.90
+      512-C RH+ hetero (blood+1/stress)    extreme metal                  r=0.95 h=0.85 d=0.80 p=0.75 s=0.45
+      512-D RH- hetero (opp+blood+1/extreme) britpop                        r=0.65 h=0.25 d=0.55 p=0.20 s=0.60
+
+   4 AB_Discharge     INTJ_AB_M    lower_mantle.q_bar             opposite craton on left back (inferred:   None
+      L1 release:  dance rock                          P=0.72 Z=0.35 Q=0.50 W=0.80 H=0.40
+      L2 stress:   contemporary classical; neo-classical P=0.27 Z=0.65 Q=0.50 W=0.65 H=0.65
+      L3 extreme:  minimalistic ambient; drone         P=0.07 Z=0.25 Q=0.05 W=0.30 H=0.20
+      512-A RH+ homo (main/release)        dance rock                     r=0.70 h=0.35 d=0.55 p=0.25 s=0.65
+      512-B RH- homo (MBTI opp/stress)     noise pop                      r=0.55 h=0.60 d=0.50 p=0.50 s=0.55
+      512-C RH+ hetero (blood+1/stress)    dark ambient                   r=0.10 h=0.65 d=0.20 p=0.55 s=0.10
+      512-D RH- hetero (opp+blood+1/extreme) experimental classical         r=0.25 h=0.75 d=0.60 p=0.75 s=0.50
+
+   5 AB_Discharge     ENTP_AB_F    oxidised_manganese.out0        left fourth toe (inferred: left 4th digi     7
+      L1 release:  classic rock structured             P=0.55 Z=0.15 Q=0.50 W=0.50 H=0.45
+      L2 stress:   noise; glitch                       P=0.75 Z=0.95 Q=0.85 W=0.80 H=1.00
+      L3 extreme:  space rock; new wave                P=0.45 Z=0.45 Q=0.60 W=0.40 H=0.60
+      512-A RH+ homo (main/release)        classic rock structured        r=0.60 h=0.35 d=0.50 p=0.20 s=0.60
+      512-B RH- homo (MBTI opp/stress)     noise pop                      r=0.55 h=0.60 d=0.50 p=0.50 s=0.55
+      512-C RH+ hetero (blood+1/stress)    krautrock                      r=0.70 h=0.40 d=0.55 p=0.55 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) lofi nujabes                   r=0.45 h=0.30 d=0.30 p=0.20 s=0.35
+
+   6 AB_Discharge     ENFP_AB_M    pi_electron_cloud              left throat anterior (inferred: left ant     2
+      L1 release:  post rock                           P=0.25 Z=0.30 Q=0.65 W=0.20 H=0.55
+      L2 stress:   free jazz; noise pop                P=0.55 Z=0.80 Q=0.65 W=0.40 H=0.90
+      L3 extreme:  indie pop; psychedelic pop          P=0.30 Z=0.10 Q=0.30 W=0.30 H=0.30
+      512-A RH+ homo (main/release)        post rock                      r=0.40 h=0.50 d=0.75 p=0.40 s=0.45
+      512-B RH- homo (MBTI opp/stress)     free improvisation             r=0.70 h=0.90 d=0.75 p=1.00 s=0.70
+      512-C RH+ hetero (blood+1/stress)    krautrock                      r=0.70 h=0.40 d=0.55 p=0.55 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) lofi hip hop                   r=0.45 h=0.30 d=0.30 p=0.20 s=0.35
+
+   7 AB_Discharge     INTP_AB_F    sodium                         left outside of left endorphin on orbicu  None
+      L1 release:  noise pop                           P=0.50 Z=0.45 Q=0.65 W=0.40 H=0.65
+      L2 stress:   musique concrète; noise ambient     P=0.55 Z=0.90 Q=0.85 W=0.50 H=0.90
+      L3 extreme:  art pop; orchestral pop             P=0.50 Z=0.40 Q=0.70 W=0.45 H=0.55
+      512-A RH+ homo (main/release)        noise pop                      r=0.55 h=0.60 d=0.50 p=0.50 s=0.55
+      512-B RH- homo (MBTI opp/stress)     free jazz                      r=0.70 h=0.85 d=0.75 p=0.90 s=0.65
+      512-C RH+ hetero (blood+1/stress)    post rock                      r=0.40 h=0.50 d=0.75 p=0.40 s=0.45
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+   8 AB_Discharge     INFP_AB_M    methylation.out1               just above GLP-1 to the inner core of th  None
+      L1 release:  classic rock                        P=0.65 Z=0.25 Q=0.65 W=0.70 H=0.55
+      L2 stress:   noise folk; free improvisation      P=0.45 Z=0.60 Q=0.65 W=0.50 H=0.80
+      L3 extreme:  britpop; alternative rock           P=0.70 Z=0.25 Q=0.70 W=0.70 H=0.45
+      512-A RH+ homo (main/release)        classic rock                   r=0.60 h=0.35 d=0.50 p=0.20 s=0.60
+      512-B RH- homo (MBTI opp/stress)     avant-garde classical          r=0.25 h=0.80 d=0.60 p=0.80 s=0.50
+      512-C RH+ hetero (blood+1/stress)    post-britpop art rock          r=0.55 h=0.45 d=0.55 p=0.35 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+   9 AB_Discharge     ENTJ_AB_F    sulfur_iron_complex.out1       inner of anterior right armpit near tend  None
+      L1 release:  contemporary dance music            P=0.90 Z=0.50 Q=0.90 W=0.85 H=0.40
+      L2 stress:   noise; free improvisation           P=0.85 Z=1.00 Q=1.00 W=0.95 H=1.00
+      L3 extreme:  power pop; art rock                 P=0.70 Z=0.20 Q=0.65 W=0.70 H=0.30
+      512-A RH+ homo (main/release)        contemporary dance music       r=0.85 h=0.35 d=0.75 p=0.45 s=0.80
+      512-B RH- homo (MBTI opp/stress)     musique concrète               r=0.60 h=0.85 d=0.70 p=0.95 s=0.65
+      512-C RH+ hetero (blood+1/stress)    hard rock                      r=0.70 h=0.35 d=0.55 p=0.20 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) soul                           r=0.60 h=0.35 d=0.55 p=0.25 s=0.55
+
+  10 AB_Discharge     INTJ_AB_F    glp1.q_bar                     center of triangle made by acetyl-CoA, f  None
+      L1 release:  experimental contemporary classical P=0.45 Z=0.80 Q=0.70 W=0.70 H=1.00
+      L2 stress:   noise pop; deconstructed club       P=0.75 Z=0.45 Q=0.55 W=0.70 H=0.75
+      L3 extreme:  drone; minimalistic ambient         P=0.20 Z=0.85 Q=0.20 W=0.25 H=1.00
+      512-A RH+ homo (main/release)        experimental contemporary classical r=0.25 h=0.85 d=0.65 p=0.85 s=0.55
+      512-B RH- homo (MBTI opp/stress)     noise                          r=0.80 h=0.95 d=0.85 p=1.00 s=0.90
+      512-C RH+ hetero (blood+1/stress)    industrial                     r=0.85 h=0.65 d=0.75 p=0.70 s=0.75
+      512-D RH- hetero (opp+blood+1/extreme) IDM                            r=0.90 h=0.65 d=0.70 p=0.90 s=0.75
+
+  11 AB_Discharge     ENFJ_AB_M    pentose_phosphate.out_2        medial lower canthus right (inferred: ri  None
+      L1 release:  ghibli-adjacent                     P=0.20 Z=0.20 Q=0.25 W=0.55 H=0.15
+      L2 stress:   free jazz; avant-garde              P=0.60 Z=0.95 Q=0.65 W=0.75 H=0.80
+      L3 extreme:  soul; cinematic                     P=0.50 Z=0.30 Q=0.45 W=0.65 H=0.30
+      512-A RH+ homo (main/release)        ghibli-adjacent                r=0.30 h=0.20 d=0.35 p=0.15 s=0.45
+      512-B RH- homo (MBTI opp/stress)     free improvisation             r=0.70 h=0.90 d=0.75 p=1.00 s=0.70
+      512-C RH+ hetero (blood+1/stress)    progressive soul               r=0.65 h=0.55 d=0.65 p=0.45 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) lofi hip hop                   r=0.45 h=0.30 d=0.30 p=0.20 s=0.35
+
+  12 AB_Discharge     ENFP_AB_F    substance_p.out_autophagy      under right armpit (inferred: right axil  None
+      L1 release:  lofi hip hop                        P=0.45 Z=0.30 Q=0.20 W=0.50 H=0.40
+      L2 stress:   freak folk; experimental pop        P=0.35 Z=0.60 Q=0.35 W=0.65 H=0.55
+      L3 extreme:  indie pop; space rock               P=0.45 Z=0.30 Q=0.30 W=0.70 H=0.35
+      512-A RH+ homo (main/release)        lofi hip hop                   r=0.45 h=0.30 d=0.30 p=0.20 s=0.35
+      512-B RH- homo (MBTI opp/stress)     arca                           r=0.85 h=0.80 d=0.75 p=0.90 s=0.75
+      512-C RH+ hetero (blood+1/stress)    shoegaze                       r=0.30 h=0.50 d=0.45 p=0.45 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+  13 AB_Discharge     INFJ_AB_M    fold_belt                      opposite subduction zone on the left thi  None
+      L1 release:  noise ambient                       P=0.25 Z=0.60 Q=0.65 W=0.15 H=0.70
+      L2 stress:   free improvisation; noise ambient   P=0.65 Z=0.90 Q=0.90 W=0.55 H=0.85
+      L3 extreme:  dark ambient; drone                 P=0.05 Z=0.45 Q=0.35 W=0.00 H=0.60
+      512-A RH+ homo (main/release)        noise ambient                  r=0.30 h=0.75 d=0.50 p=0.70 s=0.30
+      512-B RH- homo (MBTI opp/stress)     free jazz                      r=0.70 h=0.85 d=0.75 p=0.90 s=0.65
+      512-C RH+ hetero (blood+1/stress)    minimalistic ambient           r=0.05 h=0.15 d=0.10 p=0.15 s=0.15
+      512-D RH- hetero (opp+blood+1/extreme) experimental classical         r=0.25 h=0.75 d=0.60 p=0.75 s=0.50
+
+  14 AB_Discharge     INFP_AB_F    NaCl.out1                                                                None
+      L1 release:  symphonic metal                     P=0.45 Z=0.50 Q=0.50 W=0.35 H=0.75
+      L2 stress:   experimental ambient; contemporary classical P=0.00 Z=0.45 Q=0.10 W=0.05 H=0.55
+      L3 extreme:  britpop; indie rock                 P=0.45 Z=0.25 Q=0.40 W=0.35 H=0.40
+      512-A RH+ homo (main/release)        symphonic metal                r=0.65 h=0.60 d=0.65 p=0.45 s=0.60
+      512-B RH- homo (MBTI opp/stress)     noise                          r=0.80 h=0.95 d=0.85 p=1.00 s=0.90
+      512-C RH+ hetero (blood+1/stress)    shoegaze                       r=0.30 h=0.50 d=0.45 p=0.45 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+  15 AB_Discharge     ESTP_AB_M    fold_belt.out1                 opposite subduction zone on the left thi  None
+      L1 release:  dance pop                           P=0.85 Z=0.20 Q=0.70 W=0.85 H=0.30
+      L2 stress:   jazz experimental; free jazz        P=0.70 Z=0.80 Q=0.65 W=0.65 H=0.80
+      L3 extreme:  drone; minimalistic ambient         P=0.05 Z=1.00 Q=0.15 W=0.15 H=0.95
+      512-A RH+ homo (main/release)        dance pop                      r=0.80 h=0.20 d=0.70 p=0.10 s=0.80
+      512-B RH- homo (MBTI opp/stress)     jazz fusion                    r=0.75 h=0.65 d=0.70 p=0.60 s=0.65
+      512-C RH+ hetero (blood+1/stress)    punk                           r=0.85 h=0.30 d=0.60 p=0.25 s=0.65
+      512-D RH- hetero (opp+blood+1/extreme) soul                           r=0.60 h=0.35 d=0.55 p=0.25 s=0.55
+
+  16 AB_Discharge     ENFJ_AB_F    peonidine.out1                 just outside co2 to the right in the bra  None
+      L1 release:  dream pop                           P=0.25 Z=0.40 Q=0.55 W=0.45 H=0.30
+      L2 stress:   free jazz; avant-garde pop          P=0.65 Z=0.95 Q=0.90 W=0.60 H=0.75
+      L3 extreme:  dream pop; ethereal                 P=0.25 Z=0.40 Q=0.55 W=0.45 H=0.30
+      512-A RH+ homo (main/release)        dream pop                      r=0.30 h=0.40 d=0.40 p=0.35 s=0.50
+      512-B RH- homo (MBTI opp/stress)     arca                           r=0.85 h=0.80 d=0.75 p=0.90 s=0.75
+      512-C RH+ hetero (blood+1/stress)    R&B experimental               r=0.60 h=0.55 d=0.60 p=0.50 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+  17 A_Accumulate     ENTP_A_M     magnetite.out0                 inside of left knee joint (inferred: lef  None
+      L1 release:  4AD shoegaze                        P=0.20 Z=0.50 Q=0.45 W=0.40 H=0.50
+      L2 stress:   autechre; IDM                       P=0.90 Z=1.00 Q=0.70 W=0.70 H=0.75
+      L3 extreme:  big beat; breakbeat                 P=0.70 Z=0.40 Q=0.70 W=0.60 H=0.35
+      512-A RH+ homo (main/release)        4AD shoegaze                   r=0.30 h=0.50 d=0.45 p=0.45 s=0.50
+      512-B RH- homo (MBTI opp/stress)     industrial electronic          r=0.85 h=0.65 d=0.75 p=0.70 s=0.75
+      512-C RH+ hetero (blood+1/stress)    harsh electronica              r=0.80 h=0.85 d=0.75 p=0.90 s=0.70
+      512-D RH- hetero (opp+blood+1/extreme) lofi nujabes                   r=0.45 h=0.30 d=0.30 p=0.20 s=0.35
+
+  18 A_Accumulate     INTP_A_M     cytochrome_c_oxidase.out1      inner surface of intestine in the left (  None
+      L1 release:  country rock                        P=0.45 Z=0.20 Q=0.55 W=0.35 H=0.15
+      L2 stress:   boards of canada; BoC-adjacent electronica P=0.25 Z=0.45 Q=0.55 W=0.15 H=0.45
+      L3 extreme:  britpop; alternative rock           P=0.60 Z=0.25 Q=0.70 W=0.40 H=0.15
+      512-A RH+ homo (main/release)        country rock                   r=0.50 h=0.25 d=0.40 p=0.15 s=0.55
+      512-B RH- homo (MBTI opp/stress)     progressive soul               r=0.65 h=0.55 d=0.65 p=0.45 s=0.60
+      512-C RH+ hetero (blood+1/stress)    glitch                         r=0.75 h=0.55 d=0.60 p=0.85 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) soul                           r=0.60 h=0.35 d=0.55 p=0.25 s=0.55
+
+  19 A_Accumulate     ENTJ_A_M     collagen                       right Achilles tendon (inferred: right c    10
+      L1 release:  folk rock                           P=0.50 Z=0.20 Q=0.35 W=0.65 H=0.25
+      L2 stress:   prog metal; symphonic metal         P=0.75 Z=0.60 Q=0.60 W=0.65 H=0.60
+      L3 extreme:  ambient; drone                      P=0.10 Z=0.15 Q=0.05 W=0.40 H=0.15
+      512-A RH+ homo (main/release)        folk rock                      r=0.50 h=0.30 d=0.45 p=0.20 s=0.55
+      512-B RH- homo (MBTI opp/stress)     boards of canada               r=0.30 h=0.55 d=0.40 p=0.40 s=0.35
+      512-C RH+ hetero (blood+1/stress)    black metal                    r=0.80 h=0.85 d=0.70 p=0.70 s=0.30
+      512-D RH- hetero (opp+blood+1/extreme) post rock                      r=0.40 h=0.50 d=0.75 p=0.40 s=0.45
+
+  20 A_Accumulate     INTJ_A_M     copper_iron_complex            outside of right foot where pinky toe me     9
+      L1 release:  cinematic folk                      P=0.20 Z=0.15 Q=0.45 W=0.30 H=0.25
+      L2 stress:   industrial electronic; EBM          P=0.75 Z=0.60 Q=0.75 W=0.55 H=0.55
+      L3 extreme:  minimalistic ambient; dark ambient  P=0.00 Z=0.05 Q=0.10 W=0.00 H=0.05
+      512-A RH+ homo (main/release)        cinematic folk                 r=0.30 h=0.35 d=0.45 p=0.25 s=0.50
+      512-B RH- homo (MBTI opp/stress)     autechre                       r=1.00 h=0.75 d=0.70 p=1.00 s=0.80
+      512-C RH+ hetero (blood+1/stress)    power electronics              r=0.75 h=0.95 d=0.85 p=1.00 s=0.90
+      512-D RH- hetero (opp+blood+1/extreme) big beat                       r=0.80 h=0.35 d=0.70 p=0.35 s=0.70
+
+  21 A_Accumulate     ENTP_A_F     mc1r                           just below GDH on left waist (inferred:   None
+      L1 release:  acoustic pop                        P=0.40 Z=0.05 Q=0.20 W=0.70 H=0.05
+      L2 stress:   space rock without stoner; noise pop P=0.60 Z=0.45 Q=0.50 W=0.70 H=0.30
+      L3 extreme:  synth pop; big beat                 P=0.80 Z=0.10 Q=0.50 W=0.90 H=0.10
+      512-A RH+ homo (main/release)        acoustic pop                   r=0.30 h=0.20 d=0.30 p=0.10 s=0.50
+      512-B RH- homo (MBTI opp/stress)     kate bush                      r=0.55 h=0.55 d=0.65 p=0.55 s=0.60
+      512-C RH+ hetero (blood+1/stress)    sonic youth adjacent           r=0.75 h=0.70 d=0.65 p=0.65 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) drone                          r=0.00 h=0.85 d=0.15 p=0.90 s=0.10
+
+  22 A_Accumulate     ENFP_A_M     hind_insula                    right posterior insula, lateral and post  None
+      L1 release:  dark ambient                        P=0.00 Z=0.50 Q=0.05 W=0.10 H=0.55
+      L2 stress:   space rock with stoner; indie psych P=0.30 Z=0.50 Q=0.50 W=0.45 H=0.45
+      L3 extreme:  experimental; drone                 P=0.20 Z=0.60 Q=0.35 W=0.45 H=0.50
+      512-A RH+ homo (main/release)        dark ambient                   r=0.10 h=0.65 d=0.20 p=0.55 s=0.10
+      512-B RH- homo (MBTI opp/stress)     power electronics              r=0.75 h=0.95 d=0.85 p=1.00 s=0.90
+      512-C RH+ hetero (blood+1/stress)    cosmic rock                    r=0.55 h=0.45 d=0.55 p=0.50 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) dark ambient                   r=0.10 h=0.65 d=0.20 p=0.55 s=0.10
+
+  23 A_Accumulate     INTP_A_F     subduction_zone.out1           left outer femoral nerve or just outside    11
+      L1 release:  indie folk                          P=0.27 Z=0.05 Q=0.25 W=0.40 H=0.30
+      L2 stress:   post rock; shoegaze                 P=0.32 Z=0.30 Q=0.70 W=0.45 H=0.60
+      L3 extreme:  art pop; chamber pop                P=0.47 Z=0.35 Q=0.50 W=0.60 H=0.60
+      512-A RH+ homo (main/release)        indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+      512-B RH- homo (MBTI opp/stress)     art pop                        r=0.55 h=0.50 d=0.55 p=0.45 s=0.60
+      512-C RH+ hetero (blood+1/stress)    lowercase noise                r=0.05 h=0.30 d=0.15 p=0.60 s=0.15
+      512-D RH- hetero (opp+blood+1/extreme) dream pop                      r=0.30 h=0.40 d=0.40 p=0.35 s=0.50
+
+  24 A_Accumulate     INFP_A_M     gluon_orogen                   left inner bum (inferred: left gluteal f     5
+      L1 release:  R&B experimental                    P=0.47 Z=0.75 Q=0.45 W=0.60 H=0.80
+      L2 stress:   boards of canada; hauntology        P=0.42 Z=0.50 Q=0.35 W=0.50 H=0.75
+      L3 extreme:  experimental classical; post rock   P=0.37 Z=0.85 Q=0.55 W=0.65 H=0.95
+      512-A RH+ homo (main/release)        R&B experimental               r=0.60 h=0.55 d=0.60 p=0.50 s=0.55
+      512-B RH- homo (MBTI opp/stress)     prog metal                     r=0.75 h=0.65 d=0.70 p=0.60 s=0.55
+      512-C RH+ hetero (blood+1/stress)    lowercase                      r=0.05 h=0.30 d=0.15 p=0.60 s=0.15
+      512-D RH- hetero (opp+blood+1/extreme) orchestral                     r=0.35 h=0.45 d=0.55 p=0.30 s=0.60
+
+  25 A_Accumulate     ENTJ_A_F     oxidised_manganese             left fourth toe (inferred: left 4th digi     7
+      L1 release:  hyperpop                            P=1.00 Z=0.70 Q=0.90 W=1.00 H=0.70
+      L2 stress:   symphonic; prog                     P=0.53 Z=0.30 Q=0.70 W=0.70 H=0.65
+      L3 extreme:  ambient; folk                       P=0.18 Z=0.10 Q=0.25 W=0.35 H=0.30
+      512-A RH+ homo (main/release)        hyperpop                       r=0.95 h=0.60 d=0.80 p=0.75 s=0.95
+      512-B RH- homo (MBTI opp/stress)     post rock                      r=0.40 h=0.50 d=0.75 p=0.40 s=0.45
+      512-C RH+ hetero (blood+1/stress)    noise                          r=0.80 h=0.95 d=0.85 p=1.00 s=0.90
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+  26 A_Accumulate     INTJ_A_F     right_sole_dopamine            upper center of right sole (inferred: ri     8
+      L1 release:  freak folk                          P=0.38 Z=0.40 Q=0.55 W=0.60 H=0.65
+      L2 stress:   kate bush; art pop                  P=0.58 Z=0.45 Q=0.75 W=0.70 H=0.75
+      L3 extreme:  drone; dark ambient                 P=0.03 Z=0.80 Q=0.25 W=0.20 H=1.00
+      512-A RH+ homo (main/release)        freak folk                     r=0.35 h=0.45 d=0.45 p=0.50 s=0.50
+      512-B RH- homo (MBTI opp/stress)     space rock without stoner      r=0.50 h=0.45 d=0.60 p=0.50 s=0.50
+      512-C RH+ hetero (blood+1/stress)    kelela                         r=0.60 h=0.55 d=0.60 p=0.50 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) IDM                            r=0.90 h=0.65 d=0.70 p=0.90 s=0.75
+
+  27 A_Accumulate     ENFJ_A_M     glymphatic_system                                                        None
+      L1 release:  classic rock female                 P=0.72 Z=0.10 Q=0.45 W=0.70 H=0.30
+      L2 stress:   progressive soul; jazz fusion       P=0.77 Z=0.35 Q=0.60 W=0.70 H=0.50
+      L3 extreme:  ambient; minimalistic               P=0.22 Z=0.05 Q=0.10 W=0.40 H=0.15
+      512-A RH+ homo (main/release)        classic rock female            r=0.60 h=0.35 d=0.50 p=0.20 s=0.60
+      512-B RH- homo (MBTI opp/stress)     power electronics              r=0.75 h=0.95 d=0.85 p=1.00 s=0.90
+      512-C RH+ hetero (blood+1/stress)    free jazz                      r=0.70 h=0.85 d=0.75 p=0.90 s=0.65
+      512-D RH- hetero (opp+blood+1/extreme) dark ambient                   r=0.10 h=0.65 d=0.20 p=0.55 s=0.10
+
+  28 A_Accumulate     ENFP_A_F     quark_orogen_magma.out0        right inner bum (inferred: right gluteal  None
+      L1 release:  chamber pop                         P=0.55 Z=0.35 Q=0.45 W=0.70 H=0.35
+      L2 stress:   noise rock; psychedelic rock        P=0.90 Z=0.75 Q=0.65 W=0.70 H=0.70
+      L3 extreme:  indie folk; dream pop               P=0.50 Z=0.25 Q=0.30 W=0.55 H=0.20
+      512-A RH+ homo (main/release)        chamber pop                    r=0.40 h=0.35 d=0.45 p=0.25 s=0.55
+      512-B RH- homo (MBTI opp/stress)     björk                          r=0.70 h=0.70 d=0.70 p=0.75 s=0.65
+      512-C RH+ hetero (blood+1/stress)    psychedelic                    r=0.55 h=0.55 d=0.60 p=0.50 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) ghibli                         r=0.30 h=0.20 d=0.35 p=0.15 s=0.45
+
+  29 A_Accumulate     INFJ_A_M     aurora                         outlet of energy from the middle of the     13
+      L1 release:  hardcore                            P=0.85 Z=0.30 Q=0.80 W=0.45 H=0.50
+      L2 stress:   power electronics; industrial       P=0.70 Z=0.90 Q=1.00 W=0.75 H=0.95
+      L3 extreme:  ghibli; indie folk                  P=0.25 Z=0.05 Q=0.50 W=0.30 H=0.20
+      512-A RH+ homo (main/release)        hardcore                       r=0.90 h=0.50 d=0.65 p=0.40 s=0.60
+      512-B RH- homo (MBTI opp/stress)     space rock with stoner         r=0.45 h=0.55 d=0.65 p=0.55 s=0.45
+      512-C RH+ hetero (blood+1/stress)    post-punk experimental         r=0.60 h=0.55 d=0.55 p=0.55 s=0.45
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+  30 A_Accumulate     INFP_A_F     large_igneous_province.out0    midway between thoracic spinous processe  None
+      L1 release:  ambient pop                         P=0.20 Z=0.30 Q=0.20 W=0.60 H=0.40
+      L2 stress:   ghibli-adjacent; neo-classical      P=0.25 Z=0.20 Q=0.20 W=0.50 H=0.30
+      L3 extreme:  indie folk; britpop                 P=0.30 Z=0.20 Q=0.15 W=0.45 H=0.30
+
+  31 A_Accumulate     ESTP_A_M     co2                            right back of head on left inner occipit    14
+      L1 release:  extreme metal                       P=1.00 Z=0.75 Q=0.95 W=0.45 H=0.90
+      L2 stress:   thrash metal; heavy psych           P=1.00 Z=0.45 Q=0.85 W=0.60 H=0.60
+      L3 extreme:  neo-classical; minimalistic ambient P=0.40 Z=0.20 Q=0.55 W=0.40 H=0.35
+      512-A RH+ homo (main/release)        extreme metal                  r=0.95 h=0.85 d=0.80 p=0.75 s=0.45
+      512-B RH- homo (MBTI opp/stress)     arena rock                     r=0.65 h=0.35 d=0.55 p=0.15 s=0.65
+      512-C RH+ hetero (blood+1/stress)    noise rock                     r=0.75 h=0.70 d=0.65 p=0.65 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) gospel                         r=0.55 h=0.30 d=0.60 p=0.20 s=0.65
+
+  32 A_Accumulate     ENFJ_A_F     lactate_dehydrogenase.out1     left pectoralis major (대흉문근) (inferred:   None
+      L1 release:  progressive rock                    P=0.70 Z=0.60 Q=0.70 W=0.70 H=0.55
+      L2 stress:   art pop; orchestral                 P=0.65 Z=0.50 Q=0.60 W=0.75 H=0.50
+      L3 extreme:  soul; gospel                        P=0.70 Z=0.30 Q=0.60 W=0.70 H=0.35
+      512-A RH+ homo (main/release)        progressive rock               r=0.60 h=0.55 d=0.65 p=0.55 s=0.55
+      512-B RH- homo (MBTI opp/stress)     björk                          r=0.70 h=0.70 d=0.70 p=0.75 s=0.65
+      512-C RH+ hetero (blood+1/stress)    avant-pop                      r=0.65 h=0.60 d=0.65 p=0.65 s=0.65
+      512-D RH- hetero (opp+blood+1/extreme) ghibli                         r=0.30 h=0.20 d=0.35 p=0.15 s=0.45
+
+  33 A_Accumulate     ISTP_A_M     steel                          left anus muscle / rectum (직장) (inferred  None
+      L1 release:  aero ambient                        P=0.30 Z=0.30 Q=0.45 W=0.45 H=0.10
+      L2 stress:   heavy psych; fuzz rock              P=0.50 Z=0.60 Q=0.75 W=0.60 H=0.50
+      L3 extreme:  ambient; minimalistic               P=0.10 Z=0.20 Q=0.30 W=0.40 H=0.10
+      512-A RH+ homo (main/release)        aero ambient                   r=0.30 h=0.20 d=0.30 p=0.25 s=0.35
+      512-B RH- homo (MBTI opp/stress)     funk                           r=0.80 h=0.35 d=0.60 p=0.25 s=0.65
+      512-C RH+ hetero (blood+1/stress)    power electronics              r=0.75 h=0.95 d=0.85 p=1.00 s=0.90
+      512-D RH- hetero (opp+blood+1/extreme) soul                           r=0.60 h=0.35 d=0.55 p=0.25 s=0.55
+
+  34 A_Accumulate     INFJ_A_F     LeftD2                                                                   None
+      L1 release:  hard rock                           P=0.73 Z=0.20 Q=0.65 W=0.65 H=0.50
+      L2 stress:   björk; art pop experimental         P=0.73 Z=0.75 Q=0.80 W=0.70 H=0.85
+      L3 extreme:  dark ambient; drone                 P=0.13 Z=0.55 Q=0.30 W=0.15 H=0.80
+      512-A RH+ homo (main/release)        hard rock                      r=0.70 h=0.35 d=0.55 p=0.20 s=0.60
+      512-B RH- homo (MBTI opp/stress)     noise rock                     r=0.75 h=0.70 d=0.65 p=0.65 s=0.55
+      512-C RH+ hetero (blood+1/stress)    arca                           r=0.85 h=0.80 d=0.75 p=0.90 s=0.75
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+  35 A_Accumulate     ESTP_A_F     actomyosin_ctrl.out            right thumb toe (inferred: right hallux   None
+      L1 release:  psychedelic funk                    P=0.62 Z=0.55 Q=0.55 W=0.65 H=0.60
+      L2 stress:   no wave; noise pop                  P=0.57 Z=0.80 Q=0.55 W=0.55 H=0.85
+      L3 extreme:  indie folk; acoustic                P=0.27 Z=0.25 Q=0.25 W=0.45 H=0.30
+      512-A RH+ homo (main/release)        psychedelic funk               r=0.70 h=0.50 d=0.60 p=0.45 s=0.60
+      512-B RH- homo (MBTI opp/stress)     art pop                        r=0.55 h=0.50 d=0.55 p=0.45 s=0.60
+      512-C RH+ hetero (blood+1/stress)    hardcore                       r=0.90 h=0.50 d=0.65 p=0.40 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) art pop                        r=0.55 h=0.50 d=0.55 p=0.45 s=0.60
+
+  36 A_Accumulate     ESTJ_A_M     memory_entropy.out_hind_insula hind of cysteine; choice point between c    15
+      L1 release:  new minimalism                      P=0.15 Z=0.35 Q=0.20 W=0.50 H=0.30
+      L2 stress:   prog metal; technical metal         P=0.65 Z=0.65 Q=0.55 W=0.65 H=0.70
+      L3 extreme:  ambient; folk                       P=0.00 Z=0.20 Q=0.00 W=0.40 H=0.25
+
+  37 A_Accumulate     ISTP_A_F     manganese_oxygen_complex       left rib cage diagonal bone outside of l  None
+      L1 release:  glitch opera                        P=0.67 Z=0.95 Q=0.70 W=0.55 H=0.70
+      L2 stress:   psychedelic folk; shoegaze          P=0.37 Z=0.55 Q=0.45 W=0.45 H=0.45
+      L3 extreme:  acoustic; ambient                   P=0.22 Z=0.20 Q=0.25 W=0.40 H=0.20
+      512-A RH+ homo (main/release)        glitch opera                   r=0.70 h=0.70 d=0.75 p=0.85 s=0.60
+      512-B RH- homo (MBTI opp/stress)     dance pop                      r=0.80 h=0.20 d=0.70 p=0.10 s=0.80
+      512-C RH+ hetero (blood+1/stress)    blues experimental             r=0.45 h=0.55 d=0.50 p=0.50 s=0.45
+      512-D RH- hetero (opp+blood+1/extreme) dream pop                      r=0.30 h=0.40 d=0.40 p=0.35 s=0.50
+
+  38 A_Accumulate     ISTJ_A_M     succinate_dehydrogenase        right pectoralis major (대흉문근) (inferred:  None
+      L1 release:  new age                             P=0.35 Z=0.25 Q=0.40 W=0.30 H=0.15
+      L2 stress:   technical metal; prog metal         P=0.90 Z=0.80 Q=0.85 W=0.60 H=0.70
+      L3 extreme:  orchestral pop; art pop             P=0.45 Z=0.30 Q=0.70 W=0.65 H=0.40
+      512-A RH+ homo (main/release)        new age                        r=0.35 h=0.15 d=0.25 p=0.20 s=0.25
+      512-B RH- homo (MBTI opp/stress)     arena rock                     r=0.65 h=0.35 d=0.55 p=0.15 s=0.65
+      512-C RH+ hetero (blood+1/stress)    grindcore                      r=1.00 h=0.80 d=0.80 p=0.85 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) folk                           r=0.35 h=0.18 d=0.28 p=0.12 s=0.38
+
+  39 A_Accumulate     ESTJ_A_F     memory_entropy.out_co2         hind of cysteine; choice point between c    15
+      L1 release:  cocteau twins                       P=0.25 Z=0.30 Q=0.45 W=0.55 H=0.45
+      L2 stress:   post-punk; rock                     P=0.55 Z=0.30 Q=0.50 W=0.45 H=0.45
+      L3 extreme:  folk; acoustic                      P=0.30 Z=0.02 Q=0.28 W=0.38 H=0.18
+      512-A RH+ homo (main/release)        cocteau twins                  r=0.30 h=0.45 d=0.45 p=0.40 s=0.55
+      512-B RH- homo (MBTI opp/stress)     dream pop                      r=0.30 h=0.40 d=0.40 p=0.35 s=0.50
+      512-C RH+ hetero (blood+1/stress)    hardcore                       r=0.90 h=0.50 d=0.65 p=0.40 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+  40 A_Accumulate     ESFP_A_M     chlorine_ion_pump.out1         right inner wrist where the watch face c  None
+      L1 release:  indie rock                          P=0.80 Z=0.15 Q=0.70 W=0.65 H=0.35
+      L2 stress:   funk; R&B                           P=1.00 Z=0.15 Q=0.75 W=0.75 H=0.35
+      L3 extreme:  ambient; lo-fi                      P=0.30 Z=0.05 Q=0.30 W=0.40 H=0.20
+      512-A RH+ homo (main/release)        indie rock                     r=0.60 h=0.35 d=0.55 p=0.25 s=0.55
+      512-B RH- homo (MBTI opp/stress)     heavy psych                    r=0.50 h=0.60 d=0.60 p=0.55 s=0.50
+      512-C RH+ hetero (blood+1/stress)    experimental hip hop           r=0.65 h=0.55 d=0.60 p=0.50 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) psychedelic rock               r=0.55 h=0.55 d=0.60 p=0.50 s=0.55
+
+  41 A_Accumulate     ISTJ_A_F     sulfur_iron_complex            inner of anterior right armpit near tend  None
+      L1 release:  indie psych                         P=0.53 Z=0.45 Q=0.65 W=0.60 H=0.60
+      L2 stress:   post-punk; new wave                 P=0.63 Z=0.40 Q=0.60 W=0.50 H=0.55
+      L3 extreme:  chamber pop; orchestral pop         P=0.43 Z=0.25 Q=0.55 W=0.60 H=0.45
+      512-A RH+ homo (main/release)        indie psych                    r=0.50 h=0.50 d=0.55 p=0.45 s=0.55
+      512-B RH- homo (MBTI opp/stress)     indie pop                      r=0.45 h=0.25 d=0.40 p=0.20 s=0.55
+      512-C RH+ hetero (blood+1/stress)    hardcore                       r=0.90 h=0.50 d=0.65 p=0.40 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) folk                           r=0.35 h=0.18 d=0.28 p=0.12 s=0.38
+
+  42 A_Accumulate     ISFP_A_M     NaCl                                                                     None
+      L1 release:  metal                               P=0.72 Z=0.55 Q=0.65 W=0.25 H=0.80
+      L2 stress:   shoegaze; post-britpop              P=0.17 Z=0.50 Q=0.40 W=0.25 H=0.65
+      L3 extreme:  ambient; post rock                  P=0.00 Z=0.20 Q=0.10 W=0.05 H=0.35
+      512-A RH+ homo (main/release)        metal                          r=0.85 h=0.65 d=0.70 p=0.50 s=0.50
+      512-B RH- homo (MBTI opp/stress)     prog metal                     r=0.75 h=0.65 d=0.70 p=0.60 s=0.55
+      512-C RH+ hetero (blood+1/stress)    slacker rock                   r=0.50 h=0.30 d=0.40 p=0.25 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) classic rock                   r=0.60 h=0.35 d=0.50 p=0.20 s=0.60
+
+  43 A_Accumulate     ESFP_A_F     outer_core_convection          crossroad between gluon orogen and podzo  None
+      L1 release:  lo-fi rock                          P=0.75 Z=0.20 Q=0.60 W=0.60 H=0.25
+      L2 stress:   dance pop; electropop               P=1.00 Z=0.00 Q=0.85 W=0.90 H=0.10
+      L3 extreme:  ambient; dream pop                  P=0.30 Z=0.05 Q=0.30 W=0.40 H=0.10
+      512-A RH+ homo (main/release)        lo-fi rock                     r=0.55 h=0.35 d=0.45 p=0.30 s=0.50
+      512-B RH- homo (MBTI opp/stress)     psychedelic folk               r=0.40 h=0.45 d=0.50 p=0.45 s=0.50
+      512-C RH+ hetero (blood+1/stress)    hyperpop                       r=0.95 h=0.60 d=0.80 p=0.75 s=0.95
+      512-D RH- hetero (opp+blood+1/extreme) psychedelic rock               r=0.55 h=0.55 d=0.60 p=0.50 s=0.55
+
+  44 A_Accumulate     ESFJ_A_M     cytochrome_c_oxidase           inner surface of intestine in the left (  None
+      L1 release:  glam rock                           P=0.85 Z=0.20 Q=0.70 W=0.75 H=0.55
+      L2 stress:   arena rock; classic rock            P=0.85 Z=0.05 Q=0.70 W=0.75 H=0.50
+      L3 extreme:  ambient; folk                       P=0.30 Z=0.05 Q=0.30 W=0.40 H=0.35
+      512-A RH+ homo (main/release)        glam rock                      r=0.65 h=0.40 d=0.55 p=0.30 s=0.65
+      512-B RH- homo (MBTI opp/stress)     technical metal                r=0.90 h=0.70 d=0.70 p=0.75 s=0.55
+      512-C RH+ hetero (blood+1/stress)    R&B                            r=0.55 h=0.35 d=0.50 p=0.20 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) funk                           r=0.80 h=0.35 d=0.60 p=0.25 s=0.65
+
+  45 A_Accumulate     ISFP_A_F     gluon_orogen.q_bar             left inner bum (inferred: left gluteal f     5
+      L1 release:  drone                               P=0.05 Z=0.80 Q=0.00 W=0.25 H=0.90
+      L2 stress:   dream pop; noise pop                P=0.35 Z=0.25 Q=0.25 W=0.65 H=0.45
+      L3 extreme:  britpop; indie folk                 P=0.70 Z=0.10 Q=0.40 W=0.75 H=0.30
+      512-A RH+ homo (main/release)        drone                          r=0.00 h=0.85 d=0.15 p=0.90 s=0.10
+      512-B RH- homo (MBTI opp/stress)     post-punk                      r=0.60 h=0.45 d=0.50 p=0.40 s=0.45
+      512-C RH+ hetero (blood+1/stress)    dream pop experimental         r=0.40 h=0.45 d=0.45 p=0.40 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) country rock                   r=0.50 h=0.25 d=0.40 p=0.15 s=0.55
+
+  46 A_Accumulate     ESFJ_A_F     pyrite                         between actomyosin and right sole dopami  None
+      L1 release:  funk                                P=0.67 Z=0.35 Q=0.55 W=0.50 H=0.40
+      L2 stress:   indie pop; chamber pop              P=0.32 Z=0.30 Q=0.35 W=0.40 H=0.30
+      L3 extreme:  experimental; ambient               P=0.22 Z=0.75 Q=0.45 W=0.30 H=0.65
+      512-A RH+ homo (main/release)        funk                           r=0.80 h=0.35 d=0.60 p=0.25 s=0.65
+      512-B RH- homo (MBTI opp/stress)     post-punk                      r=0.60 h=0.45 d=0.50 p=0.40 s=0.45
+      512-C RH+ hetero (blood+1/stress)    dance pop                      r=0.80 h=0.20 d=0.70 p=0.10 s=0.80
+      512-D RH- hetero (opp+blood+1/extreme) dream pop                      r=0.30 h=0.40 d=0.40 p=0.35 s=0.50
+
+  47 A_Accumulate     ISFJ_A_M     laterite                       left calf between thumb toe and magnetit     6
+      L1 release:  industrial electronic               P=1.00 Z=0.75 Q=0.90 W=0.90 H=0.75
+      L2 stress:   arena rock; classic rock            P=0.85 Z=0.20 Q=0.70 W=0.80 H=0.45
+      L3 extreme:  orchestral pop; chamber pop         P=0.65 Z=0.30 Q=0.70 W=0.75 H=0.50
+      512-A RH+ homo (main/release)        industrial electronic          r=0.85 h=0.65 d=0.75 p=0.70 s=0.75
+      512-B RH- homo (MBTI opp/stress)     thrash metal                   r=0.90 h=0.55 d=0.70 p=0.45 s=0.60
+      512-C RH+ hetero (blood+1/stress)    jazz fusion                    r=0.75 h=0.65 d=0.70 p=0.60 s=0.65
+      512-D RH- hetero (opp+blood+1/extreme) dark ambient                   r=0.10 h=0.65 d=0.20 p=0.55 s=0.10
+
+  48 A_Accumulate     ISFJ_A_F     craton.out1                    above quark orogen magma (inferred: righ  None
+      L1 release:  dance                               P=0.85 Z=0.25 Q=0.65 W=0.90 H=0.25
+      L2 stress:   art pop; orchestral pop             P=0.60 Z=0.55 Q=0.55 W=0.75 H=0.50
+      L3 extreme:  orchestral pop; neo-classical       P=0.50 Z=0.35 Q=0.55 W=0.75 H=0.40
+      512-A RH+ homo (main/release)        dance                          r=0.80 h=0.25 d=0.65 p=0.15 s=0.75
+      512-B RH- homo (MBTI opp/stress)     no wave                        r=0.65 h=0.75 d=0.60 p=0.70 s=0.50
+      512-C RH+ hetero (blood+1/stress)    ethereal wave                  r=0.20 h=0.35 d=0.30 p=0.30 s=0.45
+      512-D RH- hetero (opp+blood+1/extreme) ethereal wave                  r=0.20 h=0.35 d=0.30 p=0.30 s=0.45
+
+  49 O_Accumulate     ENTP_O_M     outer_core_convection.out0     crossroad between gluon orogen and podzo  None
+      L1 release:  city pop                            P=0.70 Z=0.25 Q=0.40 W=0.70 H=0.25
+      L2 stress:   industrial electronic; EBM          P=1.00 Z=0.80 Q=0.75 W=0.90 H=0.65
+      L3 extreme:  experimental classical; drone       P=0.40 Z=0.85 Q=0.60 W=0.65 H=0.75
+
+  50 O_Accumulate     INTP_O_M     thorium                        just inner to center of body where it di  None
+      L1 release:  electronic dance                    P=0.85 Z=0.30 Q=0.80 W=0.75 H=0.45
+      L2 stress:   synthwave; krautrock                P=0.60 Z=0.30 Q=0.55 W=0.60 H=0.40
+      L3 extreme:  britpop; indie folk                 P=0.65 Z=0.30 Q=0.55 W=0.55 H=0.40
+      512-A RH+ homo (main/release)        electronic dance               r=0.85 h=0.30 d=0.80 p=0.20 s=0.80
+      512-B RH- homo (MBTI opp/stress)     jazz fusion                    r=0.75 h=0.65 d=0.70 p=0.60 s=0.65
+      512-C RH+ hetero (blood+1/stress)    BoC-adjacent electronica       r=0.30 h=0.55 d=0.40 p=0.40 s=0.35
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+  51 O_Accumulate     ENTJ_O_M     memory_entropy                 hind of cysteine; choice point between c    15
+      L1 release:  pop country                         P=0.65 Z=0.10 Q=0.35 W=0.65 H=0.15
+      L2 stress:   death metal; extreme metal          P=1.00 Z=0.60 Q=0.65 W=0.55 H=0.70
+      L3 extreme:  ambient; minimalistic               P=0.20 Z=0.15 Q=0.05 W=0.35 H=0.15
+      512-A RH+ homo (main/release)        pop country                    r=0.55 h=0.20 d=0.45 p=0.10 s=0.60
+      512-B RH- homo (MBTI opp/stress)     synthwave                      r=0.60 h=0.25 d=0.55 p=0.20 s=0.65
+      512-C RH+ hetero (blood+1/stress)    symphonic metal                r=0.65 h=0.60 d=0.65 p=0.45 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) britpop                        r=0.65 h=0.25 d=0.55 p=0.20 s=0.60
+
+  52 O_Accumulate     INTJ_O_M     basin.q                        just inside posterior exterior left wais  None
+      L1 release:  black metal                         P=1.00 Z=0.60 Q=0.85 W=0.30 H=1.00
+      L2 stress:   drone; dark ambient                 P=0.20 Z=0.80 Q=0.30 W=0.10 H=1.00
+      L3 extreme:  lofi hip hop; nujabes               P=0.65 Z=0.10 Q=0.45 W=0.35 H=0.50
+
+  53 O_Accumulate     ENTP_O_F     cck                            back of the pancreas (inferred: pancreat  None
+      L1 release:  drone metal                         P=0.40 Z=0.95 Q=0.70 W=0.20 H=1.00
+      L2 stress:   space rock; krautrock               P=0.70 Z=0.60 Q=0.75 W=0.50 H=0.60
+      L3 extreme:  IDM; experimental electronic        P=0.70 Z=0.60 Q=0.65 W=0.50 H=0.60
+      512-A RH+ homo (main/release)        drone metal                    r=0.20 h=0.90 d=0.55 p=0.85 s=0.20
+      512-B RH- homo (MBTI opp/stress)     power electronics              r=0.75 h=0.95 d=0.85 p=1.00 s=0.90
+      512-C RH+ hetero (blood+1/stress)    noise pop                      r=0.55 h=0.60 d=0.50 p=0.50 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) drone                          r=0.00 h=0.85 d=0.15 p=0.90 s=0.10
+
+  54 O_Accumulate     ENFP_O_M     heme                           just inner to left nipple (inferred: lef     3
+      L1 release:  noise rock                          P=0.95 Z=0.55 Q=0.80 W=0.65 H=0.85
+      L2 stress:   space rock with stoner; krautrock   P=0.65 Z=0.45 Q=0.80 W=0.55 H=0.70
+      L3 extreme:  experimental classical; drone       P=0.45 Z=0.65 Q=0.75 W=0.60 H=0.90
+      512-A RH+ homo (main/release)        noise rock                     r=0.75 h=0.70 d=0.65 p=0.65 s=0.55
+      512-B RH- homo (MBTI opp/stress)     drone                          r=0.00 h=0.85 d=0.15 p=0.90 s=0.10
+      512-C RH+ hetero (blood+1/stress)    indie psych                    r=0.50 h=0.50 d=0.55 p=0.45 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) ghibli                         r=0.30 h=0.20 d=0.35 p=0.15 s=0.45
+
+  55 O_Accumulate     INTP_O_F     nitrogenase.out_2                                                        None
+      L1 release:  prog rock                           P=0.70 Z=0.60 Q=0.70 W=0.70 H=0.45
+      L2 stress:   shoegaze; post rock                 P=0.40 Z=0.50 Q=0.50 W=0.65 H=0.40
+      L3 extreme:  soul; indie pop                     P=0.70 Z=0.30 Q=0.60 W=0.70 H=0.25
+      512-A RH+ homo (main/release)        prog rock                      r=0.60 h=0.55 d=0.65 p=0.55 s=0.55
+      512-B RH- homo (MBTI opp/stress)     jazz                           r=0.55 h=0.50 d=0.55 p=0.45 s=0.55
+      512-C RH+ hetero (blood+1/stress)    shoegaze                       r=0.30 h=0.50 d=0.45 p=0.45 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) soul                           r=0.60 h=0.35 d=0.55 p=0.25 s=0.55
+
+  56 O_Accumulate     INFP_O_M     histosol.out1                  left outside of left foot just hind to o  None
+      L1 release:  power electronics                   P=0.62 Z=0.90 Q=0.80 W=0.65 H=1.00
+      L2 stress:   radiohead; post-britpop art rock    P=0.37 Z=0.35 Q=0.50 W=0.25 H=0.65
+      L3 extreme:  experimental classical; drone       P=0.12 Z=0.65 Q=0.55 W=0.25 H=0.85
+      512-A RH+ homo (main/release)        power electronics              r=0.75 h=0.95 d=0.85 p=1.00 s=0.90
+      512-B RH- homo (MBTI opp/stress)     death metal                    r=0.95 h=0.75 d=0.75 p=0.60 s=0.50
+      512-C RH+ hetero (blood+1/stress)    hauntology                     r=0.20 h=0.40 d=0.25 p=0.35 s=0.30
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+  57 O_Accumulate     ENTJ_O_F     steel.out1                     left anus muscle / rectum (직장) (inferred  None
+      L1 release:  witch house                         P=0.57 Z=0.60 Q=0.50 W=0.35 H=0.80
+      L2 stress:   metal; hard rock                    P=0.87 Z=0.45 Q=0.65 W=0.55 H=0.75
+      L3 extreme:  ambient; minimalistic               P=0.12 Z=0.10 Q=0.10 W=0.35 H=0.30
+      512-A RH+ homo (main/release)        witch house                    r=0.55 h=0.70 d=0.55 p=0.65 s=0.30
+      512-B RH- homo (MBTI opp/stress)     shoegaze                       r=0.30 h=0.50 d=0.45 p=0.45 s=0.50
+      512-C RH+ hetero (blood+1/stress)    prog                           r=0.60 h=0.55 d=0.65 p=0.55 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) art pop                        r=0.55 h=0.50 d=0.55 p=0.45 s=0.60
+
+  58 O_Accumulate     INTJ_O_F     autophagy.out0                                                           None
+      L1 release:  soft rock                           P=0.65 Z=0.00 Q=0.50 W=0.65 H=0.15
+      L2 stress:   power electronics; industrial       P=0.95 Z=0.90 Q=1.00 W=1.00 H=0.90
+      L3 extreme:  lofi nujabes; ghibli-adjacent       P=0.65 Z=0.10 Q=0.45 W=0.45 H=0.25
+      512-A RH+ homo (main/release)        soft rock                      r=0.45 h=0.20 d=0.35 p=0.10 s=0.55
+      512-B RH- homo (MBTI opp/stress)     space rock                     r=0.50 h=0.50 d=0.60 p=0.50 s=0.50
+      512-C RH+ hetero (blood+1/stress)    art pop                        r=0.55 h=0.50 d=0.55 p=0.45 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) synth pop                      r=0.70 h=0.25 d=0.60 p=0.15 s=0.70
+
+  59 O_Accumulate     ENFJ_O_M     sulforaphane                   left inner brain next to hippocampus (in  None
+      L1 release:  prog                                P=0.80 Z=0.55 Q=0.70 W=0.70 H=0.40
+      L2 stress:   jazz fusion; progressive soul       P=0.95 Z=0.60 Q=0.75 W=0.80 H=0.50
+      L3 extreme:  experimental classical; drone       P=0.45 Z=0.75 Q=0.65 W=0.65 H=0.60
+      512-A RH+ homo (main/release)        prog                           r=0.60 h=0.55 d=0.65 p=0.55 s=0.55
+      512-B RH- homo (MBTI opp/stress)     drone                          r=0.00 h=0.85 d=0.15 p=0.90 s=0.10
+      512-C RH+ hetero (blood+1/stress)    jazz fusion                    r=0.75 h=0.65 d=0.70 p=0.60 s=0.65
+      512-D RH- hetero (opp+blood+1/extreme) ghibli                         r=0.30 h=0.20 d=0.35 p=0.15 s=0.45
+
+  60 O_Accumulate     ENFP_O_F     co2.out0                       right back of head on left inner occipit    14
+      L1 release:  ambient electronica                 P=0.00 Z=0.30 Q=0.10 W=0.15 H=0.45
+      L2 stress:   space rock with stoner; shoegaze    P=0.25 Z=0.60 Q=0.50 W=0.20 H=0.70
+      L3 extreme:  experimental; dark ambient          P=0.15 Z=0.70 Q=0.35 W=0.20 H=0.75
+
+  61 O_Accumulate     INFJ_O_M     cysteine                       right inner brain opposite sulforaphane   None
+      L1 release:  art rock                            P=0.72 Z=0.45 Q=0.60 W=0.68 H=0.70
+      L2 stress:   drone; minimalistic ambient         P=0.12 Z=0.80 Q=0.10 W=0.20 H=1.00
+      L3 extreme:  lofi hip hop; britpop               P=0.57 Z=0.10 Q=0.25 W=0.45 H=0.45
+      512-A RH+ homo (main/release)        art rock                       r=0.60 h=0.55 d=0.65 p=0.55 s=0.58
+      512-B RH- homo (MBTI opp/stress)     space rock with stoner         r=0.45 h=0.55 d=0.65 p=0.55 s=0.45
+      512-C RH+ hetero (blood+1/stress)    industrial                     r=0.85 h=0.65 d=0.75 p=0.70 s=0.75
+      512-D RH- hetero (opp+blood+1/extreme) experimental                   r=0.35 h=0.60 d=0.50 p=0.65 s=0.45
+
+  62 O_Accumulate     INFP_O_F     ferritin.out0                  just inner to heme in the middle of the   None
+      L1 release:  technical metal                     P=0.95 Z=0.65 Q=0.55 W=0.55 H=0.90
+      L2 stress:   dream pop; shoegaze                 P=0.35 Z=0.25 Q=0.25 W=0.50 H=0.60
+      L3 extreme:  experimental classical; drone       P=0.30 Z=0.65 Q=0.45 W=0.50 H=0.95
+
+  63 O_Accumulate     ESTP_O_M     water_vapour                   thoracic spinous processes (흉추돌기) (infer    12
+      L1 release:  pop rock                            P=0.80 Z=0.20 Q=0.65 W=0.85 H=0.15
+      L2 stress:   hardcore; punk                      P=1.00 Z=0.45 Q=0.80 W=0.80 H=0.40
+      L3 extreme:  indie folk; minimalistic ambient    P=0.55 Z=0.20 Q=0.45 W=0.60 H=0.10
+      512-A RH+ homo (main/release)        pop rock                       r=0.60 h=0.25 d=0.50 p=0.15 s=0.65
+      512-B RH- homo (MBTI opp/stress)     hard rock                      r=0.70 h=0.35 d=0.55 p=0.20 s=0.60
+      512-C RH+ hetero (blood+1/stress)    heavy psych                    r=0.50 h=0.60 d=0.60 p=0.55 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) orchestral pop                 r=0.45 h=0.40 d=0.55 p=0.25 s=0.60
+
+  64 O_Accumulate     ENFJ_O_F     subduction_zone                left outer femoral nerve or just outside    11
+      L1 release:  indie pop                           P=0.40 Z=0.10 Q=0.25 W=0.70 H=0.35
+      L2 stress:   jazz; R&B experimental              P=0.50 Z=0.35 Q=0.40 W=0.70 H=0.60
+      L3 extreme:  ambient; drone                      P=0.05 Z=0.05 Q=0.00 W=0.45 H=0.30
+      512-A RH+ homo (main/release)        indie pop                      r=0.45 h=0.25 d=0.40 p=0.20 s=0.55
+      512-B RH- homo (MBTI opp/stress)     dark ambient                   r=0.10 h=0.65 d=0.20 p=0.55 s=0.10
+      512-C RH+ hetero (blood+1/stress)    orchestral                     r=0.35 h=0.45 d=0.55 p=0.30 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) dark ambient                   r=0.10 h=0.65 d=0.20 p=0.55 s=0.10
+
+  65 O_Accumulate     ISTP_O_M     mc1r.q_bar                     just below GDH on left waist (inferred:   None
+      L1 release:  experimental rock                   P=0.80 Z=0.50 Q=0.75 W=0.75 H=0.70
+      L2 stress:   doom metal; sludge                  P=0.50 Z=0.45 Q=0.65 W=0.45 H=0.80
+      L3 extreme:  psychedelic rock; ambient           P=0.75 Z=0.40 Q=0.75 W=0.75 H=0.60
+      512-A RH+ homo (main/release)        experimental rock              r=0.60 h=0.65 d=0.60 p=0.60 s=0.55
+      512-B RH- homo (MBTI opp/stress)     dance                          r=0.80 h=0.25 d=0.65 p=0.15 s=0.75
+      512-C RH+ hetero (blood+1/stress)    fuzz rock                      r=0.60 h=0.50 d=0.55 p=0.40 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+  66 O_Accumulate     INFJ_O_F     basin                          just inside posterior exterior left wais  None
+      L1 release:  progressive soul                    P=0.70 Z=0.35 Q=0.70 W=0.65 H=0.45
+      L2 stress:   dark ambient; drone                 P=0.15 Z=0.45 Q=0.25 W=0.15 H=0.55
+      L3 extreme:  indie folk; ghibli                  P=0.40 Z=0.05 Q=0.35 W=0.45 H=0.10
+      512-A RH+ homo (main/release)        progressive soul               r=0.65 h=0.55 d=0.65 p=0.45 s=0.60
+      512-B RH- homo (MBTI opp/stress)     space rock with stoner         r=0.45 h=0.55 d=0.65 p=0.55 s=0.45
+      512-C RH+ hetero (blood+1/stress)    art pop experimental           r=0.60 h=0.55 d=0.60 p=0.55 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+  67 O_Accumulate     ESTP_O_F     adapter_protein                second finger on the right (inferred: ri  None
+      L1 release:  dream pop experimental              P=0.50 Z=0.45 Q=0.35 W=0.75 H=0.40
+      L2 stress:   electropop; synth pop               P=0.80 Z=0.20 Q=0.45 W=0.90 H=0.20
+      L3 extreme:  dream pop; indie folk               P=0.40 Z=0.40 Q=0.30 W=0.70 H=0.35
+      512-A RH+ homo (main/release)        dream pop experimental         r=0.40 h=0.45 d=0.45 p=0.40 s=0.55
+      512-B RH- homo (MBTI opp/stress)     indie pop                      r=0.45 h=0.25 d=0.40 p=0.20 s=0.55
+      512-C RH+ hetero (blood+1/stress)    noise pop                      r=0.55 h=0.60 d=0.50 p=0.50 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) orchestral pop                 r=0.45 h=0.40 d=0.55 p=0.25 s=0.60
+
+  68 O_Accumulate     ESTJ_O_M     pyrite.out1                    between actomyosin and right sole dopami  None
+      L1 release:  synth pop                           P=0.88 Z=0.15 Q=0.70 W=0.80 H=0.25
+      L2 stress:   metal; prog rock                    P=1.00 Z=0.50 Q=0.80 W=0.60 H=0.65
+      L3 extreme:  ambient; minimalistic               P=0.28 Z=0.15 Q=0.25 W=0.40 H=0.20
+      512-A RH+ homo (main/release)        synth pop                      r=0.70 h=0.25 d=0.60 p=0.15 s=0.70
+      512-B RH- homo (MBTI opp/stress)     shoegaze                       r=0.30 h=0.50 d=0.45 p=0.45 s=0.50
+      512-C RH+ hetero (blood+1/stress)    technical metal                r=0.90 h=0.70 d=0.70 p=0.75 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+  69 O_Accumulate     ISTP_O_F     lower_mantle.q                 opposite craton on left back (inferred:   None
+      L1 release:  weird pop                           P=0.50 Z=0.45 Q=0.45 W=0.80 H=0.60
+      L2 stress:   stoner rock; heavy blues            P=0.30 Z=0.40 Q=0.40 W=0.50 H=0.60
+      L3 extreme:  ambient; acoustic folk              P=0.00 Z=0.05 Q=0.00 W=0.45 H=0.25
+      512-A RH+ homo (main/release)        weird pop                      r=0.60 h=0.55 d=0.60 p=0.55 s=0.65
+      512-B RH- homo (MBTI opp/stress)     synth pop                      r=0.70 h=0.25 d=0.60 p=0.15 s=0.70
+      512-C RH+ hetero (blood+1/stress)    shoegaze                       r=0.30 h=0.50 d=0.45 p=0.45 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+  70 O_Accumulate     ISTJ_O_M     water_vapour.out0              thoracic spinous processes (흉추돌기) (infer    12
+      L1 release:  tool-adjacent                       P=0.73 Z=0.55 Q=0.80 W=0.45 H=0.65
+      L2 stress:   blues rock; southern rock           P=0.53 Z=0.20 Q=0.60 W=0.45 H=0.35
+      L3 extreme:  soul; gospel                        P=0.58 Z=0.20 Q=0.65 W=0.45 H=0.35
+      512-A RH+ homo (main/release)        tool-adjacent                  r=0.75 h=0.65 d=0.70 p=0.60 s=0.55
+      512-B RH- homo (MBTI opp/stress)     hard rock                      r=0.70 h=0.35 d=0.55 p=0.20 s=0.60
+      512-C RH+ hetero (blood+1/stress)    prog metal                     r=0.75 h=0.65 d=0.70 p=0.60 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+  71 O_Accumulate     ESTJ_O_F     aurora.out0                    outlet of energy from the middle of the     13
+      L1 release:  ethereal wave                       P=0.18 Z=0.25 Q=0.40 W=0.50 H=0.30
+      L2 stress:   rock; blues rock                    P=0.63 Z=0.20 Q=0.65 W=0.65 H=0.35
+      L3 extreme:  ambient; folk                       P=0.08 Z=0.10 Q=0.25 W=0.35 H=0.15
+
+  72 O_Accumulate     ESFP_O_M     subduction_zone.out0           left outer femoral nerve or just outside    11
+      L1 release:  experimental hip hop                P=0.83 Z=0.60 Q=0.70 W=0.70 H=0.50
+      L2 stress:   dance; electronic dance             P=0.98 Z=0.25 Q=0.75 W=0.95 H=0.20
+      L3 extreme:  ambient; post rock                  P=0.28 Z=0.25 Q=0.25 W=0.50 H=0.15
+      512-A RH+ homo (main/release)        experimental hip hop           r=0.65 h=0.55 d=0.60 p=0.50 s=0.50
+      512-B RH- homo (MBTI opp/stress)     doom metal                     r=0.30 h=0.75 d=0.50 p=0.55 s=0.25
+      512-C RH+ hetero (blood+1/stress)    R&B                            r=0.55 h=0.35 d=0.50 p=0.20 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+  73 O_Accumulate     ISTJ_O_F     adapter_protein.q_bar          second finger on the right (inferred: ri  None
+      L1 release:  pop soul                            P=0.50 Z=0.02 Q=0.40 W=0.73 H=0.13
+      L2 stress:   indie pop; folk rock                P=0.40 Z=0.10 Q=0.30 W=0.70 H=0.10
+      L3 extreme:  soul; gospel                        P=0.55 Z=0.15 Q=0.45 W=0.70 H=0.20
+      512-A RH+ homo (main/release)        pop soul                       r=0.55 h=0.28 d=0.50 p=0.12 s=0.58
+      512-B RH- homo (MBTI opp/stress)     folk rock                      r=0.50 h=0.30 d=0.45 p=0.20 s=0.55
+      512-C RH+ hetero (blood+1/stress)    new wave                       r=0.60 h=0.35 d=0.50 p=0.30 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) experimental                   r=0.35 h=0.60 d=0.50 p=0.65 s=0.45
+
+  74 O_Accumulate     ISFP_O_M     laterite.q_bar                 left calf between thumb toe and magnetit     6
+      L1 release:  baroque pop                         P=0.48 Z=0.40 Q=0.55 W=0.75 H=0.60
+      L2 stress:   shoegaze; alternative rock          P=0.38 Z=0.55 Q=0.55 W=0.70 H=0.70
+      L3 extreme:  experimental; ambient               P=0.43 Z=0.75 Q=0.60 W=0.65 H=0.80
+      512-A RH+ homo (main/release)        baroque pop                    r=0.40 h=0.40 d=0.45 p=0.30 s=0.55
+      512-B RH- homo (MBTI opp/stress)     metal                          r=0.85 h=0.65 d=0.70 p=0.50 s=0.50
+      512-C RH+ hetero (blood+1/stress)    post-britpop                   r=0.55 h=0.35 d=0.50 p=0.25 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+  75 O_Accumulate     ESFP_O_F     pentose_phosphate              medial lower canthus right (inferred: ri  None
+      L1 release:  IDM                                 P=0.60 Z=0.45 Q=0.55 W=0.75 H=0.45
+      L2 stress:   synth pop; dance pop                P=0.80 Z=0.10 Q=0.65 W=0.95 H=0.20
+      L3 extreme:  ambient; acoustic folk              P=0.20 Z=0.10 Q=0.20 W=0.55 H=0.15
+      512-A RH+ homo (main/release)        IDM                            r=0.90 h=0.65 d=0.70 p=0.90 s=0.75
+      512-B RH- homo (MBTI opp/stress)     stoner rock                    r=0.40 h=0.55 d=0.55 p=0.50 s=0.35
+      512-C RH+ hetero (blood+1/stress)    electropop                     r=0.70 h=0.25 d=0.55 p=0.15 s=0.70
+      512-D RH- hetero (opp+blood+1/extreme) acoustic                       r=0.25 h=0.20 d=0.30 p=0.10 s=0.45
+
+  76 O_Accumulate     ESFJ_O_M     methylation                    just above GLP-1 to the inner core of th  None
+      L1 release:  orchestral pop                      P=0.53 Z=0.20 Q=0.65 W=0.80 H=0.55
+      L2 stress:   hard rock; southern rock            P=0.78 Z=0.15 Q=0.65 W=0.80 H=0.50
+      L3 extreme:  ambient; minimalistic               P=0.18 Z=0.10 Q=0.25 W=0.50 H=0.35
+      512-A RH+ homo (main/release)        orchestral pop                 r=0.45 h=0.40 d=0.55 p=0.25 s=0.60
+      512-B RH- homo (MBTI opp/stress)     blues rock                     r=0.55 h=0.35 d=0.50 p=0.25 s=0.55
+      512-C RH+ hetero (blood+1/stress)    classic rock                   r=0.60 h=0.35 d=0.50 p=0.20 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) orchestral pop                 r=0.45 h=0.40 d=0.55 p=0.25 s=0.60
+
+  77 O_Accumulate     ISFP_O_F     manganese_nodule                                                         None
+      L1 release:  acoustic folk                       P=0.17 Z=0.07 Q=0.25 W=0.20 H=0.27
+      L2 stress:   dream pop; shoegaze                 P=0.17 Z=0.30 Q=0.35 W=0.25 H=0.45
+      L3 extreme:  britpop; alternative                P=0.52 Z=0.15 Q=0.50 W=0.35 H=0.30
+      512-A RH+ homo (main/release)        acoustic folk                  r=0.30 h=0.22 d=0.30 p=0.12 s=0.45
+      512-B RH- homo (MBTI opp/stress)     rock                           r=0.65 h=0.40 d=0.55 p=0.25 s=0.60
+      512-C RH+ hetero (blood+1/stress)    noise pop                      r=0.55 h=0.60 d=0.50 p=0.50 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) folk                           r=0.35 h=0.18 d=0.28 p=0.12 s=0.38
+
+  78 O_Accumulate     ESFJ_O_F     right_acetylcholine            right temporalis inner strip, right acet  None
+      L1 release:  prog metal                          P=0.95 Z=0.55 Q=0.75 W=0.55 H=0.80
+      L2 stress:   folk rock; americana                P=0.70 Z=0.15 Q=0.50 W=0.55 H=0.45
+      L3 extreme:  experimental; drone                 P=0.55 Z=0.60 Q=0.55 W=0.45 H=0.75
+      512-A RH+ homo (main/release)        prog metal                     r=0.75 h=0.65 d=0.70 p=0.60 s=0.55
+      512-B RH- homo (MBTI opp/stress)     indie pop                      r=0.45 h=0.25 d=0.40 p=0.20 s=0.55
+      512-C RH+ hetero (blood+1/stress)    chamber pop                    r=0.40 h=0.35 d=0.45 p=0.25 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) chamber pop                    r=0.40 h=0.35 d=0.45 p=0.25 s=0.55
+
+  79 O_Accumulate     ISFJ_O_M     none_observer                                                            None
+      L1 release:  fuzz rock                           P=0.53 Z=0.30 Q=0.65 W=0.30 H=0.55
+      L2 stress:   hard rock; classic rock             P=0.63 Z=0.10 Q=0.65 W=0.35 H=0.40
+      L3 extreme:  soul; gospel                        P=0.53 Z=0.15 Q=0.65 W=0.30 H=0.40
+      512-A RH+ homo (main/release)        fuzz rock                      r=0.60 h=0.50 d=0.55 p=0.40 s=0.55
+      512-B RH- homo (MBTI opp/stress)     hardcore                       r=0.90 h=0.50 d=0.65 p=0.40 s=0.60
+      512-C RH+ hetero (blood+1/stress)    classic rock                   r=0.60 h=0.35 d=0.50 p=0.20 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) neo-classical                  r=0.20 h=0.30 d=0.40 p=0.20 s=0.40
+
+  80 O_Accumulate     ISFJ_O_F     disulfide_bond                 hind of cysteine; choice point between c  None
+      L1 release:  PC Music                            P=0.40 Z=0.55 Q=0.50 W=0.25 H=0.55
+      L2 stress:   indie pop; singer-songwriter        P=0.35 Z=0.25 Q=0.40 W=0.30 H=0.30
+      L3 extreme:  dream pop; soul                     P=0.20 Z=0.40 Q=0.40 W=0.25 H=0.45
+      512-A RH+ homo (main/release)        PC Music                       r=0.85 h=0.50 d=0.75 p=0.70 s=0.90
+      512-B RH- homo (MBTI opp/stress)     electropop                     r=0.70 h=0.25 d=0.55 p=0.15 s=0.70
+      512-C RH+ hetero (blood+1/stress)    orchestral pop                 r=0.45 h=0.40 d=0.55 p=0.25 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+  81 B_Accumulate     ENTP_B_M     plume_out0_nand                just outside opposite of thorium on righ  None
+      L1 release:  doom metal                          P=0.50 Z=0.55 Q=0.65 W=0.25 H=0.80
+      L2 stress:   noise; harsh electronica            P=1.00 Z=1.00 Q=1.00 W=0.90 H=1.00
+      L3 extreme:  big beat; industrial                P=1.00 Z=0.35 Q=0.85 W=0.70 H=0.40
+
+  82 B_Accumulate     INTP_B_M     carbon.q                       right orbicularis                         None
+      L1 release:  lo-fi indie                         P=0.42 Z=0.15 Q=0.35 W=0.60 H=0.50
+      L2 stress:   experimental contemporary classical; glitch P=0.22 Z=0.75 Q=0.60 W=0.65 H=1.00
+      L3 extreme:  post rock; shoegaze                 P=0.37 Z=0.30 Q=0.70 W=0.55 H=0.70
+      512-A RH+ homo (main/release)        lo-fi indie                    r=0.45 h=0.30 d=0.40 p=0.25 s=0.50
+      512-B RH- homo (MBTI opp/stress)     experimental R&B               r=0.60 h=0.55 d=0.60 p=0.50 s=0.55
+      512-C RH+ hetero (blood+1/stress)    musique concrète               r=0.60 h=0.85 d=0.70 p=0.95 s=0.65
+      512-D RH- hetero (opp+blood+1/extreme) soul                           r=0.60 h=0.35 d=0.55 p=0.25 s=0.55
+
+  83 B_Accumulate     ENTJ_B_M     male_right_oxytocin            muscle that links ear to the head, auric  None
+      L1 release:  experimental ambient                P=0.00 Z=0.50 Q=0.10 W=0.20 H=0.45
+      L2 stress:   grindcore; black metal              P=0.80 Z=0.95 Q=0.65 W=0.45 H=0.85
+      L3 extreme:  orchestral; cinematic               P=0.15 Z=0.40 Q=0.40 W=0.50 H=0.50
+      512-A RH+ homo (main/release)        experimental ambient           r=0.15 h=0.40 d=0.25 p=0.40 s=0.30
+      512-B RH- homo (MBTI opp/stress)     experimental contemporary classical r=0.25 h=0.85 d=0.65 p=0.85 s=0.55
+      512-C RH+ hetero (blood+1/stress)    contemporary classical         r=0.25 h=0.60 d=0.55 p=0.55 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) synthwave                      r=0.60 h=0.25 d=0.55 p=0.20 s=0.65
+
+  84 B_Accumulate     INTJ_B_M     substance_p                    under right armpit (inferred: right axil  None
+      L1 release:  experimental folk                   P=0.40 Z=0.40 Q=0.30 W=0.50 H=0.55
+      L2 stress:   harsh noise; power electronics      P=0.75 Z=0.90 Q=0.65 W=0.95 H=1.00
+      L3 extreme:  lofi nujabes; minimalistic ambient  P=0.50 Z=0.10 Q=0.15 W=0.40 H=0.35
+      512-A RH+ homo (main/release)        experimental folk              r=0.35 h=0.50 d=0.45 p=0.50 s=0.45
+      512-B RH- homo (MBTI opp/stress)     noise                          r=0.80 h=0.95 d=0.85 p=1.00 s=0.90
+      512-C RH+ hetero (blood+1/stress)    neo-classical                  r=0.20 h=0.30 d=0.40 p=0.20 s=0.40
+      512-D RH- hetero (opp+blood+1/extreme) big beat                       r=0.80 h=0.35 d=0.70 p=0.35 s=0.70
+
+  85 B_Accumulate     ENTP_B_F     actomyosin                     right thumb toe (inferred: right hallux   None
+      L1 release:  mac demarco                         P=0.35 Z=0.35 Q=0.30 W=0.45 H=0.50
+      L2 stress:   noise rock; sonic youth adjacent    P=0.60 Z=0.75 Q=0.55 W=0.45 H=0.90
+      L3 extreme:  IDM; electronic experimental        P=0.35 Z=0.60 Q=0.40 W=0.40 H=0.70
+      512-A RH+ homo (main/release)        mac demarco                    r=0.50 h=0.30 d=0.40 p=0.25 s=0.55
+      512-B RH- homo (MBTI opp/stress)     arca                           r=0.85 h=0.80 d=0.75 p=0.90 s=0.75
+      512-C RH+ hetero (blood+1/stress)    glitch                         r=0.75 h=0.55 d=0.60 p=0.85 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) drone                          r=0.00 h=0.85 d=0.15 p=0.90 s=0.10
+
+  86 B_Accumulate     ENFP_B_M     glp1                           center of triangle made by acetyl-CoA, f  None
+      L1 release:  stoner rock                         P=0.60 Z=0.45 Q=0.70 W=0.50 H=0.70
+      L2 stress:   krautrock; cosmic rock              P=0.90 Z=0.50 Q=0.70 W=0.65 H=0.55
+      L3 extreme:  indie folk; singer-songwriter       P=0.55 Z=0.10 Q=0.45 W=0.55 H=0.35
+      512-A RH+ homo (main/release)        stoner rock                    r=0.40 h=0.55 d=0.55 p=0.50 s=0.35
+      512-B RH- homo (MBTI opp/stress)     free jazz                      r=0.70 h=0.85 d=0.75 p=0.90 s=0.65
+      512-C RH+ hetero (blood+1/stress)    noise pop                      r=0.55 h=0.60 d=0.50 p=0.50 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) dark ambient                   r=0.10 h=0.65 d=0.20 p=0.55 s=0.10
+
+  87 B_Accumulate     INTP_B_F     water                          upper philtrum halfway between nose and     12
+      L1 release:  triphop                             P=0.37 Z=0.30 Q=0.50 W=0.30 H=0.60
+      L2 stress:   experimental classical; lowercase noise P=0.12 Z=0.65 Q=0.55 W=0.25 H=0.90
+      L3 extreme:  indie folk; shoegaze                P=0.22 Z=0.05 Q=0.25 W=0.15 H=0.35
+      512-A RH+ homo (main/release)        triphop                        r=0.50 h=0.45 d=0.55 p=0.40 s=0.55
+      512-B RH- homo (MBTI opp/stress)     experimental R&B               r=0.60 h=0.55 d=0.60 p=0.50 s=0.55
+      512-C RH+ hetero (blood+1/stress)    noise ambient                  r=0.30 h=0.75 d=0.50 p=0.70 s=0.30
+      512-D RH- hetero (opp+blood+1/extreme) dream pop                      r=0.30 h=0.40 d=0.40 p=0.35 s=0.50
+
+  88 B_Accumulate     INFP_B_M     sodium.out1                    left outside of left endorphin on orbicu  None
+      L1 release:  hans zimmer                         P=0.53 Z=0.25 Q=0.70 W=0.70 H=0.60
+      L2 stress:   experimental ambient; lowercase     P=0.33 Z=0.30 Q=0.35 W=0.40 H=0.50
+      L3 extreme:  britpop; indie folk                 P=0.83 Z=0.10 Q=0.65 W=0.70 H=0.35
+      512-A RH+ homo (main/release)        hans zimmer                    r=0.35 h=0.50 d=0.60 p=0.35 s=0.60
+      512-B RH- homo (MBTI opp/stress)     grindcore                      r=1.00 h=0.80 d=0.80 p=0.85 s=0.55
+      512-C RH+ hetero (blood+1/stress)    free improvisation             r=0.70 h=0.90 d=0.75 p=1.00 s=0.70
+      512-D RH- hetero (opp+blood+1/extreme) prog metal                     r=0.75 h=0.65 d=0.70 p=0.60 s=0.55
+
+  89 B_Accumulate     ENTJ_B_F     magnetite                      inside of left knee joint (inferred: lef  None
+      L1 release:  neo-soul                            P=0.52 Z=0.25 Q=0.45 W=0.45 H=0.45
+      L2 stress:   power electronics; noise            P=0.72 Z=0.95 Q=0.80 W=0.85 H=0.95
+      L3 extreme:  orchestral; art rock                P=0.32 Z=0.25 Q=0.50 W=0.55 H=0.45
+      512-A RH+ homo (main/release)        neo-soul                       r=0.55 h=0.45 d=0.50 p=0.30 s=0.50
+      512-B RH- homo (MBTI opp/stress)     experimental classical         r=0.25 h=0.75 d=0.60 p=0.75 s=0.50
+      512-C RH+ hetero (blood+1/stress)    free improvisation             r=0.70 h=0.90 d=0.75 p=1.00 s=0.70
+      512-D RH- hetero (opp+blood+1/extreme) art pop                        r=0.55 h=0.50 d=0.55 p=0.45 s=0.60
+
+  90 B_Accumulate     INTJ_B_F     lactate_dehydrogenase          left pectoralis major (대흉문근) (inferred:   None
+      L1 release:  experimental pop                    P=0.80 Z=0.60 Q=0.65 W=0.75 H=0.55
+      L2 stress:   arca; kelela                        P=1.00 Z=0.95 Q=0.80 W=0.90 H=0.80
+      L3 extreme:  drone; minimalistic ambient         P=0.20 Z=0.95 Q=0.20 W=0.25 H=0.85
+      512-A RH+ homo (main/release)        experimental pop               r=0.60 h=0.55 d=0.60 p=0.55 s=0.60
+      512-B RH- homo (MBTI opp/stress)     noise rock                     r=0.75 h=0.70 d=0.65 p=0.65 s=0.55
+      512-C RH+ hetero (blood+1/stress)    deconstructed club             r=0.80 h=0.80 d=0.75 p=0.90 s=0.75
+      512-D RH- hetero (opp+blood+1/extreme) space rock                     r=0.50 h=0.50 d=0.60 p=0.50 s=0.50
+
+  91 B_Accumulate     ENFJ_B_M     carbon.q_bar                   right orbicularis                         None
+      L1 release:  arena rock                          P=0.83 Z=0.20 Q=0.65 W=0.80 H=0.45
+      L2 stress:   experimental R&B; free jazz         P=0.53 Z=0.70 Q=0.60 W=0.60 H=0.70
+      L3 extreme:  soul; gospel                        P=0.78 Z=0.30 Q=0.65 W=0.70 H=0.45
+      512-A RH+ homo (main/release)        arena rock                     r=0.65 h=0.35 d=0.55 p=0.15 s=0.65
+      512-B RH- homo (MBTI opp/stress)     free jazz                      r=0.70 h=0.85 d=0.75 p=0.90 s=0.65
+      512-C RH+ hetero (blood+1/stress)    avant-garde                    r=0.30 h=0.80 d=0.60 p=0.80 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) dark ambient                   r=0.10 h=0.65 d=0.20 p=0.55 s=0.10
+
+  92 B_Accumulate     ENFP_B_F     ferritin.out1                  just inner to heme in the middle of the   None
+      L1 release:  shoegaze                            P=0.17 Z=0.40 Q=0.40 W=0.35 H=0.60
+      L2 stress:   space rock; psychedelic             P=0.37 Z=0.45 Q=0.55 W=0.35 H=0.60
+      L3 extreme:  indie folk; dream pop               P=0.22 Z=0.10 Q=0.25 W=0.25 H=0.30
+      512-A RH+ homo (main/release)        shoegaze                       r=0.30 h=0.50 d=0.45 p=0.45 s=0.50
+      512-B RH- homo (MBTI opp/stress)     björk                          r=0.70 h=0.70 d=0.70 p=0.75 s=0.65
+      512-C RH+ hetero (blood+1/stress)    experimental pop               r=0.60 h=0.55 d=0.60 p=0.55 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+  93 B_Accumulate     INFJ_B_M     podzol.out1                    left hip, inverse reciprocal of methioni  None
+      L1 release:  experimental electronic             P=0.85 Z=0.60 Q=0.70 W=0.70 H=0.65
+      L2 stress:   free jazz; post-punk experimental   P=0.90 Z=0.80 Q=0.80 W=0.75 H=0.90
+      L3 extreme:  dark ambient; neo-classical         P=0.30 Z=0.45 Q=0.25 W=0.20 H=0.70
+      512-A RH+ homo (main/release)        experimental electronic        r=0.65 h=0.60 d=0.65 p=0.70 s=0.60
+      512-B RH- homo (MBTI opp/stress)     krautrock                      r=0.70 h=0.40 d=0.55 p=0.55 s=0.50
+      512-C RH+ hetero (blood+1/stress)    noise ambient                  r=0.30 h=0.75 d=0.50 p=0.70 s=0.30
+      512-D RH- hetero (opp+blood+1/extreme) indie pop                      r=0.45 h=0.25 d=0.40 p=0.20 s=0.55
+
+  94 B_Accumulate     INFP_B_F     co2.out1                       right back of head on left inner occipit    14
+      L1 release:  sludge metal                        P=0.65 Z=0.55 Q=0.75 W=0.30 H=0.85
+      L2 stress:   ghibli; neo-classical               P=0.50 Z=0.15 Q=0.50 W=0.45 H=0.30
+      L3 extreme:  indie folk; singer-songwriter       P=0.55 Z=0.15 Q=0.45 W=0.40 H=0.30
+      512-A RH+ homo (main/release)        sludge metal                   r=0.45 h=0.75 d=0.60 p=0.55 s=0.30
+      512-B RH- homo (MBTI opp/stress)     power electronics              r=0.75 h=0.95 d=0.85 p=1.00 s=0.90
+      512-C RH+ hetero (blood+1/stress)    contemporary classical         r=0.25 h=0.60 d=0.55 p=0.55 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) power pop                      r=0.65 h=0.25 d=0.50 p=0.15 s=0.65
+
+  95 B_Accumulate     ESTP_B_M     male_right_oxytocin.q_bar      muscle that links ear to the head, auric  None
+      L1 release:  hip hop                             P=0.70 Z=0.40 Q=0.55 W=0.75 H=0.60
+      L2 stress:   grindcore; noise rock               P=1.00 Z=0.95 Q=0.80 W=0.75 H=1.00
+      L3 extreme:  dark ambient; drone                 P=0.15 Z=0.65 Q=0.20 W=0.30 H=0.85
+      512-A RH+ homo (main/release)        hip hop                        r=0.65 h=0.40 d=0.55 p=0.30 s=0.55
+      512-B RH- homo (MBTI opp/stress)     R&B                            r=0.55 h=0.35 d=0.50 p=0.20 s=0.55
+      512-C RH+ hetero (blood+1/stress)    free jazz                      r=0.70 h=0.85 d=0.75 p=0.90 s=0.65
+      512-D RH- hetero (opp+blood+1/extreme) art pop                        r=0.55 h=0.50 d=0.55 p=0.45 s=0.60
+
+  96 B_Accumulate     ENFJ_B_F     caco3                          outside of right knee (inferred: right l  None
+      L1 release:  britpop                             P=0.83 Z=0.20 Q=0.65 W=0.70 H=0.30
+      L2 stress:   experimental R&B; avant-pop         P=0.53 Z=0.65 Q=0.60 W=0.55 H=0.65
+      L3 extreme:  dream pop; indie folk               P=0.48 Z=0.35 Q=0.50 W=0.60 H=0.45
+      512-A RH+ homo (main/release)        britpop                        r=0.65 h=0.25 d=0.55 p=0.20 s=0.60
+      512-B RH- homo (MBTI opp/stress)     björk                          r=0.70 h=0.70 d=0.70 p=0.75 s=0.65
+      512-C RH+ hetero (blood+1/stress)    avant-garde pop                r=0.65 h=0.60 d=0.65 p=0.65 s=0.65
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+  97 B_Accumulate     ISTP_B_M     methanogenesis                                                           None
+      L1 release:  death metal                         P=0.90 Z=0.55 Q=0.90 W=0.45 H=0.65
+      L2 stress:   noise rock; power electronics       P=0.70 Z=0.60 Q=0.80 W=0.50 H=0.60
+      L3 extreme:  psychedelic rock; stoner            P=0.50 Z=0.45 Q=0.75 W=0.50 H=0.45
+      512-A RH+ homo (main/release)        death metal                    r=0.95 h=0.75 d=0.75 p=0.60 s=0.50
+      512-B RH- homo (MBTI opp/stress)     drill                          r=0.80 h=0.45 d=0.60 p=0.35 s=0.50
+      512-C RH+ hetero (blood+1/stress)    free improvisation             r=0.70 h=0.90 d=0.75 p=1.00 s=0.70
+      512-D RH- hetero (opp+blood+1/extreme) funk                           r=0.80 h=0.35 d=0.60 p=0.25 s=0.65
+
+  98 B_Accumulate     INFJ_B_F     histosol                       left outside of left foot just hind to o  None
+      L1 release:  ambient                             P=0.00 Z=0.05 Q=0.00 W=0.25 H=0.10
+      L2 stress:   björk; arca                         P=0.50 Z=0.65 Q=0.55 W=0.60 H=0.60
+      L3 extreme:  ghibli; neo-classical               P=0.10 Z=0.05 Q=0.20 W=0.40 H=0.10
+      512-A RH+ homo (main/release)        ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+      512-B RH- homo (MBTI opp/stress)     space rock                     r=0.50 h=0.50 d=0.60 p=0.50 s=0.50
+      512-C RH+ hetero (blood+1/stress)    deconstructed club             r=0.80 h=0.80 d=0.75 p=0.90 s=0.75
+      512-D RH- hetero (opp+blood+1/extreme) indie pop                      r=0.45 h=0.25 d=0.40 p=0.20 s=0.55
+
+  99 B_Accumulate     ESTJ_B_M     chlorine_ion_pump              right inner wrist where the watch face c  None
+      L1 release:  post-britpop art rock               P=0.63 Z=0.35 Q=0.65 W=0.75 H=0.50
+      L2 stress:   death metal; grindcore              P=1.00 Z=0.60 Q=0.85 W=0.70 H=0.80
+      L3 extreme:  classic rock; prog                  P=0.68 Z=0.20 Q=0.60 W=0.80 H=0.40
+      512-A RH+ homo (main/release)        post-britpop art rock          r=0.55 h=0.45 d=0.55 p=0.35 s=0.55
+      512-B RH- homo (MBTI opp/stress)     lo-fi indie                    r=0.45 h=0.30 d=0.40 p=0.25 s=0.50
+      512-C RH+ hetero (blood+1/stress)    free jazz                      r=0.70 h=0.85 d=0.75 p=0.90 s=0.65
+      512-D RH- hetero (opp+blood+1/extreme) britpop                        r=0.65 h=0.25 d=0.55 p=0.20 s=0.60
+
+ 100 B_Accumulate     ESTP_B_F     water.out0                     upper philtrum halfway between nose and     12
+      L1 release:  conventional classical              P=0.40 Z=0.40 Q=0.70 W=0.50 H=0.40
+      L2 stress:   noise rock; hardcore                P=0.70 Z=0.75 Q=0.70 W=0.50 H=0.60
+      L3 extreme:  ethereal wave; dream pop            P=0.15 Z=0.40 Q=0.35 W=0.40 H=0.25
+      512-A RH+ homo (main/release)        conventional classical         r=0.45 h=0.50 d=0.65 p=0.30 s=0.55
+      512-B RH- homo (MBTI opp/stress)     shoegaze                       r=0.30 h=0.50 d=0.45 p=0.45 s=0.50
+      512-C RH+ hetero (blood+1/stress)    hyperpop                       r=0.95 h=0.60 d=0.80 p=0.75 s=0.95
+      512-D RH- hetero (opp+blood+1/extreme) avant-pop                      r=0.65 h=0.60 d=0.65 p=0.65 s=0.65
+
+ 101 B_Accumulate     ISTP_B_F     lower_mantle                   opposite craton on left back (inferred:   None
+      L1 release:  no wave                             P=0.70 Z=0.75 Q=0.75 W=0.55 H=0.75
+      L2 stress:   psychedelic folk; blues experimental P=0.45 Z=0.50 Q=0.65 W=0.55 H=0.45
+      L3 extreme:  psychedelic rock; stoner            P=0.60 Z=0.55 Q=0.75 W=0.60 H=0.55
+      512-A RH+ homo (main/release)        no wave                        r=0.65 h=0.75 d=0.60 p=0.70 s=0.50
+      512-B RH- homo (MBTI opp/stress)     experimental pop               r=0.60 h=0.55 d=0.60 p=0.55 s=0.60
+      512-C RH+ hetero (blood+1/stress)    math rock                      r=0.85 h=0.55 d=0.65 p=0.80 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) synth pop                      r=0.70 h=0.25 d=0.60 p=0.15 s=0.70
+
+ 102 B_Accumulate     ISTJ_B_M     nitrogenase                                                              None
+      L1 release:  death metal instrumental            P=0.90 Z=0.55 Q=0.90 W=0.40 H=0.75
+      L2 stress:   death metal; grindcore              P=0.90 Z=0.55 Q=0.90 W=0.40 H=0.75
+      L3 extreme:  funk; soul                          P=0.75 Z=0.20 Q=0.75 W=0.55 H=0.35
+      512-A RH+ homo (main/release)        death metal instrumental       r=0.95 h=0.75 d=0.75 p=0.60 s=0.50
+      512-B RH- homo (MBTI opp/stress)     soul                           r=0.60 h=0.35 d=0.55 p=0.25 s=0.55
+      512-C RH+ hetero (blood+1/stress)    jazz experimental              r=0.65 h=0.70 d=0.65 p=0.70 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) classic rock                   r=0.60 h=0.35 d=0.50 p=0.20 s=0.60
+
+ 103 B_Accumulate     ESTJ_B_F     actomyosin.out1                right thumb toe (inferred: right hallux   None
+      L1 release:  neo-classical pop                   P=0.20 Z=0.25 Q=0.45 W=0.55 H=0.45
+      L2 stress:   noise rock; hardcore                P=0.75 Z=0.70 Q=0.70 W=0.60 H=0.85
+      L3 extreme:  country rock; folk                  P=0.50 Z=0.20 Q=0.45 W=0.60 H=0.40
+      512-A RH+ homo (main/release)        neo-classical pop              r=0.20 h=0.30 d=0.40 p=0.20 s=0.50
+      512-B RH- homo (MBTI opp/stress)     shoegaze                       r=0.30 h=0.50 d=0.45 p=0.45 s=0.50
+      512-C RH+ hetero (blood+1/stress)    noise                          r=0.80 h=0.95 d=0.85 p=1.00 s=0.90
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+ 104 B_Accumulate     ESFP_B_M     left_endorphin_electron_neutrino.out0                                           None
+      L1 release:  folk                                P=0.45 Z=0.12 Q=0.18 W=0.43 H=0.23
+      L2 stress:   drill; experimental hip hop         P=0.90 Z=0.35 Q=0.50 W=0.55 H=0.50
+      L3 extreme:  soul; funk                          P=0.70 Z=0.25 Q=0.45 W=0.60 H=0.40
+      512-A RH+ homo (main/release)        folk                           r=0.35 h=0.18 d=0.28 p=0.12 s=0.38
+      512-B RH- homo (MBTI opp/stress)     noise rock                     r=0.75 h=0.70 d=0.65 p=0.65 s=0.55
+      512-C RH+ hetero (blood+1/stress)    hyperpop                       r=0.95 h=0.60 d=0.80 p=0.75 s=0.95
+      512-D RH- hetero (opp+blood+1/extreme) psychedelic rock               r=0.55 h=0.55 d=0.60 p=0.50 s=0.55
+
+ 105 B_Accumulate     ISTJ_B_F     craton.out0                    above quark orogen magma (inferred: righ  None
+      L1 release:  contemporary classical              P=0.20 Z=0.60 Q=0.60 W=0.45 H=0.65
+      L2 stress:   noise rock; hardcore                P=0.70 Z=0.70 Q=0.70 W=0.50 H=0.75
+      L3 extreme:  dream pop; indie folk               P=0.25 Z=0.40 Q=0.45 W=0.45 H=0.45
+      512-A RH+ homo (main/release)        contemporary classical         r=0.25 h=0.60 d=0.55 p=0.55 s=0.50
+      512-B RH- homo (MBTI opp/stress)     synth pop                      r=0.70 h=0.25 d=0.60 p=0.15 s=0.70
+      512-C RH+ hetero (blood+1/stress)    no wave                        r=0.65 h=0.75 d=0.60 p=0.70 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) folk                           r=0.35 h=0.18 d=0.28 p=0.12 s=0.38
+
+ 106 B_Accumulate     ISFP_B_M     heath_aerenchyma.out0          left rib cage bone upper outside of mang  None
+      L1 release:  edm                                 P=0.77 Z=0.10 Q=0.75 W=0.70 H=0.40
+      L2 stress:   lo-fi indie; slacker rock           P=0.37 Z=0.15 Q=0.35 W=0.40 H=0.40
+      L3 extreme:  britpop; oasis-adjacent             P=0.57 Z=0.10 Q=0.50 W=0.50 H=0.35
+      512-A RH+ homo (main/release)        edm                            r=0.85 h=0.30 d=0.80 p=0.20 s=0.80
+      512-B RH- homo (MBTI opp/stress)     death metal                    r=0.95 h=0.75 d=0.75 p=0.60 s=0.50
+      512-C RH+ hetero (blood+1/stress)    nu-jazz                        r=0.60 h=0.50 d=0.55 p=0.50 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) classic rock                   r=0.60 h=0.35 d=0.50 p=0.20 s=0.60
+
+ 107 B_Accumulate     ESFP_B_F     craton                         above quark orogen magma (inferred: righ  None
+      L1 release:  electronic experimental             P=0.85 Z=0.65 Q=0.70 W=0.70 H=0.60
+      L2 stress:   experimental pop; hyperpop          P=0.80 Z=0.50 Q=0.65 W=0.70 H=0.55
+      L3 extreme:  dream pop; indie folk               P=0.50 Z=0.30 Q=0.45 W=0.60 H=0.40
+      512-A RH+ homo (main/release)        electronic experimental        r=0.65 h=0.60 d=0.65 p=0.70 s=0.60
+      512-B RH- homo (MBTI opp/stress)     psychedelic folk               r=0.40 h=0.45 d=0.50 p=0.45 s=0.50
+      512-C RH+ hetero (blood+1/stress)    deconstructed club             r=0.80 h=0.80 d=0.75 p=0.90 s=0.75
+      512-D RH- hetero (opp+blood+1/extreme) quiet acoustic                 r=0.25 h=0.20 d=0.25 p=0.10 s=0.40
+
+ 108 B_Accumulate     ESFJ_B_M     monazite_thorium_and           just inner to center of body where it di  None
+      L1 release:  technical instrumental metal        P=1.00 Z=0.80 Q=0.75 W=0.55 H=0.75
+      L2 stress:   soul; R&B                           P=0.80 Z=0.30 Q=0.60 W=0.55 H=0.40
+      L3 extreme:  folk; acoustic                      P=0.55 Z=0.17 Q=0.33 W=0.38 H=0.23
+
+ 109 B_Accumulate     ISFP_B_F     mycorradicin.out0                                                        None
+      L1 release:  chillstep                           P=0.40 Z=0.30 Q=0.40 W=0.35 H=0.65
+      L2 stress:   shoegaze; dream pop experimental    P=0.15 Z=0.35 Q=0.35 W=0.25 H=0.70
+      L3 extreme:  indie folk; acoustic                P=0.20 Z=0.05 Q=0.20 W=0.15 H=0.40
+      512-A RH+ homo (main/release)        chillstep                      r=0.55 h=0.45 d=0.50 p=0.40 s=0.60
+      512-B RH- homo (MBTI opp/stress)     noise rock                     r=0.75 h=0.70 d=0.65 p=0.65 s=0.55
+      512-C RH+ hetero (blood+1/stress)    indietronica                   r=0.50 h=0.35 d=0.45 p=0.30 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) country rock                   r=0.50 h=0.25 d=0.40 p=0.15 s=0.55
+
+ 110 B_Accumulate     ESFJ_B_F     manganese_nodule.q_bar                                                   None
+      L1 release:  ethereal                            P=0.10 Z=0.40 Q=0.20 W=0.50 H=0.40
+      L2 stress:   synth pop; dance pop                P=0.60 Z=0.25 Q=0.50 W=0.75 H=0.30
+      L3 extreme:  folk; acoustic                      P=0.25 Z=0.22 Q=0.18 W=0.43 H=0.23
+      512-A RH+ homo (main/release)        ethereal                       r=0.20 h=0.35 d=0.30 p=0.30 s=0.45
+      512-B RH- homo (MBTI opp/stress)     noise rock                     r=0.75 h=0.70 d=0.65 p=0.65 s=0.55
+      512-C RH+ hetero (blood+1/stress)    orchestral pop                 r=0.45 h=0.40 d=0.55 p=0.25 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) avant-pop                      r=0.65 h=0.60 d=0.65 p=0.65 s=0.65
+
+ 111 B_Accumulate     ISFJ_B_M     basin.q_bar                    just inside posterior exterior left wais  None
+      L1 release:  emotional hip hop                   P=0.45 Z=0.45 Q=0.45 W=0.55 H=0.40
+      L2 stress:   R&B; jazz fusion                    P=0.40 Z=0.60 Q=0.35 W=0.55 H=0.40
+      L3 extreme:  gospel; classic R&B                 P=0.45 Z=0.30 Q=0.45 W=0.70 H=0.20
+      512-A RH+ homo (main/release)        emotional hip hop              r=0.55 h=0.50 d=0.60 p=0.35 s=0.50
+      512-B RH- homo (MBTI opp/stress)     grindcore                      r=1.00 h=0.80 d=0.80 p=0.85 s=0.55
+      512-C RH+ hetero (blood+1/stress)    neo-soul                       r=0.55 h=0.45 d=0.50 p=0.30 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) drone                          r=0.00 h=0.85 d=0.15 p=0.90 s=0.10
+
+ 112 B_Accumulate     ISFJ_B_F     large_igneous_province         midway between thoracic spinous processe  None
+      L1 release:  BoC-adjacent electronica            P=0.40 Z=0.55 Q=0.40 W=0.50 H=0.40
+      L2 stress:   shoegaze; ethereal wave             P=0.20 Z=0.50 Q=0.35 W=0.50 H=0.40
+      L3 extreme:  art pop; neo-classical              P=0.45 Z=0.50 Q=0.45 W=0.60 H=0.40
+      512-A RH+ homo (main/release)        BoC-adjacent electronica       r=0.30 h=0.55 d=0.40 p=0.40 s=0.35
+      512-B RH- homo (MBTI opp/stress)     noise rock                     r=0.75 h=0.70 d=0.65 p=0.65 s=0.55
+      512-C RH+ hetero (blood+1/stress)    city pop                       r=0.55 h=0.25 d=0.40 p=0.15 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) neo-classical                  r=0.20 h=0.30 d=0.40 p=0.20 s=0.40
+
+ 113 AB_Accumulate    ISTP_AB_M    monazite                                                                 None
+      L1 release:  fever ray                           P=0.65 Z=0.75 Q=0.65 W=0.50 H=0.80
+      L2 stress:   noise; free improvisation           P=0.85 Z=1.00 Q=0.85 W=0.95 H=1.00
+      L3 extreme:  psychedelic rock; stoner            P=0.60 Z=0.55 Q=0.60 W=0.60 H=0.65
+      512-A RH+ homo (main/release)        fever ray                      r=0.60 h=0.70 d=0.65 p=0.70 s=0.45
+      512-B RH- homo (MBTI opp/stress)     experimental R&B               r=0.60 h=0.55 d=0.60 p=0.50 s=0.55
+      512-C RH+ hetero (blood+1/stress)    sludge                         r=0.45 h=0.75 d=0.60 p=0.55 s=0.30
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+ 114 AB_Accumulate    INFJ_AB_F    andosol.out0                   between left sole and oxidised manganese  None
+      L1 release:  ghibli                              P=0.40 Z=0.20 Q=0.25 W=0.45 H=0.40
+      L2 stress:   arca; deconstructed club            P=0.95 Z=0.95 Q=0.65 W=0.75 H=1.00
+      L3 extreme:  indie folk; singer-songwriter       P=0.45 Z=0.20 Q=0.20 W=0.40 H=0.40
+      512-A RH+ homo (main/release)        ghibli                         r=0.30 h=0.20 d=0.35 p=0.15 s=0.45
+      512-B RH- homo (MBTI opp/stress)     freak folk                     r=0.35 h=0.45 d=0.45 p=0.50 s=0.50
+      512-C RH+ hetero (blood+1/stress)    drone                          r=0.00 h=0.85 d=0.15 p=0.90 s=0.10
+      512-D RH- hetero (opp+blood+1/extreme) experimental                   r=0.35 h=0.60 d=0.50 p=0.65 s=0.45
+
+ 115 AB_Accumulate    ESTP_AB_F    right_sole_dopamine.q_bar      upper center of right sole (inferred: ri     8
+      L1 release:  ambient jazz                        P=0.05 Z=0.45 Q=0.20 W=0.40 H=0.45
+      L2 stress:   experimental pop; hyperpop          P=0.40 Z=0.65 Q=0.45 W=0.50 H=0.60
+      L3 extreme:  neo-classical; minimalistic ambient P=0.00 Z=0.30 Q=0.25 W=0.30 H=0.35
+      512-A RH+ homo (main/release)        ambient jazz                   r=0.25 h=0.40 d=0.35 p=0.35 s=0.50
+      512-B RH- homo (MBTI opp/stress)     indietronica                   r=0.50 h=0.35 d=0.45 p=0.30 s=0.55
+      512-C RH+ hetero (blood+1/stress)    synth pop                      r=0.70 h=0.25 d=0.60 p=0.15 s=0.70
+      512-D RH- hetero (opp+blood+1/extreme) dream pop                      r=0.30 h=0.40 d=0.40 p=0.35 s=0.50
+
+ 116 AB_Accumulate    ESTJ_AB_M    methionine                     right exterior of hip where Jesus got st  None
+      L1 release:  k-pop structured                    P=0.90 Z=0.10 Q=0.75 W=1.00 H=0.10
+      L2 stress:   jazz experimental; free jazz        P=0.75 Z=0.65 Q=0.70 W=0.85 H=0.55
+      L3 extreme:  classic rock; hard rock             P=0.70 Z=0.15 Q=0.55 W=0.85 H=0.20
+      512-A RH+ homo (main/release)        k-pop structured               r=0.80 h=0.25 d=0.70 p=0.15 s=0.80
+      512-B RH- homo (MBTI opp/stress)     ambient jazz                   r=0.25 h=0.40 d=0.35 p=0.35 s=0.50
+      512-C RH+ hetero (blood+1/stress)    prog rock                      r=0.60 h=0.55 d=0.65 p=0.55 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) experimental                   r=0.35 h=0.60 d=0.50 p=0.65 s=0.45
+
+ 117 AB_Accumulate    ISTP_AB_F    cambisol                       inner side of both Achilles tendons (inf  None
+      L1 release:  thrash metal                        P=0.95 Z=0.35 Q=0.55 W=0.60 H=0.75
+      L2 stress:   noise folk; math rock               P=0.45 Z=0.45 Q=0.35 W=0.40 H=0.80
+      L3 extreme:  quiet acoustic; ambient             P=0.30 Z=0.00 Q=0.10 W=0.40 H=0.40
+      512-A RH+ homo (main/release)        thrash metal                   r=0.90 h=0.55 d=0.70 p=0.45 s=0.60
+      512-B RH- homo (MBTI opp/stress)     hyperpop                       r=0.95 h=0.60 d=0.80 p=0.75 s=0.95
+      512-C RH+ hetero (blood+1/stress)    heavy blues                    r=0.55 h=0.45 d=0.55 p=0.40 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+ 118 AB_Accumulate    ISTJ_AB_M    manganese_oxygen_complex.out1  left rib cage diagonal bone outside of l  None
+      L1 release:  ethereal indie                      P=0.30 Z=0.20 Q=0.40 W=0.40 H=0.35
+      L2 stress:   free jazz; jazz experimental        P=0.70 Z=0.80 Q=0.80 W=0.55 H=0.85
+      L3 extreme:  art pop; avant-pop                  P=0.55 Z=0.35 Q=0.60 W=0.50 H=0.50
+      512-A RH+ homo (main/release)        ethereal indie                 r=0.30 h=0.35 d=0.35 p=0.30 s=0.50
+      512-B RH- homo (MBTI opp/stress)     jazz                           r=0.55 h=0.50 d=0.55 p=0.45 s=0.55
+      512-C RH+ hetero (blood+1/stress)    southern rock                  r=0.60 h=0.30 d=0.50 p=0.20 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+ 119 AB_Accumulate    ESTJ_AB_F    clay_gouge                     right anus muscle / rectum (직장) (inferre  None
+      L1 release:  industrial                          P=1.00 Z=0.70 Q=0.85 W=0.90 H=0.80
+      L2 stress:   experimental rock; noise            P=0.78 Z=0.60 Q=0.70 W=0.70 H=0.80
+      L3 extreme:  country rock; new wave              P=0.68 Z=0.15 Q=0.50 W=0.70 H=0.40
+      512-A RH+ homo (main/release)        industrial                     r=0.85 h=0.65 d=0.75 p=0.70 s=0.75
+      512-B RH- homo (MBTI opp/stress)     city pop                       r=0.55 h=0.25 d=0.40 p=0.15 s=0.55
+      512-C RH+ hetero (blood+1/stress)    blues rock                     r=0.55 h=0.35 d=0.50 p=0.25 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) britpop                        r=0.65 h=0.25 d=0.55 p=0.20 s=0.60
+
+ 120 AB_Accumulate    ESFP_AB_M    ferritin                       just inner to heme in the middle of the   None
+      L1 release:  soul                                P=0.63 Z=0.15 Q=0.65 W=0.60 H=0.35
+      L2 stress:   experimental R&B; hyperpop          P=0.38 Z=0.55 Q=0.60 W=0.50 H=0.60
+      L3 extreme:  funk; soul                          P=0.83 Z=0.15 Q=0.70 W=0.70 H=0.35
+      512-A RH+ homo (main/release)        soul                           r=0.60 h=0.35 d=0.55 p=0.25 s=0.55
+      512-B RH- homo (MBTI opp/stress)     noise                          r=0.80 h=0.95 d=0.85 p=1.00 s=0.90
+      512-C RH+ hetero (blood+1/stress)    electronic dance               r=0.85 h=0.30 d=0.80 p=0.20 s=0.80
+      512-D RH- hetero (opp+blood+1/extreme) psychedelic rock               r=0.55 h=0.55 d=0.60 p=0.50 s=0.55
+
+ 121 AB_Accumulate    ISTJ_AB_F    nitrogenase.out_3                                                        None
+      L1 release:  alternative rock                    P=0.75 Z=0.40 Q=0.65 W=0.65 H=0.40
+      L2 stress:   experimental rock; no wave          P=0.80 Z=0.65 Q=0.75 W=0.65 H=0.65
+      L3 extreme:  avant-pop; art pop                  P=0.85 Z=0.70 Q=0.80 W=0.75 H=0.60
+      512-A RH+ homo (main/release)        alternative rock               r=0.55 h=0.40 d=0.50 p=0.35 s=0.55
+      512-B RH- homo (MBTI opp/stress)     art pop                        r=0.55 h=0.50 d=0.55 p=0.45 s=0.60
+      512-C RH+ hetero (blood+1/stress)    folk rock                      r=0.50 h=0.30 d=0.45 p=0.20 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) experimental                   r=0.35 h=0.60 d=0.50 p=0.65 s=0.45
+
+ 122 AB_Accumulate    ISFP_AB_M    manganese_nodule.q                                                       None
+      L1 release:  minimalistic ambient                P=0.00 Z=0.05 Q=0.00 W=0.05 H=0.15
+      L2 stress:   ambient jazz; nu-jazz               P=0.05 Z=0.25 Q=0.20 W=0.40 H=0.40
+      L3 extreme:  britpop; indie rock                 P=0.45 Z=0.10 Q=0.40 W=0.50 H=0.25
+      512-A RH+ homo (main/release)        minimalistic ambient           r=0.05 h=0.15 d=0.10 p=0.15 s=0.15
+      512-B RH- homo (MBTI opp/stress)     jazz experimental              r=0.65 h=0.70 d=0.65 p=0.70 s=0.60
+      512-C RH+ hetero (blood+1/stress)    alternative rock               r=0.55 h=0.40 d=0.50 p=0.35 s=0.55
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+ 123 AB_Accumulate    ESFP_AB_F    peonidine                      just outside co2 to the right in the bra  None
+      L1 release:  chillwave                           P=0.67 Z=0.35 Q=0.40 W=0.70 H=0.35
+      L2 stress:   hyperpop; deconstructed club        P=1.00 Z=0.80 Q=0.75 W=1.00 H=0.60
+      L3 extreme:  synth pop; pop                      P=0.82 Z=0.20 Q=0.55 W=0.90 H=0.25
+      512-A RH+ homo (main/release)        chillwave                      r=0.55 h=0.35 d=0.45 p=0.30 s=0.50
+      512-B RH- homo (MBTI opp/stress)     noise folk                     r=0.40 h=0.60 d=0.50 p=0.55 s=0.40
+      512-C RH+ hetero (blood+1/stress)    dance pop                      r=0.80 h=0.20 d=0.70 p=0.10 s=0.80
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+ 124 AB_Accumulate    ESFJ_AB_M    sulforaphane.out0              left inner brain next to hippocampus (in  None
+      L1 release:  electropop                          P=0.82 Z=0.25 Q=0.50 W=0.90 H=0.20
+      L2 stress:   jazz; neo-soul                      P=0.67 Z=0.55 Q=0.50 W=0.75 H=0.45
+      L3 extreme:  classic rock; folk                  P=0.72 Z=0.30 Q=0.45 W=0.80 H=0.30
+
+ 125 AB_Accumulate    ISFP_AB_F    cambisol.out1                  inner side of both Achilles tendons (inf  None
+      L1 release:  post rock climax                    P=0.62 Z=0.35 Q=0.90 W=0.55 H=0.75
+      L2 stress:   city pop; indietronica              P=0.47 Z=0.05 Q=0.35 W=0.45 H=0.35
+      L3 extreme:  indie folk; acoustic                P=0.27 Z=0.05 Q=0.25 W=0.30 H=0.30
+      512-A RH+ homo (main/release)        post rock climax               r=0.70 h=0.65 d=0.95 p=0.45 s=0.65
+      512-B RH- homo (MBTI opp/stress)     experimental rock              r=0.60 h=0.65 d=0.60 p=0.60 s=0.55
+      512-C RH+ hetero (blood+1/stress)    shoegaze                       r=0.30 h=0.50 d=0.45 p=0.45 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) ambient                        r=0.10 h=0.20 d=0.15 p=0.15 s=0.30
+
+ 126 AB_Accumulate    ESFJ_AB_F    plume                          just outside opposite of thorium on righ  None
+      L1 release:  krautrock                           P=0.88 Z=0.60 Q=0.65 W=0.60 H=0.30
+      L2 stress:   art pop; orchestral pop             P=0.73 Z=0.50 Q=0.65 W=0.70 H=0.40
+      L3 extreme:  folk; acoustic pop                  P=0.53 Z=0.17 Q=0.38 W=0.48 H=0.08
+      512-A RH+ homo (main/release)        krautrock                      r=0.70 h=0.40 d=0.55 p=0.55 s=0.50
+      512-B RH- homo (MBTI opp/stress)     experimental rock              r=0.60 h=0.65 d=0.60 p=0.60 s=0.55
+      512-C RH+ hetero (blood+1/stress)    americana                      r=0.40 h=0.25 d=0.35 p=0.15 s=0.50
+      512-D RH- hetero (opp+blood+1/extreme) soul                           r=0.60 h=0.35 d=0.55 p=0.25 s=0.55
+
+ 127 AB_Accumulate    ISFJ_AB_M    laterite.q                     left calf between thumb toe and magnetit     6
+      L1 release:  experimental classical              P=0.45 Z=0.65 Q=0.65 W=0.60 H=0.80
+      L2 stress:   jazz fusion; neo-soul               P=0.95 Z=0.50 Q=0.75 W=0.75 H=0.70
+      L3 extreme:  art pop; orchestral pop             P=0.75 Z=0.35 Q=0.60 W=0.70 H=0.55
+      512-A RH+ homo (main/release)        experimental classical         r=0.25 h=0.75 d=0.60 p=0.75 s=0.50
+      512-B RH- homo (MBTI opp/stress)     jazz experimental              r=0.65 h=0.70 d=0.65 p=0.70 s=0.60
+      512-C RH+ hetero (blood+1/stress)    classic rock                   r=0.60 h=0.35 d=0.50 p=0.20 s=0.60
+      512-D RH- hetero (opp+blood+1/extreme) indie folk                     r=0.35 h=0.20 d=0.30 p=0.15 s=0.40
+
+ 128 AB_Accumulate    ISFJ_AB_F    carbon                         right orbicularis                         None
+      L1 release:  post-metal                          P=0.70 Z=0.65 Q=0.90 W=0.50 H=0.60
+      L2 stress:   indietronica; city pop              P=0.70 Z=0.35 Q=0.60 W=0.70 H=0.25
+      L3 extreme:  avant-pop; art pop                  P=0.85 Z=0.70 Q=0.80 W=0.80 H=0.50
+      512-A RH+ homo (main/release)        post-metal                     r=0.50 h=0.70 d=0.75 p=0.60 s=0.35
+      512-B RH- homo (MBTI opp/stress)     experimental pop               r=0.60 h=0.55 d=0.60 p=0.55 s=0.60
+      512-C RH+ hetero (blood+1/stress)    singer-songwriter              r=0.30 h=0.25 d=0.35 p=0.15 s=0.45
+      512-D RH- hetero (opp+blood+1/extreme) dream pop                      r=0.30 h=0.40 d=0.40 p=0.35 s=0.50

@@ -1,0 +1,116 @@
+                                                                                                                 │
+│   1 - <!DOCTYPE html>                                                                                            │
+│   2 - <html>                                                                                                     │
+│   3 - <head>                                                                                                     │
+│   4 -     <title>THE CLOSED MANIFOLD: FINAL GEOMETRY ENGINE</title>                                              │
+│   5 -     <style>                                                                                                │
+│   6 -         body { margin: 0; background: #000; overflow: hidden; }                                            │
+│   7 -         canvas { width: 100vw; height: 100vh; display: block; }                                            │
+│   8 -         #ui {                                                                                              │
+│   9 -             position: absolute; top: 20px; left: 20px;                                                     │
+│  10 -             color: #ffd200; font-family: 'Courier New', monospace;                                         │
+│  11 -             background: rgba(5, 5, 16, 0.95); padding: 25px;                                               │
+│  12 -             border-left: 4px solid #3b6cff; pointer-events: none;                                          │
+│  13 -         }                                                                                                  │
+│  14 -     </style>                                                                                               │
+│  15 - </head>                                                                                                    │
+│  16 - <body>                                                                                                     │
+│  17 -     <div id="ui">                                                                                          │
+│  18 -         <b style="font-size: 1.5rem; color: #3b6cff;">MANIFOLD ARCHITECT: CLOSED</b><br>                   │
+│  19 -         TENSION: 1.0100375 | SPARK: 138.88&deg;<br>                                                        │
+│  20 -         MISMATCH: 1.0 / 1.014 / 0.986<br>                                                                  │
+│  21 -         SINGULARITY: DELTA-4 (32-28)<br>                                                                   │
+│  22 -         <hr style="border:0; border-top:1px solid #333; margin: 15px 0;">                                  │
+│  23 -         FPS: <span id="fps">--</span> | ZERO-BIFURCATION ARCHITECTURE                                      │
+│  24 -     </div>                                                                                                 │
+│  25 -     <canvas id="c"></canvas>                                                                               │
+│  26 -                                                                                                            │
+│  27 -     <script id="vs" type="x-shader/x-vertex">                                                              │
+│  28 -         attribute vec2 a_pos;                                                                              │
+│  29 -         uniform float u_time;                                                                              │
+│  30 -         varying vec3 v_color;                                                                              │
+│  31 -                                                                                                            │
+│  32 -         // --- PURE GEOMETRY CONSTANTS ---                                                                 │
+│  33 -         const float T = 1.0100375;   // Empirical Tension                                                  │
+│  34 -         const float S_COS = -0.7533; // cos(138.88)                                                        │
+│  35 -         const float S_SIN = 0.6576;  // sin(138.88)                                                        │
+│  36 -         const float DRIFT = 0.014;   // 1.4% Mismatch                                                      │
+│  37 -         const float DELTA = 4.0;     // 32-28 Singularity                                                  │
+│  38 -         const float CHARGE = 0.5;    // 1/2 Charge Ratio                                                   │
+│  39 -         const float KAPPA = 0.03125; // 1/32 Darcy-Flux                                                    │
+│  40 -                                                                                                            │
+│  41 -         void main() {                                                                                      │
+│  42 -             // 1. RAW GRID POSITION (128-Grid)                                                             │
+│  43 -             vec3 p = vec3(a_pos.x * 5.0, 0.0, a_pos.y * 5.0);                                              │
+│  44 -                                                                                                            │
+│  45 -             // 2. THE SPARK ROTATION (138.88°)                                                             │
+│  46 -             // Rotating the space-time manifold along the diagonal                                         │
+│  47 -             float rx = p.x * S_COS - p.z * S_SIN;                                                          │
+│  48 -             float rz = p.x * S_SIN + p.z * S_COS;                                                          │
+│  49 -             p.x = rx; p.z = rz;                                                                            │
+│  50 -                                                                                                            │
+│  51 -             // 3. THE 3-PLANE MISMATCH (GABA/Glu/Sero)                                                     │
+│  52 -             // Directly applying the physical lengths to the axes                                          │
+│  53 -             p.x *= 1.0;                                                                                    │
+│  54 -             p.y = sin(p.x * T + u_time) * (1.0 + DRIFT); // Glutamate Elevation                            │
+│  55 -             p.z *= (1.0 - DRIFT); // Serotonin Compression                                                 │
+│  56 -                                                                                                            │
+│  57 -             // 4. THE DELTA-4 SINGULARITY SNAP                                                             │
+│  58 -             // The 4-unit gap forces a deterministic snap every 32-28 nodes                                │
+│  59 -             p.xz = mod(p.xz + DELTA, DELTA * 2.0) - DELTA;                                                 │
+│  60 -                                                                                                            │
+│  61 -             // 5. THE 1/2 CHARGE ASYMMETRY                                                                 │
+│  62 -             // Driving the vertical displacement via the 1/2 ratio                                         │
+│  63 -             p.y *= CHARGE * T;                                                                             │
+│  64 -                                                                                                            │
+│  65 -             // 6. BIRD'S EYE PROJECTION                                                                    │
+│  66 -             // Looking down from the Betti-7 Void                                                          │
+│  67 -             float z_view = p.z + 15.0;                                                                     │
+│  68 -             gl_Position = vec4(p.x / z_view, (p.y - 10.0) / z_view, 0.0, 1.0);                             │
+│  69 -             gl_PointSize = 3.0 * (1.0 + p.y * KAPPA);                                                      │
+│  70 -                                                                                                            │
+│  71 -             // Neuro-Color Mapping                                                                         │
+│  72 -             v_color = mix(vec3(0.1, 0.4, 1.0), vec3(0.1, 0.9, 0.5), p.y + 0.5);                            │
+│  73 -             if(p.y > 0.5) v_color = vec3(1.0, 0.8, 0.0); // Adrenaline Spark                               │
+│  74 -         }                                                                                                  │
+│  75 -     </script>                                                                                              │
+│  76 -                                                                                                            │
+│  77 -     <script id="fs" type="x-shader/x-fragment">                                                            │
+│  78 -         precision highp float;                                                                             │
+│  79 -         varying vec3 v_color;                                                                              │
+│  80 -         void main() {                                                                                      │
+│  81 -             float d = length(gl_PointCoord - 0.5);                                                         │
+│  82 -             if(d > 0.5) discard;                                                                           │
+│  83 -             gl_FragColor = vec4(v_color * (1.0 - d * 2.0), 1.0);                                           │
+│  84 -         }                                                                                                  │
+│  85 -     </script>                                                                                              │
+│  86 -                                                                                                            │
+│  87 -     <script>                                                                                               │
+│  88 -         const c = document.getElementById('c'), gl = c.getContext('webgl');                                │
+│  89 -         const prog = gl.createProgram();                                                                   │
+│  90 -         [ ['vs', gl.VERTEX_SHADER], ['fs', gl.FRAGMENT_SHADER] ].forEach(([id, type]) => {                 │
+│  91 -             const s = gl.createShader(type); gl.shaderSource(s, document.getElementById(id).text);         │
+│  92 -             gl.compileShader(s); gl.attachShader(prog, s);                                                 │
+│  93 -         });                                                                                                │
+│  94 -         gl.linkProgram(prog); gl.useProgram(prog);                                                         │
+│  95 -                                                                                                            │
+│  96 -         // CREATE PURE 128-GRID (16384 vertices)                                                           │
+│  97 -         const vertices = [];                                                                               │
+│  98 -         for(let y=-64; y<64; y++) {                                                                        │
+│  99 -             for(let x=-64; x<64; x++) {                                                                    │
+│ 100 -                 vertices.push(x/16, y/16);                                                                 │
+│ 101 -             }                                                                                              │
+│ 102 -         }                                                                                                  │
+│ 103 -         gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer());                                                 │
+│ 104 -         gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);                        │
+│ 105 -         const aPos = gl.getAttribLocation(prog, 'a_pos');                                                  │
+│ 106 -         gl.enableVertexAttribArray(aPos);                                                                  │
+│ 107 -         gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 0, 0);                                            │
+│ 108 -                                                                                                            │
+│ 109 -         const uTime = gl.getUniformLocation(prog, 'u_time');                                               │
+│ 110 -         const fpsEl = document.getElementById('fps');                                                      │
+│ 111 -         let lt = 0;                                                                                        │
+│ 112 -                                                                                                            │
+│ 113 -         function frame(now) {                                                                              │
+│ 114 -             const dt = now - lt; lt = now;                                                                 │
+│ 115 -             if(Math.random() > 0.9) fpsEl.innerText = Math.round(1000/dt);       

@@ -1,0 +1,81 @@
+{
+  "edges_total": 1415,
+  "contact_top1": 0.8385029960774731,
+  "gap_min": 1.7965954466440497,
+  "drift_range": [
+    1.2499230519044677,
+    4.61
+  ],
+  "top_edges": [
+    {
+      "a": 1,
+      "b": 39,
+      "mapped_contact_score": 0.8385029960774731,
+      "mapped_gap_dist": 1.7965954466440497,
+      "mapped_drift_factor_used": 1.8725880316042767
+    },
+    {
+      "a": 49,
+      "b": 57,
+      "mapped_contact_score": 0.8322237177455982,
+      "mapped_gap_dist": 1.897775948921005,
+      "mapped_drift_factor_used": 1.2499230519044677
+    },
+    {
+      "a": 7,
+      "b": 37,
+      "mapped_contact_score": 0.8038345766400566,
+      "mapped_gap_dist": 2.3552214393827153,
+      "mapped_drift_factor_used": 2.79167520043379
+    },
+    {
+      "a": 26,
+      "b": 28,
+      "mapped_contact_score": 0.6367621044655946,
+      "mapped_gap_dist": 5.04732644856098,
+      "mapped_drift_factor_used": 2.9732297019724605
+    },
+    {
+      "a": 47,
+      "b": 55,
+      "mapped_contact_score": 0.6298825069336209,
+      "mapped_gap_dist": 5.158180132210415,
+      "mapped_drift_factor_used": 2.304519975314781
+    },
+    {
+      "a": 30,
+      "b": 31,
+      "mapped_contact_score": 0.6257614624381129,
+      "mapped_gap_dist": 5.224584156673634,
+      "mapped_drift_factor_used": 2.337966073853911
+    },
+    {
+      "a": 12,
+      "b": 60,
+      "mapped_contact_score": 0.6222824688620141,
+      "mapped_gap_dist": 5.280642560019308,
+      "mapped_drift_factor_used": 3.078692494887267
+    },
+    {
+      "a": 45,
+      "b": 59,
+      "mapped_contact_score": 0.6119588120432125,
+      "mapped_gap_dist": 5.446991736955598,
+      "mapped_drift_factor_used": 3.153885110987047
+    },
+    {
+      "a": 7,
+      "b": 35,
+      "mapped_contact_score": 0.6001655604710626,
+      "mapped_gap_dist": 5.637021077029834,
+      "mapped_drift_factor_used": 2.545700559691459
+    },
+    {
+      "a": 37,
+      "b": 60,
+      "mapped_contact_score": 0.5728963942406906,
+      "mapped_gap_dist": 6.076419968118492,
+      "mapped_drift_factor_used": 3.6103076297611683
+    }
+  ]
+}

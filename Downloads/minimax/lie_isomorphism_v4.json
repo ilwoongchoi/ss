@@ -1,0 +1,41 @@
+{
+  "_version": "v4.0",
+  "_date": "2026-09-09",
+  "_method": "Hill + higher-order (Kerr, polytropic, opacity, Silk damping) + RK4",
+  "tests": {
+    "obs_leftd2_SgrA": {
+      "step(0.7)": 0.08460753240954652,
+      "pulse(0.9,1.5)": 0.15066242508713704,
+      "const(0.5)": 0.029777765122988475
+    },
+    "qom_TOV": {
+      "step(0.6)": 0.10428224697756314,
+      "pulse(0.8,1.5)": 0.05320334041721297,
+      "const(0.5)": 0.13383654973283757
+    },
+    "obs_leftd2_MS": {
+      "step(0.7)": 0.04345194649267036,
+      "pulse(0.9,1.5)": 0.04455977137126929,
+      "const(0.5)": 0.03398900696786313
+    },
+    "mem_CMB": {
+      "step(0.6)": 0.052624779942529294,
+      "pulse(0.7,1.0)": 0.10261209479418196,
+      "const(0.5)": 0.02302643074405672
+    }
+  },
+  "summary": {
+    "n_tests": 4,
+    "n_strong": 0,
+    "n_exact": 0,
+    "n_weak": 4,
+    "n_heuristic": 3,
+    "verdict": "FAIL"
+  },
+  "higher_order_added": {
+    "Sgr_A*": "Kerr spin a=0.5 + phase coupling (KAPPA)",
+    "TOV": "Polytropic Γ(ρ) = 2 + 0.5·ρ gradient + causal limit",
+    "M-L": "Kramers opacity κ(ρ,T) + convective correction",
+    "CMB": "Silk damping exp(-t/τ_D) + diffusion scale ℓ_D ≈ 1300"
+  }
+}

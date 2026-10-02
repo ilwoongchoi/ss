@@ -1,0 +1,17 @@
+node_id,name,x,y,z,sh_r,sh_q0,sh_w_gate,sh_kappa_eff,sh_in_band,archetype,component_tag,notes
+O,core_center,0.0,0.0,-6.0,0.1121,0.9646158333333333,3.3467546230344445e-14,0.03125,1,Big Man,,engine_big_man
+A,sheet_id:1,2.0,0.0,0.0,0.1126,0.9646158333333333,0.48766974229295,0.03125,1,Big Woman,internal_main,intrinsic_main
+B,sheet_id:2,0.0,2.0,0.0,0.1121,0.9719694999999999,0.3883757862380523,0.03125,1,Big Woman,internal_main,intrinsic_main
+C,sheet_id:3,0.0,0.0,2.0,0.1121,0.9646158333333333,3.3467546230344445e-14,0.03125,1,Big Woman,internal_main,intrinsic_main
+D,sheet_id:4,-2.0,0.0,0.0,0.1116,0.9646158333333333,0.013462197457337434,0.03125,1,Big Woman,internal_main,intrinsic_main
+G,gateway_peak,0.0,5.0,0.0,0.1121,0.983,7.392857489795068e-22,0.03125,1,Boundary,internal_isolated,intrinsic_isolated
+X,mediator:synthetic_alpha,-1.0,3.0,-1.0,0.11185,0.9756463333333333,0.3103950804280415,0.03125,1,Mediator,extended_only,extended_mediator
+B_man,right_branch,0.0,0.0,6.0,0.1121,0.9646158333333333,3.3467546230344445e-14,0.03125,1,Small Man,,engine_small_man
+10,sheet_id:10,1.0,1.0,1.0,0.11235,0.9682926666666667,0.8172737675521503,0.03125,1,Small Woman,internal_main,intrinsic_main
+11,sheet_id:11,1.0,3.0,0.0,0.11235,0.9756463333333333,0.11311197774492568,0.03125,1,Small Woman,internal_main,intrinsic_main
+12,sheet_id:12,-1.0,2.0,1.0,0.11185,0.9719694999999999,0.0005491285617044637,0.03125,1,Small Woman,internal_main,intrinsic_main
+13,sheet_id:13,0.0,-1.0,2.0,0.1121,0.960939,0.03150557691274925,0.028850959026299944,0,Small Woman,internal_main,intrinsic_main
+14,sheet_id:14,-1.0,3.0,0.0,0.11185,0.9756463333333333,0.3103950804280415,0.03125,1,Small Woman,internal_main,intrinsic_main
+F,flash_bridge,1.0,0.0,2.0,0.11235,0.9646158333333333,0.12381356044066226,0.03125,1,Spark,internal_main,intrinsic_main
+F',flash:center_in,0.0,0.0,3.0,0.1121,0.9646158333333333,3.3467546230344445e-14,0.03125,1,Spark,internal_main,intrinsic_main
+F_prime,flash:center_in,0.0,0.0,3.0,0.1121,0.9646158333333333,3.3467546230344445e-14,0.03125,1,Spark,internal_main,intrinsic_main

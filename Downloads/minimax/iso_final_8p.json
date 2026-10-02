@@ -1,0 +1,164 @@
+{
+  "_version": "final_8p",
+  "_date": "2026-09-09",
+  "particles": [
+    "muon",
+    "gluon",
+    "w_boson",
+    "muon_neutrino",
+    "z_boson",
+    "higgs",
+    "tau",
+    "photon"
+  ],
+  "tau_ref_s": 2.2e-06,
+  "rates": {
+    "muon": {
+      "k": 454545.45454545453,
+      "label": "muon decay (τ=2.2μs)"
+    },
+    "gluon": {
+      "k": 1.0000000000000001e+23,
+      "label": "gluon confinement (τ=10^-23 s)"
+    },
+    "w_boson": {
+      "k": 3.1645569620253167e+24,
+      "label": "W decay (τ=0.316 zs)"
+    },
+    "muon_neutrino": {
+      "k": 454545.45454545453,
+      "label": "νμ detection (oscillation)"
+    },
+    "z_boson": {
+      "k": 3.787878787878788e+24,
+      "label": "Z decay (τ=2.64 zs)"
+    },
+    "higgs": {
+      "k": 6.41025641025641e+21,
+      "label": "H→γγ width (Γ=4 MeV)"
+    },
+    "tau": {
+      "k": 3448275862068.966,
+      "label": "τ decay (ct=87 μm)"
+    },
+    "photon": {
+      "k": 1e-15,
+      "label": "CMB interaction (13.8 Gyr)"
+    }
+  },
+  "results": {
+    "muon_vs_gluon_u0.3": {
+      "residual": 0.0,
+      "grade": "EXACT",
+      "desc": "μ decay vs gluon confinement",
+      "order": [
+        1,
+        1
+      ]
+    },
+    "muon_vs_gluon_u0.5": {
+      "residual": 0.0,
+      "grade": "EXACT",
+      "desc": "μ decay vs gluon confinement",
+      "order": [
+        1,
+        1
+      ]
+    },
+    "muon_vs_gluon_u0.7": {
+      "residual": 0.0,
+      "grade": "EXACT",
+      "desc": "μ decay vs gluon confinement",
+      "order": [
+        1,
+        1
+      ]
+    },
+    "w_boson_vs_tau_u0.3": {
+      "residual": 0.0,
+      "grade": "EXACT",
+      "desc": "W decay vs τ → μνν",
+      "order": [
+        1,
+        1
+      ]
+    },
+    "w_boson_vs_tau_u0.5": {
+      "residual": 0.0,
+      "grade": "EXACT",
+      "desc": "W decay vs τ → μνν",
+      "order": [
+        1,
+        1
+      ]
+    },
+    "w_boson_vs_tau_u0.7": {
+      "residual": 0.0,
+      "grade": "EXACT",
+      "desc": "W decay vs τ → μνν",
+      "order": [
+        1,
+        1
+      ]
+    },
+    "z_boson_vs_higgs_u0.3": {
+      "residual": 0.0,
+      "grade": "EXACT",
+      "desc": "Z neutral current vs Higgs mass gate",
+      "order": [
+        1,
+        1
+      ]
+    },
+    "z_boson_vs_higgs_u0.5": {
+      "residual": 0.0,
+      "grade": "EXACT",
+      "desc": "Z neutral current vs Higgs mass gate",
+      "order": [
+        1,
+        1
+      ]
+    },
+    "z_boson_vs_higgs_u0.7": {
+      "residual": 0.0,
+      "grade": "EXACT",
+      "desc": "Z neutral current vs Higgs mass gate",
+      "order": [
+        1,
+        1
+      ]
+    },
+    "muon_neutrino_vs_photon_u0.3": {
+      "residual": Infinity,
+      "grade": "HEURISTIC",
+      "desc": "νμ oscillation vs CMB photon (1st vs 2nd order)",
+      "order": [
+        1,
+        2
+      ]
+    },
+    "muon_neutrino_vs_photon_u0.5": {
+      "residual": Infinity,
+      "grade": "HEURISTIC",
+      "desc": "νμ oscillation vs CMB photon (1st vs 2nd order)",
+      "order": [
+        1,
+        2
+      ]
+    },
+    "muon_neutrino_vs_photon_u0.7": {
+      "residual": Infinity,
+      "grade": "HEURISTIC",
+      "desc": "νμ oscillation vs CMB photon (1st vs 2nd order)",
+      "order": [
+        1,
+        2
+      ]
+    }
+  },
+  "summary": {
+    "EXACT": 9,
+    "STRONG": 0,
+    "WEAK": 0
+  }
+}

@@ -1,0 +1,1200 @@
+{
+  "registry_version": "2.2.10",
+  "base_version": "2.2.9",
+  "patch_type": "conversation_logs_overlay",
+  "generated_at": "2026-02-21T21:19:52Z",
+  "constants": {
+    "universal": {
+      "pi": {
+        "value": 3.141592653589793,
+        "unit": "dimensionless",
+        "source": "mathematical"
+      },
+      "euler_mascheroni": {
+        "value": 0.5772156649015329,
+        "unit": "dimensionless",
+        "source": "mathematical"
+      },
+      "golden_ratio": {
+        "value": 1.618033988749895,
+        "unit": "dimensionless",
+        "source": "mathematical"
+      }
+    },
+    "domain_specific": {
+      "bbj_gwas": {
+        "band_presence_rate": {
+          "value": 1.0,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": 3.9216875,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        },
+        "contact_n_links_mean": {
+          "value": 6.0,
+          "unit": "count",
+          "description": "Mean contact links"
+        },
+        "gap_distance_p50": {
+          "value": 5.064161,
+          "unit": "normalized",
+          "description": "Median gap distance"
+        }
+      },
+      "circadian": {
+        "band_presence_rate": {
+          "value": 1.0,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": 0.0276,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        }
+      },
+      "co2": {
+        "band_presence_rate": {
+          "value": 0.5,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": 3.163001,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        },
+        "gap_distance_p50": {
+          "value": 2.106281142857143,
+          "unit": "normalized",
+          "description": "Median gap distance"
+        }
+      },
+      "cpcsoil": {
+        "band_presence_rate": {
+          "value": 0.5135135135135135,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": -88.750001,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        },
+        "contact_n_links_mean": {
+          "value": 8.0,
+          "unit": "count",
+          "description": "Mean contact links"
+        },
+        "gap_distance_p50": {
+          "value": 16.119551,
+          "unit": "normalized",
+          "description": "Median gap distance"
+        }
+      },
+      "gistemp": {
+        "band_presence_rate": {
+          "value": 0.75,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": 1.191001,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        },
+        "contact_n_links_mean": {
+          "value": 12.666666666666666,
+          "unit": "count",
+          "description": "Mean contact links"
+        },
+        "gap_distance_p50": {
+          "value": 2.8210933333333332,
+          "unit": "normalized",
+          "description": "Median gap distance"
+        }
+      },
+      "iris": {
+        "band_presence_rate": {
+          "value": 1.0,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": 0.0209705,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        },
+        "contact_n_links_mean": {
+          "value": 5.0,
+          "unit": "count",
+          "description": "Mean contact links"
+        },
+        "gap_distance_p50": {
+          "value": 1.6371424,
+          "unit": "normalized",
+          "description": "Median gap distance"
+        }
+      },
+      "korea_wq": {
+        "band_presence_rate": {
+          "value": 1.0,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": 33.246749,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        },
+        "contact_n_links_mean": {
+          "value": 7.666666666666667,
+          "unit": "count",
+          "description": "Mean contact links"
+        },
+        "gap_distance_p50": {
+          "value": 7.0542497,
+          "unit": "normalized",
+          "description": "Median gap distance"
+        }
+      },
+      "korea_wq_bodcod": {
+        "band_presence_rate": {
+          "value": 1.0,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": 36.186572,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        },
+        "contact_n_links_mean": {
+          "value": 682.5,
+          "unit": "count",
+          "description": "Mean contact links"
+        },
+        "gap_distance_p50": {
+          "value": 8.507478800000001,
+          "unit": "normalized",
+          "description": "Median gap distance"
+        }
+      },
+      "korea_wq_tntp": {
+        "band_presence_rate": {
+          "value": 1.0,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": 33.246749,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        },
+        "contact_n_links_mean": {
+          "value": 7.666666666666667,
+          "unit": "count",
+          "description": "Mean contact links"
+        },
+        "gap_distance_p50": {
+          "value": 7.0542497,
+          "unit": "normalized",
+          "description": "Median gap distance"
+        }
+      },
+      "maxwell": {
+        "band_presence_rate": {
+          "value": 0.0,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": 0.0001,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        },
+        "pi_1": {
+          "value": 9.327052265326698,
+          "unit": "log10(Hz)",
+          "status": "derived_from_raw",
+          "description": "log10(f0 Hz) derived from f0_GHz=2.1235"
+        },
+        "pi_2": {
+          "value": 1.0737183503461227,
+          "unit": "log10(Q)",
+          "status": "derived_from_raw",
+          "description": "log10(Q factor) derived from Q_factor=11.85"
+        },
+        "f0_GHz": {
+          "value": 2.1235,
+          "unit": "GHz",
+          "axis": "freq",
+          "status": "fem_converged",
+          "evidence_ref": "docs/MAXWELL_CALIBRATION_PROVENANCE.md:193-194",
+          "source_sha256": "4b7c17e3ff4f2badd928529d3a681449d7070fa41b05b3260f87da4336967b62",
+          "description": "TE110 resonance frequency (h-convergence, sigma=1e-12)"
+        },
+        "Q_factor": {
+          "value": 11.85,
+          "unit": "dimensionless",
+          "axis": "qfactor",
+          "status": "fem_converged",
+          "evidence_ref": "docs/MAXWELL_CALIBRATION_PROVENANCE.md:200",
+          "source_sha256": "4b7c17e3ff4f2badd928529d3a681449d7070fa41b05b3260f87da4336967b62",
+          "description": "Quality factor (p-convergence order=2, sigma=0.01)"
+        }
+      },
+      "mito_leak": {
+        "band_presence_rate": {
+          "value": 1.0,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": 1.246593817142124,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        },
+        "contact_n_links_mean": {
+          "value": 7.0,
+          "unit": "count",
+          "description": "Mean contact links"
+        },
+        "gap_distance_p50": {
+          "value": 1.281149,
+          "unit": "normalized",
+          "description": "Median gap distance"
+        }
+      },
+      "oisst": {
+        "band_presence_rate": {
+          "value": 0.5789473684210527,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": -77.500001,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        }
+      },
+      "sh": {
+        "band_presence_rate": {
+          "value": 0.8181818181818182,
+          "unit": "ratio",
+          "description": "Boundary band presence rate"
+        },
+        "thickest_axis": {
+          "value": 0.1030713,
+          "unit": "axis_name",
+          "description": "Axis with thickest boundary band"
+        },
+        "k_peak": {
+          "value": null,
+          "unit": "wavenumber",
+          "description": "Peak wavenumber - pending"
+        },
+        "q_c": {
+          "value": null,
+          "unit": "critical_wavenumber",
+          "description": "Critical wavenumber - pending"
+        }
+      },
+      "quantum": {
+        "spacing_ratio_1_16": {
+          "value": 0.0625,
+          "status": "candidate_unverified",
+          "quantized_to": "1/16",
+          "tolerance": 0.001,
+          "state_tag": "vortex_spacing",
+          "evidence_ref": NaN,
+          "source_sha256": NaN
+        },
+        "kappa_boundary": {
+          "value": 0.7071067811865475,
+          "status": "derived_from_theory",
+          "quantized_to": "1/sqrt(2)",
+          "tolerance": 0.0,
+          "state_tag": "GL_type_boundary",
+          "evidence_ref": "Ginzburg-Landau theory",
+          "source_sha256": NaN
+        },
+        "flux_quantum_Phi0": {
+          "value": 2.067833848461929e-15,
+          "status": "derived_from_theory",
+          "quantized_to": "h/(2e)",
+          "tolerance": 0.0,
+          "state_tag": "flux_quantization",
+          "evidence_ref": "Quantum mechanics",
+          "source_sha256": NaN
+        },
+        "circulation_quantum_kappa0_He3": {
+          "value": 6.615485373402555e-08,
+          "status": "derived_from_theory",
+          "quantized_to": "h/(2m_He3)",
+          "tolerance": 0.0,
+          "state_tag": "circulation_quantization",
+          "evidence_ref": "Quantum fluid theory",
+          "source_sha256": NaN
+        }
+      },
+      "mito": {
+        "sqrt2_ratio": {
+          "value": 1.4142135623730951,
+          "status": "appears_in_raw",
+          "quantized_to": "sqrt(2)",
+          "tolerance": 0.01,
+          "state_tag": "pmf_ratio",
+          "evidence_ref": "pi_features_mito.csv:pmf_psi_ratio",
+          "source_sha256": NaN
+        },
+        "golden_ratio_conjugate": {
+          "value": 0.76,
+          "status": "candidate_unverified",
+          "quantized_to": "0.76",
+          "tolerance": 0.005,
+          "state_tag": "pi_pmf_normalized",
+          "evidence_ref": NaN,
+          "source_sha256": NaN
+        },
+        "golden_ratio_inverse": {
+          "value": 0.618,
+          "status": "candidate_unverified",
+          "quantized_to": "0.618",
+          "tolerance": 0.005,
+          "state_tag": "pi_pmf_normalized",
+          "evidence_ref": NaN,
+          "source_sha256": NaN
+        },
+        "pmf_formula": {
+          "value": 0,
+          "status": "derived_from_theory",
+          "quantized_to": "pmf = Δψ - (2.3RT/F)ΔpH",
+          "tolerance": 0.0,
+          "state_tag": "chemiosmotic_theory",
+          "evidence_ref": "Mitchell chemiosmotic hypothesis",
+          "source_sha256": NaN
+        }
+      },
+      "plasma": {
+        "threshold_3_32": {
+          "value": 0.09375,
+          "status": "appears_in_raw",
+          "quantized_to": "3/32",
+          "tolerance": 0.01,
+          "state_tag": "pi_crit_threshold",
+          "evidence_ref": "pi_features_plasma.csv:pi_crit",
+          "source_sha256": NaN
+        },
+        "critical_density_formula": {
+          "value": 0,
+          "status": "derived_from_theory",
+          "quantized_to": "n_c = (m_e*eps0*omega^2)/e^2",
+          "tolerance": 0.0,
+          "state_tag": "plasma_cutoff",
+          "evidence_ref": "Plasma physics theory",
+          "source_sha256": NaN
+        },
+        "asym_1_16": {
+          "value": 0.0625,
+          "status": "appears_in_raw",
+          "quantized_to": "1/16",
+          "tolerance": 0.001,
+          "state_tag": "asymmetry_quantization",
+          "evidence_ref": "pi_features_plasma.csv:pi_asym",
+          "source_sha256": NaN
+        },
+        "asym_1_32": {
+          "value": 0.03125,
+          "status": "appears_in_raw",
+          "quantized_to": "1/32",
+          "tolerance": 0.001,
+          "state_tag": "asymmetry_quantization",
+          "evidence_ref": "pi_features_plasma.csv:pi_asym",
+          "source_sha256": NaN
+        }
+      },
+      "cosmic": {
+        "GCR_proton_fraction": {
+          "value": 0.9,
+          "unit": "fraction",
+          "status": "derived_from_source",
+          "quantized_to": "~90%",
+          "tolerance": 0.05,
+          "state_tag": "gcr_composition",
+          "evidence_ref": "NASA/GSFC: Galactic cosmic rays are composed of ~90% protons, ~9% helium nuclei, and ~1% heavier elements",
+          "source_sha256": NaN
+        },
+        "GCR_helium_fraction": {
+          "value": 0.09,
+          "unit": "fraction",
+          "status": "derived_from_source",
+          "quantized_to": "~9%",
+          "tolerance": 0.02,
+          "state_tag": "gcr_composition",
+          "evidence_ref": "NASA/GSFC: Galactic cosmic rays are composed of ~90% protons, ~9% helium nuclei, and ~1% heavier elements",
+          "source_sha256": NaN
+        },
+        "GCR_spectrum_peak": {
+          "value": 1.0,
+          "unit": "GeV/nucleon",
+          "status": "derived_from_source",
+          "quantized_to": "~1 GeV/n",
+          "tolerance": 0.5,
+          "state_tag": "gcr_spectrum",
+          "evidence_ref": "Cosmic ray physics literature: GCR differential flux peaks near ~1 GeV/nucleon (modulated by solar activity)",
+          "source_sha256": NaN
+        },
+        "E_2GeV_candidate": {
+          "value": 2.0,
+          "unit": "GeV",
+          "status": "candidate_unverified",
+          "quantized_to": "2 GeV",
+          "tolerance": 0.1,
+          "state_tag": "corpus_hypothesis",
+          "evidence_ref": NaN,
+          "source_sha256": NaN
+        }
+      },
+      "buoyancy": {
+        "sodium_atomic_number": {
+          "value": 11.0,
+          "unit": "dimensionless",
+          "status": "derived_from_source",
+          "quantized_to": "Z=11",
+          "tolerance": 0.0,
+          "state_tag": "atomic_structure",
+          "evidence_ref": "Periodic table: Sodium (Na) has atomic number 11, electron configuration [Ne]3s¹",
+          "source_sha256": NaN
+        },
+        "seawater_avg_salinity": {
+          "value": 0.035,
+          "unit": "fraction",
+          "status": "derived_from_source",
+          "quantized_to": "3.5% (35 ppt)",
+          "tolerance": 0.005,
+          "state_tag": "oceanography",
+          "evidence_ref": "Oceanography literature: Average seawater salinity is approximately 3.5% (35 parts per thousand)",
+          "source_sha256": NaN
+        },
+        "deadsea_salinity": {
+          "value": 0.342,
+          "unit": "fraction",
+          "status": "derived_from_source",
+          "quantized_to": "34.2% (342 ppt)",
+          "tolerance": 0.005,
+          "state_tag": "hypersaline_environment",
+          "evidence_ref": "Geochemistry literature: Dead Sea salinity ranges from 33.7% to 34.2%",
+          "source_sha256": NaN
+        },
+        "deadsea_density": {
+          "value": 1.24,
+          "unit": "kg/L",
+          "status": "derived_from_source",
+          "quantized_to": "1.24 kg/L",
+          "tolerance": 0.02,
+          "state_tag": "hypersaline_density",
+          "evidence_ref": "Geochemistry literature: Dead Sea density is approximately 1.24 kg/L due to high salinity",
+          "source_sha256": NaN
+        },
+        "buoyancy_gain_ocean_quant": {
+          "value": 0.03125,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "0.031250",
+          "tolerance": 0.00625,
+          "state_tag": "buoyancy_quantization_ocean",
+          "evidence_ref": NaN,
+          "source_sha256": NaN
+        }
+      },
+      "quantum_v1_4": {
+        "kappa_boundary": {
+          "value": 0.7071067811865475,
+          "unit": "dimensionless",
+          "status": "derived_from_theory",
+          "quantized_to": "1/√2",
+          "tolerance": 1e-10,
+          "state_tag": "type_I_II_boundary",
+          "evidence_ref": "Superconductivity theory: κ < 1/√2 defines type-I, κ > 1/√2 defines type-II [PMC6687606]",
+          "source_sha256": NaN
+        },
+        "flux_quantum_Phi0": {
+          "value": 2.067833848461929e-15,
+          "unit": "Wb",
+          "status": "derived_from_theory",
+          "quantized_to": "h/(2e)",
+          "tolerance": 1e-40,
+          "state_tag": "flux_quantization",
+          "evidence_ref": "Flux quantization: Φ0 = h/(2e) [PMC6687606]",
+          "source_sha256": NaN
+        },
+        "kappa_ratio_1_16": {
+          "value": 0.0625,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "1/16",
+          "tolerance": 0.001,
+          "state_tag": "regime_label",
+          "evidence_ref": NaN,
+          "source_sha256": NaN
+        },
+        "kappa_ratio_3_32": {
+          "value": 0.09375,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "3/32",
+          "tolerance": 0.001,
+          "state_tag": "regime_label",
+          "evidence_ref": NaN,
+          "source_sha256": NaN
+        }
+      },
+      "mito_v1_4": {
+        "pmf_formula_coeff_2_3": {
+          "value": 2.3,
+          "unit": "dimensionless",
+          "status": "derived_from_theory",
+          "quantized_to": "2.3 (ln(10))",
+          "tolerance": 1e-06,
+          "state_tag": "mitchell_chemiosmotic",
+          "evidence_ref": "Mitchell chemiosmotic theory: pmf = Δψ - (2.3RT/F)ΔpH [PMC6646885]",
+          "source_sha256": NaN
+        },
+        "sqrt2_ratio": {
+          "value": 1.4142135623730951,
+          "unit": "dimensionless",
+          "status": "appears_in_raw",
+          "quantized_to": "√2 ≈ 1.414",
+          "tolerance": 0.001,
+          "state_tag": "regime_label",
+          "evidence_ref": "Potential slope ratio in ΔpH/Δψ parameter space",
+          "source_sha256": NaN
+        },
+        "pmf_ratio_1_16": {
+          "value": 0.0625,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "1/16",
+          "tolerance": 0.001,
+          "state_tag": "regime_label",
+          "evidence_ref": NaN,
+          "source_sha256": NaN
+        }
+      },
+      "plasma_v1_4": {
+        "critical_density_formula": {
+          "value": 0.0,
+          "unit": "formula",
+          "status": "derived_from_theory",
+          "quantized_to": "n_c = (m_e·ε0·ω²)/e²",
+          "tolerance": 0.0,
+          "state_tag": "plasma_cutoff",
+          "evidence_ref": "Plasma physics: Critical density n_c = (m_e·ε0·ω²)/e² defines plasma frequency cutoff [PlasmaPy docs]",
+          "source_sha256": NaN
+        },
+        "threshold_3_32": {
+          "value": 0.09375,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "3/32",
+          "tolerance": 0.001,
+          "state_tag": "regime_label",
+          "evidence_ref": NaN,
+          "source_sha256": NaN
+        },
+        "threshold_1_16": {
+          "value": 0.0625,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "1/16",
+          "tolerance": 0.001,
+          "state_tag": "regime_label",
+          "evidence_ref": NaN,
+          "source_sha256": NaN
+        }
+      },
+      "fatty_acid": {
+        "kappa_1_32": {
+          "value": 0.03125,
+          "unit": "charge_fraction",
+          "status": "confirmed",
+          "quantized_to": "1/32",
+          "tolerance": 1e-06,
+          "state_tag": "pi_electron_wobble",
+          "evidence_ref": "papers/fatty-acid-primacy.md",
+          "source_sha256": null
+        },
+        "delta_emergent": {
+          "value": 0.014,
+          "unit": "dimensionless",
+          "status": "confirmed",
+          "quantized_to": "emergent_metabolic_scale",
+          "tolerance": 1e-06,
+          "state_tag": "beta_oxidation_scale",
+          "evidence_ref": "papers/sim_paper_C_fatty_acid_primacy.py",
+          "source_sha256": null
+        },
+        "R_scale_invariant": {
+          "value": 1.00236455,
+          "unit": "dimensionless",
+          "status": "confirmed",
+          "quantized_to": "scale_invariant_ratio",
+          "tolerance": 1e-08,
+          "state_tag": "beta_oxidation_ratio",
+          "evidence_ref": "papers/sim_paper_C_fatty_acid_primacy.py",
+          "source_sha256": null
+        },
+        "warburg_threshold_1_64": {
+          "value": 0.015625,
+          "unit": "charge_fraction",
+          "status": "candidate_threshold",
+          "quantized_to": "1/64",
+          "tolerance": 1e-06,
+          "state_tag": "warburg_transition",
+          "evidence_ref": "papers/sim_paper_C_fatty_acid_primacy.py",
+          "source_sha256": null
+        }
+      },
+      "canva_onenote_neurotransmitter": {
+        "gaba_glutamate_cycle_ratio": {
+          "value": 1.0,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "1:1 GABA-Glutamate cycle",
+          "tolerance": 0.1,
+          "state_tag": "neurotransmitter_balance",
+          "evidence_ref": "Canva ISTP, GABA files: GABA ↔ Glutamate conversion cycle",
+          "source_sha256": NaN
+        },
+        "circadian_quadrant_count": {
+          "value": 4.0,
+          "unit": "count",
+          "status": "candidate_unverified",
+          "quantized_to": "4 time quadrants (06:00, 12:00, 18:00, 00:00)",
+          "tolerance": 0.0,
+          "state_tag": "circadian_partition",
+          "evidence_ref": "Canva state table: 4 MBTI modes across day cycle",
+          "source_sha256": NaN
+        },
+        "photon_half_electron_delta": {
+          "value": 0.5,
+          "unit": "electron_charge_units",
+          "status": "candidate_unverified",
+          "quantized_to": "1/2 electron charge difference",
+          "tolerance": 0.01,
+          "state_tag": "photon_ionization",
+          "evidence_ref": "Canva UV stress: \"half electron worth of plus current\" at 4:30",
+          "source_sha256": NaN
+        },
+        "sensor_current_quantization": {
+          "value": 1.0,
+          "unit": "charge_flow_units",
+          "status": "candidate_unverified",
+          "quantized_to": "±1, ±2 charge flow states",
+          "tolerance": 0.1,
+          "state_tag": "sensor_activation",
+          "evidence_ref": "Canva UV stress: gravity stress=-2, darkness=-1, UV sensor=+2, cosmic sensor=+1",
+          "source_sha256": NaN
+        },
+        "archetype_count": {
+          "value": 4.0,
+          "unit": "count",
+          "status": "candidate_unverified",
+          "quantized_to": "4 archetypes (O, A, B, AB)",
+          "tolerance": 0.0,
+          "state_tag": "blood_type_archetype",
+          "evidence_ref": "Session discussion: Type O/A/B/AB hormone profiles",
+          "source_sha256": NaN
+        },
+        "vasopressin_archetype_index": {
+          "value": 4.0,
+          "unit": "archetype_index",
+          "status": "appears_in_raw",
+          "quantized_to": "Type AB = Vasopressin (Big Woman)",
+          "tolerance": 0.0,
+          "state_tag": "vasopressin_dominance_bonding",
+          "evidence_ref": "Session discussion: Vasopressin = dominance + pair-bonding",
+          "source_sha256": NaN
+        },
+        "acetyl_coa_bypass_index": {
+          "value": 1.0,
+          "unit": "cycle_mode",
+          "status": "candidate_unverified",
+          "quantized_to": "Acetyl-CoA non-bypass plp cycle",
+          "tolerance": 0.1,
+          "state_tag": "proto_proton_pump",
+          "evidence_ref": "Canva: \"proto proton pump was devised by gaba to overcome 1 photon difference\"",
+          "source_sha256": NaN
+        },
+        "mbti_mode_count": {
+          "value": 4.0,
+          "unit": "count",
+          "status": "candidate_unverified",
+          "quantized_to": "4 MBTI modes (ENTJ, INTP, INTJ, ENTP)",
+          "tolerance": 0.0,
+          "state_tag": "personality_state_machine",
+          "evidence_ref": "Canva state table: 4 modes across circadian cycle",
+          "source_sha256": NaN
+        }
+      },
+      "conversation_overlay_kappa_asymmetry": {
+        "kappa_stability_threshold": {
+          "value": 0.03125,
+          "unit": "dimensionless",
+          "status": "confirmed_multi_source",
+          "quantized_to": "1/32",
+          "tolerance": 1e-06,
+          "state_tag": "universal_stability_threshold",
+          "evidence_ref": "conv:03,07,13,27,37,45,48,49,52,53,57,58,64,68",
+          "description": "kappa=1/32 universal stability threshold. Day Force(1.0) minus Night Force(0.96875)=0.03125. Confirmed 14+ conversation files."
+        },
+        "kappa_collapse_threshold": {
+          "value": 0.015625,
+          "unit": "dimensionless",
+          "status": "confirmed_multi_source",
+          "quantized_to": "1/64",
+          "tolerance": 1e-06,
+          "state_tag": "irreversible_collapse_threshold",
+          "evidence_ref": "conv:03,37,45,49,64,68",
+          "description": "kappa_crit=1/64. Below this irreversible phase transition (PDAC, Warburg). Confirmed 6+ files."
+        },
+        "fine_structure_constant": {
+          "value": 0.0072973525693,
+          "unit": "dimensionless",
+          "status": "confirmed_literature",
+          "quantized_to": "alpha=1/137",
+          "tolerance": 1e-13,
+          "state_tag": "quantum_to_biological_renormalization",
+          "evidence_ref": "conv:48,53",
+          "description": "alpha=1/137.035999. Proposed to renormalize to kappa=1/32 in biological dielectric via GABA barriers(-2e) and Big Man sources(+4e)."
+        },
+        "K_interface": {
+          "value": 4.282,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "K_interface",
+          "tolerance": 0.001,
+          "state_tag": "interface_mediation_constant",
+          "evidence_ref": "conv:53 (operate-under-these-constraint)",
+          "description": "Interface mediation constant. Principle: All knowledge is interface-mediated."
+        },
+        "design_potential_Phi": {
+          "value": 1.4,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "Phi=1.4",
+          "tolerance": 0.01,
+          "state_tag": "master_equation_term",
+          "evidence_ref": "conv:68 (you-understand-what-it-is-abou)",
+          "description": "Design Potential Phi. Master Equation: Phi - delta = kappa (regime label, not numerically exact: 1.4-0.076=1.324 not 0.03125)."
+        },
+        "universal_drift_delta": {
+          "value": 0.076,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "delta=0.076",
+          "tolerance": 0.001,
+          "state_tag": "master_equation_term",
+          "evidence_ref": "conv:68 (you-understand-what-it-is-abou)",
+          "description": "Universal Drift delta. NOTE: 1.4-0.076=1.324 not 0.03125; regime label not numerically exact."
+        },
+        "day_force_solar_UV": {
+          "value": 1.0,
+          "unit": "normalized_charge_unit",
+          "status": "confirmed_multi_source",
+          "quantized_to": "1.0",
+          "tolerance": 0.0,
+          "state_tag": "primordial_charge_origin",
+          "evidence_ref": "conv:03,07,13,27",
+          "description": "Day Force=1.0 (solar UV charge input). Primordial origin of thermodynamic debt."
+        },
+        "night_force_cosmic_ray": {
+          "value": 0.96875,
+          "unit": "normalized_charge_unit",
+          "status": "confirmed_multi_source",
+          "quantized_to": "31/32",
+          "tolerance": 1e-06,
+          "state_tag": "primordial_charge_origin",
+          "evidence_ref": "conv:03,07,13,27",
+          "description": "Night Force=0.96875=31/32 (cosmic ray). Day-Night=1/32=kappa."
+        },
+        "charge_residual_CHARGE": {
+          "value": 0.03125,
+          "unit": "normalized_charge_unit",
+          "status": "confirmed_multi_source",
+          "quantized_to": "1/32",
+          "tolerance": 1e-06,
+          "state_tag": "thermodynamic_debt",
+          "evidence_ref": "conv:03,07,13,27,28",
+          "description": "CHARGE=1.0-0.96875=0.03125. Residual entropic debt driving evolution."
+        },
+        "neuronal_resting_potential": {
+          "value": -67.2,
+          "unit": "mV",
+          "status": "candidate_unverified",
+          "quantized_to": "-67.2 mV",
+          "tolerance": 0.5,
+          "state_tag": "GABA_shield_anchor",
+          "evidence_ref": "conv:45,49,52",
+          "description": "Neuronal resting potential at GABA Shield clamp. -67.2mV = 1/3 of -180mV mitochondrial PMF."
+        },
+        "mitochondrial_PMF": {
+          "value": -180.0,
+          "unit": "mV",
+          "status": "confirmed_literature",
+          "quantized_to": "-180 mV",
+          "tolerance": 10.0,
+          "state_tag": "proton_motive_force",
+          "evidence_ref": "conv:52 (mix-and-match)",
+          "description": "Mitochondrial proton motive force. -67.2/-180=1/3 coupling ratio."
+        },
+        "PMF_neuronal_coupling_ratio": {
+          "value": 0.3733,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "~1/3",
+          "tolerance": 0.01,
+          "state_tag": "neuronal_mitochondrial_coupling",
+          "evidence_ref": "conv:52 (mix-and-match)",
+          "description": "-67.2/-180 approx 0.373 approx 1/3."
+        },
+        "proton_electron_stoichiometry": {
+          "value": 5.0,
+          "unit": "ratio",
+          "status": "candidate_unverified",
+          "quantized_to": "10H+:2e- = 5:1",
+          "tolerance": 0.1,
+          "state_tag": "mitochondrial_ratio",
+          "evidence_ref": "conv:45,52",
+          "description": "10H+ per 2e- (5:1) mitochondrial stoichiometry."
+        },
+        "ATP_maintenance_fraction": {
+          "value": 0.35,
+          "unit": "fraction",
+          "status": "candidate_unverified",
+          "quantized_to": "~35%",
+          "tolerance": 0.05,
+          "state_tag": "energy_allocation",
+          "evidence_ref": "conv:45,58",
+          "description": "Na/K-ATPase uses ~30-40% of ATP. NOTE: 35% != 1/32 (off by 10x) - documented inconsistency (conv:65)."
+        },
+        "R_lock": {
+          "value": 32.000097996,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "R_lock~32",
+          "tolerance": 0.001,
+          "state_tag": "R32_topology_lock",
+          "evidence_ref": "conv:46,64",
+          "description": "R32 Topology Lock value from enginev9pro.py phase lock."
+        },
+        "tunnel_tension": {
+          "value": 1.5842547701,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "tunnel_tension",
+          "tolerance": 1e-06,
+          "state_tag": "R32_topology_lock",
+          "evidence_ref": "conv:46,64",
+          "description": "Tunnel tension parameter in R32 topology lock."
+        },
+        "phase_lock_error": {
+          "value": 0.0001,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "<0.0001",
+          "tolerance": 0.0,
+          "state_tag": "R32_topology_lock",
+          "evidence_ref": "conv:46,64",
+          "description": "Phase lock error threshold for R32 topology lock."
+        },
+        "sovereign_constant_delta": {
+          "value": 0.014,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "0.014",
+          "tolerance": 0.001,
+          "state_tag": "entropic_drift_per_cycle",
+          "evidence_ref": "conv:52 (mix-and-match)",
+          "description": "Sovereign Constant: entropic drift per metabolic cycle. Also appears as delta_emergent in fatty_acid domain."
+        },
+        "serotonin_GABA_equivalence": {
+          "value": 6.0,
+          "unit": "GABA_units",
+          "status": "candidate_unverified",
+          "quantized_to": "6 GABAs",
+          "tolerance": 0.5,
+          "state_tag": "neurotransmitter_equivalence",
+          "evidence_ref": "conv:23,28,35",
+          "description": "Serotonin is worth 6 GABAs in inhibitory charge equivalence. Confirmed in 3 conversation files."
+        },
+        "fatty_acid_membrane_ratio": {
+          "value": 0.03125,
+          "unit": "fraction",
+          "status": "candidate_unverified",
+          "quantized_to": "1 saturated per 31 unsaturated",
+          "tolerance": 1e-06,
+          "state_tag": "membrane_stability",
+          "evidence_ref": "conv:57 (start-from-beginning-again-5wot)",
+          "description": "1 saturated fatty acid per 31 unsaturated FAs in membrane. Ratio = 1/32 = kappa."
+        },
+        "KGDHC_restoration_target": {
+          "value": 0.625,
+          "unit": "fraction",
+          "status": "candidate_unverified",
+          "quantized_to": "50-75% activity",
+          "tolerance": 0.125,
+          "state_tag": "alzheimers_cofactor_target",
+          "evidence_ref": "conv:49 (learn-BgS28bO)",
+          "description": "KGDHC cofactors (thiamine, lipoic acid) restore 50-75% activity in Alzheimers model."
+        },
+        "disease_multiplier": {
+          "value": 3.125,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "3.125 = 100/32",
+          "tolerance": 0.01,
+          "state_tag": "disease_scaling_factor",
+          "evidence_ref": "conv:49 (learn-BgS28bO)",
+          "description": "3.125x disease multiplier. Note: 3.125 = 100 * (1/32)."
+        },
+        "lupus_charge": {
+          "value": 64.0,
+          "unit": "charge_units",
+          "status": "candidate_unverified",
+          "quantized_to": "+64",
+          "tolerance": 1.0,
+          "state_tag": "god_mode_control_panel",
+          "evidence_ref": "conv:27 (34__no_gemini)",
+          "description": "Lupus charge value in God Mode Control Panel V6.0: +64."
+        },
+        "allergies_charge": {
+          "value": -132.0,
+          "unit": "charge_units",
+          "status": "candidate_unverified",
+          "quantized_to": "-132",
+          "tolerance": 1.0,
+          "state_tag": "god_mode_control_panel",
+          "evidence_ref": "conv:27 (34__no_gemini)",
+          "description": "Allergies charge value in God Mode Control Panel V6.0: -132."
+        },
+        "GABA_spider_web_ratio": {
+          "value": 0.5,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "1/2",
+          "tolerance": 0.01,
+          "state_tag": "charge_regulation_spider_web",
+          "evidence_ref": "conv:40 (don-t-delve-too-much)",
+          "description": "GABA = 1/2 in spider web charge regulation diagram."
+        },
+        "PLP_spider_web_ratio": {
+          "value": 0.25,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "1/4",
+          "tolerance": 0.01,
+          "state_tag": "charge_regulation_spider_web",
+          "evidence_ref": "conv:40 (don-t-delve-too-much)",
+          "description": "PLP = 1/4 in spider web charge regulation diagram."
+        },
+        "serotonin_spider_web_ratio": {
+          "value": 0.0625,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "1/16",
+          "tolerance": 0.001,
+          "state_tag": "charge_regulation_spider_web",
+          "evidence_ref": "conv:40 (don-t-delve-too-much)",
+          "description": "Serotonin = 1/16 in spider web charge regulation diagram."
+        },
+        "lagrange_neutral_zone_AU": {
+          "value": 0.03,
+          "unit": "AU",
+          "status": "candidate_unverified",
+          "quantized_to": "0.03 AU",
+          "tolerance": 0.005,
+          "state_tag": "cosmological_analogy",
+          "evidence_ref": "conv:40 (don-t-delve-too-much)",
+          "description": "Lagrange neutral zone 0.03 AU in cosmological analogy."
+        },
+        "phi_cubed_sqrt137": {
+          "value": 23.4,
+          "unit": "dimensionless",
+          "status": "candidate_unverified",
+          "quantized_to": "phi^3 * sqrt(137)",
+          "tolerance": 0.1,
+          "state_tag": "geometric_constant",
+          "evidence_ref": "conv:40 (don-t-delve-too-much)",
+          "description": "phi^3 * sqrt(137) = 23.4 geometric constant from spider web framework."
+        },
+        "NFW_concentration_z0": {
+          "value": 8.5,
+          "unit": "dimensionless",
+          "status": "confirmed_literature",
+          "quantized_to": "c_NFW=8.5 at M200=1e12 Msun z=0",
+          "tolerance": 0.5,
+          "state_tag": "dark_matter_halo",
+          "evidence_ref": "conv:59,60 (text-m-200-z-c-nfw)",
+          "description": "NFW halo concentration at M_200=10^12 Msun, z=0. Planck 2018."
+        },
+        "Planck2013_Omega_m": {
+          "value": 0.3175,
+          "unit": "dimensionless",
+          "status": "confirmed_literature",
+          "quantized_to": "Omega_m=0.3175",
+          "tolerance": 0.01,
+          "state_tag": "cosmological_parameter",
+          "evidence_ref": "conv:59 (text-m-200-z-c-nfw-CWtb)",
+          "description": "Planck 2013 matter density parameter."
+        },
+        "Planck2013_h": {
+          "value": 0.671,
+          "unit": "dimensionless",
+          "status": "confirmed_literature",
+          "quantized_to": "h=0.671",
+          "tolerance": 0.01,
+          "state_tag": "cosmological_parameter",
+          "evidence_ref": "conv:59 (text-m-200-z-c-nfw-CWtb)",
+          "description": "Planck 2013 reduced Hubble constant."
+        },
+        "Planck2013_sigma8": {
+          "value": 0.8344,
+          "unit": "dimensionless",
+          "status": "confirmed_literature",
+          "quantized_to": "sigma8=0.8344",
+          "tolerance": 0.01,
+          "state_tag": "cosmological_parameter",
+          "evidence_ref": "conv:59 (text-m-200-z-c-nfw-CWtb)",
+          "description": "Planck 2013 matter fluctuation amplitude."
+        },
+        "Dutton_Maccio_a_z0": {
+          "value": 0.905,
+          "unit": "dimensionless",
+          "status": "confirmed_literature",
+          "quantized_to": "a(z=0)=0.905",
+          "tolerance": 0.01,
+          "state_tag": "concentration_mass_relation",
+          "evidence_ref": "conv:59 Dutton & Maccio 2014",
+          "description": "Dutton & Maccio 2014 c-M relation intercept at z=0."
+        },
+        "Dutton_Maccio_b_z0": {
+          "value": -0.101,
+          "unit": "dimensionless",
+          "status": "confirmed_literature",
+          "quantized_to": "b(z=0)=-0.101",
+          "tolerance": 0.005,
+          "state_tag": "concentration_mass_relation",
+          "evidence_ref": "conv:59 Dutton & Maccio 2014",
+          "description": "Dutton & Maccio 2014 c-M relation slope at z=0."
+        },
+        "circadian_node_count": {
+          "value": 16.0,
+          "unit": "count",
+          "status": "candidate_unverified",
+          "quantized_to": "16 daily neurochemical windows",
+          "tolerance": 0.0,
+          "state_tag": "circadian_partition",
+          "evidence_ref": "conv:49 (learn-BgS28bO)",
+          "description": "16 daily neurochemical windows in circadian model."
+        },
+        "archetype_electron_Big_Man": {
+          "value": 4.0,
+          "unit": "electron_charge_units",
+          "status": "candidate_unverified",
+          "quantized_to": "+4e",
+          "tolerance": 0.0,
+          "state_tag": "archetype_electron_state",
+          "evidence_ref": "conv:27,28,39,48",
+          "description": "Big Man archetype: +4e (Forward TCA, 3PM, Glutamate, Right Eye)."
+        },
+        "archetype_electron_Small_Man": {
+          "value": 2.0,
+          "unit": "electron_charge_units",
+          "status": "candidate_unverified",
+          "quantized_to": "+2e",
+          "tolerance": 0.0,
+          "state_tag": "archetype_electron_state",
+          "evidence_ref": "conv:27,28,39",
+          "description": "Small Man archetype: +2e (GABA Shield, 4:30PM, Choline, Right Nasalis)."
+        },
+        "archetype_electron_Small_Woman": {
+          "value": 1.0,
+          "unit": "electron_charge_units",
+          "status": "candidate_unverified",
+          "quantized_to": "+1e",
+          "tolerance": 0.0,
+          "state_tag": "archetype_electron_state",
+          "evidence_ref": "conv:27,28,39",
+          "description": "Small Woman archetype: +1e (Left GABA/PLP, 9PM, Lipogenesis, Left Temple)."
+        },
+        "GABA_barrier_charge": {
+          "value": -2.0,
+          "unit": "electron_charge_units",
+          "status": "candidate_unverified",
+          "quantized_to": "-2e",
+          "tolerance": 0.0,
+          "state_tag": "GABA_charge_barrier",
+          "evidence_ref": "conv:48 (jeonha-jaejeonggyuhwa)",
+          "description": "GABA barriers carry -2e charge in biological dielectric renormalization model."
+        },
+        "consistency_score_core_biology": {
+          "value": 0.95,
+          "unit": "fraction",
+          "status": "self_assessed",
+          "quantized_to": "95%",
+          "tolerance": 0.05,
+          "state_tag": "framework_consistency",
+          "evidence_ref": "conv:66 (yeogi-issneun-naeyongdeul)",
+          "description": "Framework internal consistency score for core biology domain (self-assessed in Korean analysis)."
+        },
+        "consistency_score_cancer": {
+          "value": 0.9,
+          "unit": "fraction",
+          "status": "self_assessed",
+          "quantized_to": "90%",
+          "tolerance": 0.05,
+          "state_tag": "framework_consistency",
+          "evidence_ref": "conv:66 (yeogi-issneun-naeyongdeul)",
+          "description": "Framework internal consistency score for cancer mechanisms domain."
+        },
+        "consistency_score_consciousness": {
+          "value": 0.75,
+          "unit": "fraction",
+          "status": "self_assessed",
+          "quantized_to": "75%",
+          "tolerance": 0.05,
+          "state_tag": "framework_consistency",
+          "evidence_ref": "conv:66 (yeogi-issneun-naeyongdeul)",
+          "description": "Framework internal consistency score for consciousness domain."
+        },
+        "consistency_score_dark_matter": {
+          "value": 0.6,
+          "unit": "fraction",
+          "status": "self_assessed",
+          "quantized_to": "60%",
+          "tolerance": 0.05,
+          "state_tag": "framework_consistency",
+          "evidence_ref": "conv:66 (yeogi-issneun-naeyongdeul)",
+          "description": "Framework internal consistency score for dark matter domain."
+        },
+        "consistency_score_hubble_tension": {
+          "value": 0.5,
+          "unit": "fraction",
+          "status": "self_assessed",
+          "quantized_to": "50%",
+          "tolerance": 0.05,
+          "state_tag": "framework_consistency",
+          "evidence_ref": "conv:66 (yeogi-issneun-naeyongdeul)",
+          "description": "Framework internal consistency score for Hubble tension domain."
+        }
+      }
+    }
+  },
+  "source_files_scanned": 72,
+  "source_folder": "AP/My Papers/conversations"
+}

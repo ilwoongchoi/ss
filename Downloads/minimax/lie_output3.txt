@@ -1,0 +1,36 @@
+﻿======================================================================
+LIE GROUP ISOMORPHISM VERIFICATION (numerical + symbolic)
+======================================================================
+
+[1] observer_leftd2 ↔ Sagittarius A* (Hill + Bondi/Eddington)
+  step(0.7)           : residual = 0.085832  →  WEAK
+  pulse(0.9,1.5)      : residual = 0.157290  →  HEURISTIC
+  const(0.5)          : residual = 0.028895  →  WEAK
+
+[2] quark_orogen_magma ↔ Neutron Star (TOV)
+  step(0.6)           : residual = 0.178937  →  HEURISTIC
+python : Traceback (most recent call last):
+위치 줄:1 문자:54
++ ... nimax-agent\projects"; python -X utf8 lie_isomorphism.py 2>&1 | Out-F ...
++                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism.py", line 236, in <module>
+    main()
+  File "C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism.py", line 181, in main
+    r = res(circuit_quark_orogen_magma, physical_tov_neutron_star, 0.1, u, t_end=5.0, dt=0.005)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism.py", line 126, in res
+    _, xs2 = integrate(f2, x0, u, t_end, dt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism.py", line 120, in integrate
+    x, t = rk4(f, t, x, u, dt, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism.py", line 112, in rk4
+    k3 = f(t + h/2, x + h*k2/2, u)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism.py", line 73, in physical_tov_neutron_star
+    P_c = K * rho_c**2
+              ~~~~~^^~
+OverflowError: (34, 'Result too large')

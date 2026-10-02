@@ -1,0 +1,2 @@
+2026-03-03T03:50:23.922773+00:00
+scripts\synthetic_sh\run_sh_trackA_sweep.py --spec-lock params\TEST_SPEC_LOCK.json --contact-knn-k 30 --percolation-bounds-multiplier 1.0 --size 96 --dt 0.01 --steps 800 --thr 0.6 --tile 12 --max-points 5000 --r-min 0.0096 --r-max 0.0216 --n 25 --tolerant-geometry --seed 440900 --run-prefix sh_1_64_micro --sweep-dir runs\sh_1_64\micro_20260303b

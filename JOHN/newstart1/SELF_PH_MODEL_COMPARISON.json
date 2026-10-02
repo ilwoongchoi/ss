@@ -1,0 +1,43 @@
+{
+  "embed": {
+    "mode": "embed",
+    "n_state": 9,
+    "lag_5_32_in_128": 20,
+    "nominal": {
+      "periodic_error_l2": 0.0,
+      "tracking_error_l2_per_window": 0.0,
+      "max_abs_residual": 0.0
+    },
+    "perturbed_50": {
+      "periodic_error_l2_mean": 0.27013664354419303,
+      "periodic_error_l2_p95": 0.3800278786597555,
+      "tracking_error_l2_mean": 0.003808759306102293,
+      "tracking_error_l2_p95": 0.006106188550576009,
+      "max_abs_residual_mean": 0.053133945420071715,
+      "max_abs_residual_p95": 0.1474195956168704
+    }
+  },
+  "retain": {
+    "mode": "retain",
+    "n_state": 11,
+    "lag_5_32_in_128": 20,
+    "nominal": {
+      "periodic_error_l2": 1.9357399876532506e-15,
+      "tracking_error_l2_per_window": 1.0326341285409497e-16,
+      "max_abs_residual": 1.3322676295501878e-15
+    },
+    "perturbed_50": {
+      "periodic_error_l2_mean": 35.4993974983128,
+      "periodic_error_l2_p95": 79.59543473737925,
+      "tracking_error_l2_mean": 0.9722431019659931,
+      "tracking_error_l2_p95": 2.178679268033709,
+      "max_abs_residual_mean": 20.61219193856506,
+      "max_abs_residual_p95": 46.19079059807561
+    }
+  },
+  "scores": {
+    "embed_total": 0.30051237556033117,
+    "retain_total": 46.77773656956133
+  },
+  "recommendation": "embed_proton_higgs_and_add_self"
+}

@@ -1,0 +1,53 @@
+{
+  "H2_baseline": {
+    "kappa_2": 0.03125,
+    "spark_angle_h2": 138.88,
+    "y_wrap": 32
+  },
+  "H3_void": {
+    "kappa_3": 0.015625,
+    "fraction": "1/64",
+    "d3_correction_factor": 0.5,
+    "spark_angle_small_woman": 208.32,
+    "spark_angle_big_man": 69.44
+  },
+  "H4_void": {
+    "kappa_4": 0.0078125,
+    "fraction": "1/128"
+  },
+  "D3_neuropathway": {
+    "tau_d3_fast": 3.0,
+    "tau_d3_slow": 3.1228,
+    "lambda_d3": 0.15625,
+    "delta_theta_d3_cw": 69.44,
+    "delta_theta_d3_ccw": -69.44
+  },
+  "PACT_mechanism": {
+    "illusion_strength": 0.984375,
+    "break_threshold": 0.5,
+    "left_cortisol_r": 0.1121475,
+    "left_cortisol_q0": 0.965
+  },
+  "Right_Cortisol_Cartilage": {
+    "description": "Fake 3D / Half-3D (1/64 leakage) - Emerges later (Extraversion)",
+    "r": 0.111900,
+    "q0": 0.974879,
+    "kappa_signature": "1/64",
+    "turn_appearance": 27,
+    "dominance": "Late Phase",
+    "anatomical_anchor": {
+      "switch": "Right Lie Muscle (Bottom Half Right Procerus)",
+      "sensation_node": "Right Eye Socket (Upper Inner)",
+      "mechanism": "Half-Activation (Bottom without Top/D2)",
+      "timing": "Sunset (Weakest Tie)"
+    }
+  },
+  "Bone_Phase_Solid": {
+    "description": "True Solid / Calcification (1/128 leakage) - Early rigid base",
+    "r": 0.112001,
+    "q0": 0.979006,
+    "kappa_signature": "1/128",
+    "turn_range": "0-25",
+    "dominance": "Early Phase"
+  }
+}

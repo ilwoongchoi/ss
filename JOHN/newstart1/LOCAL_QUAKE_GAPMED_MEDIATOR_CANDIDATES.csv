@@ -1,0 +1,13 @@
+mediator_row_id,mediator_time_utc,mediator_mag,mediator_lat,mediator_lon,touched_components,closest_component_roots,closest_component_dists_km,title,location
+586,2008-11-16T17:02:00+00:00,7.4,1.271,122.091,3,291;562;616,558.784;1121.543;1129.656,"M 7.4 - 135 km NW of Gorontalo, Indonesia","Gorontalo, Indonesia"
+736,2003-12-25T07:11:00+00:00,6.5,8.416,-82.824,2,780;706,1043.022;1182.112,"M 6.5 - 3 km SSE of Progreso, Panama","Progreso, Panama"
+657,2006-08-24T21:50:00+00:00,6.5,51.148,157.522,2,650;668,587.997;1184.090,"M 6.5 - 81 km ESE of Ozernovskiy, Russia","Ozernovskiy, Russia"
+53,2022-06-08T00:55:00+00:00,6.5,-9.0618,-71.1647,2,65;22,817.796;1178.170,"M 6.5 - 107 km SSW of Tarauacá, Brazil","Tarauacá, Brazil"
+404,2013-10-31T23:03:00+00:00,6.6,-30.2921,-71.5215,2,478;413,258.546;1190.238,"M 6.6 - 41 km SSW of Coquimbo, Chile","Coquimbo, Chile"
+733,2004-01-28T22:15:00+00:00,6.7,-3.12,127.4,2,731;759,851.671;934.413,"M 6.7 - 107 km NW of Ambon, Indonesia","Ambon, Indonesia"
+60,2022-03-22T17:41:00+00:00,6.7,23.3421,121.636,2,79;291,494.646;1076.670,"M 6.7 - 65 km S of Hualien City, Taiwan","Hualien City, Taiwan"
+104,2021-05-01T01:27:00+00:00,6.9,38.2296,141.665,2,61;113,59.119;66.940,M 6.9 -,
+756,2003-05-26T19:23:00+00:00,7.0,2.354,128.855,2,826;731,713.044;984.618,"M 7.0 - 116 km NE of Tobelo, Indonesia","Tobelo, Indonesia"
+170,2019-03-01T08:50:00+00:00,7.0,-14.7131,-70.1546,2,202;211,415.400;1004.948,"M 7.0 - 22 km NNE of Azángaro, Peru","Azángaro, Peru"
+107,2021-03-20T09:09:00+00:00,7.0,38.4752,141.607,2,61;113,86.049;94.044,"M 7.0 - 30 km E of Ishinomaki, Japan","Ishinomaki, Japan"
+711,2004-11-15T09:06:00+00:00,7.2,4.695,-77.508,2,681;706,1159.993;1199.859,"M 7.2 - 32 km SSW of Pizarro, Colombia","Pizarro, Colombia"

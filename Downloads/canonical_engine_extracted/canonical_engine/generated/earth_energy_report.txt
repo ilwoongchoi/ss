@@ -1,0 +1,272 @@
+================================================================================
+UNIVERSE ENERGY CIRCULATION — EARTH COORDINATE MAP
+================================================================================
+
+■ Subjects on Earth
+--------------------------------------------------------------------------------
+  Y-DNA haplogroups:     18
+  mtDNA haplogroups:     10
+  Ethnic archetypes:     33
+  Geological nodes:      25
+  Cosmic spheres:        5
+  Attractors:            3
+  TOTAL:                 94
+
+■ Energy Flow Paths
+--------------------------------------------------------------------------------
+  haplogroup_resonance             138 flows
+  sphere_to_geo                     48 flows
+  haplogroup_to_geo                 18 flows
+  attractor_to_geo                   9 flows
+  sphere_to_sphere                   5 flows
+  TOTAL                            218 flows
+
+■ Toroidal Sphere Transitions (24h Circadian)
+--------------------------------------------------------------------------------
+  Barnard    → Sun         stress=reset_spark           hours=(21, 3)  dist=  11829km
+    138.88° spark: iron mass → proton spark
+  Sun        → Earth       stress=light_dark            hours=(0, 3)  dist=   2613km
+    light → dark inversion
+  Earth      → Moon        stress=o2_co2                hours=(3, 9)  dist=  17402km
+    CO₂/osmotic → oxygen/salt
+  Moon       → CoMag       stress=heat_cold             hours=(9, 15)  dist=  11829km
+    heat/self-similarity → cold/rhythm
+  CoMag      → Barnard     stress=matter_nonmatter      hours=(15, 21)  dist=  20015km
+    mass/brightness → binding/무질량
+
+■ Sphere → Geological Node Projections
+--------------------------------------------------------------------------------
+  Sun        → steel                      stress=matter_nonmatter      dist=   4895km
+  Sun        → clay_gouge                 stress=heat_cold             dist=  10880km
+  Sun        → craton                     stress=matter_nonmatter      dist=   6080km
+  Sun        → podzol                     stress=heat_cold             dist=   4889km
+  Sun        → histosol                   stress=heat_cold             dist=   7761km
+  Sun        → pyrite                     stress=matter_nonmatter      dist=   9379km
+  Sun        → fold_belt                  stress=heat_cold             dist=   8532km
+  Sun        → plume                      stress=heat_cold             dist=   4810km
+  Sun        → large_igneous_province     stress=matter_nonmatter      dist=   7853km
+  Sun        → manganese_nodule           stress=matter_nonmatter      dist=  14633km
+  Sun        → gluon_orogen               stress=matter_nonmatter      dist=   7908km
+  Sun        → outer_core_convection      stress=heat_cold             dist=   2613km
+  Sun        → quark_orogen_magma         stress=heat_cold             dist=  11801km
+  Sun        → succinate_dehydrogenase    stress=heat_cold             dist=   2431km
+  Sun        → ferritin                   stress=matter_nonmatter      dist=   3114km
+  Earth      → laterite                   stress=o2_co2                dist=   2560km
+  Earth      → andosol                    stress=o2_co2                dist=  14211km
+  Earth      → cambisol                   stress=o2_co2                dist=   5393km
+  Earth      → basin                      stress=o2_co2                dist=   5828km
+  Earth      → monazite                   stress=light_dark            dist=   5549km
+  Earth      → oxidised_manganese         stress=o2_co2                dist=   4130km
+  Earth      → magnetite                  stress=light_dark            dist=  12434km
+  Earth      → thorium                    stress=light_dark            dist=   8299km
+  Moon       → clay_gouge                 stress=heat_cold             dist=   9135km
+  Moon       → andosol                    stress=o2_co2                dist=   7856km
+  Moon       → histosol                   stress=heat_cold             dist=  12254km
+  Moon       → fold_belt                  stress=heat_cold             dist=  11483km
+  Moon       → oxidised_manganese         stress=o2_co2                dist=  13912km
+  Moon       → quark_orogen_magma         stress=heat_cold             dist=   8214km
+  CoMag      → steel                      stress=matter_nonmatter      dist=   4642km
+  CoMag      → craton                     stress=matter_nonmatter      dist=  10336km
+  CoMag      → subduction_zone            stress=light_dark            dist=   6106km
+  CoMag      → monazite                   stress=light_dark            dist=   8681km
+  CoMag      → large_igneous_province     stress=matter_nonmatter      dist=   2354km
+  CoMag      → manganese_nodule           stress=matter_nonmatter      dist=  11022km
+  CoMag      → gluon_orogen               stress=matter_nonmatter      dist=   1844km
+  CoMag      → lower_mantle               stress=matter_nonmatter      dist=   9271km
+  CoMag      → magnetite                  stress=light_dark            dist=   8956km
+  CoMag      → thorium                    stress=light_dark            dist=   2698km
+  CoMag      → ferritin                   stress=matter_nonmatter      dist=   6279km
+  Barnard    → craton                     stress=matter_nonmatter      dist=   9679km
+  Barnard    → pyrite                     stress=matter_nonmatter      dist=   2676km
+  Barnard    → subduction_zone            stress=light_dark            dist=  13909km
+  Barnard    → monazite                   stress=light_dark            dist=  11334km
+  Barnard    → manganese_nodule           stress=matter_nonmatter      dist=   8994km
+  Barnard    → lower_mantle               stress=matter_nonmatter      dist=  10744km
+  Barnard    → magnetite                  stress=light_dark            dist=  11059km
+  Barnard    → ferritin                   stress=matter_nonmatter      dist=  13736km
+
+■ Haplogroup → Geological Node (Soil Resonance)
+--------------------------------------------------------------------------------
+  Y-DNA:R1a       → geo:craton                 soil=Chernozem (Mollisols) — Gluon-  dist=   8525km
+  Y-DNA:R1b       → geo:steel                  soil=Calcisols + Regosols — limesto  dist=   2001km
+  Y-DNA:I1        → geo:podzol                 soil=Podzols (Spodosols) — neutrino  dist=    666km
+  Y-DNA:I2        → geo:fold_belt              soil=Leptosols + Cambisols — mounta  dist=   6064km
+  Y-DNA:J1        → geo:basin                  soil=Arenosols + Solonchaks — deser  dist=    852km
+  Y-DNA:J2        → geo:basin                  soil=Fluvisols + Vertisols — alluvi  dist=   1671km
+  Y-DNA:E1b1b     → geo:oxidised_manganese     soil=Nitisols (Ethiopian highlands)  dist=   3686km
+  Y-DNA:E1b1a     → geo:laterite               soil=Ferralsols + Plinthosols — iro  dist=   2332km
+  Y-DNA:N1c       → geo:podzol                 soil=Podzols + Gleysols — acidic wa  dist=    429km
+  Y-DNA:G2a       → geo:andosol                soil=Andosols + Cambisols — volcani  dist=   7776km
+  Y-DNA:O1        → geo:cambisol               soil=Anthrosols + Acrisols — rice p  dist=   9177km
+  Y-DNA:O2        → geo:basin                  soil=Anthrosols + Fluvisols — rice/  dist=   6399km
+  Y-DNA:C         → geo:craton                 soil=Kastanozems + Cryosols — stepp  dist=  11625km
+  Y-DNA:Q         → geo:histosol               soil=Gelisols + Cryosols — permafro  dist=   4622km
+  Y-DNA:T         → geo:basin                  soil=Fluvisols + Arenosols — Nile a  dist=   1234km
+  Y-DNA:D         → geo:andosol                soil=Andosols (Japan volcanic) + Cr  dist=   4468km
+  Y-DNA:L         → geo:laterite               soil=Vertisols + Nitisols — black c  dist=   5882km
+  Y-DNA:H         → geo:laterite               soil=Acrisols + Ferralsols — tropic  dist=   6635km
+
+■ Haplogroup ↔ Haplogroup (8D Vector Resonance > 0.95)
+--------------------------------------------------------------------------------
+  Y-DNA:R1a       ↔ Y-DNA:R1b        sim=0.9896  dist=   2516km
+  Y-DNA:R1a       ↔ Y-DNA:I1         sim=0.9907  dist=   1264km
+  Y-DNA:R1a       ↔ Y-DNA:I2         sim=0.9887  dist=    981km
+  Y-DNA:R1a       ↔ Y-DNA:J1         sim=0.9831  dist=   3181km
+  Y-DNA:R1a       ↔ Y-DNA:J2         sim=0.9871  dist=   1056km
+  Y-DNA:R1a       ↔ Y-DNA:E1b1b      sim=0.9899  dist=   4668km
+  Y-DNA:R1a       ↔ Y-DNA:E1b1a      sim=0.9834  dist=   5495km
+  Y-DNA:R1a       ↔ Y-DNA:N1c        sim=0.9501  dist=   1136km
+  Y-DNA:R1a       ↔ Y-DNA:G2a        sim=0.9713  dist=   1466km
+  Y-DNA:R1a       ↔ Y-DNA:O1         sim=0.9735  dist=   7546km
+  Y-DNA:R1a       ↔ Y-DNA:O2         sim=0.9679  dist=   6451km
+  Y-DNA:R1a       ↔ Y-DNA:C          sim=0.9864  dist=   5307km
+  Y-DNA:R1a       ↔ Y-DNA:Q          sim=0.9650  dist=   7057km
+  Y-DNA:R1a       ↔ Y-DNA:T          sim=0.9880  dist=   2270km
+  Y-DNA:R1a       ↔ Y-DNA:L          sim=0.9803  dist=   5097km
+  Y-DNA:R1a       ↔ Y-DNA:H          sim=0.9895  dist=   4579km
+  Y-DNA:R1b       ↔ Y-DNA:I1         sim=0.9787  dist=   1628km
+  Y-DNA:R1b       ↔ Y-DNA:I2         sim=0.9874  dist=   2150km
+  Y-DNA:R1b       ↔ Y-DNA:J1         sim=0.9703  dist=   5397km
+  Y-DNA:R1b       ↔ Y-DNA:J2         sim=0.9920  dist=   2955km
+  Y-DNA:R1b       ↔ Y-DNA:E1b1b      sim=0.9880  dist=   6352km
+  Y-DNA:R1b       ↔ Y-DNA:E1b1a      sim=0.9802  dist=   5280km
+  Y-DNA:R1b       ↔ Y-DNA:G2a        sim=0.9624  dist=   3951km
+  Y-DNA:R1b       ↔ Y-DNA:O1         sim=0.9627  dist=   9723km
+  Y-DNA:R1b       ↔ Y-DNA:O2         sim=0.9532  dist=   8282km
+  Y-DNA:R1b       ↔ Y-DNA:C          sim=0.9935  dist=   7119km
+  Y-DNA:R1b       ↔ Y-DNA:Q          sim=0.9719  dist=   6782km
+  Y-DNA:R1b       ↔ Y-DNA:T          sim=0.9911  dist=   3975km
+  Y-DNA:R1b       ↔ Y-DNA:L          sim=0.9775  dist=   7603km
+  Y-DNA:R1b       ↔ Y-DNA:H          sim=0.9969  dist=   7078km
+  Y-DNA:I1        ↔ Y-DNA:I2         sim=0.9964  dist=   1625km
+  Y-DNA:I1        ↔ Y-DNA:J1         sim=0.9912  dist=   4445km
+  Y-DNA:I1        ↔ Y-DNA:J2         sim=0.9852  dist=   2174km
+  Y-DNA:I1        ↔ Y-DNA:E1b1b      sim=0.9813  dist=   5857km
+  Y-DNA:I1        ↔ Y-DNA:E1b1a      sim=0.9574  dist=   6004km
+  Y-DNA:I1        ↔ Y-DNA:N1c        sim=0.9817  dist=    396km
+  Y-DNA:I1        ↔ Y-DNA:G2a        sim=0.9928  dist=   2688km
+  Y-DNA:I1        ↔ Y-DNA:O1         sim=0.9867  dist=   8097km
+  Y-DNA:I1        ↔ Y-DNA:O2         sim=0.9888  dist=   6708km
+  Y-DNA:I1        ↔ Y-DNA:C          sim=0.9705  dist=   5539km
+  Y-DNA:I1        ↔ Y-DNA:Q          sim=0.9852  dist=   6174km
+  Y-DNA:I1        ↔ Y-DNA:T          sim=0.9898  dist=   3405km
+  Y-DNA:I1        ↔ Y-DNA:D          sim=0.9735  dist=   6260km
+  Y-DNA:I1        ↔ Y-DNA:L          sim=0.9918  dist=   6229km
+  Y-DNA:I1        ↔ Y-DNA:H          sim=0.9779  dist=   5570km
+  Y-DNA:I2        ↔ Y-DNA:J1         sim=0.9873  dist=   3248km
+  Y-DNA:I2        ↔ Y-DNA:J2         sim=0.9906  dist=    811km
+  Y-DNA:I2        ↔ Y-DNA:E1b1b      sim=0.9842  dist=   4347km
+  Y-DNA:I2        ↔ Y-DNA:E1b1a      sim=0.9617  dist=   4566km
+  Y-DNA:I2        ↔ Y-DNA:N1c        sim=0.9820  dist=   1736km
+  Y-DNA:I2        ↔ Y-DNA:G2a        sim=0.9898  dist=   1994km
+  Y-DNA:I2        ↔ Y-DNA:O1         sim=0.9814  dist=   8432km
+  Y-DNA:I2        ↔ Y-DNA:O2         sim=0.9820  dist=   7417km
+  Y-DNA:I2        ↔ Y-DNA:C          sim=0.9791  dist=   6280km
+  Y-DNA:I2        ↔ Y-DNA:Q          sim=0.9905  dist=   7773km
+  Y-DNA:I2        ↔ Y-DNA:T          sim=0.9936  dist=   1892km
+  Y-DNA:I2        ↔ Y-DNA:D          sim=0.9779  dist=   6275km
+  Y-DNA:I2        ↔ Y-DNA:L          sim=0.9914  dist=   5588km
+  Y-DNA:I2        ↔ Y-DNA:H          sim=0.9848  dist=   5253km
+  Y-DNA:J1        ↔ Y-DNA:J2         sim=0.9882  dist=   2443km
+  Y-DNA:J1        ↔ Y-DNA:E1b1b      sim=0.9885  dist=   1936km
+  Y-DNA:J1        ↔ Y-DNA:E1b1a      sim=0.9571  dist=   5029km
+  Y-DNA:J1        ↔ Y-DNA:N1c        sim=0.9757  dist=   4283km
+  Y-DNA:J1        ↔ Y-DNA:G2a        sim=0.9907  dist=   1896km
+  Y-DNA:J1        ↔ Y-DNA:O1         sim=0.9895  dist=   6699km
+  Y-DNA:J1        ↔ Y-DNA:O2         sim=0.9890  dist=   6600km
+  Y-DNA:J1        ↔ Y-DNA:C          sim=0.9664  dist=   5808km
+  Y-DNA:J1        ↔ Y-DNA:Q          sim=0.9830  dist=   9555km
+  Y-DNA:J1        ↔ Y-DNA:T          sim=0.9898  dist=   1634km
+  Y-DNA:J1        ↔ Y-DNA:D          sim=0.9666  dist=   4403km
+  Y-DNA:J1        ↔ Y-DNA:L          sim=0.9949  dist=   2770km
+  Y-DNA:J1        ↔ Y-DNA:H          sim=0.9756  dist=   3056km
+  Y-DNA:J2        ↔ Y-DNA:E1b1b      sim=0.9964  dist=   3684km
+  Y-DNA:J2        ↔ Y-DNA:E1b1a      sim=0.9769  dist=   4598km
+  Y-DNA:J2        ↔ Y-DNA:N1c        sim=0.9620  dist=   2148km
+  Y-DNA:J2        ↔ Y-DNA:G2a        sim=0.9812  dist=   1321km
+  Y-DNA:J2        ↔ Y-DNA:O1         sim=0.9844  dist=   7886km
+  Y-DNA:J2        ↔ Y-DNA:O2         sim=0.9757  dist=   7055km
+  Y-DNA:J2        ↔ Y-DNA:C          sim=0.9905  dist=   5966km
+  Y-DNA:J2        ↔ Y-DNA:Q          sim=0.9850  dist=   8112km
+  Y-DNA:J2        ↔ Y-DNA:T          sim=0.9992  dist=   1237km
+  Y-DNA:J2        ↔ Y-DNA:D          sim=0.9568  dist=   5656km
+  Y-DNA:J2        ↔ Y-DNA:L          sim=0.9927  dist=   4809km
+  Y-DNA:J2        ↔ Y-DNA:H          sim=0.9959  dist=   4551km
+  Y-DNA:E1b1b     ↔ Y-DNA:E1b1a      sim=0.9872  dist=   3904km
+  Y-DNA:E1b1b     ↔ Y-DNA:G2a        sim=0.9723  dist=   3680km
+  Y-DNA:E1b1b     ↔ Y-DNA:O1         sim=0.9810  dist=   8039km
+  Y-DNA:E1b1b     ↔ Y-DNA:O2         sim=0.9710  dist=   8315km
+  Y-DNA:E1b1b     ↔ Y-DNA:C          sim=0.9910  dist=   7644km
+  Y-DNA:E1b1b     ↔ Y-DNA:Q          sim=0.9716  dist=  11445km
+  Y-DNA:E1b1b     ↔ Y-DNA:T          sim=0.9942  dist=   2463km
+  Y-DNA:E1b1b     ↔ Y-DNA:L          sim=0.9870  dist=   3840km
+  Y-DNA:E1b1b     ↔ Y-DNA:H          sim=0.9948  dist=   4566km
+  Y-DNA:E1b1a     ↔ Y-DNA:O1         sim=0.9518  dist=  11724km
+  Y-DNA:E1b1a     ↔ Y-DNA:C          sim=0.9927  dist=  10464km
+  Y-DNA:E1b1a     ↔ Y-DNA:T          sim=0.9723  dist=   3913km
+  Y-DNA:E1b1a     ↔ Y-DNA:L          sim=0.9534  dist=   7621km
+  Y-DNA:E1b1a     ↔ Y-DNA:H          sim=0.9871  dist=   8084km
+  Y-DNA:N1c       ↔ Y-DNA:G2a        sim=0.9913  dist=   2461km
+  Y-DNA:N1c       ↔ Y-DNA:O1         sim=0.9708  dist=   7701km
+  Y-DNA:N1c       ↔ Y-DNA:O2         sim=0.9828  dist=   6322km
+  Y-DNA:N1c       ↔ Y-DNA:Q          sim=0.9917  dist=   6041km
+  Y-DNA:N1c       ↔ Y-DNA:T          sim=0.9694  dist=   3383km
+  Y-DNA:N1c       ↔ Y-DNA:D          sim=0.9979  dist=   5877km
+  Y-DNA:N1c       ↔ Y-DNA:L          sim=0.9829  dist=   5920km
+  Y-DNA:G2a       ↔ Y-DNA:O1         sim=0.9929  dist=   6573km
+  Y-DNA:G2a       ↔ Y-DNA:O2         sim=0.9963  dist=   5848km
+  Y-DNA:G2a       ↔ Y-DNA:C          sim=0.9549  dist=   4816km
+  Y-DNA:G2a       ↔ Y-DNA:Q          sim=0.9931  dist=   7773km
+  Y-DNA:G2a       ↔ Y-DNA:T          sim=0.9868  dist=   1776km
+  Y-DNA:G2a       ↔ Y-DNA:D          sim=0.9837  dist=   4335km
+  Y-DNA:G2a       ↔ Y-DNA:L          sim=0.9949  dist=   3653km
+  Y-DNA:G2a       ↔ Y-DNA:H          sim=0.9653  dist=   3260km
+  Y-DNA:O1        ↔ Y-DNA:O2         sim=0.9967  dist=   1888km
+  Y-DNA:O1        ↔ Y-DNA:C          sim=0.9642  dist=   2813km
+  Y-DNA:O1        ↔ Y-DNA:Q          sim=0.9827  dist=   7068km
+  Y-DNA:O1        ↔ Y-DNA:T          sim=0.9884  dist=   8018km
+  Y-DNA:O1        ↔ Y-DNA:D          sim=0.9587  dist=   2318km
+  Y-DNA:O1        ↔ Y-DNA:L          sim=0.9937  dist=   4200km
+  Y-DNA:O1        ↔ Y-DNA:H          sim=0.9726  dist=   3644km
+  Y-DNA:O2        ↔ Y-DNA:Q          sim=0.9851  dist=   5305km
+  Y-DNA:O2        ↔ Y-DNA:T          sim=0.9817  dist=   7544km
+  Y-DNA:O2        ↔ Y-DNA:D          sim=0.9714  dist=   2563km
+  Y-DNA:O2        ↔ Y-DNA:L          sim=0.9926  dist=   4743km
+  Y-DNA:O2        ↔ Y-DNA:H          sim=0.9607  dist=   3779km
+  Y-DNA:C         ↔ Y-DNA:Q          sim=0.9590  dist=   5007km
+  Y-DNA:C         ↔ Y-DNA:T          sim=0.9877  dist=   6560km
+  Y-DNA:C         ↔ Y-DNA:L          sim=0.9698  dist=   4434km
+  Y-DNA:C         ↔ Y-DNA:H          sim=0.9959  dist=   3331km
+  Y-DNA:Q         ↔ Y-DNA:T          sim=0.9891  dist=   9288km
+  Y-DNA:Q         ↔ Y-DNA:D          sim=0.9906  dist=   7444km
+  Y-DNA:Q         ↔ Y-DNA:L          sim=0.9939  dist=   9278km
+  Y-DNA:Q         ↔ Y-DNA:H          sim=0.9712  dist=   8131km
+  Y-DNA:T         ↔ Y-DNA:D          sim=0.9638  dist=   5704km
+  Y-DNA:T         ↔ Y-DNA:L          sim=0.9956  dist=   4358km
+  Y-DNA:T         ↔ Y-DNA:H          sim=0.9942  dist=   4429km
+  Y-DNA:D         ↔ Y-DNA:L          sim=0.9759  dist=   2184km
+  Y-DNA:L         ↔ Y-DNA:H          sim=0.9820  dist=   1147km
+
+■ Attractor → Geological Node (Distribution)
+--------------------------------------------------------------------------------
+  attractor:Energy     → geo:pyrite                 dist=   2676km
+  attractor:Energy     → geo:manganese_nodule       dist=   8994km
+  attractor:Energy     → geo:clay_gouge             dist=   9499km
+  attractor:Information → geo:succinate_dehydrogenase  dist=   2431km
+  attractor:Information → geo:outer_core_convection  dist=   2613km
+  attractor:Information → geo:cambisol               dist=   2815km
+  attractor:Repair     → geo:outer_core_convection  dist=      0km
+  attractor:Repair     → geo:laterite               dist=   2560km
+  attractor:Repair     → geo:craton                 dist=   3870km
+
+■ Energy Circulation Pattern
+--------------------------------------------------------------------------------
+  1. Barnard(S.Pacific) → Sun(Tropic of Cancer)  [21-3h: 138.88° spark reset]
+  2. Sun → Earth(Equator)                        [0-3h: light→dark]
+  3. Earth → Moon(Tropic of Capricorn)            [3-9h: CO₂→O₂]
+  4. Moon → CoMag(N.Asia)                        [9-15h: heat→cold]
+  5. CoMag → Barnard(S.Pacific)                  [15-21h: matter→non-matter]
+
+  Each sphere projects to geological nodes with matching stress pair.
+  Haplogroups bind to geological nodes via soil type resonance.
+  8D vector similarity creates inter-haplogroup resonance channels.

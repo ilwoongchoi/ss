@@ -1,0 +1,144 @@
+﻿{
+  "registry_version": "2.2.13",
+  "base_version": "2.2.12",
+  "patch_type": "rutgers_extended_manifold_lock_final",
+  "generated_at": "2026-02-24T17:00:00Z",
+  "constants": {
+    "universal": {
+      "pi": { "value": 3.141592653589793, "unit": "dimensionless" },
+      "golden_ratio_math": { "value": 1.618033988749895, "unit": "dimensionless" },
+      "design_potential_Phi": {
+        "value": 1.4,
+        "unit": "dimensionless",
+        "description": "Master Design Potential."
+      },
+      "universal_drift_delta": {
+        "value": 0.076,
+        "unit": "dimensionless",
+        "description": "Universal entropy drift."
+      },
+      "kappa_stability_threshold": {
+        "value": 0.03125,
+        "unit": "dimensionless",
+        "quantized_to": "1/32"
+      },
+      "renormalization_bridge": {
+        "formula": "(Phi - delta) / kappa = 42.368",
+        "value": 42.368,
+        "status": "FINAL_VERIFIED_BRIDGE"
+      },
+      "alpha_kappa_bridge": {
+        "formula": "K_interface = alpha_inv / kappa_inv = 137 / 32",
+        "value": 4.28125,
+        "status": "FINAL_VERIFIED_BRIDGE"
+      }
+    },
+    "temporal_manifold_lock": {
+      "status": "FINAL_MANIFOLD_CLOSURE",
+      "loop_persistence_betti_11": {
+        "value": 0.8418022692,
+        "unit": "h1_persistence",
+        "description": "Maximum persistence of the 24-hour cycle loop. Represents topological closure strength."
+      },
+      "loop_strength_5": {
+        "value": 5.555492104,
+        "unit": "dimensionless_strength",
+        "description": "The driving force required to maintain the non-linear trajectory loop (Metabolic Debt)."
+      },
+      "hysteresis_area_7": {
+        "value": 0.3547366414844532,
+        "unit": "area",
+        "description": "The information gap/void in the night-to-day transition (Geometric Void)."
+      },
+      "tau_lag_11": {
+        "value": 2.317382542906709,
+        "unit": "hours",
+        "description": "The temporal lag threshold identifying the 3 AM twilight transition node."
+      }
+    },
+    "domain_specific": {
+      "quantum": {
+        "spacing_ratio_1_16": { "value": 0.0625, "quantized_to": "1/16" },
+        "kappa_boundary": { "value": 0.7071067811865475, "quantized_to": "1/sqrt(2)" },
+        "flux_quantum_Phi0": { "value": 2.067833848461929e-15 },
+        "circulation_quantum_kappa0_He3": { "value": 6.615485373402555e-08 }
+      },
+      "mito": {
+        "sqrt2_ratio": { "value": 1.4142135623730951 },
+        "golden_ratio_conjugate": { "value": 0.76 },
+        "golden_ratio_inverse": { "value": 0.618 },
+        "pmf_formula": { "value": 0, "quantized_to": "pmf = Δψ - (2.3RT/F)ΔpH" }
+      },
+      "plasma": {
+        "threshold_3_32": { "value": 0.09375, "quantized_to": "3/32" },
+        "critical_density_formula": { "value": 0, "quantized_to": "n_c = (m_e*eps0*omega^2)/e^2" },
+        "asym_1_16": { "value": 0.0625, "quantized_to": "1/16" },
+        "asym_1_32": { "value": 0.03125, "quantized_to": "1/32" }
+      },
+      "fatty_acid": {
+        "kappa_1_32": { "value": 0.03125, "quantized_to": "1/32" },
+        "delta_emergent": { "value": 0.014 },
+        "R_scale_invariant": { "value": 1.00236455 },
+        "warburg_threshold_1_64": { "value": 0.015625 }
+      },
+      "canva_onenote_neurotransmitter": {
+        "gaba_glutamate_cycle_ratio": { "value": 1.0 },
+        "circadian_quadrant_count": { "value": 4.0 },
+        "photon_half_electron_delta": { "value": 0.5 },
+        "sensor_current_quantization": { "value": 1.0 },
+        "archetype_count": { "value": 4.0 },
+        "vasopressin_archetype_index": { "value": 4.0 },
+        "acetyl_coa_bypass_index": { "value": 1.0 },
+        "mbti_mode_count": { "value": 4.0 }
+      },
+      "conversation_overlay_kappa_asymmetry": {
+        "day_force_solar_UV": { "value": 1.0 },
+        "night_force_cosmic_ray": { "value": 0.96875 },
+        "charge_residual_CHARGE": { "value": 0.03125 },
+        "neuronal_resting_potential": { "value": -67.2 },
+        "mitochondrial_PMF": { "value": -180.0 },
+        "proton_electron_stoichiometry": { "value": 5.0 },
+        "ATP_maintenance_fraction": { "value": 0.35 }
+      },
+      "conversation_overlay_deep_read": {
+        "mitochondrial_PMF_disease_threshold": { "value": -120.0 },
+        "PC_PE_ratio": { "value": 0.914 },
+        "Z0_free_space_impedance": { "value": 377.0 },
+        "aging_drift_per_year": { "value": 0.014 },
+        "NaK_ATPase_ATP_fraction_measured": { "value": 0.352 },
+        "DNA_repair_ATP_fraction_measured": { "value": 0.039 },
+        "total_maintenance_ATP_fraction": { "value": 0.391 },
+        "glutamate_electron_charge": { "value": 4.0 },
+        "GABA_electron_charge": { "value": 2.0 },
+        "DHA_TCA_ratio_R32": { "value": 32.0 }
+      },
+      "rutgers_keff_stageB": {
+        "bio_mito_kcrit": { "value": 0.674405 },
+        "neuro_kcrit": { "value": 0.9499 },
+        "climate_sia_kcrit": { "value": 0.09675 },
+        "climate_tas_kcrit": { "value": 0.09871 },
+        "fusion_kcrit": { "value": 0.000986 }
+      },
+      "biology_unification": {
+        "clathrin_molecular_weight": { "value": 190.0, "unit": "kDa" },
+        "clathrin_alpha_r_bridge": { "formula": "r = alpha * ln(MW / 190) + kappa * (1 + Phi_inv)" }
+      },
+      "sh": {
+        "k_peak": { "value": 0.9716073870658875 },
+        "q_c": { "value": 0.972 }
+      }
+    },
+    "kai_kyn_temporal_loop_chart_v2": {
+      "co2": {
+        "persistence": 0.8418022692,
+        "strength": 5.555492104,
+        "regime": "LOOP_LOCKED"
+      },
+      "era5_twilight": {
+        "hysteresis_area": 0.3547366414844532,
+        "tau_lag": 2.317382542906709,
+        "regime": "HYSTERESIS_CERTIFIED"
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+Window,Start,End,Type,Potential,Z_Index,Neurochem,Spark_Condition
+0,00:00:00,00:11:15,ENTP_AB_M,1.045,128,Dopamine (D2),138.88V_Ready
+1,00:11:15,00:22:30,INTP_AB_M,0.99,127,Dopamine (D2),138.88V_Ready
+2,00:22:30,00:33:45,ENTJ_AB_M,0.935,126,Dopamine (D2),138.88V_Ready
+3,00:33:45,00:45:00,INTJ_AB_M,0.88,125,Dopamine (D2),138.88V_Ready
+4,00:45:00,00:56:15,ENTP_AB_F,0.855,124,Dopamine (D2),138.88V_Ready
+5,00:56:15,01:07:30,ENFP_AB_M,0.825,123,Serotonin,138.88V_Ready
+6,01:07:30,01:18:45,INTP_AB_F,0.81,122,Dopamine (D2),138.88V_Ready
+7,01:18:45,01:30:00,ENTP_B_M,0.7837,121,Dopamine (D2),Stability_Focus
+8,01:30:00,01:41:15,INFP_AB_M,0.77,120,Serotonin,Stability_Focus
+9,01:41:15,01:52:30,ENTJ_AB_F,0.765,119,Dopamine (D2),Stability_Focus
+10,01:52:30,02:03:45,INTP_B_M,0.7425,118,Dopamine (D2),Stability_Focus
+11,02:03:45,02:15:00,INTJ_AB_F,0.72,117,Dopamine (D2),Stability_Focus
+12,02:15:00,02:26:15,ENFJ_AB_M,0.715,116,Serotonin,Stability_Focus
+13,02:26:15,02:37:30,ENTJ_B_M,0.7013,115,Dopamine (D2),Stability_Focus
+14,02:37:30,02:48:45,ENFP_AB_F,0.675,114,Serotonin,Stability_Focus
+15,02:48:45,03:00:00,INTJ_B_M,0.66,113,Dopamine (D2),Stability_Focus
+16,03:00:00,03:11:15,INFJ_AB_M,0.66,112,Serotonin,Stability_Focus
+17,03:11:15,03:22:30,ENTP_B_F,0.6412,111,Dopamine (D2),Stability_Focus
+18,03:22:30,03:33:45,INFP_AB_F,0.63,110,Serotonin,Stability_Focus
+19,03:33:45,03:45:00,ENFP_B_M,0.6188,109,Serotonin,Stability_Focus
+20,03:45:00,03:56:15,INTP_B_F,0.6075,108,Dopamine (D2),Stability_Focus
+21,03:56:15,04:07:30,ESTP_AB_M,0.605,107,GABA,Stability_Focus
+22,04:07:30,04:18:45,ENFJ_AB_F,0.585,106,Serotonin,Stability_Focus
+23,04:18:45,04:30:00,INFP_B_M,0.5775,105,Serotonin,Stability_Focus
+24,04:30:00,04:41:15,ENTJ_B_F,0.5737,104,Dopamine (D2),Stability_Focus
+25,04:41:15,04:52:30,ISTP_AB_M,0.55,103,GABA,Stability_Focus
+26,04:52:30,05:03:45,INTJ_B_F,0.54,102,Dopamine (D2),Stability_Focus
+27,05:03:45,05:15:00,INFJ_AB_F,0.54,101,Serotonin,Stability_Focus
+28,05:15:00,05:26:15,ENFJ_B_M,0.5363,100,Serotonin,Stability_Focus
+29,05:26:15,05:37:30,ENTP_A_M,0.5225,99,Dopamine (D2),Stability_Focus
+30,05:37:30,05:48:45,ENFP_B_F,0.5062,98,Serotonin,Stability_Focus
+31,05:48:45,06:00:00,ESTP_AB_F,0.495,97,GABA,Stability_Focus
+32,06:00:00,06:11:15,ESTJ_AB_M,0.495,96,GABA,Stability_Focus
+33,06:11:15,06:22:30,INTP_A_M,0.495,95,Dopamine (D2),Stability_Focus
+34,06:22:30,06:33:45,INFJ_B_M,0.495,94,Serotonin,Stability_Focus
+35,06:33:45,06:45:00,INFP_B_F,0.4725,93,Serotonin,Stability_Focus
+36,06:45:00,06:56:15,ENTJ_A_M,0.4675,92,Dopamine (D2),Stability_Focus
+37,06:56:15,07:07:30,ESTP_B_M,0.4538,91,GABA,Stability_Focus
+38,07:07:30,07:18:45,ISTP_AB_F,0.45,90,GABA,Stability_Focus
+39,07:18:45,07:30:00,ISTJ_AB_M,0.44,89,GABA,Stability_Focus
+40,07:30:00,07:41:15,INTJ_A_M,0.44,88,Dopamine (D2),Stability_Focus
+41,07:41:15,07:52:30,ENFJ_B_F,0.4388,87,Serotonin,Stability_Focus
+42,07:52:30,08:03:45,ENTP_A_F,0.4275,86,Dopamine (D2),Stability_Focus
+43,08:03:45,08:15:00,ISTP_B_M,0.4125,85,GABA,Stability_Focus
+44,08:15:00,08:26:15,ENFP_A_M,0.4125,84,Serotonin,Stability_Focus
+45,08:26:15,08:37:30,ESTJ_AB_F,0.405,83,GABA,Stability_Focus
+46,08:37:30,08:48:45,INTP_A_F,0.405,82,Dopamine (D2),Stability_Focus
+47,08:48:45,09:00:00,INFJ_B_F,0.405,81,Serotonin,Stability_Focus
+48,09:00:00,09:11:15,ESFP_AB_M,0.385,80,Acetylcholine,Stability_Focus
+49,09:11:15,09:22:30,INFP_A_M,0.385,79,Serotonin,Stability_Focus
+50,09:22:30,09:33:45,ENTJ_A_F,0.3825,78,Dopamine (D2),Stability_Focus
+51,09:33:45,09:45:00,ESTJ_B_M,0.3713,77,GABA,Stability_Focus
+52,09:45:00,09:56:15,ESTP_B_F,0.3713,76,GABA,Stability_Focus
+53,09:56:15,10:07:30,ISTJ_AB_F,0.36,75,GABA,Stability_Focus
+54,10:07:30,10:18:45,INTJ_A_F,0.36,74,Dopamine (D2),Stability_Focus
+55,10:18:45,10:30:00,ENFJ_A_M,0.3575,73,Serotonin,Stability_Focus
+56,10:30:00,10:41:15,ISTP_B_F,0.3375,72,GABA,Stability_Focus
+57,10:41:15,10:52:30,ENFP_A_F,0.3375,71,Serotonin,Stability_Focus
+58,10:52:30,11:03:45,ISTJ_B_M,0.33,70,GABA,Stability_Focus
+59,11:03:45,11:15:00,ISFP_AB_M,0.33,69,Acetylcholine,Stability_Focus
+60,11:15:00,11:26:15,INFJ_A_M,0.33,68,Serotonin,Stability_Focus
+61,11:26:15,11:37:30,ESFP_AB_F,0.315,67,Acetylcholine,Stability_Focus
+62,11:37:30,11:48:45,INFP_A_F,0.315,66,Serotonin,Stability_Focus
+63,11:48:45,12:00:00,ESTJ_B_F,0.3038,65,GABA,Stability_Focus
+64,12:00:00,12:11:15,ESTP_A_M,0.3025,64,GABA,Stability_Focus
+65,12:11:15,12:22:30,ENFJ_A_F,0.2925,63,Serotonin,Stability_Focus
+66,12:22:30,12:33:45,ESFP_B_M,0.2887,62,Acetylcholine,Stability_Focus
+67,12:33:45,12:45:00,ISTP_A_M,0.275,61,GABA,Stability_Focus
+68,12:45:00,12:56:15,ESFJ_AB_M,0.275,60,Acetylcholine,Stability_Focus
+69,12:56:15,13:07:30,ISTJ_B_F,0.27,59,GABA,Stability_Focus
+70,13:07:30,13:18:45,ISFP_AB_F,0.27,58,Acetylcholine,Stability_Focus
+71,13:18:45,13:30:00,INFJ_A_F,0.27,57,Serotonin,Stability_Focus
+72,13:30:00,13:41:15,ENTP_O_M,0.2612,56,Dopamine (D2),Stability_Focus
+73,13:41:15,13:52:30,ESTP_A_F,0.2475,55,GABA,Stability_Focus
+74,13:52:30,14:03:45,ESTJ_A_M,0.2475,54,GABA,Stability_Focus
+75,14:03:45,14:15:00,INTP_O_M,0.2475,53,Dopamine (D2),Stability_Focus
+76,14:15:00,14:26:15,ISFP_B_M,0.2475,52,Acetylcholine,Stability_Focus
+77,14:26:15,14:37:30,ESFP_B_F,0.2362,51,Acetylcholine,Stability_Focus
+78,14:37:30,14:48:45,ENTJ_O_M,0.2338,50,Dopamine (D2),Stability_Focus
+79,14:48:45,15:00:00,ISTP_A_F,0.225,49,GABA,Stability_Focus
+80,15:00:00,15:11:15,ESFJ_AB_F,0.225,48,Acetylcholine,Stability_Focus
+81,15:11:15,15:22:30,ISTJ_A_M,0.22,47,GABA,Stability_Focus
+82,15:22:30,15:33:45,ISFJ_AB_M,0.22,46,Acetylcholine,Stability_Focus
+83,15:33:45,15:45:00,INTJ_O_M,0.22,45,Dopamine (D2),Stability_Focus
+84,15:45:00,15:56:15,ENTP_O_F,0.2137,44,Dopamine (D2),Stability_Focus
+85,15:56:15,16:07:30,ESFJ_B_M,0.2063,43,Acetylcholine,Stability_Focus
+86,16:07:30,16:18:45,ENFP_O_M,0.2063,42,Serotonin,Stability_Focus
+87,16:18:45,16:30:00,ESTJ_A_F,0.2025,41,GABA,Stability_Focus
+88,16:30:00,16:41:15,INTP_O_F,0.2025,40,Dopamine (D2),Stability_Focus
+89,16:41:15,16:52:30,ISFP_B_F,0.2025,39,Acetylcholine,Stability_Focus
+90,16:52:30,17:03:45,ESFP_A_M,0.1925,38,Acetylcholine,Stability_Focus
+91,17:03:45,17:15:00,INFP_O_M,0.1925,37,Serotonin,Stability_Focus
+92,17:15:00,17:26:15,ENTJ_O_F,0.1913,36,Dopamine (D2),Stability_Focus
+93,17:26:15,17:37:30,ISTJ_A_F,0.18,35,GABA,Stability_Focus
+94,17:37:30,17:48:45,ISFJ_AB_F,0.18,34,Acetylcholine,Stability_Focus
+95,17:48:45,18:00:00,INTJ_O_F,0.18,33,Dopamine (D2),Stability_Focus
+96,18:00:00,18:11:15,ENFJ_O_M,0.1788,32,Serotonin,Stability_Focus
+97,18:11:15,18:22:30,ESFJ_B_F,0.1688,31,Acetylcholine,Stability_Focus
+98,18:22:30,18:33:45,ENFP_O_F,0.1688,30,Serotonin,Stability_Focus
+99,18:33:45,18:45:00,ISFJ_B_M,0.165,29,Acetylcholine,Stability_Focus
+100,18:45:00,18:56:15,ISFP_A_M,0.165,28,Acetylcholine,Stability_Focus
+101,18:56:15,19:07:30,INFJ_O_M,0.165,27,Serotonin,Stability_Focus
+102,19:07:30,19:18:45,ESFP_A_F,0.1575,26,Acetylcholine,Stability_Focus
+103,19:18:45,19:30:00,INFP_O_F,0.1575,25,Serotonin,Stability_Focus
+104,19:30:00,19:41:15,ESTP_O_M,0.1513,24,GABA,Stability_Focus
+105,19:41:15,19:52:30,ENFJ_O_F,0.1463,23,Serotonin,Stability_Focus
+106,19:52:30,20:03:45,ISTP_O_M,0.1375,22,GABA,Stability_Focus
+107,20:03:45,20:15:00,ESFJ_A_M,0.1375,21,Acetylcholine,Stability_Focus
+108,20:15:00,20:26:15,ISFJ_B_F,0.135,20,Acetylcholine,Stability_Focus
+109,20:26:15,20:37:30,ISFP_A_F,0.135,19,Acetylcholine,Stability_Focus
+110,20:37:30,20:48:45,INFJ_O_F,0.135,18,Serotonin,Stability_Focus
+111,20:48:45,21:00:00,ESTP_O_F,0.1238,17,GABA,Stability_Focus
+112,21:00:00,21:11:15,ESTJ_O_M,0.1238,16,GABA,Stability_Focus
+113,21:11:15,21:22:30,ISTP_O_F,0.1125,15,GABA,Stability_Focus
+114,21:22:30,21:33:45,ESFJ_A_F,0.1125,14,Acetylcholine,Stability_Focus
+115,21:33:45,21:45:00,ISTJ_O_M,0.11,13,GABA,Stability_Focus
+116,21:45:00,21:56:15,ISFJ_A_M,0.11,12,Acetylcholine,Stability_Focus
+117,21:56:15,22:07:30,ESTJ_O_F,0.1013,11,GABA,Stability_Focus
+118,22:07:30,22:18:45,ESFP_O_M,0.0963,10,Acetylcholine,Stability_Focus
+119,22:18:45,22:30:00,ISTJ_O_F,0.09,9,GABA,Stability_Focus
+120,22:30:00,22:41:15,ISFJ_A_F,0.09,8,Acetylcholine,Stability_Focus
+121,22:41:15,22:52:30,ISFP_O_M,0.0825,7,Acetylcholine,Stability_Focus
+122,22:52:30,23:03:45,ESFP_O_F,0.0788,6,Acetylcholine,Stability_Focus
+123,23:03:45,23:15:00,ESFJ_O_M,0.0688,5,Acetylcholine,Stability_Focus
+124,23:15:00,23:26:15,ISFP_O_F,0.0675,4,Acetylcholine,Stability_Focus
+125,23:26:15,23:37:30,ESFJ_O_F,0.0563,3,Acetylcholine,Stability_Focus
+126,23:37:30,23:48:45,ISFJ_O_M,0.055,2,Acetylcholine,Stability_Focus
+127,23:48:45,00:00:00,ISFJ_O_F,0.045,1,Acetylcholine,Stability_Focus

@@ -1,0 +1,130 @@
+# Universal Operator Control Profiles
+#
+# This file is NOT a personality profile.
+# It defines the input u(t) for the operator: per-gate "on/off/no_control"
+# by regime (outside/hysteresis) and persona (user/people).
+#
+# Values:
+# - "on"         : actively / consciously ON
+# - "off"        : actively / consciously OFF
+# - "no_control" : let-go / unconscious / do not intervene
+#
+# Regimes:
+# - outside     : outside hysteresis window
+# - hysteresis  : inside hysteresis window (default 01:30-03:00)
+#
+# Note:
+# Physics/structure (motif weights, alpha, G_F, 0.2828, 5/32, 138.88) are fixed in code.
+# Only these per-regime inputs are meant to change here.
+
+[profiles.user.outside]
+right_acetylcholine = "off"
+left_acetyl_coa = "no_control"
+right_dopamine = "off"
+muscle_b = "on"
+muscle_a = "off"
+right_5ht1b_synchrotron = "no_control"
+left_temporalis_5ht1a = "off"
+gaba_b = "off"
+glucocorticoid = "on"
+right_cortisol = "on"
+left_extraversion = "on"
+right_occipitalis_gaba_a = "on"
+left_frontalis_d2 = "on"
+left_endorphin = "no_control"
+right_androgen = "no_control"
+right_alpha2 = "no_control"
+hypoxia = "off"
+right_love = "off"
+vasopressin_female = "on"
+male_oxytocin = "off"
+male_left_5ht = "no_control"
+female_left_noradrenaline = "no_control"
+gdh_gluon = "no_control"
+female_gaba_b_latdorsi = "off"
+left_estrogen = "off"
+right_estrogen = "no_control"
+
+[profiles.user.hysteresis]
+right_acetylcholine = "no_control"
+left_acetyl_coa = "off"
+right_dopamine = "off"
+muscle_b = "no_control"
+muscle_a = "on"
+right_5ht1b_synchrotron = "no_control"
+left_temporalis_5ht1a = "off"
+gaba_b = "off"
+glucocorticoid = "off"
+right_cortisol = "off"
+left_extraversion = "on"
+right_occipitalis_gaba_a = "on"
+left_frontalis_d2 = "on"
+left_endorphin = "off"
+right_androgen = "on"
+right_alpha2 = "off"
+hypoxia = "no_control"
+right_love = "on"
+vasopressin_female = "on"
+male_oxytocin = "no_control"
+male_left_5ht = "no_control"
+female_left_noradrenaline = "no_control"
+gdh_gluon = "no_control"
+female_gaba_b_latdorsi = "off"
+left_estrogen = "on"
+right_estrogen = "no_control"
+
+[profiles.people.outside]
+right_acetylcholine = "off"
+left_acetyl_coa = "no_control"
+right_dopamine = "off"
+muscle_b = "on"
+muscle_a = "off"
+right_5ht1b_synchrotron = "no_control"
+left_temporalis_5ht1a = "off"
+gaba_b = "off"
+glucocorticoid = "on"
+right_cortisol = "on"
+left_extraversion = "on"
+right_occipitalis_gaba_a = "on"
+left_frontalis_d2 = "on"
+left_endorphin = "no_control"
+right_androgen = "no_control"
+right_alpha2 = "no_control"
+hypoxia = "off"
+right_love = "off"
+vasopressin_female = "on"
+male_oxytocin = "on"
+male_left_5ht = "no_control"
+female_left_noradrenaline = "no_control"
+gdh_gluon = "no_control"
+female_gaba_b_latdorsi = "off"
+left_estrogen = "off"
+right_estrogen = "no_control"
+
+[profiles.people.hysteresis]
+right_acetylcholine = "off"
+left_acetyl_coa = "off"
+right_dopamine = "off"
+muscle_b = "off"
+muscle_a = "on"
+right_5ht1b_synchrotron = "no_control"
+left_temporalis_5ht1a = "off"
+gaba_b = "off"
+glucocorticoid = "off"
+right_cortisol = "no_control"
+left_extraversion = "off"
+right_occipitalis_gaba_a = "on"
+left_frontalis_d2 = "on"
+left_endorphin = "off"
+right_androgen = "on"
+right_alpha2 = "off"
+hypoxia = "no_control"
+right_love = "on"
+vasopressin_female = "on"
+male_oxytocin = "off"
+male_left_5ht = "no_control"
+female_left_noradrenaline = "no_control"
+gdh_gluon = "no_control"
+female_gaba_b_latdorsi = "off"
+left_estrogen = "on"
+right_estrogen = "no_control"

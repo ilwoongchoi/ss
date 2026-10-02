@@ -1,0 +1,232 @@
+{
+  "O2": {
+    "region": "East Asia (Korea/Japan/China)",
+    "geology": "Granite terrain, Fe-poor, stable CO2 weathering",
+    "soil_type": "ultisol/alfisol (weathered, leached)",
+    "resonance_chain": [
+      {
+        "geo_node": "granite_bedrock",
+        "circuit_node": "steel",
+        "dimension": "s/gamma",
+        "effect": "absent → no self-generation"
+      },
+      {
+        "geo_node": "fe_poor_soil",
+        "circuit_node": "heme",
+        "dimension": "d/s",
+        "effect": "homeostasis lock → void accumulation"
+      },
+      {
+        "geo_node": "co2_weathering_stable",
+        "circuit_node": "co2",
+        "dimension": "p",
+        "effect": "low stability → pattern drift"
+      },
+      {
+        "geo_node": "monsoon_clay",
+        "circuit_node": "clay_gouge",
+        "dimension": "g",
+        "effect": "false seal → no real binding"
+      },
+      {
+        "geo_node": "continental_craton",
+        "circuit_node": "gluon_orogen.q_bar",
+        "dimension": "nu/p",
+        "effect": "social-lock → observer fixation"
+      }
+    ]
+  },
+  "R1b": {
+    "region": "Western Europe",
+    "geology": "Iron-rich deposits, limestone, sulfide minerals",
+    "soil_type": "rendzina/chernozem",
+    "resonance_chain": [
+      {
+        "geo_node": "iron_ore_deposits",
+        "circuit_node": "ferritin",
+        "dimension": "nu/d",
+        "effect": "overload → heavy mass, oxidative stress"
+      },
+      {
+        "geo_node": "sulfide_minerals",
+        "circuit_node": "cysteine",
+        "dimension": "h",
+        "effect": "deficiency → GSH weak → harmonic thinning"
+      },
+      {
+        "geo_node": "limestone_karst",
+        "circuit_node": "caco3",
+        "dimension": "g",
+        "effect": "carbonate buffering → moderate binding"
+      },
+      {
+        "geo_node": "magnetic_anomaly",
+        "circuit_node": "magnetite",
+        "dimension": "gamma",
+        "effect": "high → spatial expansion"
+      }
+    ]
+  },
+  "E1b1b": {
+    "region": "North Africa / Mediterranean",
+    "geology": "Volcanic andosol, Mn-rich, rift valley",
+    "soil_type": "andosol/cambisol",
+    "resonance_chain": [
+      {
+        "geo_node": "rift_plume",
+        "circuit_node": "plume",
+        "dimension": "nu/gamma",
+        "effect": "mantle energy → creative depth"
+      },
+      {
+        "geo_node": "volcanic_andosol",
+        "circuit_node": "mycorradicin",
+        "dimension": "g",
+        "effect": "symbiosis → binding"
+      },
+      {
+        "geo_node": "mn_nodules",
+        "circuit_node": "manganese_oxygen_complex",
+        "dimension": "r/d",
+        "effect": "Mn-O → oxidative tempo"
+      },
+      {
+        "geo_node": "magnetite_deposits",
+        "circuit_node": "magnetite",
+        "dimension": "s/gamma",
+        "effect": "high → brightness + expansion"
+      }
+    ]
+  },
+  "Q": {
+    "region": "Andes / Americas",
+    "geology": "Subduction zone, fold belt, high altitude",
+    "soil_type": "andisol (volcanic ash)",
+    "resonance_chain": [
+      {
+        "geo_node": "subduction_zone",
+        "circuit_node": "subduction_zone",
+        "dimension": "d",
+        "effect": "compression → dissonance"
+      },
+      {
+        "geo_node": "fold_belt_mountain",
+        "circuit_node": "fold_belt",
+        "dimension": "r/gamma",
+        "effect": "tension → tempo + spatial"
+      },
+      {
+        "geo_node": "high_altitude",
+        "circuit_node": "actomyosin",
+        "dimension": "r",
+        "effect": "hypoxic load → constant tempo"
+      },
+      {
+        "geo_node": "glacial_melt",
+        "circuit_node": "lactate_dehydrogenase",
+        "dimension": "d",
+        "effect": "lactate → stress dissonance"
+      }
+    ]
+  },
+  "J": {
+    "region": "Mediterranean / Middle East",
+    "geology": "Magnetic anomaly, maritime, tectonic junction",
+    "soil_type": "terra rossa / rendzina",
+    "resonance_chain": [
+      {
+        "geo_node": "magnetic_anomaly",
+        "circuit_node": "magnetite",
+        "dimension": "gamma",
+        "effect": "anomaly → spatial expansion"
+      },
+      {
+        "geo_node": "maritime_air",
+        "circuit_node": "right_acetylcholine",
+        "dimension": "r",
+        "effect": "Ach sensitivity → tempo"
+      },
+      {
+        "geo_node": "salt_evaporation",
+        "circuit_node": "chlorine_ion_pump",
+        "dimension": "d/h",
+        "effect": "Cl- pump → dissonance/harmonic"
+      }
+    ]
+  },
+  "I1": {
+    "region": "Scandinavia / Northern Europe",
+    "geology": "Glacial shield, low-energy",
+    "soil_type": "podzol (acidic, leached)",
+    "resonance_chain": [
+      {
+        "geo_node": "glacial_shield",
+        "circuit_node": "observer_leftd2",
+        "dimension": "r",
+        "effect": "DA stillness → low tempo"
+      },
+      {
+        "geo_node": "cold_low_energy",
+        "circuit_node": "heme",
+        "dimension": "d",
+        "effect": "cold → reduced dissonance"
+      },
+      {
+        "geo_node": "baltic_clay",
+        "circuit_node": "clay_gouge",
+        "dimension": "g",
+        "effect": "seal → binding"
+      }
+    ]
+  },
+  "N1c": {
+    "region": "Siberia / Uralic",
+    "geology": "Permafrost, waterlogged taiga",
+    "soil_type": "gleysol (waterlogged)",
+    "resonance_chain": [
+      {
+        "geo_node": "permafrost",
+        "circuit_node": "water",
+        "dimension": "r",
+        "effect": "frozen → minimal tempo"
+      },
+      {
+        "geo_node": "waterlogged_terrain",
+        "circuit_node": "clay_gouge",
+        "dimension": "g",
+        "effect": "over-sealed → max binding"
+      },
+      {
+        "geo_node": "taiga_ice",
+        "circuit_node": "glymphatic_system",
+        "dimension": "g/nu",
+        "effect": "stall → binding + fractal"
+      }
+    ]
+  },
+  "C": {
+    "region": "Polynesia / Pacific Islands",
+    "geology": "Hotspot islands, basaltic",
+    "soil_type": "andisol (volcanic ash)",
+    "resonance_chain": [
+      {
+        "geo_node": "hotspot_LIP",
+        "circuit_node": "large_igneous_province",
+        "dimension": "h",
+        "effect": "rich harmonics"
+      },
+      {
+        "geo_node": "anthocyanin_plants",
+        "circuit_node": "peonidine",
+        "dimension": "h/s",
+        "effect": "antioxidant → harmonic/brightness"
+      },
+      {
+        "geo_node": "island_isolation",
+        "circuit_node": "glp1",
+        "dimension": "r",
+        "effect": "thrifty genotype → slow tempo"
+      }
+    ]
+  }
+}

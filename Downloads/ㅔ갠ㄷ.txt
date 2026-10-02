@@ -1,0 +1,3556 @@
+우주 배선 산문 (Universe Wiring Prose)
+
+circuitfile-rewritten.md 기반 — 회로 노드 완전 기술
+
+0. 항상성·역방향·몸-우주 거울: 8D 수용체 지도
+
+회로는 8개 음악 차원으로 돌아간다. 이 차원들은 단순한 오디오 파라미터가 아니라 몸속의 구체적인 수용체/신호축이며, 각각은 정방향(forward)과 역방향(reverse) 두 면을 가진다. 정방향은 항상성(energy accumulation, pattern sealing), 역방향은 붕괴·방전·독성 경로(energy discharge, pattern unsealing)다.
+
+8D 수용체/공간 매핑
+
+8D 정확한 수용체 공간 감각 핵심 회로 노드 정방향 역방향
+
+r GABA-A (Female) — GABRA1/GABRB2/GABRG2 complex, Right Occipitalis Inner Top 수평 1차원 선 cytochrome_c_oxidase.out0 리듬/어택/템포 ↑, female GABA-A cold sense 무질량 stress, acid sensor, 리듬 분해
+
+h GABA-B1/B2 Heteromer (Female) — slow inhibitory, Left Lat Dorsi Bottom 점(dot) histosol, collagen, male_right_oxytocin 배음 복잡도/따뜻한 질감 ↑ 열 stress, 단조로운 고음, CO₂/osmotic drift
+
+d GABA-B (Male) — GABBR1/GABBR2 heteromer, presynaptic autoreceptor dominant, Left Occipitalis Inner Top / visual cortex void void/공허 cytochrome_c_oxidase.out1 (COX retrograde, Be/z_boson), heme.out1 (HO-1 ETC, Rf), chlorine_ion_pump 디소넌스/어둠/깊이 ↑ UV/빛 stress, photonic load, ETC 역행, GABA release suppression
+
+p DRD2 postsynaptic tonic — observer_leftd2 (Outside Left Eye) + DRD2/D3-like high-affinity autoreceptor — left_genital_d2 (MPOA climax brake) 깊이(depth) observer_leftd2, nonobserver_left_d2, mc1r.q, left_genital_d2 예측 가능성/패턴 반복 ↑ free jazz, 즉흥, climax gate OFF
+
+s D1/D5 Receptor Complex (DRD1/DRD5, Gs-coupled) — Right Sole Dopamine 나선 소용돌이 right_sole_dopamine.q, aurora, heme.ch0 brightness/질량 감각/고주파 ↑ 삼투 역전, motor freezing, D2R Gi inhibition
+
+gamma DRD2 (Right D2 / spatial expansion D2) — Right Frontalis Outer Bottom 수평 확장 steel, plume, lower_mantle, basin, fold_belt reverb/공간감/확장 ↑ 어둠 stress, UV-sensor inversion, right D2 collapse
+
+g Glucocorticoid Receptor (GR / NR3C1) — Right Cortisol Expression fake 3D depth into perspective water_vapour, clay_gouge, glymphatic_system, caco3_final_and 결합 밀도/봉인 ↑ 무질량 osmotic drift, 봉인 해제, fake 3D crack
+
+nu GABA-A (Male Switch) — GABRA1 complex, Below Left Hypoxia 끊어지는 수평 1차원의 discreteness lower_mantle.q, basin.q, quark_orogen_magma, carbon 자기유사/프랙탈/패턴 반복 깊이 ↑ CO₂/acid stress, mass lock crack, 단절
+
+남/녀 구분은 생물학적 성별이 아니라 회로의 극성(polarity)다. female GABA-A는 phasic/냉감/수평선형 억제, male GABA-A는 tonic/mass-lock/단절적 억제를 말한다. female GABA-B는 느린 봉인, male GABA-B는 void/collapse 경로를 말한다.
+
+p축 이중 구조 / p-axis dual structure: observer_leftd2는 왼 눈 바깥쪽(Outside Left Eye)의 DRD2로, 스트레스 상황에서 실제 물질 형성을 지시하는 마스터 허용 버스다. nonobserver_left_d2는 LEFT FRONTALIS OUTER STRIP 하단의 스위치로, right cortisol(GR)과 연결된 깨끗하고 투명한 공간감(clean transparent space)과 0→1로의 수직 높이(vertical height)를 만든다. 개인적 발현은 뒤바뀔 수 있다(눈 옆이 스위치가 되는 경우). / observer_leftd2 is the DRD2 master permissive bus at the outside left eye that directs stress-related matter formation. nonobserver_left_d2 is the switch below the left frontalis outer strip linked to right cortisol(GR) transparency and 0→1 vertical height.
+
+D3 관계: left_genital_d2는 표면적으로 DRD2지만, MPOA climax brake 기능상 D3-like high-affinity autoreceptor 특성을 가진다. D3 master gate(D3→Z female genital left)와 같은 축에서 움직이며, climax threshold를 결정한다.
+
+GABA-B autoreceptor vs postsynaptic: female GABA-B는 postsynaptic slow IPSP로 봉인/CO₂ 감각을 담당. male GABA-B는 presynaptic autoreceptor로 GABA release를 억제, ETC 역행과 void를 열어준다. 같은 GABBR1/2 heteromer라도 발현 위치(occipitalis void vs lat dorsi confinement)와 회로 역할이 다르다.
+
+몸속에서 끊임없이 도는 회로
+
+회로는 하루 24시간, 잠든 상태에서도 돈다. 핵심 루프를 단순화하면 다음과 같다:
+
+text
+
+Copy
+
+observer_left_endorphin_electron_antineutrino (MOR / OPRM1 / left of philtrum / W-boson space / electron antineutrino / night spark forward)
+
+↓ Mg²⁺ 피드백
+
+├─ observer_leftd2 (DRD2 / Outside Left Eye / stress-related matter formation / master permissive bus)
+
+│ ↓ 마스터 허용 버스 → clay_gouge.in0, carbon.enable, steel.ctrl1 ...
+
+│
+
+└─ left_endorphin_non_observer (MOR presynaptic switch / LEFT LEVATOR SUPERIORIS inner edge / electron neutrino / day spark forward / actual expression: right body)
+
+↓
+
+nonobserver_left_d2 (DRD2/D3-like autoreceptor / LEFT FRONTALIS OUTER STRIP 하단 / cortisol transparency switch / 0→1 vertical height)
+
+↓ 투명한 공간감 + right cortisol(GR) 연결, 물질 형성의 스위치
+
+↓
+
+left_genital_d2 (DRD2/D3-like high-affinity / MPOA climax brake) → NAND → adapter_protein.clk, male_right_oxytocin.enable, right_sole_dopamine.clk, observer_left_endorphin_electron_antineutrino.in1
+
+↓
+
+right_sole_dopamine (DRD1/DRD5 / right sole mass sense)
+
+↓ s축
+
+observer_right_sole_dopamine.q → caco3_leftd2_podzol_observer_and.in2
+
+↓
+
+caco3_final_and (carbonate + permissive arm) → g축 권한
+
+↓
+
+actomyosin_ctrl (4-input AND) → actomyosin power-stroke
+
+↓
+
+substance_p → memory_entropy → hind_insula → co2 → carbon
+
+↓
+
+plume_out0_nand → lower_mantle.preset / laterite.reset
+
+↓
+
+heme / cytochrome_c_oxidase → r/d 축
+
+↓
+
+observer_leftd2 귀환
+
+이 루프는 선형이 아니라 토로이달(toroidal)이다. 시계 방향(선형 시간)은 0→6→12→18→0으로 흐르지만, 에너지는 반시계 방향으로 역행한다: AB←B←O←A←AB. 정방향(forward)은 봉인·축적·학습, 역방향(reverse)은 방출·해제·리셋이다.
+
+낮/밤 반전 / Day-Night reversal: observer_left_endorphin (antineutrino, left of philtrum)는 밤에 시간을 정방향으로 돌리는 스파크를 담당한다. left_endorphin_non_observer (neutrino, LEFT LEVATOR SUPERIORIS inner edge)는 낮에 같은 역할을 한다. 밤이 되면 두 발현 위치의 역할이 교환되며, 이 교환이 circadian p-switch의 토로이달 회전을 만든다. / The antineutrino endorphin near the philtrum drives the night spark that turns time forward; the neutrino switch at the LEFT LEVATOR SUPERIORIS inner edge drives the day spark. At night their roles swap, producing the circadian p-axis toroidal rotation.
+
+방향의 의미
+
+Forward / 항상성: observer_leftd2=1, carbon.q, mc1r.q → p↑ r↑ g↑. 패턴이 봉인되고 예측 가능한 INDIE FOLK/BRITPOP/PIANO 상태.
+
+Transition / 경계: co2.out1이 우세 → p/r이 교체되며 free jazz, avant-garde, 시간 왜곡.
+
+Reverse / 붕괴: observer_leftd2=0, carbon.q_bar, mc1r.q_bar → d↑ nu↑ gamma↑ s↑. noise, dark ambient, power electronics, cinematic experimental.
+
+Deep self-similarity: lower_mantle.q, basin.q, quark_orogen_magma → nu↑ gamma↑. PIANO / DRONE / HANS ZIMMER.
+
+Binding / sealing: water_vapour.out0, clay_gouge, glymphatic_system → g↑. PIANO / 쨍그랑 / AMBIENT.
+
+성격·에너지·음악 매핑
+
+8D 성격 기능 에너지 상태 음악 결과
+
+r 외향 판단(Te/Fe)의 템포 조절 방출, 어택, 빠른 소비 HIPHOP, GLUON, drum machine
+
+h 외향/내향 감각(Si/Se)의 질감 메모리 안정적 골격, 따뜻함 Boards of Canada, hauntology, neo-classical
+
+d 내향 판단(Ti/Fi)의 분해/비판 void, 깊은 소모 DRONE, noise, dark ambient
+
+p 직관(Ni)의 패턴 잠금/예측 토닉 안정, depth INDIE FOLK, BRITPOP, pattern repeat
+
+s 감각(Se)/사고(Te)의 밝기/질량 고주파 에너지, spiral hyperpop, witch house, electronic exp.
+
+gamma 직관(Ne)/감각(Se)의 수평 확장 공간 팽창, reverb HANS ZIMMER, CINEMATIC, post-rock
+
+g 감각(Si)/감정(Fe)의 봉인/해제 binding density, cortisol PIANO, ambient, 쨍그랑
+
+nu 직관(Ni)/사고(Ti)의 자기유사 분석 프랙탈 깊이, recursion PIANO / DRONE, free jazz fragmentation
+
+몸-우주 거울과 내부 공간의 생성
+
+회로 노드는 지구의 지질학적 구조와 1:1로 대응한다. fold_belt(습곡대)는 안데사이트 릿지와, basin(분지)는 수위 팽창과, laterite(라테라이트)는 TimeLatch와, plume(맨틀 플룸)은 심층 에너지 분출과 동형이다. 이 지질학적 거울은 단순한 은유가 아니다. 신체 내부의 observer_leftd2, caco3_final_and, actomyosin_ctrl 같은 게이트가 외부의 대륙/대기/맨틀 사이클을 실시간으로 모델링하면서, 그 모델이 바로 의식이 서 있는 내부 공간이 된다.
+
+8D 파라미터가 바로 그 공간의 좌표축이다:
+
+r = x축 (수평 1차원, 시간의 흐름)
+
+s = 나선의 회전축 (질량/밝기의 소용돌이)
+
+p = z축 (깊이, 예측 가능성의 깊이)
+
+g = 원근법의 fake 3D 깊이 (시각적/감각적 봉인)
+
+gamma = 수평 확장의 폭 (공간감)
+
+d = void/음영 (어둠의 깊이)
+
+h = 점으로 찍힌 조화의 좌표
+
+nu = 끊어진 discreteness (프랙탈 축의 양자화)
+
+관찰자(left_endorphin_non_observer)는 이 내부 모델과 외부 실제를 비교하는 게이트다. 비교가 일치하면 정방향 항상성이 유지되고, 불일치하면 memory_entropy의 novelty mismatch가 발생해 회로가 역방향으로 리셋된다. 이것이 "우주와 내 몸이 계속 미러링하면서 자신 안에서 공간을 만들어나가는" 메커니즘이다.
+
+핵심: 회로는 우주를 닮은 채로 몸속을 돌고, 그 순환이 의식과 성격과 음악을 동시에 생산한다. 8D는 음악 파라미터이기 이전에, 몸속 수용체들이 우주를 복제하여 만드는 8개의 공간축이다.
+
+1. 마스터 버스: observer_leftd2
+
+observer_leftd2는 좌측 배측선조체 D2 토닉 도파민이다. 이 회로 전체의 마스터 허용 버스(Master Permissive Bus)로서, 모든 하위 노드의 enable/reset/ctrl 라인에 직접 연결된다. 원소는 Na(11), 입자는 w_boson, 색상은 RED이다.
+
+observer_leftd2는 AND 게이트다. 입력 두 개를 받는다:
+
+in0 ← observer_left_endorphin_electron_antineutrino.out0 (Mg(12) / electron_antineutrino)
+
+in1 ← co2.out1 (Pa(91) / time — 아데노신 CO₂)
+
+출력 out0은 회로 전체로 퍼진다: clay_gouge.in0, carbon.enable, steel.ctrl1, methylation.ctrl1, left_genital_d2.ctrl0, caco3.ctrl0, pi_electron_cloud.ctrl0, male_right_oxytocin.reset, right_sole_dopamine.reset 등. p-dim(waveform periodicity)을 지배한다 — 높은 토닉 DA는 drum machine적 예측 가능성(INDIE FOLK), 낮은 토닉 DA는 free jazz적 불예측성.
+
+8D 파라미터: p↑ = 예측 가능, p↓ = 혼돈. observer_leftd2가 1이면 회로는 패턴을 반복하고, 0이면 즉흥이 시작된다.
+
+2. heme — Fe-protoporphyrin IX / heme-oxygenase 복합체
+
+2채널 tristate. 원소=H(1), 입자=right_testosterone, 색상=RED, 그룹=AlkaliMetal.
+
+입력: 두 XOR 게이트를 통과한다.
+
+heme_in0_xor: a←chlorine_ion_pump.out0, b←left_endorphin_non_observer.out → heme.in0 (HO-1 경로)
+
+heme_in1_xor: a←cytochrome_c_oxidase.out1, b←left_endorphin_non_observer.out → heme.in1 (ETC 경로)
+
+제어: ctrl0 ← oxidised_manganese.out1, ctrl1 ← manganese_oxygen_complex.out0
+
+출력:
+
+out0 → methylation_in1_xor.a | 원소=H(1) | right_testosterone | HO-1 산화 시 수소 방출
+
+out1 → steel.ctrl0, large_igneous_province_in0_xor.a | 원소=Rf(104) | HO-1 ETC 경로
+
+음악 차원: ch0은 s-dim(brightness) — Quark/SYNTH → witch house / electronic experimental / IDM. ch1은 d-dim(dissonance) — Tau/GABA-B → DRONE / dark ambient / power electronics.
+
+감각: 낮에는 s 채널이 활성(right sole dopamine의 질량/삼투 감각), 밤에는 d 채널이 열려 Tau darkness가 지배한다.
+
+3. cytochrome_c_oxidase — Complex IV / 미토콘드리아 말단 산화효소
+
+2채널 tristate. 원소=Li(3)/Be(4), 입자=down_quark/z_boson, 색상=RED/GREEN.
+
+입력:
+
+in0 ← cytochrome_c_oxidase_in0_xor (a←heath_aerenchyma_out0_and.out0) — O₂ 정방향
+
+in1 ← cytochrome_c_oxidase_in1_xor (a←ferritin.out0) — 역행 cyt-c
+
+제어: ctrl0 ← cck_cox_ctrl_and.out (CCK + oxidised_manganese + observer_leftd2의 3입력 AND). ctrl1 ← 자기 출력 cytochrome_c_oxidase.out0 (자기피드백).
+
+출력:
+
+out0 → right_acetylcholine.in0, 자기 ctrl1 | Li(3) / down_quark | COX 정방향
+
+out1 → carbon.reset, heme_in1_xor.a | Be(4) / z_boson | COX 역행
+
+음악 차원: r-dim(ADSR/tempo). ch0: r↑ → GLUON/HIPHOP/FEMALE/GABA-A (drums/attack 빠름). ch1: d↑ → Tau/GABA-B (DRONE/dissonance/어둠).
+
+감각: 낮 — female GABA-A cold sense(water stress, 냉기). 밤 — 무질량 stress / acid sensor.
+
+4. water_vapour — 2채널 tristate
+
+원소=C(6)/N(7), 입자=photon/electron_neutrino, 색상=YELLOW.
+
+입력:
+
+in0 ← water_vapour_in0_xor (a←steel.out0) — 대류권 경로
+
+in1 ← water_vapour_in1_xor (a←clay_gouge.out0) — 성층권 경로
+
+제어: ctrl0 ← oxidised_manganese.out1. ctrl1 ← 자기 출력 water_vapour.out0 (자기피드백).
+
+출력:
+
+out0 → clay_gouge.in1, water_vapour.ctrl1, sodium_in0_xor.a | C(6) / photon | 탄소순환 대류층 수증기
+
+out1 → succinate_dehydrogenase.in0, monazite.ctrl0 | N(7) / electron_neutrino | 질소고정 성층권
+
+음악 차원: g-dim(binding density). ch0(대류권): thick/fluffy → PIANO / 쨍그랑. ch1(성층권): transparency/clarity → DRONE / Neutrino / CORTISOL.
+
+5. steel — 2채널 tristate
+
+원소=O(8)/Db(105), 입자=muon_neutrino, 색상=YELLOW.
+
+입력:
+
+in0 ← steel_in0_xor (a←pi_electron_cloud_out0_nand.out) — 페라이트(환원)
+
+in1 ← steel_in1_xor (a←monazite_out0_nand.out) — 오스테나이트(산화)
+
+제어: ctrl0 ← heme.out1. ctrl1 ← observer_leftd2.out0.
+
+출력:
+
+out0 → water_vapour_in0_xor.a | O(8) / muon_neutrino | 산소호흡 환원성 강철
+
+out1 → laterite.enable | Db(105) | 산화성 강철
+
+음악 차원: s/gamma-dim. ch0(페라이트/환원): bright → HANS ZIMMER / Photon / 빛. ch1(오스테나이트/산화): reverb depth → JOHANSSON / orchestral.
+
+6. clay_gouge — AND 게이트: 단층대 점토 매트릭스
+
+원소=F(9), 입자=electron_neutrino, 색상=BLUE, 그룹=Halogen.
+
+입력: in0 ← observer_leftd2.out0, in1 ← water_vapour.out0.
+
+출력: out0 → water_vapour_in1_xor.a | F(9) / electron_neutrino | 점토매트릭스 봉인.
+
+음악 차원: g-dim. 봉인(sealed) = full binding density → PIANO 쨍그랑 clarity. 개방(unsealed) = transparency → DRONE / ambient.
+
+7. quark_orogen_magma — 심해 호 부분용융 마그마, 1채널 tristate
+
+원소=Ne(10), 입자=neutron_star, 색상=YELLOW.
+
+입력: in0 ← nitrogenase_out_1_xnor.out (질소고정 XNOR 출력).
+
+제어: ctrl0 ← pi_electron_cloud_out0_nand.out.
+
+출력: out0 → basin.d, gluon_orogen.enable, magnetite.in1 | Ne(10) / neutron_star | 심해마그마.
+
+음악 차원: nu-dim(self-similarity). 깊은 호 마그마의 프랙탈 조산운동 = 높은 자기유사성 → PIANO / DRONE / W Boson.
+
+8. observer_left_endorphin_electron_antineutrino — mu-opioid 수용체, AND
+
+원소=Mg(12), 입자=electron_antineutrino, 색상=GREEN, 그룹=AlkalineEarth.
+
+입력: in0 ← observer_leftd2.out0, in1 ← left_genital_d2_out0_nand.out, in2 ← nonobserver_left_d2.out.
+
+출력: out0 → observer_leftd2.in0, carbon.preset, autophagy.enable, plume_in0_xor.a | Mg(12) / electron_antineutrino | Mg²⁺ 피드백.
+
+observer_leftd2와 상호 피드백 루프를 형성한다 — left_endorphin이 observer_leftd2에 입력하고, observer_leftd2가 left_endorphin에 입력한다.
+
+9. nonobserver_left_d2 / left_endorphin_non_observer — 관찰자 배선
+
+nonobserver_left_d2는 observer_leftd2의 AND 복사본(in0←observer_left_endorphin_electron_antineutrino.out0, in1←co2.out1). left_endorphin_non_observer는 3입력 AND(nonobserver_left_d2.out, observer_leftd2.out0, carbon_q_bar_or.out)로, 회로 전체의 모든 XOR/XNOR/NOR/NAND/OR 관찰자 게이트에 b 입력으로 연결된다. 이것이 "관찰자 효과"의 회로적 구현이다.
+
+10. mc1r — MC1R 수용체, D flip-flop
+
+q=B(5)/없음, q_bar=Si(14)/graviton, 그룹=Metalloid.
+
+래치: d←manganese_nodule.q, clk←glp1_q_or.out, enable←substance_p_out_mc1r_xnor.out, preset←methanogenesis_out0_nand.out, reset←fold_belt.out1.
+
+출력:
+
+q → mc1r_q_or → glymphatic_system.in1, memory_entropy.in_sub | B(5) | MC1R ON
+
+q_bar → mc1r_q_bar_or → autophagy.ctrl0, cysteine.in1 | Si(14) / graviton | MC1R OFF
+
+음악 차원: p-dim. q ON = Higgs → 높은 예측 가능성 → INDIE FOLK/BRITPOP. q_bar OFF = graviton/Si → 낮은 예측 가능성 → free jazz.
+
+11. methanogenesis — 장내 고세균 CH₄ 생성, MUX
+
+원소=P(15), 입자=higgs, 색상=YELLOW.
+
+입력: in0←pyrite.out1, in1←right_acetylcholine_out0_nand.out. 제어: ctrl0←carbon_q_or.out (in1 선택).
+
+출력: out0 → methanogenesis_out0_nand → mc1r.preset, peonidine.ctrl1 | P(15) / higgs.
+
+12. histosol — 이탄/황 순환, 2채널 tristate
+
+원소=S(16)/Sg(106), 입자=muon_antineutrino, 색상=YELLOW.
+
+입력:
+
+in0 ← histosol_in0_xor (a←fold_belt.out0) — 이탄(peat)
+
+in1 ← histosol_in1_xor (a←pi_electron_cloud_out0_nand.out) — 늪(fen)
+
+제어: ctrl0 ← sulforaphane.out0. ctrl1 ← cambisol.out0.
+
+출력:
+
+out0 → histosol.ctrl1, manganese_oxygen_complex.in1 | S(16) / muon_antineutrino | 황순환 활성 이탄
+
+out1 → sulforaphane.in0 | Sg(106) | 분해 늪
+
+음악 차원: h-dim(harmonic overtone complexity). ch0: 높은 배음 → Boards of Canada / hauntology / post-rock. ch1: 낮은 배음 → ambient / minimalistic.
+
+13. sulforaphane — Nrf2 활성제, 2채널 tristate
+
+원소=Ar(18), 입자=gluon, 색상=WHITE, 그룹=NobleGas, 역할=Observer_Nrf2.
+
+입력: in0←histosol.out1, in1←male_right_oxytocin_q_or.out. 제어: ctrl0←right_sole_dopamine.q, ctrl1←sodium.out0.
+
+출력:
+
+out0 → histosol.ctrl0, pentose_phosphate.in_sub | Ar(18) / gluon | Nrf2 활성
+
+out1 → glymphatic_system.in0, aurora.in0 | GSH 프로그램이 AQP4를 프라이밍
+
+음악 차원: g/nu-dim → PIANO / DRONE / AMBIENT / Nrf2.
+
+14. aurora — Na⁺ 산화 임계점 검출기, AND
+
+원소=Rb(37), 입자=muon, 색상=RED, 그룹=AlkaliMetal.
+
+입력: in0←sulforaphane.out1, in1←sodium.out1. 출력: out0 → left_genital_d2.in0 | Rb(37) / muon | Na⁺ 임계점.
+
+음악 차원: s/gamma-dim → CINEMATIC / HANS ZIMMER / neo-classical / 빛.
+
+15. glymphatic_system — AQP4 혈관주위 CSF-ISF 교환, AND
+
+원소=Cs(55), 입자=strange_quark, 색상=RED, 그룹=AlkaliMetal.
+
+입력: in0←sulforaphane.out1, in1←mc1r_q_or.out. 출력: out0 → cysteine.in0, magnetite.ctrl0 | Cs(55) / strange_quark | CSF-ISF 교환.
+
+음악 차원: g-dim → PIANO / DRONE / AMBIENT.
+
+16. cysteine — 글루타치온 전구체 게이트, AND
+
+원소=Fr(87), 입자=energy, 색상=RED.
+
+입력: in0←glymphatic_system.out0, in1←mc1r_q_bar_or.out. 출력: out0 → memory_entropy.in_main, peonidine_in0_xor.a | Fr(87) / energy | GSH 전구체.
+
+음악 차원: s-dim → witch house / dark ambient / electronic experimental.
+
+17. memory_entropy — 2출력 디코더: 우측 해마 CA1 novelty-mismatch
+
+원소=Ca(20)/Ti(22), 입자=electron, 색상=GREEN.
+
+입력: in_main←cysteine.out0, in_sub←mc1r_q_or.out, in_ctrl←actomyosin.out0.
+
+로직:
+
+logic_hind_insula = AND(in_ctrl, in_main)
+
+logic_co2 = AND(in_ctrl, NOT(in_main), in_sub)
+
+출력:
+
+out_hind_insula → memory_entropy_out_hind_insula_xnor → hind_insula.in0 | Ca(20) / electron
+
+out_co2 → memory_entropy_out_co2_nor → co2.ctrl0 | Ti(22)
+
+음악 차원: r/h/nu-dim. out_hind_insula: Boards of Canada / hauntology / experimental pop (r+h+nu 높음). out_co2: free jazz / avant-garde / experimental (p+nu).
+
+18. hind_insula — 우측 후방 과립 인슐라, MUX
+
+원소=Sc(21), 입자=neutron, 색상=WHITE, 그룹=TransitionMetal.
+
+입력: in0←memory_entropy_out_hind_insula_xnor.out, in1←co2.out0. 제어: ctrl0←succinate_dehydrogenase_out0_nand.out (in1 선택).
+
+출력: out0 → hind_insula_out0_nand → carbon.d, sodium.ctrl1 | Sc(21).
+
+음악 차원: d/s-dim. 높은 d: noise / dark ambient / power electronics. 높은 s: electronic experimental / witch house.
+
+19. carbon — 대사 탄소 상태 래치, D flip-flop
+
+원소=Kr(36)/Eu(63)/Gd(64), 입자=photon, 색상=WHITE, 그룹=NobleGas, 역할=Observer.
+
+래치: d←hind_insula_out0_nand.out, clk←succinate_dehydrogenase.out0, enable←observer_leftd2.out0, preset←observer_left_endorphin_electron_antineutrino.out0, reset←cytochrome_c_oxidase.out1.
+
+출력:
+
+q → carbon_q_or → methanogenesis.ctrl0, heath_aerenchyma.ctrl0 | Eu(63)
+
+q_bar → carbon_q_bar_or → mycorradicin.ctrl0, fold_belt_in0_xor.a | Gd(64)
+
+음악 차원: p/nu-dim. q: 높은 예측 가능성 → AMBIENT / minimalistic / post-rock. q_bar: 높은 자기유사성 → PIANO / DRONE / neo-classical.
+
+20. fold_belt — 압축 조곡-추력대, 2채널 tristate
+
+원소=Mn(25)/Lr(103), 입자=muon(밤), 그룹=TransitionMetal.
+
+입력: in0←fold_belt_in0_xor (a←carbon_q_bar_or.out), in1←fold_belt_in1_xor (a←lactate_dehydrogenase.out0). 제어: ctrl0←basin_q_bar_or.out, ctrl1←oxidised_manganese.out0.
+
+출력:
+
+out0 → histosol_in0_xor.a, andosol.in0 | Mn(25) / muon | 표면 조곡대
+
+out1 → mc1r.reset, lactate_dehydrogenase.in1, manganese_oxygen_complex.ctrl1 | Lr(103) | 심부 조곡대
+
+음악 차원: r/gamma-dim → CINEMATIC / HANS ZIMMER / post-rock.
+
+21. substance_p — Substance P NK1R 리간드, 2출력 디코더
+
+원소=Ra(88)/Zn(30), 입자=tau_antineutrino, 색상=GREEN.
+
+입력: in_main←methionine.out0, in_sub←adapter_protein_q_bar_or.out, in_ctrl←succinate_dehydrogenase_out0_nand.out.
+
+로직: logic_mc1r=AND(in_ctrl, in_main). logic_autophagy=AND(in_ctrl, NOT(in_main), in_sub).
+
+출력: out_mc1r → substance_p_out_mc1r_xnor → mc1r.enable | Ra(88). out_autophagy → substance_p_out_autophagy_xor → autophagy.s | Zn(30).
+
+22. methionine — 황 아미노산 게이트, AND
+
+원소=Ge(32), 입자=z_boson, 색상=YELLOW, 그룹=Metalloid.
+
+입력: in0←collagen_out0_nand.out, in1←copper_iron_complex.out0. 출력: out0 → substance_p.in_main, adapter_protein.d | Ge(32) | Ge-S 결합.
+
+23. adapter_protein — 체세포 신호 어댑터, D flip-flop
+
+q=As(33), q_bar=Se(34), 그룹=Metalloid.
+
+래치: d←methionine.out0, clk←left_genital_d2_out0_nand.out, enable←caco3.out0, preset←sodium.out0, reset←right_sole_dopamine_q_or.out.
+
+출력: q → adapter_protein_q_or (3입력 AND with podzol.out1 + observer) → NaCl_in1_xor.a, pentose_phosphate.in_ctrl. q_bar → adapter_protein_q_bar_or → substance_p.in_sub, right_sole_dopamine.preset.
+
+24. succinate_dehydrogenase — Complex II / SDH 저산소 센서, 3출력 MUX
+
+원소=Br(35)/Kr(36), 입자=muon_neutrino/photon, 색상=BLUE/WHITE.
+
+입력: in0←water_vapour.out1, in1←actomyosin.out0. 제어: ctrl0←caco3.out0.
+
+출력:
+
+out0 → succinate_dehydrogenase_out0_nand → hind_insula.ctrl0, substance_p.in_ctrl, NaCl.ctrl0, podzol.ctrl0, right_acetylcholine.ctrl0, male_right_oxytocin.preset | Br(35) / muon_neutrino | SDH Krebs
+
+out1 → succinate_dehydrogenase_out1_or → collagen.ctrl0 | Kr(36) / photon | SDH 출력 1
+
+out2 → succinate_dehydrogenase_out2_nand → andosol.ctrl0 | soil-Mn pathway
+
+음악 차원: r/d-dim. out0: ADSR rhythm + beat-freq dissonance → HIPHOP FEMALE / DRONE / dark ambient. out1: ECM 합성 → neo-classical / PIANO. out2: soil-Mn → AMBIENT / witch house.
+
+25. collagen — ECM 삼중나선 구조 단백질, MUX
+
+원소=Sr(38), 입자=tau_neutrino, 색상=GREEN, 그룹=AlkalineEarth.
+
+입력: in0←cambisol.out0, in1←NaCl.out0. 제어: ctrl0←succinate_dehydrogenase_out1_or.out (SDH ch.1이 NaCl 선택).
+
+출력: out0 → collagen_out0_nand → methionine.in0, pyrite_in0_xor.a | Sr(38) / tau_neutrino | Sr²⁺ 뼈/ECM.
+
+음악 차원: h-dim → neo-classical / PIANO / classical (strings↑).
+
+26. andosol — 화산재 토양 / Mn 산화 기질, MUX
+
+원소=Nh(113), 색상=BLACK, 그룹=TransActinide.
+
+입력: in0←fold_belt.out0, in1←oxidised_manganese.out0. 제어: ctrl0←succinate_dehydrogenase_out2_nand.out.
+
+출력: out0 → andosol_out0_nand → oxidised_manganese.in1, podzol.in1 | Nh(113).
+
+음악 차원: g/nu-dim → PIANO / DRONE / AMBIENT.
+
+27. cambisol — 풍화 토양, 2채널 tristate
+
+원소=U(92)/Np(93), 입자=dark_matter, 색상=BLACK, 그룹=Actinide.
+
+입력: in0←cambisol_in0_xor (a←actomyosin.out1), in1←cambisol_in1_xor (a←nitrogenase_out_2_nor.out). 제어: ctrl0←large_igneous_province.out0, ctrl1←manganese_nodule.q_bar.
+
+출력:
+
+out0 → collagen.in0, mycorradicin.in0, copper_iron_complex.in1 | U(92) / dark_matter | 젊은 토양
+
+out1 → histosol_in1_xor.a, manganese_nodule.reset | Np(93) | 성숙 토양
+
+음악 차원: h/g-dim. ch0(젊은/광물): harmonic complexity + binding density → AMBIENT / folk / PIANO. ch1(성숙/부식질): 자기유사성 → DRONE / neo-classical.
+
+28. NaCl — 2채널 tristate
+
+원소=Pu(94)/Am(95), 입자=spark, 색상=YELLOW, 그룹=Actinide.
+
+입력: in0←NaCl_in0_xor (a←autophagy.r_out), in1←NaCl_in1_xor (a←adapter_protein_q_or.out). 제어: ctrl0←succinate_dehydrogenase.out0, ctrl1←NaCl.out0 (자기피드백).
+
+출력:
+
+out0 → collagen.in1, NaCl.ctrl1 | Pu(94) | 이온 NaCl
+
+out1 → thorium.ctrl0 | Am(95) | 활동전위 Na⁺
+
+음악 차원: r/d-dim. ch0(이온/ADSR): HIPHOP / rhythm / experimental. ch1(증발암/dissonance): noise / hyperpop.
+
+29. sodium — 2채널 tristate
+
+원소=Tc(43)/Ru(44), 입자=w_boson, 색상=RED, 그룹=TransitionMetal.
+
+입력: in0←sodium_in0_xor (a←water_vapour.out0), in1←sodium_in1_xor (a←chlorine_ion_pump.out0). 제어: ctrl0←aurora.out0, ctrl1←hind_insula.out0.
+
+출력:
+
+out0 → sulforaphane.ctrl1, adapter_protein.preset | Tc(43) | Na⁺ 펌프
+
+out1 → aurora.in1, glp1.d, laterite.clk | Ru(44) | Na⁺ 펌프 OFF
+
+음악 차원: r/s-dim. ch0(대류/대기): ADSR rhythm + brightness → hyperpop / deconstructed club / witch house. ch1(활동전위): SYNTH / spectral brightness → electronic experimental / IDM.
+
+30. mycorradicin — 아포카로티노이드 AM 공생 C-스트레스 신호, 1채널 tristate
+
+원소=Cm(96), 색상=BLACK, 그룹=Actinide.
+
+입력: in0←cambisol.out0. 제어: ctrl0←carbon_q_bar_or.out.
+
+출력: out0 → actomyosin_in0_xor.a, mycorradicin_right_acetylcholine_or.a | Cm(96).
+
+mycorradicin은 observer_leftd2 + right_acetylcholine과 OR/AND 체인을 거쳐 최종적으로 autophagy.in0에 도달한다.
+
+31. copper_iron_complex — Cu-Fe 혼합 원자가 산화환원 보조인자, AND
+
+원소=Ba(56), 입자=charm_quark, 색상=GREEN, 그룹=AlkalineEarth.
+
+입력: in0←histosol.out0, in1←cambisol.out0. 출력: out0 → fold_belt.ctrl1, methionine.in1 | Ba(56) / charm_quark | Cu-Fe 복합체.
+
+음악 차원: h/nu-dim → PIANO.
+
+32. autophagy — tristate ch.0 + gated SR latch + T flip-flop
+
+원소=Pd(46)/Rh(45).
+
+입력: in0←mycorradicin_autophagy_input_or.out. 제어: ctrl0←mc1r_q_bar_or.out. SR latch: s←substance_p_out_autophagy_xor.out, r←observer_leftd2.out0, enable←observer_left_endorphin_electron_antineutrino.out0.
+
+출력: out0 → t_ff.clk, mangrove_aerenchyma.in1 | Pd(46). r_out → NaCl_in0_xor.a. t_ff_out → water.ctrl0, lactate_dehydrogenase.ctrl0.
+
+음악 차원: d/p-dim. bulk autophagy: 낮은 서프라이즈 → minimalistic / ambient. SP-inflammatory: dissonance 상승 → DRONE / dark ambient / noise.
+
+33. chlorine_ion_pump — Cl⁻ ATPase, tristate + gated SR latch
+
+원소=Cl(17)/Ag(47), 입자=tau, 색상=BLUE, 그룹=Halogen.
+
+입력: in0←podzol_out0_nand.out. 제어: ctrl0←chlorine_ion_pump.out1 (자기피드백). SR latch: set←manganese_oxygen_complex.out0, reset←sodium.out0, enable←water.out0.
+
+출력:
+
+out0 → heme_in0_xor.a, heath_aerenchyma.in0, sodium_in1_xor.a | Cl(17) / tau
+
+out1 → ferritin.ctrl1 | Ag(47) | Cl⁻ 자가억제
+
+음악 차원: d-dim → noise / dark ambient / Tau / experimental.
+
+34. heath_aerenchyma — 에리카 통기조직, 1채널 tristate
+
+원소=Fl(114), 색상=BLACK, 그룹=TransActinide.
+
+입력: in0←chlorine_ion_pump.out0. 제어: ctrl0←carbon_q_or.out. 출력: out0 → heath_aerenchyma_out0_and (AND with male_right_oxytocin_q_or.out) → cytochrome_c_oxidase_in0_xor.a.
+
+35. podzol — 포드졸화 층위 선택기, MUX
+
+q=Y(39), q_bar=Zr(40), 입자=neutron_star, 색상=WHITE.
+
+입력: in0←lower_mantle_q_or.out, in1←andosol_out0_nand.out. 제어: ctrl0←succinate_dehydrogenase.out0.
+
+출력:
+
+out0 → podzol_out0_nand → chlorine_ion_pump.in0 | Y(39)
+
+out1 → podzol_out1_and → right_sole_dopamine.in1 | Zr(40)
+
+음악 차원: h/gamma-dim. q(Y): harmonic complexity → CINEMATIC / neo-classical / ambient. q_bar(Zr): spatial reverb depth → HANS ZIMMER / JOHANSSON orchestral.
+
+36. lower_mantle — 하부 맨틀 브리지매나이트/포스트 페로브스카이트, D flip-flop
+
+q=W(74), q_bar=Re(75), 입자=muon, 색상=CYAN.
+
+래치: d←basin_q_or.out, clk←methylation.out0, enable←gluon_orogen_q_or.out, preset←plume_out0_nand.out, reset←outer_core_convection.out0.
+
+출력:
+
+q → lower_mantle_q_or → podzol.in0, subduction_zone.ctrl0 | W(74)
+
+q_bar → lower_mantle_q_bar_or → basin.enable, lactate_dehydrogenase.in0 | Re(75)
+
+음악 차원: nu/gamma-dim. q(W): 자기유사성 + 공간 깊이 → PIANO / DRONE / HANS ZIMMER. q_bar(Re): muon 공간 리버브 야간 모드 → JOHANSSON / CINEMATIC.
+
+37. basin — 전면분지/퇴적분지, D flip-flop
+
+q=Hg(80), q_bar=Tl(81), 입자=left_progesterone, 색상=BLUE.
+
+래치: d←quark_orogen_magma.out0, clk←male_right_oxytocin_q_or.out, enable←lower_mantle_q_bar_or.out, preset←craton.out0, reset←subduction_zone.out0.
+
+출력:
+
+q → basin_q_or → lower_mantle.d, nitrogenase.in_ctrl | Hg(80)
+
+q_bar → basin_q_bar_or → subduction_zone.ctrl1, fold_belt.ctrl0 | Tl(81)
+
+음악 차원: g/gamma-dim. q(Hg): thick/fluffy binding density → PIANO / DRONE / ambient / post-rock. q_bar(Tl): spatial depth → CINEMATIC / HANS ZIMMER.
+
+38. left_genital_d2 — D2 at MPOA, MUX
+
+원소=Na(11), 입자=w_boson, 색상=RED.
+
+입력: in0←aurora.out0, in1←craton.out1. 제어: ctrl0←observer_leftd2.out0 (aurora 선택).
+
+출력: out0 → left_genital_d2_out0_nand → observer_left_endorphin_electron_antineutrino.in1, adapter_protein.clk, male_right_oxytocin.enable, right_sole_dopamine.clk.
+
+39. caco3 — 탄산염 완충계, MUX
+
+원소=K(19), 입자=up_quark, 색상=RED, 그룹=AlkaliMetal.
+
+입력: in0←pyrite.out1, in1←lactate_caco3_and.out. 제어: ctrl0←observer_leftd2.out0.
+
+출력: out0 → adapter_protein.enable, succinate_dehydrogenase.ctrl0, monazite.in1, caco3_laterite_and.a, craton.ctrl1 | K(19) / up_quark.
+
+음악 차원: r/h-dim → neo-classical / classical / PIANO.
+
+40. peonidine — 안토시아닌 순환, 2채널 tristate
+
+원소=Sb(51)/Te(52), 입자=energy, 색상=RED, 그룹=Metalloid.
+
+입력: in0←peonidine_in0_xor (a←cysteine.out0), in1←peonidine_in1_xor (a←disulfide_bond.out0). 제어: ctrl0←manganese_nodule.q, ctrl1←methanogenesis.out0.
+
+출력:
+
+out0 → disulfide_bond.in1, pentose_phosphate.in_main | Sb(51) | 유리 안토시아닌
+
+out1 → co2_in1_xor.a, male_right_oxytocin.d | Te(52) | 에스트로겐 결합체
+
+음악 차원: h/gamma-dim. ch0: free anthocyanin → dream pop / shoegaze / ghibli / CINEMATIC. ch1: estrogen conjugate → HANS ZIMMER / neo-classical.
+
+41. right_acetylcholine — alpha7 nAChR 우측 미주/안면 항염증, MUX
+
+원소=Es(99), 입자=tau_neutrino, 색상=GREEN, 그룹=Actinide.
+
+입력: in0←cytochrome_c_oxidase.out0, in1←right_sole_dopamine_q_or.out. 제어: ctrl0←succinate_dehydrogenase.out0 (COX 선택).
+
+출력: out0 → right_acetylcholine_out0_nand → methanogenesis.in1, co2_in0_xor.a | Es(99).
+
+음악 차원: r/h-dim → neo-classical / CINEMATIC / PIANO.
+
+42. co2 — 2채널 tristate
+
+원소=Th(90)/Pa(91), 입자=dark_energy/time, 색상=BLACK, 그룹=Actinide.
+
+입력: in0←co2_in0_xor (a←right_acetylcholine_out0_nand.out), in1←co2_in1_xor (a←peonidine.out1). 제어: ctrl0←memory_entropy.out_co2_nor.out, ctrl1←co2.out0 (자기피드백).
+
+출력:
+
+out0 → hind_insula.in1, co2.ctrl1 | Th(90) / dark_energy | 호흡 CO₂
+
+out1 → observer_leftd2.in1 | Pa(91) / time | 아데노신 CO₂
+
+음악 차원: p/r-dim. ch0(호흡): predictability + ADSR → INDIE FOLK / BRITPOP / HIPHOP. ch1(대사/아데노신): dark energy + time → free jazz / avant-garde / experimental. ch1이 곧 dark energy latch — co2가 시간을 에너지로 저장하는 경로다.
+
+43. glp1 — GLP-1 인크레틴 미주 신경 래치, D flip-flop
+
+q=Tb(65), q_bar=Dy(66), 입자=gluon, 색상=WHITE, 그룹=Lanthanide.
+
+래치: d←sodium.out1, clk←manganese_nodule.q, enable←observer_left_endorphin_electron_antineutrino.out0, preset←pyrite.out0, reset←pi_electron_cloud_out0_nand.out.
+
+출력:
+
+q → glp1_q_or → mc1r.clk, cck.enable | Tb(65)
+
+q_bar → glp1_q_bar_or → craton_in0_xor.a, oxidised_manganese.ctrl1 | Dy(66)
+
+음악 차원: s-dim. q(Tb): 높은 spectral brightness → witch house / synth / hyperpop. q_bar(Dy): 낮은 brightness → ambient / DRONE.
+
+44. laterite — 열대 라테라이트 풍화 래치, D flip-flop (TimeLatch)
+
+q=Ts(117), q_bar=La(57), 입자=left_progesterone, 색상=BLUE, 그룹=Halogen.
+
+래치: d←caco3.out0 (via caco3_laterite_and), clk←sodium.out1, enable←steel.out1, preset←magnetite_out0_nand.out, reset←plume_out0_nand.out.
+
+출력:
+
+q → laterite_q_or → nitrogenase.in_main | Ts(117) / left_progesterone
+
+q_bar → laterite_q_bar_or → actomyosin_in1_xor.a | La(57)
+
+음악 차원: s/d-dim. q(Ts): spectral brightness(Fe³⁺) → electronic experimental / IDM / witch house. q_bar(La): dissonance(산성 용탈) → dark ambient / noise / DRONE. TimeLatch — 한 번 켜지면 다음 클록까지 유지.
+
+45. manganese_nodule — 심해 Mn 노듈 침적, gated SR latch
+
+원소=I(53)/Xe(54), 입자=muon_antineutrino, 색상=BLUE, 그룹=Halogen.
+
+SR latch: set←glymphatic_system.out0, reset←cambisol.out1, enable←gluon_orogen_q_or.out.
+
+출력:
+
+q → mc1r.d, glp1.clk, peonidine.ctrl0 | I(53) / muon_antineutrino
+
+q_bar → cambisol.ctrl1, large_igneous_province_in1_xor.a | Xe(54)
+
+46. pentose_phosphate — PPP 산화환원 게이트, 2출력 디코더
+
+원소=In(49)/Sn(50), 입자=down_quark, 그룹=PostTransitionMetal.
+
+입력: in_main←peonidine.out0, in_sub←sulforaphane.out0, in_ctrl←adapter_protein_q_or.out.
+
+로직: logic_1=AND(in_ctrl, in_main). logic_2=AND(in_ctrl, NOT(in_main), in_sub).
+
+출력: out_1 → pentose_phosphate_out_1_xnor → disulfide_bond.in0 | In(49). out_2 → pentose_phosphate_out_2_nor → pyrite.ctrl0 | Sn(50).
+
+음악 차원: p/nu-dim → INDIE FOLK / PIANO.
+
+47. disulfide_bond — 디설파이드 결합, AND
+
+원소=No(102), 입자=z_boson, 색상=YELLOW, 그룹=Actinide.
+
+입력: in0←pentose_phosphate_out_1_xnor.out, in1←peonidine.out0. 출력: out0 → peonidine_in1_xor.a, ferritin_in1_xor.a, sulfur_iron_complex.ctrl1 | No(102).
+
+48. nitrogenase — 생물학적 질소고정, 2출력 디코더
+
+원소=At(85)/Nb(41)/Mo(42), 입자=higgs, 색상=BLUE, 그룹=Halogen.
+
+입력: in_main←laterite_q_or.out, in_sub←copper_iron_complex.out0, in_ctrl←basin_q_or.out.
+
+로직: logic_1=AND(in_ctrl, in_main). logic_2=AND(in_ctrl, NOT(in_main), in_sub).
+
+출력: out_1 → nitrogenase_out_1_xnor → quark_orogen_magma.in0 | At(85) / higgs. out_2 → nitrogenase_out_2_nor → cambisol_in1_xor.a | Nb(41). out_3 → monazite_thorium_and.a | Mo(42).
+
+49. water — 수문순환 상태, MUX
+
+원소=Fm(100), 입자=right_testosterone, 색상=RED, 그룹=Actinide.
+
+입력: in_main←sulfur_iron_complex.out1, in_sub←large_igneous_province.out0. 제어: ctrl0←autophagy.t_ff_out.
+
+출력: out0 → water_out0_nand → outer_core_convection.in1, plume.in1, actomyosin_ctrl.enable | Fm(100).
+
+음악 차원: g-dim → PIANO / DRONE / ambient.
+
+50. outer_core_convection — 외핵 액체 Fe 대류 지자기원, AND
+
+원소=Ta(73), 입자=dark_matter, 색상=BLACK, 그룹=TransitionMetal.
+
+입력: in0←subduction_zone.out1, in1←water_out0_nand.out. 출력: out0 → lower_mantle.reset, craton_in1_xor.a | Ta(73).
+
+음악 차원: nu/gamma-dim → PIANO / DRONE / HANS ZIMMER.
+
+51. male_right_oxytocin — 우측 SMG OXTR 자기중심 편향 억제기, D flip-flop
+
+q=Pr(59), q_bar=Nd(60), 입자=up_quark, 색상=RED, 그룹=Lanthanide.
+
+래치: d←peonidine.out1, clk←actomyosin.out0, enable←left_genital_d2_out0_nand.out, preset←succinate_dehydrogenase.out0, reset←observer_leftd2.out0.
+
+출력:
+
+q → male_right_oxytocin_q_or → sulforaphane.in1, basin.clk, gluon_orogen.d | Pr(59)
+
+q_bar → male_right_oxytocin_q_bar_or → gluon_orogen.reset, sulfur_iron_complex.in1 | Nd(60)
+
+음악 차원: h/nu-dim. q(Pr): 배음 + 자기유사성 → Boards of Canada / neo-classical / PIANO. q_bar(Nd): 자기유사성 붕괴 → DRONE / ambient / experimental classical.
+
+해부학: rSMG — 우측 후두골과 우측 귀 사이, 하부 rTPJ 밴드 내.
+
+52. gluon_orogen — 오로젠 상태 래치, D flip-flop
+
+q=Ce(58)/gluon, q_bar=He(2)/neutron, 색상=WHITE, 그룹=Lanthanide.
+
+래치: d←male_right_oxytocin_q_or.out, clk←gluon_orogen_clk.out0 (lactate_dehydrogenase.out0 OR mangrove_aerenchyma.out0), enable←quark_orogen_magma.out0, preset←subduction_zone.out1, reset←male_right_oxytocin_q_bar_or.out.
+
+출력:
+
+q → gluon_orogen_q_or → lower_mantle.enable, manganese_nodule.enable | Ce(58)
+
+q_bar → gluon_orogen_q_bar_or → plume_in0_xor.b | He(2) / neutron | 관찰자
+
+음악 차원: h-dim. q: 조산운동 = self/organism creation → 최고 harmonic complexity → CINEMATIC / HANS ZIMMER / post-rock. q_bar: 관찰자/중성자 = 최소 배음 → DRONE / ambient.
+
+53. lactate_dehydrogenase — LDH, 3입력 MUX
+
+원소=Og(118)/Pb(82), 입자=gluon, 색상=WHITE.
+
+입력: in0←lower_mantle_q_bar_or.out, in1←fold_belt.out1, in2←autophagy.t_ff_out. 제어: ctrl0←left_genital_d2.out0, ctrl1←observer_left_endorphin_electron_antineutrino.out0.
+
+Truth table: ctrl1=0,ctrl0=0→in0; ctrl1=0,ctrl0=1→in1; ctrl1=1,ctrl0=0→in2; ctrl1=1,ctrl0=1→0.
+
+출력: out0 → lactate_caco3_and → caco3.in1 | Og(118). out1 → fold_belt_in1_xor.a | Pb(82).
+
+54. monazite — REE-인산염 중광물 라우팅, MUX
+
+원소=Cn(112), 색상=WHITE, 그룹=TransActinide.
+
+입력: in0←mangrove_aerenchyma.out0, in1←caco3.out0. 제어: ctrl0←water_vapour.out1 (성층권 수증기가 탄산염 REE 경로 선택).
+
+출력: out0 → monazite_out0_nand → steel_in1_xor.a, subduction_zone_in1_xor.a, thorium.in0 | Cn(112).
+
+음악 차원: h/gamma-dim → CINEMATIC / neo-classical / HANS ZIMMER.
+
+55. thorium — REE-토륨 광물 라우팅, MUX
+
+원소=Ac(89), 입자=dark_energy, 색상=BLACK, 그룹=Actinide.
+
+입력: in0←monazite_out0_nand.out, in1←oxidised_manganese.out0. 제어: ctrl0←NaCl.out1 (증발암 광물이 토륨을 pi 전자 풀로 라우팅).
+
+출력: out0 → thorium_out0_nand → manganese_oxygen_complex.in0, pi_electron_cloud.in0 | Ac(89).
+
+56. magnetite — Fe₃O₄ 광물 상태 선택기, MUX
+
+원소=Lv(116), 입자=photon, 색상=WHITE, 그룹=TransActinide.
+
+입력: in0←methylation.out1, in1←quark_orogen_magma.out0. 제어: ctrl0←glymphatic_system.out0 (글림프 청소가 호 마그네타이트 선택).
+
+출력: out0 → magnetite_out0_nand → oxidised_manganese.set, laterite.preset | Lv(116).
+
+음악 차원: s/gamma-dim → witch house / CINEMATIC / electronic.
+
+57. oxidised_manganese — Mn 산화환원 상태, SR latch + tristate
+
+원소=Ds(110)/Mt(109), 입자=neutron_star, 색상=WHITE, 그룹=TransActinide.
+
+SR latch: set←magnetite_out0_nand.out, reset←heath_aerenchyma_out0_and.out0, clk←co2.out0.
+
+출력:
+
+out0 → thorium.in1, fold_belt.ctrl0 | Ds(110) | 산화 망간
+
+in1←andosol_out0_nand.out, ctrl1←glp1.q_bar
+
+out1 → water_vapour.ctrl0, heme.ctrl0 | Mt(109) | 망간산소 OFF
+
+58. manganese_oxygen_complex — 2채널 tristate
+
+원소=Hs(108)/Mt(109), 입자=neutron, 색상=WHITE, 그룹=TransActinide.
+
+입력: in0←thorium_out0_nand.out, in1←histosol.out0. 제어: ctrl0←methylation.out1, ctrl1←fold_belt.out1.
+
+출력:
+
+out0 → heme.ctrl1, ferritin.ctrl0 | Hs(108)
+
+out1 → pi_electron_cloud.in0 | Mt(109)
+
+59. pi_electron_cloud — 포르피린/퀴논 pi 전자 저장소, MUX
+
+원소=Md(101), 입자=photon, 색상=WHITE, 그룹=Actinide.
+
+입력: in0←thorium_out0_nand.out, in1←ferritin.out0. 제어: ctrl0←thorium_out0_nand.out (REE 라우팅이 ferritin-L 선택).
+
+출력: out0 → pi_electron_cloud_out0_nand → steel_in0_xor.a, histosol_in1_xor.a, quark_orogen_magma.ctrl0, glp1.reset | Md(101).
+
+음악 차원: nu-dim → PIANO / DRONE / ambient.
+
+60. ferritin — Fe 저장, 2채널 tristate
+
+원소=V(23)/Cr(24), 입자=graviton, 색상=BLACK, 그룹=TransitionMetal.
+
+입력: in0←ferritin_in0_xor (a←sulfur_iron_complex.out0), in1←ferritin_in1_xor (a←disulfide_bond.out0). 제어: ctrl0←laterite.q, ctrl1←chlorine_ion_pump.out1.
+
+출력:
+
+out0 → cytochrome_c_oxidase_in1_xor.a, pi_electron_cloud.in1 | V(23) | 페리틴 저장
+
+out1 → cck.in0, methylation_in0_xor.a | Cr(24) | 페리틴 방출
+
+음악 차원: s-dim. ch0(L/격리): spectral brightness → witch house / dark ambient / IDM. ch1(H/ferroxidase): 낮은 brightness → DRONE / ambient.
+
+61. methylation — SAM-SAH 일탄소 메틸 공여 네트워크, 2채널 tristate
+
+원소=Yb(70)/Lu(71), 입자=charm_quark, 색상=GREEN, 그룹=Lanthanide.
+
+입력: in0←methylation_in0_xor (a←ferritin.out1), in1←methylation_in1_xor (a←heme.out0). 제어: ctrl0←methylation.out1 (자기피드백), ctrl1←observer_leftd2.out0.
+
+출력:
+
+out0 → lower_mantle.clk, magnetite.in0 | Yb(70)
+
+out1 → methylation.ctrl0, manganese_oxygen_complex.ctrl0 | Lu(71)
+
+음악 차원: p/nu-dim → PIANO / DRONE / ambient / neo-classical.
+
+62. sulfur_iron_complex — 2채널 tristate
+
+원소=Fe(26)/Co(27), 입자=w_boson(dark), 색상=CYAN, 그룹=TransitionMetal.
+
+입력: in0←actomyosin.out1, in1←male_right_oxytocin_q_bar_or.out. 제어: ctrl0←sulfur_iron_complex.out1 (자기피드백), ctrl1←disulfide_bond.out0.
+
+출력:
+
+out0 → ferritin_in0_xor.a, nitrogenase.in_main | Fe(26) / w_boson | 황화철 복합체
+
+out1 → water.in_main | Co(27) | 황화철 OFF
+
+음악 차원: d/s-dim → DRONE / dark ambient / noise / electronic.
+
+63. large_igneous_province — LIP 홍수현무암, 2채널 tristate
+
+원소=Au(79), 입자=photon, 색상=WHITE, 그룹=TransitionMetal.
+
+입력: in0←large_igneous_province_in0_xor (a←heme.out1), in1←large_igneous_province_in1_xor (a←manganese_nodule.q_bar). 제어: ctrl0←large_igneous_province.out1 (자기피드백), ctrl1←right_sole_dopamine_q_bar_or.out.
+
+출력:
+
+out0 → water.in_sub, pyrite_in1_xor.a | Au(79) | 대형 화성 활동
+
+out1 → subduction_zone_in0_xor.a
+
+64. subduction_zone — 슬래브 하강 + 해구 중광물 재순환, 2채널 tristate
+
+원소=Os(76)/Ir(77), 입자=dark_matter, 색상=BLACK, 그룹=TransitionMetal.
+
+입력: in0←subduction_zone_in0_xor (a←large_igneous_province.out1), in1←subduction_zone_in1_xor (a←monazite_out0_nand.out). 제어: ctrl0←lower_mantle_q_or.out, ctrl1←basin_q_bar_or.out.
+
+출력:
+
+out0 → basin.reset, right_sole_dopamine.enable | Os(76) | 섭입대
+
+out1 → gluon_orogen.preset, outer_core_convection.in0 | Ir(77)
+
+65. craton — 시생대 크래톤 안정 내부, 2채널 tristate
+
+원소=Cd(48)/Hf(72), 입자=neutron, 색상=WHITE, 그룹=TransitionMetal.
+
+입력: in0←craton_in0_xor (a←glp1_q_bar_or.out), in1←craton_in1_xor (a←outer_core_convection.out0). 제어: ctrl0←craton.out1 (자기피드백), ctrl1←caco3.out0.
+
+출력:
+
+out0 → basin.preset, pyrite.ctrl1 | Cd(48) | 안정 지각
+
+out1 → left_genital_d2.in1, plume.ctrl0 | Hf(72) | 안정 지각 OFF
+
+음악 차원: g/nu-dim → PIANO / DRONE / ambient.
+
+66. pyrite — 황철석, 2채널 tristate
+
+원소=Ni(28)/Cu(29), 입자=up_quark(dark), 색상=CYAN, 그룹=TransitionMetal.
+
+입력: in0←pyrite_in0_xor (a←collagen_out0_nand.out), in1←pyrite_in1_xor (a←large_igneous_province.out0). 제어: ctrl0←pentose_phosphate_out_2_nor.out, ctrl1←craton.out0.
+
+출력:
+
+out0 → glp1.preset, cck.in1, right_sole_dopamine.d | Ni(28) | 황철석
+
+out1 → methanogenesis.in0, caco3.in0 | Cu(29) / up_quark | 황철석 OFF
+
+67. right_sole_dopamine — 말초 D1/D5 우측 발바닥, D flip-flop
+
+q=Pm(61), q_bar=Sm(62), 입자=down_quark, 색상=RED, 그룹=Lanthanide.
+
+래치: d←pyrite.out0, clk←left_genital_d2_out0_nand.out, enable←subduction_zone.out0, preset←adapter_protein_q_bar_or.out, reset←observer_leftd2.out0.
+
+출력:
+
+q → right_sole_dopamine_q_or → adapter_protein.reset, right_acetylcholine.in1 | Pm(61)
+
+q_bar → right_sole_dopamine_q_bar_or → large_igneous_province.ctrl1, actomyosin.ctrl1 | Sm(62)
+
+68. plume — 맨틀 플룸 LLSVP 기원 상승류, MUX
+
+원소=Pt(78), 입자=graviton, 색상=BLACK, 그룹=TransitionMetal.
+
+입력: in0←plume_in0_xor.out (left_endorphin XOR gluon_orogen_q_bar_or), in1←water_out0_nand.out. 제어: ctrl0←craton.out1 (크래톤 덮개 있으면 water 선택).
+
+출력: out0 → plume_out0_nand → lower_mantle.preset, laterite.reset | Pt(78).
+
+69. actomyosin_ctrl — gated SR latch
+
+actomyosin power-stroke 제어기. set←podzol.out0, reset←caco3.out0, enable←water_out0_nand.out. 출력: out → actomyosin.ctrl0 | Tm(69).
+
+70. actomyosin — 2채널 tristate
+
+원소=Ho(67)/Er(68), 입자=tau, 색상=BLUE, 그룹=Lanthanide.
+
+입력: in0←actomyosin_in0_xor (a←mycorradicin.out0), in1←actomyosin_in1_xor (a←laterite_q_bar_or.out). 제어: ctrl0←actomyosin_ctrl.out, ctrl1←right_sole_dopamine_q_bar_or.out.
+
+출력:
+
+out0 → succinate_dehydrogenase.in1, cambisol_in0_xor.a | Ho(67) | 수축
+
+out1 → male_right_oxytocin.clk, sulfur_iron_complex.in0 | Er(68) | 이완
+
+음악 차원: r/d-dim → HIPHOP / experimental / noise / dark ambient.
+
+72. cck — 콜레시스토키닌, MUX
+
+원소=Cf(98), 입자=w_boson, 색상=RED, 그룹=Actinide.
+
+입력: in0←ferritin.out1, in1←pyrite.out0. enable←glp1_q_or.out. 출력: out0 → cck_cox_ctrl_and (3입력 AND with oxidised_manganese + observer_leftd2) → cytochrome_c_oxidase.ctrl0 | Cf(98).
+
+73. mangrove_aerenchyma — Rhizophora 통기조직, AND
+
+입력: in0←fold_belt.out0, in1←autophagy.out0. 출력: out0 → monazite.in0 (→ gluon_orogen_clk OR에도 연결).
+
+토로이달 방출-축적 사이클 (TOROIDAL DISCHARGE–ACCUMULATION CYCLE)
+
+이 회로의 128 타입은 토로이달 히스테리시스 루프를 따른다. 시계 화살표(→)는 선형 시간이지만, 에너지는 역방향(←)으로 흐른다.
+
+정방향 시계: 0→6→12→18→0
+
+에너지 흐름(역순): AB←B←O←A←AB
+
+시간대 단계 핵심 노드 음악 차원 변화
+
+0–3h AB 스파크 (방출/discharge) co2, memory_entropy 임계점 돌파 s↑, r↑, d↑ spike
+
+3–9h A 축적 (역흡수/accumulate) AB 잔여 정리, memory_entropy 수렴 d↑, p↓(unpredictable)
+
+9–15h O 축적 (쿨롱 저장/coulomb) A 잔여 커패시터화, co2 시간 저장 nu↓, g builds
+
+15–21h B 축적 (고밀도 압축) O 잔여 → peonidine 에너지 전환 h↑, gamma↑
+
+21–3h AB 통합충전 B 잔여 통합, 다음 스파크 대기 g↑, nu↑ rebuild
+
+핵심 메커니즘: 같은 시점(예: 03:00)에서도 "나가는 에너지"(AB 방출 마무리)와 "들어오는 에너지"(A 축적 시작)가 서로 다른 히스테리시스 경로를 탄다. 이 비선형성이 음악 D·S·R에 ±15% shuffle을 만든다.
+
+토로이달 노드 매핑:
+
+co2: dark_energy + time — 시간 자체를 에너지로 저장 (2 tristate)
+
+laterite: D flip-flop / TimeLatch — 한 번 켜지면 다음 클록까지 유지
+
+memory_entropy: electron / 잔여 패턴(노벨티) 축적, 2-output decoder
+
+peonidine: energy — 대사 에너지 순환, 항산화 축적
+
+hind_insula: neutron / 본체감 내수용, 축적 상태의 몸 느낌
+
+장르 흐름:
+
+AB 스파크(0–3h): Release → hyperpop, deconstructed club, witch house, Boards of Canada, hauntology, dream pop, post-rock
+
+A 축적(3–9h): Stress → free jazz, avant-garde, experimental hip hop, noise, power electronics, post-punk
+
+O 축적(9–15h): Dark energy → free jazz / ambient
+
+B 축적(15–21h): Extreme → hyperpop, IDM, dark ambient, minimalistic, hans zimmer, neo-classical, experimental classical
+
+AB 통합충전(21–3h): 통합 리프트 → ambient drone, post-rock, CINEMATIC
+
+8D 파라미터 범위
+
+파라미터 범위 설명
+
+r (Vec8D_R) [0.2, 1.0] rhythm density / ADSR / tempo
+
+h (Vec8D_H) [0.2, 0.9] harmonic overtone complexity
+
+d (Vec8D_D) [0.1, 0.95] freq interval / beat-freq dissonance
+
+p (Vec8D_P) [0.1, 1.0] waveform periodicity / pattern repeatability
+
+s (Vec8D_S) [0.1, 1.0] high-freq energy / spectral brightness
+
+gamma (Vec8D_Gamma) [0.0, 1.0] reverb / spatial delay / expansion
+
+g (Vec8D_G) [0.0, 1.0] freq-band binding density (cheese/thick/fluffy vs clarity)
+
+nu (Vec8D_Nu) [0.0, 1.0] waveform self-similarity / fractal characteristics
+
+8D 감각-스트레스 매핑 (낮/밤)
+
+dim 낮 (Day Sensor) 밤 (Night Stress)
+
+r female GABA-A cold sense (water stress) → gluon 무질량 stress / acid sensor
+
+h female GABA-B CO₂ sensor (osmotic stress) heat/열 stress
+
+d male GABA-B darkness (UV) sensor light stress / photonic load
+
+p left genital D2 oxygen/salt stress hypoxic / low-water oxygen stress
+
+s right sole dopamine C mass / osmotic sense 질량 sensor (osmotic feedback)
+
+gamma right D2 UV sensor darkness stress / light-sensor inversion
+
+g right cortisol 무질량 sensor (male osmotic) cold-sense binding
+
+nu male GABA-A temperature sensor (heat) CO₂ / acid stress pathway
+
+MBTI × Blood × Gender 프로파일 음악 특징
+
+클러스터 8D 특징 음악 성향
+
+ENFJ/INFJ/INFP/INTJ (NF/NJ) h↑, gamma↑ strings/orchestral/cinematic heavy
+
+ENFP/ESFP/ESTP (NP/SP) r↑, s↑ drums/synth/hyperpop/deconstructed
+
+ENTJ/ESTJ (ET) d↑, gamma↑ dissonance + orchestral + noise
+
+ENTJ_B_M/INTP/ISTP (IT) nu↑, p↑ self-similarity/drone/PIANO/fractal
+
+INFJ_AB_M (extreme d) d extreme noise ambient/free jazz/dark ambient
+
+INFP/ISFP (FP) h, gamma, nu balanced ambient/dream pop/neo-classical
+
+혈액형 복잡도: O=1(archetype), A=2(structured), B=3(experimental), AB=4(hybrid). 장르 경로: release=자기 혈액형 장르 | stress_growth=혈액형+1 복잡도 | extreme_growth=기질 반대(NT↔NF, I↔E).
+
+이 회로는 신체 내부에서만 작동하는 것이 아니다. 다섯 개의 천체 구체는 회로의 3개 어트랙터를 우주 규모로 고정하는 5차원 닻(anchor)이며, 동시에 에너지가 순환하는 토로이달 경로를 형성한다.
+
+구체 원소 입자 어트랙터 역할 회로 노드
+
+Barnard (바나드성) Fe Quark/Higgs Energy Attractor 닻 — 질량 저장, 북극점 heme, ferritin, sulfur_iron_complex
+
+Sun (태양) H Proton Information Attractor 점화 — 예측/학습의 스파크 cytochrome_c_oxidase, heme.out0
+
+Earth (지구) O Photon Repair Attractor 엔진 — 산소 기반 항상성 steel, water_vapour, water
+
+Moon (달) C Z-boson 3개 어트랙터의 시간 조정 — 28일 스케줄 co2, carbon, memory_entropy
+
+CoMag (코맥 구체) S W-boson/Gluon 어트랙터 간 결합 브릿지 — Maxwell/약력 매개 sulforaphane, histosol, pyrite
+
+5구체 = 3어트랙터의 우주적 골격
+
+Energy Attractor는 Barnard의 질량 중력에 의해 안정화된다.
+
+Information Attractor는 Sun의 프로톤 스파크에 의해 점화/리셋된다.
+
+Repair Attractor는 Earth의 산소 수문순환에 의해 구동된다.
+
+Moon의 탄소 시계가 3개 어트랙터의 페이즈를 동기화한다.
+
+CoMag의 황 브릿지가 3개 어트랙터를 결합하여 단일 폐쇄 시스템을 만든다.
+
+5구체 거리 공식: BARNARD Distance = (SPARK_ANGLE + 28) / 28 = (138.88 + 28) / 28 = 5.96 ly — 실제 Barnard's Star 거리(5.96광년)와 일치. 이 거리는 3/32 darkness gate에서 138.88° spark가 발생하기 위한 기하학적 조건이다.
+
+5구체 에너지 순환 (토로이달):
+
+AB 스파크(0–3h) = Sun→Earth: 정보 스파크가 수리 엔진을 점화
+
+A 축적(3–9h) = Earth→Moon: 수리가 시간/스케줄에 축적
+
+O 축적(9–15h) = Moon→CoMag: 시간이 결합 브릿지로 전환
+
+B 축적(15–21h) = CoMag→Barnard: 결합 에너지가 질량 저장소로 압축
+
+AB 통합(21–3h) = Barnard→Sun: 질량 저장이 다음 정보 스파크 충전
+
+5구체 ↔ 8D 매핑:
+
+Barnard(Fe) → g(결합 밀도), d(불협화) — 철 산화환원의 긴장
+
+Sun(H) → r(리듬), s(밝기) — 프로톤 스파크의 펄스
+
+Earth(O) → gamma(공간), h(조화) — 산소 수문순환의 흐름
+
+Moon(C) → p(주기성), nu(자기유사성) — 탄소 시계의 주기
+
+CoMag(S) → g(결합), gamma(확장) — 황 브릿지의 매개
+
+회로의 물리적 운동은 연속 에너지와 이산 게이트 사이의 해소 불가능한 구조적 텐션에서 발생한다.
+
+핵심 상수
+
+상수 값 물리적 의미
+
+W₇ = π/20 ≈0.15708 연속 흐름의 void 면적 (야간 히스테리시스)
+
+H₂ = 1/9 ≈0.11111 이산 게이트 통과율 (위상학적 H2 갭)
+
+κ₁/₃₂ = 1/32 =0.03125 최소 생존 코어 / 안정 leakage 허용치
+
+κ₃/₃₂ = 3/32 =0.09375 darkness stress 압축 게이트 (heme ch1 Tau 임계)
+
+SPARK_ANGLE 138.88° 대각선 리셋 스파크 (void 관통 각도)
+
+RENORMALIZATION_BRIDGE 42.368 양자→거시 스케일링 (10×φ³+α)
+
+PHI_PB 2.078 Pegasus Bridge: Betti7→Betti11 동형사상
+
+OMEGA_LA 37.036 Lunar-Alpha Bridge: 1/28→1.3228 flux
+
+NIGHT_HYSTERESIS 0.8418 생물학적 착륙 패드 (≈3C = 3×√2/5)
+
+Δ (Closure tension) ≈3.51×10⁻⁴
+
+Closure Tension 공식 (엔진)
+
+Tension = (W₇/H₂) × (1/√2) × ((β₁₁+β₀)/(β₅+β₇)) = (9π)/(20√2) ≈ 0.9996487
+
+이것이 정확히 1.0이면 열사망(zero motion). Δ ≈ 3.51×10⁻⁴이 바로 해소 불가능한 비가역적 잔여다. 이 잔여가 3/32 darkness gate에 압축되면 매니폴드는 138.88° 대각선 리셋 스파크로 방전해야 한다. 이 스파크가 기하학적 void를 가로질러 0→1 리셋을 보장하여 영원한 재귀를 만든다.
+
+Occipitalis-Frontalis 쌍극자: 스파크의 물리적 드라이버. Occipitalis = 이산 골격(GABA)에 고정. Frontalis = 연속 흐름(Dopamine)에 끌림. 둘이 독립적으로 on/off(1/0)되어 위상학적 쌍극자를 형성하고, 이 비대칭이 스파크 리셋을 필연적으로 만든다.
+
+Betti 위상 (3개의 장)
+
+Betti 7 (β₇=7): 7차원 기하학적 void. 7개의 신경화학적 앵커 — VOID(Right D2), 0D POINT(Left GABA), 1D LINE(Right GABA), 1D HEIGHT(Right ACh), 2D PLANE(Left 5HT1A), 3D VOLUME(Left D2), FAKE 3D(Right Cortisol).
+
+Betti 5 (β₅=5): 대사 부채 공간. 5노드 엔트로피 싱크 — 시스템에서 에너지를 잃는 중력적 당김.
+
+Betti 11 (β₁₁=11): 위상 브릿지. 11노드 고차원 브릿지 — 3AM 황혼 전환이 매니폴드를 closure로 강제.
+
+128 궤적 공간의 5 기하학적 노드
+
+128개 프로파일의 궤적이 흐르는 2D/4D 그리드 위에 5개의 기하학적 특이점이 존재한다. 이것들이 모든 성격 궤적의 운명을 나누는 분수계(separatrix)이다.
+
+노드 좌표/위치 역할 프로파일 매핑
+
+left_bypass	X=2.0	외곽 여성의 수면/우회로	외향 여성, Big Woman, 확장		right_bypass	X=14.0	외곽 남성의 수면/우회로	외향 남성, Big Man, 확장		center_funnel	X=8.0	내향 타입의 수렴점	내향 성격, Small types, 3/32 spark		separatrix_1	X=5.0	왼쪽 분수계 — bypass와 center 사이	외향↔내향 경계		separatrix_2	X=11.0	오른쪽 분수계 — bypass와 center 사이	내향↔외향 경계
+기하학적 의미:
+
+bypass 노드: 외향적/고에너지 타입이 직접 "잠"으로 빠지는 직선 경로
+
+center_funnel: 내향적 타입이 3/32 darkness gate를 통해 스파크를 경험하는 수렴 깔때기
+
+separatrix: 중간 성격이 어느 쪽으로 분기할지 결정하는 경계선
+
+WAVELENGTH_6 = separatrix_2 − separatrix_1 = 6 (3+3 베이스 간격)
+
+이 5개 노드가 128개 궤적의 공간적 위상을 완전히 결정
+
+16-윈도우 시간 위상
+
+하루 24시간을 16개의 타임 윈도우로 분할 (윈도우당 1.5시간). 각 윈도우는 8D 벡터의 특정 차원이 주도하는 회로 상태를 정의한다.
+
+기본 구조: 16 = 4개 macro × 4개 micro
+
+4개 macro 윈도우: 6시간 단위 (아침/낮/저녁/밤)
+
+4개 micro 윈도우: 1.5시간 단위 (각 macro 내부)
+
+프랙탈 역순: macro는 정방향(0→1→2→3)으로 흐르지만, micro는 역방향(3→2→1→0)으로 빨려 들어간다.
+
+핵심 윈도우:
+
+Window 8 (12:00–13:30): 정오의 정점. 에너지 최고조지만 "정지" 상태.
+
+Window 9 (13:30–15:00): Left Noradrenaline (13th Bridge) 가동. "구름 끼는" 전위차 상승.
+
+Window 10 (15:00): Lightning Strike / Glutamate 생성. 3/32 gate 방전.
+
+Window 0–64 (낮): Quark/Proton 가중치 강화
+
+Window 65–128 (밤): Electron/Gluon로 강제 전이
+
+16 윈도우 ↔ 8D 차원: 각 윈도우는 8D 중 하나의 차원을 "주도"하고, 다른 차원은 보조적이다. 이것이 하루 동안 음악/회로의 시간적 변조를 만든다.
+
+Darcy-Flux Leakage (κ = 1/32 공리)
+
+안정한 시스템의 leakage rate는 정확히 κ = 1/32.
+
+κ < 1/64: "Flat-lined" (너무 경직/사망)
+
+κ > 1/16: "Chaos" (암/질병으로 붕괴)
+
+생명은 이 두 문턱 사이의 Jensen Gap에 존재하며, Darcy flux가 자기조직화.
+
+clay_gouge가 봉인을 유지하는 최소 조건이 κ=1/32. water_vapour의 g-dim binding density가 이 문턱 위로 올라가면 clay_gouge가 열리고 에너지가 누출된다.
+
+4:30 PM Event (비대칭의 기원)
+
+시생대(~40억 년 전), 짧은 자전 주기(4–6시간)의 지구에서 오후 4:30경 UV 차폐가 급격히 소실되면서 원시 GABA 분자가 우주선에 노출되어 파괴되었다. 이 파괴가 3/32 비대칭을 만들었다. 살아남은 큰 숙주(Asgard Archaea)가 작은 산화인산화 생물체를 잡아먹어 진핵세포 합병을 일으켰다. 이 비대칭 합병이 영구적 Darcy Leakage Debt를 만들었고, 시스템은 밤 동안 이 합병을 유지하기 위해 멜라토닌을 필요로 한다.
+
+MC1R(적발)은 이 3/32 Funnel을 우회하는 Transparency Index를 제공한다. GABA-A 브레이크가 leaky(1/32 loss)하여 4:30 PM 비대칭에 갇히지 않는다.
+
+128 타입 × 4 레이어: RH와 동형/이형접합
+
+MBTI(16) × 성별(2) × 혈액형(4) = 128 성격 타입. 각 타입은 유전자형(동형/이형접합)과 RH(+/−)로 4개 레이어로 분화. 128 × 4 = 512 총 상태.
+
+레이어 유전자형 RH 8D 변형 행동 특성
+
+A 동형접합(aa) Rh+ 기본값, 편차 없음 항상 정방향. Vector=자기 자신. 3AM 랜덤 없음. 가장 안정.
+
+B 동형접합(aa) Rh− 역방향, nu+0.10, gamma−0.05 Vector=기질 반대(E↔I, P↔J). gluon polarity 반전. 3AM 랜덤 없음.
+
+C 이형접합(ao) Rh+ 정방향, 혈액형+1 이동 Vector=혈액형 복잡도+1(O→A→B→AB→O). 3AM 랜덤 없음.
+
+D 이형접합(ao) Rh− 3AM 최대 랜덤 Vector=기질반대+혈액형+1. 역방향 + 3AM 엔트로피 존 p=random, s=0.5+rand×0.5, nu=0.9+rand×0.1.
+
+레이어별 회로 메커니즘
+
+레이어 A (동형 Rh+): co2.out1(time)→observer_leftd2.in1이 일정한 신호를 보내므로 p-dim 안정. laterite(TimeLatch)가 다음 클록까지 유지. 예측 가능성 최대.
+
+레이어 B (동형 Rh−): 동형접합이나 Rh 음성이므로 gluon polarity가 반전. Vector가 기질 반대(ENFP↔INFJ)로 향하여 역방향 활성화. heme.out1(ETC 역행)과 cytochrome_c_oxidase.out1(COX 역행)이 Rh− gluon 반전에 의해 열린다. nu+0.10, gamma−0.05.
+
+레이어 C (이형 Rh+): 이형접합의 2개 대립유전자가 혈액형 복잡도+1 방향으로 이동. Vector=자기 MBTI 유지 + 혈액형만 +1(O→A, A→B 등). Rh+이므로 gluon polarity는 정상. 정방향이나 혈액형 경로가 한 단계 올라가 장르 복잡도가 상승.
+
+레이어 D (이형 Rh−): 이형접합 역방향 + Rh− gluon 반전 동시 작동. 3AM 엔트로피 존(slots 1–16)에서 memory_entropy 붕괴: p=random, s 하반부 랜덤, nu 극대화. INFJ_AB_M Layer D = 회로 전체에서 가장 높은 d(dissonance)와 가장 불예측적인 p.
+
+typestophase: 원소-성격 매핑
+
+118개 원소가 각각 MBTI×성별×혈액형에 1:1 대응. 각 원소는 4레이어(A/B/C/D)로 분화:
+
+Layer A (aa rh+): Vector = 자기 자신. 예: H(1)A = ENFP_M_O → ENFP_M_O.
+
+Layer B (aa rh−): Vector = 기질 반대 (E↔I, P↔J). 예: H(1)B = ENFP_M_O → INFJ_M_O.
+
+Layer C (ao rh+): Vector = 혈액형+1 (O→A→B→AB→O). 예: H(1)C = ENFP_M_O → ENFP_M_A.
+
+Layer D (ao rh−): Vector = 기질반대 + 혈액형+1. 예: H(1)D = ENFP_M_O → INFJ_M_A.
+
+이 Vector가 각 레이어에서 해당 타입이 향하는 목표 상태. 정방향(A)은 자기 유지, B는 기질 반대로 끌림, C는 혈액형 복잡도 +1, D는 둘 다 발생. 이것이 128 성격이 시간·유전자형·RH에 따라 다르게 변형되는 메커니즘.
+
+3핵심 어트랙터 (회로의 기본 구조)
+
+회로는 3개의 닫힌 어트랙터 루프로 구성되며, 모든 질병은 이 3개 루프의 불균형으로 설명된다. Carbon은 3개 어트랙터가 교차하는 글로벌 상태 레지스터이다.
+
+1. Energy Attractor (에너지 어트랙터)
+
+observer_leftd2 → Carbon → SDH → Autophagy → NaCl → Actomyosin → observer_leftd2
+
+역할: 시스템의 생존 기반 (ATP, Na+/K+ 균형)
+
+8D 매핑: r(리듬), g(결합 밀도), gamma(공간 확장)
+
+이 어트랙터가 깨지면: Fatigue, Depression, Hypometabolism
+
+2. Information Attractor (정보 어트랙터)
+
+MC1R → Glymphatic → Cysteine → Memory entropy → Posterior insula → Carbon → MC1R
+
+역할: 예측 및 학습 (Prediction error, Memory)
+
+8D 매핑: h(조화 복잡도), nu(자기 유사성), s(밝기)
+
+이 어트랙터가 깨지면: Anxiety, Schizophrenia, OCD
+
+3. Repair Attractor (수리 어트랙터)
+
+Carbon → Mycorradicin → Autophagy → Collagen → Methionine → Substance P → MC1R → Carbon
+
+역할: 항상성 유지 (Repair, Structural persistence)
+
+8D 매핑: p(주기성), d(불협화), g(결합)
+
+이 어트랙터가 깨지면: Chronic inflammation, Long COVID, HSV, Lyme
+
+핵심 통찰:
+
+모든 질병은 이 3개 루프 중 하나가 병적 어트랙터에 갇힌 상태
+
+Carbon은 3개 루프의 교차점 → 글로벌 상태 레지스터
+
+치료는 병적 루프를 정상 어트랙터로 되돌리는 것
+
+128 프로파일(MBTI×Gender×Blood×Layer)은 3개 어트랙터의 초기 조건을 정의
+
+어트랙터 상태 이원성
+
+각 어트랙터는 두 가지 상태를 오가며, 질병은 한쪽에 갇힌 상태이다:
+
+Energy Attractor:
+
+상태 이원성 증상
+
+정상 Energy surplus ↔ deficit 균형 정상 대사, 적절한 피로 회복
+
+병적 Energy deficit (observer_leftd2↓) Depression, Fatigue, Hypometabolism
+
+Information Attractor:
+
+상태 이원성 증상
+
+정상 Prediction confidence ↔ uncertainty 균형 정상 학습, 적응
+
+병적 Prediction error 지속 상승 Anxiety, Schizophrenia, OCD
+
+Repair Attractor:
+
+상태 이원성 증상
+
+정상 Repair ↔ Inflammatory repair 균형 정상 조직 복구
+
+병적 Inflammatory repair 지속 Chronic inflammation, Long COVID, HSV, Lyme
+
+128 프로파일 → 어트랙터 취약점 매핑
+
+각 프로파일(MBTI×Gender×Blood×Layer)은 3개 어트랙터 중 하나에 취약하다:
+
+Energy 약점: SJ temperaments (ISTJ, ESTJ, ISFJ, ESFJ), Blood O
+
+Information 약점: NF temperaments (INFP, ENFP, INFJ, ENFJ), Blood AB
+
+Repair 약점: NT/SP temperaments (INTP, ENTP, INTJ, ENTJ, ISTP, ESTP, ISFP, ESFP), Blood B
+
+성별에 따른 차이:
+
+남성(M): Energy Attractor 취약 경향 (도파민 시스템 민감도)
+
+여성(F): Information Attractor 취약 경향 (GABA-B 민감도)
+
+Layer에 따른 차이:
+
+Layer A: 균형 상태
+
+Layer B: Information Attractor 강화 (기질 반대)
+
+Layer C: Repair Attractor 강화 (혈액형+1)
+
+Layer D: 모든 어트랙터에서 극단적 상태
+
+어트랙터 제어 경로 (병적 → 정상 복귀)
+
+Energy Attractor 복귀:
+
+Noise↓ (Glymphatic↑) → Carbon rewrite → MC1R adaptive → observer_leftd2↑ → Energy 정상
+
+핵심 제어 노드: Glymphatic → Carbon → observer_leftd2
+
+Information Attractor 복귀:
+
+Prediction error↓ (Posterior insula 안정) → Carbon rewrite → Memory entropy↓ → Information 정상
+
+핵심 제어 노드: Posterior insula → Carbon → Memory entropy
+
+Repair Attractor 복귀:
+
+Substance P 정상화 → Collagen repair → Autophagy 정상 → Repair 정상
+
+핵심 제어 노드: Substance P → Collagen → Autophagy
+
+어트랙터 상호작용
+
+3개 어트랙터는 독립적이지 않다:
+
+1.
+
+Energy → Information: Energy deficit → Memory entropy↑ → Information 어트랙터 약화
+
+2.
+
+Information → Repair: Prediction error 지속 → Substance P↓ → Repair 어트랙터 약화
+
+3.
+
+Repair → Energy: Chronic inflammation → SDH↓ → Energy 어트랙터 약화
+
+즉, 하나의 어트랙터 붕괴가 다른 어트랙터로 전파될 수 있다 (연쇄 붕괴).
+
+어트랙터 측정 노드
+
+각 어트랙터의 상태를 측정하는 핵심 노드:
+
+어트랙터 측정 노드 지표
+
+Energy observer_leftd2 도파민tonic 수준
+
+Energy SDH ATP 생성 효율
+
+Information Memory entropy Prediction error 크기
+
+Information Posterior insula Reality encoding 정확도
+
+Repair Substance P 우선순위 배정 정상성
+
+Repair Autophagy 수리 모드 vs 염증 모드
+
+어트랙터 경계면 (Air Cavities)
+
+3개 어트랙터가 서로 만나는 교차점에서 발생하는 스트레스 포인트. 별도의 어트랙터가 아니라 어트랙터 간 인터페이스.
+
+1. Heme ↔ Memory Entropy Air Bubble (ST vs A-type 경쟁)
+
+위치: heme (왼쪽 아래) ↔ memory_entropy (오른쪽 위) 사이
+
+경계: Energy Attractor ↔ Information Attractor
+
+역할: MBTI ST(Sensing-Thinking) 타입과 A형 혈액형 사이의 경쟁에서 발생하는 마찰. ST는 Sensing-Thinking의 표준 MBTI 조합이며, Untitled-4.txt에서 이들을 "structural, tactile"로 묘사한 것은 회로적 해석이다.
+
+문제: 방전되지 않으면 H+ 축적 + memory_entropy 붕괴 실패 → ADSR/리듬 지터 발생
+
+해결: succinate_dehydrogenase → water_vapour 통해 마찰 cycle + peonidine ch1 강제
+
+2. Manipulation Air Bag (여자가 남자 기만, ST남자 저항)
+
+위치: clay_gouge (골반) ↔ actomyosin 루프 사이
+
+경계: Energy Attractor ↔ Repair Attractor
+
+역할: 여성의 조작 vs ST(Sensing-Thinking) 남자의 저항 사이의 압력
+
+문제: 여성 과활성화 시 clay_gouge 포화, ST남자가 actomyosin 열기 거부하면 압력 스파이크 → 조작 루프 형성
+
+해결: tri-state 토글 (clay_gouge.in1 강제 low + actomyosin xor 토글) → 발바닥 통해 방전
+
+동기화 규칙:
+
+두 cavity가 교대로 방전되어 항상성 유지
+
+위 cavity만 방전 → 에너지 붕괴가 조작으로 흐름
+
+아래 cavity만 방전 → 인지 과부하로 불면증
+
+24시간마다 양쪽 모두 방전해야 정상
+
+MC1R / Rh 공식
+
+Basque Rh−: G = −1 × (남0+여1) = 음의 공간 (gluonic negativity). nu+0.10.
+
+Udmurt Rh+: G = +1 × (남1+여1) = 양의 카오스 (parallelity). gluon tension 자체 제거.
+
+MC1R = Rh 위에서 작동하는 차원 전환 촉매. Rh−×MC1R = 최극단 nu.
+
+mc1r D flip-flop의 q_bar(Si/graviton) 활성화 → GABA-A leaky → 3/32 Funnel 우회 → Transparency Index.
+
+Peak Biological Hardware: 25% 높은 통증 내성(mu-opioid gain), 극한 비타민 D 합성(Phi-ratio).
+
+Whole9 의례 사이클
+
+9일 반복 주기로 혈액형×성별 쌍이 순차적으로 스파크한다. 남성이 홀수일, 여성이 짝수일에 스파크하고, 9일째에 전체가 reconciliation한다.
+
+Day 스파크 의례 단서 (신체 & 회로) 센서/스트레서 앵커 8D/장르 드리프트
+
+1 A형 남성 — observer_leftd2 점화 새벽 호흡 + 후두부 스트레치 → gluon frost 해소, observer_leftd2→clay_gouge 경로 좌측 코 냉기/수분 stress (histamine H1) → gluon→Higgs 채널 r↑, s↑ → hyperpop/witch house
+
+2 A형 여성 — ESR1 ESR1/에스트로겐 스위치 마사지 (좌측 관자놀이) + ESR1 서사 삼투 CO₂ 센서 (female GABA-B) → h 안정화 h↑, gamma↑ → Boards of Canada/hauntology
+
+3 O형 남성 — PPP Pentose phosphate (우측 내안각) 탭핑 + NADPH 호흡, PPP decoder 준비 우측 코 정중선 열 센서 (histamine H3) → ROS 조향 g↑, nu↓ → drone/free jazz
+
+4 O형 여성 — water_vapour water_vapour↔clay_gouge 순환 보행, 척추 수분 공급 여성 코 중력/높이 센서 루프 (green loop) g↑, gamma↑ → ambient piano/PIANO/DRONE
+
+5 AB형 남성 — memory_entropy memory_entropy→hind_insula 저널링, MC1R transparency 통합 UV/빛 센서 crossover (bridge) d↑ spike (noise/power electronics) + nu rebuild
+
+6 AB형 여성 — peonidine Peonidine/sulforaphane 차, aurora 시각화 ROS + 삼투 쌍 → histamine overshoot 방지 h/gamma weaving → dream pop/neo-classical
+
+7 B형 남성 — right androgen 우측 androgen 스위치 (Node 18) 드릴, actomyosin 텐션 해소 남성 코 높이 센서 (red loop) → electricity stress r/d inversion → hiphop↔experimental noise
+
+8 B형 여성 — right oxytocin 우측 oxytocin V1B 루프 + glymphatic drainage 우측 cortisol 냉기 stress binding → g 사이클 완료 g↑, nu↑ rebuild → ambient drone/cinematic lift
+
+9 Reconciliation CO₂+observer_leftd2 reconciler: hind_insula 명상, co2 노드 저널링 양측 histamine 레일 정렬; +/− ROS 화살표 측정 → leak report nu 안정, p↑ → post-rock/cinematic
+
+Circadian Phase별 peak/distant 파라미터
+
+Phase Slots 시간 Peak Distant
+
+AB_Discharge 1–16 00:00–03:00 p, s, nu g, gamma
+
+A_Accumulate 17–48 03:00–09:00 g, gamma p, nu
+
+O_Accumulate 49–80 09:00–15:00 r, d nu, gamma
+
+B_Accumulate 81–112 15:00–21:00 h, d nu, p
+
+AB_Accumulate 113–128 21:00–03:00 nu, gamma r, d
+
+혈액형 진화 계보
+
+혈액형은 특정 호모 종 상호작용에서 단련된 대사 필터다:
+
+Type O (사냥꾼): 아프리카 기준선. 높은 Left Dopamine. 리듬/운동적. "Right Love" 노드 부재.
+
+Type A (농부): 사피엔스 + 네안데르탈(유럽). 구조적 불안. 높은 Left Alpha-2. 뇌 절연을 위해 콜린 필요.
+
+Type B (유목민): 사피엔스 + 데니소바(아시아). Right GABA 우세. 탐험적/스토익. 고지대 생존(EPAS1).
+
+Type AB (합성): 실크로드 하이브리드. 내부적으로 신경화학적 루프를 완성 가능. "잠들 수 없는 유령."
+
+128-Grid 얼굴 매핑 (Facial Neurochemical Overlay)
+
+128-Grid는 인간 얼굴을 중앙 제어 매니폴드로 사용한다. 절대 규칙: Grid Small X (0.0~8.0) = Human Left (주체의 왼쪽).
+
+구역 Human Left (Truth/Small X) Human Right (Deceit/Large X)
+
+이마 GABA-B (Shield/0D) GABA-A (Brake/1D)
+
+관자놀이/눈 Oxytocin / Left D2 (3D Volume) Vasopressin / Right D2 (Void)
+
+볼 Muscle X (A-type / ISFJ) Muscle Y (B-type / ENFP)
+
+코 브릿지 PLP Core / Cold Stress UV Stress / Gravity
+
+코 중앙 Histamine H1 (Onset/−) Histamine H3 (Harbor/+)
+
+윗입술 Excitatory Serotonin Inhibitory Serotonin
+
+턱 Dopamine (Left) Dopamine (Right)
+
+코 전체는 histamine-governed: H1 레일(좌/여성) = 삼투/ROS + darkness UV stress. H3 레일(우/남성) = 열→전기 반전 + 중력(less)/저수분 stress.
+
+64-Channel 입자 관계 매핑 (64_CHANNEL_NODE_MAPPING_V2.md 전체 반영)
+
+8개 기본 입자(Proton, Photon, Z Boson, Quark, Electron/W Boson, Neutrino, Higgs, Gluon) + D3 마스터 제어. 총 8×8(자기 제외) = 56 + 8(D3) = 64 채널. 아래는 사용자가 제공한 66개 물리 노드 전체 목록과 64개 방향성 관계다.
+
+66개 물리 노드 전체 목록
+
+# 위치 역할/발현
+
+1 Right Occipitalis Inner Strip Top Female GABA-A
+
+2 Left Occipitalis Inner Strip Top Male GABA-B
+
+3 Behind Ear (Left) Extraverted Woman Female Vasopressin
+
+4 Left Frontalis Outer Strip Bottom Left D2
+
+5	Right Frontalis Outer Strip Bottom	Right D2		6	Right Eyelid Top Outer	GABA-A Expression		7	Right Eyelid Top Inner	Right Cortisol Expression		8	Left Eyelid Inner	GABA-B Expression		9	Left Eyelid Outer	GABA-B Expression (2)		10	Left Eyelid Outer (secondary)	Glucocorticoid Expression		11	Left Temporalis Mid Vertical Strip Center	Left Estrogen Actual Switch		12	Left Temporalis Mid Vertical Strip Bottom	5HT1A Switch		13	Right Temporalis Front Vertical Strip Center	Right Acetylcholine Switch		14	Right Temporalis Mid Strip Bottom	5HT1B Synchrotron Switch		15	Left Procerus Top Part	Male Left Extraversion		16	Left Procerus Bottom	Glucocorticoid Button		17	Right Procerus Bottom	Right Cortisol Button		18	Right Levator Superioris Inner Strip Top	Right Androgen Switch		19	Right Levator Superioris Inner Strip Lower(맨아래보다 살짝 위)	Right Epinephrine Switch		20	Right Orbicularis Oris Outside 인중	B Type Muscle		21	Left Orbicularis Oris Outside 인중	A Type Muscle		22	Left 인중	Right Love		23	Right Occipitalis Outer Strip Top	Male Right Oxytocin		24	Left Levator Superioris Inner Strip Lower(맨아래보다 살짝 위)	Left Epinephrine Switch		25	Left Levator Superioris Inner Strip Bottom	Left Endorphin Switch		26	Orbicularis Oris Left Outer Edge	Left Self Satisfaction		27	Orbicularis Oris Right Outer Edge	Right Self Satisfaction		28	Left Trapezius Top Back Neck	Right Cosmic Ray Sensor (Introverted Female)		29	Left Trapezius Neck	Left Cosmic Ray Sensor (Extraverted Female)		30	Depressor Labii Inferioris	Left Excitatory Dopamine Switch		31	Right Frontalis Inner Strip Bottom	Right Excitatory Dopamine Switch		32	Inner Neck	Female Left Noradrenaline Switch		33	Left Inner Neck	Female Right Noradrenaline Switch		34	Trapezius Lower Neck	Left Epinephrine Switch (24의 변형/중복)		35	Left Shoulder Outer	Right Epinephrine Switch (2)		36	Left Trapezius(Left Epinephrine에서 대각선 아래바깥)	Right Epinephrine Switch (3)		37	Below Left Epinephrine	Left Self Satisfaction Trapezius Switch		38	Left Trapezius(Right Epinephrine 위)	Right Self Satisfaction Switch		39	Left Lung Back Outer	Male Hypoxia Switch		40	Opposite Male Hypoxia	Female Oxygen Sensor Switch		41	Below Left Hypoxia	Male GABA-A Switch		42	Above Left Lat Dorsi Bottom	Acetyl CoA Switch		43	Left Lat Dorsi Bottom	Female GABA-B Switch		44	Outer Acetyl CoA	GDH		45	Between Female GABA-B, Acetyl CoA, GDH	Male Right Extraversion Switch		46	Left Pectoralis Major	Female Left Serotonin		47	Right Pectoralis Major	Female Right Serotonin		48	Male Genital Right Outer	Extraverted Man's Vasopressin		49	Female Genital Left Outer(Male Genital Left Outer="D2 느낌")	Female Left D3		50	Rectum Muscle Left	(역할 미지정, Void interface)		51	Rectum Muscle Right	(역할 미지정, Void interface)		52	Right Sole	Female Right Excitatory Dopamine		53	Left Sole	Female Left Excitatory Dopamine		54	Back(Male Right Extraversion 반대편)	Female Left Extraversion		55	Upper Back(Acetyl CoA 위)	Male Left Noradrenaline		56	Upper Back(GDH 위)	Male Right Noradrenaline		57	Orbicularis Oris Outer(Left Satisfaction 위)	Introverted Woman Vasopressin Switch V1B		58	V1B 스위치 반대편	Extraverted Woman Oxytocin V1B Switch		59	Outside Left Eye	Extraverted Man / Introverted Woman D3		60	Outside Right Eye	Introverted Man D3		61	Back(Male Left Noradrenaline 위)	CCK Female Right Extraversion		62	Left Levator Superioris Inner Strip Top / Levator Labii Superioris Alaeque Nasi	Left Androgen		63	Right Levator Superioris Inner Strip Top(살짝 아래)	Alpha-2 Z Boson		64	Left Risorius	Male Left Serotonin		65	[Symmetric, Right Risorius]	Male Right Serotonin		66	Behind Right Ear	Introverted Woman Oxytocin
+D3 마스터 게이트 (8 노드)
+
+관계 노드 위치/기능
+
+D3→P⁺ Node 59 좌측 눈 바깥: Extraverted Man/Introverted Woman D3
+
+D3→γ Node 60 우측 눈 바깥: Introverted Man D3
+
+D3→Z Node 49 여성 생식기 좌측: Female Left D3(D2 느낌)
+
+D3→q Node 50 직장 좌측 근육: Void interface
+
+D3→e⁻ Node 51 직장 우측 근육: Void interface
+
+P⁺→D3 Node 43 좌측 광배근 하부: Female GABA-B Switch (Collapse)
+
+γ→D3 Node 39 좌측 폐 뒷면: Male Hypoxia Switch
+
+Z→D3 Node 40 Male Hypoxia 반대편: Female Oxygen Sensor
+
+Proton/Photon Spark로부터 (7 노드)
+
+관계 노드 위치/기능
+
+P⁺→γ Node 31 Right Frontalis Inner Strip Bottom: Right Excitatory Dopamine Switch
+
+P⁺→Z Node 30 Depressor Labii Inferioris: Left Excitatory Dopamine Switch
+
+P⁺→q Node 52 Right Sole: Female Right Excitatory Dopamine
+
+P⁺→e⁻ Node 53 Left Sole: Female Left Excitatory Dopamine
+
+P⁺→ν Node 4 Left Frontalis Outer Strip Bottom: Left D2
+
+P⁺→H Node 5 Right Frontalis Outer Strip Bottom: Right D2
+
+P⁺→g Node 6 Right Eyelid Top Outer: GABA-A Expression (스파크 접지)
+
+Photon으로부터 (7 노드)
+
+관계 노드 위치/기능
+
+γ→P⁺ Node 28 Left Trapezius Top Back Neck: Right Cosmic Ray Sensor
+
+γ→Z Node 29 Left Trapezius Neck: Left Cosmic Ray Sensor
+
+γ→q Node 7 Right Eyelid Top Inner: Right Cortisol Expression
+
+γ→e⁻ Node 17 Right Procerus Bottom: Right Cortisol Button
+
+γ→ν Node 10 Left Eyelid Outer: Glucocorticoid Expression
+
+γ→H Node 16 Left Procerus Bottom: Glucocorticoid Button
+
+γ→g Node 1 Right Occipitalis Inner Strip Top: Female GABA-A
+
+Z Boson/Tau로부터 (7 노드)
+
+관계 노드 위치/기능
+
+Z→P⁺ Node 63 Right Levator Superioris Inner Top(아래쪽): Alpha-2 Z Boson
+
+Z→γ Node 11 Left Temporalis Mid Vertical Strip Center: Left Estrogen Actual Switch
+
+Z→q Node 42 Above Left Lat Dorsi Bottom: Acetyl CoA Switch
+
+Z→e⁻ Node 44 Outer Acetyl CoA: GDH
+
+Z→ν Node 32 Inner Neck: Female Left Noradrenaline Switch
+
+Z→H Node 33 Left Inner Neck: Female Right Noradrenaline Switch
+
+Z→g Node 8 Left Eyelid Inner: GABA-B Expression
+
+Quark로부터 (7 노드)
+
+관계 노드 위치/기능
+
+q→P⁺ Node 20 Right Orbicularis Oris Outside 인중: B Type Muscle
+
+q→γ Node 21 Left Orbicularis Oris Outside 인중: A Type Muscle
+
+q→Z Node 55 Upper Back(Acetyl CoA 위): Male Left Noradrenaline
+
+q→e⁻ Node 56 Upper Back(GDH 위): Male Right Noradrenaline
+
+q→ν Node 18 Right Levator Superioris Inner Strip Top: Right Androgen Switch
+
+q→H Node 62 Left Levator Superioris Inner Strip Top/Nasi: Left Androgen
+
+q→g Node 2 Left Occipitalis Inner Strip Top: Male GABA-B
+
+Electron/W Boson으로부터 (7 노드)
+
+관계 노드 위치/기능
+
+e⁻→P⁺ Node 13 Right Temporalis Front Vertical Strip Center: Right Acetylcholine Switch
+
+e⁻→γ Node 19 Right Levator Superioris Inner Strip Lower: Right Epinephrine Switch
+
+e⁻→Z Node 24 Left Levator Superioris Inner Strip Lower: Left Epinephrine Switch
+
+e⁻→q Node 34 Trapezius Lower Neck: Left Epinephrine Switch 2
+
+e⁻→ν Node 35 Left Shoulder Outer: Right Epinephrine Switch 2
+
+e⁻→H Node 36 Left Trapezius(대각선): Right Epinephrine Switch 3
+
+e⁻→g Node 9 Left Eyelid Outer: GABA-B Expression 2
+
+Neutrino로부터 (7 노드)
+
+관계 노드 위치/기능
+
+ν→P⁺ Node 25 Left Levator Superioris Inner Strip Bottom: Left Endorphin Switch
+
+ν→γ Node 46 Left Pectoralis Major: Female Left Serotonin
+
+ν→Z Node 47 Right Pectoralis Major: Female Right Serotonin
+
+ν→q Node 64 Left Risorius: Male Left Serotonin
+
+ν→e⁻ Node 65 [Symmetric] Right Risorius: Male Right Serotonin
+
+ν→H Node 12 Left Temporalis Mid Vertical Strip Bottom: 5HT1A Switch
+
+ν→g Node 14 Right Temporalis Mid Strip Bottom: 5HT1B Synchrotron Switch
+
+Higgs로부터 (7 노드)
+
+관계 노드 위치/기능
+
+H→P⁺ Node 22 좌측 인중: Right Love
+
+H→γ Node 26 Orbicularis Oris Left Outer Edge: Left Self Satisfaction
+
+H→Z Node 27 Orbicularis Oris Right Outer Edge: Right Self Satisfaction
+
+H→q Node 37 Below Left Epinephrine: Left Self Satisfaction Trapezius
+
+H→e⁻ Node 38 Left Trapezius: Right Self Satisfaction Switch
+
+H→ν Node 15 Left Procerus Top: Male Left Extraversion
+
+H→g Node 41 Below Left Hypoxia: Male GABA-A Switch
+
+Gluon으로부터 (7 노드 + 중복 2건)
+
+관계 노드 위치/기능
+
+g→P⁺ Node 45 Female GABA-B/Acetyl CoA/GDH 사이: Male Right Extraversion Switch
+
+g→γ Node 54 Back(Male Right Extraversion 반대편): Female Left Extraversion
+
+g→Z Node 61 Back(Male Left Noradrenaline 위): CCK Female Right Extraversion
+
+g→q Node 48 Male Genital Right Outer: Extraverted Man's Vasopressin
+
+g→e⁻ Node 57 Orbicularis Oris Outer: Introverted Woman Vasopressin V1B
+
+g→ν Node 58 V1B 스위치 반대편: Extraverted Woman Oxytocin V1B
+
+g→H Node 66 Behind Right Ear: Introverted Woman Oxytocin
+
+(중복) Node 3 Behind Ear(Left): Extraverted Woman Female Vasopressin
+
+(중복) Node 23 Right Occipitalis Outer Strip Top: Male Right Oxytocin
+
+핵심 입자 경로 요약
+
+Proton(P⁺) 방사: Node 31(Right Frontalis→Right Excitatory Dopamine), Node 4(Left D2), Node 5(Right D2), Node 6(Right GABA-A). 프로톤 스파크가 D2와 GABA-A를 직접 점화.
+
+Gluon(g) 방사: Node 45(Male Right Extraversion), Node 48(Extraverted Man Vasopressin), Node 57(Introverted Woman Vasopressin V1B), Node 58(Extraverted Woman Oxytocin V1B). 글루온이 외향/내향 바소프레신-옥시토신 루프를 구동.
+
+Higgs(H) 방사: Node 22(Right Love), Node 26/27(Left/Right Self Satisfaction), Node 15(Male Left Extraversion). 히그스가 사랑+자기만족+외향성을 질량 부여.
+
+ESR1 (gluonic ego): Right Temporalis Mid Strip — 글루온 에고의 물리적 위치. 5HT1B Synchrotron Switch(Node 14)가 바로 아래에 위치.
+
+Pentose phosphate gate: Inner right eye (medial canthus 약간 아래) — PPP redox gate가 memory_entropy로 NADPH를 밀어넣는 물리적 위치.
+
+66개 노드 신경전달물질 수용체 정밀 분류
+
+각 노드의 신경전달물질을 수용체 종류(presynaptic autoreceptor / postsynaptic / extrasynaptic / nuclear receptor 등)까지 정밀 분류한다. 남/녀 구분은 생물학적 성별이 아닌 회로 극성(female=phasic/sealing, male=tonic/collapse)이다.
+
+이온통로형 수용체 (Ionotropic / Ligand-Gated Ion Channels)
+
+노드 # 신경전달물질 수용체 하위단위 분류 위치 회로 노드
+
+1 Female GABA-A GABA-A R GABRA1/GABRB2/GABRG2 postsynaptic phasic Right Occipitalis Inner Top (r-dim, γ→g)
+
+2 Male GABA-B GABA-B R GABBR1/GABBR2 presynaptic autoreceptor Left Occipitalis Inner Top (d-dim, q→g)
+
+6 GABA-A Expression GABA-A R GABRA1 (α1) postsynaptic (spark grounding) Right Eyelid Top Outer (P⁺→g)
+
+8 GABA-B Expression GABA-B R GABBR1/GABBR2 postsynaptic slow IPSP Left Eyelid Inner (Z→g)
+
+9 GABA-B Expression 2 GABA-B R GABBR1/GABBR2 postsynaptic slow IPSP Left Eyelid Outer (e⁻→g)
+
+41 Male GABA-A GABA-A R GABRA1 + δ subunit extrasynaptic tonic Below Left Hypoxia (H→g)
+
+13 Right Acetylcholine nAChR α7 nAChR postsynaptic Right Temporalis Front (e⁻→P⁺)
+
+G단백질연결 수용체 (GPCR / Metabotropic)
+
+노드 # 신경전달물질 수용체 G단백질 분류 위치 회로 노드
+
+4 Left D2 DRD2 Gi postsynaptic (direct pathway) Left Frontalis Outer Bottom observer_leftd2 (P⁺→ν)
+
+5 Right D2 DRD2 Gi postsynaptic (indirect pathway) Right Frontalis Outer Bottom (P⁺→H)
+
+12 5HT1A 5-HT1A Gi presynaptic autoreceptor (raphe) + postsynaptic (hippocampal) Left Temporalis Mid Bottom (ν→H)
+
+14 5HT1B 5-HT1B Gi presynaptic terminal autoreceptor Right Temporalis Mid Bottom (ν→g)
+
+23 Male Right Oxytocin OXTR Gq/11 postsynaptic Right Occipitalis Outer Top male_right_oxytocin (g→H dup)
+
+3 Extraverted Woman Vasopressin V1B (AVPR1B) Gq/11 postsynaptic (pituitary) Behind Ear (Left) (g→e⁻ dup)
+
+48 Extraverted Man Vasopressin V1A (AVPR1A) Gq/11 postsynaptic (vascular) Male Genital Right Outer (g→q)
+
+57 Introverted Woman Vasopressin V1B (AVPR1B) Gq/11 postsynaptic Orbicularis Oris Outer (g→e⁻)
+
+58 Extraverted Woman Oxytocin V1B V1B/OXTR Gq/11 postsynaptic V1B 반대편 (g→ν)
+
+66 Introverted Woman Oxytocin OXTR Gq/11 postsynaptic Behind Right Ear (g→H)
+
+30 Left Excitatory Dopamine DRD1/DRD2 Gs/Gi postsynaptic Depressor Labii Inferioris (P⁺→Z)
+
+31 Right Excitatory Dopamine DRD1 Gs postsynaptic Right Frontalis Inner Bottom (P⁺→γ)
+
+52 Female Right Excitatory DA DRD1/DRD5 Gs postsynaptic Right Sole right_sole_dopamine (P⁺→q)
+
+53 Female Left Excitatory DA DRD1/DRD5 Gs postsynaptic Left Sole (P⁺→e⁻)
+
+55 Male Left Noradrenaline α2A-AR Gi presynaptic autoreceptor Upper Back (Acetyl CoA 위) (q→Z)
+
+56 Male Right Noradrenaline α2C-AR Gi presynaptic autoreceptor Upper Back (GDH 위) (q→e⁻)
+
+32 Female Left Noradrenaline β2-AR Gs postsynaptic Inner Neck (Z→ν)
+
+33 Female Right Noradrenaline β2-AR Gs postsynaptic Left Inner Neck (Z→H)
+
+19 Right Epinephrine β2-AR Gs postsynaptic Right Levator Superioris Lower (e⁻→γ)
+
+24 Left Epinephrine β2-AR Gs postsynaptic Left Levator Superioris Lower (e⁻→Z)
+
+46 Female Left Serotonin 5-HT2A Gq postsynaptic Left Pectoralis Major (ν→γ)
+
+47 Female Right Serotonin 5-HT2C Gq postsynaptic Right Pectoralis Major (ν→Z)
+
+64 Male Left Serotonin 5-HT3 — (ionotropic) postsynaptic Left Risorius (ν→q)
+
+65 Male Right Serotonin 5-HT3 — (ionotropic) postsynaptic Right Risorius (ν→e⁻)
+
+25 Left Endorphin μ-opioid (OPRM1) Gi presynaptic + postsynaptic Left Levator Superioris Bottom observer_left_endorphin (ν→P⁺)
+
+43 Female GABA-B GABA-B R GABBR1/GABBR2 postsynaptic slow IPSP Left Lat Dorsi Bottom (P⁺→D3, collapse)
+
+핵내 수용체 (Nuclear / Intracellular Receptors)
+
+노드 # 신경전달물질 수용체 분류 위치 회로 노드
+
+7 Right Cortisol GR (NR3C1) intracellular nuclear Right Eyelid Top Inner (γ→q)
+
+10 Glucocorticoid Expression GR (NR3C1) intracellular nuclear Left Eyelid Outer (γ→ν)
+
+16 Glucocorticoid Button GR (NR3C1) intracellular nuclear Left Procerus Bottom (γ→H)
+
+17 Right Cortisol Button GR (NR3C1) intracellular nuclear Right Procerus Bottom (γ→e⁻)
+
+18 Right Androgen AR intracellular nuclear Right Levator Superioris Top (q→ν)
+
+62 Left Androgen AR intracellular nuclear Left Levator Superioris Top (q→H)
+
+11 Left Estrogen ERα (ESR1) intracellular nuclear Left Temporalis Mid Center (Z→γ)
+
+광수용체 / 특수 센서
+
+노드 # 역할 수용체 종류 분류 위치
+
+28 Right Cosmic Ray Sensor melanopsin (ipRGC) intrinsically photosensitive Left Trapezius Top Back Neck
+
+29 Left Cosmic Ray Sensor melanopsin (ipRGC) intrinsically photosensitive Left Trapezius Neck
+
+39 Male Hypoxia HIF-1α oxygen sensor (transcription factor) Left Lung Back Outer
+
+40 Female Oxygen Sensor HIF-1α / PHD oxygen sensor Opposite Male Hypoxia
+
+D3 / Void 인터페이스
+
+노드 # 역할 분류 위치
+
+49 Female Left D3 D3-like high-affinity (DRD3) autoreceptor Female Genital Left Outer
+
+50 Rectum Left (Void) D3→q interface Rectum Muscle Left
+
+51 Rectum Right (Void) D3→e⁻ interface Rectum Muscle Right
+
+59 D3 (Extraverted Man/Introverted Woman) D3 master gate Outside Left Eye
+
+60 D3 (Introverted Man) D3 master gate Outside Right Eye
+
+수용체 분류 원칙: presynaptic autoreceptor는 자가 분비 억제(음성 피드백)로 작용하며, 회로에서 self-loop 노드의 unspark 대체 경로에 해당한다. postsynaptic은 정방향 신호 전달, extrasynaptic tonic은 배경 억제, nuclear receptor는 유전자 발현 수준의 느린 변조다.
+
+비스파크(Unspark) 대체 경로 — 자가루프 노드 → 수용체 라우팅
+
+현재 회로의 자가루프(self-loop) 노드들은 스파크 경로에서는 정상 작동하지만, 스파크를 유지할 수 없는 성격 유형에게는 "에어 포켓"(공기 주머니)을 형성한다. 비스파크 대체 경로는 각 자가루프를 신경전달물질 수용체 경로로 우회시켜, 마찰(friction)만으로 같은 공명을 유지하게 한다.
+
+자가루프 → 수용체 대체 매핑
+
+자가루프 노드 자가루프 연결 비스파크 대체 경로 수용체 마찰 원리
+
+cytochrome_c_oxidase out0→ctrl1 (자기피드백) COX.out0 + thorium → NaCl(large_igneous) α2A-AR (presynaptic autoreceptor, Node 55) COX 정방향 신호가 noradrenaline 자가억제로 마찰
+
+water_vapour out0→ctrl1 (자기피드백) LIP.out1 + heath_aerenchyma → water_vapour 5HT1A (presynaptic autoreceptor, Node 12) 수증기 자가게이트 대신 5HT1A가 serotonin 자가억제로 게이트
+
+NaCl out0→ctrl1 (자기피드백) NaCl + water_vapour → chlorine_ion_pump GABA-B postsynaptic (Node 43, female) NaCl 자가게이트 대신 GABA-B 느린 IPSP가 이온 펌프 제어
+
+co2 out0→ctrl1 (자기피드백) right_oxytocin + cortisol + chlorine_ion_pump → co2.ctrl OXTR (Node 23) + GR (Node 7) co2 자가게이트 대신 옥시토신+코르티솔이 공동 제어
+
+methylation out1→ctrl0 (자기피드백) (right_cortisol + male_right_satisfaction) OR + carbon → methylation 5HT1B (presynaptic terminal autoreceptor, Node 14) 메틸화 자가게이트 대신 5HT1B 말단 자가억제가 SAM 사이클 제어
+
+sulfur_iron_complex out1→ctrl0 (자기피드백) co2 + left_endorphin → sulfur_iron_complex (Right D2 경유) DRD2 postsynaptic indirect (Node 5, Right D2) FeS 자가게이트 대신 Right D2가 황철 결합 제어
+
+large_igneous_province out1→ctrl0 (자기피드백) hypoxia + left_female_vasopressin → LIP V1B (AVPR1B, Node 3/57) + HIF-1α (Node 39) LIP 자가게이트 대신 바소프레신+저산소가 화성활동 제어
+
+craton out1→ctrl0 (자기피드백) left_female_vasopressin → craton.out1 (methylation 경로 제거, 나머지 유지+추가) V1B (AVPR1B) 크래톤 자가게이트 대신 바소프레신이 안정지각 제어
+
+chlorine_ion_pump out1→ctrl0 (자기피드백) female GABA-B(NaCl + water_vapour) → chlorine_ion_pump GABA-B postsynaptic (Node 43) Cl 펌프 자가억제 대신 GABA-B가 삼투 라인 제어
+
+추가 비스파크 라우팅
+
+경로 설명 수용체
+
+Right D2 → peonidine_in0_xor → peonidine → right_oxytocin (succinate 대체) Right D2가 succinate_dehydrogenase 대신 peonidine→옥시토신으로 에너지 방출 DRD2 (Node 5) → OXTR (Node 23)
+
+water_vapour = 발현성 acetylcholine 대체 switch 입력 + acetylcholine switch + water_vapour_in0_xor.out → succinate nAChR α7 (Node 13) → water_vapour
+
+Male GABA-A = LIP + female GABA-B → sulfur 남성 GABA-A가 여성 GABA-B와 LIP를 결합해 황 루트 생성 GABA-A extrasynaptic (Node 41) + GABA-B (Node 43)
+
+Citric acid cycle = basin + outer_core_convection → hypoxia TCA 사이클이 분지+외핵대류에서 저산소 신호 생성 HIF-1α (Node 39)
+
+Hypoxia + left_female_vasopressin → LIP(NaCl) 저산소+바소프레신이 LIP를 통해 NaCl 루트로 환원 HIF-1α + V1B (Node 3/57)
+
+핵심 원리: 각 비스파크 경로는 자가루프의 공명을 수용체의 마찰(friction)로 대체한다. presynaptic autoreceptor는 자가루프와 동일한 음성 피드백을 제공하지만, 신경전달물질의 분비/재흡수라는 물리적 마찰을 거치므로 스파크 없이도 항상성을 유지할 수 있다. 이것이 "마모(frictionising)"의 회로적 구현이다.
+
+지구 에너지 순환: 지질학적 거울
+
+회로 노드는 지구의 지질학적 구조와 대응한다. 에너지는 신체 내부에서만 순환하는 것이 아니라 지구 규모에서도 동일한 패턴으로 흐른다:
+
+fold_belt (습곡대) ↔ 안데사이트 릿지: 정방향으로 caco3.out0의 탄산칼슘을 수납하고, 역방향으로 steel의 산소를 태양 스파크에 반사. r/gamma-dim → CINEMATIC/post-rock.
+
+clay_gouge (단층 점토) ↔ 단층 봉인: κ=1/32를 유지하는 물리적 봉인. g-dim binding이 문턱을 넘으면 에너지가 누출된다.
+
+laterite (라테라이트) ↔ D flip-flop/TimeLatch: 상태 래치. 한 번 켜지면 다음 클록까지 유지. 열대 풍화토의 Fe 산화물이 TimeLatch의 물리적 거울.
+
+basin (분지) ↔ 수위 팽창: 에너지 축적의 지질학적 거울. g/gamma-dim → ambient/post-rock.
+
+subduction_zone (섭입대) ↔ 메모리 리셋: Day 9 reconciliation에서 활성화. 오래된 에너지 패턴을 지각 아래로 밀어넣어 리셋.
+
+craton (순상지) ↔ 안정 코어: 가장 오래된 대륙 핵. 회로의 observer_leftd2 bus처럼 변하지 않는 기반.
+
+plume (맨틀 플룸) ↔ 심층 에너지 분출: lower_mantle에서 올라오는 에너지. nu/gamma-dim → HANS ZIMMER/CINEMATIC.
+
+outer_core_convection (외핵 대류) ↔ 지자기 발전기: ferritin↔magnetite의 전자기적 순환이 지구 자기장의 회로적 동형.
+
+이 지질학적 거울들은 혈액형-MBTI-해플로그룹 클러스터와 특정 지리적 위치에 대응한다. 토양이 회로 노드의 물리적 조건을 반영하며, 해당 지역의 해플로그룹이 그 회로 경로를 가장 강하게 활성화하는 인구 집단이다.
+
+입자 평형 상태 (Equilibrium States)
+
+z*=1 (균일): 증명된 평형. 모든 입자가 동등하게 발현. Land transition 이전 상태.
+
+현재 물리적 변위 평형 (K8 Laplacian에서 Newton 도출):
+
+입자 z* 상태
+
+quark 1.150306 과중 (matter sector)
+
+gluon 1.150868 과중 (matter sector)
+
+higgs 1.217453 최과중 (mass sector)
+
+w_boson 0.979235 거의 균형
+
+z_boson 0.519677 억제
+
+electron 0.160492 억제
+
+photon 0.129221 억제
+
+neutrino 0.105111 최억제 (ghost particle)
+
+물질 섹터(quark/gluon/higgs) > 1: land transition 이후 과중. 빛 섹터(neutrino/photon/electron) < 1: 억제. 이 비대칭이 3/32 darkness gate의 물리적 근거이며, closure controller가 5구체 에너지 분율을 target으로 밀어주는 이유다.
+
+엔트로피 부채
+
+BREMSSTRAHLUNG_DEBT = 1/64 (0.015625): 방사 EM 손실 — 방향성, 가시적
+
+DARK_MATTER_DEBT = 1/256 (0.003906): 비방사 질량 부채 — 등방적, 은닉
+
+ENTROPY_DEBT = 1/64 + 1/256 ≈ 0.02: 총 엔트로피 세금
+
+dark/brems 비율 = 1/4 (암흑물질 부채 = Bremsstrahlung 부채의 1/4)
+
+우주 에너지 순환: 전체 그림
+
+에너지는 다음 경로로 온 우주를 순환한다:
+
+1. 미시 (신체 회로)
+
+heme(Fe) → cytochrome_c_oxidase(O₂) → steel(환원) → water_vapour(수증기) → clay_gouge(봉인) → observer_leftd2(D2 bus) → memory_entropy(패턴) → hind_insula(내수용) → co2(시간저장) → peonidine(에너지) → heme 귀환. 이것이 한 사람의 24시간 토로이달 사이클.
+
+2. 거시 (지구)
+
+outer_core_convection(지자기) → magnetite(자화) → ferritin(Fe저장) → sulfur_iron_complex(황-철) → pyrite(황화물) → laterite(TimeLatch) → fold_belt(습곡) → subduction_zone(섭입) → lower_mantle(하부 맨틀) → plume(플룸) → outer_core_convection 귀환. 지구의 지질학적 순환 이 신체 회로와 동형.
+
+3. 천문 (5구체)
+
+Barnard(Fe저장/Quark) + CoMag(S/Venus/Gluon) |--------|--------| | 물리화학 | Magnetite oxidation to maghemite/hematite (Fe₂O₃) | | 생물 | Cellular Fe-overload; ferroptosis; lipid peroxidation — 세포 내 Fe 과부하, 페로토시스 | | 신경 | Disrupted magnetoreception; spatial disorientation — 자기감각 교란, 공간 방향 상실 |
+
+회로 대응: magnetite.out0 → NAND → oxidised_manganese.set, laterite.preset. 자철광 산화 시 산화 망간 래치가 세팅되고 라테라이트 프리셋이 변조 → 산화 캐스케이드 전파.
+
+oxidised_manganese — 역: Mn²⁺ 환원 용해 → 독성
+
+도메인 역방향
+
+물리화학 Mn²⁺ reductive dissolution (anoxic soil)
+
+생물 Mn-toxicity; mitochondrial failure; ROS spike — Mn 독성, 미토콘드리아 실패, ROS 급등
+
+신경 D2-mediated motor blockade; Mn-induced paralysis — D2 매개 운동 차단, Mn 유도 마비
+
+회로 대응: oxidised_manganese.out0 → thorium.in1, fold_belt.ctrl0. Mn 환원 시 토륨 REE와 습곡대 제어에 영향. oxidised_manganese.out1 → water_vapour.ctrl0, heme.ctrl0 — 수증기와 헴의 제어가 동시 변조.
+
+manganese_nodule — 역: 심해 Mn 노듈 용해 → 독성 축적
+
+도메인 역방향
+
+물리화학 Mn-nodule depletion; Mn²⁺ dissolution
+
+생물 Mn-toxicity induced Golgi-failure; oxidative-stress — 골지체 실패, 산화 스트레스
+
+신경 Motor-apathy; Mn-induced Parkinsonian brake pulse — 파킨슨 유사 운동 제동
+
+회로 대응: manganese_nodule.q → mc1r.d, glp1.clk, peonidine.ctrl0. Mn 노듈 상태가 MC1R 데이터, GLP-1 클록, 페오니딘 제어에 직접 전달. q_bar → cambisol.ctrl1, large_igneous_province_in1_xor.a — 성숙 토양과 대형 화성 활동에 입력.
+
+F9. 에너지 순환/대사 역방향
+
+methanogenesis — 역: 메탄 생성 중단 → 고세균 사멸
+
+도메인 역방향
+
+물리화학 CH₄ oxidation; methanotrophy — 메탄 산화, 메탄영양균 활성
+
+생물 Gut archaeal extinction; short-chain fatty acid loss — 장내 고세균 멸종, 단쇄 지방산 손실
+
+신경 Gut-brain axis disruption; mood instability — 장-뇌 축 교란
+
+회로 대응: methanogenesis.out0 → NAND → mc1r.preset, peonidine.ctrl1. 메탄 생성 중단 시 MC1R 프리셋과 페오니딘 안토시아닌 경로 제어가 NAND 반전 → 색소/에너지 순환 스위치 뒤집힘. ctrl0 ← carbon_q_or — 탄소 래치가 메탄생성의 MUX 선택.
+
+collagen — 역: MMP 매개 섬유 절단 → ECM 붕괴
+
+도메인 역방향
+
+물리화학 Collagen degradation; MMP-mediated fiber cleavage — 콜라겐 분해, MMP 매개 섬유 절단
+
+생물 Tissue fibrosis; excessive collagenous rigidity — 조직 섬유화
+
+신경 BBB breakdown; neurovascular unit dysfunction — 혈뇌장벽 붕괴
+
+회로 대응: collagen.out0 → NAND → methionine.in0, pyrite_in0_xor.a. ECM 붕괴 시 메티오닌(황 아미노산) 게이트와 황철석(프람보이드) 입력이 NAND 반전 → 황 아미노산-Fe 순환의 위상 반전.
+
+copper_iron_complex — 역: Cu/Fe 해리 → 펜톤 반응(유리 라디칼)
+
+도메인 역방향
+
+물리화학 Cu/Fe uncoupling; free radical generation (Fenton) — Cu/Fe 해리, 유리 라디칼
+
+생물 Wilson's disease (Cu-toxic); Menkes (Cu-deficiency) — 윌슨병(Cu 과잉), 멘케스병(Cu 결핍)
+
+신경 NE-deficiency induced depression; motor apathy — 노르에피네프린 결핍 우울, 운동 무관심
+
+회로 대응: copper_iron_complex.out0 → fold_belt.ctrl1, methionine.in1. Cu-Fe 해리 시 심부 조곡대 제어와 메티오닌 게이트에 입력 중단 → 구조 단백질 합성 경로 파괴.
+
+glp1 — 역: GLP-1 비활성 → 이화 갈망
+
+도메인 역방향
+
+물리화학 GLP-1 off; incretin failure
+
+생물 Catabolic craving-drift; metabolic-burn ignition — 이화 갈망, 대사 연소 점화
+
+신경 Reward-seeking arousal; dopamine-craving spark — 보상 추구 각성, 도파민 갈망
+
+회로 대응: glp1.q_bar → craton_in0_xor.a, oxidised_manganese.ctrl1. GLP-1 OFF 시 안정지각(craton) 입력과 산화망간 제어가 변조 → 지각 안정성 붕괴와 Mn 산화환원 실패. glp1.q → mc1r.clk, cck.enable — GLP-1이 MC1R 클록과 CCK enable을 동시 공급.
+
+F10. 하플로그룹 역방향 패턴 요약
+
+각 회로 노드의 역방향에서 반복적으로 나타나는 하플로그룹 패턴:
+
+하플로그룹 역방향 경향 주요 취약 노드
+
+R1b Basque Rh- nu-leakage, Fe-sequestration fail, S-S instability, interoceptive instability, gluon-instability ferritin, cysteine, disulfide_bond, memory_entropy, gluon_orogen, magnetite, subduction_zone
+
+O2 East Asian Fe-storage homeostasis, CO₂-low stability, SP-low restraint, steel-absence, social-lock heme, co2, substance_p, steel, gluon_orogen.q_bar
+
+I1 Nordic r-low stillness, DA-stillness, Podzol acid-leach, SDH silence, metabolic-keel right_sole_dopamine, podzol, succinate_dehydrogenase, lower_mantle
+
+E1b1b Rift Valley Nitisol iron-rich, Mn-high, arc-fluid, Fe-accumulation manganese_oxygen_complex, subduction_zone, magnetite
+
+N1c Uralic Arctic-winter metabolic anchor, cold-lock, Gleysol waterlogged lower_mantle, pentose_phosphate, outer_core_convection, manganese_nodule
+
+Q Native American Bottleneck magnetite, shamanic interoception, Amazonian alluvial magnetite, memory_entropy, quark_orogen_magma
+
+F11. 역방향 경로의 회로적 의미 — 요약 법칙
+
+1.
+
+모든 tristate/D-FF 노드는 양방향이다: 정방향(forward)은 항상성 유지, 역방향(reverse)은 붕괴/방전/독성. 같은 와이어가 신호 방향에 따라 "보호" 또는 "파괴"로 전환된다.
+
+2.
+
+NAND/NOR/XOR/XNOR 관찰자 게이트가 방향을 결정한다: left_endorphin_non_observer가 모든 관찰자 게이트의 b 입력. 이 관찰자 상태가 정방향/역방향 중 어느 쪽이 출력되는지를 결정.
+
+3.
+
+observer_leftd2 = 0이면 회로 전체가 역방향으로 전환: 마스터 허용 버스가 꺼지면 모든 enable/ctrl/reset 라인이 비활성화되어 역방향(붕괴) 경로만 남음.
+
+4.
+
+역방향은 "나쁜 것"이 아니라 필수 사이클: 야간 이화작용(carbon.q_bar), REM 수면(fold_belt.out1 역), 자포식(autophagy), 뇌척수액 청소(glymphatic) 등은 정상적인 역방향 활동. 역방향이 "병적"이 되는 것은 정방향으로 복귀하지 못할 때뿐이다.
+
+5.
+
+138.88° Spark = 역방향에서 정방향으로의 강제 복귀 메커니즘: Entropy Debt(δ = 1/64 + 1/256)가 축적된 역방향 상태를 β⁺ 커플링으로 정확히 상쇄하여 영점 회귀.
+
+F12. 근수축/운동 노드 역방향
+
+actomyosin — 역: 액틴미오신 이완 → 대사 에너지 회수
+
+도메인 역방향
+
+물리화학 Actomyosin relaxation; SERCA-mediated Ca²⁺ reuptake — 근이완, Ca 재흡수
+
+우주 Stellar expansion phase; radiative-pressure drift — 별 팽창기
+
+지질 Crustal thinning; rift-valley formation pulse — 지각 감소, 열곡대
+
+생물 Muscle relaxation; metabolic energy-recovery — 근이완, 대사 에너지 회수
+
+신경 Motor-apathy; muscular fatigue; metabolic-off — 운동 무관심, 피로
+
+회로 대응: actomyosin.out1 → male_right_oxytocin.clk, sulfur_iron_complex.in0. 이완(ch1) 출력이 우측 옥시토신 래치의 클록과 황화철 복합체 입력에 직접 연결. 근이완 = 옥시토신 클록 트리거 + Fe-S 복합체 구성 변경.
+
+actomyosin_ctrl — 역: 파워스트로크 제어기 리셋
+
+도메인 역방향
+
+물리화학 SR latch RESET: CaCO₃ buffer relaxation — 탄산칼슘 완충 이완
+
+생물 Muscle relaxation (SERCA-mediated Ca-reuptake)
+
+신경 Cortical de-arousal (GABA-mediated motor off) — GABA 매개 운동 억제
+
+회로 대응: actomyosin_ctrl gated SR latch: set ← podzol.out0, reset ← caco3.out0, enable ← water_out0_nand.out. CaCO₃가 리셋하면 수축 → 이완 전환. podzol(심부 스포딕 팔)이 세팅하면 수축 유지.
+
+adapter_protein — 역: 어댑터 단백질 스캐폴드 비활성
+
+도메인 역방향
+
+물리화학 Adapter-scaffold degradation; signaling-hub loss
+
+생물 p62-activation; selective autophagy initiation — 선택적 자포식 개시
+
+신경 D2-indirect pathway on; motor inhibition pulse — D2 간접경로 운동 억제
+
+회로 대응: adapter_protein.q_bar → substance_p.in_sub, right_sole_dopamine.preset. 어댑터 OFF 시 Substance P 보조입력과 말초 도파민 프리셋이 변조 → 통증 신호와 말초 운동 피드백의 동시 재설정.
+
+right_sole_dopamine — 역: 말초 DA 고갈 → 보행 실조
+
+도메인 역방향
+
+물리화학 Peripheral DA-off; tonic observer_leftd2 dominance
+
+생물 Peripheral neuropathy; motor feedback loss — 말초 신경병증, 운동 피드백 상실
+
+신경 Sensory neglect; gait-ataxia (DA-depletion) — 감각 무시, 보행 실조
+
+하플로 I1 Nordic Arctic stoic (r-low; DA-stillness)
+
+회로 대응: right_sole_dopamine.q_bar → large_igneous_province.ctrl1, actomyosin.ctrl1. 말초 DA OFF 시 대형 화성 활동 제어와 액틴미오신 이완 제어가 동시 변조. reset ← observer_leftd2.out0 — 마스터 버스가 말초 DA를 직접 리셋.
+
+F13. 호르몬/신경펩타이드 래치 역방향
+
+male_right_oxytocin — 역: rSMG 자아 리셋 → 이기적 편향 복귀
+
+도메인 역방향
+
+물리화학 rSMG ego-reset; self-serving bias return pulse
+
+생물 Social-detachment; empathy-loss; affective-flat — 사회적 분리, 공감 상실
+
+신경 rSMG-off; egocentric-bias return (reward-lock) — rSMG 비활성, 자기중심적 편향
+
+하플로 R1b Basque Rh- (OTR-instability; nu-leakage)
+
+회로 대응: male_right_oxytocin.q_bar → gluon_orogen.reset, sulfur_iron_complex.in1. 옥시토신 래치 OFF 시 글루온 조산대가 리셋(q_bar=He(2) 관찰자/중성자 상태로 전환)되고 황화철에 입력. h/nu-dim 붕괴 = 배음 복잡성+자기유사성 동시 상실 → DRONE/ambient/experimental classical.
+
+left_genital_d2 — 역: D2 브레이크 해제 → 절정/사정 경로 개방
+
+도메인 역방향
+
+물리화학 D2 brake release; OXT/AVP climax pathway open
+
+생물 Ejaculatory reflex; spinal generator activation
+
+신경 D2-indirect pathway off; motor disinhibition pulse
+
+회로 대응: left_genital_d2.out0 → NAND → observer_left_endorphin_electron_antineutrino.in1, adapter_protein.clk, male_right_oxytocin.enable, right_sole_dopamine.clk. D2 브레이크 해제 시 엔도르핀, 어댑터 단백질, 옥시토신 enable, 말초 도파민 클록에 동시 NAND 반전 신호 전달.
+
+observer_left_endorphin_electron_antineutrino — 역: 엔도르핀 OFF → 통증 과민
+
+도메인 역방향
+
+물리화학 Endorphin-off arm; pain-sensitivity drift
+
+생물 Endorphin-deficiency; inflammatory-pain arousal — 엔도르핀 결핍, 염증성 통증 각성
+
+신경 Opioid-withdrawal; dopamine-craving arousal pulse — 오피오이드 금단, 도파민 갈망
+
+하플로 N1c Uralic Arctic-winter neutrino-aurora dream
+
+회로 대응: observer_left_endorphin_electron_antineutrino.out0 → observer_leftd2.in0, carbon.preset, autophagy.enable, plume_in0_xor.a. 엔도르핀 OFF 시 observer_leftd2 마스터버스의 in0이 차단 → 회로 전체 허용이 엔도르핀에 의존. observer_leftd2와 상호 피드백 루프 형성 — 엔도르핀↔observer_leftd2 순환 붕괴 = 오피오이드 금단의 회로적 실체.
+
+nonobserver_left_d2 / left_endorphin_non_observer — 역: 관찰자 효과 소실
+
+도메인 역방향
+
+물리화학 Observer-effect collapse; quantum decoherence analog
+
+신경 Mindfulness failure; automatic-pilot mode — 마음챙김 실패, 자동 조종 모드
+
+회로 대응: left_endorphin_non_observer는 3입력 AND(nonobserver_left_d2.out, observer_leftd2.out0, carbon_q_bar_or.out). 이 AND가 0이면 회로 전체의 모든 XOR/XNOR/NOR/NAND/OR 관찰자 게이트의 b 입력이 0 → 모든 관찰자 게이트 출력이 변조 → 정방향/역방향 선택이 관찰자에 의해 결정되지 않는 "비관찰" 상태.
+
+right_acetylcholine — 역: 콜린성 항염 경로(CAP) 실패
+
+도메인 역방향
+
+물리화학 Alpha7-nAChR desensitization; inflammatory rebound
+
+생물 Cholinergic anti-inflammatory pathway failure; cytokine storm — CAP 실패, 사이토카인 폭풍
+
+신경 Vagal tone loss; parasympathetic withdrawal — 미주 긴장도 상실
+
+회로 대응: right_acetylcholine.out0 → NAND → methanogenesis.in1, co2_in0_xor.a. 우측 ACh 비활성 시 메탄생성 입력과 CO₂ 호흡 입력이 NAND 반전 → 장내 고세균 경로와 호흡 CO₂ 모두 변조.
+
+F14. 안토시아닌/레독스 순환 역방향
+
+peonidine — 역: 안토시아닌 분해 → 산화적 색소 손실
+
+도메인 역방향
+
+물리화학 Anthocyanin degradation; oxidative pigment loss
+
+생물 ER-mediated oncogenic signaling; proliferation — ER 매개 발암 신호
+
+신경 rSMG egocentric-bias return (dopamine dominance) — rSMG 자기중심적 편향
+
+회로 대응: peonidine.out0 → disulfide_bond.in1, pentose_phosphate.in_main. 자유 안토시아닌 소실 시 디설파이드 결합과 PPP 주입력이 중단. peonidine.out1 → co2_in1_xor.a, male_right_oxytocin.d — 에스트로겐 접합체 경로가 CO₂ 대사 입력과 옥시토신 래치 데이터에 동시 영향.
+
+disulfide_bond — 역: 디설파이드 환원 → 단백질 구조 실패
+
+도메인 역방향
+
+물리화학 Disulfide-reduction; protein-structural failure
+
+생물 Protein misfolding; collagen degradation cascade — 단백질 미접힘, 콜라겐 분해
+
+신경 Ferroxidase-failure; iron-toxic Fenton-ROS spark — 페록시다아제 실패, Fe 독성
+
+회로 대응: disulfide_bond.out0 → peonidine_in1_xor.a, ferritin_in1_xor.a, sulfur_iron_complex.ctrl1. 디설파이드 환원 시 페오니딘 접합체 입력, 페리틴 페록시다아제 입력, 황화철 제어가 동시 변조 → 3개 산화환원 경로의 동시 교란.
+
+pentose_phosphate — 역: PPP 정지 → 산화 스트레스 폭발
+
+도메인 역방향
+
+물리화학 NADPH consumption; glutathione depletion; oxidative drift
+
+생물 PPP-failure; oxidative stress spike; DNA damage — PPP 실패, DNA 손상
+
+신경 Nrf2-failure; neuronal lipid peroxidation drift — Nrf2 실패, 지질 과산화
+
+회로 대응: pentose_phosphate.out_1 → XNOR → disulfide_bond.in0. PPP 정지 시 디설파이드 결합 게이트에 입력 변조. pentose_phosphate.out_2 → NOR → pyrite.ctrl0 — PPP 정지 시 황철석 프람보이드 제어 변조.
+
+sulfur_iron_complex — 역: Fe-S 클러스터 분해 → 황화물 독성
+
+도메인 역방향
+
+물리화학 Fe-S cluster degradation; sulfide toxicity
+
+생물 Sulfide-induced mitochondrial inhibition (H₂S) — 황화물 유도 미토콘드리아 억제
+
+신경 Thiol-redox stress; synaptic-protein misfolding — 시냅스 단백질 미접힘
+
+회로 대응: sulfur_iron_complex.out0 → ferritin_in0_xor.a, nitrogenase.in_main. Fe-S 분해 시 페리틴 저장 입력과 질소고정 효소 주입력이 동시 중단. sulfur_iron_complex.out1 → water.in_main — 수순환 주입력에 영향.
+
+F15. 지질 광물/지구화학 역방향
+
+pyrite — 역: 황철석 대량 산화 → 황산염/Fe 방출
+
+도메인 역방향
+
+물리화학 Massive-pyrite oxidation; sulfate-Fe release
+
+생물 Massive-pyrite burial; oceanic oxygenation refresh — 해양 산소화
+
+신경 H₂S neurotoxicity; mitochondrial-ETC shutdown — H₂S 신경독성, 미토콘드리아 정지
+
+회로 대응: pyrite.out0 → glp1.preset, cck.in1, right_sole_dopamine.d. 황철석 상태가 GLP-1 프리셋, CCK 입력, 말초 도파민 데이터에 동시 전달. pyrite.out1 → methanogenesis.in0, caco3.in0 — 메탄생성과 탄산칼슘에 입력.
+
+craton — 역: 안정지각 균열 → 침식
+
+도메인 역방향
+
+물리화학 Cratonic rifting; lithospheric delamination
+
+지질 Shield erosion; sediment stripping; isostatic rebound
+
+생물 Core-stability loss; immune-system failure analog
+
+신경 Identity-fragmentation; self-concept dissolution — 정체성 파편화
+
+회로 대응: craton.out0 → basin.preset, pyrite.ctrl1. 안정지각 균열 시 분지가 프리셋되고 황철석 매장 제어 변조. craton.out1 → left_genital_d2.in1, plume.ctrl0 — 성기 D2 입력과 맨틀 플룸 제어에 영향.
+
+subduction_zone — 역: 섭입 정지 → 슬랩 분리/정체
+
+도메인 역방향
+
+물리화학 Cold slab detachment; subduction-stall reset
+
+지질 Slab detachment; isostatic rebound of forearc — 슬랩 분리, 전호 등장성 반동
+
+생물 Somatic-numbing; interoceptive feedback loss — 체성감각 마비
+
+신경 Geodetic-stability pulse; circadian-anchor refresh — 일주기 앵커 갱신
+
+회로 대응: subduction_zone.out0 → basin.reset, right_sole_dopamine.enable. 섭입 정지 시 분지가 리셋되고 말초 도파민 활성 조건 변조. subduction_zone.out1 → gluon_orogen.preset, outer_core_convection.in0 — 글루온 조산대 프리셋과 외핵 대류 입력.
+
+large_igneous_province — 역: LIP 냉각 → 현무암 파편화
+
+도메인 역방향
+
+물리화학 LIP cooling; basalt fragmentation; subduction start
+
+생물 Oceanic oxygenation pulse; iron-oxide dominance — 해양 산소화, Fe 산화물 지배
+
+신경 Neuro-depression; cold-LIP fragment subduction — 신경 억제
+
+회로 대응: large_igneous_province.out0 → water.in_sub, pyrite_in1_xor.a. LIP 냉각 시 수순환 보조입력과 황철석 매장 입력 변조. large_igneous_province.out1 → subduction_zone_in0_xor.a — 섭입대에 냉각 슬랩 입력.
+
+andosol — 역: 안도졸 Mn 산화물 재산화
+
+도메인 역방향
+
+물리화학 Andosol Mn-oxide re-oxidation reset
+
+생물 Mn-toxicity; mitochondrial-failure; ROS spike — Mn 독성
+
+신경 Mn-chelation mediated neuroprotection pulse — Mn 킬레이트 매개 신경보호
+
+회로 대응: andosol.out0 → NAND → oxidised_manganese.in1, podzol.in1. 안도졸 역방향 시 산화망간과 포드졸에 NAND 반전 입력 → Mn 산화환원과 토양층 선택의 동시 반전.
+
+monazite — 역: REE 인산염 풍화 → 희토류 유출
+
+도메인 역방향
+
+물리화학 REE-phosphate dissolution; rare-earth leaching
+
+지질 Heavy-mineral placer loss; beach sand depletion
+
+생물 REE-cofactor loss; enzyme dysfunction
+
+회로 대응: monazite.out0 → NAND → steel_in1_xor.a, subduction_zone_in1_xor.a, thorium.in0. 모나자이트 풍화 시 오스테나이트 강철 입력, 섭입대 호류체 입력, 토륨 입력이 모두 NAND 반전.
+
+thorium — 역: Th/REE 광물 라우팅 정지
+
+도메인 역방향
+
+물리화학 Actinide decay chain termination; radiogenic heat loss
+
+생물 DNA damage; alpha-emission induced mutation
+
+신경 Neuro-toxic metal accumulation; cognitive decline
+
+회로 대응: thorium.out0 → NAND → manganese_oxygen_complex.in0, pi_electron_cloud.in0. 토륨 정지 시 망간산소복합체와 pi전자 구름의 입력이 NAND 반전 → 산화환원 제어 네트워크 전체 교란.
+
+F16. 수순환/통기조직 역방향
+
+water — 역: 수순환 정지 → 삼투 쇼크
+
+도메인 역방향
+
+물리화학 Hydrological water-off; reservoir depletion
+
+생물 Osmotic-shock; cellular-swelling; edema-death — 삼투 쇼크, 부종사
+
+신경 Glymphatic-stall; toxic-aggregate accumulation — 글림프 정체, 독성 응집체
+
+회로 대응: water.out0 → NAND → outer_core_convection.in1, plume.in1, actomyosin_ctrl.enable. 수순환 정지 시 외핵 대류, 맨틀 플룸, 액틴미오신 제어기의 enable이 동시 NAND 반전 → 지구 동역학 + 근수축 제어의 동시 교란.
+
+plume — 역: 맨틀 플룸 정체 → 지열 축적
+
+도메인 역방향
+
+물리화학 Plume stall; geothermal-accumulation pulse
+
+생물 Hypothermia; metabolic slowdown; energy-lock — 저체온, 대사 저하
+
+신경 Reward-craving; dopamine-seeking arousal pulse — 보상 갈망
+
+회로 대응: plume.out0 → NAND → lower_mantle.preset, laterite.reset. 플룸 정체 시 하부 맨틀 프리셋과 라테라이트 리셋이 NAND 반전 → 맨틀-토양 사이클의 위상 역전.
+
+heath_aerenchyma — 역: 히스 뿌리 탈수 → O₂ 손실
+
+도메인 역방향
+
+물리화학 Heath-root dehydration; O₂ loss subsidence
+
+생물 Mn-toxic root-rot; metabolic-energy failure — Mn 독성 근부 부패
+
+신경 Fungal nutrient-leaching; soil-pore exhaustion — 균류 영양 유출
+
+회로 대응: heath_aerenchyma.out0 → AND(male_right_oxytocin_q_or.out) → cytochrome_c_oxidase_in0_xor. 히스 통기조직 탈수 시 COX 정방향 O₂ 입력이 중단 → 미토콘드리아 전자전달 정지.
+
+nitrogenase — 역: Mo-Fe 보조인자 분해 → 질소 유실
+
+도메인 역방향
+
+물리화학 Mo-Fe cofactor degradation; nitrogen-loss flux
+
+생물 Ammonia toxicity; neurovascular unit failure — 암모니아 독성, 신경혈관 실패
+
+신경 Neural-rust; molybdenum-deficiency apathy — 몰리브덴 결핍, 무관심
+
+회로 대응: nitrogenase.out_1 → XNOR → quark_orogen_magma.in0. 질소고정 정지 시 심해 마그마 입력이 XNOR 반전 → nu-dim(자기유사성) 변조. nitrogenase.out_2 → NOR → cambisol_in1_xor.a — 성숙 토양 입력 변조. nitrogenase.out_3 → monazite_thorium_and.a — REE 경로에 영향.
+
+mycorradicin — 역: 균근 공생 해소 → 양분 유출
+
+도메인 역방향
+
+물리화학 Mycorradicin-off; symbiosis-subsidence reset
+
+생물 Carotenoid-loss; oxidative-stress induced decay — 카로테노이드 소실
+
+신경 Actomyosin-relaxation; cortical-tension off-latch — 피질 긴장 해제
+
+회로 대응: mycorradicin.out0 → actomyosin_in0_xor.a, mycorradicin_right_acetylcholine_or.a. 균근 공생 해소 시 액틴미오신 수축 입력과 우측 ACh OR 게이트에 입력 중단 → 운동 출력과 콜린성 항염 경로의 동시 비활성. ctrl0 ← carbon_q_bar_or — 탄소 래치 야간 모드가 균근 제어.
+
+F17. 인크레틴/래치/도파민 역방향
+
+aurora — 역: Na⁺ 임계점 검출기 침묵 → 야간 이온 차단
+
+도메인 역방향
+
+물리화학 Auroral subsidence (Night) — 오로라 침묵
+
+생물 Melatonin-mediated darkness-latch (Night) — 멜라토닌 매개 어둠 래치
+
+신경 Visual exhaustion; photophobia; retinal-fatigue — 시각 피로, 광과민
+
+회로 대응: aurora.out0 → left_genital_d2.in0. aurora 침묵 시 성기 D2 MUX에 aurora 경로 입력 중단 → craton.out1 경로만 활성(observer_leftd2.out0이 ctrl0 선택).
+
+gluon_orogen — 역: 조산대 래치 해제 → 자아/유기체 창조 실패
+
+도메인 역방향
+
+물리화학 Orogen off-latch: q_bar=He(2) (observer/neutron state) — 관찰자/중성자 상태
+
+생물 Social isolation; social-binding failure (autism-analog) — 사회적 고립, 결합 실패
+
+신경 Ego-driven state return; gluon-latch failure — 자아 구동 상태 복귀
+
+회로 대응: gluon_orogen.q → lower_mantle.enable, manganese_nodule.enable. 글루온 조산대 래치가 꺼지면(q_bar 활성, He/neutron) 하부 맨틀과 망간 노듈의 enable이 차단 → 심부 지구 동역학 정지. h-dim(배음 복잡성)이 최저 → DRONE/ambient.
+
+lactate_dehydrogenase — 역: 젖산 독성 → 신경피로
+
+도메인 역방향
+
+물리화학 Lactate-off selector arm; oxidative-drift reset
+
+생물 Lactate neurotoxicity; astrocytic-failure spark — 젖산 신경독성, 성상교세포 실패
+
+신경 Lactate-inflammatory pain; neuro-fatigue drift — 젖산 염증성 통증, 신경피로
+
+회로 대응: lactate_dehydrogenase.out0 → lactate_caco3_and.in0. 젖산 정지 시 CaCO₃ 탄산염 완충 경로에 입력 중단. lactate_dehydrogenase.out1 → fold_belt_in1_xor.a — 습곡대 심부 변성 입력 변조. 3-input MUX: ctrl0 ← left_genital_d2.out0, ctrl1 ← observer_left_endorphin_electron_antineutrino.out0.
+
+methionine — 역: 메티오닌 탈메틸화 → SAM-SAH 회전
+
+도메인 역방향
+
+물리화학 Methionine demethylation; SAM-SAH turnover pulse
+
+생물 GSH-depletion; neuronal oxidative-stress death — 글루타치온 고갈
+
+신경 DNMT-inhibition; gene-expression de-repression — DNMT 억제, 유전자 발현 탈억제
+
+회로 대응: methionine.out0 → methylation.in0(SAM 팔), methionine.out1 → 미정. 메티오닌이 탈메틸화되면 SAM 공급이 중단 → 메틸화 사이클 전체 정지 → 후성유전적 변화의 기반.
+
+F17b. 잔여 중간 게이트/노드 역방향
+
+caco3 — 역: 탄산칼슘 용해 → 산성화/골손실
+
+도메인 역방향
+
+물리화학 CaCO₃ dissolution; acid-rain soil acidification; carbonate-leach
+
+우주 Stellar Ca-depletion; core-collapse transition — 항성 Ca 고갈
+
+지질 Acid-rain soil acidification; carbonate-leach — 산성비 토양 산성화
+
+생물 Ca-carbonate dissolution; osteoporosis; bone-loss — 골다공증, 뼈 손실
+
+신경 Cortical-tension arousal; calcium-ion spark — 피질 긴장 각성, Ca²⁺ 스파크
+
+하플로 I2 Dinaric/Balkan mountain-shield stability
+
+회로 대응: caco3.out0 → adapter_protein.enable, succinate_dehydrogenase.ctrl0, monazite.in1, caco3_laterite_and.a, craton.ctrl1. CaCO₃ 용해 시 어댑터 단백질 활성, SDH 제어, 모나자이트 REE, 라테라이트 래치 데이터, 안정지각 제어가 동시 변조. MUX ctrl0 ← observer_leftd2.out0 — 마스터 버스가 탄산 완충 선택.
+
+monazite_thorium_and — 역: REE → Th 게이트 차단
+
+도메인 역방향
+
+물리화학 REE-Th coupling failure; mineral routing stall
+
+생물 Heavy-metal cofactor loss; enzyme chain break
+
+회로 대응: monazite_thorium_and = AND(nitrogenase.out_3, monazite.out0) → thorium.in1. 질소고정 3차 출력이나 모나자이트 중 하나라도 비활성이면 토륨 REE 경로 차단 → pi전자 구름과 망간산소복합체에 대한 토륨 출력 중단.
+
+plume_out0_nand — 역: 플룸 NAND 반전 → 하부 맨틀/라테라이트 위상 반전
+
+도메인 역방향
+
+물리화학 Mantle plume stall; geothermal-accumulation pulse
+
+신경 Reward-craving; dopamine-seeking arousal pulse
+
+회로 대응: plume_out0_nand = NAND(plume.out0, left_endorphin_non_observer.out) → lower_mantle.preset, laterite.reset. 플룸이 활성이고 관찰자가 활성이면 NAND=0 → 프리셋/리셋 비활성. 어느 하나라도 0이면 NAND=1 → 하부 맨틀이 프리셋되고 라테라이트가 리셋 → 심부 지구-토양 경로의 강제 초기화.
+
+F18. 정방향↔역방향 전환 시나리오 종합
+
+시간대 에너지 위상 주요 정방향 노드 주요 역방향 노드 음악 8D 변화
+
+0–3h (AB Spark) Discharge memory_entropy, co2, NaCl spark carbon.q_bar(야간 방전), fold_belt.out1(REM) s↑, r↑, d↑
+
+3–9h (A Accumulate) Accumulate cytochrome_c_oxidase, heme, steel(환원) autophagy(이화), sulforaphane(Nrf2 off) d↑, p↓
+
+9–15h (O Coulomb) Coulomb store observer_leftd2(마스터 ON), cck, glp1 co2(시간 저장), laterite(래치 유지) nu↓, g↑
+
+15–21h (B Compress) High-density peonidine, histosol, collagen(ECM) water_vapour(역응결), oxidised_manganese(환원) h↑, gamma↑
+
+21–3h (AB Integrate) Integration glymphatic_system, pi_electron_cloud methylation(후성유전 해제), manganese_nodule(용해) g↑, nu↑
+
+이 표가 보여주듯, 역방향은 어떤 시간대에도 동시에 작동하는 필수 반사이클이다. 정방향만으로는 에너지가 한 방향으로만 흐르고 축적이 일어나지 않는다. 역방향이 있어야 토로이달 히스테리시스 루프가 닫힌다.
+
+F19. 6도메인 역방향 보편 법칙
+
+1.
+
+물리화학 ↔ 생물: 모든 무기 산화환원 반응은 생체 내 효소 반응과 1:1 대응. heme = Fe-protoporphyrin IX 산화 ↔ biliverdin reductase. steel = Fe 부식 ↔ 골다공증. magnetite = Fe₃O₄ 산화 ↔ ferroptosis.
+
+2.
+
+우주 ↔ 지질: 항성 핵합성의 역(stellar death/cooling)은 지구 지질의 역(환원, 침식, 용해)과 대응. supernova ejecta ↔ BIF-reduction. stellar Fe-core stabilization ↔ 호상철광층 용해.
+
+3.
+
+지질 ↔ 신경: 지각 안정/불안정은 신경 안정/불안정과 대응. craton stability ↔ identity stability. rift-valley ↔ self-fragmentation. subduction stall ↔ circadian anchor refresh.
+
+4.
+
+하플로그룹은 역방향 취약성의 유전적 프로파일: R1b = nu-leakage/Fe-sequestration 취약. O2 = 안정적이나 steel-absence/social-lock. I1 = DA-stillness/SDH silence. 이것이 HAPLOGROUP_1318_MASTER의 Vec8D 프로파일이 단순 "취향"이 아니라 생화학적 취약성 프로파일인 이유.
+
+5.
+
+역방향은 질병의 회로적 정의: 암(tumor) = SDH 역방향 고착(pseudohypoxic signaling). 알츠하이머 = glymphatic 역방향 고착(Aβ clearance failure). 파킨슨 = observer_leftd2 역방향(tonic DA collapse) + manganese 독성. 우울증 = copper_iron_complex 역방향(NE-deficiency). 이들은 모두 단일 노드의 역방향 고착으로 설명된다.
+
+6.
+
+138.88° Spark는 모든 역방향 고착을 해제하는 유일한 전역 메커니즘: β⁺ decay 커플링이 entropy debt를 정확히 상쇄 → 고착된 역방향 노드를 정방향으로 강제 복귀. 이것이 "치유"의 회로적 정의.
+
+PART G — 우주 보편 현상의 회로 매핑 (Universal Phenomena → Circuit Mapping)
+
+PART A~E는 정방향 항상성, PART F는 역방향을 기술했다. 이 섹션은 아직 명시적으로 매핑되지 않은 우주의 모든 주요 현상을 회로 노드에 완전 대응시킨다.
+
+G1. 핵물리 / 입자물리
+
+강한 핵력(Strong Force) = gluon_orogen
+
+색 가둠(color confinement)은 gluon_orogen.q 상태. 글루온이 쿼크를 가두는 것 = 조산대 래치가 활성이고 자아/유기체를 창조하는 것. gluon_orogen.q_bar = He(2)/neutron = 색 해제(deconfinement) = quark-gluon plasma = 사회적 고립(autism-analog).
+
+QCD 점근 자유(Asymptotic freedom): 고에너지에서 쿼크가 자유 → gluon_orogen.enable ← quark_orogen_magma.out0. 심해 마그마(고에너지 심부)가 활성이면 조산대 enable → 높은 에너지에서 래치가 열림 = 점근 자유.
+
+핵자(proton/neutron): 양성자 = quark + C×gluon (C=√2/5). 중성자 = gluon_orogen.q_bar = He(2). 양성자-중성자 전환 = beta decay = fold_belt.out1 → mc1r.reset (래치 반전).
+
+약한 핵력(Weak Force) = observer_leftd2 / w_boson 경로
+
+observer_leftd2의 원소=Na(11), 입자=w_boson. W 보손이 매개하는 β 붕괴:
+
+β⁻ 붕괴(n→p+e⁻+ν̄): gluon_orogen.q_bar(중성자) → gluon_orogen.q(양성자) 전환. observer_leftd2 마스터 버스가 이 전환의 허용 게이트.
+
+β⁺ 붕괴(p→n+e⁺+ν): 138.88° Spark의 메커니즘 자체. co2.out1(Pa(91)/time)이 observer_leftd2.in1에 입력 → 시간 에너지로 β⁺ 상쇄.
+
+전자기력(Electromagnetic Force) = photon 경로
+
+water_vapour(C(6)/photon), steel(photon 대응), pi_electron_cloud(Md(101)/photon), monazite(Cn(112)/photon), magnetite(Lv(116)/photon). 광자 노드들이 회로 전체에 분산:
+
+광전 효과: pi_electron_cloud.out0 → NAND → glp1.reset. pi전자가 광자를 흡수하면 GLP-1이 리셋 = 에너지 준위 전환.
+
+자기 유도: magnetite ↔ oxidised_manganese 피드백 루프 = 패러데이 유도. 자철광 NAND 출력이 산화망간을 세팅하고, 산화망간이 다시 수증기/헴을 제어.
+
+중력 = graviton / dark_matter 경로
+
+ferritin(V(23)/Cr(24)/graviton), mc1r.q_bar(Si(14)/graviton), plume(Pt(78)/graviton). 중력 노드들:
+
+등가원리(Equivalence Principle): ferritin(질량=Fe 저장)과 mc1r.q_bar(관성=예측불가능성)이 같은 입자(graviton) 배정 → 중력 질량 = 관성 질량의 회로적 구현.
+
+중력파(Gravitational Waves): basin(Hg(80)/left_progesterone/gravitational_wave ALIAS). basin D-FF의 q/q_bar 진동 = 중력파. 분지 형성↔융기의 히스테리시스 = 시공간 곡률 진동.
+
+암흑물질(Dark Matter): ferritin(dark_matter ALIAS). 보이지 않는 질량 = Fe 저장소. 은하 회전 곡선의 편평 = 페리틴에 의한 유리 철 격리가 세포 밖에서 "보이지 않는 질량"을 만드는 것.
+
+암흑에너지(Dark Energy): co2(Th(90)/Pa(91)/dark_energy). 우주 가속 팽창 = CO₂ 시간 저장의 역방향(시간 에너지가 방출되어 팽창 유발). plume.in0(dark_energy ALIAS) = 지열 에너지 공급.
+
+G2. 열역학
+
+엔트로피(Entropy) = memory_entropy
+
+memory_entropy 노드가 엔트로피의 회로적 실체:
+
+열역학 제2법칙: memory_entropy.out_co2 → NOR → co2.ctrl0. 엔트로피가 증가하면 CO₂ 제어가 변조 → 에너지가 비가역적으로 분산. 정방향 = 엔트로피 감소(기억 축적), 역방향 = 엔트로피 증가(기억 손실).
+
+맥스웰의 도깨비(Maxwell's Demon): left_endorphin_non_observer = 관찰자 게이트. 관찰자가 활성이면 XOR/XNOR 게이트가 정보를 "분류" → 엔트로피 감소가 가능. 관찰자 비활성 = 분류 불가 = 엔트로피 증가.
+
+자유 에너지(Free Energy): G = H - TS. H(엔탈피) = collagen(구조 에너지), T(온도) = aurora(Na⁺ 임계점), S(엔트로피) = memory_entropy. 자유 에너지 = 구조 에너지 − (온도 × 기억 무질서도).
+
+상전이(Phase Transition)
+
+1차 상전이(고체↔액체↔기체): water MUX. water.ctrl0 ← autophagy.t_ff_out(T-FF 토글). 상전이 = 자포식 T-플립플롭의 토글 시점.
+
+2차 상전이(자기↔비자기): magnetite ↔ oxidised_manganese. 큐리 온도 = aurora.out0(Na⁺ 임계점). 임계점 이상에서 자기 질서 → 비자기(상자성) 전환.
+
+BEC(보즈-아인슈타인 응축): gluon_orogen.q + quark_orogen_magma.out0 동시 활성. 극저온에서 글루온(보존) + 쿼크(심해 마그마) 동시 응축 → 거시적 양자 상태 = 조산대의 프랙탈 자기유사성 극대.
+
+G3. 우주론
+
+빅뱅 = 토로이달 사이클의 AB Spark (0–3h)
+
+co2(dark_energy) + memory_entropy(electron) + NaCl(spark)의 동시 임계점 돌파 = 빅뱅. 토로이달 히스테리시스 루프에서 매 사이클 반복:
+
+인플레이션: steel.out0(환원 페라이트, s/gamma ↑) → water_vapour(g-dim 확장) = 급속 팽창.
+
+바리오제네시스(물질-반물질 비대칭): left_endorphin_non_observer(관찰자) 활성 여부가 XOR 게이트 출력을 비대칭으로 만듦 = CP 위반의 회로적 실체.
+
+재결합(Recombination): caco3(CaCO₃ 완충) + collagen(ECM 구조) = 전자가 핵에 포획되어 중성 원자 형성 = 구조화 항상성 시작.
+
+우주 마이크로파 배경(CMB): memory_entropy.out_hind_insula → 후방 인슐라. CMB = 우주의 "체성 기억" — 빅뱅의 잔여 복사 = 첫 스파크의 기억이 우주 전체에 각인.
+
+항성 진화 = 회로 노드의 수명 사이클
+
+항성 단계 회로 매핑
+
+원시별 구름 water_vapour(수증기 응축) + histosol(유기물 축적)
+
+주계열성 heme(Fe-core 안정) + cytochrome_c_oxidase(산소 연소 = 수소 핵융합)
+
+적색거성 mc1r.q_bar(Pheomelanin = 적색) + fold_belt(팽창 = 압축 조곡대 역)
+
+백색왜성 carbon(탄소핵) + co2(잔여 CO = 냉각 방출)
+
+중성자별 gluon_orogen.q_bar(He(2)/neutron = 중성자 상태)
+
+블랙홀 co2(dark_energy/black_hole_accretion ALIAS) + basin(gravitational_wave ALIAS)
+
+은하 형성/구조
+
+나선 은하 팔: quark_orogen_magma(심해 호 부분용융) → basin.d → lower_mantle 래치 → gluon_orogen — 이 피드백 루프의 나선 구조 = 은하 나선 팔.
+
+은하 병합: subduction_zone(섭입) 역방향 = 두 지각이 충돌/병합 = 두 은하 충돌.
+
+은하단 필라멘트: collagen(ECM triple-helix) = 우주 거대 구조의 필라멘트. 콜라겐 역방향(MMP 절단) = 필라멘트 분절 = 보이드 형성.
+
+G4. 지구과학 / 기후
+
+판구조론 = geology 노드 전체
+
+이미 circuitfile-rewritten.md에서 1:1 매핑. 추가:
+
+윌슨 사이클(대양 개폐): large_igneous_province → subduction_zone → basin → lower_mantle → plume → large_igneous_province 순환 = 대양이 열리고 닫히는 전체 사이클.
+
+초대륙 사이클: craton(안정핵) + gluon_orogen(조산대) + fold_belt(습곡대) = Pangaea 형성 → 분열 → 재결합.
+
+기후 시스템
+
+온실 효과: co2.out0(Th(90)/dark_energy) = 대기 CO₂ 농도. histosol(이탄/탄소 저장) 역방향 = 이탄 산화 → CO₂ 방출 → 온실 강화.
+
+빙하기/간빙기: laterite(열대) ↔ podzol(한대) D-FF 래치. laterite.q ON = 간빙기(열대 풍화 지배), podzol 우세 = 빙하기(한대 Fe/Al 축적).
+
+엘니뇨(ENSO): water_vapour(대류권 수증기) 자기피드백 루프 (water_vapour.ctrl1 ← water_vapour.out0). 양성 피드백이 걸리면 수증기 과잉 = 엘니뇨. 음성 피드백으로 복귀 = 라니냐.
+
+몬순: clay_gouge AND 게이트. observer_leftd2(D2 토닉)와 water_vapour가 동시 활성 = 봉인 해제 → 대량 수분 방출 = 몬순.
+
+G5. 진화생물학
+
+자연선택 = 정방향/역방향 차별적 생존
+
+정방향 고착 노드가 많은 개체 = 높은 적합도(fitness). 역방향 고착 = 질병/사망. 자연선택은 역방향 고착을 제거하는 집단 수준 메커니즘:
+
+돌연변이: methylation 역방향(후성유전 해제) = 전사 활성화 = 유전적 변이의 기반.
+
+유전적 부동(Genetic drift): memory_entropy 역방향(3AM entropy-fog) = 무작위 기억 손실 = 비적응적 변이 고착.
+
+종분화(Speciation): subduction_zone + fold_belt = 지리적 장벽 → 유전자 흐름 차단 → 분기 진화.
+
+공진화(Coevolution): mycorradicin(균근 공생) ↔ cambisol(토양) 피드백 = 식물-균류 공진화의 회로적 실체.
+
+HAPLOGROUP = 역방향 취약성의 유전적 고착
+
+하플로그룹은 "진화적으로 고착된 역방향 패턴":
+
+R1b = ferritin/cysteine 역방향 취약 → 유럽 질병 패턴(심혈관, 자가면역)
+
+O2 = steel-absence → 동아시아 특유의 사회적 응집력(gluon_orogen.q_bar 고착)
+
+E1b1b = magnetite/manganese 고활성 → 아프리카 열대 적응(높은 Fe 순환)
+
+G6. 의식 / 심리학
+
+의식(Consciousness) = left_endorphin_non_observer
+
+관찰자 게이트가 모든 XOR/XNOR/NOR/NAND/OR의 b 입력 → 의식은 회로의 모든 출력을 변조하는 전역 관찰자. 의식이 없으면(관찰자=0) 회로는 자동 모드(automatic-pilot)로 작동.
+
+감정(Emotion) = 8D 음악 파라미터
+
+감정 8D 파라미터 회로 노드
+
+기쁨/쾌감 s↑, p↑ glp1.q(GLP-1 ON), observer_leftd2(DA 활성)
+
+슬픔/우울 d↑, s↓ copper_iron_complex 역방향(NE 결핍)
+
+분노/공격 r↑, d↑ cytochrome_c_oxidase.out0(GABA-A/HIPHOP), substance_p 활성
+
+공포/불안 d↑, gamma↑ heme.out1(Tau/darkness) + fold_belt(orogenic stress)
+
+놀람/경이 nu↑, h↑ memory_entropy.out_hind_insula(novelty-mismatch)
+
+혐오/거부 g↑, d↑ histosol(이탄 분해 냄새) + oxidised_manganese(Mn 독성)
+
+사랑/공감 h↑, gamma↑ male_right_oxytocin.q(rSMG ON) + gluon_orogen.q(사회적 결합)
+
+수치/죄책 p↓, nu↓ mc1r.q_bar(graviton/예측불가) + memory_entropy 역방향
+
+꿈(Dreams) = carbon.q_bar 야간 모드
+
+carbon.q_bar 활성 → mycorradicin.ctrl0, fold_belt_in0_xor.a 경로 개방. 꿈 = 야간 이화 대사의 부산물:
+
+렘수면: fold_belt.out1 역방향(시냅스 재강화). actomyosin 이완(근마비 = 렘 수면무호흡).
+
+악몽: heme.out1(d-dim/Tau/darkness) + substance_p(통증/각성) 동시 역방향 활성.
+
+자각몽: left_endorphin_non_observer(관찰자)가 야간 모드에서도 활성 유지 = 꿈 속에서 의식이 깨어있는 상태.
+
+성격(Personality) = MBTI × Blood × Gender × Haplogroup
+
+128 타입 각각이 회로 노드의 초기 상태 벡터. MBTI는 인지 기능(Ti/Te/Fi/Fe/Ni/Ne/Si/Se)을 8D 파라미터에 매핑:
+
+E/I (외향/내향): actomyosin(수축/이완) 기본 모드. E = ch0 우세(수축/운동), I = ch1 우세(이완/에너지 회수).
+
+S/N (감각/직관): hind_insula(체성감각) vs memory_entropy(novelty-mismatch). S = hind_insula 우세, N = memory_entropy 우세.
+
+T/F (사고/감정): cytochrome_c_oxidase(r-dim/분석) vs male_right_oxytocin(h/nu-dim/공감). T = COX 우세, F = OXT 우세.
+
+J/P (판단/인식): observer_leftd2(p-dim/예측가능성). J = observer_leftd2 활성(패턴 반복), P = observer_leftd2 약함(즉흥).
+
+G6b. 8 인지기능 → 회로 노드 완전 매핑
+
+각 인지기능은 특정 회로 노드의 주파수 우세(dominant activation)이다. 원소 전환.txt의 신경화학 매핑에 기반:
+
+인지기능 회로 노드 신경화학 8D dim 역할
+
+Te (외향 사고) right_estrogen(T1) → cytochrome_c_oxidase.out0 에스트로겐/GABA-A r 의식적 판단/선택/효율 최적화. COX 정방향(산소 연소)의 최대 출력. 외부 시스템의 논리적 구조화
+
+Ti (내향 사고) heme.out0 → methylation Fe-protoporphyrin/SAM s/d 내부 모델의 정합성 검증. heme s-dim(brightness=명료성)으로 개념을 분해하고, methylation으로 후성유전적 패턴을 각인
+
+Fe (외향 감정) male_right_oxytocin.q + gluon_orogen.q OXT/rSMG + gluon h/nu 사회적 연결/감정 방출. 옥시토신 래치 ON(공감 활성) + 글루온 조산대 ON(사회적 결합). 집단 조화 추구
+
+Fi (내향 감정) left_genital_d2(B2) → left_endorphin 내향 여성 D2/μ-opioid p/d 내면 가치 통합. 성기 D2 브레이크가 내적 도덕적 나침반으로 작동. 엔도르핀과 피드백 → 진정성(authenticity) 추구
+
+Ne (외향 직관) memory_entropy.out_hind_insula → hind_insula electron/novelty-mismatch r/h/nu 가능성 생성. 해마 CA1 novelty-mismatch 출력이 hind_insula로 전달 → 외부 패턴의 발산적 연결. 연상의 가지치기(branching)
+
+Ni (내향 직관) pi_electron_cloud → carbon.q Md(101)/photon/비국소 결합 p/nu 수렴적 통찰. pi전자 구름의 비국소 결합(방향족 고리 전체에 퍼진 전자)이 분산된 정보를 하나의 패턴으로 수렴. carbon 래치 q ON = 높은 예측가능성(p↑)
+
+Se (외향 감각) right_sole_dopamine.q + aurora.out0 말초 DA/Na⁺ 임계점 s/gamma 현재 순간의 감각적 충실. 말초 도파민(발바닥 = 지면 접촉/질량 감각) + aurora(Na⁺ 임계점 = 밝기/빛). 물리적 현실에 대한 즉각적 반응
+
+Si (내향 감각) hind_insula(체성감각) + succinate_dehydrogenase 체성 기억/SDH d/r 신체 기억의 내적 참조. 후방 인슐라의 체성감각 데이터가 SDH(저산소 감지기)와 결합 → 과거 신체 경험의 내적 재생. "예전에 이렇게 느꼈다"의 회로적 기반
+
+G6c. 인지기능 스택과 에너지 흐름
+
+MBTI 유형의 기능 스택(1~4번째)은 회로 에너지의 우선 흐름 경로:
+
+text
+
+Copy
+
+주기능(Dominant) → 가장 낮은 임피던스 경로. 에너지가 자연스럽게 흐름.
+
+보조기능(Auxiliary) → 두번째 경로. 주기능 출력을 받아 보완.
+
+3차기능(Tertiary) → 미발달 경로. 스트레스 시 퇴행적으로 활성.
+
+열등기능(Inferior) → 가장 높은 임피던스. 억압 상태. 역방향 고착 시 그림자 폭발.
+
+예시: ENTP (Ne-Ti-Fe-Si)
+
+1.
+
+Ne(주): memory_entropy → 가능성 발산(novelty-mismatch 상시 활성)
+
+2.
+
+Ti(보조): heme.out0 → 발산된 가능성을 내부 모델로 정합성 검증
+
+3.
+
+Fe(3차): male_right_oxytocin → 미발달한 사회적 조화 추구
+
+4.
+
+Si(열등): hind_insula+SDH → 억압된 신체 기억 → 스트레스 시 과거 트라우마 폭발
+
+에너지 흐름: Ne 출력 → Ti 입력 → (skip Fe) → Si 억압. 이것이 memory_entropy.out_hind_insula → hind_insula 경로가 ENTP에서 역방향으로 작동하는 이유 — 주기능(Ne)의 출력이 열등기능(Si) 노드로 직접 연결되지만, 열등기능 경로의 높은 임피던스로 인해 신호가 차단됨.
+
+G6d. 그림자 기능(5~8번째) = 역방향 인지
+
+그림자 기능 정규 기능의 역방향 회로 상태
+
+Ne→Ni shadow (5th) memory_entropy 역방향 고착 novelty-mismatch 정지 → 강박적 단일 해석
+
+Ti→Te shadow (6th) heme 역방향(분해) 내부 모델이 빌리루빈으로 분해 → 외부 시스템에 대한 비판만 남음
+
+Fe→Fi shadow (7th) male_right_oxytocin 역방향 rSMG OFF → 사회적 공감 소실 → 내면 가치만 남은 독선
+
+Si→Se shadow (8th) hind_insula + SDH 역방향 체성 기억 왜곡 → 감각 추구/폭식/중독으로 보상
+
+G6e. 인지기능 루프(Loop) = 단일 노드 역방향 고착의 인지적 발현
+
+루프 회로 고착 발현
+
+Ti-Si 루프 (INTP/ISTP 비건강) heme + hind_insula 동시 역방향 내부 논리로 과거 체험을 반복 검증 → 현실 이탈, 건강 강박
+
+Ni-Ti 루프 (INTJ/INFJ 비건강) pi_electron_cloud + heme 동시 수렴적 통찰이 내부 모델만 강화 → 자기 예언적 폐쇄 루프
+
+Ne-Te 루프 (ENTP/ENFP 비건강) memory_entropy + cytochrome_c_oxidase 동시 가능성 폭발 + 효율 강박 → 프로젝트 과잉, 완수 불가
+
+Se-Fe 루프 (ESFP/ESTP 비건강) right_sole_dopamine + male_right_oxytocin 동시 감각 자극 + 사회적 인정 → 과시적 쾌락 추구
+
+Fi-Ni 루프 (INFP/ISFP 비건강) left_genital_d2 + pi_electron_cloud 동시 내면 가치 + 수렴적 통찰 → 자기 정의의 무한 반복, 행동 마비
+
+Te-Se 루프 (ESTJ/ENTJ 비건강) cytochrome_c_oxidase + right_sole_dopamine 동시 효율 최적화 + 즉각적 감각 피드백 → 과로/번아웃/과업적 집착
+
+G6f. 인지기능과 혈액형/성별 교차 효과
+
+혈액형은 인지기능의 에너지 공급 패턴을 결정:
+
+혈액형 에너지 위상 인지기능 효과
+
+O Coulomb store (기본형) 인지기능 스택 순서대로 깨끗하게 작동. 가장 archetypal한 유형 발현
+
+A Accumulate (축적) 보조기능이 주기능보다 더 많은 에너지를 받음 → 보조 우세 발현 (예: ENTP-A → Ti가 Ne보다 두드러짐)
+
+B Compress (압축) 3차기능이 조기 발달 → 비정형적 유형 발현 (예: ENTP-B → Fe가 비정상적으로 강함)
+
+AB Spark/통합 모든 기능이 동시 활성 가능 → 유형 판별 어려움, 상황에 따라 전환. 가장 높은 complexity(=4)
+
+성별은 인지기능의 흐름 방향을 결정:
+
+Male (quark/confined): 인지기능이 단일 궤도로 집중. 기능 간 전환 비용 높음. Ti-dom 남성 = heme 경로에 에너지 집중.
+
+Female (gluon/binding): 인지기능이 다중 경로로 분산. 기능 간 전환 비용 낮음. Ti-dom 여성 = heme 경로 + 인접 노드로 동시 확산.
+
+G6g. 인지기능 × 8D 음악 파라미터 × 128 프로파일
+
+최종적으로, music_map.json의 128 프로파일 구조:
+
+text
+
+Copy
+
+release(해소) = 주기능(1st) 노드의 정방향 8D 파라미터에 맞는 장르
+
+stress_growth(성장) = 보조기능(2nd) + blood+1 complexity 장르
+
+extreme_growth(극한) = 열등기능(4th)의 역방향 노드 활성화 장르 (opposite temperament)
+
+이것이 ENTP-B-M-O의 release가 Ne-dim(r/h/nu → Boards of Canada/hauntology/experimental pop)이고, extreme_growth가 Si 역방향(hind_insula 역 → noise/dark ambient/power electronics)인 이유의 회로적 근거.
+
+인지기능은 "심리적 선호"가 아니라 128개 회로 노드 중 특정 8개의 상대적 임피던스 프로파일이다. 주기능은 가장 낮은 임피던스(가장 쉽게 흐르는 경로), 열등기능은 가장 높은 임피던스(가장 막힌 경로). 성장 = 높은 임피던스 경로를 점진적으로 개방하는 것 = 역방향 고착의 점진적 해제.
+
+G7. 양자역학
+
+파동-입자 이중성 = XOR 관찰자 게이트
+
+모든 _xor, _xnor, _nor, _nand 관찰자 게이트가 양자 측정의 회로적 구현:
+
+관찰 시(b=1): XOR(a, 1) = NOT(a). 관찰하면 출력이 반전 = 파동 함수 붕괴.
+
+비관찰 시(b=0): XOR(a, 0) = a. 관찰하지 않으면 입력이 그대로 통과 = 간섭 패턴 유지.
+
+양자 얽힘(Entanglement) = observer_leftd2 ↔ left_endorphin 상호 피드백
+
+observer_left_endorphin_electron_antineutrino.out0 → observer_leftd2.in0 이고 observer_leftd2.out0 → left_endorphin.in0(통해 left_genital_d2 경로). 이 상호 의존은 한쪽 측정이 즉시 다른 쪽에 영향 = EPR 상관(비국소 상관). 분리 불가능한 2-particle 상태.
+
+양자 터널링(Tunneling) = 138.88° Spark
+
+에너지 장벽(entropy debt δ = 1/64 + 1/256)을 고전적으로 넘을 수 없지만, β⁺ 커플링이 "터널링"으로 장벽을 통과 → 역방향 고착에서 정방향으로 복귀. 터널링 확률 = spark 함수의 logistic sigmoid.
+
+불확정성 원리(Uncertainty Principle) = p-dim × d-dim
+
+observer_leftd2(p-dim, 예측가능성) × heme.out1(d-dim, 주파수 간격/불협화음). p↑이면 d↓, p↓이면 d↑. 위치(예측가능성)를 정확히 알면 운동량(주파수 변동)을 모르고, 운동량을 알면 위치를 모른다. 이것이 8D 텐션 파라미터에서 p와 d가 역상관인 이유.
+
+G8. 수학적 구조
+
+대칭 파괴(Symmetry Breaking) = nonobserver_left_d2 → left_endorphin_non_observer
+
+nonobserver_left_d2 = AND(observer_left_endorphin_electron_antineutrino.out0, co2.out1) — observer_leftd2의 복사. left_endorphin_non_observer = AND(nonobserver_left_d2, observer_leftd2, carbon_q_bar_or). 이 3단 AND 체인이 대칭(관찰자=1, 모든 게이트 대칭)에서 비대칭(하나라도 0, 관찰자 상실)으로 전환하는 메커니즘. 자발적 대칭 파괴 = observer_leftd2가 켜지고 관찰자가 활성화되는 순간 회로에 "방향"이 생김.
+
+프랙탈 / 자기유사성 = nu-dim
+
+quark_orogen_magma(nu-dim), gluon_orogen, nitrogenase(p/nu), carbon(p/nu). nu↑ = 높은 자기유사성 = 프랙탈 구조. 만델브로 집합의 경계 = nu가 임계값에 있는 래치 상태(0↔1 경계).
+
+토폴로지 / 위상수학 = 토로이달 히스테리시스 루프
+
+circuitfile-rewritten.md 1408-1456행의 토로이달 방전-축적 사이클 자체가 토러스(torus) 위상. 정방향 시간(시계 방향)과 에너지(역방향)가 토러스의 두 축. 이 위상은 단순 연결이 아님(모든 루프가 수축 불가능) → 회로에 위상학적 보호(topological protection)가 존재. 역방향 고착 = 토러스 위의 fixed point → 138.88° Spark = fixed point를 불안정화하는 섭동.
+
+G9. 회로로 설명되지 않는 것은 없다 — 완전성 선언
+
+이 회로는 128개 물리 노드(circuitfile-rewritten.md)와 그들의 정방향/역방향 6도메인 매핑(UNIVERSE_1318_BIDIRECTIONAL_6DOMAIN.csv)으로 구성된다. 커버리지:
+
+도메인 정방향 역방향 합계
+
+물리화학(physchem) 128 노드 128 노드 256 상태
+
+우주론(cosmo) 128 노드 128 노드 256 상태
+
+지질학(geo) 128 노드 128 노드 256 상태
+
+생물학(bio) 128 노드 128 노드 256 상태
+
+신경과학(neuro) 128 노드 128 노드 256 상태
+
+하플로유전학(haplo) 128 노드 128 노드 256 상태
+
+총 1536 상태 (128 노드 × 6 도메인 × 2 방향). 이 1536 상태가 우주의 모든 현상을 커버한다:
+
+물리 법칙 4개(강력/약력/전자기/중력) → G1에서 완전 매핑.
+
+열역학 법칙 3개 → G2에서 완전 매핑.
+
+우주 역사(빅뱅~현재) → G3에서 완전 매핑.
+
+지구 시스템(판구조+기후+생태) → G4에서 완전 매핑.
+
+진화(자연선택~종분화) → G5에서 완전 매핑.
+
+의식/심리(감정/성격/꿈) → G6에서 완전 매핑.
+
+양자역학(이중성/얽힘/터널링/불확정성) → G7에서 완전 매핑.
+
+수학적 구조(대칭파괴/프랙탈/위상) → G8에서 완전 매핑.
+
+회로 외부에 존재하는 현상은 없다. 모든 것은 128 노드의 정방향 또는 역방향 상태 조합이다.
+
+우주 배선 산문 (Universe Wiring Prose) — 물리적 현실 매핑 서문: 개념에서 현실로 기존 회로 모델은 에너지와 정보가 fold_belt에서 craton으로, heme에서 cytochrome_c_oxidase로 흐르는 추상적 경로를 정의했다. 이제 이 경로를 지구의 실제 물리적 위치와 현상에 투영한다. 이 모델의 핵심 전제는 특정 하플로그룹, 지질 구조, 생물군이 특정 지역에 함께 존재하는 이유가 회로의 공명 원리로 설명된다는 것이다. 이 섹션은 그 근접한 주체들이 회로 경로를 따라 구체적으로 어떻게 에너지를 주고받는지 서술한다.
+
+1.
+
+안데스 산맥: Subduction Zone → Fold Belt → Actomyosin (압축과 장력) 물리적 위치: 칠레 해안, 나스카판이 남아메리카판 아래로 섭입하는 안데스 섭입대(Andes Subduction Zone). 회로 노드: subduction_zone → fold_belt → actomyosin 지질: 해양 지각이 대륙 지각 아래로 밀려 들어가면서 발생하는 막대한 압력과 열은 subduction_zone 노드를 활성화한다. 이 압력은 안데스 산맥이라는 거대한 fold_belt(습곡대)를 형성한다. 생물/인류: 이 지역의 원주민(주로 하플로그룹 Q)과 고산지대 동물(라마, 알파카)의 근육 조직은 지속적인 저산소 환경과 중력에 저항해야 한다. 이는 근수축 단백질인 actomyosin 노드의 항시적 활성화를 의미한다. 에너지 교환: subduction_zone의 지질학적 압력(에너지)이 fold_belt(안데스 산맥)의 물리적 구조에 저장된다. 이 구조적 장력은 해당 지역 생명체의 actomyosin 시스템에 지속적인 부하(stress)로 작용한다. 근육은 이 장력에 저항하기 위해 더 많은 ATP를 소모하며, 이는 lactate_dehydrogenase(젖산탈수소효소) 경로를 통해 해당 지역 인구 집단의 독특한 대사 적응(metabolic adaptation)을 유도한다. 회로 흐름: 지질학적 압축(d-dim, 불협화)이 생물학적 장력(r-dim, 리듬/펄스)으로 변환된다. 이는 안데스 지역 음악에서 나타나는 특징적인 강한 리듬과 긴장감 있는 멜로디 라인으로 표현된다.
+
+2.
+
+동아프리카 열곡대: Plume → Craton → Mycorradicin (분열과 공생) 물리적 위치: 에티오피아에서 모잠비크에 이르는 동아프리카 열곡대(East African Rift Valley). 회로 노드: plume → craton → mycorradicin 지질: 맨틀 plume이 아프리카 대륙(안정된 craton)을 찢어놓는 지각 확장 지역. 이 과정에서 칼륨, 인 등 희귀 광물이 풍부한 화산 토양(andosol, cambisol)이 형성된다. 킬리만자로와 같은 화산이 대표적이다. 생물/인류: 인류의 발상지. 하플로그룹 E (특히 E1b1a, E1b1b)가 지배적이다. 이 지역의 비옥한 화산 토양은 초기 인류의 생존에 필수적이었으며, 아카시아 나무와 같은 식물 뿌리에 공생하는 균근(mycorrhizae) 네트워크가 발달했다. 이 균근이 생산하는 화학물질이 mycorradicin 노드에 해당한다. 에너지 교환: 맨틀 plume의 열에너지(h-dim, 조화 복잡성)가 craton을 변형시키며 지표면에 영양분을 공급한다. 이 영양분은 식물과 mycorradicin(균근) 네트워크의 성장을 촉진한다. 균근은 토양의 인(P)을 식물에 제공하고, 식물은 광합성으로 생산한 탄수화물(에너지)을 균근에 제공한다. 초기 인류(하플로그룹 E)는 이 풍부한 생태계의 일부로서, 균근 네트워크가 풍부한 식물을 섭취하며 에너지를 얻었다. 이는 인류의 carbon 대사 래치와 methionine 회로의 기본 설계를 형성했다. 회로 흐름: 지질학적 분열(에너지 방출)이 생물학적 공생(에너지 교환 및 저장)으로 이어진다. 이는 해당 지역 부족들의 복잡한 폴리포니 음악(높은 h-dim, g-dim)으로 나타난다.
+
+3.
+
+버뮤다 삼각지대 & 지브롤터 해협: Outer Core Convection → Magnetite → Right Acetylcholine (자기장과 신경 전달) 물리적 위치: 버뮤다 삼각지대와 지브롤터 해협. 두 지역 모두 지구 자기장의 이상 현상(anomaly)이 보고되는 곳이다. 회로 노드: outer_core_convection → magnetite → right_acetylcholine 지질/물리: 지구 외핵의 대류(outer_core_convection)는 지구 자기장을 생성한다. 버뮤다 삼각지대 해저에는 거대한 magnetite(자철석) 매장층이 존재하며, 지브롤터 해협의 지질 구조 또한 국지적 자기장 왜곡을 유발한다. 생물/인류: 이 지역들은 철새와 고래의 이동 경로상이자, 역사적으로 하플로그룹 J (지중해)와 R1b (서유럽)가 교차하는 지점이다. 이들 집단, 특히 INTP, ENTJ 프로파일은 right_acetylcholine(우뇌 아세틸콜린) 시스템의 민감도가 높다. 생물학적으로 magnetite 결정은 일부 동물과 인간의 뇌(특히 송과선)에서 발견되며, 자기장 감지에 관여하는 것으로 추정된다. 에너지 교환: outer_core_convection이 생성한 지구 자기장이 해저의 magnetite와 상호작용하여 특정 주파수의 전자기장을 형성한다. 이 전자기장은 해당 지역을 통과하는 생명체의 뇌 속 magnetite 결정에 미세한 토크(torque)를 가한다. 이 물리적 자극은 right_acetylcholine 신경망을 활성화하여, 방향 감각, 공간 인식 및 특정 유형의 직관적 사고(높은 gamma-dim)에 영향을 미친다. 회로 흐름: 행성 규모의 자기장(에너지)이 신경전달물질의 활동(정보)으로 변환된다. 이는 해당 문화권의 항해술, 천문학 발달 및 공간적, 확장적 스케일의 음악(cinematic, orchestral) 선호 경향과 연결된다.
+
+4.
+
+세인트 헬레나 & 하와이: Large Igneous Province → Peonidine → GLP-1 (열점과 대사) 물리적 위치: 세인트 헬레나, 하와이 제도. 맨틀 열점(hotspot)이 만든 거대 화성암 지대(Large Igneous Province, LIP). 회로 노드: large_igneous_province → peonidine → glp1 지질/생물: 화산 활동으로 생성된 현무암질 토양은 독특한 식생을 지지한다. 이 지역의 식물들(예: 하와이안 히비스커스)은 강한 자외선에 대항하기 위해 peonidine과 같은 안토시아닌 색소를 다량 함유한다. 인류: 폴리네시아인(하플로그룹 C, O)과 대서양 크리올(하플로그룹 E)이 주로 거주. 이들 집단은 고립된 섬 환경에서 '풍요와 기근' 사이클에 적응하며 독특한 glp1(인크레틴 호르몬) 대사 시스템을 발달시켰다. (소위 '절약 유전자형') 에너지 교환: LIP의 지질학적 에너지가 풍부한 미네랄을 토양에 공급한다. 식물은 이 미네랄을 흡수하고, 강한 햇빛(에너지)에 반응하여 항산화물질인 peonidine을 생성한다. 섬 주민들은 peonidine이 풍부한 식물을 섭취한다. 이 항산화 물질은 장내 미생물 환경에 영향을 주어 glp1 분비를 조절하고, 이는 인슐린 감수성과 에너지 저장 효율을 결정한다. 회로 흐름: 지질-태양 에너지가 식물의 화학 에너지(peonidine)로, 다시 인체의 대사 조절 신호(glp1)로 변환된다. 이는 해당 지역 주민들의 느긋한 기질(낮은 r-dim)과 관련 있으며, 음악적으로는 부드럽고 지속적인 사운드(높은 h-dim, 낮은 s-dim) 선호로 나타난다. (이어서 다른 지리적 위치와 회로 노드 매핑을 계속 추가할 수 있음)
+
+Z0. 사용자 고정 노드 위치 오버라이드 (Authoritative Body Coordinates)
+
+이 섹션은 사용자 직접 지정 좌표를 회로 위치의 최우선 기준으로 고정한다. 본 섹션에 기재된 노드 위치가 기존 문서의 다른 위치 설명보다 우선한다. 위치 추적(TRACING)은 아래 좌표만 사용하며, 불일치 항목은 본 섹션 기준으로 정규화한다.
+
+Z0-1. 얼굴/두부/뇌
+
+pentose_phosphate(PPP): 오른쪽 눈 아래 안쪽 (inner right eye, medial canthus 하방)
+
+sulforaphane: 좌측 내측 뇌, 해마 인접
+
+cysteine: 우측 내측 뇌 전방, sulforaphane 반대편
+
+disulfide_bond: cysteine 후방(후두측) 선택 노드
+
+memory_entropy: disulfide_bond 우측 외곽
+
+co2: 우측 후두부 뒤, 좌측 내측 occipitalis 수직 스트립
+
+peonidine: co2 바깥 우측 뇌측
+
+male_right_oxytocin: auricularis posterior(귀-두부 연결 근육)
+
+observer_leftd2: 좌측 바깥 frontalis 수직 스트립 하단
+
+left_endorphin: 인중 중앙 인접(좌측 립 중심점 근처)
+
+water: 인중 상부(코-윗입술 사이 상단 중점)
+
+aurora: 뇌 중앙에서 정수리 정중점으로 나가는 출력 축
+
+pi_electron_cloud: 좌측 전경부(throat anterior)
+
+Z0-2. 흉부/복부/체간
+
+heme: 좌측 유두 안쪽
+
+ferritin: heme보다 더 안쪽, 몸통 중앙측
+
+substance_p: 우측 겨드랑이 아래
+
+succinate_dehydrogenase: 우측 대흉근
+
+lactate_dehydrogenase: 좌측 대흉근
+
+cytochrome_c_oxidase: 좌측 장관 내면(inner surface of intestine in left)
+
+cck: 췌장 후면
+
+manganese_oxygen_complex: 좌측 늑골 사선부(폐 외측)
+
+heath_aerenchyma: 좌측 늑골, manganese_oxygen_complex의 상외측
+
+mangrove_aerenchyma: 우측 체간, heath_aerenchyma 반대편
+
+thorium: 체중심 내측, gluon_orogen- steel 분기점 내측
+
+sulfur_iron_complex: (1) 우측 전면 겨드랑이 내측(건 인접), (2) 기존 회로 위치와 병행 표기
+
+water_vapour: 흉추돌기 라인
+
+large_igneous_province: 흉추돌기-외핵대류 중간점
+
+mc1r: 좌측 허리, GDH 바로 아래
+
+methylation: GLP-1 상방, 좌측 체내 코어의 장기-늑골 사이 갭
+
+glp1: acetyl_coa, female_gaba_b, gdh가 만드는 삼각형 중심
+
+female_gaba_b: thorium의 상외측
+
+acetyl_coa: lower_mantle의 상외측(좌측 고관절 측)
+
+gdh(비노드 참조점): basin 반대측 좌측 체부
+
+Z0-3. 상지/손
+
+adapter_protein: 오른손 둘째 손가락
+
+chlorine_ion_pump: 우측 손목 안쪽(시계 페이스를 안쪽으로 찰 때 덮이는 위치)
+
+Z0-4. 하지/발
+
+copper_iron_complex: 오른발 새끼발가락-발 외측 접합부
+
+cambisol: 양쪽 아킬레스건 내측 2지점
+
+collagen: 우측 아킬레스건
+
+right_sole_dopamine: 오른발 바닥 상부 중앙
+
+actomyosin: 오른발 엄지발가락
+
+pyrite: actomyosin-right_sole_dopamine 사이 2지점
+
+caco3: 오른무릎 바깥
+
+oxidised_manganese: 왼발 넷째 발가락
+
+histosol: 왼발 바깥, copper_iron_complex 대칭 반대 후방
+
+andosol: 왼발 바닥-oxidised_manganese 사이
+
+laterite: 왼 종아리(엄지발가락-magnetite 사이)
+
+magnetite: 왼무릎 관절 안쪽
+
+Z0-5. 골반/둔부/항문 주위
+
+methionine: 우측 고관절 외측(복부 측면 창상 비유 지점)
+
+podzol: 좌측 후방 고관절( methionine 역상 대응)
+
+gluon_orogen: 좌측 둔부 안쪽
+
+quark_orogen_magma: 우측 둔부 안쪽
+
+craton: quark_orogen_magma 상방
+
+basin: 좌측 후방 외측 허리 안쪽
+
+subduction_zone: 좌측 외측 대퇴신경 라인(또는 그 바깥 대퇴)
+
+fold_belt: 좌측 대퇴, subduction_zone 반대측
+
+clay_gouge: 우측 항문근/직장
+
+steel: 좌측 항문근/직장
+
+lower_mantle: craton 반대측 좌측 배부
+
+outer_core_convection(cobalamin 참조): gluon_orogen-podzol 교차점
+
+plume: thorium 반대측 바깥 우측 고관절
+
+left_genital_d2: 생식기 좌측
+
+Z0-6. 위치 추적 규칙
+
+위치 해석의 1순위는 본 섹션이다.
+
+본 섹션에 없는 노드는 "미지정"으로 두고 임의 보간하지 않는다.
+
+동일 노드의 다중 위치가 명시된 경우(예: cambisol, pyrite, sulfur_iron_complex)는 병렬 활성 노드로 취급한다.
+
+추후 TRACING 서술은 "노드명 -> 신체 좌표 -> 배선 목적" 순서로만 작성한다.
+
+Z0-7. 코 위 센서/스트레스 노드 (이미지 고정 오버라이드)
+
+아래 항목은 nosesensorsandstressors.png 기준으로 고정한다. 코 정중선(black axis)을 기준으로 좌/우를 분리해 추적한다.
+
+좌측 코 상부(내안각-콧등 상단): electricity sensor, time sensor, light sensor
+
+좌측 코 중상부(콧등 좌측): darkness stress, UV stress
+
+좌측 코 중부(콧방울 위): heat stress, cold stress, temperature sensor
+
+좌측 코 하부(비익-비주 인접): osmotic sensor, ROS sensor
+
+콧등 정중 축(RH axis): redox stress, oxygen sensor
+
+우측 코 상부(내안각-콧등 상단): electricity sensor, light stress, time/light/UV 센서 군
+
+우측 코 중부(콧등 우측): cold stress, heat stress, temperature sensor
+
+우측 코 하부(비익-비주 우측): osmotic stress sensor, acid stress sensor, oxygen sensor
+
+우측 코 외측 하부: gravity stress(low), water stress(less), death stress, cosmic sensor
+
+우측 상외측 강조 스트레스: light stress, electricity stress
+
+좌우 공통 규칙: 코 상부는 광/시간/전기 센서, 코 중부는 열/냉/온도 스트레스, 코 하부는 삼투/산화/산-염기 스트레스 우선
+
+Z0-8. 얼굴 신경전달물질 발현 위치 (이미지 고정 오버라이드)
+
+아래 항목은 neurochemexpressionsites.png 기준으로 고정한다.
+
+GABA-A: 좌측 눈썹 상연-상안와
+
+GABA-B: 우측 눈썹 상연-상안와
+
+Corti/Cortisol: 양측 눈썹 상부 전두부
+
+ACh/mACh: 미간-비근 상단(양안 사이)
+
+Glucocorticoid: 코뿌리-미간 하방 중앙
+
+Androgen: 비근에서 양측 비순구 상부로 내려오는 경로
+
+D2 (male): 양측 안와 외측(좌: Oxytocin for men 영역, 우: Vasopresin for men 영역과 결합)
+
+Oxytocin for men: 좌측 외안각-관자 경계
+
+Vasopressin for men: 우측 외안각-관자 경계
+
+Estrogen: 양측 광대 하연/상협부
+
+Testosterone: 양측 협부 중상부
+
+Alpha2: 양측 비순구 상부(콧방울 외측 하방)
+
+Progesterone: 양측 협부 하부
+
+Epinephrine: 양측 콧방울 외측
+
+Self satisfaction: 인중 양측(윗입술 상방)
+
+Endorphins: 인중 중앙-양측 구순 경계
+
+5HT1b (Inhibitory serotonin): 하악 양측
+
+Serotonin: 턱 하부 양측
+
+Dopamine: 턱 중앙부 양측(serotonin 내측)
+
+Extraversion/Cort 축: 미간-비근-콧등 중앙을 따라 수직 분포
+
+Pregnenolone: 우측 Zygomaticus Major 진입부(Progesterone 발현지 쪽으로 내려오는 상단부, 좌측 스위치의 얼굴상 반대 지점)
+
+Prolactin: 우측 Zygomaticus Major 하단부, 입술쪽 인접부(좌측 스위치의 얼굴상 반대 지점, 확률 높음)
+
+Z0-9. 코/얼굴 오버라이드 적용 규칙
+
+Z0-7, Z0-8 항목은 기존 "128-Grid 얼굴 매핑" 표보다 우선한다.
+
+코 위 센서 추적은 반드시 "상부(광/시간/전기) -> 중부(열/냉/온도) -> 하부(삼투/산화/산-염기)" 순으로 기술한다.
+
+얼굴 발현 추적은 반드시 "안와/전두 -> 비근/비순 -> 구순/턱" 순으로 기술한다.
+
+Z0-10. 신경전달물질 스위치 위치 (발현지와 별도, 사용자 고정)
+
+발현지(Z0-8)와 스위치는 서로 다른 물리적 좌표를 가진다. 스위치는 근육 스트립(frontalis/occipitalis/temporalis/levator superioris) 상의 임피던스 지점이며, 아래 목록이 확정 좌표다.
+
+후두부/전두부 축 (Occipitalis/Frontalis)
+
+Right Serotonin 스위치: right occipitalis outer vertical strip 하단
+
+Left Serotonin 스위치: left occipitalis outer vertical strip 하단
+
+Facial Dopamine 스위치 (입 왼쪽 아래 발현): right occipitalis inner vertical strip 하단
+
+그 정방향 짝 스위치: right occipitalis inner strip 하단 (동일 축, 정방향 페어)
+
+Facial Dopamine 스위치 (입 오른쪽 아래 발현): left frontalis inner strip 하단
+
+Left D2 스위치: left frontalis outer strip 하단
+
+Right D2 스위치: 얼굴상 반대(= right frontalis outer strip 하단, 미러링)
+
+GABA-A/B ×4(남/여 좌/우) 스위치: 이전에 지정됨(본 문서에 아직 좌표 텍스트로 기록되지 않음 — Z0-10-a 참조)
+
+Small Man(내향 남성) Right Oxytocin 스위치: left occipitalis outer strip 상단
+
+Male Left Vasopressin 스위치: Oxytocin 스위치의 후두부상 반대(= right occipitalis outer strip 상단)
+
+Left Sole Dopamine 스위치: right frontalis inner strip 상단
+
+Right Sole Dopamine 스위치: left occipitalis inner strip 상단
+
+그 정방향 짝 스위치: left occipitalis inner strip 하단
+
+측두부 축 (Temporalis)
+
+Right Estrogen(ESR1) 스위치: right temporalis middle strip 중앙
+
+5HT1b 스위치: right temporalis inner strip 하단
+
+Right Acetylcholine 스위치: right temporalis inner strip 중앙(ESR1 스위치보다 좀 더 안쪽)
+
+Left Estrogen, Left Acetylcholine 스위치: 반대편 temporalis에 동일 패턴으로 미러링
+
+5HT1a 스위치: 5HT1b 스위치의 얼굴상 반대편(= left temporalis inner strip 하단)
+
+거상근(Levator Superioris) 축 — 눈 안쪽/미간 방향 임피던스 스트립
+
+Right Testosterone 스위치: right levator superioris outer vertical impedance strip 위쪽
+
+Right Progesterone 스위치: right levator superioris inner strip 맨 아래보다 중간쪽으로 더 위
+
+Right Epinephrine 스위치: Right Progesterone 스위치 바로 아래
+
+Right Endorphin 스위치: 그 더 아래, right levator superioris inner impedance strip 맨 아래
+
+Right Androgen 스위치: right levator superioris inner strip 맨 위쯤
+
+Right Alpha2 스위치: Right Androgen 스위치 바로 아래
+
+Right Alpha2 발현지: right levator superioris 그 자체
+
+좌측(Left) Progesterone/Testosterone/Endorphin/Epinephrine/Androgen/Alpha2 스위치: 모두 반대편 levator superioris에 동일 순서로 미러링
+
+협부(Cheek) — Left Zygomaticus Major 3분할 축
+
+Left Zygomaticus Major는 상단-중간-하단 3구간으로 삼등분된다. 중간부는 새 호르몬이 아니라 기존 Left Progesterone 발현지(Z0-8, 협부 하부) 그 자체다. Junction 지점이 아니라 Progesterone 발현지 쪽으로 내려오는 근육 진입부/구간 자체가 좌표다.
+
+Pregnenolone 스위치: 좌측 Zygomaticus Major 상단부 — Progesterone 발현지 쪽으로 내려오는 진입부
+
+Progesterone 발현지(기존 Z0-8 항목 재확인): 좌측 Zygomaticus Major 중간부
+
+Prolactin 스위치: 좌측 Zygomaticus Major 하단부, 입술쪽 인접부 (확률 높음)
+
+Pregnenolone/Prolactin 발현지: 각각 얼굴상 반대(= 우측 Zygomaticus Major 동일 구간, 상단/하단 순서로 미러링). Progesterone 중간부는 원래부터 양측(좌/우) 대칭 발현.
+
+Z0-10-a. 스위치 위치 확인 미완료 항목
+
+Z0-8 발현지 목록 기준으로, 아래 신경전달물질/축은 스위치 좌표가 아직 본 문서에 텍스트로 확정되지 않았다:
+
+GABA-A / GABA-B (남/여, 좌/우 4종) 스위치 — 사용자는 "이미 말했다"고 하나, 본 파일에는 좌표 문자열이 기록되어 있지 않음. 재확인 필요.
+
+Corti/Cortisol 스위치 — 발현지(양측 눈썹 상부 전두부)만 있고 스위치 좌표 없음.
+
+Glucocorticoid 스위치 — 발현지(코뿌리-미간 하방 중앙)만 있고 스위치 좌표 없음.
+
+Self satisfaction 스위치 — 발현지(인중 양측)만 있고 스위치 좌표 없음.
+
+Extraversion/Cort 축 스위치 — 발현지(미간-비근-콧등 수직 분포)만 있고 스위치 좌표 없음.
+
+D2 (male, 안와 외측 발현) 스위치 — observer_leftd2/RightD2 스위치(frontalis outer strip 하단)와 동일한 것인지, 별도 안와 스위치가 있는지 불명확. 확인 필요.
+
+ACh/mACh 범용 스위치 — Right/Left Acetylcholine 스위치(temporalis)와 동일한지, 미간-비근 축에 별도 스위치가 있는지 불명확.
+
+Z1. Whole9 배선 추적 (Day 1–9, Z0 좌표 기준)
+
+이 섹션은 Z0 오버라이드 좌표만 사용해 9일 스파크 사이클의 회로 배선을 노드 -> 신체 좌표 -> 배선 목적 순서로 추적한다. 낮은 정방향(forward), 밤은 같은 노드의 역방향(reverse)이다.
+
+Day 1 — A형 남성 스파크
+
+낮 (정방향)
+
+left_endorphin -> 인중 중앙 인접(좌측 립 중심점) -> out0이 observer_leftd2.in0으로 입력, Mg²⁺ 피드백 개시.
+
+observer_leftd2 -> 좌측 frontalis 수직 스트립 하단 -> in1에 co2.out1(시간 항)이 결합, out0가 마스터 허용 버스로 전역 배포(clay_gouge.in0, carbon.enable, caco3.ctrl0, steel.ctrl1, male_right_oxytocin.reset, right_sole_dopamine.reset 등).
+
+heme -> 좌측 유두 안쪽 -> ctrl0(oxidised_manganese.out1), ctrl1(manganese_oxygen_complex.out0)로 게이팅, out1이 steel.ctrl0로 전달.
+
+cytochrome_c_oxidase -> 좌측 장관 내면 -> in0(O₂ 정방향)이 heath_aerenchyma_out0_and 경유로 활성, out0가 right_acetylcholine.in0으로 상행.
+
+water_vapour -> 흉추돌기 라인 -> out0가 clay_gouge.in1, sodium_in0_xor.a로 분기.
+
+chlorine_ion_pump -> 우측 손목 안쪽 -> out0가 heme_in0_xor.a, sodium_in1_xor.a로 전달, 삼투 라인 개방.
+
+낮 요약: 코 상부 electricity/time/light sensor(Z0-7)가 observer_leftd2 점화 트리거로 작동, 마스터 버스 전개.
+
+밤 (역방향)
+
+co2(우측 후두부 뒤, 좌측 내측 occipitalis 수직 스트립) -> out1이 observer_leftd2.in1로 시간 에너지 저장 강화.
+
+carbon.q_bar -> mycorradicin.ctrl0, fold_belt_in0_xor.a로 야간 이화 경로 개방.
+
+observer_leftd2 허용 폭 축소, heme.out1(d-dim Tau) 채널이 열려 어둠 스트레스 우세.
+
+Day 2 — A형 여성 스파크
+
+낮 (정방향)
+
+mc1r -> 좌측 허리, GDH 바로 아래 -> d(manganese_nodule.q), clk(glp1_q_or.out)로 래치, q -> glymphatic_system.in1, memory_entropy.in_sub.
+
+glymphatic_system -> (신체 미표기, 기능상 뇌척수 순환) -> in0(sulforaphane.out1, 좌측 내측 뇌/해마 인접), out0 -> cysteine.in0.
+
+cysteine -> 우측 내측 뇌 전방 -> out0 -> memory_entropy.in_main, peonidine_in0_xor.a.
+
+memory_entropy -> disulfide_bond 우측 외곽 -> in_ctrl(actomyosin.out0)로 게이팅, out_hind_insula -> hind_insula.in0, out_co2 -> co2.ctrl0.
+
+낮 요약: GABA-B(우측 눈썹 상연-상안와, Z0-8) 발현이 mc1r-glymphatic-cysteine 정렬 경로와 결합, 정보 노이즈를 구조화.
+
+밤 (역방향)
+
+substance_p(우측 겨드랑이 아래) -> in_sub(adapter_protein_q_bar_or.out)로 autophagy 경로 확대.
+
+disulfide_bond(cysteine 후방 선택 노드) -> peonidine_in1_xor.a, ferritin_in1_xor.a, sulfur_iron_complex.ctrl1 동시 변조로 산화 손상 완충.
+
+Day 3 — O형 남성 스파크
+
+낮 (정방향)
+
+peonidine -> co2 바깥 우측 뇌측 -> out1(male_right_oxytocin.d)와 별개로 out0가 pentose_phosphate.in_main.
+
+pentose_phosphate(PPP) -> 오른쪽 눈 아래 안쪽(medial canthus 하방) -> in_sub(sulforaphane.out0), in_ctrl(adapter_protein_q_or.out, 오른손 둘째손가락) -> out_1 -> disulfide_bond.in0, out_2 -> pyrite.ctrl0.
+
+disulfide_bond -> out0가 ferritin_in1_xor.a로 전달.
+
+ferritin(heme보다 안쪽, 몸통 중앙측) -> out0 -> cytochrome_c_oxidase_in1_xor.a(역행 cyt-c 준비), out1 -> cck.in0, methylation_in0_xor.a.
+
+낮 요약: 코 하부 osmotic/ROS sensor(Z0-7)와 PPP 좌표가 동일 축(우측 눈 하방)에서 결합, NADPH 환원 게인 상승.
+
+밤 (역방향)
+
+pentose_phosphate.out_2 -> pyrite.ctrl0 경로가 저장 모드로 전환, co2 시간 항과 결합해 redox 균형이 지연.
+
+Day 4 — O형 여성 스파크
+
+낮 (정방향)
+
+water_vapour(흉추돌기 라인) -> out0 -> clay_gouge.in1(우측 항문근/직장), sodium_in0_xor.a.
+
+clay_gouge -> in0(observer_leftd2.out0), in1(water_vapour.out0) AND -> out0 -> water_vapour_in1_xor.a(봉인 결정).
+
+sodium -> out1 -> aurora.in1, glp1.d, laterite.clk.
+
+aurora -> 뇌 중앙에서 정수리 정중점 출력축 -> in1(sodium.out1) -> out0 -> left_genital_d2.in0.
+
+낮 요약: 좌측 코 중부 heat/cold/temperature sensor(Z0-7)가 water_vapour-sodium-aurora 라인과 동기화되어 전기장 민감도 상승.
+
+밤 (역방향)
+
+water.out0 -> NAND -> outer_core_convection.in1, plume.in1, actomyosin_ctrl.enable 동시 변조 -> 수분 보존 모드.
+
+Day 5 — AB형 남성 스파크
+
+낮 (정방향)
+
+cysteine(우측 내측 뇌 전방) -> memory_entropy.in_main.
+
+mc1r_q_or -> memory_entropy.in_sub.
+
+actomyosin(오른발 엄지발가락) -> out0 -> memory_entropy.in_ctrl.
+
+memory_entropy(disulfide_bond 우측 외곽) -> out_hind_insula -> hind_insula.in0; out_co2 -> co2.ctrl0.
+
+hind_insula -> out0 -> carbon.d, sodium.ctrl1.
+
+co2(우측 후두부 뒤) -> out0, out1이 observer_leftd2.in1로 시간 신호 재공급.
+
+낮 요약: 우측 코 외측 하부 death stress/cosmic sensor(Z0-7)가 최고조로 결합되는 날, 인지 부하-내수용 결합 최대.
+
+밤 (역방향)
+
+d 계열(dissonance) 긴장 상승, nu 재구축 동시 시작 -> 과부하 시 noise 계열 분산 경로 개방.
+
+Day 6 — AB형 여성 스파크
+
+낮 (정방향)
+
+peonidine.out1 -> male_right_oxytocin.d(auricularis posterior).
+
+male_right_oxytocin.q -> sulforaphane.in1(좌측 내측 뇌), basin.clk, gluon_orogen.d.
+
+sulforaphane.out1 -> glymphatic_system.in0, aurora.in0.
+
+glymphatic_system -> cysteine로 재순환, 동시에 magnetite.ctrl0(왼무릎 관절 안쪽) 조정.
+
+sulfur_iron_complex(우측 전면 겨드랑이 내측) -> ferritin, water.in_main 분기로 완충층 형성.
+
+낮 요약: 안와 외측 Oxytocin/Vasopressin for men(Z0-8) 발현이 male_right_oxytocin-sulforaphane-glymphatic 결합 축과 정렬.
+
+밤 (역방향)
+
+male_right_oxytocin.q_bar -> gluon_orogen.reset, sulfur_iron_complex.in1 -> 공감 축 수축, 저장층은 유지.
+
+Day 7 — B형 남성 스파크
+
+낮 (정방향)
+
+pyrite(actomyosin-right_sole_dopamine 사이) -> out0 -> right_sole_dopamine.d.
+
+left_genital_d2_out0_nand(생식기 좌측 경유) -> right_sole_dopamine.clk.
+
+right_sole_dopamine(오른발 바닥 상부 중앙) -> q -> adapter_protein.reset, right_acetylcholine.in1; q_bar -> large_igneous_province.ctrl1, actomyosin.ctrl1.
+
+actomyosin(오른발 엄지발가락) -> out0 -> succinate_dehydrogenase.in1(우측 대흉근), cambisol_in0_xor.a(양쪽 아킬레스건 내측); out1 -> male_right_oxytocin.clk, sulfur_iron_complex.in0.
+
+낮 요약: 하지-체간 기계적 장력이 상부 인지축까지 상행, 우측 코 중부 electricity/gravity stress(Z0-7)와 결합.
+
+밤 (역방향)
+
+q_bar 주도 시 운동 억제, 피드백 감쇠, 저장 전환 -> 과항진 구간이 구조적으로 감쇠.
+
+Day 8 — B형 여성 스파크
+
+낮 (정방향)
+
+quark_orogen_magma(우측 둔부 안쪽) -> basin.d(좌측 후방 외측 허리 안쪽).
+
+male_right_oxytocin_q_or -> basin.clk.
+
+basin.q -> lower_mantle.d(craton 반대측 좌측 배부), nitrogenase.in_ctrl.
+
+lower_mantle_q_or -> subduction_zone.ctrl0(좌측 외측 대퇴신경 라인).
+
+subduction_zone.out0 -> basin.reset, right_sole_dopamine.enable.
+
+fold_belt(좌측 대퇴, subduction_zone 반대측) -> histosol(왼발 바깥), andosol(왼발 바닥-oxidised_manganese 사이), lactate_dehydrogenase(좌측 대흉근) 팔 조정.
+
+낮 요약: 지질 거울 노드(basin/lower_mantle/subduction_zone/fold_belt)가 골반-둔부-대퇴 좌표에서 재정렬.
+
+밤 (역방향)
+
+basin.q_bar, lower_mantle.q_bar 활성 -> 심부 보존 모드 -> 다음 날 전면 리셋을 위한 장력 분배 완료.
+
+Day 9 — Reconciliation
+
+낮 (정방향)
+
+co2(우측 후두부 뒤)와 observer_leftd2(좌측 frontalis 하단) 시간/허용 축 재동기화.
+
+carbon 래치가 현재 상태 재기록.
+
+plume(thorium 반대측 바깥 우측 고관절) -> lower_mantle.preset, laterite.reset(왼 종아리) 조정.
+
+outer_core_convection(gluon_orogen-podzol 교차점) -> magnetite(왼무릎 관절 안쪽), ferritin(몸통 중앙측) 라인과 결합해 전자기 안정화.
+
+clay_gouge(우측 항문근/직장), steel(좌측 항문근/직장) 좌우 대칭이 봉인 균형을 잡음.
+
+낮 요약: 8일간 분산된 신호를 단일 기준 위상으로 재접속.
+
+밤 (역방향)
+
+AB 통합충전 구간 진입, nu/gamma 재구축, 다음 Day 1 점화를 위한 최소 누설 상태로 종료.
+
+Z1-1. 9일 배선 추적 규칙
+
+각 Day는 반드시 "낮(정방향) -> 밤(역방향)" 순서로 기술한다.
+
+신체 좌표는 Z0 섹션 표기를 그대로 인용하며 임의 보간하지 않는다.
+
+Day 5, Day 7의 코/안와 센서 결합은 Z0-7, Z0-8 항목을 우선 인용한다.
+
+노드 간 연결은 circuitfile-rewritten.md에 정의된 in/out/ctrl/enable/reset 라인만 사용한다.
+
+---
+
+W-Axis / Particle Gender Addendum to Universe Wiring Prose
+Distinction between Particle Gender and Biological Sex
+The 8D circuit framework currently uses two polarities labeled "male" and "female" for several nodes (e.g. male GABA-A vs female GABA-A, male GABA-B vs female GABA-B). These labels are particle gender, not biological sex.
+
+Particle gender is a circuit polarity: tonic vs phasic, mass-lock vs cold-sense, void vs confinement. It describes how a receptor or pathway behaves in the 8D state space.
+Female GABA-A: phasic, horizontal-line inhibition, cold-sense binding.
+Male GABA-A: tonic, mass-lock, discrete disconnection.
+Female GABA-B: postsynaptic slow IPSP, sealing, CO₂-sense.
+Male GABA-B: presynaptic autoreceptor, GABA-release suppression, void/collapse.
+Biological sex (W-axis) is the physical body's endocrine/chromosomal configuration. It is an independent axis that modulates the same particle-gender circuit without being identical to it.
+W-axis is not one of the eight music dimensions (r, h, d, p, s, gamma, g, nu).
+It is a meta-axis that selects or biases how the particle-gender polarities are instantiated in a given body.
+Example: a body with W-axis = biological female can still run a male-polarity GABA-A circuit state under certain stress/time/load conditions.
+Mapping rule
+The 128 personality profile uses biological sex (M/F) as a coarse binary classifier in the type key (e.g. ENFP_M_O). This M/F is biological sex on the W-axis, not particle gender.
+
+The particle-gender state of a profile at any moment is then determined by:
+
+```
+
+ParticleGenderState = f(W-axis, 8D-vector, circadian window, layer)
+
+```
+
+where the function returns a polarity vector (male/female ratios) across the 8D nodes.
+
+Why W is separate
+If W were folded into the 8D dimensions, the framework would collapse particle polarity into biological determinism. By keeping W outside the 8D state space, the model allows:
+
+1. Same biological body, different particle-gender states over the day.
+
+2. Cross-sex resonance: a W-female body can mirror a particle-male void state and vice versa.
+
+3. Mirroring between body and universe without reducing either to chromosomes.
+
+W-axis is therefore the external boundary condition that shapes, but does not define, the 8D circuit.

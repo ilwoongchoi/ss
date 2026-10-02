@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>60FPS Pure Geometry Engine</title>
+    <style> body { margin: 0; background: #000; overflow: hidden; } canvas { width: 100vw; height: 100vh; } </style>
+</head>
+<body>
+    <canvas id="gl"></canvas>
+    <script id="vs" type="x-shader/x-vertex">
+        attribute float a_id; 
+        uniform float u_time;
+        varying float v_psi;
+
+        const float KAPPA = 0.03125;
+        const float DELTA = 0.00035;
+        const float REFR = 2.4239; // 138.88 deg
+        const float LAG = 0.1569;
+
+        float solve(float k) {
+            float x = 1.0; 
+            for(int i=0; i<3; i++) x = x - (x*x*x - x - k) / (3.0*x*x - 1.0);
+            return x;
+        }
+
+        void main() {
+            float t = u_time * 0.5;
+            float angle = (a_id / 128.0) * 6.2831;
+            
+            // 1. UV Lag & Hysteresis
+            float phase = t + (a_id * LAG * DELTA);
+            
+            // 2. Position Vector
+            vec2 p = vec2(cos(angle + phase), sin(angle + phase)) * 10.0;
+            
+            // 3. PLP Refraction
+            float refr = step(5.0, length(p));
+            float cur_angle = angle + (refr * REFR);
+            p = vec2(cos(cur_angle + phase), sin(cur_angle + phase)) * 10.0;
+
+            // 4. Solving Psi
+            v_psi = solve(length(p) * KAPPA);
+            
+            gl_Position = vec4(p.x * 0.1, v_psi - 0.5, p.y * 0.1, 1.0);
+            gl_PointSize = 4.0;
+        }
+    </script>
+    <script id="fs" type="x-shader/x-fragment">
+        precision highp float;
+        varying float v_psi;
+        void main() {
+            gl_FragColor = vec4(mix(vec3(0.1, 0.2, 0.5), vec3(1.0, 0.8, 0.0), v_psi), 1.0);
+        }
+    </script>
+    <script>
+        const canvas = document.getElementById('gl');
+        const gl = canvas.getContext('webgl');
+        const vs = gl.createShader(gl.VERTEX_SHADER);
+        gl.shaderSource(vs, document.getElementById('vs').text); gl.compileShader(vs);
+        const fs = gl.createShader(gl.FRAGMENT_SHADER);
+        gl.shaderSource(fs, document.getElementById('fs').text); gl.compileShader(fs);
+        const prog = gl.createProgram();
+        gl.attachShader(prog, vs); gl.attachShader(prog, fs); gl.linkProgram(prog); gl.useProgram(prog);
+
+        const ids = new Float32Array(128);
+        for(let i=0; i<128; i++) ids[i] = i;
+        gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer());
+        gl.bufferData(gl.ARRAY_BUFFER, ids, gl.STATIC_DRAW);
+        const loc = gl.getAttribLocation(prog, 'a_id');
+        gl.enableVertexAttribArray(loc);
+        gl.vertexAttribPointer(loc, 1, gl.FLOAT, false, 0, 0);
+
+        function render(time) {
+            canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+            gl.viewport(0, 0, canvas.width, canvas.height);
+            gl.clear(gl.COLOR_BUFFER_BIT);
+            gl.uniform1f(gl.getUniformLocation(prog, "u_time"), time * 0.001);
+            gl.drawArrays(gl.POINTS, 0, 128);
+            requestAnimationFrame(render);
+        }
+        requestAnimationFrame(render);
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+Description,Category,Phase1,Phase2,Hysteresis
+"--- CHANNELS ---",---,---,---,---
+gdh_gluon,Quantum Chromodynamics (QCD),Actively On,No control,Actively Off
+female_gaba_b_latdorsi,Soil-Water Dynamics,Actively Off,Actively Off,Actively On
+left_acetyl_coa,Astrobiology,Actively On,No control,Actively Off
+male_left_5ht,Neuro-electrodynamics,Actively Off,No control,Actively On
+female_left_noradrenaline,Meteorology,Actively On,Actively Off,No control
+left_temporalis_5ht1a,Molecular Physics,Actively Off,Actively Off,No control
+left_estrogen,Bio-electrochemistry,Actively Off,No control,Actively On
+right_love,Ocean-Neuro Coupling,Actively Off,No control,Actively On
+hypoxia,Gas Phase Chemistry,Actively Off,Actively Off,No control
+right_dopamine,Physical Chemistry,Actively Off,Actively On,Actively Off
+vasopressin_female,Biomechanics,Actively On,Actively On,Actively On
+male_oxytocin,Social Neuroscience,Actively Off,No control,No control
+muscle_a,Seismology,Actively On,No control,Actively On
+muscle_b,Structural Geology,Actively On,No control,No control
+right_5ht1b_synchrotron,Synchrotron Radiation,No control,No control,No control
+right_androgen,Endocrinology,No control,Actively On,Actively On
+left_endorphin,Pharmacology,No control,Actively Off,Actively Off
+left_frontalis_d2,Information Theory,Actively On,Actively On,Actively On
+right_occipitalis_gaba_a,Quantum Optics,Actively On,Actively On,Actively On
+right_acetylcholine,Cell Biology,Actively Off,No control,No control
+left_extraversion,Thermodynamics,Actively On,Actively On,Actively Off
+glucocorticoid,Immunology,Actively Off,Actively Off,Actively Off
+right_cortisol,Chronobiology,Actively On,No control,Actively Off
+right_alpha_2 (Z-Gate),High Energy Physics (Z-Gate),No control,No control,Actively Off
+"--- RESULTS ---",---,---,---,---
+BW (Body Wave),State,2.615,2.528,2.587
+SM (Mind Wave),State,3.553,3.677,3.641
+Spark,Ignition,0.7625,1.0125,0.5825
+Z-Gate,Gate,0.8175,0.6375,1.3475
+Fusion Rate,Output,15.1472,15.1728,19.1193
+"--- SUMMARY ---",---,---,---,---
+Closure Score,Validation,"100%","100%","100%"

@@ -1,0 +1,9 @@
+﻿TOTAL_NODES: 284
+ELEMENT_ASSIGNED: 84
+NO_PORT_NODES: 5
+  NOPORT: cytochrome_c_oxidase_retrograde_tg
+  NOPORT: memory_entropy
+  NOPORT: nitrogenase
+  NOPORT: pentose_phosphate
+  NOPORT: substance_p
+DANGLING_WIRES: 0

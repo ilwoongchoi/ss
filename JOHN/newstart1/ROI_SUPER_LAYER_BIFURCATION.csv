@@ -1,0 +1,26 @@
+Node_Name,Grid_X,Grid_Y,Layer,Impact,Logic_Connection
+0_Point_Origin,8.0,0.0,0,Origin,Cosmic Start
+Female_Pact_Glabella,7.6,2.2,Super,Bonding,0-Point Curve Anchor
+Right_Frontalis_Strip_Top,14.5,0.5,Muscle,Extraversion,Nerve Exit
+Right_Frontalis_Strip_Bottom,14.5,2.5,Muscle,Extraversion,Nerve Exit
+Left_Frontalis_Strip_Top,1.5,0.5,Muscle,Shielding,Nerve Anchor
+Left_Frontalis_Strip_Bottom,1.5,2.5,Muscle,Shielding,Nerve Anchor
+ESFX_Confidence_R,12.0,6.0,Super,Confidence,Temporalis Upper
+ESFX_Confidence_L,4.0,6.0,Super,Confidence,Temporalis Upper
+Temporalis_Trunk_1_R,11.5,8.5,Muscle,D2-2_Switch,Ear Front Center
+Temporalis_Trunk_2_R,12.5,8.5,Muscle,D2-2_Switch,Ear Front Center
+Water_Stress_Nose,10.5,4.5,Sensor,Deceit,Vassopressin Residue
+ISFX_Self_Esteem_R,13.5,12.5,Super,Self-Esteem,Jaw Outside
+ISFX_Self_Esteem_L,2.5,12.5,Super,Self-Esteem,Jaw Outside
+ISTP_Evil_Point_R,9.5,13.3,Super,Evil_Branch,Lip Corner Upper
+ISTP_Evil_Point_L,6.5,13.3,Super,Evil_Branch,Lip Corner Upper
+Schiz_Descent_Vertical,15.0,11.5,Re-branch,Pathology,System Collapse
+Cancer_Climb_Vertical,13.0,11.5,Re-branch,Pathology,Abnormal Growth
+Right_Occipitalis_Strip_Top,13.0,14.0,Muscle,Truth,Small Man Export
+Right_Occipitalis_Strip_Bottom,13.0,16.0,Muscle,Truth,Small Man Export
+Left_Occipitalis_Strip_Top,3.0,14.0,Muscle,Preservation,Small Woman Entry
+Left_Occipitalis_Strip_Bottom,3.0,16.0,Muscle,Preservation,Small Woman Entry
+Right_Shoulder_Trapezius,15.0,16.5,Body,Deception_Transporter,Occipital Link
+Left_Shoulder_Trapezius,1.0,16.5,Body,Deception_Transporter,Occipital Link
+Heart_Core_Truth,8.0,18.0,Body,Truth_Sink,Internal Resonator
+Solar_Plexus_Gate,8.0,20.0,Body,Truth_Descent,Diaphragm Link

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Manifold 3D: Final Master Engine Locked</title>
+    <style>
+        body { margin: 0; overflow: hidden; background: #000; font-family: 'Courier New', monospace; }
+        canvas { width: 100vw; height: 100vh; display: block; }
+        #ui {
+            position: absolute; top: 20px; left: 20px; color: #00ff00;
+            background: rgba(0,0,0,0.95); padding: 20px; border: 1px solid #00ff00;
+            pointer-events: none; z-index: 100;
+        }
+        .val { color: #fff; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div id="ui">
+        [ UNIVERSAL GEOMETRY FINAL LOCK ]<br>
+        FPS: <span id="fps" class="val">60</span> / 60<br>
+        Status: <span class="val" style="color: #00ffff;">NON-BIFURCATING ENGINE</span><br>
+        Dynamics: <span class="val">Draemfolding Active</span>
+    </div>
+    <canvas id="glCanvas"></canvas>
+
+    <script id="vs" type="x-shader/x-vertex">
+        attribute vec2 a_gridPos; 
+        uniform float u_time;
+        uniform float u_aspect;
+        varying float v_psi;
+        varying float v_dist;
+
+        const float KAPPA = 0.03125;
+        const float WINDING_4D = 1.571428; 
+        const float TENSION = 1.0100375;
+
+        // Newton-Raphson Solver to prevent Computer Bifurcation
+        float solvePsi(float k) {
+            float x = 1.0; 
+            for(int i=0; i<3; i++) {
+                x = x - (x*x*x - x - k) / (3.0*x*x - 1.0);
+            }
+            return x;
+        }
+
+        mat2 rotate(float a) { return mat2(cos(a), -sin(a), sin(a), cos(a)); }
+
+        void main() {
+            float t = u_time * 0.4;
+            vec2 p = (a_gridPos - 0.5) * 100.0;
+            p = rotate(t * 0.05) * p;
+
+            // 1. Dynamic Center (The Moving Vortex)
+            vec2 center = vec2(cos(t * WINDING_4D), sin(t)) * 10.0;
+            float d = length(p - center);
+
+            // 2. Solve the Master Equation 실시간 해 도출
+            float drive = sin(d * KAPPA * TENSION);
+            float psi = solvePsi(drive * KAPPA);
+            v_psi = psi;
+
+            // 3. 4D Folding Projection (The Dream Path)
+            vec3 worldPos;
+            float s = sin(t + p.x * 0.1);
+            worldPos.x = p.x;
+            worldPos.y = psi * 20.0 + s * 2.0;
+            worldPos.z = p.y + cos(t + p.x * 0.1) * 5.0;
+
+            // 4. Camera Matrix (Standard Universal Alignment)
+            vec3 eye = vec3(50.0 * cos(t*0.1), 40.0, 50.0 * sin(t*0.1));
+            vec3 target = vec3(0.0, 0.0, 0.0);
+            vec3 up = vec3(0.0, 1.0, 0.0);
+            vec3 zaxis = normalize(eye - target);
+            vec3 xaxis = normalize(cross(up, zaxis));
+            vec3 yaxis = cross(zaxis, xaxis);
+            vec3 v = worldPos - eye;
+            vec3 viewPos = vec3(dot(xaxis, v), dot(yaxis, v), dot(zaxis, v));
+
+            v_dist = length(viewPos);
+            gl_Position = vec4(viewPos.x / u_aspect, viewPos.y, (viewPos.z * 0.01), -viewPos.z);
+            gl_PointSize = max(1.2, 80.0 / v_dist);
+        }
+    </script>
+
+    <script id="fs" type="x-shader/x-fragment">
+        precision highp float;
+        varying float v_psi;
+        varying float v_dist;
+
+        void main() {
+            vec3 c1 = vec3(0.0, 0.05, 0.2); // Void
+            vec3 c2 = vec3(0.0, 1.0, 0.8);  // Flow
+            vec3 c3 = vec3(1.0, 1.0, 1.0);  // Spark
+            
+            vec3 col = mix(c1, c2, clamp(v_psi * 1.5, 0.0, 1.0));
+            if(v_psi > 0.9) col = mix(col, c3, (v_psi - 0.9) * 10.0);
+            
+            float fog = exp(-v_dist * 0.01);
+            gl_FragColor = vec4(col * fog, 1.0);
+            if(length(gl_PointCoord - 0.5) > 0.5) discard;
+        }
+    </script>
+
+    <script>
+        const canvas = document.getElementById('glCanvas');
+        const gl = canvas.getContext('webgl');
+        const vs = gl.createShader(gl.VERTEX_SHADER);
+        gl.shaderSource(vs, document.getElementById('vs').text); gl.compileShader(vs);
+        const fs = gl.createShader(gl.FRAGMENT_SHADER);
+        gl.shaderSource(fs, document.getElementById('fs').text); gl.compileShader(fs);
+        const prog = gl.createProgram();
+        gl.attachShader(prog, vs); gl.attachShader(prog, fs); gl.linkProgram(prog); gl.useProgram(prog);
+
+        const size = 128;
+        const verts = new Float32Array((size + 1) * (size + 1) * 2);
+        for (let y = 0, i = 0; y <= size; y++) {
+            for (let x = 0; x <= size; x++) {
+                verts[i++] = x / size; verts[i++] = y / size;
+            }
+        }
+        gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer());
+        gl.bufferData(gl.ARRAY_BUFFER, verts, gl.STATIC_DRAW);
+        const pLoc = gl.getAttribLocation(prog, 'a_gridPos');
+        gl.enableVertexAttribArray(pLoc);
+        gl.vertexAttribPointer(pLoc, 2, gl.FLOAT, false, 0, 0);
+
+        gl.enable(gl.DEPTH_TEST);
+        let frames = 0, last = 0;
+        function render(time) {
+            frames++;
+            if (time - last >= 1000) { document.getElementById('fps').innerText = frames; frames = 0; last = time; }
+            canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+            gl.viewport(0, 0, canvas.width, canvas.height);
+            gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+            gl.uniform1f(gl.getUniformLocation(prog, "u_aspect"), canvas.width / canvas.height);
+            gl.uniform1f(gl.getUniformLocation(prog, "u_time"), time * 0.001);
+            gl.drawArrays(gl.POINTS, 0, (size + 1) * (size + 1));
+            requestAnimationFrame(render);
+        }
+        requestAnimationFrame(render);
+    </script>
+</body>
+</html>

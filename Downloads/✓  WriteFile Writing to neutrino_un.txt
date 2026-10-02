@@ -1,0 +1,117 @@
+ ✓  WriteFile Writing to neutrino_univers...ostasis_fixed.py                                                      │
+│                                                                                                                  │
+│ ... first 31 lines hidden (Ctrl+O to show) ...                                                                   │
+│  32 S_ELECTRON, S_PHOTON = 1/8, 1/16                                                                             │
+│  33 S_PROTON, S_DARKMAT  = 1/32, 1/64                                                                            │
+│  34 S_NEUTRINO, S_GRAVITON = 1/128, 1/256                                                                        │
+│  35                                                                                                              │
+│  36 @jit                                                                                                         │
+│  37 def unified_kernel(pos, vel, step, scales, filter_mask):                                                     │
+│  38     """                                                                                                      │
+│  39     Update logic with Broadcasting Fix.                                                                      │
+│  40     pos: (N, 4), vel: (N, 4), filter_mask: (N, 1)                                                            │
+│  41     """                                                                                                      │
+│  42     step_f = step.astype(jnp.float32)                                                                        │
+│  43     t_fwd = step_f / 20.0                                                                                    │
+│  44     t_rew = 18.0 - ((step_f - 360.0) / 240.0) * 4.5                                                          │
+│  45     eff_t = jnp.where(step_f > 360.0, t_rew, t_fwd)                                                          │
+│  46     eff_t = jnp.where(step_f > 600.0, 13.5, eff_t)                                                           │
+│  47                                                                                                              │
+│  48     # The Equation                                                                                           │
+│  49     Slotting = 1.4 - (0.076 * eff_t)                                                                         │
+│  50     Omega = (Slotting / (K * D)) * (PHI / (W7 + H2))                                                         │
+│  51                                                                                                              │
+│  52     scales_dim = scales[:, jnp.newaxis]                                                                      │
+│  53                                                                                                              │
+│  54     # 4D Torsion                                                                                             │
+│  55     theta = TORSION_4D * Omega * 0.01 * (1.0 / (scales_dim * 128.0 + 1e-8))                                  │
+│  56     c, s = jnp.cos(theta), jnp.sin(theta)                                                                    │
+│  57     vx, vy, vz, vw = vel[:, 0:1], vel[:, 1:2], vel[:, 2:3], vel[:, 3:4]                                      │
+│  58     vx_new = c * vx - s * vy                                                                                 │
+│  59     vy_new = s * vx + c * vy                                                                                 │
+│  60     vz_new = c * vz - s * vw                                                                                 │
+│  61     vw_new = s * vz + c * vw                                                                                 │
+│  62     vel = jnp.concatenate([vx_new, vy_new, vz_new, vw_new], axis=1)                                          │
+│  63                                                                                                              │
+│  64     # V-Magnitude with the ACTIVE WAVE FILTER                                                                │
+│  65     v_base = jnp.maximum(1.4 - (0.076 * eff_t), K)                                                           │
+│  66     # The 138.88 resonance actively targets the 1/64 particles.                                              │
+│  67     # filter_mask is (N, 1), scales_dim is (N, 1) -> result is (N, 1)                                        │
+│  68     v_particle = v_base * (1.0 / (scales_dim * 128.0 + 1e-8)) * filter_mask                                  │
+│  69                                                                                                              │
+│  70     vel_unit = vel / (jnp.linalg.norm(vel, axis=1, keepdims=True) + 1e-8)                                    │
+│  71     vel = vel_unit * v_particle * (Omega / 7.4)                                                              │
+│  72                                                                                                              │
+│  73     # Geodesic Expansion                                                                                     │
+│  74     pos += (vel * 0.05 * METRIC_4D)                                                                          │
+│  75                                                                                                              │
+│  76     # Inward pull of Dark Matter (1/64)                                                                      │
+│  77     dark_pull = jnp.where(scales_dim == S_DARKMAT, -pos * 0.01, 0.0)                                         │
+│  78     pos += dark_pull * filter_mask                                                                           │
+│  79                                                                                                              │
+│  80     return pos, vel, Omega                                                                                   │
+│  81                                                                                                              │
+│  82 def execute_sovereign_filter():                                                                              │
+│  83     print("\n--- INITIATING FIXED ACTIVE HOMEOTASIS PROJECTION ---")                                         │
+│  84                                                                                                              │
+│  85     N_TOTAL = 500_000                                                                                        │
+│  86     N_NEUT, N_PHOT, N_DARK = 200_000, 200_000, 99_800                                                        │
+│  87     N_PROT, N_ELEC, N_GRAV = 50, 50, 100                                                                     │
+│  88                                                                                                              │
+│  89     scales = jnp.concatenate([                                                                               │
+│  90         jnp.full(N_NEUT, S_NEUTRINO), jnp.full(N_PHOT, S_PHOTON),                                            │
+│  91         jnp.full(N_DARK, S_DARKMAT),  jnp.full(N_PROT, S_PROTON),                                            │
+│  92         jnp.full(N_ELEC, S_ELECTRON), jnp.full(N_GRAV, S_GRAVITON)                                           │
+│  93     ])                                                                                                       │
+│  94                                                                                                              │
+│  95     key = jax.random.PRNGKey(13888)                                                                          │
+│  96     k1, k2 = jax.random.split(key)                                                                           │
+│  97     pos = jax.random.normal(k1, (N_TOTAL, 4)) * 0.01                                                         │
+│  98     vel = jax.random.normal(k2, (N_TOTAL, 4))                                                                │
+│  99                                                                                                              │
+│ 100     fig, ax = plt.subplots(figsize=(12, 12), facecolor='black')                                              │
+│ 101     ax.set_facecolor('black')                                                                                │
+│ 102                                                                                                              │
+│ 103     sc_neut = ax.scatter([], [], s=0.5, color='#00f2ff', alpha=0.3)                                          │
+│ 104     sc_phot = ax.scatter([], [], s=0.5, color='#ffff00', alpha=0.3)                                          │
+│ 105     sc_dark = ax.scatter([], [], s=0.2, color='#440066', alpha=0.2)                                          │
+│ 106     sc_matter = ax.scatter([], [], s=40.0, color='#ff0000', alpha=1.0, edgecolors='white')                   │
+│ 107                                                                                                              │
+│ 108     ax.axis('off')                                                                                           │
+│ 109     text = ax.text(0.02, 0.96, '', transform=ax.transAxes, color='white', fontsize=12,                       │
+│     fontfamily='monospace')                                                                                      │
+│ 110                                                                                                              │
+│ 111     def update(frame):                                                                                       │
+│ 112         nonlocal pos, vel                                                                                    │
+│ 113         # Broadcasting Fix: expand filter_mask to (N, 1)                                                     │
+│ 114         is_filtered = 1.0 if frame < 360 else 0.0                                                            │
+│ 115         filter_mask = jnp.where(scales == S_DARKMAT, is_filtered, 1.0)[:, jnp.newaxis]                       │
+│ 116                                                                                                              │
+│ 117         pos, vel, omega = unified_kernel(pos, vel, jnp.array(frame), scales, filter_mask)                    │
+│ 118                                                                                                              │
+│ 119         # Display subsets                                                                                    │
+│ 120         sc_neut.set_offsets(np.array(pos[:10000, :2]))                                                       │
+│ 121         sc_phot.set_offsets(np.array(pos[N_NEUT:N_NEUT+10000, :2]))                                          │
+│ 122         sc_dark.set_offsets(np.array(pos[N_NEUT+N_PHOT:N_NEUT+N_PHOT+5000, :2]))                             │
+│ 123         sc_matter.set_offsets(np.array(pos[N_NEUT+N_PHOT+N_DARK:N_NEUT+N_PHOT+N_DARK+100, :2]))              │
+│ 124                                                                                                              │
+│ 125         limit = 1.0 + (frame * 0.05)                                                                         │
+│ 126         ax.set_xlim(-limit, limit)                                                                           │
+│ 127         ax.set_ylim(-limit, limit)                                                                           │
+│ 128                                                                                                              │
+│ 129         if frame % 100 == 0: print(f"Processing Universe: {frame}/900...")                                   │
+│ 130                                                                                                              │
+│ 131         status = "BIFURCATION ACTIVE" if frame < 360 else "WAVE EMITTED: SENTINEL REMOVED"                   │
+│ 132         text.set_text(f"OMEGA: {float(omega):.4f}\nPHASE: {status}\nHOMEOTASIS: LOCKED")                     │
+│ 133         return sc_neut, sc_phot, sc_dark, sc_matter, text                                                    │
+│ 134                                                                                                              │
+│ 135     print("Rendering Homeostatic Universal History...")                                                      │
+│ 136     ani = FuncAnimation(fig, update, frames=900, blit=True)                                                  │
+│ 137     out_file = "HOMEOSTATIC_UNIVERSE_FINAL.mp4"                                                              │
+│ 138     writer = FFMpegWriter(fps=30, bitrate=4000)                                                              │
+│ 139     ani.save(out_file, writer=writer)                                                                        │
+│ 140     plt.close()                                                                                              │
+│ 141                                                                                                              │
+│ 142     print(f"\n--- MISSION COMPLETE: {out_file} ---")                                                         │
+│ 143     if HAS_COLAB_TOOLS: files.download(out_file)                                                             │
+│ 144                                                    

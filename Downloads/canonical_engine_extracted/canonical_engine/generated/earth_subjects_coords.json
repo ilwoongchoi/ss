@@ -1,0 +1,1559 @@
+{
+  "Y_DNA": {
+    "R1a": {
+      "label": "Balto-Slavic / Indo-Iranian",
+      "origin": "25,000 BP — Iran/South-Central Asia",
+      "geography": "E.Europe, C.Asia, S.Asia",
+      "soil": "Chernozem (Mollisols) — Gluon-Quark homeostasis",
+      "geology": "Russian Platform, Eurasian Steppe",
+      "blood": "O, A",
+      "rh": "Rh+ dominant, Rh- minority",
+      "neuro": "D2 (A2 high), COMT Val/Val, Serotonin",
+      "mbti": "INTJ, ENTJ, ESTJ",
+      "layer": "A (Rh+) / C (Rh-)",
+      "v": {
+        "r": 0.85,
+        "h": 0.7,
+        "d": 0.6,
+        "p": 0.55,
+        "s": 0.5,
+        "gamma": 0.65,
+        "g": 0.6,
+        "nu": 0.45
+      },
+      "notes": "Steppe warrior-farmer. High r+h = expansion+structure. Chernozem = Gluon homeostasis (maximal fertility, stable social binding). D2 A2 = grounded dopamine. Homozygous → always forward circulation.",
+      "lat": 50.45,
+      "lon": 30.52,
+      "region": "E.Europe/C.Asia"
+    },
+    "R1b": {
+      "label": "Celtic / Italic / Germanic",
+      "origin": "22,000 BP — West Asia",
+      "geography": "W.Europe, British Isles, Iberia, Atlantic facade",
+      "soil": "Calcisols + Regosols — limestone Z-Boson structural",
+      "geology": "Atlantic Craton, Pyrenees, British Isles",
+      "blood": "O (highest world O; Basque/Celtic)",
+      "rh": "Rh- HIGHEST (Basque 30-35%, Irish elevated)",
+      "neuro": "D2 A1 elevated (Rh- correlation), 5-HT1B high",
+      "mbti": "ESTP, ISTP, ENFP, INFP",
+      "layer": "C (Rh-) / A (Rh+)",
+      "v": {
+        "r": 0.8,
+        "h": 0.65,
+        "d": 0.55,
+        "p": 0.6,
+        "s": 0.65,
+        "gamma": 0.7,
+        "g": 0.5,
+        "nu": 0.6
+      },
+      "notes": "Atlantic maritime. Rh- seam = neutrino leakage (nu↑). Celtic individualism. High gamma (art/music). Low g (individualist). Calcisol Z-Boson = structural limestone gate. Basque = world Rh- peak = Layer C archetype.",
+      "lat": 53.35,
+      "lon": -6.26,
+      "region": "W.Europe/Atlantic"
+    },
+    "I1": {
+      "label": "Nordic / Germanic",
+      "origin": "15,000-20,000 BP, bottleneck ~5,000 BP",
+      "geography": "Scandinavia, Finland, Iceland, N.Germany",
+      "soil": "Podzols (Spodosols) — neutrino fast-leach acidic",
+      "geology": "Fennoscandian Shield, Baltic Craton",
+      "blood": "O, A",
+      "rh": "Rh+ dominant, Rh- ~15-18%",
+      "neuro": "COMT Met/Met elevated, D2 A2, GABA dominance",
+      "mbti": "ISTJ, INTJ, INFJ",
+      "layer": "A (Rh+) / C (Rh-)",
+      "v": {
+        "r": 0.75,
+        "h": 0.8,
+        "d": 0.75,
+        "p": 0.45,
+        "s": 0.55,
+        "gamma": 0.6,
+        "g": 0.65,
+        "nu": 0.5
+      },
+      "notes": "Nordic bottleneck survivor. Very high h (cold mass anchor) + d (GABA stoic). Patient, structural, low impulsivity. Podzol = acidic neutrino leach (nu moderate). Single ancestor ~5,000 BP = extreme homozygous tendency.",
+      "lat": 59.33,
+      "lon": 18.07,
+      "region": "Scandinavia"
+    },
+    "I2": {
+      "label": "Dinaric / Balkan / Sardinian",
+      "origin": "20,000-30,000 BP — Balkans",
+      "geography": "Balkans, Serbia/Croatia/Bosnia, Sardinia, E.Europe",
+      "soil": "Leptosols + Cambisols — mountain skeletal, Z-Boson foundation",
+      "geology": "Dinaric Alps, Balkan Mountains, Sardinian Shield",
+      "blood": "O, A",
+      "rh": "Rh- elevated Balkan ~16%",
+      "neuro": "5-HT dominance, 5-HT2A elevated, GABA",
+      "mbti": "ISTP, ISFP, ESTP",
+      "layer": "C (Rh-) / A (Rh+)",
+      "v": {
+        "r": 0.7,
+        "h": 0.75,
+        "d": 0.7,
+        "p": 0.5,
+        "s": 0.6,
+        "gamma": 0.55,
+        "g": 0.55,
+        "nu": 0.55
+      },
+      "notes": "Mesolithic European core (Paleolithic cave art). Mountain adaptation. Dinaric warrior tradition. High h+d (mountain anchor + inhibitory). Leptosol = rocky skeletal surface (minimal buffer, direct Z-Boson). Serbs: I2a + I1 = 45%. Paleolithic: Altamira, Lascaux lineage.",
+      "lat": 44.79,
+      "lon": 20.46,
+      "region": "Balkans"
+    },
+    "J1": {
+      "label": "Semitic / Arabian / Cohanim",
+      "origin": "15,000-20,000 BP — Near East",
+      "geography": "Arabian Peninsula, Levant, Jewish diaspora",
+      "soil": "Arenosols + Solonchaks — desert sand, saline quark-tension",
+      "geology": "Arabian Shield, Dead Sea Rift, Levantine basin",
+      "blood": "A, O",
+      "rh": "Rh+ dominant, Rh- ~15% (Jewish)",
+      "neuro": "5-HT1B very high, D3, COMT Val/Met mixed",
+      "mbti": "INTJ, INFJ, ENFJ",
+      "layer": "A (Rh+) / C (Rh-)",
+      "v": {
+        "r": 0.65,
+        "h": 0.85,
+        "d": 0.65,
+        "p": 0.55,
+        "s": 0.5,
+        "gamma": 0.6,
+        "g": 0.8,
+        "nu": 0.55
+      },
+      "notes": "Desert tradition-keeper. Very high h (structural tradition/monotheism) + very high g (religious social binding). Cohen modal lineage J-P58. Arenosol = desert quark tension (extreme p+ under surface). Dead Sea Rift = receiver port (tectonic gateway). J1-P58* = 51.6% Ashkenazi Cohanim.",
+      "lat": 24.71,
+      "lon": 46.68,
+      "region": "Arabian Peninsula"
+    },
+    "J2": {
+      "label": "Mesopotamian / Minoan / Anatolian",
+      "origin": "15,000-22,000 BP — Anatolia",
+      "geography": "Mesopotamia, Anatolia, Mediterranean, Caucasus",
+      "soil": "Fluvisols + Vertisols — alluvial river clay, water-retentive",
+      "geology": "Taurus Mts, Anatolian Plateau, Mesopotamian basin",
+      "blood": "A, B, O",
+      "rh": "Rh+ dominant, Rh- moderate",
+      "neuro": "Acetylcholine, 5-HT, GABA, COMT balanced",
+      "mbti": "ENTP, ENFP, INTP",
+      "layer": "B (het Rh+) / D (het Rh-)",
+      "v": {
+        "r": 0.7,
+        "h": 0.75,
+        "d": 0.6,
+        "p": 0.65,
+        "s": 0.7,
+        "gamma": 0.7,
+        "g": 0.7,
+        "nu": 0.6
+      },
+      "notes": "Civilization builder. Minoan/Mesopotamian/Phoenician creativity. Alluvial Fluvisol = water-retentive (Higgs + Gluon sustained). High p+gamma (creative civilization). High s (maritime trade). Heterozygous tendency = oscillation. Vertisol clay = constricting cycle (expansion-contraction of creative energy).",
+      "lat": 41.01,
+      "lon": 28.98,
+      "region": "Anatolia/Mesopotamia"
+    },
+    "E1b1b": {
+      "label": "NE Africa / Berber / E-V13",
+      "origin": "20,000-30,000 BP — East Africa",
+      "geography": "Horn of Africa, Maghreb, Levant, Balkans (E-V13 subclade)",
+      "soil": "Nitisols (Ethiopian highlands) + Solonchaks (Dallol) — iron-rich red clay",
+      "geology": "E.African Rift, Ethiopian Highlands, Atlas Mts",
+      "blood": "A, O",
+      "rh": "Rh+ dominant, Rh- moderate",
+      "neuro": "D3 + D2 A1 elevated, NO synthase high, 5-HT",
+      "mbti": "ENFJ, ESFJ, ENFP (Ethiopia); INTJ (E-V13 Balkan)",
+      "layer": "A (Rh+) / B (het Rh+)",
+      "v": {
+        "r": 0.75,
+        "h": 0.7,
+        "d": 0.55,
+        "p": 0.7,
+        "s": 0.6,
+        "gamma": 0.65,
+        "g": 0.75,
+        "nu": 0.55
+      },
+      "notes": "Rift valley transmitter. Ethiopian Nitisol = iron antenna (p+ stored). High p (volcanic rift) + high g (communal highland). E-V13 = Balkan Neolithic farmer, earliest E1b1b in Europe (5000 BCE Catalonia). Framework maps: ESFJ Rh+ A = Nitisol/Solonchak deceit circuit. E-V13 peaks: Kosovo Albanian 45.6%, Greek ~35%.",
+      "lat": 9.03,
+      "lon": 38.74,
+      "region": "Horn of Africa/Maghreb"
+    },
+    "E1b1a": {
+      "label": "Sub-Saharan / Bantu / W.African",
+      "origin": "30,000-40,000 BP — E.Africa, E-M2 ~20,000 BP",
+      "geography": "W.Africa, C.Africa, Bantu expansion, diaspora",
+      "soil": "Ferralsols + Plinthosols — iron oxide, tropical deep weathering",
+      "geology": "W.African Craton, Congo Basin",
+      "blood": "O (very high), A",
+      "rh": "Rh+ dominant, Rh- very rare",
+      "neuro": "D2 A1 very high, DAT1 10-repeat high, MAO-A 3R high",
+      "mbti": "ESTP, ESFP, ESTJ",
+      "layer": "A (homozygous Rh+)",
+      "v": {
+        "r": 0.9,
+        "h": 0.55,
+        "d": 0.45,
+        "p": 0.75,
+        "s": 0.6,
+        "gamma": 0.6,
+        "g": 0.65,
+        "nu": 0.4
+      },
+      "notes": "Sub-Saharan kinetic. Very high r (motor/athletic) + high p (spark). Low d (less inhibitory restraint). Ferralsol = P+ iron-locked at surface. Framework: \"soccer as dominance/stress release\" = P+ without atmospheric Higgs channel. MAO-A 3R = lower serotonin buffer = more direct expression. Homozygous = always forward circulation.",
+      "lat": 6.52,
+      "lon": 3.38,
+      "region": "W.Africa"
+    },
+    "N1c": {
+      "label": "Uralo-Finnic / Baltic / Siberian",
+      "origin": "14,000-21,000 BP — Central/E.Asia",
+      "geography": "Finland, Estonia, Latvia, N.Russia, Siberia",
+      "soil": "Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold",
+      "geology": "Siberian Platform, Baltic Shield",
+      "blood": "A, O",
+      "rh": "Rh+ dominant, Rh- moderate (Finnish ~15%)",
+      "neuro": "COMT Met/Met very high, D2 A2, MAO-A 4R, GABA dominance",
+      "mbti": "INTP, INFP, ISTJ",
+      "layer": "A (Rh+) / C (Rh-)",
+      "v": {
+        "r": 0.5,
+        "h": 0.85,
+        "d": 0.85,
+        "p": 0.35,
+        "s": 0.55,
+        "gamma": 0.5,
+        "g": 0.6,
+        "nu": 0.65
+      },
+      "notes": "Arctic patience (sisu). Very high h+d (cold mass anchor + extreme GABA). Very low r+p (not impulsive, not kinetic). High nu (northern dreamtime/aurora). COMT Met/Met = slow dopamine breakdown = sustained low-level focus. Podzol = neutrino leach seam. Gleysol = waterlogged static (d+h lock).",
+      "lat": 60.17,
+      "lon": 24.94,
+      "region": "Finland/Siberia"
+    },
+    "G2a": {
+      "label": "Caucasian / Neolithic Farmer",
+      "origin": "30,000 BP — Caucasus",
+      "geography": "Caucasus, Anatolia, Sardinia, C.Europe (Neolithic)",
+      "soil": "Andosols + Cambisols — volcanic mineral-rich",
+      "geology": "Caucasus Mts, Anatolian volcanics",
+      "blood": "A, O, B",
+      "rh": "Rh+ dominant, Rh- moderate",
+      "neuro": "GABA, 5-HT1A, COMT Val/Val high, D2 A2",
+      "mbti": "ISFJ, ISTJ, ESFJ",
+      "layer": "A (Rh+) / C (Rh-)",
+      "v": {
+        "r": 0.55,
+        "h": 0.8,
+        "d": 0.75,
+        "p": 0.4,
+        "s": 0.6,
+        "gamma": 0.55,
+        "g": 0.7,
+        "nu": 0.5
+      },
+      "notes": "First farmer of Europe. High h+d (agricultural patience + structure). Low r+p (methodical). Andosol = volcanic phosphorus input (p available but slow-release). Neolithic Otzi (5,300 yr old) = G2a. Community builder. High g (village cohesion).",
+      "lat": 41.69,
+      "lon": 44.8,
+      "region": "Caucasus/Anatolia"
+    },
+    "O1": {
+      "label": "Austronesian / Tai-Kadai",
+      "origin": "10,000-15,000 BP — S.China coast",
+      "geography": "S.China, Taiwan, SE.Asia, Polynesia",
+      "soil": "Anthrosols + Acrisols — rice paddy, tropical weathered",
+      "geology": "S.China coastal, Yangtze delta, Pacific islands",
+      "blood": "A (high), O, B",
+      "rh": "Rh+ dominant, Rh- very rare",
+      "neuro": "5-HT1A very high, COMT Met/Met, D2 A2",
+      "mbti": "ISFJ, ESFJ, ENFJ",
+      "layer": "A (homozygous Rh+)",
+      "v": {
+        "r": 0.6,
+        "h": 0.7,
+        "d": 0.7,
+        "p": 0.45,
+        "s": 0.65,
+        "gamma": 0.6,
+        "g": 0.85,
+        "nu": 0.45
+      },
+      "notes": "Austronesian maritime navigator. Very high g (collectivist harmony). Rice paddy = Anthrosol (human-engineered soil). High s (maritime navigation). 5-HT very high = social conformity. Framework: Asian ESFJ A-type = gluon deceit circuit (Anthrosol gate).",
+      "lat": 23.13,
+      "lon": 113.26,
+      "region": "S.China/SE.Asia/Polynesia"
+    },
+    "O2": {
+      "label": "Sino-Tibetan / Han / Korean / Japanese",
+      "origin": "17,000-25,000 BP — S.China",
+      "geography": "E.Asia: China, Korea, Japan, Tibet, SE.Asia",
+      "soil": "Anthrosols + Fluvisols — rice/millet paddy, alluvial river plain",
+      "geology": "N.China Plain, Korean Peninsula, Japanese archipelago",
+      "blood": "A (very high: Korea/Japan), O, B",
+      "rh": "Rh+ dominant, Rh- very rare",
+      "neuro": "5-HT very high, COMT Met/Met, DRD4 4R short (vs 7R nomad)",
+      "mbti": "ISTJ, ISFJ, INTJ, INFJ",
+      "layer": "A (homozygous Rh+)",
+      "v": {
+        "r": 0.6,
+        "h": 0.75,
+        "d": 0.8,
+        "p": 0.4,
+        "s": 0.6,
+        "gamma": 0.55,
+        "g": 0.85,
+        "nu": 0.5
+      },
+      "notes": "Sino-Tibetan civilization. Very high d+g (GABA social control + Confucian binding). Low p (not impulsive, methodical). 5-HT dominance = harmony conformity. Korea: O2b-SRY465 31.4% unique marker. Japan: O2b1-47z. DRD4 4R (short) = low novelty seeking vs C-haplogroup 7R steppe. Anthrosol = human-made rice field = 10,000yr sustained labor structure.",
+      "lat": 39.9,
+      "lon": 116.4,
+      "region": "E.Asia"
+    },
+    "C": {
+      "label": "Mongolic / Turkic / Na-Dene",
+      "origin": "40,000-60,000 BP — Central/E.Asia",
+      "geography": "Mongolia, C.Asia, Siberia, N.America (Na-Dene)",
+      "soil": "Kastanozems + Cryosols — steppe chestnut, permafrost lock",
+      "geology": "Mongolian Plateau, Siberian craton, Beringian corridor",
+      "blood": "O, B, A",
+      "rh": "Rh+ dominant, Rh- very rare",
+      "neuro": "DRD4 7R very high (novelty-seeking), MAO-A 3R, NO high",
+      "mbti": "ESTP, ESTJ, ISTP",
+      "layer": "A (homozygous Rh+)",
+      "v": {
+        "r": 0.85,
+        "h": 0.65,
+        "d": 0.5,
+        "p": 0.7,
+        "s": 0.75,
+        "gamma": 0.65,
+        "g": 0.6,
+        "nu": 0.5
+      },
+      "notes": "Eurasian steppe nomad. Very high r+p (horseback conquest). High s (steppe navigation). DRD4 7R = extreme novelty/risk seeking (Genghis lineage). MAO-A 3R = reduced serotonin buffer = direct action. Kastanozem = moderate organic layer (sustained but mobile). Cryosol = permafrost hard lock = extreme winter h-anchor.",
+      "lat": 47.92,
+      "lon": 106.92,
+      "region": "Mongolia/Siberia"
+    },
+    "Q": {
+      "label": "Native American / Paleo-Siberian",
+      "origin": "15,000-28,000 BP — Siberia, Beringia crossing",
+      "geography": "Americas (all Native groups), Siberia (Ket)",
+      "soil": "Gelisols + Cryosols — permafrost, extreme cold-lock",
+      "geology": "Beringia, Cordilleran ice sheet, Amazon basin",
+      "blood": "O (almost exclusively, founder bottleneck)",
+      "rh": "Rh+ dominant, Rh- very rare",
+      "neuro": "5-HT2A very high, COMT Met/Met, D2 A2, GABA",
+      "mbti": "INFP, INFJ, ISFP",
+      "layer": "A (homozygous Rh+)",
+      "v": {
+        "r": 0.55,
+        "h": 0.8,
+        "d": 0.75,
+        "p": 0.45,
+        "s": 0.7,
+        "gamma": 0.6,
+        "g": 0.65,
+        "nu": 0.7
+      },
+      "notes": "Beringian crossing founder (10-20 people = extreme bottleneck). Almost exclusively blood O. Very high nu (shamanic/dreamtime). 5-HT2A high = spiritual/visionary. High s (vast landscape navigation). Gelisol = permafrost static = maximum h-lock. Framework: Q + blood O = cleanest single-vector base (uncontaminated).",
+      "lat": 65.0,
+      "lon": -170.0,
+      "region": "Beringia/Americas"
+    },
+    "T": {
+      "label": "Near Eastern / Egyptian / Ethiopian",
+      "origin": "30,000-40,000 BP — Near East",
+      "geography": "Near East, Egypt, Ethiopia, Arabian Peninsula, India",
+      "soil": "Fluvisols + Arenosols — Nile alluvial + desert sand",
+      "geology": "Nile Valley, Arabian desert, Saharan basin",
+      "blood": "A, O",
+      "rh": "Rh+ dominant, Rh- moderate",
+      "neuro": "Acetylcholine, 5-HT1B, D2 mixed, COMT balanced",
+      "mbti": "INTP, ENTP, INFJ",
+      "layer": "B (het Rh+) / A",
+      "v": {
+        "r": 0.65,
+        "h": 0.7,
+        "d": 0.6,
+        "p": 0.55,
+        "s": 0.65,
+        "gamma": 0.65,
+        "g": 0.65,
+        "nu": 0.55
+      },
+      "notes": "Ancient merchant/scholar corridor. Nile Fluvisol = alluvial sustained flow (g+h sustained). Moderate all-axes = high adaptability. Nile as axis: consistent p+s (trade flow). Het tendency = adaptive oscillation.",
+      "lat": 30.04,
+      "lon": 31.24,
+      "region": "Nile/Near East"
+    },
+    "D": {
+      "label": "Tibetan / Ainu / Andamanese",
+      "origin": "40,000-60,000 BP — ancient E/SE.Asian branch",
+      "geography": "Tibet, Japan (Ainu/Ryukyuan), Andaman Islands",
+      "soil": "Andosols (Japan volcanic) + Cryosols (Tibet) + Gelisols",
+      "geology": "Tibetan Plateau (highest on earth), Japanese archipelago, Bay of Bengal",
+      "blood": "A, O, B",
+      "rh": "Rh+ dominant, Rh- rare",
+      "neuro": "COMT Met/Met very high, 5-HT2A high, EPAS1 (O2 altitude adapt), GABA dominance",
+      "mbti": "INFP, INTP, ISTP",
+      "layer": "A (homozygous Rh+)",
+      "v": {
+        "r": 0.5,
+        "h": 0.9,
+        "d": 0.85,
+        "p": 0.35,
+        "s": 0.6,
+        "gamma": 0.5,
+        "g": 0.55,
+        "nu": 0.75
+      },
+      "notes": "Deep isolation archetype. Extreme h+d (altitude/island maximum anchor + GABA). Very high nu (meditative depth, dreamtime). Very low p+r (stillness). Tibetan EPAS1 = altitude O2 adaptation = highest s-axis efficiency. Ainu = ancient remnant (haplogroup D + mtDNA M7a). Andosol (Japan) = volcanic phosphorus anchor (p stored underground).",
+      "lat": 29.65,
+      "lon": 91.11,
+      "region": "Tibet/Japan/Andaman"
+    },
+    "L": {
+      "label": "S.Asian / Dravidian / Indian",
+      "origin": "25,000-30,000 BP",
+      "geography": "India, Pakistan, Sri Lanka, S.Asia",
+      "soil": "Vertisols + Nitisols — black cotton soil, tropical iron-rich",
+      "geology": "Deccan Plateau, Indian Craton",
+      "blood": "B, O, A",
+      "rh": "Rh+ dominant, Rh- rare",
+      "neuro": "5-HT2A high, COMT Met/Met, D2 A2, high serotonin",
+      "mbti": "INFJ, ENFJ, ISFJ",
+      "layer": "A (Rh+) / B (het)",
+      "v": {
+        "r": 0.6,
+        "h": 0.75,
+        "d": 0.7,
+        "p": 0.5,
+        "s": 0.6,
+        "gamma": 0.65,
+        "g": 0.75,
+        "nu": 0.6
+      },
+      "notes": "Indus Valley / Dravidian base. Vertisol = black cotton = expansive-contractive clay (peonidine oscillation). High g (caste community structure). High nu (philosophical/spiritual). Nitisol = iron-clay anchor (deep weathering = deep h-lock).",
+      "lat": 19.08,
+      "lon": 72.88,
+      "region": "India/S.Asia"
+    },
+    "H": {
+      "label": "Indian tribal / Romani / Dravidian",
+      "origin": "20,000-30,000 BP — Indian subcontinent",
+      "geography": "India (tribal groups), Romani diaspora Europe",
+      "soil": "Acrisols + Ferralsols — tropical deeply weathered",
+      "geology": "Indian Deccan, Romani migration corridor",
+      "blood": "O, B, A",
+      "rh": "Rh+ dominant, Rh- rare",
+      "neuro": "DRD4 7R high, 5-HT2A moderate, COMT mixed",
+      "mbti": "ESFP, ENFP, ISFP",
+      "layer": "A (homozygous Rh+)",
+      "v": {
+        "r": 0.75,
+        "h": 0.6,
+        "d": 0.55,
+        "p": 0.65,
+        "s": 0.65,
+        "gamma": 0.7,
+        "g": 0.6,
+        "nu": 0.55
+      },
+      "notes": "Indian tribal nomadic / Romani. High r+gamma (kinetic artistic expression). DRD4 7R = novelty seeking = nomadic drive. High gamma = music, dance, color (Romani archetype). Acrisol = tropical leached acid (low cation base = mobile not anchored).",
+      "lat": 28.61,
+      "lon": 77.21,
+      "region": "India/Romani diaspora"
+    }
+  },
+  "mtDNA": {
+    "H": {
+      "label": "W.European dominant (45%)",
+      "origin": "20,000-25,000 BP — Near East → Europe",
+      "geography": "W.Europe peak, all Europe",
+      "disease": "AD risk ↑ (OR=1.28), PD cluster HV ↑ risk",
+      "metabolism": "High ATP efficiency, efficient OxPhos",
+      "neuro": "Moderate ROS, stable energy output",
+      "bias": {
+        "r": 0.05,
+        "h": 0.03,
+        "d": 0,
+        "p": 0.03,
+        "s": 0,
+        "gamma": 0.02,
+        "g": 0,
+        "nu": 0
+      },
+      "notes": "Most efficient European mitochondria. Slight elevation across dopaminergic axes (energy availability). AD risk = Higgs over-accumulation pathway. Stable, productive, slightly elevated cortisol (gamma). Combined with R1b → high gamma (Celtic artistic output).",
+      "lat": 48.86,
+      "lon": 2.35,
+      "region": "W.Europe"
+    },
+    "U": {
+      "label": "Ancient European hunter-gatherer",
+      "origin": "45,000-55,000 BP",
+      "geography": "Europe, N.Africa, S.Asia (widespread ancient)",
+      "disease": "AD protective (especially Uk/K subclade), PD neutral",
+      "metabolism": "Moderate OxPhos, slightly elevated ROS tolerance",
+      "neuro": "Balanced serotonin, moderate dopamine baseline",
+      "bias": {
+        "r": 0,
+        "h": -0.03,
+        "d": 0.05,
+        "p": 0,
+        "s": 0,
+        "gamma": 0,
+        "g": 0,
+        "nu": 0.03
+      },
+      "notes": "Ancient paleolithic hunter line. Slightly elevated d (patience) + nu. Protective vs AD = lower Higgs (h-) accumulation = less structural rigidity. U5 subclade = oldest European mtDNA. Combined with I2 → strong Mesolithic d+h structure.",
+      "lat": 52.52,
+      "lon": 13.4,
+      "region": "Europe (ancient)"
+    },
+    "J": {
+      "label": "Near Eastern (9%)",
+      "origin": "45,000 BP — Near East",
+      "geography": "Europe, Near East (J1c, J2 subclades)",
+      "disease": "PD protective ↓ (OR=0.876), AD risk ↑ (J paradox)",
+      "metabolism": "Lower OxPhos efficiency — higher proton leak → heat production",
+      "neuro": "Higher ROS → elevated oxidative stress tolerance, elevated ν",
+      "bias": {
+        "r": -0.03,
+        "h": -0.05,
+        "d": 0,
+        "p": 0.05,
+        "s": 0,
+        "gamma": -0.02,
+        "g": 0,
+        "nu": 0.08
+      },
+      "notes": "J = proton leak specialist. Lower OxPhos efficiency = more p-leakage into nu. High nu bias (memory entropy channel). PD protective: less rigid substantia nigra. AD paradox: elevated nu = entropic memory = J J-entropy at 3AM = D-layer 3AM random. Combined with J1 Y-DNA → J+J = very high nu+p. Framework: 3AM J-vector.",
+      "lat": 33.51,
+      "lon": 36.29,
+      "region": "Near East"
+    },
+    "T": {
+      "label": "Near Eastern (8%)",
+      "origin": "45,000 BP — Near East",
+      "geography": "Europe, Near East",
+      "disease": "PD protective ↓ (OR=0.857), AD under-represented",
+      "metabolism": "Moderate proton leak, efficient but not maximal",
+      "neuro": "Balanced, slightly lower dopamine tone",
+      "bias": {
+        "r": -0.02,
+        "h": 0,
+        "d": 0.03,
+        "p": 0.02,
+        "s": 0,
+        "gamma": 0,
+        "g": 0.02,
+        "nu": 0.03
+      },
+      "notes": "Sibling clade to J (JT macro-haplogroup). Similar mild proton leak. PD protective. Slightly elevated nu. Stable moderate bias. J+T combined in analysis shows strongest PD protection (OR=0.87). Combined with J2 Y-DNA → creative stability.",
+      "lat": 33.89,
+      "lon": 35.5,
+      "region": "Near East"
+    },
+    "K": {
+      "label": "Neolithic farmer / Ashkenazi (32%)",
+      "origin": "12,000-16,000 BP",
+      "geography": "Europe, Near East, Ashkenazi Jewish (32%)",
+      "disease": "PD strongly protective ↓ (OR=0.839), AD protective",
+      "metabolism": "Moderate OxPhos, K specific ND3 polymorphism",
+      "neuro": "High serotonin baseline, dopamine stable, low ROS",
+      "bias": {
+        "r": 0,
+        "h": 0.05,
+        "d": 0.05,
+        "p": -0.03,
+        "s": 0,
+        "gamma": 0,
+        "g": 0.03,
+        "nu": -0.02
+      },
+      "notes": "Strongest PD protection of all European haplogroups. High h+d = stable structural anchor. Low ROS = low nu. Ashkenazi Jewish 32% K = J1 (Y-DNA) + K (mtDNA) common combo. K + J1 = very high h+g (tradition + social binding) = Cohanim archetype.",
+      "lat": 31.78,
+      "lon": 35.22,
+      "region": "Levant/Europe"
+    },
+    "V": {
+      "label": "Iberian / Scandinavian (4%)",
+      "origin": "12,000-14,000 BP — SW Europe (Basque refuge)",
+      "geography": "Iberia, Scandinavia, Basque region peak",
+      "disease": "AD trend protective, PD neutral",
+      "metabolism": "Similar to H but slightly lower efficiency",
+      "neuro": "Moderate, slight gamma elevation (visual cortex)",
+      "bias": {
+        "r": 0,
+        "h": 0.02,
+        "d": 0,
+        "p": 0,
+        "s": 0.02,
+        "gamma": 0.03,
+        "g": -0.02,
+        "nu": 0.02
+      },
+      "notes": "Post-glacial Iberian refuge lineage. Links to Basque mtDNA. Combined with R1b Y-DNA → R1b+V = Atlantic Basque core. Slight gamma (visual/artistic sensory) + s (maritime). V emerged in Franco-Cantabrian region during Last Glacial Maximum.",
+      "lat": 43.26,
+      "lon": -2.93,
+      "region": "Basque/Iberia"
+    },
+    "X": {
+      "label": "Native American / Druze / Berber",
+      "origin": "25,000-30,000 BP — W.Eurasia",
+      "geography": "Americas (Algonquin, Ojibwe), Druze, Berber, W.Asia",
+      "disease": "PD neutral, rare haplogroup",
+      "metabolism": "Moderate, slightly elevated uncoupling",
+      "neuro": "Elevated nu, moderate serotonin",
+      "bias": {
+        "r": -0.02,
+        "h": 0,
+        "d": 0.03,
+        "p": 0,
+        "s": 0.03,
+        "gamma": 0,
+        "g": -0.03,
+        "nu": 0.07
+      },
+      "notes": "Mysterious trans-Atlantic presence (X2a in Americas without Asian haplogroups). Druze (Middle East) 11%. Algonquin/Ojibwe. Elevated nu = ancient dispersal ghost lineage. Framework: X = neutrino leakage haplogroup across ocean.",
+      "lat": 33.5,
+      "lon": 35.5,
+      "region": "Druze/Americas"
+    },
+    "M": {
+      "label": "Pan-Asian macro-haplogroup",
+      "origin": "60,000-70,000 BP — Indian coast Out-of-Africa",
+      "geography": "All of Asia, Japan (M7a), Siberia, India, Native American (C,D,Z)",
+      "disease": "Variable by subclade, generally metabolically efficient",
+      "metabolism": "Highly adapted to local environments (altitude, cold, tropics)",
+      "neuro": "Subclade-dependent, generally stable",
+      "bias": {
+        "r": 0,
+        "h": 0.03,
+        "d": 0.03,
+        "p": 0,
+        "s": 0,
+        "gamma": 0,
+        "g": 0.02,
+        "nu": 0
+      },
+      "notes": "M is the dominant Asian maternal haplogroup (sister to N in Out-of-Africa). M7a = Japan (Ainu). D/C/Z = Siberia/Native American. Slight h+d = Asian metabolic stability bias. Combined with O2 Y-DNA → very high total d+g (Confucian matrix).",
+      "lat": 22.57,
+      "lon": 88.36,
+      "region": "All Asia"
+    },
+    "L2": {
+      "label": "W.African / Sub-Saharan",
+      "origin": "60,000-80,000 BP — W.Africa",
+      "geography": "W.Africa, C.Africa, diaspora Americas",
+      "disease": "Cardiovascular metabolism optimized for tropical activity",
+      "metabolism": "High ATP for sustained physical activity, high OxPhos rate",
+      "neuro": "High dopamine baseline, high MAO-A turnover",
+      "bias": {
+        "r": 0.05,
+        "h": -0.03,
+        "d": -0.03,
+        "p": 0.05,
+        "s": 0,
+        "gamma": 0.03,
+        "g": 0,
+        "nu": -0.03
+      },
+      "notes": "W.African kinetic amplifier. High r+p bias = kinetic amplification of E1b1a. E1b1a Y-DNA + L2 mtDNA = maximum r+p (kinetic athletics). Low d (less inhibitory) + low nu (grounded). Tropical metabolism = high sustained output.",
+      "lat": 5.6,
+      "lon": -0.19,
+      "region": "W.Africa"
+    },
+    "L3": {
+      "label": "E.African / Out-of-Africa root",
+      "origin": "70,000-80,000 BP — E.Africa",
+      "geography": "E.Africa, root of M and N (all Eurasian mtDNA)",
+      "disease": "Foundation haplogroup, diverse",
+      "metabolism": "Ancestral efficient balanced OxPhos",
+      "neuro": "Balanced across all axes — ancestral neutral vector",
+      "bias": {
+        "r": 0,
+        "h": 0,
+        "d": 0,
+        "p": 0,
+        "s": 0,
+        "gamma": 0,
+        "g": 0,
+        "nu": 0
+      },
+      "notes": "Root of all non-African mtDNA (M and N branches from L3). Zero bias = ancestral neutral reference point. E1b1b E-V13 Y-DNA + L3 = Ethiopian ancestral archetype.",
+      "lat": -1.29,
+      "lon": 36.82,
+      "region": "E.Africa"
+    }
+  },
+  "ethnic_archetypes": {
+    "Han_Chinese": {
+      "lat": 34.0,
+      "lon": 113.0,
+      "label": "Han Chinese",
+      "vector8": {
+        "r": 0.36,
+        "h": 0.462,
+        "d": 0.492,
+        "p": 0.24,
+        "s": 0.36,
+        "gamma": 0.33,
+        "g": 0.518,
+        "nu": 0.3
+      },
+      "ydna": "O2",
+      "mtdna": "M",
+      "blood_type": "A (very high: Korea/Japan), O, B"
+    },
+    "Korean": {
+      "lat": 37.55,
+      "lon": 126.97,
+      "label": "Korean",
+      "vector8": {
+        "r": 0.45,
+        "h": 0.567,
+        "d": 0.597,
+        "p": 0.307,
+        "s": 0.458,
+        "gamma": 0.42,
+        "g": 0.645,
+        "nu": 0.367
+      },
+      "ydna": "O2",
+      "mtdna": "M",
+      "blood_type": "A (very high: Korea/Japan), O, B"
+    },
+    "Japanese": {
+      "lat": 35.68,
+      "lon": 139.69,
+      "label": "Japanese",
+      "vector8": {
+        "r": 0.41,
+        "h": 0.552,
+        "d": 0.577,
+        "p": 0.275,
+        "s": 0.42,
+        "gamma": 0.38,
+        "g": 0.573,
+        "nu": 0.375
+      },
+      "ydna": "O2",
+      "mtdna": "M",
+      "blood_type": "A (very high: Korea/Japan), O, B"
+    },
+    "Tibetan": {
+      "lat": 29.65,
+      "lon": 91.11,
+      "label": "Tibetan",
+      "vector8": {
+        "r": 0.3,
+        "h": 0.552,
+        "d": 0.522,
+        "p": 0.21,
+        "s": 0.36,
+        "gamma": 0.3,
+        "g": 0.338,
+        "nu": 0.45
+      },
+      "ydna": "D",
+      "mtdna": "M",
+      "blood_type": "A, O, B"
+    },
+    "Scandinavian": {
+      "lat": 59.33,
+      "lon": 18.07,
+      "label": "Scandinavian",
+      "vector8": {
+        "r": 0.47,
+        "h": 0.492,
+        "d": 0.45,
+        "p": 0.282,
+        "s": 0.33,
+        "gamma": 0.368,
+        "g": 0.39,
+        "nu": 0.3
+      },
+      "ydna": "I1",
+      "mtdna": "H",
+      "blood_type": "O, A"
+    },
+    "Basque": {
+      "lat": 43.26,
+      "lon": -2.93,
+      "label": "Basque",
+      "vector8": {
+        "r": 0.48,
+        "h": 0.398,
+        "d": 0.33,
+        "p": 0.36,
+        "s": 0.398,
+        "gamma": 0.432,
+        "g": 0.292,
+        "nu": 0.368
+      },
+      "ydna": "R1b",
+      "mtdna": "V",
+      "blood_type": "O (highest world O; Basque/Celtic)"
+    },
+    "Irish_Celtic": {
+      "lat": 53.35,
+      "lon": -6.26,
+      "label": "Irish Celtic",
+      "vector8": {
+        "r": 0.5,
+        "h": 0.402,
+        "d": 0.33,
+        "p": 0.372,
+        "s": 0.39,
+        "gamma": 0.428,
+        "g": 0.3,
+        "nu": 0.36
+      },
+      "ydna": "R1b",
+      "mtdna": "H",
+      "blood_type": "O (highest world O; Basque/Celtic)"
+    },
+    "Slavic_Eastern": {
+      "lat": 50.45,
+      "lon": 30.52,
+      "label": "Slavic Eastern",
+      "vector8": {
+        "r": 0.635,
+        "h": 0.544,
+        "d": 0.465,
+        "p": 0.417,
+        "s": 0.39,
+        "gamma": 0.481,
+        "g": 0.443,
+        "nu": 0.353
+      },
+      "ydna": "R1a",
+      "mtdna": "H",
+      "blood_type": "O, A"
+    },
+    "Serbian_Dinaric": {
+      "lat": 44.79,
+      "lon": 20.46,
+      "label": "Serbian Dinaric",
+      "vector8": {
+        "r": 0.42,
+        "h": 0.438,
+        "d": 0.44,
+        "p": 0.3,
+        "s": 0.36,
+        "gamma": 0.33,
+        "g": 0.33,
+        "nu": 0.342
+      },
+      "ydna": "I2",
+      "mtdna": "U",
+      "blood_type": "O, A"
+    },
+    "Sardinian": {
+      "lat": 40.12,
+      "lon": 9.41,
+      "label": "Sardinian",
+      "vector8": {
+        "r": 0.42,
+        "h": 0.438,
+        "d": 0.44,
+        "p": 0.3,
+        "s": 0.36,
+        "gamma": 0.33,
+        "g": 0.33,
+        "nu": 0.342
+      },
+      "ydna": "I2",
+      "mtdna": "U",
+      "blood_type": "O, A"
+    },
+    "Arabian_Gulf": {
+      "lat": 24.71,
+      "lon": 46.68,
+      "label": "Arabian Gulf",
+      "vector8": {
+        "r": 0.382,
+        "h": 0.51,
+        "d": 0.402,
+        "p": 0.338,
+        "s": 0.3,
+        "gamma": 0.36,
+        "g": 0.488,
+        "nu": 0.342
+      },
+      "ydna": "J1",
+      "mtdna": "T",
+      "blood_type": "A, O"
+    },
+    "Ashkenazi_Jewish": {
+      "lat": 31.78,
+      "lon": 35.22,
+      "label": "Ashkenazi Jewish",
+      "vector8": {
+        "r": 0.39,
+        "h": 0.53,
+        "d": 0.41,
+        "p": 0.318,
+        "s": 0.3,
+        "gamma": 0.36,
+        "g": 0.492,
+        "nu": 0.322
+      },
+      "ydna": "J1",
+      "mtdna": "K",
+      "blood_type": "A, O"
+    },
+    "Levantine_Arab": {
+      "lat": 33.51,
+      "lon": 36.29,
+      "label": "Levantine Arab",
+      "vector8": {
+        "r": 0.408,
+        "h": 0.43,
+        "d": 0.36,
+        "p": 0.41,
+        "s": 0.42,
+        "gamma": 0.412,
+        "g": 0.42,
+        "nu": 0.392
+      },
+      "ydna": "J2",
+      "mtdna": "J",
+      "blood_type": "A, B, O"
+    },
+    "Anatolian_Turk": {
+      "lat": 41.01,
+      "lon": 28.98,
+      "label": "Anatolian Turk",
+      "vector8": {
+        "r": 0.56,
+        "h": 0.559,
+        "d": 0.443,
+        "p": 0.492,
+        "s": 0.517,
+        "gamma": 0.533,
+        "g": 0.495,
+        "nu": 0.45
+      },
+      "ydna": "J2",
+      "mtdna": "H",
+      "blood_type": "A, B, O"
+    },
+    "Ethiopian": {
+      "lat": 9.03,
+      "lon": 38.74,
+      "label": "Ethiopian",
+      "vector8": {
+        "r": 0.45,
+        "h": 0.42,
+        "d": 0.33,
+        "p": 0.42,
+        "s": 0.36,
+        "gamma": 0.39,
+        "g": 0.45,
+        "nu": 0.33
+      },
+      "ydna": "E1b1b",
+      "mtdna": "L3",
+      "blood_type": "A, O"
+    },
+    "Berber_Moroccan": {
+      "lat": 31.63,
+      "lon": -8.01,
+      "label": "Berber Moroccan",
+      "vector8": {
+        "r": 0.45,
+        "h": 0.408,
+        "d": 0.35,
+        "p": 0.42,
+        "s": 0.36,
+        "gamma": 0.39,
+        "g": 0.45,
+        "nu": 0.342
+      },
+      "ydna": "E1b1b",
+      "mtdna": "U",
+      "blood_type": "A, O"
+    },
+    "Greek_Balkan": {
+      "lat": 37.98,
+      "lon": 23.73,
+      "label": "Greek Balkan",
+      "vector8": {
+        "r": 0.61,
+        "h": 0.582,
+        "d": 0.45,
+        "p": 0.562,
+        "s": 0.5,
+        "gamma": 0.538,
+        "g": 0.59,
+        "nu": 0.45
+      },
+      "ydna": "E1b1b",
+      "mtdna": "H",
+      "blood_type": "A, O"
+    },
+    "W_African_Yoruba": {
+      "lat": 6.52,
+      "lon": 3.38,
+      "label": "W.African Yoruba",
+      "vector8": {
+        "r": 0.56,
+        "h": 0.318,
+        "d": 0.258,
+        "p": 0.47,
+        "s": 0.36,
+        "gamma": 0.372,
+        "g": 0.39,
+        "nu": 0.228
+      },
+      "ydna": "E1b1a",
+      "mtdna": "L2",
+      "blood_type": "O (very high), A"
+    },
+    "Bantu_Central": {
+      "lat": -4.04,
+      "lon": 21.76,
+      "label": "Bantu Central",
+      "vector8": {
+        "r": 0.56,
+        "h": 0.318,
+        "d": 0.258,
+        "p": 0.47,
+        "s": 0.36,
+        "gamma": 0.372,
+        "g": 0.39,
+        "nu": 0.228
+      },
+      "ydna": "E1b1a",
+      "mtdna": "L2",
+      "blood_type": "O (very high), A"
+    },
+    "Finnish": {
+      "lat": 60.17,
+      "lon": 24.94,
+      "label": "Finnish",
+      "vector8": {
+        "r": 0.3,
+        "h": 0.498,
+        "d": 0.53,
+        "p": 0.21,
+        "s": 0.33,
+        "gamma": 0.3,
+        "g": 0.36,
+        "nu": 0.402
+      },
+      "ydna": "N1c",
+      "mtdna": "U",
+      "blood_type": "A, O"
+    },
+    "Estonian_Baltic": {
+      "lat": 59.44,
+      "lon": 24.75,
+      "label": "Estonian Baltic",
+      "vector8": {
+        "r": 0.38,
+        "h": 0.563,
+        "d": 0.585,
+        "p": 0.27,
+        "s": 0.395,
+        "gamma": 0.37,
+        "g": 0.41,
+        "nu": 0.462
+      },
+      "ydna": "N1c",
+      "mtdna": "U",
+      "blood_type": "A, O"
+    },
+    "Georgian_Caucasian": {
+      "lat": 41.69,
+      "lon": 44.8,
+      "label": "Georgian Caucasian",
+      "vector8": {
+        "r": 0.35,
+        "h": 0.492,
+        "d": 0.45,
+        "p": 0.252,
+        "s": 0.36,
+        "gamma": 0.338,
+        "g": 0.42,
+        "nu": 0.3
+      },
+      "ydna": "G2a",
+      "mtdna": "H",
+      "blood_type": "A, O, B"
+    },
+    "Mongol": {
+      "lat": 47.92,
+      "lon": 106.92,
+      "label": "Mongol",
+      "vector8": {
+        "r": 0.51,
+        "h": 0.402,
+        "d": 0.312,
+        "p": 0.42,
+        "s": 0.45,
+        "gamma": 0.39,
+        "g": 0.368,
+        "nu": 0.3
+      },
+      "ydna": "C",
+      "mtdna": "M",
+      "blood_type": "O, B, A"
+    },
+    "Manchu": {
+      "lat": 45.75,
+      "lon": 126.63,
+      "label": "Manchu",
+      "vector8": {
+        "r": 0.63,
+        "h": 0.552,
+        "d": 0.472,
+        "p": 0.5,
+        "s": 0.57,
+        "gamma": 0.5,
+        "g": 0.538,
+        "nu": 0.4
+      },
+      "ydna": "C",
+      "mtdna": "M",
+      "blood_type": "O, B, A"
+    },
+    "Native_American": {
+      "lat": 40.0,
+      "lon": -100.0,
+      "label": "Native American",
+      "vector8": {
+        "r": 0.322,
+        "h": 0.48,
+        "d": 0.462,
+        "p": 0.27,
+        "s": 0.432,
+        "gamma": 0.36,
+        "g": 0.378,
+        "nu": 0.448
+      },
+      "ydna": "Q",
+      "mtdna": "X",
+      "blood_type": "O (almost exclusively, founder bottleneck)"
+    },
+    "Inca_Andean": {
+      "lat": -13.53,
+      "lon": -71.97,
+      "label": "Inca Andean",
+      "vector8": {
+        "r": 0.33,
+        "h": 0.492,
+        "d": 0.462,
+        "p": 0.27,
+        "s": 0.42,
+        "gamma": 0.36,
+        "g": 0.398,
+        "nu": 0.42
+      },
+      "ydna": "Q",
+      "mtdna": "M",
+      "blood_type": "O (almost exclusively, founder bottleneck)"
+    },
+    "S_Indian_Dravidian": {
+      "lat": 11.02,
+      "lon": 76.95,
+      "label": "S.Indian Dravidian",
+      "vector8": {
+        "r": 0.36,
+        "h": 0.462,
+        "d": 0.432,
+        "p": 0.3,
+        "s": 0.36,
+        "gamma": 0.39,
+        "g": 0.458,
+        "nu": 0.36
+      },
+      "ydna": "L",
+      "mtdna": "M",
+      "blood_type": "B, O, A"
+    },
+    "N_Indian_Brahmin": {
+      "lat": 25.31,
+      "lon": 83.01,
+      "label": "N.Indian Brahmin",
+      "vector8": {
+        "r": 0.63,
+        "h": 0.558,
+        "d": 0.52,
+        "p": 0.43,
+        "s": 0.42,
+        "gamma": 0.52,
+        "g": 0.51,
+        "nu": 0.402
+      },
+      "ydna": "R1a",
+      "mtdna": "U",
+      "blood_type": "O, A"
+    },
+    "Malay_Austronesian": {
+      "lat": 3.14,
+      "lon": 101.69,
+      "label": "Malay Austronesian",
+      "vector8": {
+        "r": 0.36,
+        "h": 0.432,
+        "d": 0.432,
+        "p": 0.27,
+        "s": 0.39,
+        "gamma": 0.36,
+        "g": 0.518,
+        "nu": 0.27
+      },
+      "ydna": "O1",
+      "mtdna": "M",
+      "blood_type": "A (high), O, B"
+    },
+    "Polynesian": {
+      "lat": -17.74,
+      "lon": -149.33,
+      "label": "Polynesian",
+      "vector8": {
+        "r": 0.36,
+        "h": 0.432,
+        "d": 0.432,
+        "p": 0.27,
+        "s": 0.39,
+        "gamma": 0.36,
+        "g": 0.518,
+        "nu": 0.27
+      },
+      "ydna": "O1",
+      "mtdna": "M",
+      "blood_type": "A (high), O, B"
+    },
+    "Egyptian": {
+      "lat": 30.04,
+      "lon": 31.24,
+      "label": "Egyptian",
+      "vector8": {
+        "r": 0.52,
+        "h": 0.59,
+        "d": 0.49,
+        "p": 0.44,
+        "s": 0.49,
+        "gamma": 0.51,
+        "g": 0.55,
+        "nu": 0.44
+      },
+      "ydna": "T",
+      "mtdna": "L3",
+      "blood_type": "A, O"
+    },
+    "Ainu_Japan": {
+      "lat": 43.06,
+      "lon": 141.35,
+      "label": "Ainu Japan",
+      "vector8": {
+        "r": 0.3,
+        "h": 0.552,
+        "d": 0.522,
+        "p": 0.21,
+        "s": 0.36,
+        "gamma": 0.3,
+        "g": 0.338,
+        "nu": 0.45
+      },
+      "ydna": "D",
+      "mtdna": "M",
+      "blood_type": "A, O, B"
+    },
+    "Romani": {
+      "lat": 44.43,
+      "lon": 26.1,
+      "label": "Romani",
+      "vector8": {
+        "r": 0.45,
+        "h": 0.372,
+        "d": 0.342,
+        "p": 0.39,
+        "s": 0.39,
+        "gamma": 0.42,
+        "g": 0.368,
+        "nu": 0.33
+      },
+      "ydna": "H",
+      "mtdna": "M",
+      "blood_type": "O, B, A"
+    }
+  },
+  "geological_nodes": {
+    "steel": {
+      "lat": 65.5,
+      "lon": 20.5,
+      "label": "Banded Iron Formation (Kiruna, Sweden)",
+      "geo_type": "iron_formation",
+      "stress_pair": "matter_nonmatter"
+    },
+    "clay_gouge": {
+      "lat": 36.0,
+      "lon": -120.0,
+      "label": "San Andreas Fault gouge zone",
+      "geo_type": "fault_gouge",
+      "stress_pair": "heat_cold"
+    },
+    "craton": {
+      "lat": -26.0,
+      "lon": 24.0,
+      "label": "Kaapvaal Craton (S.Africa, oldest ~3.7Ga)",
+      "geo_type": "craton",
+      "stress_pair": "matter_nonmatter"
+    },
+    "laterite": {
+      "lat": -1.0,
+      "lon": 23.0,
+      "label": "Congo Basin tropical laterite",
+      "geo_type": "tropical_weathering",
+      "stress_pair": "o2_co2"
+    },
+    "podzol": {
+      "lat": 64.0,
+      "lon": 26.0,
+      "label": "Finnish boreal podzol",
+      "geo_type": "boreal_soil",
+      "stress_pair": "heat_cold"
+    },
+    "andosol": {
+      "lat": 35.36,
+      "lon": 138.73,
+      "label": "Fuji volcanic andosol (Japan)",
+      "geo_type": "volcanic_soil",
+      "stress_pair": "o2_co2"
+    },
+    "cambisol": {
+      "lat": 48.0,
+      "lon": 8.0,
+      "label": "European temperate cambisol (Black Forest)",
+      "geo_type": "temperate_soil",
+      "stress_pair": "o2_co2"
+    },
+    "histosol": {
+      "lat": 60.0,
+      "lon": 90.0,
+      "label": "Siberian peatland histosol",
+      "geo_type": "peatland",
+      "stress_pair": "heat_cold"
+    },
+    "pyrite": {
+      "lat": -27.0,
+      "lon": -70.0,
+      "label": "Atacama hydrothermal pyrite (Chile)",
+      "geo_type": "hydrothermal_sulfide",
+      "stress_pair": "matter_nonmatter"
+    },
+    "fold_belt": {
+      "lat": 28.0,
+      "lon": 87.0,
+      "label": "Himalayan fold belt",
+      "geo_type": "orogenic_belt",
+      "stress_pair": "heat_cold"
+    },
+    "subduction_zone": {
+      "lat": 15.0,
+      "lon": 145.0,
+      "label": "Mariana subduction zone",
+      "geo_type": "subduction",
+      "stress_pair": "light_dark"
+    },
+    "basin": {
+      "lat": 32.0,
+      "lon": 44.0,
+      "label": "Mesopotamian sedimentary basin",
+      "geo_type": "sedimentary_basin",
+      "stress_pair": "o2_co2"
+    },
+    "monazite": {
+      "lat": -22.0,
+      "lon": 46.0,
+      "label": "Madagascar monazite rare earth deposit",
+      "geo_type": "rare_earth",
+      "stress_pair": "light_dark"
+    },
+    "plume": {
+      "lat": 64.96,
+      "lon": -19.02,
+      "label": "Iceland mantle plume hotspot",
+      "geo_type": "mantle_plume",
+      "stress_pair": "heat_cold"
+    },
+    "large_igneous_province": {
+      "lat": 66.0,
+      "lon": 95.0,
+      "label": "Siberian Traps LIP",
+      "geo_type": "LIP",
+      "stress_pair": "matter_nonmatter"
+    },
+    "manganese_nodule": {
+      "lat": 15.0,
+      "lon": -150.0,
+      "label": "Pacific deep-sea manganese nodules (Clarion-Clipperton)",
+      "geo_type": "deep_sea_nodule",
+      "stress_pair": "matter_nonmatter"
+    },
+    "gluon_orogen": {
+      "lat": 30.0,
+      "lon": 81.0,
+      "label": "Himalayan orogen (gluon coupling)",
+      "geo_type": "orogenic_core",
+      "stress_pair": "matter_nonmatter"
+    },
+    "outer_core_convection": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "label": "Core-mantle boundary (global, equatorial)",
+      "geo_type": "deep_earth",
+      "stress_pair": "heat_cold"
+    },
+    "lower_mantle": {
+      "lat": -10.0,
+      "lon": 160.0,
+      "label": "Pacific LLSVP (large low-shear-velocity province)",
+      "geo_type": "deep_mantle",
+      "stress_pair": "matter_nonmatter"
+    },
+    "oxidised_manganese": {
+      "lat": -23.0,
+      "lon": 30.0,
+      "label": "Kalahari manganese field (S.Africa)",
+      "geo_type": "manganese_oxide",
+      "stress_pair": "o2_co2"
+    },
+    "magnetite": {
+      "lat": -32.0,
+      "lon": 116.0,
+      "label": "Western Australia magnetite deposit",
+      "geo_type": "iron_oxide",
+      "stress_pair": "light_dark"
+    },
+    "thorium": {
+      "lat": 25.0,
+      "lon": 73.0,
+      "label": "Rajasthan thorium deposit (India)",
+      "geo_type": "radioactive",
+      "stress_pair": "light_dark"
+    },
+    "quark_orogen_magma": {
+      "lat": -6.0,
+      "lon": 105.0,
+      "label": "Sunda arc partial melt (Indonesia)",
+      "geo_type": "arc_magma",
+      "stress_pair": "heat_cold"
+    },
+    "succinate_dehydrogenase": {
+      "lat": 42.0,
+      "lon": 14.0,
+      "label": "Mediterranean metabolic hub (Italy)",
+      "geo_type": "metabolic_reference",
+      "stress_pair": "heat_cold"
+    },
+    "ferritin": {
+      "lat": 51.5,
+      "lon": -0.13,
+      "label": "Iron storage reference (London)",
+      "geo_type": "iron_storage",
+      "stress_pair": "matter_nonmatter"
+    }
+  },
+  "spheres": {
+    "Sun": {
+      "lat": 23.5,
+      "lon": 0.0,
+      "label": "Tropic of Cancer (solar zenith)",
+      "dims": [
+        "r",
+        "s"
+      ],
+      "attractor": "Information",
+      "body_region": "brain/ETC"
+    },
+    "Earth": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "label": "Equator (Earth center)",
+      "dims": [
+        "gamma",
+        "h"
+      ],
+      "attractor": "Repair",
+      "body_region": "thorax/spine"
+    },
+    "Moon": {
+      "lat": -23.5,
+      "lon": 180.0,
+      "label": "Tropic of Capricorn (lunar antipode)",
+      "dims": [
+        "p",
+        "nu"
+      ],
+      "attractor": "Time",
+      "body_region": "occiput/right brain"
+    },
+    "CoMag": {
+      "lat": 45.0,
+      "lon": 90.0,
+      "label": "Coma Berenices projection (N.Asia)",
+      "dims": [
+        "g",
+        "gamma"
+      ],
+      "attractor": "Bridge",
+      "body_region": "pelvis/gut"
+    },
+    "Barnard": {
+      "lat": -45.0,
+      "lon": -90.0,
+      "label": "Barnard's Star projection (S.Pacific)",
+      "dims": [
+        "g",
+        "d"
+      ],
+      "attractor": "Energy",
+      "body_region": "chest/liver"
+    }
+  },
+  "attractors": {
+    "Energy": {
+      "lat": -45.0,
+      "lon": -90.0,
+      "label": "Barnard projection (S.Pacific)",
+      "dims": [
+        "r",
+        "g",
+        "gamma"
+      ],
+      "sphere": "Barnard"
+    },
+    "Information": {
+      "lat": 23.5,
+      "lon": 0.0,
+      "label": "Sun projection (Tropic of Cancer)",
+      "dims": [
+        "h",
+        "nu",
+        "s"
+      ],
+      "sphere": "Sun"
+    },
+    "Repair": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "label": "Earth center (Equator)",
+      "dims": [
+        "p",
+        "d",
+        "g"
+      ],
+      "sphere": "Earth"
+    }
+  }
+}

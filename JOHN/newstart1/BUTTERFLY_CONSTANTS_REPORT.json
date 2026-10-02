@@ -1,0 +1,29 @@
+{
+  "data_window": {
+    "climate_start": "2016-03-01 00:00:00",
+    "climate_end": "2016-05-31 23:00:00",
+    "n_hours": 2208
+  },
+  "hysteresis_lag_5_32_of_128": 20,
+  "cosmo_scalar_mean": 43.02540101252522,
+  "model": "flow_proxy_t = a*flow_proxy_{t-1} + b0*stress_t + b20*stress_{t-20} + g*(stress_t*cosmo) + e1*humidity + e2*cloud",
+  "fit": {
+    "coefficients": {
+      "bias": -0.000459144089479758,
+      "alpha_autoregressive": 0.9060422467563216,
+      "beta_stress_direct": 7.870614787777057e-06,
+      "beta_stress_hysteresis_lag20": 0.003159909556414412,
+      "gamma_stress_cosmo_interaction": 0.0003386363574739464,
+      "eta_humidity_gap": 0.0946240190596508,
+      "zeta_cloud": 0.0008168959923904657
+    },
+    "r2": 0.8451310974619985,
+    "rmse": 0.39353386306281124,
+    "n_samples": 2208
+  },
+  "limitations": [
+    "current ERA5 file has no u10/v10 wind; used gradient-based flow_proxy",
+    "current local ERA5 window is 2016-03 to 2016-05, not full 34 years",
+    "causal claim requires out-of-sample and confound controls"
+  ]
+}

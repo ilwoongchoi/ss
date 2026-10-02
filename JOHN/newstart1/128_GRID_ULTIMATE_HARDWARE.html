@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { margin: 0; background: #000; overflow: hidden; cursor: crosshair; }
+        canvas { width: 100vw; height: 100vh; display: block; }
+    </style>
+</head>
+<body>
+    <div id="fps" style="position: absolute; top: 10px; left: 10px; color: #0f0; font-family: monospace; background: rgba(0,0,0,0.8); padding: 5px 10px; border: 1px solid #0f0; z-index: 1000; pointer-events: none;">FPS: --</div>
+    <canvas id="c"></canvas>
+
+    <!-- TERRAIN SHADER (The Field) -->
+    <script id="vs-terrain" type="x-shader/x-vertex">#version 300 es
+        layout(location = 0) in vec2 a_gridPos; 
+        uniform float u_time;
+        uniform vec2 u_res;
+        out float v_h;
+        out vec2 v_uv;
+        out vec3 v_world;
+
+        #define TENSION 1.0100375
+        #define METRIC_4D 1.0661
+
+        float hash(vec2 p) { return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453123); }
+        float noise(vec2 p) {
+            vec2 i = floor(p); vec2 f = fract(p);
+            vec2 u = f*f*(3.0-2.0*f);
+            return mix(mix(hash(i), hash(i+vec2(1,0)), u.x), mix(hash(i+vec2(0,1)), hash(i+vec2(1,1)), u.x), u.y);
+        }
+
+        void main() {
+            vec2 p = a_gridPos * 16.0;
+            v_uv = p;
+            float h = noise(p * 0.3 + u_time * 0.05) * 2.0;
+            h += (1.0 / (abs(p.x - 5.0) + 0.5) + 1.0 / (abs(p.x - 11.0) + 0.5)) * 3.0 * TENSION;
+            float spine = abs((p.x + p.y) - 16.0);
+            h -= (1.0 / (spine + 0.7)) * 4.0 * METRIC_4D;
+            v_h = h;
+            v_world = vec3(p.x - 8.0, h, p.y - 8.0);
+
+            float aspect = u_res.x / u_res.y;
+            float angle = u_time * 0.1;
+            vec3 eye = vec3(20.0 * cos(angle), 15.0, 20.0 * sin(angle));
+            vec3 target = vec3(0, 0, 0);
+            vec3 z = normalize(eye - target);
+            vec3 x = normalize(cross(vec3(0,1,0), z));
+            vec3 y = cross(z, x);
+            mat4 view = mat4(x.x, y.x, z.x, 0, x.y, y.y, z.y, 0, x.z, y.z, z.z, 0, -dot(x,eye), -dot(y,eye), -dot(z,eye), 1);
+            mat4 proj = mat4(2.4/aspect, 0, 0, 0, 0, 2.4, 0, 0, 0, 0, -1.02, -1, 0, 0, -2.02, 0);
+            gl_Position = proj * view * vec4(v_world, 1.0);
+        }
+    </script>
+    <script id="fs-terrain" type="x-shader/x-fragment">#version 300 es
+        precision highp float;
+        in float v_h;
+        in vec2 v_uv;
+        in vec3 v_world;
+        uniform float u_time;
+        out vec4 outColor;
+        void main() {
+            vec3 col = 0.5 + 0.5 * cos(v_h * 0.4 + vec3(0, 2, 4) + u_time);
+            float s = smoothstep(0.7, 1.0, 1.0/(abs(v_uv.x-5.0)+0.5)) + smoothstep(0.7, 1.0, 1.0/(abs(v_uv.x-11.0)+0.5));
+            col += vec3(0, 1, 0.5) * s * 1.5;
+            float spine = smoothstep(0.8, 1.0, 1.0/(abs((v_uv.x+v_uv.y)-16.0)+0.7));
+            col += vec3(1, 0.4, 0) * spine * 2.0;
+            float fog = exp(-0.03 * length(v_world));
+            outColor = vec4(mix(vec3(0.01, 0.01, 0.02), col, fog), 1.0);
+        }
+    </script>
+
+    <!-- ENTITY SHADER (The 128) -->
+    <script id="vs-entity" type="x-shader/x-vertex">#version 300 es
+        layout(location = 0) in vec2 a_pos; // Quad
+        layout(location = 1) in float a_id;
+        uniform float u_time;
+        uniform vec2 u_res;
+        out vec3 v_col;
+        out float v_spark;
+
+        #define SPARK_ANGLE 2.4239
+        #define METRIC_4D 1.0661
+        #define TORSION_4D 0.1746
+
+        vec2 calculate(float id) {
+            float col = mod(id, 16.0);
+            float blood = mod(floor(id/16.0), 4.0);
+            float phase = blood * 3.14159 * 0.5;
+            vec2 seed = vec2(0.6 * cos(phase), 0.6 * sin(phase)) + 0.16;
+            
+            vec2 p = vec2(col + 0.5, 0.5);
+            float memY = p.y;
+            float t = mod(u_time * 1.2, 20.0);
+            for(int i=0; i<80; i++) {
+                if(float(i)*0.15 > t) break;
+                vec2 z = (p - 8.0) / 4.0;
+                vec2 zn = vec2(z.x*z.x - z.y*z.y, 2.0*z.x*z.y) + seed;
+                vec2 v = (zn*METRIC_4D - z) * TORSION_4D;
+                float vy = 1.0 + v.y;
+                memY += (p.y - memY) / 2.32 * 0.15;
+                if(abs(memY-p.y) > 0.093 && p.x > 4.0 && p.x < 12.0 && p.y > 5.0) {
+                    p += vec2(2.5*cos(SPARK_ANGLE), 2.5*sin(SPARK_ANGLE));
+                    memY = p.y;
+                } else p += vec2(v.x, vy) * 0.15;
+                if(p.y > 18.0) p.y = -2.0;
+            }
+            return p;
+        }
+
+        void main() {
+            vec2 gp = calculate(a_id);
+            float h = gp.y * 0.2; // Simplified height connection
+            vec3 world = vec3(gp.x - 8.0, h + 0.5, gp.y - 8.0);
+            
+            v_spark = step(12.0, gp.y) * 0.5; // Spark visual trigger
+            v_col = 0.5 + 0.5 * cos(a_id * 0.1 + vec3(0,2,4));
+
+            float aspect = u_res.x / u_res.y;
+            float angle = u_time * 0.1;
+            vec3 eye = vec3(20.0 * cos(angle), 15.0, 20.0 * sin(angle));
+            vec3 target = vec3(0, 0, 0);
+            vec3 z = normalize(eye - target);
+            vec3 x = normalize(cross(vec3(0,1,0), z));
+            vec3 y = cross(z, x);
+            mat4 view = mat4(x.x, y.x, z.x, 0, x.y, y.y, z.y, 0, x.z, y.z, z.z, 0, -dot(x,eye), -dot(y,eye), -dot(z,eye), 1);
+            mat4 proj = mat4(2.4/aspect, 0, 0, 0, 0, 2.4, 0, 0, 0, 0, -1.02, -1, 0, 0, -2.02, 0);
+            
+            gl_Position = proj * view * vec4(world + vec3(a_pos.x, a_pos.y * (1.0 + v_spark * 50.0), 0.0) * 0.2, 1.0);
+        }
+    </script>
+    <script id="fs-entity" type="x-shader/x-fragment">#version 300 es
+        precision highp float;
+        in vec3 v_col;
+        in float v_spark;
+        out vec4 outColor;
+        void main() {
+            outColor = vec4(v_col + v_spark * vec3(1, 0, 1), 1.0);
+        }
+    </script>
+
+    <script>
+        const gl = c.getContext('webgl2');
+        const createProg = (v, f) => {
+            const p = gl.createProgram();
+            [v, f].forEach((s, i) => {
+                const sh = gl.createShader(i ? gl.FRAGMENT_SHADER : gl.VERTEX_SHADER);
+                gl.shaderSource(sh, document.getElementById(s).text);
+                gl.compileShader(sh);
+                gl.attachShader(p, sh);
+            });
+            gl.linkProgram(p); return p;
+        };
+
+        const progT = createProg('vs-terrain', 'fs-terrain');
+        const progE = createProg('vs-entity', 'fs-entity');
+
+        // TERRAIN MESH
+        const size = 128, tVerts = [], tIndices = [];
+        for(let y=0; y<=size; y++) for(let x=0; x<=size; x++) tVerts.push(x/size, y/size);
+        for(let y=0; y<size; y++) for(let x=0; x<size; x++) {
+            let r = y*(size+1)+x; tIndices.push(r, r+1, r+size+1, r+size+1, r+1, r+size+2);
+        }
+        const vaoT = gl.createVertexArray();
+        gl.bindVertexArray(vaoT);
+        gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer()); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(tVerts), gl.STATIC_DRAW);
+        gl.enableVertexAttribArray(0); gl.vertexAttribPointer(0, 2, gl.FLOAT, false, 0, 0);
+        gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, gl.createBuffer()); gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint32Array(tIndices), gl.STATIC_DRAW);
+
+        // ENTITY MESH
+        const eIds = []; for(let i=0; i<128; i++) eIds.push(i);
+        const eQuad = [-1,-1, 1,-1, -1,1, -1,1, 1,-1, 1,1];
+        const vaoE = gl.createVertexArray();
+        gl.bindVertexArray(vaoE);
+        gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer()); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(eQuad), gl.STATIC_DRAW);
+        gl.enableVertexAttribArray(0); gl.vertexAttribPointer(0, 2, gl.FLOAT, false, 0, 0);
+        gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer()); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(eIds), gl.STATIC_DRAW);
+        gl.enableVertexAttribArray(1); gl.vertexAttribPointer(1, 1, gl.FLOAT, false, 0, 0); gl.vertexAttribDivisor(1, 1);
+
+        let frames = 0, lastF = 0;
+        gl.enable(gl.DEPTH_TEST);
+        function draw(t) {
+            frames++; if(t-lastF>=1000) { fps.innerText=`FPS: ${Math.round(frames*1000/(t-lastF))}`; frames=0; lastF=t; }
+            c.width = innerWidth; c.height = innerHeight; gl.viewport(0, 0, c.width, c.height);
+            gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+            
+            gl.useProgram(progT);
+            gl.uniform1f(gl.getUniformLocation(progT, 'u_time'), t*0.001);
+            gl.uniform2f(gl.getUniformLocation(progT, 'u_res'), c.width, c.height);
+            gl.bindVertexArray(vaoT); gl.drawElements(gl.TRIANGLES, tIndices.length, gl.UNSIGNED_INT, 0);
+
+            gl.useProgram(progE);
+            gl.uniform1f(gl.getUniformLocation(progE, 'u_time'), t*0.001);
+            gl.uniform2f(gl.getUniformLocation(progE, 'u_res'), c.width, c.height);
+            gl.bindVertexArray(vaoE); gl.drawArraysInstanced(gl.TRIANGLES, 0, 6, 128);
+            requestAnimationFrame(draw);
+        }
+        draw(0);
+    </script>
+</body>
+</html>

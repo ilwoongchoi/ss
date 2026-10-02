@@ -1,0 +1,3958 @@
+{
+  "_version": "v1.0",
+  "_date": "2026-09-09",
+  "_method": "9-vector cosine similarity in physics attribute space",
+  "_n_circuit_nodes": 84,
+  "_n_cosmic_candidates": 74,
+  "_n_biochem_candidates": 97,
+  "results": [
+    {
+      "id": 1,
+      "name": "observer_leftd2",
+      "particle": "observer_leftd2",
+      "body": "outer left frontalis",
+      "geol_native": "regional crustal tension permit (master bus)",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.2368,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Main_Sequence_Star",
+          0.9858
+        ],
+        [
+          "Sagittarius_A*",
+          0.9833
+        ],
+        [
+          "Magnetar_SGR_1935",
+          0.9779
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9888
+        ],
+        [
+          "myosin_filament",
+          0.9848
+        ],
+        [
+          "heart_myocyte",
+          0.9819
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "nonobserver_left_d2",
+      "particle": "nonobserver_left_d2",
+      "body": "left frontalis outer strip lower",
+      "geol_native": "crustal transparency / seismic window",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.2368,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Main_Sequence_Star",
+          0.9858
+        ],
+        [
+          "Sagittarius_A*",
+          0.9833
+        ],
+        [
+          "Magnetar_SGR_1935",
+          0.9779
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9888
+        ],
+        [
+          "myosin_filament",
+          0.9848
+        ],
+        [
+          "heart_myocyte",
+          0.9819
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "electric_grid_and",
+      "particle": "strange_quark",
+      "body": "left forehead inner strip top",
+      "geol_native": "global galvanotactic grid (tectonic)",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.2632,
+        0.4,
+        0.95,
+        0.4,
+        0.7,
+        0.8,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Neutron_Star",
+          0.9629
+        ],
+        [
+          "Primordial_BH",
+          0.9518
+        ],
+        [
+          "Black_Hole_SMBH",
+          0.9428
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "DRD2_receptor",
+          0.9527
+        ],
+        [
+          "place_cell",
+          0.9514
+        ],
+        [
+          "grid_cell",
+          0.9514
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "name": "opioid_and",
+      "particle": "electron_antineutrino",
+      "body": "left of philtrum",
+      "geol_native": "eclogite-facies sync (deep crust)",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.2632,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.8,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9651
+        ],
+        [
+          "Termination_Shock",
+          0.9539
+        ],
+        [
+          "Heliopause",
+          0.9445
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "adipocyte",
+          0.9451
+        ],
+        [
+          "lysosome",
+          0.943
+        ],
+        [
+          "kidney_nephron",
+          0.938
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "name": "opioid_nor",
+      "particle": "electron_antineutrino",
+      "body": "left of philtrum (vacuum)",
+      "geol_native": "deep-mantle vacuum void (subduction)",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.2632,
+        0.4,
+        0.05,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Saturn",
+          0.9417
+        ],
+        [
+          "Jupiter",
+          0.941
+        ],
+        [
+          "Termination_Shock",
+          0.9381
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "adipocyte",
+          0.9354
+        ],
+        [
+          "intestinal_epithelium",
+          0.9276
+        ],
+        [
+          "astrocyte",
+          0.9276
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "name": "opioid_xnor_or",
+      "particle": "electron_antineutrino",
+      "body": "left of philtrum (phase)",
+      "geol_native": "supercontinent cycle stability (tectonic)",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.2632,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.972
+        ],
+        [
+          "Cosmic_Inflaton_Field",
+          0.9683
+        ],
+        [
+          "Termination_Shock",
+          0.9672
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "heart_myocyte",
+          0.9502
+        ],
+        [
+          "adipocyte",
+          0.946
+        ],
+        [
+          "ATP_synthase",
+          0.9414
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "name": "bioenergetic_drive_and",
+      "particle": "w_boson",
+      "body": "mitochondrial",
+      "geol_native": "geothermal convective drive (mantle)",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.1842,
+        0.4,
+        0.6,
+        0.4,
+        0.7,
+        0.8,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Primordial_BH",
+          0.9557
+        ],
+        [
+          "Neutron_Star",
+          0.9554
+        ],
+        [
+          "White_Dwarf",
+          0.949
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "ribosome",
+          0.9637
+        ],
+        [
+          "cytochrome_c",
+          0.9637
+        ],
+        [
+          "place_cell",
+          0.9617
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "name": "heme",
+      "particle": "right_testosterone",
+      "body": "inner to left nipple",
+      "geol_native": "iron-rich BIF (banded iron formation)",
+      "dim": "s",
+      "vector": [
+        0.3,
+        0.3,
+        0.0789,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9728
+        ],
+        [
+          "Main_Sequence_Star",
+          0.9653
+        ],
+        [
+          "Sagittarius_A*",
+          0.9599
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "ATP_synthase",
+          0.992
+        ],
+        [
+          "myosin_filament",
+          0.9902
+        ],
+        [
+          "Na_K_ATPase",
+          0.9888
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "name": "cytochrome_c_oxidase",
+      "particle": "down_quark",
+      "body": "inner surface of intestine (left)",
+      "geol_native": "deep-sea terminal hydrothermal vent (COX)",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.1053,
+        0.4,
+        0.95,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9326
+        ],
+        [
+          "Neutron_Star",
+          0.9287
+        ],
+        [
+          "Black_Hole_SMBH",
+          0.9113
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9416
+        ],
+        [
+          "iron_Fe",
+          0.9356
+        ],
+        [
+          "calcium_Ca",
+          0.9356
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "name": "water_vapour",
+      "particle": "photon",
+      "body": "thoracic spinous processes",
+      "geol_native": "global hydrological cycle (troposphere/strat)",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.2368,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Main_Sequence_Star",
+          0.9814
+        ],
+        [
+          "Magnetar_SGR_1935",
+          0.974
+        ],
+        [
+          "Sun",
+          0.9702
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "myosin_filament",
+          0.9831
+        ],
+        [
+          "ATP_synthase",
+          0.9786
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9784
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "name": "steel",
+      "particle": "muon_neutrino",
+      "body": "left anus muscle / rectum",
+      "geol_native": "iron-carbon martensitic/austenitic (BCC/FCC)",
+      "dim": "s",
+      "vector": [
+        0.3,
+        0.3,
+        0.2368,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9725
+        ],
+        [
+          "Termination_Shock",
+          0.9683
+        ],
+        [
+          "Cosmic_Inflaton_Field",
+          0.9624
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "adipocyte",
+          0.9623
+        ],
+        [
+          "heart_myocyte",
+          0.959
+        ],
+        [
+          "Ca_ATPase_SERCA",
+          0.9518
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "name": "clay_gouge",
+      "particle": "electron_neutrino",
+      "body": "right anus muscle / rectum",
+      "geol_native": "fault-zone phyllosilicate matrix (clay)",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.2368,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9581
+        ],
+        [
+          "Termination_Shock",
+          0.956
+        ],
+        [
+          "Jupiter",
+          0.9492
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "adipocyte",
+          0.9696
+        ],
+        [
+          "heart_myocyte",
+          0.9507
+        ],
+        [
+          "Cl_ATPase",
+          0.9498
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "name": "quark_orogen_magma",
+      "particle": "neutron_star",
+      "body": "right inner bum",
+      "geol_native": "subduction slab dehydration melting (deep)",
+      "dim": "nu",
+      "vector": [
+        0.3,
+        0.9,
+        0.2368,
+        0.4,
+        0.95,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9343
+        ],
+        [
+          "Neutron_Star",
+          0.9321
+        ],
+        [
+          "Black_Hole_SMBH",
+          0.918
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9377
+        ],
+        [
+          "place_cell",
+          0.9335
+        ],
+        [
+          "grid_cell",
+          0.9335
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "name": "observer_left_endorphin",
+      "particle": "electron_antineutrino",
+      "body": "left of philtrum",
+      "geol_native": "mu-opioid receptor MOR",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.0789,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9435
+        ],
+        [
+          "Termination_Shock",
+          0.9372
+        ],
+        [
+          "Primordial_Black_Hole_Evaporation",
+          0.9345
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "Ca_ATPase_SERCA",
+          0.9625
+        ],
+        [
+          "heart_myocyte",
+          0.9615
+        ],
+        [
+          "ATP_synthase",
+          0.9612
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "name": "left_endorphin_non_observer",
+      "particle": "electron_neutrino",
+      "body": "LEFT LEVATOR SUPERIORIS inner edge",
+      "geol_native": "MOR presynaptic switch (Day spark)",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.0789,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9435
+        ],
+        [
+          "Termination_Shock",
+          0.9372
+        ],
+        [
+          "Primordial_Black_Hole_Evaporation",
+          0.9345
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "Ca_ATPase_SERCA",
+          0.9625
+        ],
+        [
+          "heart_myocyte",
+          0.9615
+        ],
+        [
+          "ATP_synthase",
+          0.9612
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "name": "mc1r",
+      "particle": "higgs",
+      "body": "skin / D-FF",
+      "geol_native": "MC1R melanocortin receptor",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.0789,
+        0.4,
+        0.7,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9699
+        ],
+        [
+          "Sagittarius_A*",
+          0.953
+        ],
+        [
+          "Sun",
+          0.9498
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9699
+        ],
+        [
+          "myosin_filament",
+          0.9662
+        ],
+        [
+          "ATP_synthase",
+          0.9661
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "name": "methanogenesis",
+      "particle": "higgs",
+      "body": "gut archaeal",
+      "geol_native": "anaerobic CH4 production (early Earth)",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.1579,
+        0.4,
+        0.7,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9765
+        ],
+        [
+          "Sagittarius_A*",
+          0.9627
+        ],
+        [
+          "Sun",
+          0.9615
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9696
+        ],
+        [
+          "myosin_filament",
+          0.9663
+        ],
+        [
+          "ATP_synthase",
+          0.9644
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "name": "histosol",
+      "particle": "muon_antineutrino",
+      "body": "sulfur cycle node",
+      "geol_native": "peat / sulfur cycle soil (Histosol)",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.2368,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9725
+        ],
+        [
+          "Termination_Shock",
+          0.9683
+        ],
+        [
+          "Cosmic_Inflaton_Field",
+          0.9624
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "adipocyte",
+          0.9623
+        ],
+        [
+          "heart_myocyte",
+          0.959
+        ],
+        [
+          "Ca_ATPase_SERCA",
+          0.9518
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "name": "sulforaphane",
+      "particle": "gluon",
+      "body": "Nrf2 activator",
+      "geol_native": "Nrf2 antioxidant response (broccoli)",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.1053,
+        0.4,
+        0.95,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.957
+        ],
+        [
+          "Sun",
+          0.9432
+        ],
+        [
+          "Neutron_Star",
+          0.9396
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "cytochrome_c_oxidase",
+          0.9468
+        ],
+        [
+          "neuron",
+          0.9455
+        ],
+        [
+          "mitochondrion",
+          0.9435
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "name": "aurora",
+      "particle": "muon",
+      "body": "Na+ threshold detector",
+      "geol_native": "Na+ oxidation threshold",
+      "dim": "s",
+      "vector": [
+        0.3,
+        0.3,
+        0.1053,
+        0.4,
+        0.3,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Main_Sequence_Star",
+          0.9676
+        ],
+        [
+          "Earth",
+          0.9663
+        ],
+        [
+          "Sagittarius_A*",
+          0.9618
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "Ca_ATPase_SERCA",
+          0.9957
+        ],
+        [
+          "mitochondrion",
+          0.9957
+        ],
+        [
+          "ATP_synthase",
+          0.9956
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "name": "glymphatic_system",
+      "particle": "strange_quark",
+      "body": "AQP4 CSF-ISF exchange",
+      "geol_native": "AQP4 perivascular pump",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.1053,
+        0.4,
+        0.95,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9474
+        ],
+        [
+          "Neutron_Star",
+          0.9411
+        ],
+        [
+          "Sun",
+          0.9276
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9484
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9406
+        ],
+        [
+          "mitochondrion",
+          0.9355
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "name": "cysteine",
+      "particle": "energy",
+      "body": "GSH precursor gate",
+      "geol_native": "cysteine → glutathione pathway",
+      "dim": "s",
+      "vector": [
+        0.3,
+        0.3,
+        0.0789,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.977
+        ],
+        [
+          "Neutron_Star",
+          0.9702
+        ],
+        [
+          "Sagittarius_A*",
+          0.9701
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9972
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9947
+        ],
+        [
+          "myosin_filament",
+          0.9922
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "name": "memory_entropy",
+      "particle": "electron",
+      "body": "right hippocampal CA1",
+      "geol_native": "novelty-mismatch detection",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.1842,
+        0.4,
+        0.4,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Jupiter",
+          0.9377
+        ],
+        [
+          "Earth",
+          0.9327
+        ],
+        [
+          "Red_Giant",
+          0.9286
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "dendrite",
+          0.9542
+        ],
+        [
+          "testosterone",
+          0.9525
+        ],
+        [
+          "progesterone",
+          0.9525
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "name": "hind_insula",
+      "particle": "neutron",
+      "body": "right posterior insula",
+      "geol_native": "neutron / neutral observation",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.2632,
+        0.4,
+        0.85,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9628
+        ],
+        [
+          "Neutron_Star",
+          0.959
+        ],
+        [
+          "Black_Hole_SMBH",
+          0.9477
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9608
+        ],
+        [
+          "place_cell",
+          0.9519
+        ],
+        [
+          "grid_cell",
+          0.9519
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "name": "carbon",
+      "particle": "photon",
+      "body": "metabolic carbon latch",
+      "geol_native": "carbon cycle / D-FF",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.1579,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9761
+        ],
+        [
+          "Main_Sequence_Star",
+          0.9718
+        ],
+        [
+          "Sagittarius_A*",
+          0.9679
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "ATP_synthase",
+          0.9846
+        ],
+        [
+          "myosin_filament",
+          0.9835
+        ],
+        [
+          "mitochondrion",
+          0.9833
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "name": "fold_belt",
+      "particle": "muon",
+      "body": "fold-thrust belt",
+      "geol_native": "Andesite ridge, fold-thrust belt (compression)",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.3947,
+        0.4,
+        0.3,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Jupiter",
+          0.9559
+        ],
+        [
+          "Saturn",
+          0.9511
+        ],
+        [
+          "Hot_Jupiter_Exoplanet",
+          0.9503
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "dendrite",
+          0.9431
+        ],
+        [
+          "adipocyte",
+          0.9393
+        ],
+        [
+          "intestinal_epithelium",
+          0.9388
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "name": "substance_p",
+      "particle": "tau_antineutrino",
+      "body": "NK1R Substance P",
+      "geol_native": "pain/inflammation signaling",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.0789,
+        0.4,
+        0.05,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Jupiter",
+          0.9126
+        ],
+        [
+          "Saturn",
+          0.9112
+        ],
+        [
+          "Primordial_Black_Hole_Evaporation",
+          0.9083
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "testosterone",
+          0.9334
+        ],
+        [
+          "progesterone",
+          0.9334
+        ],
+        [
+          "adipocyte",
+          0.9294
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "name": "methionine",
+      "particle": "z_boson",
+      "body": "sulfur amino acid gate",
+      "geol_native": "methionine / S-AdoMet cycle",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.0789,
+        0.4,
+        0.6,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9744
+        ],
+        [
+          "Sagittarius_A*",
+          0.9659
+        ],
+        [
+          "Neutron_Star",
+          0.965
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.985
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9792
+        ],
+        [
+          "myosin_filament",
+          0.9764
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "name": "adapter_protein",
+      "particle": "tau_neutrino",
+      "body": "somatic signal adapter",
+      "geol_native": "adapter protein / D-FF",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.1053,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9498
+        ],
+        [
+          "Termination_Shock",
+          0.9439
+        ],
+        [
+          "Earth",
+          0.9344
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "heart_myocyte",
+          0.9624
+        ],
+        [
+          "Ca_ATPase_SERCA",
+          0.9621
+        ],
+        [
+          "adipocyte",
+          0.9611
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "name": "succinate_dehydrogenase",
+      "particle": "muon_neutrino",
+      "body": "Complex II / SDH",
+      "geol_native": "TCA cycle Complex II",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.1053,
+        0.4,
+        0.05,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Saturn",
+          0.8992
+        ],
+        [
+          "Jupiter",
+          0.8985
+        ],
+        [
+          "Hot_Jupiter_Exoplanet",
+          0.8934
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "testosterone",
+          0.9258
+        ],
+        [
+          "progesterone",
+          0.9258
+        ],
+        [
+          "estradiol",
+          0.9208
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "name": "collagen",
+      "particle": "tau_neutrino",
+      "body": "ECM triple-helix",
+      "geol_native": "collagen / ECM structural protein",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.1316,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9555
+        ],
+        [
+          "Termination_Shock",
+          0.9499
+        ],
+        [
+          "Earth",
+          0.9389
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "heart_myocyte",
+          0.9628
+        ],
+        [
+          "adipocyte",
+          0.9624
+        ],
+        [
+          "Ca_ATPase_SERCA",
+          0.9611
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "name": "andosol",
+      "particle": "neutron",
+      "body": "left sole",
+      "geol_native": "volcanic ash soil (Andosol)",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.2368,
+        0.4,
+        0.85,
+        0.4,
+        0.4,
+        0.8,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Neutron_Star",
+          0.9741
+        ],
+        [
+          "Primordial_BH",
+          0.9664
+        ],
+        [
+          "Sagittarius_A*",
+          0.9505
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "nucleus",
+          0.9687
+        ],
+        [
+          "liver_hepatocyte",
+          0.9579
+        ],
+        [
+          "NMDA_receptor",
+          0.9567
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "name": "cambisol",
+      "particle": "energy",
+      "body": "bilateral Achilles tendons",
+      "geol_native": "young weathered soil (Cambisol)",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.2368,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Main_Sequence_Star",
+          0.9898
+        ],
+        [
+          "Magnetar_SGR_1935",
+          0.9863
+        ],
+        [
+          "Sagittarius_A*",
+          0.9861
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9904
+        ],
+        [
+          "myosin_filament",
+          0.9865
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9858
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "name": "podzol",
+      "particle": "strange_quark",
+      "body": "lower extremities podzol",
+      "geol_native": "acidic leaching soil (Podzol)",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.2368,
+        0.4,
+        0.95,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9586
+        ],
+        [
+          "Neutron_Star",
+          0.9506
+        ],
+        [
+          "Sagittarius_A*",
+          0.9454
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9436
+        ],
+        [
+          "mitochondrion",
+          0.9331
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9305
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "name": "NaCl",
+      "particle": "proton",
+      "body": "halite evaporite",
+      "geol_native": "NaCl evaporite / ionic halite",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.2368,
+        0.4,
+        0.85,
+        0.4,
+        0.7,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.957
+        ],
+        [
+          "Neutron_Star",
+          0.9448
+        ],
+        [
+          "Sun",
+          0.9447
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.95
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9439
+        ],
+        [
+          "growth_hormone",
+          0.9425
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "name": "sodium",
+      "particle": "w_boson",
+      "body": "left lateral orbicularis oris",
+      "geol_native": "sodium pump / Na+/K+ ATPase",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.1053,
+        0.4,
+        0.6,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9301
+        ],
+        [
+          "Neutron_Star",
+          0.9286
+        ],
+        [
+          "Earth",
+          0.9215
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "growth_hormone",
+          0.9557
+        ],
+        [
+          "glutamate",
+          0.9557
+        ],
+        [
+          "thyroxine_T4",
+          0.955
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "name": "mycorradicin",
+      "particle": "electron_antineutrino",
+      "body": "AM symbiosis",
+      "geol_native": "AM fungal apocarotenoid signal",
+      "dim": "nu",
+      "vector": [
+        0.3,
+        0.9,
+        0.1053,
+        0.4,
+        0.05,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Saturn",
+          0.8925
+        ],
+        [
+          "Jupiter",
+          0.8912
+        ],
+        [
+          "Hot_Jupiter_Exoplanet",
+          0.8872
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "testosterone",
+          0.922
+        ],
+        [
+          "progesterone",
+          0.922
+        ],
+        [
+          "estradiol",
+          0.9174
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "name": "copper_iron_complex",
+      "particle": "z_boson",
+      "body": "right 5th metatarsal base",
+      "geol_native": "Cu-Fe mixed-valence redox",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.0789,
+        0.4,
+        0.6,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9773
+        ],
+        [
+          "Neutron_Star",
+          0.9697
+        ],
+        [
+          "Sagittarius_A*",
+          0.9672
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9891
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9871
+        ],
+        [
+          "neuron",
+          0.9831
+        ]
+      ]
+    },
+    {
+      "id": 39,
+      "name": "autophagy",
+      "particle": "charm_quark",
+      "body": "subduction-related recycling",
+      "geol_native": "catabolic clearing / lithospheric recycling",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.1579,
+        0.4,
+        0.95,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9534
+        ],
+        [
+          "Neutron_Star",
+          0.948
+        ],
+        [
+          "Black_Hole_SMBH",
+          0.9339
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9549
+        ],
+        [
+          "iron_Fe",
+          0.9408
+        ],
+        [
+          "calcium_Ca",
+          0.9408
+        ]
+      ]
+    },
+    {
+      "id": 40,
+      "name": "chlorine_ion_pump",
+      "particle": "electron",
+      "body": "right ventral wrist",
+      "geol_native": "Cl- ATPase acid-rhizosphere flux",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.1053,
+        0.4,
+        0.4,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Jupiter",
+          0.9432
+        ],
+        [
+          "Earth",
+          0.9425
+        ],
+        [
+          "Accretion_Disk",
+          0.938
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "thyroxine_T4",
+          0.9644
+        ],
+        [
+          "epinephrine",
+          0.9644
+        ],
+        [
+          "norepinephrine",
+          0.9644
+        ]
+      ]
+    },
+    {
+      "id": 41,
+      "name": "heath_aerenchyma",
+      "particle": "tau_antineutrino",
+      "body": "Erica aerenchyma",
+      "geol_native": "bog/wetland aerenchyma O2",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.2105,
+        0.4,
+        0.05,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Saturn",
+          0.9347
+        ],
+        [
+          "Jupiter",
+          0.9346
+        ],
+        [
+          "Termination_Shock",
+          0.9307
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "adipocyte",
+          0.9353
+        ],
+        [
+          "testosterone",
+          0.9307
+        ],
+        [
+          "progesterone",
+          0.9307
+        ]
+      ]
+    },
+    {
+      "id": 42,
+      "name": "podzol_out0_nand",
+      "particle": "strange_quark",
+      "body": "podzol output",
+      "geol_native": "lysosomal acidification",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.1053,
+        0.7,
+        0.95,
+        0.4,
+        0.4,
+        0.8,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9371
+        ],
+        [
+          "Neutron_Star",
+          0.9346
+        ],
+        [
+          "Primordial_BH",
+          0.9194
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9487
+        ],
+        [
+          "mitochondrion",
+          0.9466
+        ],
+        [
+          "nucleus",
+          0.9447
+        ]
+      ]
+    },
+    {
+      "id": 43,
+      "name": "water",
+      "particle": "right_testosterone",
+      "body": "upper philtrum",
+      "geol_native": "hydrological cycle / H+ source",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.2368,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Main_Sequence_Star",
+          0.9814
+        ],
+        [
+          "Magnetar_SGR_1935",
+          0.974
+        ],
+        [
+          "Sun",
+          0.9702
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "myosin_filament",
+          0.9831
+        ],
+        [
+          "ATP_synthase",
+          0.9786
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9784
+        ]
+      ]
+    },
+    {
+      "id": 44,
+      "name": "nitrogenase",
+      "particle": "higgs",
+      "body": "biological N2-fixation",
+      "geol_native": "Mo-Fe nitrogenase cofactor",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.1053,
+        0.4,
+        0.7,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9725
+        ],
+        [
+          "Sagittarius_A*",
+          0.9566
+        ],
+        [
+          "Sun",
+          0.9541
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9701
+        ],
+        [
+          "myosin_filament",
+          0.9666
+        ],
+        [
+          "ATP_synthase",
+          0.9659
+        ]
+      ]
+    },
+    {
+      "id": 45,
+      "name": "caco3",
+      "particle": "up_quark",
+      "body": "carbonate buffer",
+      "geol_native": "CaCO3 sedimentary carbonate",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.1842,
+        0.4,
+        0.95,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9382
+        ],
+        [
+          "Neutron_Star",
+          0.9349
+        ],
+        [
+          "Black_Hole_SMBH",
+          0.9198
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9429
+        ],
+        [
+          "place_cell",
+          0.9354
+        ],
+        [
+          "grid_cell",
+          0.9354
+        ]
+      ]
+    },
+    {
+      "id": 46,
+      "name": "peonidine",
+      "particle": "energy",
+      "body": "anthocyanin cycle",
+      "geol_native": "anthocyanin / estrogen conjugate",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.0789,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.977
+        ],
+        [
+          "Neutron_Star",
+          0.9702
+        ],
+        [
+          "Sagittarius_A*",
+          0.9701
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9972
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9947
+        ],
+        [
+          "myosin_filament",
+          0.9922
+        ]
+      ]
+    },
+    {
+      "id": 47,
+      "name": "right_acetylcholine",
+      "particle": "tau_neutrino",
+      "body": "alpha7 nAChR (vagal)",
+      "geol_native": "cholinergic anti-inflammatory",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.0789,
+        0.4,
+        0.05,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Saturn",
+          0.8941
+        ],
+        [
+          "Jupiter",
+          0.8936
+        ],
+        [
+          "Hot_Jupiter_Exoplanet",
+          0.8879
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "testosterone",
+          0.9257
+        ],
+        [
+          "progesterone",
+          0.9257
+        ],
+        [
+          "estradiol",
+          0.9205
+        ]
+      ]
+    },
+    {
+      "id": 48,
+      "name": "co2",
+      "particle": "dark_energy",
+      "body": "CO2/Adenosine time-energy",
+      "geol_native": "atmospheric CO2 / volcanic degassing",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.2368,
+        0.4,
+        0.02,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9658
+        ],
+        [
+          "Termination_Shock",
+          0.9605
+        ],
+        [
+          "Cosmic_Inflaton_Field",
+          0.9599
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "heart_myocyte",
+          0.9454
+        ],
+        [
+          "adipocyte",
+          0.9419
+        ],
+        [
+          "ATP_synthase",
+          0.9376
+        ]
+      ]
+    },
+    {
+      "id": 49,
+      "name": "glp1",
+      "particle": "gluon",
+      "body": "GLP-1 incretin vagal latch",
+      "geol_native": "incretin postprandial satiety",
+      "dim": "s",
+      "vector": [
+        0.3,
+        0.3,
+        0.0789,
+        0.4,
+        0.95,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9562
+        ],
+        [
+          "Sun",
+          0.9377
+        ],
+        [
+          "Neutron_Star",
+          0.9353
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.942
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9397
+        ],
+        [
+          "neuron",
+          0.9386
+        ]
+      ]
+    },
+    {
+      "id": 50,
+      "name": "laterite",
+      "particle": "left_progesterone",
+      "body": "tropical weathering latch (TimeLatch)",
+      "geol_native": "laterite / tropical weathering (TimeLatch)",
+      "dim": "s",
+      "vector": [
+        0.3,
+        0.3,
+        0.2368,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Main_Sequence_Star",
+          0.9898
+        ],
+        [
+          "Magnetar_SGR_1935",
+          0.9863
+        ],
+        [
+          "Sagittarius_A*",
+          0.9861
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9904
+        ],
+        [
+          "myosin_filament",
+          0.9865
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9858
+        ]
+      ]
+    },
+    {
+      "id": 51,
+      "name": "manganese_nodule",
+      "particle": "muon_antineutrino",
+      "body": "deep-sea Mn nodule",
+      "geol_native": "deep-sea Mn nodule (abyssal plain)",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.2632,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.972
+        ],
+        [
+          "Cosmic_Inflaton_Field",
+          0.9683
+        ],
+        [
+          "Termination_Shock",
+          0.9672
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "heart_myocyte",
+          0.9502
+        ],
+        [
+          "adipocyte",
+          0.946
+        ],
+        [
+          "ATP_synthase",
+          0.9414
+        ]
+      ]
+    },
+    {
+      "id": 52,
+      "name": "pentose_phosphate",
+      "particle": "down_quark",
+      "body": "PPP redox gate",
+      "geol_native": "pentose phosphate pathway (PPP)",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.1053,
+        0.4,
+        0.95,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9458
+        ],
+        [
+          "Neutron_Star",
+          0.9349
+        ],
+        [
+          "Sagittarius_A*",
+          0.9291
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9353
+        ],
+        [
+          "mitochondrion",
+          0.9296
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9254
+        ]
+      ]
+    },
+    {
+      "id": 53,
+      "name": "disulfide_bond",
+      "particle": "z_boson",
+      "body": "disulfide bond",
+      "geol_native": "disulfide bond / S-S",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.0789,
+        0.4,
+        0.6,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9744
+        ],
+        [
+          "Sagittarius_A*",
+          0.9659
+        ],
+        [
+          "Neutron_Star",
+          0.965
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.985
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9792
+        ],
+        [
+          "myosin_filament",
+          0.9764
+        ]
+      ]
+    },
+    {
+      "id": 54,
+      "name": "large_igneous_province",
+      "particle": "tau",
+      "body": "LIP eruption",
+      "geol_native": "large igneous province (flood basalt)",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.4474,
+        0.4,
+        0.3,
+        0.4,
+        0.7,
+        0.5,
+        0.3
+      ],
+      "cosmic_top3": [
+        [
+          "Hot_Jupiter_Exoplanet",
+          0.9769
+        ],
+        [
+          "Super_Earth",
+          0.9746
+        ],
+        [
+          "TRAPPIST-1",
+          0.9732
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "dendrite",
+          0.9421
+        ],
+        [
+          "intestinal_epithelium",
+          0.9418
+        ],
+        [
+          "astrocyte",
+          0.9418
+        ]
+      ]
+    },
+    {
+      "id": 55,
+      "name": "subduction_zone",
+      "particle": "tau",
+      "body": "subduction slab",
+      "geol_native": "subduction zone (slab rollback)",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.4474,
+        0.4,
+        0.3,
+        0.4,
+        0.4,
+        0.5,
+        0.3
+      ],
+      "cosmic_top3": [
+        [
+          "CMB_Anisotropy",
+          0.9877
+        ],
+        [
+          "Cosmic_Microwave_Background",
+          0.9877
+        ],
+        [
+          "Andromeda_Galaxy",
+          0.9874
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "purkinje_neuron",
+          0.9465
+        ],
+        [
+          "kidney_nephron",
+          0.9454
+        ],
+        [
+          "lung_alveolus",
+          0.9454
+        ]
+      ]
+    },
+    {
+      "id": 56,
+      "name": "craton",
+      "particle": "strange_quark",
+      "body": "stable continental nucleus",
+      "geol_native": "craton (Archean core)",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.4474,
+        0.4,
+        0.95,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "NGC_1275",
+          0.9595
+        ],
+        [
+          "NGC_4889",
+          0.9531
+        ],
+        [
+          "Quasar_3C_273",
+          0.9524
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.919
+        ],
+        [
+          "mitochondrion",
+          0.9074
+        ],
+        [
+          "nucleus",
+          0.9051
+        ]
+      ]
+    },
+    {
+      "id": 57,
+      "name": "basin",
+      "particle": "left_progesterone",
+      "body": "sedimentary basin",
+      "geol_native": "foreland basin / back-arc basin",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.4211,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Main_Sequence_Star",
+          0.9867
+        ],
+        [
+          "NGC_4889",
+          0.9796
+        ],
+        [
+          "NGC_1275",
+          0.9792
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "place_cell",
+          0.9684
+        ],
+        [
+          "grid_cell",
+          0.9684
+        ],
+        [
+          "head_direction_cell",
+          0.9684
+        ]
+      ]
+    },
+    {
+      "id": 58,
+      "name": "lower_mantle",
+      "particle": "muon",
+      "body": "lower mantle bridgmanite",
+      "geol_native": "lower mantle (post-perovskite)",
+      "dim": "nu",
+      "vector": [
+        0.3,
+        0.9,
+        0.4737,
+        0.4,
+        0.3,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Jupiter",
+          0.9521
+        ],
+        [
+          "Hot_Jupiter_Exoplanet",
+          0.9493
+        ],
+        [
+          "Saturn",
+          0.9487
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "dendrite",
+          0.9327
+        ],
+        [
+          "adipocyte",
+          0.9297
+        ],
+        [
+          "intestinal_epithelium",
+          0.9275
+        ]
+      ]
+    },
+    {
+      "id": 59,
+      "name": "outer_core_convection",
+      "particle": "dark_matter",
+      "body": "outer core Fe MHD",
+      "geol_native": "outer core Fe convection (geodynamo)",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.4737,
+        0.7,
+        0.1,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Saturn",
+          0.9706
+        ],
+        [
+          "Neptune",
+          0.9666
+        ],
+        [
+          "Uranus",
+          0.9666
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "axon",
+          0.932
+        ],
+        [
+          "heart_myocyte",
+          0.9316
+        ],
+        [
+          "dendrite",
+          0.9311
+        ]
+      ]
+    },
+    {
+      "id": 60,
+      "name": "thorium",
+      "particle": "strange_quark",
+      "body": "REE thorium node",
+      "geol_native": "thorium / REE catalyst (monazite)",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.0789,
+        0.4,
+        0.95,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9472
+        ],
+        [
+          "Neutron_Star",
+          0.941
+        ],
+        [
+          "Black_Hole_SMBH",
+          0.9245
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.953
+        ],
+        [
+          "iron_Fe",
+          0.9413
+        ],
+        [
+          "calcium_Ca",
+          0.9413
+        ]
+      ]
+    },
+    {
+      "id": 61,
+      "name": "monazite",
+      "particle": "tau_neutrino",
+      "body": "REE phosphate",
+      "geol_native": "monazite (Ce,La,Th,Nd) PO4",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.1579,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9606
+        ],
+        [
+          "Termination_Shock",
+          0.9554
+        ],
+        [
+          "Cosmic_Inflaton_Field",
+          0.945
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "adipocyte",
+          0.9632
+        ],
+        [
+          "heart_myocyte",
+          0.9627
+        ],
+        [
+          "Ca_ATPase_SERCA",
+          0.9595
+        ]
+      ]
+    },
+    {
+      "id": 62,
+      "name": "manganese_oxygen_complex",
+      "particle": "gluon",
+      "body": "OEC manganese cluster",
+      "geol_native": "Mn4CaO5 cluster (oxygen evolving complex)",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.0789,
+        0.4,
+        0.95,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9546
+        ],
+        [
+          "Sun",
+          0.9394
+        ],
+        [
+          "Neutron_Star",
+          0.937
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "cytochrome_c_oxidase",
+          0.9467
+        ],
+        [
+          "neuron",
+          0.9446
+        ],
+        [
+          "mitochondrion",
+          0.9431
+        ]
+      ]
+    },
+    {
+      "id": 63,
+      "name": "oxidised_manganese",
+      "particle": "higgs",
+      "body": "Mn oxide",
+      "geol_native": "Mn-oxide / birnessite",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.1053,
+        0.4,
+        0.7,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9707
+        ],
+        [
+          "Main_Sequence_Star",
+          0.9587
+        ],
+        [
+          "Sun",
+          0.9576
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "cytochrome_c_oxidase",
+          0.975
+        ],
+        [
+          "myosin_filament",
+          0.9735
+        ],
+        [
+          "mitochondrion",
+          0.9721
+        ]
+      ]
+    },
+    {
+      "id": 64,
+      "name": "sulfur_iron_complex",
+      "particle": "higgs",
+      "body": "Fe-S cluster",
+      "geol_native": "Fe-S cluster (nitrogenase cofactor)",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.0789,
+        0.4,
+        0.7,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9682
+        ],
+        [
+          "Main_Sequence_Star",
+          0.9545
+        ],
+        [
+          "Sun",
+          0.9535
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "cytochrome_c_oxidase",
+          0.975
+        ],
+        [
+          "myosin_filament",
+          0.973
+        ],
+        [
+          "mitochondrion",
+          0.9718
+        ]
+      ]
+    },
+    {
+      "id": 65,
+      "name": "pyrite",
+      "particle": "higgs",
+      "body": "FeS2 mineral",
+      "geol_native": "pyrite FeS2 (fool's gold)",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.2105,
+        0.4,
+        0.7,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9775
+        ],
+        [
+          "Main_Sequence_Star",
+          0.9721
+        ],
+        [
+          "Sun",
+          0.9707
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "myosin_filament",
+          0.972
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9718
+        ],
+        [
+          "mitochondrion",
+          0.9701
+        ]
+      ]
+    },
+    {
+      "id": 66,
+      "name": "left_genital_d2",
+      "particle": "w_boson",
+      "body": "MPOA D2 brake",
+      "geol_native": "MPOA climax brake (D3-like)",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.2368,
+        0.4,
+        0.6,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9613
+        ],
+        [
+          "Neutron_Star",
+          0.959
+        ],
+        [
+          "Main_Sequence_Star",
+          0.9557
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "axon",
+          0.9676
+        ],
+        [
+          "neuron",
+          0.9675
+        ],
+        [
+          "purkinje_neuron",
+          0.9658
+        ]
+      ]
+    },
+    {
+      "id": 67,
+      "name": "left_female_vasopressin",
+      "particle": "tau_antineutrino",
+      "body": "V1B vasopressin HPA",
+      "geol_native": "V1B receptor / HPA stress",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.0789,
+        0.4,
+        0.05,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Jupiter",
+          0.9126
+        ],
+        [
+          "Saturn",
+          0.9112
+        ],
+        [
+          "Primordial_Black_Hole_Evaporation",
+          0.9083
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "testosterone",
+          0.9334
+        ],
+        [
+          "progesterone",
+          0.9334
+        ],
+        [
+          "adipocyte",
+          0.9294
+        ]
+      ]
+    },
+    {
+      "id": 68,
+      "name": "male_gaba_a",
+      "particle": "tau",
+      "body": "GABA-A male tonic",
+      "geol_native": "GABA-A tonic inhibition (mass lock)",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.1053,
+        0.4,
+        0.3,
+        0.4,
+        0.7,
+        0.5,
+        0.3
+      ],
+      "cosmic_top3": [
+        [
+          "Earth",
+          0.9354
+        ],
+        [
+          "Hot_Jupiter_Exoplanet",
+          0.9344
+        ],
+        [
+          "Saturn",
+          0.9321
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "acetyl_CoA_carboxylase",
+          0.9566
+        ],
+        [
+          "cortisol",
+          0.9564
+        ],
+        [
+          "lactate_dehydrogenase",
+          0.9563
+        ]
+      ]
+    },
+    {
+      "id": 69,
+      "name": "female_gaba_a",
+      "particle": "gluon",
+      "body": "GABA-A female phasic",
+      "geol_native": "GABA-A phasic inhibition (cold sense)",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.1053,
+        0.4,
+        0.95,
+        0.4,
+        0.7,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9472
+        ],
+        [
+          "Neutron_Star",
+          0.9335
+        ],
+        [
+          "Sun",
+          0.9283
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9449
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9395
+        ],
+        [
+          "growth_hormone",
+          0.9367
+        ]
+      ]
+    },
+    {
+      "id": 70,
+      "name": "female_gaba_b",
+      "particle": "tau_neutrino",
+      "body": "GABA-B female postsynaptic",
+      "geol_native": "GABA-B slow IPSP / GIRK",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.1053,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9498
+        ],
+        [
+          "Termination_Shock",
+          0.9439
+        ],
+        [
+          "Earth",
+          0.9344
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "heart_myocyte",
+          0.9624
+        ],
+        [
+          "Ca_ATPase_SERCA",
+          0.9621
+        ],
+        [
+          "adipocyte",
+          0.9611
+        ]
+      ]
+    },
+    {
+      "id": 71,
+      "name": "male_gaba_b",
+      "particle": "tau",
+      "body": "GABA-B male presynaptic",
+      "geol_native": "GABA-B presynaptic autoreceptor",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.1053,
+        0.4,
+        0.3,
+        0.4,
+        0.7,
+        0.5,
+        0.3
+      ],
+      "cosmic_top3": [
+        [
+          "Earth",
+          0.9354
+        ],
+        [
+          "Hot_Jupiter_Exoplanet",
+          0.9344
+        ],
+        [
+          "Saturn",
+          0.9321
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "acetyl_CoA_carboxylase",
+          0.9566
+        ],
+        [
+          "cortisol",
+          0.9564
+        ],
+        [
+          "lactate_dehydrogenase",
+          0.9563
+        ]
+      ]
+    },
+    {
+      "id": 72,
+      "name": "right_sole_dopamine",
+      "particle": "photon",
+      "body": "D1/D5 right sole",
+      "geol_native": "dopamine D1/D5 (Gs-coupled)",
+      "dim": "s",
+      "vector": [
+        0.3,
+        0.3,
+        0.0789,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9728
+        ],
+        [
+          "Main_Sequence_Star",
+          0.9653
+        ],
+        [
+          "Sagittarius_A*",
+          0.9599
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "ATP_synthase",
+          0.992
+        ],
+        [
+          "myosin_filament",
+          0.9902
+        ],
+        [
+          "Na_K_ATPase",
+          0.9888
+        ]
+      ]
+    },
+    {
+      "id": 73,
+      "name": "pi_electron_cloud",
+      "particle": "photon",
+      "body": "delocalized e-",
+      "geol_native": "delocalized π-electron cloud",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.0789,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9639
+        ],
+        [
+          "Main_Sequence_Star",
+          0.9609
+        ],
+        [
+          "Sun",
+          0.95
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "myosin_filament",
+          0.9863
+        ],
+        [
+          "ATP_synthase",
+          0.9856
+        ],
+        [
+          "Na_K_ATPase",
+          0.9848
+        ]
+      ]
+    },
+    {
+      "id": 74,
+      "name": "citric_acid_cycle",
+      "particle": "photon",
+      "body": "TCA cycle",
+      "geol_native": "TCA / Krebs cycle",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.1053,
+        0.4,
+        0.5,
+        0.4,
+        0.7,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9344
+        ],
+        [
+          "Main_Sequence_Star",
+          0.9294
+        ],
+        [
+          "Jupiter",
+          0.9272
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "growth_hormone",
+          0.9527
+        ],
+        [
+          "glutamate",
+          0.9527
+        ],
+        [
+          "Ca_ATPase_SERCA",
+          0.9509
+        ]
+      ]
+    },
+    {
+      "id": 75,
+      "name": "actinide_latch",
+      "particle": "tau_antineutrino",
+      "body": "actinide D-latch",
+      "geol_native": "actinide series (U, Th, Pa)",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.0789,
+        0.4,
+        0.05,
+        0.7,
+        0.7,
+        0.8,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9182
+        ],
+        [
+          "Earth",
+          0.9089
+        ],
+        [
+          "Termination_Shock",
+          0.9057
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "MHC_complex",
+          0.9449
+        ],
+        [
+          "lysosome",
+          0.9396
+        ],
+        [
+          "albumin",
+          0.9355
+        ]
+      ]
+    },
+    {
+      "id": 76,
+      "name": "actinide",
+      "particle": "tau_antineutrino",
+      "body": "actinide analogue",
+      "geol_native": "actinide / REE",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.0789,
+        0.4,
+        0.05,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Jupiter",
+          0.9126
+        ],
+        [
+          "Saturn",
+          0.9112
+        ],
+        [
+          "Primordial_Black_Hole_Evaporation",
+          0.9083
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "testosterone",
+          0.9334
+        ],
+        [
+          "progesterone",
+          0.9334
+        ],
+        [
+          "adipocyte",
+          0.9294
+        ]
+      ]
+    },
+    {
+      "id": 77,
+      "name": "thorium_node",
+      "particle": "higgs",
+      "body": "thorium node",
+      "geol_native": "thorium decay chain (catalyst)",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.0789,
+        0.4,
+        0.7,
+        0.4,
+        0.7,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.964
+        ],
+        [
+          "Neutron_Star",
+          0.9486
+        ],
+        [
+          "Main_Sequence_Star",
+          0.9454
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "cytochrome_c_oxidase",
+          0.9656
+        ],
+        [
+          "Na_K_ATPase",
+          0.9643
+        ],
+        [
+          "neuron",
+          0.9642
+        ]
+      ]
+    },
+    {
+      "id": 78,
+      "name": "actinide_node",
+      "particle": "tau_antineutrino",
+      "body": "actinide node",
+      "geol_native": "actinide complex (U, Th, Np, Pu)",
+      "dim": "d",
+      "vector": [
+        0.3,
+        0.7,
+        0.0789,
+        0.4,
+        0.05,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Jupiter",
+          0.9126
+        ],
+        [
+          "Saturn",
+          0.9112
+        ],
+        [
+          "Primordial_Black_Hole_Evaporation",
+          0.9083
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "testosterone",
+          0.9334
+        ],
+        [
+          "progesterone",
+          0.9334
+        ],
+        [
+          "adipocyte",
+          0.9294
+        ]
+      ]
+    },
+    {
+      "id": 79,
+      "name": "lactate_dehydrogenase",
+      "particle": "electron",
+      "body": "LDH enzyme",
+      "geol_native": "lactate dehydrogenase (glycolysis)",
+      "dim": "r",
+      "vector": [
+        0.3,
+        0.85,
+        0.0789,
+        0.4,
+        0.4,
+        0.4,
+        0.7,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Jupiter",
+          0.9205
+        ],
+        [
+          "Earth",
+          0.9183
+        ],
+        [
+          "Accretion_Disk",
+          0.9107
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "thyroxine_T4",
+          0.9536
+        ],
+        [
+          "epinephrine",
+          0.9536
+        ],
+        [
+          "norepinephrine",
+          0.9536
+        ]
+      ]
+    },
+    {
+      "id": 80,
+      "name": "strontium",
+      "particle": "tau_neutrino",
+      "body": "Sr2+ node",
+      "geol_native": "strontium (alkaline earth)",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.0789,
+        0.4,
+        0.05,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Heliosphere",
+          0.9435
+        ],
+        [
+          "Termination_Shock",
+          0.9372
+        ],
+        [
+          "Primordial_Black_Hole_Evaporation",
+          0.9345
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "Ca_ATPase_SERCA",
+          0.9625
+        ],
+        [
+          "heart_myocyte",
+          0.9615
+        ],
+        [
+          "ATP_synthase",
+          0.9612
+        ]
+      ]
+    },
+    {
+      "id": 81,
+      "name": "barium",
+      "particle": "charm_quark",
+      "body": "Ba2+ node",
+      "geol_native": "barium (alkaline earth)",
+      "dim": "h",
+      "vector": [
+        0.3,
+        0.3,
+        0.0789,
+        0.4,
+        0.95,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9481
+        ],
+        [
+          "Neutron_Star",
+          0.9384
+        ],
+        [
+          "Sagittarius_A*",
+          0.9292
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9432
+        ],
+        [
+          "mitochondrion",
+          0.9355
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9348
+        ]
+      ]
+    },
+    {
+      "id": 82,
+      "name": "cesium",
+      "particle": "strange_quark",
+      "body": "Cs+ node (glymphatic)",
+      "geol_native": "cesium (alkali metal)",
+      "dim": "g",
+      "vector": [
+        0.3,
+        0.5,
+        0.0789,
+        0.4,
+        0.95,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9449
+        ],
+        [
+          "Neutron_Star",
+          0.9383
+        ],
+        [
+          "Sagittarius_A*",
+          0.9237
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "neuron",
+          0.9476
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9405
+        ],
+        [
+          "mitochondrion",
+          0.9351
+        ]
+      ]
+    },
+    {
+      "id": 83,
+      "name": "francium",
+      "particle": "energy",
+      "body": "Fr+ (glymphatic GSH)",
+      "geol_native": "francium (alkali metal, rare)",
+      "dim": "s",
+      "vector": [
+        0.3,
+        0.3,
+        0.0789,
+        0.4,
+        0.5,
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.977
+        ],
+        [
+          "Neutron_Star",
+          0.9702
+        ],
+        [
+          "Sagittarius_A*",
+          0.9701
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9972
+        ],
+        [
+          "cytochrome_c_oxidase",
+          0.9947
+        ],
+        [
+          "myosin_filament",
+          0.9922
+        ]
+      ]
+    },
+    {
+      "id": 84,
+      "name": "astatine",
+      "particle": "higgs",
+      "body": "At (nitrogenase)",
+      "geol_native": "astatine (halogen, radioactive)",
+      "dim": "p",
+      "vector": [
+        0.3,
+        0.2,
+        0.0789,
+        0.4,
+        0.7,
+        0.4,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "cosmic_top3": [
+        [
+          "Magnetar_SGR_1935",
+          0.9699
+        ],
+        [
+          "Sagittarius_A*",
+          0.953
+        ],
+        [
+          "Sun",
+          0.9498
+        ]
+      ],
+      "biochem_top3": [
+        [
+          "mitochondrion",
+          0.9699
+        ],
+        [
+          "myosin_filament",
+          0.9662
+        ],
+        [
+          "ATP_synthase",
+          0.9661
+        ]
+      ]
+    }
+  ]
+}

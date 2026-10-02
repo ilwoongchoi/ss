@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="2048" height="2048">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#1a0a2e"/>
+    </linearGradient>
+    <radialGradient id="resonance" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#4a148c;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#0a0a1a;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="patchGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a237e"/>
+      <stop offset="100%" style="stop-color:#4a148c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="2048" height="2048" fill="url(#bgGrad)"/>
+  <circle cx="1024" cy="1024" r="900" fill="url(#resonance)"/>
+
+  <!-- GRID: 16×16 -->
+  <g opacity="0.1" stroke="#4a90e2" stroke-width="1">
+    <!-- Vertical lines -->
+    <line x1="256" y1="128" x2="256" y2="1920"/>
+    <line x1="384" y1="128" x2="384" y2="1920"/>
+    <line x1="512" y1="128" x2="512" y2="1920"/>
+    <line x1="640" y1="128" x2="640" y2="1920"/>
+    <line x1="768" y1="128" x2="768" y2="1920"/>
+    <line x1="896" y1="128" x2="896" y2="1920"/>
+    <line x1="1024" y1="128" x2="1024" y2="1920"/>
+    <line x1="1152" y1="128" x2="1152" y2="1920"/>
+    <line x1="1280" y1="128" x2="1280" y2="1920"/>
+    <line x1="1408" y1="128" x2="1408" y2="1920"/>
+    <line x1="1536" y1="128" x2="1536" y2="1920"/>
+    <line x1="1664" y1="128" x2="1664" y2="1920"/>
+    <line x1="1792" y1="128" x2="1792" y2="1920"/>
+    <!-- Horizontal lines -->
+    <line x1="128" y1="256" x2="1920" y2="256"/>
+    <line x1="128" y1="384" x2="1920" y2="384"/>
+    <line x1="128" y1="512" x2="1920" y2="512"/>
+    <line x1="128" y1="640" x2="1920" y2="640"/>
+    <line x1="128" y1="768" x2="1920" y2="768"/>
+    <line x1="128" y1="896" x2="1920" y2="896"/>
+    <line x1="128" y1="1024" x2="1920" y2="1024"/>
+    <line x1="128" y1="1152" x2="1920" y2="1152"/>
+    <line x1="128" y1="1280" x2="1920" y2="1280"/>
+    <line x1="128" y1="1408" x2="1920" y2="1408"/>
+    <line x1="128" y1="1536" x2="1920" y2="1536"/>
+    <line x1="128" y1="1664" x2="1920" y2="1664"/>
+    <line x1="128" y1="1792" x2="1920" y2="1792"/>
+  </g>
+
+  <!-- LAYER 1: SKELETON (13 Patches) -->
+  <g opacity="0.4">
+    <!-- Patch P0: North -->
+    <polygon points="1024,256 896,512 1152,512" fill="url(#patchGrad)" stroke="#00bcd4" stroke-width="2"/>
+    <!-- Patch P1: North-East -->
+    <polygon points="1408,384 1280,640 1536,640" fill="url(#patchGrad)" stroke="#00bcd4" stroke-width="2"/>
+    <!-- Patch P2: East (GATEWAY) -->
+    <polygon points="1664,768 1536,1024 1792,1024" fill="#ff6f00" stroke="#ffd700" stroke-width="3" opacity="0.6"/>
+    <!-- Patch P3: South-East -->
+    <polygon points="1408,1408 1280,1152 1536,1152" fill="url(#patchGrad)" stroke="#00bcd4" stroke-width="2"/>
+    <!-- Patch P4: South -->
+    <polygon points="1024,1664 896,1408 1152,1408" fill="url(#patchGrad)" stroke="#00bcd4" stroke-width="2"/>
+    <!-- Patch P5: South-West -->
+    <polygon points="640,1408 512,1152 768,1152" fill="url(#patchGrad)" stroke="#00bcd4" stroke-width="2"/>
+    <!-- Patch P6: West -->
+    <polygon points="384,1024 256,768 512,768" fill="url(#patchGrad)" stroke="#00bcd4" stroke-width="2"/>
+    <!-- Patch P7: North-West -->
+    <polygon points="640,640 512,384 768,384" fill="url(#patchGrad)" stroke="#00bcd4" stroke-width="2"/>
+    <!-- Additional patches P8-P12 (internal structure) -->
+    <polygon points="1024,512 768,640 1024,768 1280,640" fill="#311b92" stroke="#00bcd4" stroke-width="1" opacity="0.5"/>
+    <polygon points="1280,640 1280,896 1536,896 1536,640" fill="#311b92" stroke="#00bcd4" stroke-width="1" opacity="0.5"/>
+    <polygon points="1024,1024 768,896 768,1152 1024,1280 1280,1152 1280,896" fill="#311b92" stroke="#00bcd4" stroke-width="1" opacity="0.5"/>
+    <polygon points="640,640 640,896 768,896 768,640" fill="#311b92" stroke="#00bcd4" stroke-width="1" opacity="0.5"/>
+    <polygon points="640,896 512,1024 640,1152 768,1152 768,896" fill="#311b92" stroke="#00bcd4" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- LAYER 2: 11 SEAMS -->
+  <g stroke="#00e5ff" stroke-width="3" opacity="0.8" fill="none">
+    <!-- S01: P0-P1 -->
+    <line x1="1024" y1="384" x2="1280" y2="512"/>
+    <!-- S12: P1-P2 (GATEWAY SEAM) -->
+    <line x1="1408" y1="640" x2="1664" y2="896" stroke="#ffd700" stroke-width="4"/>
+    <!-- S23: P2-P3 -->
+    <line x1="1536" y1="1152" x2="1408" y2="1280"/>
+    <!-- S34: P3-P4 -->
+    <line x1="1152" y1="1408" x2="1024" y2="1536"/>
+    <!-- S45: P4-P5 -->
+    <line x1="896" y1="1408" x2="768" y2="1280"/>
+    <!-- S56: P5-P6 -->
+    <line x1="512" y1="1152" x2="384" y2="1024"/>
+    <!-- S67: P6-P7 -->
+    <line x1="384" y1="896" x2="512" y2="640"/>
+    <!-- S70: P7-P0 -->
+    <line x1="768" y1="512" x2="896" y2="384"/>
+    <!-- S_M0: Mediator channel -->
+    <path d="M 1024 1024 Q 1280 896 1408 640" stroke="#76ff03" stroke-width="2" stroke-dasharray="10,5"/>
+    <!-- S_X1: Cross diagonal 1 -->
+    <line x1="768" y1="768" x2="1280" y2="1280" stroke-width="1" opacity="0.5"/>
+    <!-- S_X2: Cross diagonal 2 -->
+    <line x1="1280" y1="768" x2="768" y2="1280" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- GATEWAY PEAK (12→2 convergence) -->
+  <g>
+    <polygon points="1664,768 1680,800 1648,800" fill="#ffd700"/>
+    <circle cx="1664" cy="768" r="15" fill="#ffd700" opacity="0.5">
+      <animate attributeName="r" values="15;25;15" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.2;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- LAYER 3: BRANCH/SEPARATRIX -->
+  <!-- Left attractor (South basin) -->
+  <g>
+    <circle cx="1024" cy="1536" r="40" fill="none" stroke="#2196f3" stroke-width="3" opacity="0.8">
+      <animate attributeName="r" values="40;50;40" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1024" y="1620" text-anchor="middle" fill="#2196f3" font-size="24">Left A (0.965)</text>
+  </g>
+  <!-- Right attractor (North basin) -->
+  <g>
+    <circle cx="1280" cy="640" r="40" fill="none" stroke="#f44336" stroke-width="3" opacity="0.8">
+      <animate attributeName="r" values="40;50;40" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1280" y="560" text-anchor="middle" fill="#f44336" font-size="24">Right A (0.974879)</text>
+  </g>
+  <!-- Separatrix line (69.44°) -->
+  <line x1="768" y1="1408" x2="1536" y2="640" stroke="#ffffff" stroke-width="2" stroke-dasharray="20,10" opacity="0.9"/>
+  <text x="1024" y="1100" text-anchor="middle" fill="#ffffff" font-size="20">Separatrix 69.44°</text>
+
+  <!-- LAYER 4: OPERATORS -->
+  <!-- Spark vector (138.88° from compression point) -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff9800"/>
+    </marker>
+  </defs>
+  <g>
+    <!-- Spark origin at 3/32 compression zone -->
+    <line x1="1152" y1="1024" x2="896" y2="640" stroke="#ff9800" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="1024" y="832" text-anchor="middle" fill="#ff9800" font-size="18">Spark 138.88°</text>
+  </g>
+  <!-- Tunnelling route -->
+  <path d="M 1024 1024 Q 1280 960 1536 832 Q 1664 768 1664 768" fill="none" stroke="#00bcd4" stroke-width="3" stroke-dasharray="5,5"/>
+  <text x="1408" y="896" text-anchor="middle" fill="#00bcd4" font-size="18">Tunnelling</text>
+  <!-- Renorm zones at 1/32 -->
+  <circle cx="1024" cy="1024" r="20" fill="none" stroke="#76ff03" stroke-width="2"/>
+  <text x="1024" y="1070" text-anchor="middle" fill="#76ff03" font-size="16">Renorm 1/32</text>
+  <!-- Flash zone -->
+  <circle cx="896" cy="640" r="30" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.8">
+    <animate attributeName="r" values="30;45;30" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="896" y="600" text-anchor="middle" fill="#ffffff" font-size="16">Flash</text>
+
+  <!-- LAYER 5: MEMORY/TWIST -->
+  <!-- Hysteresis loop (toroidal region) -->
+  <ellipse cx="1152" cy="1088" rx="128" ry="64" fill="none" stroke="#e91e63" stroke-width="2" stroke-dasharray="8,4" opacity="0.6" transform="rotate(-30, 1152, 1088)"/>
+  <text x="1280" y="1152" text-anchor="middle" fill="#e91e63" font-size="16">Hysteresis Loop</text>
+  <!-- Möbius twist indicator -->
+  <path d="M 640 1024 Q 704 992 768 1024 Q 832 1056 896 1024" fill="none" stroke="#9c27b0" stroke-width="3"/>
+  <text x="768" y="1060" text-anchor="middle" fill="#9c27b0" font-size="16">Möbius 1/28</text>
+
+  <!-- LAYER 6: BIO-NEUROCHEMICAL -->
+  <!-- GABA-C V apex -->
+  <g>
+    <path d="M 512 1792 L 544 1664 L 576 1792" fill="none" stroke="#76ff03" stroke-width="4"/>
+    <circle cx="544" cy="1664" r="12" fill="#76ff03">
+      <animate attributeName="r" values="12;20;12" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="544" y="1840" text-anchor="middle" fill="#76ff03" font-size="20">GABA-C V (3.2, 14.0)</text>
+  </g>
+  <!-- Right cortisol fake 3D shell -->
+  <ellipse cx="1280" cy="896" rx="192" ry="96" fill="none" stroke="#ff5722" stroke-width="2" stroke-dasharray="4,4" opacity="0.5"/>
+  <text x="1536" y="800" text-anchor="middle" fill="#ff5722" font-size="16">Right Cortisol (fake 3D)</text>
+  <!-- Receptor nodes -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="256" cy="256" r="4"/>
+    <circle cx="512" cy="256" r="4"/>
+    <circle cx="768" cy="256" r="4"/>
+    <circle cx="1024" cy="256" r="4"/>
+    <circle cx="1280" cy="256" r="4"/>
+    <circle cx="1536" cy="256" r="4"/>
+    <circle cx="1792" cy="256" r="4"/>
+    <!-- ... (more receptor nodes) -->
+  </g>
+
+  <!-- LEGEND -->
+  <g transform="translate(128, 128)">
+    <rect width="300" height="400" fill="#1a1a2e" stroke="#00bcd4" stroke-width="2" opacity="0.9"/>
+    <text x="150" y="40" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="bold">FINAL GEOMETRY</text>
+    <!-- Legend items -->
+    <line x1="20" y1="70" x2="60" y2="70" stroke="#00bcd4" stroke-width="2"/><text x="70" y="75" fill="#ffffff" font-size="14">Seams (11)</text>
+    <polygon points="20,100 40,90 60,100 40,110" fill="url(#patchGrad)" stroke="#00bcd4"/><text x="70" y="105" fill="#ffffff" font-size="14">Patches (13)</text>
+    <circle cx="40" cy="140" r="8" fill="none" stroke="#2196f3" stroke-width="2"/><text x="70" y="145" fill="#ffffff" font-size="14">Left Attractor</text>
+    <circle cx="40" cy="170" r="8" fill="none" stroke="#f44336" stroke-width="2"/><text x="70" y="175" fill="#ffffff" font-size="14">Right Attractor</text>
+    <line x1="20" y1="200" x2="60" y2="200" stroke="#ff9800" stroke-width="3"/><text x="70" y="205" fill="#ffffff" font-size="14">Spark 138.88°</text>
+    <circle cx="40" cy="230" r="6" fill="#76ff03"/><text x="70" y="235" fill="#ffffff" font-size="14">GABA-C V</text>
+    <line x1="20" y1="260" x2="60" y2="260" stroke="#9c27b0" stroke-width="2"/><text x="70" y="265" fill="#ffffff" font-size="14">Möbius 1/28</text>
+    <ellipse cx="40" cy="290" rx="15" ry="8" fill="none" stroke="#ff5722" stroke-dasharray="4,4"/><text x="70" y="295" fill="#ffffff" font-size="14">Cortisol (fake 3D)</text>
+    <line x1="20" y1="320" x2="60" y2="320" stroke="#00bcd4" stroke-dasharray="5,5"/><text x="70" y="325" fill="#ffffff" font-size="14">Tunnelling</text>
+    <polygon points="30,350 40,340 50,350 40,360" fill="#ffd700"/><text x="70" y="355" fill="#ffffff" font-size="14">Gateway Peak</text>
+  </g>
+
+  <!-- ANNOTATIONS -->
+  <text x="1024" y="2000" text-anchor="middle" fill="#ffffff" font-size="16">R* = 0.11214750 | Q0* = 0.977738 | SPARK = 138.88° | 5/32 = Betti-5 Derived Gate</text>
+</svg>

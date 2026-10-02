@@ -1,0 +1,39 @@
+﻿======================================================================
+LIE GROUP ISOMORPHISM VERIFICATION (numerical + symbolic)
+======================================================================
+
+[1] observer_leftd2 ↔ Sagittarius A* (Hill + Bondi/Eddington)
+  step(0.7)           : residual = 0.085832  →  WEAK
+  pulse(0.9,1.5)      : residual = 0.157290  →  HEURISTIC
+  const(0.5)          : residual = 0.028895  →  WEAK
+
+[2] quark_orogen_magma ↔ Neutron Star (TOV)
+  step(0.6)           : residual = 0.097776  →  WEAK
+  pulse(0.8,1.5)      : residual = 0.046966  →  WEAK
+  const(0.5)          : residual = 0.125549  →  HEURISTIC
+
+[3] observer_leftd2 ↔ Main Sequence Star (Hill + Salpeter L∝M^3.5)
+  step(0.7)           : residual = 0.041776  →  WEAK
+  pulse(0.9,1.5)      : residual = 0.044030  →  WEAK
+  const(0.5)          : residual = 0.031446  →  WEAK
+
+[4] memory_entropy ↔ CMB acoustic peak (Hill + cos + φ-b fluid)
+  step(0.6)           : residual = 0.044748  →  WEAK
+  pulse(0.7,1.0)      : residual = 0.092878  →  WEAK
+  const(0.5)          : residual = 0.017541  →  WEAK
+
+[SELF-TEST] observer_leftd2 vs itself:
+  residual = 0.00e+00
+
+[SYMBOLIC] Lie bracket structure (Hill form):
+  Hill (master + self-regulation)
+  df/dx = -k_in*u1*u2 - k_out - k_self*x + k_self*(1 - x)
+  d²f/dx² = -2*k_self
+
+Wrote C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism.json
+
+Verdict: FAIL
+  obs_leftd2_SgrA: best = 0.028895  →  WEAK
+  qom_TOV: best = 0.046966  →  WEAK
+  obs_leftd2_MS: best = 0.031446  →  WEAK
+  mem_CMB: best = 0.017541  →  WEAK

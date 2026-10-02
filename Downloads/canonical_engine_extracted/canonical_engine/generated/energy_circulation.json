@@ -1,0 +1,2283 @@
+{
+  "circulation": {
+    "stress_pairs": {
+      "o2_co2": {
+        "name": "O₂/CO₂ Stress",
+        "name_kr": "산소/이산화탄소 스트레스",
+        "dims": [
+          "h",
+          "p"
+        ],
+        "day_sensor": "h — female GABA-B CO₂ sensor (osmotic stress)",
+        "night_stress": "p — hypoxic / low-water oxygen stress",
+        "poles": {
+          "a": {
+            "sphere": "Earth",
+            "dim": "h",
+            "sense": "CO₂/osmotic"
+          },
+          "b": {
+            "sphere": "Moon",
+            "dim": "p",
+            "sense": "oxygen/salt"
+          }
+        },
+        "toroidal_segment": "Earth→Moon",
+        "circadian_phase": "A_accumulate",
+        "hours": [
+          3,
+          9
+        ],
+        "attractors": [
+          "Information",
+          "Repair"
+        ]
+      },
+      "matter_nonmatter": {
+        "name": "Matter/Non-matter Stress",
+        "name_kr": "물질/비물질 스트레스",
+        "dims": [
+          "s",
+          "g"
+        ],
+        "day_sensor": "s — right sole dopamine C mass / osmotic sense",
+        "night_stress": "g — 무질량 sensor (male osmotic) / cold-sense binding",
+        "poles": {
+          "a": {
+            "sphere": "Sun",
+            "dim": "s",
+            "sense": "mass/brightness"
+          },
+          "b": {
+            "sphere": "Barnard",
+            "dim": "g",
+            "sense": "binding density/무질량"
+          }
+        },
+        "toroidal_segment": "CoMag→Barnard",
+        "circadian_phase": "B_accumulate",
+        "hours": [
+          15,
+          21
+        ],
+        "attractors": [
+          "Energy",
+          "Information"
+        ]
+      },
+      "heat_cold": {
+        "name": "Heat/Cold Stress",
+        "name_kr": "열/냉기 스트레스",
+        "dims": [
+          "nu",
+          "r"
+        ],
+        "day_sensor": "nu — male GABA-A temperature sensor (heat)",
+        "night_stress": "r — 무질량 stress / acid sensor (cold)",
+        "poles": {
+          "a": {
+            "sphere": "Moon",
+            "dim": "nu",
+            "sense": "heat/self-similarity"
+          },
+          "b": {
+            "sphere": "Sun",
+            "dim": "r",
+            "sense": "cold/rhythm"
+          }
+        },
+        "toroidal_segment": "Moon→CoMag",
+        "circadian_phase": "O_accumulate",
+        "hours": [
+          9,
+          15
+        ],
+        "attractors": [
+          "Information",
+          "Energy"
+        ]
+      },
+      "light_dark": {
+        "name": "Light/Dark Stress",
+        "name_kr": "빛/암흑 스트레스",
+        "dims": [
+          "gamma",
+          "d"
+        ],
+        "day_sensor": "gamma — right D2 UV sensor (light)",
+        "night_stress": "d — light stress / photonic load (darkness inversion)",
+        "poles": {
+          "a": {
+            "sphere": "Earth",
+            "dim": "gamma",
+            "sense": "light/spatial expansion"
+          },
+          "b": {
+            "sphere": "Barnard",
+            "dim": "d",
+            "sense": "dark/dissonance"
+          }
+        },
+        "toroidal_segment": "Sun→Earth",
+        "circadian_phase": "AB_spark",
+        "hours": [
+          0,
+          3
+        ],
+        "attractors": [
+          "Energy",
+          "Repair"
+        ]
+      }
+    },
+    "toroidal_cycle": [
+      {
+        "from": "Sun",
+        "to": "Earth",
+        "stress_pair": "light_dark",
+        "phase": "AB_spark",
+        "hours": [
+          0,
+          3
+        ],
+        "desc": "정보 스파크가 수리 엔진을 점화 — s(brightness)→gamma(expansion)",
+        "energy_flow": "Light energy: proton spark → oxygen repair ignition",
+        "from_sphere_info": {
+          "element": "H",
+          "particle": "Proton",
+          "attractor": "Information",
+          "attractor_role": "Information Attractor 점화 — 예측/학습의 스파크",
+          "dims": [
+            "r",
+            "s"
+          ],
+          "nodes": [
+            "cytochrome_c_oxidase",
+            "heme"
+          ],
+          "body_region": "brain/ETC"
+        },
+        "to_sphere_info": {
+          "element": "O",
+          "particle": "Photon",
+          "attractor": "Repair",
+          "attractor_role": "Repair Attractor 엔진 — 산소 기반 항상성",
+          "dims": [
+            "gamma",
+            "h"
+          ],
+          "nodes": [
+            "steel",
+            "water_vapour",
+            "succinate_dehydrogenase"
+          ],
+          "body_region": "thorax/spine"
+        },
+        "circuit_paths": {
+          "sphere_from": "Sun",
+          "sphere_to": "Earth",
+          "all_paths": [
+            {
+              "from_node": "cytochrome_c_oxidase",
+              "to_node": "steel",
+              "path": [
+                "cytochrome_c_oxidase",
+                "heme_in1_xor",
+                "heme",
+                "steel"
+              ],
+              "length": 4
+            },
+            {
+              "from_node": "cytochrome_c_oxidase",
+              "to_node": "water_vapour",
+              "path": [
+                "cytochrome_c_oxidase",
+                "heme_in1_xor",
+                "heme",
+                "steel",
+                "water_vapour_in0_xor",
+                "water_vapour"
+              ],
+              "length": 6
+            },
+            {
+              "from_node": "cytochrome_c_oxidase",
+              "to_node": "succinate_dehydrogenase",
+              "path": [
+                "cytochrome_c_oxidase",
+                "carbon",
+                "carbon_q_bar_or",
+                "mycorradicin",
+                "actomyosin_in0_xor",
+                "actomyosin",
+                "succinate_dehydrogenase"
+              ],
+              "length": 7
+            },
+            {
+              "from_node": "heme",
+              "to_node": "steel",
+              "path": [
+                "heme",
+                "steel"
+              ],
+              "length": 2
+            },
+            {
+              "from_node": "heme",
+              "to_node": "water_vapour",
+              "path": [
+                "heme",
+                "steel",
+                "water_vapour_in0_xor",
+                "water_vapour"
+              ],
+              "length": 4
+            },
+            {
+              "from_node": "heme",
+              "to_node": "succinate_dehydrogenase",
+              "path": [
+                "heme",
+                "steel",
+                "water_vapour_in0_xor",
+                "water_vapour",
+                "succinate_dehydrogenase"
+              ],
+              "length": 5
+            }
+          ],
+          "best_path": {
+            "from_node": "heme",
+            "to_node": "steel",
+            "path": [
+              "heme",
+              "steel"
+            ],
+            "length": 2
+          }
+        }
+      },
+      {
+        "from": "Earth",
+        "to": "Moon",
+        "stress_pair": "o2_co2",
+        "phase": "A_accumulate",
+        "hours": [
+          3,
+          9
+        ],
+        "desc": "수리가 시간/스케줄에 축적 — h(CO₂)→p(oxygen)",
+        "energy_flow": "O₂/CO₂ exchange: oxygen repair → carbon clock accumulation",
+        "from_sphere_info": {
+          "element": "O",
+          "particle": "Photon",
+          "attractor": "Repair",
+          "attractor_role": "Repair Attractor 엔진 — 산소 기반 항상성",
+          "dims": [
+            "gamma",
+            "h"
+          ],
+          "nodes": [
+            "steel",
+            "water_vapour",
+            "succinate_dehydrogenase"
+          ],
+          "body_region": "thorax/spine"
+        },
+        "to_sphere_info": {
+          "element": "C",
+          "particle": "Z-boson",
+          "attractor": "Time",
+          "attractor_role": "3개 어트랙터의 시간 조정 — 28일 스케줄",
+          "dims": [
+            "p",
+            "nu"
+          ],
+          "nodes": [
+            "co2",
+            "carbon",
+            "memory_entropy"
+          ],
+          "body_region": "occiput/right brain"
+        },
+        "circuit_paths": {
+          "sphere_from": "Earth",
+          "sphere_to": "Moon",
+          "all_paths": [
+            {
+              "from_node": "steel",
+              "to_node": "co2",
+              "path": [
+                "steel",
+                "water_vapour_in0_xor",
+                "water_vapour",
+                "succinate_dehydrogenase",
+                "succinate_dehydrogenase_out0_nand",
+                "right_acetylcholine",
+                "right_acetylcholine_out0_nand",
+                "co2_in0_xor",
+                "co2"
+              ],
+              "length": 9
+            },
+            {
+              "from_node": "steel",
+              "to_node": "carbon",
+              "path": [
+                "steel",
+                "laterite",
+                "ferritin_ctrl0_or",
+                "ferritin",
+                "cytochrome_c_oxidase_in1_xor",
+                "cytochrome_c_oxidase",
+                "carbon"
+              ],
+              "length": 7
+            },
+            {
+              "from_node": "steel",
+              "to_node": "memory_entropy",
+              "path": [
+                "steel",
+                "water_vapour_in0_xor",
+                "water_vapour",
+                "sodium_in0_xor",
+                "sodium",
+                "sulforaphane",
+                "glymphatic_system",
+                "cysteine",
+                "memory_entropy"
+              ],
+              "length": 9
+            },
+            {
+              "from_node": "water_vapour",
+              "to_node": "co2",
+              "path": [
+                "water_vapour",
+                "succinate_dehydrogenase",
+                "succinate_dehydrogenase_out0_nand",
+                "right_acetylcholine",
+                "right_acetylcholine_out0_nand",
+                "co2_in0_xor",
+                "co2"
+              ],
+              "length": 7
+            },
+            {
+              "from_node": "water_vapour",
+              "to_node": "carbon",
+              "path": [
+                "water_vapour",
+                "succinate_dehydrogenase",
+                "succinate_dehydrogenase_out0_nand",
+                "hind_insula",
+                "hind_insula_out0_nand",
+                "carbon"
+              ],
+              "length": 6
+            },
+            {
+              "from_node": "water_vapour",
+              "to_node": "memory_entropy",
+              "path": [
+                "water_vapour",
+                "sodium_in0_xor",
+                "sodium",
+                "sulforaphane",
+                "glymphatic_system",
+                "cysteine",
+                "memory_entropy"
+              ],
+              "length": 7
+            },
+            {
+              "from_node": "succinate_dehydrogenase",
+              "to_node": "co2",
+              "path": [
+                "succinate_dehydrogenase",
+                "succinate_dehydrogenase_out0_nand",
+                "right_acetylcholine",
+                "right_acetylcholine_out0_nand",
+                "co2_in0_xor",
+                "co2"
+              ],
+              "length": 6
+            },
+            {
+              "from_node": "succinate_dehydrogenase",
+              "to_node": "carbon",
+              "path": [
+                "succinate_dehydrogenase",
+                "succinate_dehydrogenase_out0_nand",
+                "hind_insula",
+                "hind_insula_out0_nand",
+                "carbon"
+              ],
+              "length": 5
+            },
+            {
+              "from_node": "succinate_dehydrogenase",
+              "to_node": "memory_entropy",
+              "path": [
+                "succinate_dehydrogenase",
+                "succinate_dehydrogenase_out0_nand",
+                "substance_p",
+                "substance_p_out_mc1r_xnor",
+                "mc1r",
+                "mc1r_q_or",
+                "memory_entropy"
+              ],
+              "length": 7
+            }
+          ],
+          "best_path": {
+            "from_node": "succinate_dehydrogenase",
+            "to_node": "carbon",
+            "path": [
+              "succinate_dehydrogenase",
+              "succinate_dehydrogenase_out0_nand",
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "carbon"
+            ],
+            "length": 5
+          }
+        }
+      },
+      {
+        "from": "Moon",
+        "to": "CoMag",
+        "stress_pair": "heat_cold",
+        "phase": "O_accumulate",
+        "hours": [
+          9,
+          15
+        ],
+        "desc": "시간이 결합 브릿지로 전환 — nu(heat)→g(binding)",
+        "energy_flow": "Thermal gradient: carbon clock heat → sulfur bridge coupling",
+        "from_sphere_info": {
+          "element": "C",
+          "particle": "Z-boson",
+          "attractor": "Time",
+          "attractor_role": "3개 어트랙터의 시간 조정 — 28일 스케줄",
+          "dims": [
+            "p",
+            "nu"
+          ],
+          "nodes": [
+            "co2",
+            "carbon",
+            "memory_entropy"
+          ],
+          "body_region": "occiput/right brain"
+        },
+        "to_sphere_info": {
+          "element": "S",
+          "particle": "W-boson/Gluon",
+          "attractor": "Bridge",
+          "attractor_role": "어트랙터 간 결합 브릿지 — Maxwell/약력 매개",
+          "dims": [
+            "g",
+            "gamma"
+          ],
+          "nodes": [
+            "sulforaphane",
+            "histosol",
+            "pyrite"
+          ],
+          "body_region": "pelvis/gut"
+        },
+        "circuit_paths": {
+          "sphere_from": "Moon",
+          "sphere_to": "CoMag",
+          "all_paths": [
+            {
+              "from_node": "co2",
+              "to_node": "sulforaphane",
+              "path": [
+                "co2",
+                "hind_insula",
+                "hind_insula_out0_nand",
+                "sodium",
+                "sulforaphane"
+              ],
+              "length": 5
+            },
+            {
+              "from_node": "co2",
+              "to_node": "histosol",
+              "path": [
+                "co2",
+                "hind_insula",
+                "hind_insula_out0_nand",
+                "sodium",
+                "sulforaphane",
+                "histosol"
+              ],
+              "length": 6
+            },
+            {
+              "from_node": "co2",
+              "to_node": "pyrite",
+              "path": [
+                "co2",
+                "hind_insula",
+                "hind_insula_out0_nand",
+                "sodium",
+                "sulforaphane",
+                "pentose_phosphate",
+                "pentose_phosphate_out_2_nor",
+                "pyrite"
+              ],
+              "length": 8
+            },
+            {
+              "from_node": "carbon",
+              "to_node": "sulforaphane",
+              "path": [
+                "carbon",
+                "carbon_q_bar_or",
+                "fold_belt_in0_xor",
+                "fold_belt",
+                "histosol_in0_xor",
+                "histosol",
+                "sulforaphane"
+              ],
+              "length": 7
+            },
+            {
+              "from_node": "carbon",
+              "to_node": "histosol",
+              "path": [
+                "carbon",
+                "carbon_q_bar_or",
+                "fold_belt_in0_xor",
+                "fold_belt",
+                "histosol_in0_xor",
+                "histosol"
+              ],
+              "length": 6
+            },
+            {
+              "from_node": "carbon",
+              "to_node": "pyrite",
+              "path": [
+                "carbon",
+                "carbon_q_or",
+                "methanogenesis",
+                "methanogenesis_out0_nand",
+                "peonidine",
+                "pentose_phosphate",
+                "pentose_phosphate_out_2_nor",
+                "pyrite"
+              ],
+              "length": 8
+            },
+            {
+              "from_node": "memory_entropy",
+              "to_node": "sulforaphane",
+              "path": [
+                "memory_entropy",
+                "memory_entropy_out_hind_insula_xnor",
+                "hind_insula",
+                "hind_insula_out0_nand",
+                "sodium",
+                "sulforaphane"
+              ],
+              "length": 6
+            },
+            {
+              "from_node": "memory_entropy",
+              "to_node": "histosol",
+              "path": [
+                "memory_entropy",
+                "memory_entropy_out_hind_insula_xnor",
+                "hind_insula",
+                "hind_insula_out0_nand",
+                "sodium",
+                "sulforaphane",
+                "histosol"
+              ],
+              "length": 7
+            },
+            {
+              "from_node": "memory_entropy",
+              "to_node": "pyrite",
+              "path": [
+                "memory_entropy",
+                "memory_entropy_out_hind_insula_xnor",
+                "hind_insula",
+                "hind_insula_out0_nand",
+                "sodium",
+                "sulforaphane",
+                "pentose_phosphate",
+                "pentose_phosphate_out_2_nor",
+                "pyrite"
+              ],
+              "length": 9
+            }
+          ],
+          "best_path": {
+            "from_node": "co2",
+            "to_node": "sulforaphane",
+            "path": [
+              "co2",
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "sodium",
+              "sulforaphane"
+            ],
+            "length": 5
+          }
+        }
+      },
+      {
+        "from": "CoMag",
+        "to": "Barnard",
+        "stress_pair": "matter_nonmatter",
+        "phase": "B_accumulate",
+        "hours": [
+          15,
+          21
+        ],
+        "desc": "결합 에너지가 질량 저장소로 압축 — g(binding)→d(dissonance/mass)",
+        "energy_flow": "Matter compression: sulfur binding → iron mass storage",
+        "from_sphere_info": {
+          "element": "S",
+          "particle": "W-boson/Gluon",
+          "attractor": "Bridge",
+          "attractor_role": "어트랙터 간 결합 브릿지 — Maxwell/약력 매개",
+          "dims": [
+            "g",
+            "gamma"
+          ],
+          "nodes": [
+            "sulforaphane",
+            "histosol",
+            "pyrite"
+          ],
+          "body_region": "pelvis/gut"
+        },
+        "to_sphere_info": {
+          "element": "Fe",
+          "particle": "Quark/Higgs",
+          "attractor": "Energy",
+          "attractor_role": "Energy Attractor 닻 — 질량 저장, 북극점",
+          "dims": [
+            "g",
+            "d"
+          ],
+          "nodes": [
+            "heme",
+            "ferritin",
+            "sulfur_iron_complex"
+          ],
+          "body_region": "chest/liver"
+        },
+        "circuit_paths": {
+          "sphere_from": "CoMag",
+          "sphere_to": "Barnard",
+          "all_paths": [
+            {
+              "from_node": "sulforaphane",
+              "to_node": "heme",
+              "path": [
+                "sulforaphane",
+                "histosol",
+                "manganese_oxygen_complex",
+                "heme"
+              ],
+              "length": 4
+            },
+            {
+              "from_node": "sulforaphane",
+              "to_node": "ferritin",
+              "path": [
+                "sulforaphane",
+                "histosol",
+                "manganese_oxygen_complex",
+                "ferritin_ctrl0_or",
+                "ferritin"
+              ],
+              "length": 5
+            },
+            {
+              "from_node": "sulforaphane",
+              "to_node": "sulfur_iron_complex",
+              "path": [
+                "sulforaphane",
+                "pentose_phosphate",
+                "pentose_phosphate_out_1_xnor",
+                "disulfide_bond",
+                "sulfur_iron_complex"
+              ],
+              "length": 5
+            },
+            {
+              "from_node": "histosol",
+              "to_node": "heme",
+              "path": [
+                "histosol",
+                "manganese_oxygen_complex",
+                "heme"
+              ],
+              "length": 3
+            },
+            {
+              "from_node": "histosol",
+              "to_node": "ferritin",
+              "path": [
+                "histosol",
+                "manganese_oxygen_complex",
+                "ferritin_ctrl0_or",
+                "ferritin"
+              ],
+              "length": 4
+            },
+            {
+              "from_node": "histosol",
+              "to_node": "sulfur_iron_complex",
+              "path": [
+                "histosol",
+                "sulforaphane",
+                "pentose_phosphate",
+                "pentose_phosphate_out_1_xnor",
+                "disulfide_bond",
+                "sulfur_iron_complex"
+              ],
+              "length": 6
+            },
+            {
+              "from_node": "pyrite",
+              "to_node": "heme",
+              "path": [
+                "pyrite",
+                "glp1",
+                "glp1_q_bar_or",
+                "oxidised_manganese",
+                "heme"
+              ],
+              "length": 5
+            },
+            {
+              "from_node": "pyrite",
+              "to_node": "ferritin",
+              "path": [
+                "pyrite",
+                "right_sole_dopamine",
+                "right_sole_dopamine_q_bar_or",
+                "actomyosin",
+                "sulfur_iron_complex",
+                "ferritin_in0_xor",
+                "ferritin"
+              ],
+              "length": 7
+            },
+            {
+              "from_node": "pyrite",
+              "to_node": "sulfur_iron_complex",
+              "path": [
+                "pyrite",
+                "right_sole_dopamine",
+                "right_sole_dopamine_q_bar_or",
+                "actomyosin",
+                "sulfur_iron_complex"
+              ],
+              "length": 5
+            }
+          ],
+          "best_path": {
+            "from_node": "histosol",
+            "to_node": "heme",
+            "path": [
+              "histosol",
+              "manganese_oxygen_complex",
+              "heme"
+            ],
+            "length": 3
+          }
+        }
+      },
+      {
+        "from": "Barnard",
+        "to": "Sun",
+        "stress_pair": "reset_spark",
+        "phase": "AB_integration",
+        "hours": [
+          21,
+          3
+        ],
+        "desc": "질량 저장이 다음 정보 스파크 충전 — d(dark)→r(cold/rhythm), g→s",
+        "energy_flow": "Reset spark (138.88°): iron mass → proton spark recharge",
+        "from_sphere_info": {
+          "element": "Fe",
+          "particle": "Quark/Higgs",
+          "attractor": "Energy",
+          "attractor_role": "Energy Attractor 닻 — 질량 저장, 북극점",
+          "dims": [
+            "g",
+            "d"
+          ],
+          "nodes": [
+            "heme",
+            "ferritin",
+            "sulfur_iron_complex"
+          ],
+          "body_region": "chest/liver"
+        },
+        "to_sphere_info": {
+          "element": "H",
+          "particle": "Proton",
+          "attractor": "Information",
+          "attractor_role": "Information Attractor 점화 — 예측/학습의 스파크",
+          "dims": [
+            "r",
+            "s"
+          ],
+          "nodes": [
+            "cytochrome_c_oxidase",
+            "heme"
+          ],
+          "body_region": "brain/ETC"
+        },
+        "circuit_paths": {
+          "sphere_from": "Barnard",
+          "sphere_to": "Sun",
+          "all_paths": [
+            {
+              "from_node": "heme",
+              "to_node": "cytochrome_c_oxidase",
+              "path": [
+                "heme",
+                "steel",
+                "laterite",
+                "ferritin_ctrl0_or",
+                "ferritin",
+                "cytochrome_c_oxidase_in1_xor",
+                "cytochrome_c_oxidase"
+              ],
+              "length": 7
+            },
+            {
+              "from_node": "ferritin",
+              "to_node": "cytochrome_c_oxidase",
+              "path": [
+                "ferritin",
+                "cytochrome_c_oxidase_in1_xor",
+                "cytochrome_c_oxidase"
+              ],
+              "length": 3
+            },
+            {
+              "from_node": "ferritin",
+              "to_node": "heme",
+              "path": [
+                "ferritin",
+                "cytochrome_c_oxidase_in1_xor",
+                "cytochrome_c_oxidase",
+                "heme_in1_xor",
+                "heme"
+              ],
+              "length": 5
+            },
+            {
+              "from_node": "sulfur_iron_complex",
+              "to_node": "cytochrome_c_oxidase",
+              "path": [
+                "sulfur_iron_complex",
+                "ferritin_in0_xor",
+                "ferritin",
+                "cytochrome_c_oxidase_in1_xor",
+                "cytochrome_c_oxidase"
+              ],
+              "length": 5
+            },
+            {
+              "from_node": "sulfur_iron_complex",
+              "to_node": "heme",
+              "path": [
+                "sulfur_iron_complex",
+                "water",
+                "water_out0_nand",
+                "chlorine_ion_pump",
+                "heme_in0_xor",
+                "heme"
+              ],
+              "length": 6
+            }
+          ],
+          "best_path": {
+            "from_node": "ferritin",
+            "to_node": "cytochrome_c_oxidase",
+            "path": [
+              "ferritin",
+              "cytochrome_c_oxidase_in1_xor",
+              "cytochrome_c_oxidase"
+            ],
+            "length": 3
+          }
+        },
+        "spark_angle": 138.88,
+        "spark_note": "138.88° diagonal reset spark — void 관통 각도"
+      }
+    ],
+    "sphere_paths": [
+      {
+        "sphere_from": "Sun",
+        "sphere_to": "Earth",
+        "all_paths": [
+          {
+            "from_node": "cytochrome_c_oxidase",
+            "to_node": "steel",
+            "path": [
+              "cytochrome_c_oxidase",
+              "heme_in1_xor",
+              "heme",
+              "steel"
+            ],
+            "length": 4
+          },
+          {
+            "from_node": "cytochrome_c_oxidase",
+            "to_node": "water_vapour",
+            "path": [
+              "cytochrome_c_oxidase",
+              "heme_in1_xor",
+              "heme",
+              "steel",
+              "water_vapour_in0_xor",
+              "water_vapour"
+            ],
+            "length": 6
+          },
+          {
+            "from_node": "cytochrome_c_oxidase",
+            "to_node": "succinate_dehydrogenase",
+            "path": [
+              "cytochrome_c_oxidase",
+              "carbon",
+              "carbon_q_bar_or",
+              "mycorradicin",
+              "actomyosin_in0_xor",
+              "actomyosin",
+              "succinate_dehydrogenase"
+            ],
+            "length": 7
+          },
+          {
+            "from_node": "heme",
+            "to_node": "steel",
+            "path": [
+              "heme",
+              "steel"
+            ],
+            "length": 2
+          },
+          {
+            "from_node": "heme",
+            "to_node": "water_vapour",
+            "path": [
+              "heme",
+              "steel",
+              "water_vapour_in0_xor",
+              "water_vapour"
+            ],
+            "length": 4
+          },
+          {
+            "from_node": "heme",
+            "to_node": "succinate_dehydrogenase",
+            "path": [
+              "heme",
+              "steel",
+              "water_vapour_in0_xor",
+              "water_vapour",
+              "succinate_dehydrogenase"
+            ],
+            "length": 5
+          }
+        ],
+        "best_path": {
+          "from_node": "heme",
+          "to_node": "steel",
+          "path": [
+            "heme",
+            "steel"
+          ],
+          "length": 2
+        }
+      },
+      {
+        "sphere_from": "Earth",
+        "sphere_to": "Moon",
+        "all_paths": [
+          {
+            "from_node": "steel",
+            "to_node": "co2",
+            "path": [
+              "steel",
+              "water_vapour_in0_xor",
+              "water_vapour",
+              "succinate_dehydrogenase",
+              "succinate_dehydrogenase_out0_nand",
+              "right_acetylcholine",
+              "right_acetylcholine_out0_nand",
+              "co2_in0_xor",
+              "co2"
+            ],
+            "length": 9
+          },
+          {
+            "from_node": "steel",
+            "to_node": "carbon",
+            "path": [
+              "steel",
+              "laterite",
+              "ferritin_ctrl0_or",
+              "ferritin",
+              "cytochrome_c_oxidase_in1_xor",
+              "cytochrome_c_oxidase",
+              "carbon"
+            ],
+            "length": 7
+          },
+          {
+            "from_node": "steel",
+            "to_node": "memory_entropy",
+            "path": [
+              "steel",
+              "water_vapour_in0_xor",
+              "water_vapour",
+              "sodium_in0_xor",
+              "sodium",
+              "sulforaphane",
+              "glymphatic_system",
+              "cysteine",
+              "memory_entropy"
+            ],
+            "length": 9
+          },
+          {
+            "from_node": "water_vapour",
+            "to_node": "co2",
+            "path": [
+              "water_vapour",
+              "succinate_dehydrogenase",
+              "succinate_dehydrogenase_out0_nand",
+              "right_acetylcholine",
+              "right_acetylcholine_out0_nand",
+              "co2_in0_xor",
+              "co2"
+            ],
+            "length": 7
+          },
+          {
+            "from_node": "water_vapour",
+            "to_node": "carbon",
+            "path": [
+              "water_vapour",
+              "succinate_dehydrogenase",
+              "succinate_dehydrogenase_out0_nand",
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "carbon"
+            ],
+            "length": 6
+          },
+          {
+            "from_node": "water_vapour",
+            "to_node": "memory_entropy",
+            "path": [
+              "water_vapour",
+              "sodium_in0_xor",
+              "sodium",
+              "sulforaphane",
+              "glymphatic_system",
+              "cysteine",
+              "memory_entropy"
+            ],
+            "length": 7
+          },
+          {
+            "from_node": "succinate_dehydrogenase",
+            "to_node": "co2",
+            "path": [
+              "succinate_dehydrogenase",
+              "succinate_dehydrogenase_out0_nand",
+              "right_acetylcholine",
+              "right_acetylcholine_out0_nand",
+              "co2_in0_xor",
+              "co2"
+            ],
+            "length": 6
+          },
+          {
+            "from_node": "succinate_dehydrogenase",
+            "to_node": "carbon",
+            "path": [
+              "succinate_dehydrogenase",
+              "succinate_dehydrogenase_out0_nand",
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "carbon"
+            ],
+            "length": 5
+          },
+          {
+            "from_node": "succinate_dehydrogenase",
+            "to_node": "memory_entropy",
+            "path": [
+              "succinate_dehydrogenase",
+              "succinate_dehydrogenase_out0_nand",
+              "substance_p",
+              "substance_p_out_mc1r_xnor",
+              "mc1r",
+              "mc1r_q_or",
+              "memory_entropy"
+            ],
+            "length": 7
+          }
+        ],
+        "best_path": {
+          "from_node": "succinate_dehydrogenase",
+          "to_node": "carbon",
+          "path": [
+            "succinate_dehydrogenase",
+            "succinate_dehydrogenase_out0_nand",
+            "hind_insula",
+            "hind_insula_out0_nand",
+            "carbon"
+          ],
+          "length": 5
+        }
+      },
+      {
+        "sphere_from": "Moon",
+        "sphere_to": "CoMag",
+        "all_paths": [
+          {
+            "from_node": "co2",
+            "to_node": "sulforaphane",
+            "path": [
+              "co2",
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "sodium",
+              "sulforaphane"
+            ],
+            "length": 5
+          },
+          {
+            "from_node": "co2",
+            "to_node": "histosol",
+            "path": [
+              "co2",
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "sodium",
+              "sulforaphane",
+              "histosol"
+            ],
+            "length": 6
+          },
+          {
+            "from_node": "co2",
+            "to_node": "pyrite",
+            "path": [
+              "co2",
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "sodium",
+              "sulforaphane",
+              "pentose_phosphate",
+              "pentose_phosphate_out_2_nor",
+              "pyrite"
+            ],
+            "length": 8
+          },
+          {
+            "from_node": "carbon",
+            "to_node": "sulforaphane",
+            "path": [
+              "carbon",
+              "carbon_q_bar_or",
+              "fold_belt_in0_xor",
+              "fold_belt",
+              "histosol_in0_xor",
+              "histosol",
+              "sulforaphane"
+            ],
+            "length": 7
+          },
+          {
+            "from_node": "carbon",
+            "to_node": "histosol",
+            "path": [
+              "carbon",
+              "carbon_q_bar_or",
+              "fold_belt_in0_xor",
+              "fold_belt",
+              "histosol_in0_xor",
+              "histosol"
+            ],
+            "length": 6
+          },
+          {
+            "from_node": "carbon",
+            "to_node": "pyrite",
+            "path": [
+              "carbon",
+              "carbon_q_or",
+              "methanogenesis",
+              "methanogenesis_out0_nand",
+              "peonidine",
+              "pentose_phosphate",
+              "pentose_phosphate_out_2_nor",
+              "pyrite"
+            ],
+            "length": 8
+          },
+          {
+            "from_node": "memory_entropy",
+            "to_node": "sulforaphane",
+            "path": [
+              "memory_entropy",
+              "memory_entropy_out_hind_insula_xnor",
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "sodium",
+              "sulforaphane"
+            ],
+            "length": 6
+          },
+          {
+            "from_node": "memory_entropy",
+            "to_node": "histosol",
+            "path": [
+              "memory_entropy",
+              "memory_entropy_out_hind_insula_xnor",
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "sodium",
+              "sulforaphane",
+              "histosol"
+            ],
+            "length": 7
+          },
+          {
+            "from_node": "memory_entropy",
+            "to_node": "pyrite",
+            "path": [
+              "memory_entropy",
+              "memory_entropy_out_hind_insula_xnor",
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "sodium",
+              "sulforaphane",
+              "pentose_phosphate",
+              "pentose_phosphate_out_2_nor",
+              "pyrite"
+            ],
+            "length": 9
+          }
+        ],
+        "best_path": {
+          "from_node": "co2",
+          "to_node": "sulforaphane",
+          "path": [
+            "co2",
+            "hind_insula",
+            "hind_insula_out0_nand",
+            "sodium",
+            "sulforaphane"
+          ],
+          "length": 5
+        }
+      },
+      {
+        "sphere_from": "CoMag",
+        "sphere_to": "Barnard",
+        "all_paths": [
+          {
+            "from_node": "sulforaphane",
+            "to_node": "heme",
+            "path": [
+              "sulforaphane",
+              "histosol",
+              "manganese_oxygen_complex",
+              "heme"
+            ],
+            "length": 4
+          },
+          {
+            "from_node": "sulforaphane",
+            "to_node": "ferritin",
+            "path": [
+              "sulforaphane",
+              "histosol",
+              "manganese_oxygen_complex",
+              "ferritin_ctrl0_or",
+              "ferritin"
+            ],
+            "length": 5
+          },
+          {
+            "from_node": "sulforaphane",
+            "to_node": "sulfur_iron_complex",
+            "path": [
+              "sulforaphane",
+              "pentose_phosphate",
+              "pentose_phosphate_out_1_xnor",
+              "disulfide_bond",
+              "sulfur_iron_complex"
+            ],
+            "length": 5
+          },
+          {
+            "from_node": "histosol",
+            "to_node": "heme",
+            "path": [
+              "histosol",
+              "manganese_oxygen_complex",
+              "heme"
+            ],
+            "length": 3
+          },
+          {
+            "from_node": "histosol",
+            "to_node": "ferritin",
+            "path": [
+              "histosol",
+              "manganese_oxygen_complex",
+              "ferritin_ctrl0_or",
+              "ferritin"
+            ],
+            "length": 4
+          },
+          {
+            "from_node": "histosol",
+            "to_node": "sulfur_iron_complex",
+            "path": [
+              "histosol",
+              "sulforaphane",
+              "pentose_phosphate",
+              "pentose_phosphate_out_1_xnor",
+              "disulfide_bond",
+              "sulfur_iron_complex"
+            ],
+            "length": 6
+          },
+          {
+            "from_node": "pyrite",
+            "to_node": "heme",
+            "path": [
+              "pyrite",
+              "glp1",
+              "glp1_q_bar_or",
+              "oxidised_manganese",
+              "heme"
+            ],
+            "length": 5
+          },
+          {
+            "from_node": "pyrite",
+            "to_node": "ferritin",
+            "path": [
+              "pyrite",
+              "right_sole_dopamine",
+              "right_sole_dopamine_q_bar_or",
+              "actomyosin",
+              "sulfur_iron_complex",
+              "ferritin_in0_xor",
+              "ferritin"
+            ],
+            "length": 7
+          },
+          {
+            "from_node": "pyrite",
+            "to_node": "sulfur_iron_complex",
+            "path": [
+              "pyrite",
+              "right_sole_dopamine",
+              "right_sole_dopamine_q_bar_or",
+              "actomyosin",
+              "sulfur_iron_complex"
+            ],
+            "length": 5
+          }
+        ],
+        "best_path": {
+          "from_node": "histosol",
+          "to_node": "heme",
+          "path": [
+            "histosol",
+            "manganese_oxygen_complex",
+            "heme"
+          ],
+          "length": 3
+        }
+      },
+      {
+        "sphere_from": "Barnard",
+        "sphere_to": "Sun",
+        "all_paths": [
+          {
+            "from_node": "heme",
+            "to_node": "cytochrome_c_oxidase",
+            "path": [
+              "heme",
+              "steel",
+              "laterite",
+              "ferritin_ctrl0_or",
+              "ferritin",
+              "cytochrome_c_oxidase_in1_xor",
+              "cytochrome_c_oxidase"
+            ],
+            "length": 7
+          },
+          {
+            "from_node": "ferritin",
+            "to_node": "cytochrome_c_oxidase",
+            "path": [
+              "ferritin",
+              "cytochrome_c_oxidase_in1_xor",
+              "cytochrome_c_oxidase"
+            ],
+            "length": 3
+          },
+          {
+            "from_node": "ferritin",
+            "to_node": "heme",
+            "path": [
+              "ferritin",
+              "cytochrome_c_oxidase_in1_xor",
+              "cytochrome_c_oxidase",
+              "heme_in1_xor",
+              "heme"
+            ],
+            "length": 5
+          },
+          {
+            "from_node": "sulfur_iron_complex",
+            "to_node": "cytochrome_c_oxidase",
+            "path": [
+              "sulfur_iron_complex",
+              "ferritin_in0_xor",
+              "ferritin",
+              "cytochrome_c_oxidase_in1_xor",
+              "cytochrome_c_oxidase"
+            ],
+            "length": 5
+          },
+          {
+            "from_node": "sulfur_iron_complex",
+            "to_node": "heme",
+            "path": [
+              "sulfur_iron_complex",
+              "water",
+              "water_out0_nand",
+              "chlorine_ion_pump",
+              "heme_in0_xor",
+              "heme"
+            ],
+            "length": 6
+          }
+        ],
+        "best_path": {
+          "from_node": "ferritin",
+          "to_node": "cytochrome_c_oxidase",
+          "path": [
+            "ferritin",
+            "cytochrome_c_oxidase_in1_xor",
+            "cytochrome_c_oxidase"
+          ],
+          "length": 3
+        }
+      }
+    ],
+    "attractor_mapping": {
+      "Energy": {
+        "dims": [
+          "r",
+          "g",
+          "gamma"
+        ],
+        "loop": [
+          "observer_leftd2",
+          "carbon",
+          "succinate_dehydrogenase",
+          "autophagy",
+          "nacl",
+          "actomyosin",
+          "observer_leftd2"
+        ],
+        "sphere": "Barnard",
+        "breakdown": "Fatigue, Depression, Hypometabolism",
+        "loop_verified": [
+          {
+            "from": "observer_leftd2",
+            "to": "carbon",
+            "path_exists": true,
+            "path": [
+              "observer_leftd2",
+              "carbon"
+            ]
+          },
+          {
+            "from": "carbon",
+            "to": "succinate_dehydrogenase",
+            "path_exists": true,
+            "path": [
+              "carbon",
+              "carbon_q_bar_or",
+              "mycorradicin",
+              "actomyosin_in0_xor",
+              "actomyosin",
+              "succinate_dehydrogenase"
+            ]
+          },
+          {
+            "from": "succinate_dehydrogenase",
+            "to": "autophagy",
+            "path_exists": true,
+            "path": [
+              "succinate_dehydrogenase",
+              "succinate_dehydrogenase_out0_nand",
+              "substance_p",
+              "substance_p_out_autophagy_xor",
+              "autophagy"
+            ]
+          },
+          {
+            "from": "autophagy",
+            "to": "nacl",
+            "path_exists": false,
+            "path": null
+          },
+          {
+            "from": "nacl",
+            "to": "actomyosin",
+            "path_exists": false,
+            "path": null
+          },
+          {
+            "from": "actomyosin",
+            "to": "observer_leftd2",
+            "path_exists": true,
+            "path": [
+              "actomyosin",
+              "succinate_dehydrogenase",
+              "succinate_dehydrogenase_out0_nand",
+              "right_acetylcholine",
+              "right_acetylcholine_out0_nand",
+              "co2_in0_xor",
+              "co2",
+              "observer_leftd2"
+            ]
+          }
+        ]
+      },
+      "Information": {
+        "dims": [
+          "h",
+          "nu",
+          "s"
+        ],
+        "loop": [
+          "mc1r",
+          "glymphatic_system",
+          "cysteine",
+          "memory_entropy",
+          "hind_insula",
+          "carbon",
+          "mc1r"
+        ],
+        "sphere": "Sun",
+        "breakdown": "Anxiety, Schizophrenia, OCD",
+        "loop_verified": [
+          {
+            "from": "mc1r",
+            "to": "glymphatic_system",
+            "path_exists": true,
+            "path": [
+              "mc1r",
+              "mc1r_q_or",
+              "glymphatic_system"
+            ]
+          },
+          {
+            "from": "glymphatic_system",
+            "to": "cysteine",
+            "path_exists": true,
+            "path": [
+              "glymphatic_system",
+              "cysteine"
+            ]
+          },
+          {
+            "from": "cysteine",
+            "to": "memory_entropy",
+            "path_exists": true,
+            "path": [
+              "cysteine",
+              "memory_entropy"
+            ]
+          },
+          {
+            "from": "memory_entropy",
+            "to": "hind_insula",
+            "path_exists": true,
+            "path": [
+              "memory_entropy",
+              "memory_entropy_out_hind_insula_xnor",
+              "hind_insula"
+            ]
+          },
+          {
+            "from": "hind_insula",
+            "to": "carbon",
+            "path_exists": true,
+            "path": [
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "carbon"
+            ]
+          },
+          {
+            "from": "carbon",
+            "to": "mc1r",
+            "path_exists": true,
+            "path": [
+              "carbon",
+              "carbon_q_or",
+              "methanogenesis",
+              "methanogenesis_out0_nand",
+              "mc1r"
+            ]
+          }
+        ]
+      },
+      "Repair": {
+        "dims": [
+          "p",
+          "d",
+          "g"
+        ],
+        "loop": [
+          "carbon",
+          "mycorradicin",
+          "autophagy",
+          "collagen",
+          "methionine",
+          "substance_p",
+          "mc1r",
+          "carbon"
+        ],
+        "sphere": "Earth",
+        "breakdown": "Chronic inflammation, Long COVID, HSV, Lyme",
+        "loop_verified": [
+          {
+            "from": "carbon",
+            "to": "mycorradicin",
+            "path_exists": true,
+            "path": [
+              "carbon",
+              "carbon_q_bar_or",
+              "mycorradicin"
+            ]
+          },
+          {
+            "from": "mycorradicin",
+            "to": "autophagy",
+            "path_exists": true,
+            "path": [
+              "mycorradicin",
+              "mycorradicin_right_acetylcholine_or",
+              "mycorradicin_leftd2_and",
+              "mycorradicin_autophagy_input_or",
+              "autophagy"
+            ]
+          },
+          {
+            "from": "autophagy",
+            "to": "collagen",
+            "path_exists": true,
+            "path": [
+              "autophagy",
+              "NaCl_in0_xor",
+              "NaCl",
+              "collagen"
+            ]
+          },
+          {
+            "from": "collagen",
+            "to": "methionine",
+            "path_exists": true,
+            "path": [
+              "collagen",
+              "collagen_out0_nand",
+              "methionine"
+            ]
+          },
+          {
+            "from": "methionine",
+            "to": "substance_p",
+            "path_exists": true,
+            "path": [
+              "methionine",
+              "substance_p"
+            ]
+          },
+          {
+            "from": "substance_p",
+            "to": "mc1r",
+            "path_exists": true,
+            "path": [
+              "substance_p",
+              "substance_p_out_mc1r_xnor",
+              "mc1r"
+            ]
+          },
+          {
+            "from": "mc1r",
+            "to": "carbon",
+            "path_exists": true,
+            "path": [
+              "mc1r",
+              "mc1r_q_or",
+              "memory_entropy",
+              "memory_entropy_out_hind_insula_xnor",
+              "hind_insula",
+              "hind_insula_out0_nand",
+              "carbon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "hourly": [
+    {
+      "hour": 0,
+      "phase": "AB_spark",
+      "stress_pair": "light_dark",
+      "stress_name": "빛/암흑 스트레스",
+      "active_dims": [
+        "gamma",
+        "d"
+      ],
+      "sphere_from": "Sun",
+      "sphere_to": "Earth",
+      "sphere_from_dims": [
+        "r",
+        "s"
+      ],
+      "sphere_to_dims": [
+        "gamma",
+        "h"
+      ],
+      "energy_flow": "Light energy: proton spark → oxygen repair ignition",
+      "desc": "정보 스파크가 수리 엔진을 점화 — s(brightness)→gamma(expansion)"
+    },
+    {
+      "hour": 1,
+      "phase": "AB_spark",
+      "stress_pair": "light_dark",
+      "stress_name": "빛/암흑 스트레스",
+      "active_dims": [
+        "gamma",
+        "d"
+      ],
+      "sphere_from": "Sun",
+      "sphere_to": "Earth",
+      "sphere_from_dims": [
+        "r",
+        "s"
+      ],
+      "sphere_to_dims": [
+        "gamma",
+        "h"
+      ],
+      "energy_flow": "Light energy: proton spark → oxygen repair ignition",
+      "desc": "정보 스파크가 수리 엔진을 점화 — s(brightness)→gamma(expansion)"
+    },
+    {
+      "hour": 2,
+      "phase": "AB_spark",
+      "stress_pair": "light_dark",
+      "stress_name": "빛/암흑 스트레스",
+      "active_dims": [
+        "gamma",
+        "d"
+      ],
+      "sphere_from": "Sun",
+      "sphere_to": "Earth",
+      "sphere_from_dims": [
+        "r",
+        "s"
+      ],
+      "sphere_to_dims": [
+        "gamma",
+        "h"
+      ],
+      "energy_flow": "Light energy: proton spark → oxygen repair ignition",
+      "desc": "정보 스파크가 수리 엔진을 점화 — s(brightness)→gamma(expansion)"
+    },
+    {
+      "hour": 3,
+      "phase": "A_accumulate",
+      "stress_pair": "o2_co2",
+      "stress_name": "산소/이산화탄소 스트레스",
+      "active_dims": [
+        "h",
+        "p"
+      ],
+      "sphere_from": "Earth",
+      "sphere_to": "Moon",
+      "sphere_from_dims": [
+        "gamma",
+        "h"
+      ],
+      "sphere_to_dims": [
+        "p",
+        "nu"
+      ],
+      "energy_flow": "O₂/CO₂ exchange: oxygen repair → carbon clock accumulation",
+      "desc": "수리가 시간/스케줄에 축적 — h(CO₂)→p(oxygen)"
+    },
+    {
+      "hour": 4,
+      "phase": "A_accumulate",
+      "stress_pair": "o2_co2",
+      "stress_name": "산소/이산화탄소 스트레스",
+      "active_dims": [
+        "h",
+        "p"
+      ],
+      "sphere_from": "Earth",
+      "sphere_to": "Moon",
+      "sphere_from_dims": [
+        "gamma",
+        "h"
+      ],
+      "sphere_to_dims": [
+        "p",
+        "nu"
+      ],
+      "energy_flow": "O₂/CO₂ exchange: oxygen repair → carbon clock accumulation",
+      "desc": "수리가 시간/스케줄에 축적 — h(CO₂)→p(oxygen)"
+    },
+    {
+      "hour": 5,
+      "phase": "A_accumulate",
+      "stress_pair": "o2_co2",
+      "stress_name": "산소/이산화탄소 스트레스",
+      "active_dims": [
+        "h",
+        "p"
+      ],
+      "sphere_from": "Earth",
+      "sphere_to": "Moon",
+      "sphere_from_dims": [
+        "gamma",
+        "h"
+      ],
+      "sphere_to_dims": [
+        "p",
+        "nu"
+      ],
+      "energy_flow": "O₂/CO₂ exchange: oxygen repair → carbon clock accumulation",
+      "desc": "수리가 시간/스케줄에 축적 — h(CO₂)→p(oxygen)"
+    },
+    {
+      "hour": 6,
+      "phase": "A_accumulate",
+      "stress_pair": "o2_co2",
+      "stress_name": "산소/이산화탄소 스트레스",
+      "active_dims": [
+        "h",
+        "p"
+      ],
+      "sphere_from": "Earth",
+      "sphere_to": "Moon",
+      "sphere_from_dims": [
+        "gamma",
+        "h"
+      ],
+      "sphere_to_dims": [
+        "p",
+        "nu"
+      ],
+      "energy_flow": "O₂/CO₂ exchange: oxygen repair → carbon clock accumulation",
+      "desc": "수리가 시간/스케줄에 축적 — h(CO₂)→p(oxygen)"
+    },
+    {
+      "hour": 7,
+      "phase": "A_accumulate",
+      "stress_pair": "o2_co2",
+      "stress_name": "산소/이산화탄소 스트레스",
+      "active_dims": [
+        "h",
+        "p"
+      ],
+      "sphere_from": "Earth",
+      "sphere_to": "Moon",
+      "sphere_from_dims": [
+        "gamma",
+        "h"
+      ],
+      "sphere_to_dims": [
+        "p",
+        "nu"
+      ],
+      "energy_flow": "O₂/CO₂ exchange: oxygen repair → carbon clock accumulation",
+      "desc": "수리가 시간/스케줄에 축적 — h(CO₂)→p(oxygen)"
+    },
+    {
+      "hour": 8,
+      "phase": "A_accumulate",
+      "stress_pair": "o2_co2",
+      "stress_name": "산소/이산화탄소 스트레스",
+      "active_dims": [
+        "h",
+        "p"
+      ],
+      "sphere_from": "Earth",
+      "sphere_to": "Moon",
+      "sphere_from_dims": [
+        "gamma",
+        "h"
+      ],
+      "sphere_to_dims": [
+        "p",
+        "nu"
+      ],
+      "energy_flow": "O₂/CO₂ exchange: oxygen repair → carbon clock accumulation",
+      "desc": "수리가 시간/스케줄에 축적 — h(CO₂)→p(oxygen)"
+    },
+    {
+      "hour": 9,
+      "phase": "O_accumulate",
+      "stress_pair": "heat_cold",
+      "stress_name": "열/냉기 스트레스",
+      "active_dims": [
+        "nu",
+        "r"
+      ],
+      "sphere_from": "Moon",
+      "sphere_to": "CoMag",
+      "sphere_from_dims": [
+        "p",
+        "nu"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "gamma"
+      ],
+      "energy_flow": "Thermal gradient: carbon clock heat → sulfur bridge coupling",
+      "desc": "시간이 결합 브릿지로 전환 — nu(heat)→g(binding)"
+    },
+    {
+      "hour": 10,
+      "phase": "O_accumulate",
+      "stress_pair": "heat_cold",
+      "stress_name": "열/냉기 스트레스",
+      "active_dims": [
+        "nu",
+        "r"
+      ],
+      "sphere_from": "Moon",
+      "sphere_to": "CoMag",
+      "sphere_from_dims": [
+        "p",
+        "nu"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "gamma"
+      ],
+      "energy_flow": "Thermal gradient: carbon clock heat → sulfur bridge coupling",
+      "desc": "시간이 결합 브릿지로 전환 — nu(heat)→g(binding)"
+    },
+    {
+      "hour": 11,
+      "phase": "O_accumulate",
+      "stress_pair": "heat_cold",
+      "stress_name": "열/냉기 스트레스",
+      "active_dims": [
+        "nu",
+        "r"
+      ],
+      "sphere_from": "Moon",
+      "sphere_to": "CoMag",
+      "sphere_from_dims": [
+        "p",
+        "nu"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "gamma"
+      ],
+      "energy_flow": "Thermal gradient: carbon clock heat → sulfur bridge coupling",
+      "desc": "시간이 결합 브릿지로 전환 — nu(heat)→g(binding)"
+    },
+    {
+      "hour": 12,
+      "phase": "O_accumulate",
+      "stress_pair": "heat_cold",
+      "stress_name": "열/냉기 스트레스",
+      "active_dims": [
+        "nu",
+        "r"
+      ],
+      "sphere_from": "Moon",
+      "sphere_to": "CoMag",
+      "sphere_from_dims": [
+        "p",
+        "nu"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "gamma"
+      ],
+      "energy_flow": "Thermal gradient: carbon clock heat → sulfur bridge coupling",
+      "desc": "시간이 결합 브릿지로 전환 — nu(heat)→g(binding)"
+    },
+    {
+      "hour": 13,
+      "phase": "O_accumulate",
+      "stress_pair": "heat_cold",
+      "stress_name": "열/냉기 스트레스",
+      "active_dims": [
+        "nu",
+        "r"
+      ],
+      "sphere_from": "Moon",
+      "sphere_to": "CoMag",
+      "sphere_from_dims": [
+        "p",
+        "nu"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "gamma"
+      ],
+      "energy_flow": "Thermal gradient: carbon clock heat → sulfur bridge coupling",
+      "desc": "시간이 결합 브릿지로 전환 — nu(heat)→g(binding)"
+    },
+    {
+      "hour": 14,
+      "phase": "O_accumulate",
+      "stress_pair": "heat_cold",
+      "stress_name": "열/냉기 스트레스",
+      "active_dims": [
+        "nu",
+        "r"
+      ],
+      "sphere_from": "Moon",
+      "sphere_to": "CoMag",
+      "sphere_from_dims": [
+        "p",
+        "nu"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "gamma"
+      ],
+      "energy_flow": "Thermal gradient: carbon clock heat → sulfur bridge coupling",
+      "desc": "시간이 결합 브릿지로 전환 — nu(heat)→g(binding)"
+    },
+    {
+      "hour": 15,
+      "phase": "B_accumulate",
+      "stress_pair": "matter_nonmatter",
+      "stress_name": "물질/비물질 스트레스",
+      "active_dims": [
+        "s",
+        "g"
+      ],
+      "sphere_from": "CoMag",
+      "sphere_to": "Barnard",
+      "sphere_from_dims": [
+        "g",
+        "gamma"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "d"
+      ],
+      "energy_flow": "Matter compression: sulfur binding → iron mass storage",
+      "desc": "결합 에너지가 질량 저장소로 압축 — g(binding)→d(dissonance/mass)"
+    },
+    {
+      "hour": 16,
+      "phase": "B_accumulate",
+      "stress_pair": "matter_nonmatter",
+      "stress_name": "물질/비물질 스트레스",
+      "active_dims": [
+        "s",
+        "g"
+      ],
+      "sphere_from": "CoMag",
+      "sphere_to": "Barnard",
+      "sphere_from_dims": [
+        "g",
+        "gamma"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "d"
+      ],
+      "energy_flow": "Matter compression: sulfur binding → iron mass storage",
+      "desc": "결합 에너지가 질량 저장소로 압축 — g(binding)→d(dissonance/mass)"
+    },
+    {
+      "hour": 17,
+      "phase": "B_accumulate",
+      "stress_pair": "matter_nonmatter",
+      "stress_name": "물질/비물질 스트레스",
+      "active_dims": [
+        "s",
+        "g"
+      ],
+      "sphere_from": "CoMag",
+      "sphere_to": "Barnard",
+      "sphere_from_dims": [
+        "g",
+        "gamma"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "d"
+      ],
+      "energy_flow": "Matter compression: sulfur binding → iron mass storage",
+      "desc": "결합 에너지가 질량 저장소로 압축 — g(binding)→d(dissonance/mass)"
+    },
+    {
+      "hour": 18,
+      "phase": "B_accumulate",
+      "stress_pair": "matter_nonmatter",
+      "stress_name": "물질/비물질 스트레스",
+      "active_dims": [
+        "s",
+        "g"
+      ],
+      "sphere_from": "CoMag",
+      "sphere_to": "Barnard",
+      "sphere_from_dims": [
+        "g",
+        "gamma"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "d"
+      ],
+      "energy_flow": "Matter compression: sulfur binding → iron mass storage",
+      "desc": "결합 에너지가 질량 저장소로 압축 — g(binding)→d(dissonance/mass)"
+    },
+    {
+      "hour": 19,
+      "phase": "B_accumulate",
+      "stress_pair": "matter_nonmatter",
+      "stress_name": "물질/비물질 스트레스",
+      "active_dims": [
+        "s",
+        "g"
+      ],
+      "sphere_from": "CoMag",
+      "sphere_to": "Barnard",
+      "sphere_from_dims": [
+        "g",
+        "gamma"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "d"
+      ],
+      "energy_flow": "Matter compression: sulfur binding → iron mass storage",
+      "desc": "결합 에너지가 질량 저장소로 압축 — g(binding)→d(dissonance/mass)"
+    },
+    {
+      "hour": 20,
+      "phase": "B_accumulate",
+      "stress_pair": "matter_nonmatter",
+      "stress_name": "물질/비물질 스트레스",
+      "active_dims": [
+        "s",
+        "g"
+      ],
+      "sphere_from": "CoMag",
+      "sphere_to": "Barnard",
+      "sphere_from_dims": [
+        "g",
+        "gamma"
+      ],
+      "sphere_to_dims": [
+        "g",
+        "d"
+      ],
+      "energy_flow": "Matter compression: sulfur binding → iron mass storage",
+      "desc": "결합 에너지가 질량 저장소로 압축 — g(binding)→d(dissonance/mass)"
+    },
+    {
+      "hour": 21,
+      "phase": "AB_integration",
+      "stress_pair": "reset_spark",
+      "stress_name": "reset_spark",
+      "active_dims": [],
+      "sphere_from": "Barnard",
+      "sphere_to": "Sun",
+      "sphere_from_dims": [
+        "g",
+        "d"
+      ],
+      "sphere_to_dims": [
+        "r",
+        "s"
+      ],
+      "energy_flow": "Reset spark (138.88°): iron mass → proton spark recharge",
+      "desc": "질량 저장이 다음 정보 스파크 충전 — d(dark)→r(cold/rhythm), g→s"
+    },
+    {
+      "hour": 22,
+      "phase": "AB_integration",
+      "stress_pair": "reset_spark",
+      "stress_name": "reset_spark",
+      "active_dims": [],
+      "sphere_from": "Barnard",
+      "sphere_to": "Sun",
+      "sphere_from_dims": [
+        "g",
+        "d"
+      ],
+      "sphere_to_dims": [
+        "r",
+        "s"
+      ],
+      "energy_flow": "Reset spark (138.88°): iron mass → proton spark recharge",
+      "desc": "질량 저장이 다음 정보 스파크 충전 — d(dark)→r(cold/rhythm), g→s"
+    },
+    {
+      "hour": 23,
+      "phase": "AB_integration",
+      "stress_pair": "reset_spark",
+      "stress_name": "reset_spark",
+      "active_dims": [],
+      "sphere_from": "Barnard",
+      "sphere_to": "Sun",
+      "sphere_from_dims": [
+        "g",
+        "d"
+      ],
+      "sphere_to_dims": [
+        "r",
+        "s"
+      ],
+      "energy_flow": "Reset spark (138.88°): iron mass → proton spark recharge",
+      "desc": "질량 저장이 다음 정보 스파크 충전 — d(dark)→r(cold/rhythm), g→s"
+    }
+  ]
+}

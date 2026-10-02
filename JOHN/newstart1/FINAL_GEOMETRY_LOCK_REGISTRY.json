@@ -1,0 +1,188 @@
+{
+  "face_corridor": {
+    "lock_type": "emergent_terminal_coordinates",
+    "new_fundamental_constants": false,
+    "control_manifold": "128-grid face",
+    "band": {
+      "y_min": 9.25,
+      "y_max": 14.5
+    },
+    "corridor_mode": "narrow_mediator_band",
+    "corridor_points": [
+      [
+        8.0,
+        12.0
+      ],
+      [
+        8.5,
+        12.0
+      ],
+      [
+        9.0,
+        9.5
+      ],
+      [
+        9.5,
+        9.5
+      ],
+      [
+        10.0,
+        9.5
+      ],
+      [
+        10.5,
+        12.0
+      ],
+      [
+        11.0,
+        12.0
+      ],
+      [
+        11.5,
+        12.0
+      ],
+      [
+        12.0,
+        12.0
+      ],
+      [
+        12.5,
+        12.0
+      ],
+      [
+        13.0,
+        12.0
+      ]
+    ],
+    "loopstart_terminal": [
+      9.5,
+      9.5
+    ],
+    "loopend_terminal": [
+      9.5,
+      9.5
+    ],
+    "mirror_terminal": [
+      6.5,
+      9.5
+    ],
+    "dominance": "right_biased",
+    "promote_scores_to_constants": false,
+    "constraints": [
+      "no new nodes",
+      "no new Betti objects",
+      "preserve single-component closure",
+      "no surface bulge",
+      "right_cortisol_above rule",
+      "right_d2 adjacency priority"
+    ],
+    "scores": {
+      "right_dock_score": 0.458952937,
+      "left_dock_score": 0.2294764685
+    }
+  },
+  "face_choke_band": {
+    "lock_type": "left_plp_big_woman_seam_terminal",
+    "band": {
+      "y_min": 5.0,
+      "y_max": 14.5,
+      "x_min": 0.0,
+      "x_max": 8.0
+    },
+    "primary": [
+      6.0,
+      10.0
+    ],
+    "secondary": [
+      [
+        6.0,
+        10.5
+      ],
+      [
+        6.5,
+        10.0
+      ]
+    ],
+    "tertiary": [
+      [
+        5.5,
+        10.5
+      ],
+      [
+        6.5,
+        9.5
+      ],
+      [
+        6.5,
+        10.5
+      ]
+    ],
+    "ridge": [
+      [
+        5.5,
+        10.5
+      ],
+      [
+        6.0,
+        10.0
+      ],
+      [
+        6.5,
+        9.5
+      ],
+      [
+        6.5,
+        10.0
+      ]
+    ],
+    "interpretation": [
+      "x+y=16 is the PLP spine diagonal seam (refraction line for spark gate).",
+      "Nose bridge is PLP core / cold stress / UV stress / gravity axis.",
+      "Nose center is histamine H1/H3 + ROS/darkness survival + stress activation axis.",
+      "Upper lip is excitatory/inhibitory serotonin transition zone.",
+      "gateway_peak is isolated residual internal boundary; sheet_id:2 is Big Woman gateway neighbor and barrier node.",
+      "This band is the terminal choke zone from core_center toward Big Woman boundary seam.",
+      "Ridge is the overlap of PLP diagonal seam, darkness axis, and Big Woman boundary residual.",
+      "Left nose-ridge / LLSAN / upper-cheek corridor are local extensions of this core ridge."
+    ],
+    "constraints": [
+      "no new nodes",
+      "no new Betti objects",
+      "preserve single-component closure",
+      "no surface bulge",
+      "right_cortisol_above rule",
+      "right_d2 adjacency priority"
+    ]
+  },
+  "plp_zero_points": {
+    "plp_zero": [
+      2.0,
+      14.0
+    ],
+    "female_spare_vasopressin": [
+      2.0,
+      14.75
+    ],
+    "time_sensor": [
+      9.0,
+      14.0
+    ],
+    "cosmic_ray_point": [
+      11.25,
+      9.0
+    ],
+    "maxwell_impedance_point": [
+      8.0,
+      9.25
+    ],
+    "impedance_primary_left_inner": [
+      7.75,
+      12.0
+    ],
+    "impedance_primary_right_inner": [
+      8.5,
+      12.0
+    ]
+  },
+  "note": "Merged lock registry for final geometry pass; no new constants."
+}

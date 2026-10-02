@@ -1,0 +1,2266 @@
+[
+  {
+    "name": "electric_grid_and",
+    "gateType": "AND: Bio-electric Field / Galvanotactic Grid",
+    "particle": "",
+    "element": "",
+    "location": "left forehead vertical strip inner strip top (inferred)",
+    "dim8": ""
+  },
+  {
+    "name": "male_left_epinephrine_switch_pre_and",
+    "gateType": "AND: Female L-Vasopressin + L-Genital D2",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "male_left_epinephrine_switch_pre_or",
+    "gateType": "OR: GLP-1 Q + Male R-Oxytocin Q_bar",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "male_left_epinephrine_switch",
+    "gateType": "AND: Metabolic Healing Switch",
+    "particle": "",
+    "element": "",
+    "location": "left levator superioris inner vertical impedance strip bottom",
+    "dim8": ""
+  },
+  {
+    "name": "opioid_and",
+    "gateType": "AND: Deep Spark + Global Analgesia Sync + Epinephrine Switch",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "opioid_nor",
+    "gateType": "NOR: Metabolic Void / Absolute Hunger",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "opioid_xnor_or",
+    "gateType": "OR: Satiety Phase Coherence",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "bioenergetic_drive_and",
+    "gateType": "AND: Metabolic Drive / Bio-energetic Permission",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "heme_in0_xor",
+    "gateType": "XOR: heme HO-1 input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "heme_in1_xor",
+    "gateType": "XOR: heme ETC input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "heme",
+    "gateType": "Fe-protoporphyrin IX / heme-oxygenase complex, 2 tristate",
+    "particle": "Time",
+    "element": "H(1)",
+    "location": "just inner to left nipple",
+    "dim8": ""
+  },
+  {
+    "name": "cytochrome_c_oxidase_in0_xor",
+    "gateType": "XOR: COX forward O2 input vs Bio-energetic Drive",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cytochrome_c_oxidase_in1_xor",
+    "gateType": "XOR: COX retrograde cyt-c input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cytochrome_c_oxidase",
+    "gateType": "Complex IV / mitochondrial terminal oxidase, 2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)",
+    "dim8": ""
+  },
+  {
+    "name": "water_vapour_in0_xor",
+    "gateType": "XOR: water vapour tropospheric input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "water_vapour_in1_xor",
+    "gateType": "XOR: water vapour stratospheric input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "water_vapour",
+    "gateType": "2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)",
+    "dim8": ""
+  },
+  {
+    "name": "steel_in0_xor",
+    "gateType": "XOR: steel ferritic input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "steel_in1_xor",
+    "gateType": "XOR: steel austenitic input vs observer",
+    "particle": "Tau",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "steel",
+    "gateType": "2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "left anus muscle / rectum (직장) (inferred: left external anal sphincter / left rectal wall)",
+    "dim8": ""
+  },
+  {
+    "name": "clay_gouge",
+    "gateType": "AND: fault-zone clay matrix — sealing",
+    "particle": "Down",
+    "element": "F(9)",
+    "location": "right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)",
+    "dim8": ""
+  },
+  {
+    "name": "quark_orogen_magma",
+    "gateType": "Mitochondrial De Novo Synthesis (Deep Arc Magma), 1 tristate",
+    "particle": "",
+    "element": "",
+    "location": "right inner bum",
+    "dim8": ""
+  },
+  {
+    "name": "observer_leftd2",
+    "gateType": "AND: Master Metabolic Permissive Bus",
+    "particle": "w_boson",
+    "element": "Na(11)",
+    "location": "outer left frontalis",
+    "dim8": ""
+  },
+  {
+    "name": "nonobserver_left_d2",
+    "gateType": "AND: Spatial Clarity / Cortisol Baseline Switch",
+    "particle": "",
+    "element": "",
+    "location": "left frontalis outer strip lower",
+    "dim8": ""
+  },
+  {
+    "name": "left_endorphin_non_observer",
+    "gateType": "AND: Global Opioid Background / Recovery Wiring",
+    "particle": "Electron",
+    "element": "",
+    "location": "left levator superioris inner edge",
+    "dim8": ""
+  },
+  {
+    "name": "observer_left_endorphin_electron_antineutrino",
+    "gateType": "mu-opioid receptor (MOR) Metabolic Spark, AND",
+    "particle": "electron_antineutrino",
+    "element": "Mg(12)",
+    "location": "left lip philtrum near the very center",
+    "dim8": ""
+  },
+  {
+    "name": "plume_in0_xor",
+    "gateType": "XOR: left_endorphin xor gluon_orogen observer merger",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mc1r_q_or",
+    "gateType": "OR: mc1r q output vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mc1r_q_bar_or",
+    "gateType": "OR: mc1r q_bar output vs observer",
+    "particle": "Up",
+    "element": "B(5)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mc1r",
+    "gateType": "MC1R receptor — reversible cAMP/PKA signalling switch, D flip-flop",
+    "particle": "",
+    "element": "",
+    "location": "just below GDH on left waist (inferred: left iliac crest / left waist below glutamate dehydrogenase projection)",
+    "dim8": ""
+  },
+  {
+    "name": "methanogenesis_out0_nand",
+    "gateType": "NAND: methanogenesis out0 output",
+    "particle": "higgs",
+    "element": "P(15)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "methanogenesis",
+    "gateType": "Gut-archaeal CH4 production via methyl-CoM reductase, MUX",
+    "particle": "higgs",
+    "element": "P(15)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "histosol_in0_xor",
+    "gateType": "XOR: histosol peat input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "histosol_in1_xor",
+    "gateType": "XOR: histosol fen input vs observer",
+    "particle": "muon_antineutrino",
+    "element": "S(16)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "histosol",
+    "gateType": "Sulfur Cycle Reservoir (Peat/Fen), 2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "left outside of left foot",
+    "dim8": ""
+  },
+  {
+    "name": "eos_o2_and",
+    "gateType": "AND: Endorphin Saturation (EOS) + O2 Supply",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "eos_o2_observer_and",
+    "gateType": "3-input AND: Endorphin Saturation (EOS) + O2 Supply + observer baseline",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "histosol_ctrl1_or",
+    "gateType": "3-input OR: histosol.ctrl1 combined driver",
+    "particle": "gluon",
+    "element": "Ar(18)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "sulforaphane",
+    "gateType": "Nrf2 activator — isothiocyanate–Keap1–Nrf2 canonical pathway, 2 tristate",
+    "particle": "gluon",
+    "element": "Ar(18)",
+    "location": "left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)",
+    "dim8": ""
+  },
+  {
+    "name": "aurora",
+    "gateType": "AND: Na+ oxidative threshold detector",
+    "particle": "muon",
+    "element": "Rb(37)",
+    "location": "outlet of energy from the middle of the brain to the very midpoint of the scalp",
+    "dim8": ""
+  },
+  {
+    "name": "aurora_2",
+    "gateType": "XOR: stress-mode proton source vs Na+ oxidative threshold",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "glymphatic_system",
+    "gateType": "AQP4-polarized perivascular CSF-ISF exchange, AND",
+    "particle": "strange_quark",
+    "element": "Cs(55)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cysteine",
+    "gateType": "AND: glutathione precursor gate",
+    "particle": "Observer",
+    "element": "Fr(87)",
+    "location": "right inner brain opposite sulforaphane on the front",
+    "dim8": ""
+  },
+  {
+    "name": "subduction_zone",
+    "gateType": "AND: subduction zone gate",
+    "particle": "",
+    "element": "",
+    "location": "right inner brain opposite sulforaphane on the front",
+    "dim8": ""
+  },
+  {
+    "name": "memory_entropy_out_co2_nor",
+    "gateType": "NOR: memory_entropy out_co2 output",
+    "particle": "electron",
+    "element": "Ca(20)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "sdh_esr1_me_ctrl_and",
+    "gateType": "AND: SDH Krebs NAND output + ESR1 frontalis inner expression",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "memory_entropy",
+    "gateType": "2-output decoder: right hippocampal CA1/subiculum novelty-mismatch output",
+    "particle": "electron",
+    "element": "Ca(20)",
+    "location": "hind of cysteine; choice point between cysteine and disulfide paths",
+    "dim8": ""
+  },
+  {
+    "name": "hind_insula_out0_nand",
+    "gateType": "NAND: hind_insula out0 output",
+    "particle": "Strange",
+    "element": "Sc(21)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "hind_insula",
+    "gateType": "Right posterior granular insula primary ㄹinteroceptive cortex, MUX",
+    "particle": "",
+    "element": "",
+    "location": "right posterior insula, lateral and posterior to memory_entropy",
+    "dim8": ""
+  },
+  {
+    "name": "carbon_q_or",
+    "gateType": "OR: carbon q output vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "carbon_q_bar_or",
+    "gateType": "OR: carbon q_bar output vs observer",
+    "particle": "w",
+    "element": "Kr(36)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "carbon",
+    "gateType": "D flip-flop: metabolic carbon-state latch",
+    "particle": "",
+    "element": "",
+    "location": "right orbicularis oris / right corner of upper lip (inferred: right lateral orbicularis oris / right corner of upper lip)",
+    "dim8": ""
+  },
+  {
+    "name": "fold_belt_in0_xor",
+    "gateType": "XOR: fold-belt surficial input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "fold_belt_in1_xor",
+    "gateType": "XOR: fold-belt metamorphic input vs observer",
+    "particle": "Muon",
+    "element": "Mn(25)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "fold_belt",
+    "gateType": "Compressional fold-and-thrust belt, 2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "opposite subduction zone on the left thigh",
+    "dim8": ""
+  },
+  {
+    "name": "fold_belt_ctrl1_or",
+    "gateType": "3-input OR: combined driver for fold_belt.ctrl1",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "substance_p_out_mc1r_xnor",
+    "gateType": "XNOR: substance_p out_mc1r output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "substance_p_out_autophagy_xor",
+    "gateType": "XOR: substance_p out_autophagy output",
+    "particle": "Quark",
+    "element": "Ra(88)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "substance_p",
+    "gateType": "2-output decoder: Substance P neuropeptide NK1R ligand",
+    "particle": "",
+    "element": "",
+    "location": "under right armpit",
+    "dim8": ""
+  },
+  {
+    "name": "methionine",
+    "gateType": "AND: sulphur amino acid gate",
+    "particle": "Z",
+    "element": "Ge(32)",
+    "location": "right exterior of hip where Jesus got stabbed in crucifixion",
+    "dim8": ""
+  },
+  {
+    "name": "podzol_out1_and",
+    "gateType": "AND: podzol out1 + observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "adapter_protein_q_and",
+    "gateType": "AND3: adapter_protein q + podzol out1 + observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "adapter_protein_q_bar_or",
+    "gateType": "OR: adapter_protein q_bar output vs observer",
+    "particle": "GKYIB",
+    "element": "As(33)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "adapter_protein",
+    "gateType": "D flip-flop: somatic signal adapter",
+    "particle": "",
+    "element": "",
+    "location": "second finger on the right",
+    "dim8": ""
+  },
+  {
+    "name": "succinate_dehydrogenase_out0_nand",
+    "gateType": "NAND: succinate dehydrogenase out0 output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "succinate_dehydrogenase_out1_or",
+    "gateType": "OR: succinate dehydrogenase out1 to collagen",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "succinate_dehydrogenase_out2_nand",
+    "gateType": "NAND: succinate dehydrogenase out2 output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "water_vapour_ach_or",
+    "gateType": "OR: water vapour stratospheric OR ACh expression → SDH input",
+    "particle": "muon_neutrino",
+    "element": "Br(35)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "succinate_dehydrogenase",
+    "gateType": "Complex II / Krebs-cycle SDH hypoxia sensor, 3-output decoder",
+    "particle": "",
+    "element": "",
+    "location": "right pectoralis major (대흉문근) (inferred: right sternal head of pectoralis major)",
+    "dim8": ""
+  },
+  {
+    "name": "collagen_out0_nand",
+    "gateType": "NAND: collagen out0 output",
+    "particle": "Tau",
+    "element": "Sr(38)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "collagen",
+    "gateType": "ECM triple-helix structural protein, MUX",
+    "particle": "",
+    "element": "",
+    "location": "right Achilles tendon",
+    "dim8": ""
+  },
+  {
+    "name": "andosol_out0_nand",
+    "gateType": "NAND: andosol out0 output",
+    "particle": "Strange",
+    "element": "Nh(113)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "andosol",
+    "gateType": "Mitochondrial ROS Buffer Layer (Volcanic Ash), MUX",
+    "particle": "",
+    "element": "",
+    "location": "between left sole and oxidised manganese",
+    "dim8": ""
+  },
+  {
+    "name": "cambisol_in0_xor",
+    "gateType": "XOR: cambisol young-weathering input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cambisol_in1_xor",
+    "gateType": "XOR: cambisol mature-humus input vs observer",
+    "particle": "Energy",
+    "element": "U(92)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cambisol",
+    "gateType": "Early Autophagic Vacuole (Young Soil), 2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "bilateral Achilles tendon medial aspects",
+    "dim8": ""
+  },
+  {
+    "name": "female_gaba_b",
+    "gateType": "AND: female GABA-B postsynaptic slow IPSP, Node 43",
+    "particle": "",
+    "element": "",
+    "location": "left lat dorsi bottom",
+    "dim8": ""
+  },
+  {
+    "name": "anoxia_nacl_and",
+    "gateType": "1 tristate: anoxia + male_left_noradrenaline → NaCl unspark route",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "nacl_ctrl1_unspark_and",
+    "gateType": "AND: anoxia_nacl_and + left female vasopressin",
+    "particle": "Spark",
+    "element": "Pu(94)/Am(95)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "collagen_in1_or",
+    "gateType": "OR: ionic summation → collagen ECM Ca2+ scaffold",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "sodium_in0_xor",
+    "gateType": "XOR: sodium ECF input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "sodium_in1_xor",
+    "gateType": "XOR: sodium AP input vs observer",
+    "particle": "Spark",
+    "element": "Tc(43)/Ru(44)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "sodium",
+    "gateType": "2 tristate",
+    "particle": "Electron",
+    "element": "Cm(96)",
+    "location": "left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)",
+    "dim8": ""
+  },
+  {
+    "name": "mycorradicin",
+    "gateType": "Apocarotenoid mycorradicin AM-symbiosis C-stress signal, 1 tristate",
+    "particle": "-",
+    "element": "Cm(96)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mycorradicin_right_acetylcholine_or",
+    "gateType": "OR: mycorradicin output vs right acetylcholine observer output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mycorradicin_leftd2_and",
+    "gateType": "AND: Stress-Recovery OR + Master Bus",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mycorradicin_autophagy_intermediate_and",
+    "gateType": "AND: Stress-recovery + O2 + SDH-Soil",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mycorradicin_autophagy_input_or",
+    "gateType": "OR: combined autophagy trigger",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "copper_iron_complex",
+    "gateType": "Cu-Fe mixed-valence redox cofactor, AND",
+    "particle": "Z",
+    "element": "Ba(56)",
+    "location": "outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)",
+    "dim8": ""
+  },
+  {
+    "name": "autophagy_r_or",
+    "gateType": "OR: Master bus reset + lysosomal acidification reset → autophagy.r",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "autophagy",
+    "gateType": "tristate ch.0 + gated SR latch + T flip-flop: bulk vs SP-inflammatory autophagy",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "t_ff",
+    "gateType": "T flip-flop",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "water_out0_nand",
+    "gateType": "NAND: water out0 output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "carbonic_anhydrase_autophagy_or",
+    "gateType": "OR: carbonic anhydrase reverse proton flow + autophagy ACC mode",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "carbonic_anhydrase_co2_xor",
+    "gateType": "XOR: catabolic proton state vs respiratory CO2 flux",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "water",
+    "gateType": "MUX: Hydrological Cycle / Proton Source Selector",
+    "particle": "Right",
+    "element": "Fm(100)",
+    "location": "upper philtrum halfway between nose and where upper lip ends",
+    "dim8": ""
+  },
+  {
+    "name": "nitrogenase_out_1_xnor",
+    "gateType": "XNOR: nitrogenase out_1 output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "nitrogenase_out_2_nor",
+    "gateType": "NOR: nitrogenase out_2 output",
+    "particle": "higgs",
+    "element": "At(85)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "nitrogenase",
+    "gateType": "3-output decoder: biological N2-fixation",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "nitrogenase_metabolic_and",
+    "gateType": "AND: female_gaba_b_2 + citric_acid_cycle → metabolic hypoxia gate",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "nitrogenase_metabolic_da_and",
+    "gateType": "AND: metabolic + right_sole_dopamine observer → hypoxia confirmation",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "nitrogenase_env_and",
+    "gateType": "3-input AND: metabolic + heath_aerenchyma + sodium → environment gate",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "nitrogenase_iron_or",
+    "gateType": "OR: laterite_q_or + sulfur_iron_complex → iron supply",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "nitrogenase_in_main_and",
+    "gateType": "3-input AND: metabolic_da + env + iron → nitrogenase.in_main",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "chlorine_ion_pump",
+    "gateType": "Cl- ATPase — acid-rhizosphere Cl- flux, tristate + gated SR latch",
+    "particle": "Electron",
+    "element": "Cl(17)",
+    "location": "right ventral wrist where the watch face covers if worn inside (inferred: right ventral wrist / palmaris longus tendon region)",
+    "dim8": ""
+  },
+  {
+    "name": "heath_aerenchyma",
+    "gateType": "Calluna/Erica ericoid-heath aerenchyma tissue, 1 tristate",
+    "particle": "Time",
+    "element": "Fl(9)",
+    "location": "left upper rib cage",
+    "dim8": ""
+  },
+  {
+    "name": "heath_aerenchyma_out0_and",
+    "gateType": "AND: heath aerenchyma output gated with male right oxytocin",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "podzol_out0_nand",
+    "gateType": "NAND: podzol out0 output",
+    "particle": "neutron_star",
+    "element": "Y(39)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "podzol",
+    "gateType": "Lysosomal Acidic Matrix (Leached Soil), MUX",
+    "particle": "",
+    "element": "",
+    "location": "left hip posterior",
+    "dim8": ""
+  },
+  {
+    "name": "lower_mantle_q_or",
+    "gateType": "OR: lower_mantle q output vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "lower_mantle_q_bar_or",
+    "gateType": "OR: lower_mantle q_bar output vs observer",
+    "particle": "Muon",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "lower_mantle",
+    "gateType": "Mitochondrial Matrix State (Lower Mantle), D flip-flop",
+    "particle": "",
+    "element": "",
+    "location": "left lumbar paraspinal",
+    "dim8": ""
+  },
+  {
+    "name": "basin_q_or",
+    "gateType": "OR: basin q output vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "basin_q_bar_or",
+    "gateType": "OR: basin q_bar output vs observer",
+    "particle": "Left",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "basin",
+    "gateType": "Cytosolic Metabolite Sink (Subsidence Basin), D flip-flop",
+    "particle": "",
+    "element": "",
+    "location": "left posterior waist",
+    "dim8": ""
+  },
+  {
+    "name": "left_genital_d2_out0_nand",
+    "gateType": "NAND: left_genital_d2 out0 output",
+    "particle": "w_boson",
+    "element": "Na(11)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "left_genital_d2",
+    "gateType": "D2 at MPOA/spinal ejaculation generator: D2 brake on OXT/AVP climax, AND",
+    "particle": "Electron",
+    "element": "",
+    "location": "left of the genital (inferred: left side of genitalia / left MPOA projection)",
+    "dim8": ""
+  },
+  {
+    "name": "caco3_pyrite_lactate_and",
+    "gateType": "2-input AND: carbonate arm",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "caco3_leftd2_podzol_observer_and",
+    "gateType": "3-input AND: caco3 permissive arm",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "caco3_final_and",
+    "gateType": "2-input AND: caco3 combined carbonate-buffer output",
+    "particle": "Quark",
+    "element": "K(19)",
+    "location": "outside of left knee (inferred: left lateral femoral condyle / left fibular head region)",
+    "dim8": ""
+  },
+  {
+    "name": "caco3_laterite_and",
+    "gateType": "AND: pH-Driven Iron Storage Trigger",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "laterite_d_and",
+    "gateType": "3-input AND: Recovery-Mode Iron Sequestration",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "laterite_d_or",
+    "gateType": "3-input OR: Ferritin Synthesis Driver",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "manganese_nodule",
+    "gateType": "gated SR latch: deep-sea Mn-nodule deposition",
+    "particle": "Muon",
+    "element": "I(53)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "pentose_phosphate_out_1_xnor",
+    "gateType": "XNOR: pentose_phosphate out_1 output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "pentose_phosphate_out_2_nor",
+    "gateType": "NOR: pentose_phosphate out_2 output",
+    "particle": "Down",
+    "element": "In(49)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "pentose_phosphate",
+    "gateType": "2-output decoder: pentose phosphate pathway redox gate",
+    "particle": "",
+    "element": "",
+    "location": "medial lower canthus right (inferred: right medial canthus / right lacrimal region)",
+    "dim8": ""
+  },
+  {
+    "name": "disulfide_bond",
+    "gateType": "NAND: disulfide bridge formation",
+    "particle": "Observer",
+    "element": "No(102)",
+    "location": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)",
+    "dim8": ""
+  },
+  {
+    "name": "peonidine_in0_xor",
+    "gateType": "XOR: peonidine free-anthocyanin input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "peonidine_in0_and",
+    "gateType": "AND: peonidine_in0_xor.out AND right_d2.out1 → peonidine.in0",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "peonidine_in1_xor",
+    "gateType": "XOR: peonidine conjugate input vs observer",
+    "particle": "Energy",
+    "element": "Sb(51)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "peonidine",
+    "gateType": "2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)",
+    "dim8": ""
+  },
+  {
+    "name": "right_acetylcholine_out0_nand",
+    "gateType": "NAND: right acetylcholine out0 output",
+    "particle": "Tau",
+    "element": "Es(99)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "right_acetylcholine",
+    "gateType": "alpha7 nicotinic AChR right facial/vagal cholinergic anti-inflammatory, MUX",
+    "particle": "",
+    "element": "",
+    "location": "right temporalis inner strip",
+    "dim8": ""
+  },
+  {
+    "name": "co2_in0_xor",
+    "gateType": "XOR: co2 respiratory input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "co2_in1_xor",
+    "gateType": "XOR: co2 metabolic input vs observer",
+    "particle": "Dark",
+    "element": "Th(90)/Pa(91)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "co2",
+    "gateType": "2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "right back of head on left inner occipitalis muscle vertical strip just below top",
+    "dim8": ""
+  },
+  {
+    "name": "glp1_q_or",
+    "gateType": "OR: glp1 q output vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "glp1_q_bar_or",
+    "gateType": "OR: glp1 q_bar output vs observer",
+    "particle": "GKYIB",
+    "element": "Tb(65)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "glp1",
+    "gateType": "GLP-1 incretin vagal-neural release latch, D flip-flop",
+    "particle": "",
+    "element": "",
+    "location": "between Female GABA-B / Acetyl CoA / GDH",
+    "dim8": ""
+  },
+  {
+    "name": "cck_ctrl_and",
+    "gateType": "AND: Phase Coherence + GLP-1 Satiety Drive",
+    "particle": "w_boson",
+    "element": "Cf(98)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cck",
+    "gateType": "MUX: Cholecystokinin / Postprandial Satiety Gate",
+    "particle": "w_boson",
+    "element": "Cf(98)",
+    "location": "back of the pancreas",
+    "dim8": ""
+  },
+  {
+    "name": "cck_cox_ctrl_and",
+    "gateType": "3-input AND: CCK satiety + Mn-redox + Master Bus permissive",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "proton_pump_ctrl_or",
+    "gateType": "OR: D2 stress + master bus → proton pump control",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "proton_pump_input_silicon_collagen_xnor",
+    "gateType": "XNOR: D2 reward vs bio-electric grid → silicon collagen (쇄골/연늑골)",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "proton_pump_input_or",
+    "gateType": "OR: silicon collagen XNOR + laterite iron-storage → proton pump input",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "proton_pump",
+    "gateType": "tristate buffer: observer proton pump → COX control",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cck_ctrl_or",
+    "gateType": "3-input OR: CCK-ctrl AND + straight CCK + proton pump → COX control",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cck_heath_aerenchyma_and",
+    "gateType": "3-input AND: CCK satiety + O2 availability + D2 reward reset",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "laterite_q_or",
+    "gateType": "OR: laterite q output vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "laterite_q_bar_or",
+    "gateType": "OR: laterite q_bar output vs observer",
+    "particle": "Left",
+    "element": "Ts(117)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "laterite",
+    "gateType": "D flip-flop: tropical laterite weathering latch",
+    "particle": "",
+    "element": "",
+    "location": "left gastrocnemius / left medial calf",
+    "dim8": ""
+  },
+  {
+    "name": "outer_core_convection",
+    "gateType": "Mitochondrial Proton Motive Force (Outer-Core Convection), AND",
+    "particle": "",
+    "element": "",
+    "location": "left sacroiliac junction",
+    "dim8": ""
+  },
+  {
+    "name": "male_right_oxytocin_q_or",
+    "gateType": "OR: male right oxytocin q output vs non observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "male_right_oxytocin_q_bar_or",
+    "gateType": "OR: male right oxytocin q_bar output vs observer",
+    "particle": "up_quark",
+    "element": "Pr(59)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "male_right_oxytocin",
+    "gateType": "Right SMG OXTR egocentric-bias suppressor, D flip-flop",
+    "particle": "-",
+    "element": "Pr(59)",
+    "location": "muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)",
+    "dim8": ""
+  },
+  {
+    "name": "gluon_orogen_clk",
+    "gateType": "OR: orogen dual-clock merger",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "gluon_orogen_q_or",
+    "gateType": "OR: gluon_orogen q output vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "gluon_orogen_q_bar_or",
+    "gateType": "OR: gluon_orogen q_bar output vs observer",
+    "particle": "Up",
+    "element": "Ce(58)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "gluon_orogen",
+    "gateType": "Cytoskeletal Stress Fiber (Gluon Orogen), D flip-flop",
+    "particle": "Muon",
+    "element": "Og(118)",
+    "location": "left inner bum",
+    "dim8": ""
+  },
+  {
+    "name": "lactate_dehydrogenase",
+    "gateType": "3-input MUX: LDH anoxic/lactate/deep-metamorphic signal selector",
+    "particle": "",
+    "element": "Og(118)",
+    "location": "left pectoralis major",
+    "dim8": ""
+  },
+  {
+    "name": "lactate_caco3_and",
+    "gateType": "2-input AND: lactate -> caco3",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mangrove_aerenchyma",
+    "gateType": "Rhizophora aerenchyma radial O2-loss tissue, AND",
+    "particle": "",
+    "element": "",
+    "location": "right upper rib cage",
+    "dim8": ""
+  },
+  {
+    "name": "thorium_out0_nand",
+    "gateType": "NAND: thorium out0 output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "monazite_thorium_and",
+    "gateType": "AND: nitrogenase out_3 + monazite",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "water_oxidised_manganese_monazite_and",
+    "gateType": "3-input AND: Mn-redox + water cycle + monazite/nitrogenase",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "water_oxidised_manganese_monazite_manganese_oxygen_complex_or",
+    "gateType": "2-input OR: REE arm merged with Mn-OEC",
+    "particle": "Axion",
+    "element": "Cn(112)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "monazite",
+    "gateType": "Nucleotide Phosphate Routing / REE Pool, MUX",
+    "particle": "Tau",
+    "element": "Ac(89)/Th(90)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "thorium",
+    "gateType": "Nucleotide Backbone Stability / REE Catalyst, MUX",
+    "particle": "",
+    "element": "",
+    "location": "perineal midline",
+    "dim8": ""
+  },
+  {
+    "name": "magnetite_out0_nand",
+    "gateType": "NAND: magnetite out0 output",
+    "particle": "Muon",
+    "element": "Fe(26)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "magnetite",
+    "gateType": "Intracellular Magnetic/Directional Sensor (Fe3O4), MUX",
+    "particle": "",
+    "element": "",
+    "location": "inside of left knee joint",
+    "dim8": ""
+  },
+  {
+    "name": "magnetite_ctrl_xor",
+    "gateType": "XOR: glymphatic clearance vs laterite iron-storage mismatch",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "oxidised_manganese_set_and",
+    "gateType": "AND: Mn-latch SET",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "oxidised_manganese_reset_and",
+    "gateType": "AND: Mn-latch RESET",
+    "particle": "Electron",
+    "element": "Ds(110)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "oxidised_manganese",
+    "gateType": "Mn-Redox State Latch (Mn4+/Mn2+), Gated SR latch (ch0) + 1 tristate (ch1)",
+    "particle": "",
+    "element": "",
+    "location": "left fourth toe",
+    "dim8": ""
+  },
+  {
+    "name": "manganese_oxygen_complex",
+    "gateType": "Manganese-Oxygen Complex (OEC), 2 tristate",
+    "particle": "Electron",
+    "element": "",
+    "location": "left anterior rib cage",
+    "dim8": ""
+  },
+  {
+    "name": "pi_electron_cloud_out0_nand",
+    "gateType": "NAND: pi_electron_cloud out0 output",
+    "particle": "Right",
+    "element": "Md(101)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "thorium_straight_leftd2_and",
+    "gateType": "AND: electric_grid + thorium",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "pi_electron_cloud_ctrl_or",
+    "gateType": "OR: D2-gated thorium OR thorium-NAND",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "pi_electron_cloud",
+    "gateType": "Porphyrin/quinone pi-electron reservoir, MUX",
+    "particle": "",
+    "element": "",
+    "location": "left throat anterior",
+    "dim8": ""
+  },
+  {
+    "name": "pi_electron_cloud_in0_and",
+    "gateType": "AND: Bio-electric Grid + O2 Supply",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "pi_electron_cloud_in0_or",
+    "gateType": "3-input OR: pi_electron_cloud.in0 combined driver",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "ferritin_in0_xor",
+    "gateType": "XOR: ferritin iron-storage input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "ferritin_in1_xor",
+    "gateType": "XOR: ferritin ferroxidase input vs observer",
+    "particle": "graviton",
+    "element": "V(23)/Cr(24)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "ferritin",
+    "gateType": "2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "sternal region / mediastinum center",
+    "dim8": ""
+  },
+  {
+    "name": "ferritin_ctrl0_and",
+    "gateType": "3-input AND: Master Bus + MOR Spark + O2 Supply",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "ferritin_ctrl0_or",
+    "gateType": "3-input OR: ferritin.ctrl0 combined driver",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "methylation_in0_xor",
+    "gateType": "XOR: methylation SAM input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "methylation_in1_xor",
+    "gateType": "XOR: methylation SAH input vs observer",
+    "particle": "charm_quark",
+    "element": "Yb(70)/Lu(71)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "methylation",
+    "gateType": "One-carbon SAM-SAH cycle methyl-donor network, 2 tristate",
+    "particle": "Ego",
+    "element": "Fe(26)",
+    "location": "left upper abdomen",
+    "dim8": ""
+  },
+  {
+    "name": "sulfur_iron_complex",
+    "gateType": "2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "right axillary tendon AND left lateral thigh",
+    "dim8": ""
+  },
+  {
+    "name": "large_igneous_province_in0_xor",
+    "gateType": "XOR: LIP flood-basalt input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "large_igneous_province_in1_xor",
+    "gateType": "XOR: LIP slab-precursor input vs observer",
+    "particle": "photon",
+    "element": "Au(79)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "large_igneous_province",
+    "gateType": "Ferroptotic Oxidative Burst (LIP), 2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "mid-thoracic spine",
+    "dim8": ""
+  },
+  {
+    "name": "large_igneous_province_ctrl0_and",
+    "gateType": "3-input AND: self-loop + mc1r_q_bar + anoxia",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "subduction_zone_in0_xor",
+    "gateType": "XOR: subduction cold-slab input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "subduction_zone_in1_xor",
+    "gateType": "XOR: subduction arc-fluid input vs observer",
+    "particle": "Observer",
+    "element": "Os(76)/Ir(77)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "subduction_zone",
+    "gateType": "Mitophagy / Organelle Recycling (Subduction), 2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "left lateral thigh",
+    "dim8": ""
+  },
+  {
+    "name": "monazite_out0_nand",
+    "gateType": "NAND: monazite out0 output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "craton_in0_xor",
+    "gateType": "XOR: craton lithospheric input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "craton_in1_xor",
+    "gateType": "XOR: craton surface input vs observer",
+    "particle": "neutron",
+    "element": "Cd(48)/Hf(72)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "craton",
+    "gateType": "Nuclear Scaffold / Lamin Backbone (Cratonic Shield), 2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "right sacrum / right posterior pelvis",
+    "dim8": ""
+  },
+  {
+    "name": "pyrite_in0_xor",
+    "gateType": "XOR: pyrite framboidal input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "pyrite_in1_xor",
+    "gateType": "XOR: pyrite burial input vs observer",
+    "particle": "Ego",
+    "element": "Ni(28)/Cu(29)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "pyrite",
+    "gateType": "2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "right 1st metatarsal head AND left lateral thigh",
+    "dim8": ""
+  },
+  {
+    "name": "right_sole_dopamine_q_or",
+    "gateType": "OR: right_sole_dopamine q output vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "right_sole_dopamine_q_bar_or",
+    "gateType": "OR: right_sole_dopamine q_bar output vs observer",
+    "particle": "Muon",
+    "element": "Pm(61)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "right_sole_dopamine",
+    "gateType": "Peripheral D1/D5 sympathetic terminals, D flip-flop",
+    "particle": "",
+    "element": "",
+    "location": "upper center of right sole",
+    "dim8": ""
+  },
+  {
+    "name": "observer_right_sole_dopamine",
+    "gateType": "Observer copy: peripheral D1/D5 right plantar dopamine, D flip-flop",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "plume_out0_nand",
+    "gateType": "NAND: plume out0 output",
+    "particle": "graviton",
+    "element": "Pt(78)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "plume",
+    "gateType": "Mantle plume LLSVP-rooted upwelling, MUX",
+    "particle": "",
+    "element": "",
+    "location": "right lateral hip",
+    "dim8": ""
+  },
+  {
+    "name": "actomyosin_ctrl",
+    "gateType": "4-input AND gate: actomyosin power-stroke controller",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "actomyosin_in0_xor",
+    "gateType": "XOR: actomyosin contraction input vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "actomyosin_in1_xor",
+    "gateType": "XOR: actomyosin relaxation input vs observer",
+    "particle": "Dark",
+    "element": "Ho(67)/Er(68)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "actomyosin",
+    "gateType": "Actomyosin Mechanical Tension, 2 tristate",
+    "particle": "",
+    "element": "",
+    "location": "right thumb toe",
+    "dim8": ""
+  },
+  {
+    "name": "nacl_ctrl1_combined",
+    "gateType": "AND: NaCl.out0 self-loop + Unspark",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "water_vapour_ctrl1_combined",
+    "gateType": "AND: water_vapour.out0 self-loop + 5HT1A",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "methylation_ctrl0_combined",
+    "gateType": "AND: methylation.out1 self-loop + 5HT1B",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "sulfur_ctrl0_combined",
+    "gateType": "AND: sulfur self-loop + D2 + GABA-A",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "co2_ctrl1_combined",
+    "gateType": "AND: co2.out0 self-loop + Unspark",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "co2_ctrl1_unspark_and",
+    "gateType": "AND: Oxytocin + Cortisol + Chlorine",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "chlorine_ctrl0_combined",
+    "gateType": "AND: Cl-pump self-loop + GABA-B",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "craton_ctrl0_combined",
+    "gateType": "AND: craton self-loop + Vasopressin",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cox_ctrl1_combined",
+    "gateType": "AND: COX self-loop + Vasopressin",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "oxytocin_preset_and",
+    "gateType": "AND: Peonidine + SDH-Krebs",
+    "particle": "expression",
+    "element": "E119",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "right_acetylcholine_expression",
+    "gateType": "ACh expression route — alpha7 nAChR postsynaptic",
+    "particle": "precursor",
+    "element": "E120",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "choline",
+    "gateType": "AND: ACh precursor synthesis gate",
+    "particle": "noradrenaline",
+    "element": "E121",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "male_left_noradrenaline",
+    "gateType": "3-input AND: choline + COX forward + thorium straight",
+    "particle": "dopamine",
+    "element": "E122",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "right_d2",
+    "gateType": "2 tristate — DRD2 postsynaptic indirect",
+    "particle": "cortisol",
+    "element": "E123",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "right_cortisol",
+    "gateType": "GR intracellular nuclear receptor, AND",
+    "particle": "satisfaction",
+    "element": "E124",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "female_right_satisfaction",
+    "gateType": "μ-opioid postsynaptic satisfaction, AND",
+    "particle": "vasopressin",
+    "element": "E125",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "left_female_vasopressin",
+    "gateType": "V1B postsynaptic pituitary, XOR",
+    "particle": "TCA",
+    "element": "E126",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "citric_acid_cycle",
+    "gateType": "AND: basin + core convection",
+    "particle": "GABA-B_2",
+    "element": "E127",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "female_gaba_b_2",
+    "gateType": "AND: female_gaba_b + dopamine non-observer",
+    "particle": "GABA-A",
+    "element": "Al(13)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "male_gaba_a_pre_logic",
+    "gateType": "AND: LIP + female_gaba_b",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "male_gaba_a_xor",
+    "gateType": "XOR: pre_logic + female_gaba_b_2",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "male_gaba_a_complex_and",
+    "gateType": "AND: male_gaba_a_xor + metabolic_da",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "male_gaba_a",
+    "gateType": "AND: LIP + complex_input",
+    "particle": "serotonin_1b",
+    "element": "Rh(45)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "esr1_ach_temporalis_xor",
+    "gateType": "XOR: Right Temporalis ESR1 (estrogen conjugate) vs Right Temporalis ACh",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "esr1_ach_d2_and",
+    "gateType": "AND: ESR1⊕ACh temporalis XOR + Right D2 reward",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "esr1_ach_d2_pi_and",
+    "gateType": "AND: ESR1⊕ACh+D2 + pi_electron_cloud tunneling",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "esr1_frontalis_inner_xor",
+    "gateType": "XOR: Right Frontalis Inner Lower ESR1 Expression vs Recovery Baseline",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "esr1_recovery_water_and",
+    "gateType": "AND: ESR1⊕Recovery XOR + Water Vapour hydration",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "esr1_ach_temporalis_and",
+    "gateType": "AND: Right Acetylcholine MUX output + Right Temporalis ESR1 Switch",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "esr1_expression_2_and",
+    "gateType": "AND: Temporalis ACh+ESR1 + Male GABA-A",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "esr1_expression_2",
+    "gateType": "ESR1 Expression 2 — GABA-A-gated temporalis estrogenic expression, AND",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "esr1_water_ach_expression_xor",
+    "gateType": "XOR: ESR1 Expression 2 + ESR1⊕Recovery → ACh Expression rerouting",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cytochrome_c_oxidase_retrograde_oxytocin_and",
+    "gateType": "4-input AND: COX retrograde XOR + oxytocin q + D2 brake + oxytocin q_bar_or ??gluon_orogen reset",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cytochrome_c_oxidase_retrograde_tg",
+    "gateType": "Transmission Gate: COX retrograde XOR ??AND bidirectional switch",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "drd2s_presynaptic",
+    "gateType": "AND: Master Metabolic Permissive Bus",
+    "particle": "strange_quark",
+    "element": "Na(11)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "drd2l_postsynaptic",
+    "gateType": "AND: Spatial Clarity / Cortisol Baseline Switch",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mor_presynaptic",
+    "gateType": "AND: Global Opioid Background / Recovery Wiring",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mor_postsynaptic",
+    "gateType": "mu-opioid receptor (MOR) Metabolic Spark, AND",
+    "particle": "electron_antineutrino",
+    "element": "Mg(12)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "left_epinephrine_electric_grid_and",
+    "gateType": "AND: left epinephrine switch + electric grid",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "sulforaphane_ctrl1_xnor",
+    "gateType": "XNOR: healing-grid AND + sodium osmotic status",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "right_androgen_and",
+    "gateType": "AND: healing-grid + opioid void",
+    "particle": "(諛ㅼ쓽",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "memory_entropy_out_hind_insula_xnor",
+    "gateType": "XNOR: memory_entropy out_hind_insula output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mycorradicin_chrna7_vagal_or",
+    "gateType": "OR: mycorradicin output vs right acetylcholine observer output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "mycorradicin_drd2s_and",
+    "gateType": "AND: Stress-Recovery OR + Master Bus",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "carbonic_anhydrase",
+    "gateType": "NOT: proton pool reverse-flow reflection point",
+    "particle": "right_testosterone",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "drd2_mpoa_out0_nand",
+    "gateType": "NAND: drd2_mpoa out0 output",
+    "particle": "electron_neutrino",
+    "element": "Na(11)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "drd2_mpoa",
+    "gateType": "D2 at MPOA/spinal ejaculation generator: D2 brake on OXT/AVP climax, AND",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "caco3_drd2s_podzol_observer_and",
+    "gateType": "3-input AND: caco3 permissive arm",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "ac89_actinium_trigger_and",
+    "gateType": "AND: CaCO3-pyrite-lactate buffer + magnetite directional field",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "ac89_oxytocin_drd2s_and",
+    "gateType": "AND: male right oxytocin bonding + left D2 non-observer spatial clarity",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "ac89_final_and",
+    "gateType": "AND: actinium mineral trigger + oxytocin-leftd2 neural gate",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "ac89_co2_or",
+    "gateType": "OR: actinium final collapse + CO2 respiratory flux",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "chrna7_vagal_out0_nand",
+    "gateType": "NAND: right acetylcholine out0 output",
+    "particle": "tau_neutrino",
+    "element": "Es(99)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "chrna7_vagal",
+    "gateType": "alpha7 nicotinic AChR right facial/vagal cholinergic anti-inflammatory, MUX",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cck_cytochrome_c_oxidase_ctrl_and",
+    "gateType": "3-input AND: CCK satiety + Mn-redox + Master Bus permissive",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "ga31_gallium_nitride_nor",
+    "gateType": "NOR: serotonergic anti-anxiety + Mn-OEC water-splitting",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "ga31_mn_reset_and",
+    "gateType": "AND: GaN gradient + Mn-redox reset coincidence",
+    "particle": "electron",
+    "element": "Ds(110)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "thorium_straight_drd2s_and",
+    "gateType": "AND: electric_grid + thorium",
+    "particle": "right_testosterone",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "tm69_thulium_lasing_and",
+    "gateType": "AND: vagal cholinergic inversion + catabolic carbon state",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "tm69_pyrite_and",
+    "gateType": "AND: thulium lasing + pyrite burial XOR output",
+    "particle": "graviton",
+    "element": "Ni(28)/Cu(29)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "drd1_peripheral_q_or",
+    "gateType": "3-input OR: drd1_peripheral q + observer q_bar reversal vs observer",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "drd1_peripheral_q_bar_or",
+    "gateType": "OR: drd1_peripheral q_bar output vs observer",
+    "particle": "muon_antineutrino",
+    "element": "Pm(61)",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "drd1_peripheral",
+    "gateType": "Peripheral D1/D5 sympathetic terminals, D flip-flop",
+    "particle": "muon_antineutrino",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "drd1_observer",
+    "gateType": "Observer copy: peripheral D1/D5 right plantar dopamine, D flip-flop",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "caco3",
+    "gateType": "alias: legacy carbonate buffer name mapped to caco3_final_and",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "cytochrome_c_oxidase_ctrl1_combined",
+    "gateType": "AND: COX self-loop + vasopressin",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "chrna7_vagal_expression",
+    "gateType": "ACh expression route",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  },
+  {
+    "name": "t_ff_out",
+    "gateType": "buffer: autophagy mode output",
+    "particle": "",
+    "element": "",
+    "location": "",
+    "dim8": ""
+  }
+]

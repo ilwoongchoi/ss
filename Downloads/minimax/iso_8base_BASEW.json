@@ -1,0 +1,16 @@
+{
+  "_version": "8base_BASEW_v1",
+  "_date": "2026-09-09",
+  "_source": "universe_math_structures.py:7057-7076 BASE_W + LUNAR_CYCLE",
+  "k_values": {
+    "HG": 0.282842712474619,
+    "GM": 1.0,
+    "MP": 0.125,
+    "PT": 0.1875,
+    "TW": 0.282842712474619,
+    "WZ": 0.25,
+    "Znu": 0.03571428571428571
+  },
+  "mass_conservation": 1.0,
+  "ghost_sink_fraction": 0.923
+}

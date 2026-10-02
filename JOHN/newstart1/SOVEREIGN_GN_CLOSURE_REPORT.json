@@ -1,0 +1,20 @@
+{
+  "model": "GN-only",
+  "mean_closure_error": 0.2138246402690444,
+  "max_closure_error": 0.2564769865832277,
+  "min_closure_error": 0.008312892617080792,
+  "periodic_error_l2_before_lock": 0.2214478349177022,
+  "periodic_error_l2_after_lock": 0.0,
+  "spark_mean": -0.0012027369996886715,
+  "spark_peak_window": 30,
+  "spark_peak_value": 0.7755524880686645,
+  "spark_mean_when_vasopressin_on": -0.0024172666910008507,
+  "spark_mean_when_vasopressin_off": 0.00021764518167644603,
+  "spark_abs_mean_when_vasopressin_on": 0.2888924219083349,
+  "spark_abs_mean_when_vasopressin_off": 0.21262023568044183,
+  "spark_abs_peak_when_vasopressin_on": 0.8885475107491886,
+  "spark_abs_peak_when_vasopressin_off": 0.728227544893058,
+  "recovery_event_count": 8,
+  "recovery_avg_windows": 13.25,
+  "recovery_max_windows": 81
+}

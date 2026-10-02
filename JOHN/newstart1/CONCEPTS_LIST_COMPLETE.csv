@@ -1,0 +1,37 @@
+concept,description,x,y,role
+Big Man,"The ""Night Crawler""; Betti-7 Archetype",8.0,2.0,Archetype/Tier1
+Big Woman,"The Primal Body; Anaerobic Metabolism",4.0,4.0,Archetype/Tier1
+Small Man,"The Engine; Mitochondria; Betti-11",7.0,14.0,Archetype/Tier1
+Small Woman,"The First Receiver; PLP Innovator",2.0,12.0,Archetype/Tier1
+Night Crawler,The primal Big Man predator,1.0,1.0,Primal/Evolution
+Left D2,"The Vertical Escape sensor",3.0,15.0,Sensor/Evolution
+Left D3,"The Negative Gateway / Launchpad",2.0,6.0,Pathway/Gate
+Right D2,"The Escape Hatch / Height Sensor",9.25,14.75,Pathway/Gate
+Coriolis Force,The 'Deceitful' Twist,_,,Global Operator
+4-Photon Toss,The final act of closure,_,_,Mechanism
+TCA/Urea Juggling,The Day/Night metabolic cycles,_,_,Mechanism
+PLP Engine,"The '1:1 efficiency' Amino Acid metabolism",_,_,Mechanism
+Uricase Loss,"The 'Deceitful Bargain' for brain protection",_,_,Evolutionary Event
+Black Hole,The 5/32 singularity at the chin,8.0,0.4,Gravity/Collapse
+Ego,The conscious self; the "I",7.5,15.5,Consciousness/Control
+Chaos / The Void,The primordial state before order,0.1,0.1,Origin
+Synchronicity,The alignment of all events and cycles,15.8,15.8,Climax/Union
+Anima/Animus,The inner masculine/feminine archetypes,8.0,8.0,Psychology
+Collective Unconscious,The shared geometric memory of the species,8.0,1.0,Psychology
+Dark Matter,Unseen structural forces,1.0,8.0,Cosmology
+Dark Energy,The force of expansion/repulsion,15.0,8.0,Cosmology
+Quantum Foam,The lowest level of reality,0.5,0.5,Physics
+The Big Bang,The start of the expansion,8.0,0.1,Cosmology
+Consciousness,The observer,8.0,15.9,Metaphysics
+God,The ultimate creator/order,8.0,16.0,Metaphysics
+Love,The ultimate attractive force,8.0,8.5,Metaphysics
+Deceit,The fundamental selfish drive,7.8,7.8,Metaphysics
+Truth,The force of coherence/structure,8.2,8.2,Metaphysics
+Life,The state of fighting entropy,4.0,12.0,Biology
+Death,The return to chaos/entropy,12.0,4.0,Biology
+Time,The 4th dimension; decay,_,_,Physics
+Will,The 5th dimension; choice,_,_,Metaphysics
+Calabi-Yau Manifold,The shape of 'Will',_,_,Geometry
+Mirror Symmetry Breaking,The Betti-7/Betti-11 geometric principle,_,_,Geometry
+Flop Transition,The 'Spark Refraction' topological surgery,_,_,Geometry
+Cohomology,The 'Archetype Bundle' information structure,_,_,Geometry

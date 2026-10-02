@@ -1,0 +1,341 @@
+{
+"@context": "https://w3id.org/ro/crate/1.2/context",
+"@graph": [
+{
+"@type": "CreativeWork",
+"@id": "ro-crate-metadata.json",
+"conformsTo": { "@id": "https://w3id.org/ro/crate/1.2" },
+"about": { "@id": "https://catalogue.ceh.ac.uk/id/5bcd927d-8114-4937-af7e-258cfd137109" }
+},
+{
+"@type":"Dataset",
+"name":"National scale maps of parent material properties, terrain and soil natural capital units at 50 metre resolution for Great Britain, 2020",
+"@id": "https://catalogue.ceh.ac.uk/id/5bcd927d-8114-4937-af7e-258cfd137109",
+"identifier": {"@id": "https://doi.org/10.5285/5bcd927d-8114-4937-af7e-258cfd137109"},
+"citation":"Feeney, C.J., Robinson, D.A., Lawley, R., Holbrook, H., Dhiedt, E., Williamson, J.L., Tye, A.M., Redhead, J.W. (2026). National scale maps of parent material properties, terrain and soil natural capital units at 50 metre resolution for Great Britain, 2020. NERC EDS Environmental Information Data Centre. (Dataset). https://doi.org/10.5285/5bcd927d-8114-4937-af7e-258cfd137109",
+"hasPart": [
+{"@id":
+"data/geomorphons.tif"
+} ,
+{"@id":
+"data/mrrtf.tif"
+} ,
+{"@id":
+"data/mrvbf.tif"
+} ,
+{"@id":
+"data/natural_capital_pedotopes.tif"
+} ,
+{"@id":
+"data/physicochemical_properties.tif"
+} ,
+{"@id":
+"data/subsurface_drainage.tif"
+} ,
+{"@id":
+"data/textural_composition.tif"
+} ,
+{"@id":
+"data/twi.tif"
+} ,
+{"@id":
+"data/usgs_geomorphic_landscapes.tif"
+} ,
+{"@id":
+"supporting-documents/supporting_documentation_national_scale_soil_parent_material_and_terrain_maps_for_gb.docx"
+} ],
+"description":"This dataset contains national scale maps on several characteristics of soils and landscapes across Great Britain, circa 2020. Key soil parent material categories featured here include texture, drainage, depth, organic matter and calcium carbonate contents. Terrain information includes landform classes, topographic wetness index, and indices of valley bottom flatness and ridge top flatness. Our maps were derived from components of the BGS's Depth to Groundwater and Parent Material Models, digital maps of soil organic carbon content and peat extent, locations of landfill and quarry sites from Open Street Map, and the OS Terrain 50 digital terrain model. The collated third-party datasets were modified to produce a mini data cube of several derived map layers, that were then combined to produce a map of 13 soil natural capital units The maps can be used either individually or collectively to support soil health assessment, to train land cover classification and digital soil mapping algorithms, and modelling of ecosystem services. The full dataset includes 9 raster gridded maps at 50 x 50 metre resolution, with full coverage of England, Scotland and Wales. Northern Ireland was excluded due to a lack of accessible third-party data which we could apply our classification framework to. Our dataset is considered to be representative of soils and landscapes as of the year 2020, based on the maps of soil organic carbon content and locations of quarries and landfills we used. However, it should be stressed that several soil properties, including texture, depth, calcium carbonate contents and drainage reflect much longer-term conditions.",
+"isAccessibleForFree": true,
+"datePublished":"2026-03-26",
+"keywords": [
+"parent material"
+,
+{"@type": "DefinedTerm","@id": "http://onto.nerc.ac.uk/CEHMD/topic/17","name": "Soil" }
+,
+{"@type": "DefinedTerm","@id": "http://onto.nerc.ac.uk/CEHMD/topic/18","name": "Mapping" }
+,
+{"@type": "DefinedTerm","@id": "http://www.eionet.europa.eu/gemet/concept/15234","name": "natural capital","inDefinedTermSet": "https://www.eionet.europa.eu/gemet/" }
+,
+{"@type": "DefinedTerm","@id": "http://www.eionet.europa.eu/gemet/concept/4629","name": "landform","inDefinedTermSet": "https://www.eionet.europa.eu/gemet/" }
+,
+{"@type": "DefinedTerm","@id": "http://www.eionet.europa.eu/gemet/concept/4648","name": "landscape","inDefinedTermSet": "https://www.eionet.europa.eu/gemet/" }
+,
+{"@type": "DefinedTerm","@id": "http://www.eionet.europa.eu/gemet/concept/7868","name": "soil map","inDefinedTermSet": "https://www.eionet.europa.eu/gemet/" }
+,
+{"@type": "DefinedTerm","@id": "http://www.eionet.europa.eu/gemet/concept/7899","name": "soil type","inDefinedTermSet": "https://www.eionet.europa.eu/gemet/" }
+,
+{"@type": "DefinedTerm","@id": "https://digital.ceh.ac.uk/vocab/ra/15","name": "AgZero+" }
+],
+"creator": [
+{"@id": "https://orcid.org/0000-0003-2175-1842"},
+{"@id": "https://orcid.org/0000-0001-7290-4867"},
+{"@id": "#creator2"},
+{"@id": "https://orcid.org/0000-0002-5621-6287"},
+{"@id": "https://orcid.org/0000-0003-2575-6800"},
+{"@id": "https://orcid.org/0000-0001-8216-5885"},
+{"@id": "https://orcid.org/0000-0002-4653-7773"},
+{"@id": "https://orcid.org/0000-0002-2233-3848"}
+],
+"temporalCoverage":[
+"2020-01-01/2020-12-31" ],
+"spatialCoverage": [ {"@id": "#bbox0"}],
+"funding": [ {"@id": "https://gtr.ukri.org/projects?ref=NE%2FW005050%2F1"}
+],
+"license": "https://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/",
+"distribution": [ {"@id": "#distribution0"}],
+"publisher":{"@id":"https://ror.org/04xw4m193"},
+"provider" : {"@id":"https://ror.org/04xw4m193"},
+"includedInDataCatalog":{ "@id": "#eidc-dataCatalogue"}
+},
+{
+"@id": "#eidc-dataCatalogue",
+"@type":"DataCatalog",
+"name":"Environmental Information Data Centre",
+"alternateName":"EIDC",
+"url":"https://catalogue.ceh.ac.uk/eidc/documents"
+},
+{
+"@id": "https://ror.org/04xw4m193",
+"@type":"Organization",
+"name":"NERC EDS Environmental Information Data Centre",
+"email": "info@eidc.ac.uk"
+}
+,{
+"@id": "https://doi.org/10.5285/5bcd927d-8114-4937-af7e-258cfd137109",
+"@type":"PropertyValue",
+"propertyID": "https://registry.identifiers.org/registry/doi",
+"value": "10.5285/5bcd927d-8114-4937-af7e-258cfd137109",
+"url": "https://doi.org/10.5285/5bcd927d-8114-4937-af7e-258cfd137109"
+}
+, {
+"@id": "#bbox0",
+"@type":"Place",
+"geo": {
+"@id": "#geoshape0"
+}
+},
+{
+"@id": "#geoshape0",
+"@type": "GeoShape",
+"box":"-8.648 49.864, 1.768 60.861"
+}
+,
+{
+"@id": "https://orcid.org/0000-0003-2175-1842",
+"@type": "Person",
+"name": "Feeney, C.J."
+, "familyName": "Feeney"
+, "givenName": "C.J."
+,"email": "enquiries@ceh.ac.uk"
+,"affiliation":{
+"@id": "https://ror.org/00pggkr55"
+}
+},
+{
+"@id": "https://orcid.org/0000-0001-7290-4867",
+"@type": "Person",
+"name": "Robinson, D.A."
+, "familyName": "Robinson"
+, "givenName": "D.A."
+,"email": "enquiries@ceh.ac.uk"
+,"affiliation":{
+"@id": "https://ror.org/00pggkr55"
+}
+},
+{
+"@id": "#creator2",
+"@type": "Person",
+"name": "Lawley, R."
+, "familyName": "Lawley"
+, "givenName": "R."
+,"email": "rslaw@bgs.ac.uk"
+,"affiliation":{
+"@id": "https://ror.org/04a7gbp98"
+}
+},
+{
+"@id": "https://orcid.org/0000-0002-5621-6287",
+"@type": "Person",
+"name": "Holbrook, H."
+, "familyName": "Holbrook"
+, "givenName": "H."
+,"email": "hwho@bgs.ac.uk"
+,"affiliation":{
+"@id": "https://ror.org/04a7gbp98"
+}
+},
+{
+"@id": "https://orcid.org/0000-0003-2575-6800",
+"@type": "Person",
+"name": "Dhiedt, E."
+, "familyName": "Dhiedt"
+, "givenName": "E."
+,"email": "enquiries@ceh.ac.uk"
+,"affiliation":{
+"@id": "https://ror.org/00pggkr55"
+}
+},
+{
+"@id": "https://orcid.org/0000-0001-8216-5885",
+"@type": "Person",
+"name": "Williamson, J.L."
+, "familyName": "Williamson"
+, "givenName": "J.L."
+,"email": "enquiries@ceh.ac.uk"
+,"affiliation":{
+"@id": "https://ror.org/00pggkr55"
+}
+},
+{
+"@id": "https://orcid.org/0000-0002-4653-7773",
+"@type": "Person",
+"name": "Tye, A.M."
+, "familyName": "Tye"
+, "givenName": "A.M."
+,"email": "atye@bgs.ac.uk"
+,"affiliation":{
+"@id": "https://ror.org/04a7gbp98"
+}
+},
+{
+"@id": "https://orcid.org/0000-0002-2233-3848",
+"@type": "Person",
+"name": "Redhead, J.W."
+, "familyName": "Redhead"
+, "givenName": "J.W."
+,"email": "enquiries@ceh.ac.uk"
+,"affiliation":{
+"@id": "https://ror.org/00pggkr55"
+}
+}
+, {
+"@id": "https://gtr.ukri.org/projects?ref=NE%2FW005050%2F1",
+"@type": "MonetaryGrant"
+,"name": "AgZero+: Towards sustainable, climate-neutral farming"
+,"identifier": "NE/W005050/1"
+,"funder": {"@id": "https://ror.org/02b5d8509"}
+}
+,{
+"@id": "https://ror.org/02b5d8509",
+"@type": "Organization"
+,"name": "Natural Environment Research Council"
+}
+, {
+"@id":
+"data/geomorphons.tif"
+,"name": "geomorphons.tif","@type": "File"
+,"encodingFormat": "image/tiff"
+,"sha256": "bcf2d4b319160abc0d9e8c62efdedf23a9091d798a147c8a7fc8bf78ed63b039"
+,"lastModified": "2026-03-26T11:46:35"
+,"bytes": 35580657
+,"contentUrl": "data/geomorphons.tif"
+}
+, {
+"@id":
+"data/mrrtf.tif"
+,"name": "mrrtf.tif","@type": "File"
+,"encodingFormat": "image/tiff"
+,"sha256": "01220154e2231326411f207afdad83cbd0655057695a94d49e3722efe31d973f"
+,"lastModified": "2026-03-26T11:46:38"
+,"bytes": 333879243
+,"contentUrl": "data/mrrtf.tif"
+}
+, {
+"@id":
+"data/mrvbf.tif"
+,"name": "mrvbf.tif","@type": "File"
+,"encodingFormat": "image/tiff"
+,"sha256": "bfc05503a84ced699c1421f555e997879623667dc924a1f7d9351becd57d434e"
+,"lastModified": "2026-03-26T11:46:37"
+,"bytes": 328086976
+,"contentUrl": "data/mrvbf.tif"
+}
+, {
+"@id":
+"data/natural_capital_pedotopes.tif"
+,"name": "natural_capital_pedotopes.tif","@type": "File"
+,"encodingFormat": "image/tiff"
+,"sha256": "f7db4b8152a81bb039d0f85e79e9997da160667eb131ec21819afc826c99e53d"
+,"lastModified": "2026-03-26T11:46:35"
+,"bytes": 17287463
+,"contentUrl": "data/natural_capital_pedotopes.tif"
+}
+, {
+"@id":
+"data/physicochemical_properties.tif"
+,"name": "physicochemical_properties.tif","@type": "File"
+,"encodingFormat": "image/tiff"
+,"sha256": "d54100a4006e55711e6d7bf016fd596172df4b3b873082e39df1b62e984ab47e"
+,"lastModified": "2026-03-26T11:46:35"
+,"bytes": 5615827
+,"contentUrl": "data/physicochemical_properties.tif"
+}
+, {
+"@id":
+"data/subsurface_drainage.tif"
+,"name": "subsurface_drainage.tif","@type": "File"
+,"encodingFormat": "image/tiff"
+,"sha256": "df8fba3c006431f07648ea4f651792962d887ca9b9ee911dd4630b12869df926"
+,"lastModified": "2026-03-26T11:46:35"
+,"bytes": 6020948
+,"contentUrl": "data/subsurface_drainage.tif"
+}
+, {
+"@id":
+"data/textural_composition.tif"
+,"name": "textural_composition.tif","@type": "File"
+,"encodingFormat": "image/tiff"
+,"sha256": "ee294b4385209fc297315c97d574ecffe2a9ec3b7ca06a8bcd832fe9aca5e810"
+,"lastModified": "2026-03-26T11:46:35"
+,"bytes": 5816210
+,"contentUrl": "data/textural_composition.tif"
+}
+, {
+"@id":
+"data/twi.tif"
+,"name": "twi.tif","@type": "File"
+,"encodingFormat": "image/tiff"
+,"sha256": "88a21401d54bc0325e785cd7ec6189f137ea75552eb5b4c1b5e13b4b343bd013"
+,"lastModified": "2026-03-26T11:46:37"
+,"bytes": 319046664
+,"contentUrl": "data/twi.tif"
+}
+, {
+"@id":
+"data/usgs_geomorphic_landscapes.tif"
+,"name": "usgs_geomorphic_landscapes.tif","@type": "File"
+,"encodingFormat": "image/tiff"
+,"sha256": "ac0a34258de191f3d724d33e99dda9e0c654112452834f194b6566870761ec72"
+,"lastModified": "2026-03-26T11:46:35"
+,"bytes": 10096618
+,"contentUrl": "data/usgs_geomorphic_landscapes.tif"
+}
+, {
+"@id":
+"supporting-documents/supporting_documentation_national_scale_soil_parent_material_and_terrain_maps_for_gb.docx"
+,"name": "supporting_documentation_national_scale_soil_parent_material_and_terrain_maps_for_gb.docx","@type": "File"
+,"sha256": "7ef0de828ab43563fec490959e25cd8cabf587b3a79ee61e47764cf6cb2d9a1e"
+,"lastModified": "2026-03-26T11:46:29"
+,"bytes": 9067109
+,"contentUrl": "supporting-documents/supporting_documentation_national_scale_soil_parent_material_and_terrain_maps_for_gb.docx"
+}
+, {
+"@id": "#distribution0",
+"@type":"DataDownload",
+"contentUrl":"https://data-package.ceh.ac.uk/data/5bcd927d-8114-4937-af7e-258cfd137109"
+,"encodingFormat":"application/zip"
+}
+, {
+"@id": "https://ror.org/00pggkr55",
+"@type": "Organization",
+"name": "UK Centre for Ecology & Hydrology",
+"identifier": "https://ror.org/00pggkr55"
+},
+{
+"@id": "https://ror.org/04a7gbp98",
+"@type": "Organization",
+"name": "British Geological Survey",
+"identifier": "https://ror.org/04a7gbp98"
+}
+]
+}

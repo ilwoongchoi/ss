@@ -1,0 +1,9 @@
+quantity,formula,value,canonical,abs_error,status
+C_from_unit_square,sqrt(2) / 5,0.282842712474619,0.282842712474619,0.0,exact_restatement
+observer_horizon_candidate,OMEGA_PHI,1.986,1.986,0.0,geometry_candidate
+spark_angle_claim_from_betti,deg(atan(OMEGA_W7 / OMEGA_H2) * (BETTI_11 / BETTI_7)),85.99818638622318,138.88,52.881813613776814,unsupported_if_error_large
+d3_correction_factor,KAPPA_H3 / KAPPA_H2,0.5,0.5,0.0,geometry_candidate
+d3_at_crunch_candidate,OMEGA_SLOTTING_DELTA * CRUNCH_LIMIT_T * BETTI_11,15.39912,,,candidate_not_canonical
+deception_delta_at_crunch_candidate,OMEGA_SLOTTING_DELTA * CRUNCH_LIMIT_T * (BETTI_11 - 1),13.9992,,,candidate_not_canonical
+electron_d3_candidate,(1/8) * C * BETTI_11,0.38890872965260115,,,candidate_not_canonical
+gaba_mask_candidate,GABA_C_R_CAB,0.08418,,,geometry_candidate

@@ -1,0 +1,136 @@
+{
+  "schema": "channel_k8_edge_map_v1",
+  "subjects": ["quark", "gluon", "neutrino", "photon", "electron", "higgs", "w_boson", "z_boson"],
+  "edges": 28,
+  "observers": 2,
+  "total_channels": 30,
+  "channel_map": {
+    "gdh_gluon": {
+      "edges": [["quark", "gluon"]],
+      "on": [0.16], "off": [-0.08], "tier": 1
+    },
+    "muscle_a": {
+      "edges": [["gluon", "w_boson"]],
+      "on": [0.16], "off": [-0.08], "tier": 1
+    },
+    "muscle_b": {
+      "edges": [["quark", "w_boson"]],
+      "on": [0.16], "off": [-0.08], "tier": 1
+    },
+    "female_left_noradrenaline": {
+      "edges": [["photon", "w_boson"]],
+      "on": [0.08], "off": [0], "tier": 2
+    },
+    "right_dopamine": {
+      "edges": [["neutrino", "w_boson"]],
+      "on": [0.32], "off": [0], "tier": 2
+    },
+    "vasopressin_female": {
+      "edges": [["higgs", "w_boson"]],
+      "on": [0.24], "off": [0], "tier": 2
+    },
+    "right_5ht1b_synchrotron": {
+      "edges": [["photon", "electron"]],
+      "on": [0.16], "off": [0], "tier": 3
+    },
+    "right_acetylcholine": {
+      "edges": [["photon", "z_boson"]],
+      "on": [0.08], "off": [0], "tier": 3
+    },
+    "male_gaba_b": {
+      "edges": [["photon", "higgs"]],
+      "on": [0.08], "off": [0], "tier": 3
+    },
+    "right_extraversion": {
+      "edges": [["gluon", "photon"]],
+      "on": [0.16], "off": [0], "tier": 3
+    },
+    "left_extraversion": {
+      "edges": [["quark", "photon"]],
+      "on": [0.16], "off": [0], "tier": 3
+    },
+    "left_temporalis_5ht1a": {
+      "edges": [["quark", "neutrino"]],
+      "on": [0.08], "off": [0], "tier": 4
+    },
+    "male_right_extraversion": {
+      "edges": [["gluon", "neutrino"]],
+      "on": [0.08], "off": [0], "tier": 4
+    },
+    "male_left_5ht": {
+      "edges": [["neutrino", "photon"]],
+      "on": [0.08], "off": [0], "tier": 4
+    },
+    "male_oxytocin": {
+      "edges": [["neutrino", "electron"]],
+      "on": [0.16], "off": [0], "tier": 5
+    },
+    "right_love": {
+      "edges": [["neutrino", "higgs"]],
+      "on": [0.08], "off": [0], "tier": 5
+    },
+    "male_gaba_a": {
+      "edges": [["electron", "w_boson"]],
+      "on": [0.08], "off": [0], "tier": 5
+    },
+    "left_estrogen": {
+      "edges": [["electron", "higgs"]],
+      "on": [0.16], "off": [0], "tier": 5
+    },
+    "left_endorphin": {
+      "edges": [["electron", "z_boson"]],
+      "on": [0.08], "off": [-0.08], "tier": 5
+    },
+    "female_gaba_b_latdorsi": {
+      "edges": [["gluon", "z_boson"]],
+      "on": [0.08], "off": [0], "tier": 5
+    },
+    "right_occipitalis_gaba_a": {
+      "edges": [["neutrino", "z_boson"]],
+      "on": [0.16], "off": [0], "tier": 6
+    },
+    "right_alpha_2": {
+      "edges": [["w_boson", "z_boson"]],
+      "on": [-0.08], "off": [0.32], "tier": 6
+    },
+    "right_cortisol": {
+      "edges": [["higgs", "z_boson"]],
+      "on": [0.16], "off": [-0.08], "tier": 6
+    },
+    "right_androgen": {
+      "edges": [["quark", "higgs"]],
+      "on": [0.16], "off": [0], "tier": 6
+    },
+    "glucocorticoid": {
+      "edges": [["quark", "z_boson"]],
+      "on": [0.08], "off": [-0.08], "tier": 6
+    },
+    "hypoxia": {
+      "edges": [["gluon", "higgs"]],
+      "on": [0.08], "off": [-0.08], "tier": 7
+    },
+    "left_acetyl_coa": {
+      "edges": [["quark", "electron"]],
+      "on": [0.16], "off": [0], "tier": 7
+    },
+    "left_frontalis_d2": {
+      "edges": [["gluon", "electron"]],
+      "on": [0.08], "off": [0], "tier": 7
+    },
+    "left_eyelid_couple": {
+      "edges": [["photon", "w_boson"], ["electron", "w_boson"]],
+      "on": [0.08, -0.08], "off": [-0.08, 0.08], "tier": 8
+    },
+    "right_eyelid_couple": {
+      "edges": [["photon", "w_boson"], ["electron", "w_boson"]],
+      "on": [0.08, -0.08], "off": [-0.08, 0.08], "tier": 8
+    }
+  },
+  "tier_order": {
+    "phase1": [1, 2, 3, 4, 5, 6, 7, 8],
+    "phase2": [2, 3, 4, 5, 1, 6, 7, 8],
+    "proton_landing": [6, 3, 4, 5, 2, 1, 7, 8],
+    "night_spark": [3, 6, 2, 5, 4, 1, 7, 8],
+    "hysteresis": [6, 5, 4, 2, 3, 1, 7, 8]
+  }
+}

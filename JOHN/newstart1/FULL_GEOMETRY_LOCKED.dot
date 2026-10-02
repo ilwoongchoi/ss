@@ -1,0 +1,41 @@
+digraph FULL_GEOMETRY {
+  graph [rankdir="LR", labelloc="t", fontsize=20];
+  label="Full Geometry Graph (Current Locked Outputs)";
+  node [shape="ellipse", style="filled", fontname="Consolas"];
+  edge [fontname="Consolas"];
+
+  "10" [fillcolor="#f2f2f2"];
+  "11" [fillcolor="#f2f2f2"];
+  "12" [fillcolor="#f2f2f2"];
+  "13" [fillcolor="#f2f2f2"];
+  "14" [fillcolor="#f2f2f2"];
+  "A" [fillcolor="#f2f2f2"];
+  "B" [fillcolor="#f2f2f2"];
+  "C" [fillcolor="#f2f2f2"];
+  "D" [fillcolor="#f2f2f2"];
+  "F" [fillcolor="#f2f2f2"];
+  "F_prime" [fillcolor="#f2f2f2"];
+  "G" [fillcolor="#f2f2f2"];
+  "X" [fillcolor="#f2f2f2"];
+  "core_center" [fillcolor="#f2f2f2"];
+  "gateway_peak" [fillcolor="#f2f2f2"];
+  "mediator:synthetic_alpha" [fillcolor="#f2f2f2"];
+  "right_branch" [fillcolor="#f2f2f2"];
+
+  "B" -> "D" [label="Direct/Local seam step=1 red=1", penwidth=1.00];
+  "11" -> "B" [label="Direct/Deprojection step=2 red=1", penwidth=1.00];
+  "14" -> "B" [label="Direct/Deprojection step=3 red=1", penwidth=1.00];
+  "13" -> "C" [label="Relay/Relay path step=4 red=2", penwidth=1.00];
+  "B" -> "C" [label="relay->Relay/Relay path step=4 red=2", penwidth=1.00];
+  "10" -> "B" [label="Direct/Deprojection step=5 red=1", penwidth=1.00];
+  "12" -> "B" [label="Direct/Deprojection step=6 red=1", penwidth=1.00];
+  "10" -> "A" [label="Direct/Activation step=7 red=1", penwidth=1.00];
+  "F" -> "C" [label="Direct/Flash bridge step=8 red=1", penwidth=1.00];
+  "F_prime" -> "C" [label="Direct/Flash complement step=9 red=1", penwidth=1.00];
+  "G" -> "X" [label="Direct/External expansion step=10 red=0", penwidth=1.00];
+  "X" -> "D" [label="Direct/Relay connection step=11 red=1", penwidth=1.00];
+  "mediator:synthetic_alpha" -> "core_center" [label="gap=7.6274, contact=0.0169, drift=2.147", penwidth=1.07];
+  "gateway_peak" -> "core_center" [label="gap=8.1132, contact=0.015, drift=1.0", penwidth=1.06];
+  "mediator:synthetic_alpha" -> "right_branch" [label="gap=15.2755, contact=0.002, drift=2.147", penwidth=1.01];
+  "core_center" -> "right_branch" [label="gap=0.0, contact=0.95, drift=4.61", penwidth=4.80];
+}

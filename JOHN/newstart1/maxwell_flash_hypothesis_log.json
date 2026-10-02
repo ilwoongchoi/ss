@@ -1,0 +1,35 @@
+[
+  {
+    "timestamp": "2026-03-05T06:41:02",
+    "hypothesis": "out_band_flash_rate * maxwell_q ~= 1/BETTI_7",
+    "observed": {
+      "out_band_flash_rate": 0.0118,
+      "maxwell_q_factor": 11.8,
+      "product": 0.13924,
+      "one_over_betti_7": 0.14285714285714285
+    },
+    "test_protocol": {
+      "n_runs": 5,
+      "dt_values": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "seeds": [
+        1000,
+        1001,
+        1002,
+        1003,
+        1004
+      ],
+      "expected": "Product should remain stable within \u00b120% across runs"
+    },
+    "status": "UNTESTED - Needs multi-run validation",
+    "notes": [
+      "Single observation shows coincidence (0.139 vs 0.143)",
+      "May be spurious correlation",
+      "Requires at least 10 independent runs to validate",
+      "DO NOT use as official constant until validated"
+    ]
+  }
+]

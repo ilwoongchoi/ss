@@ -1,0 +1,49 @@
+{
+  "_version": "8base_41deriv_v1",
+  "_date": "2026-09-09",
+  "_method": "8 base buffer particles + 7-step stress cascade ODE",
+  "base_8": [
+    "higgs",
+    "gluon",
+    "muon",
+    "photon",
+    "tau",
+    "w_boson",
+    "z_boson",
+    "muon_neutrino"
+  ],
+  "cascade_7": [
+    "higgs",
+    "gluon",
+    "muon",
+    "photon",
+    "tau",
+    "w_boson",
+    "z_boson"
+  ],
+  "k_transitions": {
+    "HG": 1.0,
+    "GM": 0.7,
+    "MP": 0.5,
+    "PT": 0.3,
+    "TW": 0.2,
+    "WZ": 0.1,
+    "Znu": 0.05
+  },
+  "n_derived": 41,
+  "derived_breakdown": {
+    "base": 8,
+    "transition": 7,
+    "cascade_path": 21,
+    "cycle": 1,
+    "ghost": 1,
+    "input": 1,
+    "short_cycle": 1,
+    "long_cycle": 1
+  },
+  "cascade_ode_result": {
+    "initial_H": 1.0,
+    "final_sum": 1.0,
+    "ghost_sink_fraction": 0.9278
+  }
+}

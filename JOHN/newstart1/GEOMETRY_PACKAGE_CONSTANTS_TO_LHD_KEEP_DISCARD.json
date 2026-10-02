@@ -1,0 +1,108 @@
+{
+  "keep": [
+    "W7_EXACT",
+    "w7 raw / night_hysteresis_area",
+    "TOTAL_DEBT_AREA",
+    "H2_W7",
+    "mismatch_delta",
+    "REALITY_TENSION",
+    "DISCRETE_CLOSURE",
+    "CHIRALITY_CONSTANT",
+    "PHI",
+    "KAPPA_1_16",
+    "KAPPA_1_32 (κ)",
+    "KAPPA_1_64",
+    "KAPPA_1_128",
+    "KAPPA_3_32",
+    "LUNAR_CYCLE",
+    "GATE_5_32",
+    "SPARK_ANGLE_DEG",
+    "SPARK_LEAP_DIST",
+    "Möbius Twist",
+    "RENORMALIZATION_BRIDGE",
+    "Betti-7 (Geometric Void)",
+    "Betti-11 (Topology Bridge)",
+    "GABA_C_V_APEX",
+    "Betti-0"
+  ],
+  "discard": [
+    {
+      "Constant": "analytic_closure_tension",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "loop_strength_5",
+      "Reason": "out_of_lhd_range"
+    },
+    {
+      "Constant": "WAVELENGTH_6",
+      "Reason": "out_of_lhd_range"
+    },
+    {
+      "Constant": "DELTA_4",
+      "Reason": "out_of_lhd_range"
+    },
+    {
+      "Constant": "Betti-5 (Metabolic Debt)",
+      "Reason": "out_of_lhd_range"
+    },
+    {
+      "Constant": "Ascending Branch",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "Descending Branch",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "LEFT_CORTISOL_R / Q0",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "RIGHT_CORTISOL_R / Q0",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "7+1 Node Cycle",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "Right Cortisol Fake 3D",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "Receptor Mappings",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "13-patch skeleton",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "128-Grid",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "SN_OFFSET",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "TF_OFFSET",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "BLOOD_OFFSET_X/Y",
+      "Reason": "non_numeric"
+    },
+    {
+      "Constant": "1.001375",
+      "Reason": "non_numeric"
+    }
+  ],
+  "dupes": {
+    "0.035714285714": [
+      "LUNAR_CYCLE",
+      "Möbius Twist"
+    ]
+  }
+}

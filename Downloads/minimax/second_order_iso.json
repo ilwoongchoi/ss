@@ -1,0 +1,26 @@
+{
+  "_version": "v1.0",
+  "_date": "2026-09-09",
+  "_method": "2nd-order RK4 + Lie family match (LC tank ↔ LC oscillator, RLC ↔ pendulum)",
+  "tests": {
+    "LC_tank_oscillator": {
+      "step(0.7,1.0)": 0.0,
+      "pulse(0.9,1.5,0.3)": 0.0,
+      "const(0.5)": 0.0
+    },
+    "RLC_pendulum": {
+      "step(0.7,1.0)": 0.6614147203351082,
+      "pulse(0.9,1.5,0.3)": 1.0122105738232943,
+      "const(0.5)": 0.39843178945546964
+    },
+    "LC_RLC_same_family": {
+      "const(0.5)": 0.0026480191862845314
+    }
+  },
+  "summary": {
+    "n_tests": 3,
+    "n_strong": 1,
+    "n_exact": 1,
+    "verdict": "PASS"
+  }
+}

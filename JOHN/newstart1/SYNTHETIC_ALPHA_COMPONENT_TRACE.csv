@@ -1,0 +1,5 @@
+step,action,nodes,components
+0,initial_locked_state,12,2
+1,add_synthetic_alpha,13,3
+2,activate_gateway_peak_seam,13,2
+3,activate_sheet_id_4_relay,13,1

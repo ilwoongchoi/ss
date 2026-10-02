@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Universal Geometry V11: 3/32 NOSE GATE LOCKED</title>
+    <style>
+        body { margin: 0; overflow: hidden; background: #000; font-family: 'Courier New', monospace; }
+        #fps { position: absolute; top: 10px; left: 10px; color: #00ff00; font-size: 28px; font-weight: bold; z-index: 100; }
+        #log { position: absolute; bottom: 20px; left: 20px; color: #00ffff; font-size: 12px; background: rgba(0,0,0,0.8); padding: 10px; border: 1px solid #00ffff; }
+    </style>
+</head>
+<body>
+    <div id="fps">FPS: --</div>
+    <div id="log">
+        [ SYSTEM: DEFINITIVE 128-GRID ]<br>
+        KAPPA: 1/32 (Baseline Leak)<br>
+        GATE: 3/32 (Nose / Darkness Stress)<br>
+        STEP: 1/64 (Small Man Action Pixel)<br>
+        TRANSITION: 138.88° SPARK ACTIVE
+    </div>
+    <canvas id="gl"></canvas>
+
+    <script id="vs" type="x-shader/x-vertex">
+        attribute float a_id;
+        uniform float u_time;
+        uniform mat4 u_vp;
+        varying vec3 v_col;
+
+        const float PI = 3.14159265;
+        const float KAPPA = 0.03125;      // 1/32
+        const float NOSE_GATE = 0.09375;  // 3/32
+        const float PIXEL = 0.015625;     // 1/64
+        const float REFR = 2.4239;        // 138.88 deg
+
+        void main() {
+            float t = u_time * 0.0005;
+            
+            // 1. 1/64 Quantized Time (Small Man Action)
+            float qt = floor(t / PIXEL) * PIXEL;
+            
+            // 2. 128-Type Initial Distribution (Mersenne 127 Lock)
+            float angle = (a_id * 2.0 * PI) / 127.0;
+            float r_start = 16.0;
+            vec2 p = vec2(cos(angle), sin(angle)) * r_start + 16.0;
+
+            // 3. 11/7 Dipole Asymmetry
+            float is_woman = step(64.0, a_id);
+            float charge = mix(1.5714, 0.6363, is_woman); 
+            
+            // 4. Transition Boundary Logic (The 3/32 Nose Gate)
+            float dist_to_center = length(p - 16.0);
+            float stress = dist_to_center * KAPPA;
+            
+            // If stress hits 3/32 (Nose Gate), Spark occurs
+            float spark_trigger = step(NOSE_GATE, stress);
+            float spark_angle = angle + (spark_trigger * REFR);
+            
+            // 5. Bypass Basin Pathing
+            // J types (Even) tend to Nose, P types (Odd) Bypass
+            float bypass = fract(a_id * 0.5) * 2.0; 
+            vec2 move_dir = vec2(cos(spark_angle), sin(spark_angle));
+            p += move_dir * (charge + qt * 2.0) * mix(1.0, 0.5, bypass);
+
+            // 6. Physics-Driven Z-Height (Master Equation)
+            // psi^3 - psi - kappa = 0 -> Approximate psi
+            float k = length(p - 16.0) * KAPPA;
+            float x = 1.0;
+            x = x - (x*x*x - x - k) / (3.0*x*x - 1.0);
+            float psi = x - (x*x*x - x - k) / (3.0*x*x - 1.0);
+            
+            float z = psi * 15.0 - (10.0 * spark_trigger); // Nose Sink
+
+            vec3 worldPos = vec3((p.x - 16.0) * 2.5, z, (p.y - 16.0) * 2.5);
+            gl_Position = u_vp * vec4(worldPos, 1.0);
+            gl_PointSize = mix(6.0, 2.0, spark_trigger);
+            
+            v_col = mix(vec3(0.0, 0.7, 1.0), vec3(1.0, 0.2, 0.5), is_woman);
+            v_col += spark_trigger * vec3(0.5, 0.5, 0.0); // Spark Gold Glow
+        }
+    </script>
+
+    <script id="fs" type="x-shader/x-fragment">
+        precision lowp float;
+        varying vec3 v_col;
+        void main() {
+            float d = length(gl_PointCoord - 0.5);
+            if(d > 0.5) discard;
+            gl_FragColor = vec4(v_col, 1.0 - d * 2.0);
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+    <script>
+        const canvas = document.getElementById('gl');
+        const gl = canvas.getContext('webgl', { antialias: false });
+        const prog = gl.createProgram();
+        const add = (t, s) => { const sh = gl.createShader(t); gl.shaderSource(sh, s); gl.compileShader(sh); gl.attachShader(prog, sh); };
+        add(gl.VERTEX_SHADER, document.getElementById('vs').text);
+        add(gl.FRAGMENT_SHADER, document.getElementById('fs').text);
+        gl.linkProgram(prog); gl.useProgram(prog);
+
+        const lVP = gl.getUniformLocation(prog, "u_vp"), lT = gl.getUniformLocation(prog, "u_time");
+        const ids = new Float32Array(128); for(let i=0; i<128; i++) ids[i] = i;
+        gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer()); gl.bufferData(gl.ARRAY_BUFFER, ids, gl.STATIC_DRAW);
+        const aID = gl.getAttribLocation(prog, "a_id"); gl.enableVertexAttribArray(aID); gl.vertexAttribPointer(aID, 1, gl.FLOAT, false, 0, 0);
+
+        gl.enable(gl.BLEND); gl.blendFunc(gl.SRC_ALPHA, gl.ONE);
+        canvas.width = window.innerWidth; canvas.height = window.innerHeight; gl.viewport(0, 0, canvas.width, canvas.height);
+
+        const proj = mat4.create(), view = mat4.create(), vp = mat4.create();
+        let frames = 0, lastFPS = 0;
+
+        function render(now) {
+            frames++; if (now - lastFPS >= 1000) { document.getElementById('fps').innerText = `FPS: ${frames}`; frames = 0; lastFPS = now; }
+            gl.clear(gl.COLOR_BUFFER_BIT);
+            mat4.perspective(proj, 0.8, canvas.width/canvas.height, 0.1, 1000);
+            mat4.lookAt(view, [80*Math.cos(now*0.0002), 50, 80*Math.sin(now*0.0002)], [0,0,0], [0,1,0]);
+            mat4.multiply(vp, proj, view);
+            gl.uniformMatrix4fv(lVP, false, vp); gl.uniform1f(lT, now);
+            gl.drawArrays(gl.POINTS, 0, 128);
+            requestAnimationFrame(render);
+        }
+        requestAnimationFrame(render);
+    </script>
+</body>
+</html>

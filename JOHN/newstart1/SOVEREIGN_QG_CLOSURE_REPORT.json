@@ -1,0 +1,20 @@
+{
+  "model": "QG-only",
+  "mean_closure_error": 0.19086153949291754,
+  "max_closure_error": 0.25772849547723187,
+  "min_closure_error": 0.004192048705172091,
+  "periodic_error_l2_before_lock": 0.04199351413599825,
+  "periodic_error_l2_after_lock": 0.0,
+  "spark_mean": -0.0012847484253017787,
+  "spark_peak_window": 38,
+  "spark_peak_value": 0.8201781455210787,
+  "spark_mean_when_vasopressin_on": -0.0020826854627291227,
+  "spark_mean_when_vasopressin_off": -0.0003515678222087773,
+  "spark_abs_mean_when_vasopressin_on": 0.23635281068830857,
+  "spark_abs_mean_when_vasopressin_off": 0.2289510528265187,
+  "spark_abs_peak_when_vasopressin_on": 0.8000628062618406,
+  "spark_abs_peak_when_vasopressin_off": 0.8201781455210787,
+  "recovery_event_count": 8,
+  "recovery_avg_windows": 14.0,
+  "recovery_max_windows": 68
+}

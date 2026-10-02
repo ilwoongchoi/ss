@@ -1,0 +1,37 @@
+Canonical closed body loop
+============================================================
+01. observer_leftd2                     | frontalis          | domain=math_dynamics   
+02. observer_left_endorphin_electron_antineutrino | philtrum/face      | domain=neurochemistry  
+03. pi_electron_cloud                   | throat             | domain=particle_physics
+04. heme                                | chest              | domain=biochemistry    
+05. left_genital_d2                     | pelvis             | domain=neurochemistry  
+06. gluon_orogen                        | left glute/pelvis  | domain=soil_geology    
+07. laterite                            | left calf          | domain=soil_geology    
+08. oxidised_manganese                  | left 4th toe       | domain=other           
+09. right_sole_dopamine                 | right sole         | domain=neurochemistry  
+10. copper_iron_complex                 | right foot         | domain=soil_geology    
+11. collagen                            | right Achilles     | domain=biology_muscle  
+12. subduction_zone                     | left thigh         | domain=soil_geology    
+13. water_vapour                        | thoracic spine     | domain=atmosphere_hydrosphere
+14. aurora                              | scalp              | domain=astronomy       
+15. co2                                 | occiput            | domain=atmosphere_hydrosphere
+16. memory_entropy                      | right brain        | domain=math_dynamics   
+------------------------------------------------------------
+Close loop: memory_entropy -> observer_leftd2  path_exists=True
+
+Segment verification:
+  observer_leftd2 -> observer_left_endorphin_electron_antineutrino: OK
+  observer_left_endorphin_electron_antineutrino -> pi_electron_cloud: OK
+  pi_electron_cloud -> heme: OK
+  heme -> left_genital_d2: OK
+  left_genital_d2 -> gluon_orogen: OK
+  gluon_orogen -> laterite: OK
+  laterite -> oxidised_manganese: OK
+  oxidised_manganese -> right_sole_dopamine: OK
+  right_sole_dopamine -> copper_iron_complex: OK
+  copper_iron_complex -> collagen: OK
+  collagen -> subduction_zone: OK
+  subduction_zone -> water_vapour: OK
+  water_vapour -> aurora: OK
+  aurora -> co2: OK
+  co2 -> memory_entropy: OK

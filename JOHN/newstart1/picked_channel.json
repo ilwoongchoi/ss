@@ -1,0 +1,7 @@
+{
+  "net": "BK",
+  "sta": "AASB",
+  "loc": "00",
+  "cha": "BHZ",
+  "dataselect_url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=BK&sta=AASB&loc=00&cha=BHZ&starttime=2026-02-02T14%3A59%3A13&endtime=2026-02-02T15%3A09%3A13"
+}

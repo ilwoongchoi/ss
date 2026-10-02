@@ -1,0 +1,20 @@
+{
+  "type": "temporal_reversal",
+  "equilibrium_point": 0.015625,
+  "total_steps": 5219,
+  "start_state": {
+    "phase": 318.88,
+    "right_love": 0.02,
+    "deviation": 0.004375
+  },
+  "end_state": {
+    "phase": 147.56562147065358,
+    "right_love": 0.01662482450215362,
+    "deviation": 0.0009998245021536206
+  },
+  "closure": {
+    "1_64_value": 0.015625,
+    "steps_to_equilibrium": 5219,
+    "final_deviation": 0.0009998245021536206
+  }
+}

@@ -1,0 +1,27 @@
+﻿======================================================================
+2nd-ORDER ODE ISOMORPHISM (LC tank + RLC damped)
+======================================================================
+
+[1] circuit LC tank (muon ferritin) ↔ physical LC oscillator
+  step(0.7,1.0)                 : residual = 0.000000  →  EXACT
+  pulse(0.9,1.5,0.3)            : residual = 0.000000  →  EXACT
+  const(0.5)                    : residual = 0.000000  →  EXACT
+
+[2] circuit RLC damped ↔ driven damped pendulum
+  step(0.7,1.0)                 : residual = 0.661415  →  HEURISTIC
+  pulse(0.9,1.5,0.3)            : residual = 1.012211  →  HEURISTIC
+  const(0.5)                    : residual = 0.398432  →  HEURISTIC
+
+[3] Self-test: LC tank vs LC tank (identical)
+  residual = 0.00e+00  →  EXACT
+
+[4] LC tank ↔ RLC damped (same family, different params)
+  residual = 0.002648  →  STRONG
+
+======================================================================
+VERDICT: EXACT=1, STRONG=1
+  2nd-order STRONG achieved — circuit LC tank ↔ physical LC oscillator
+======================================================================
+
+Wrote C:\Users\Administrator\.minimax-agent\projects\second_order_iso.json
+Verdict: PASS

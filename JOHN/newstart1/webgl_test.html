@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebGL Test</title>
+</head>
+<body>
+    <div id="result">Testing WebGL...</div>
+    <script>
+        function testWebGL() {
+            const canvas = document.createElement('canvas');
+            const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+            const result = document.getElementById('result');
+            
+            if (gl) {
+                result.innerHTML = 'WebGL SUPPORTED<br>';
+                result.innerHTML += 'Vendor: ' + gl.getParameter(gl.VENDOR) + '<br>';
+                result.innerHTML += 'Renderer: ' + gl.getParameter(gl.RENDERER) + '<br>';
+                result.innerHTML += 'Version: ' + gl.getParameter(gl.VERSION);
+            } else {
+                result.innerHTML = 'WEBGL NOT SUPPORTED<br>';
+                result.innerHTML += 'Try Chrome/Firefox with hardware acceleration';
+            }
+        }
+        testWebGL();
+    </script>
+</body>
+</html>

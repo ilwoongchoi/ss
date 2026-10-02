@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Universal Geometry V10: 60FPS STABLE</title>
+    <style>
+        body { margin: 0; overflow: hidden; background: #000; font-family: 'Courier New', monospace; }
+        #fps_counter {
+            position: absolute; top: 10px; left: 10px; color: #00ff00;
+            font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px #000; z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div id="fps_counter">FPS: --</div>
+    <canvas id="glCanvas"></canvas>
+
+    <script id="vs" type="x-shader/x-vertex">
+        attribute float a_id;
+        uniform float u_time;
+        uniform mat4 u_viewProj;
+        varying float v_psi;
+        varying vec3 v_color;
+
+        const float PI = 3.14159265;
+        const float KAPPA = 0.03125;
+        const float REFR = 2.4239; // 138.88 deg
+        const float LAG = 0.1569;
+
+        void main() {
+            float t = u_time * 0.5;
+            float is_night = step(0.5, fract(t * 0.1));
+            
+            // 1. Bit Extraction
+            float is_woman = step(0.5, fract(a_id * 0.5));
+            float is_extra = step(0.5, fract(a_id * 0.125));
+            
+            // 2. Position & UV Lag
+            vec2 pos = vec2((mod(a_id, 8.0) / 8.0) * 32.0, 16.0);
+            float local_t = t - (a_id * LAG * 0.00035);
+            
+            // 3. 11/7 Dipole & PLP Refraction
+            float charge = mix(1.57, 0.63, is_woman);
+            pos.x += (is_extra * 2.0 - 1.0) * sin(local_t) * (1.0 - is_night) * charge;
+            
+            float refract_gate = step(16.0, pos.x + pos.y);
+            float angle = local_t * 0.5 + (refract_gate * REFR);
+            pos += vec2(cos(angle), sin(angle)) * 5.0;
+
+            // 4. Night Folding
+            pos.x += sin(local_t * 5.0 + a_id) * 10.0 * (1.0 - is_woman) * is_night;
+            
+            // 5. Unrolled Newton-Raphson (Bifurcation Fix)
+            float k = length(pos - 16.0) * KAPPA;
+            float x = 1.0;
+            x = x - (x*x*x - x - k) / (3.0*x*x - 1.0);
+            x = x - (x*x*x - x - k) / (3.0*x*x - 1.0);
+            float psi = x - (x*x*x - x - k) / (3.0*x*x - 1.0);
+            v_psi = psi;
+
+            float z = psi * 10.0 + (-10.0 * is_woman * is_night);
+            vec3 worldPos = vec3((pos.x - 16.0) * 2.0, z, (pos.y - 16.0) * 2.0);
+
+            gl_Position = u_viewProj * vec4(worldPos, 1.0);
+            gl_PointSize = max(4.0, 300.0 / gl_Position.w);
+            
+            v_color = mix(vec3(0.0, 0.5, 1.0), vec3(1.0, 0.0, 0.5), is_woman);
+            if(is_night > 0.5) v_color *= 0.5;
+        }
+    </script>
+
+    <script id="fs" type="x-shader/x-fragment">
+        precision mediump float;
+        varying float v_psi;
+        varying vec3 v_color;
+        void main() {
+            float d = length(gl_PointCoord - 0.5);
+            if(d > 0.5) discard;
+            gl_FragColor = vec4(v_color * (1.0 + v_psi * 2.0), 1.0 - d * 2.0);
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+    <script>
+        const canvas = document.getElementById('glCanvas');
+        const gl = canvas.getContext('webgl', { antialias: false, powerPreference: "high-performance" });
+        const fpsCounter = document.getElementById('fps_counter');
+
+        function createShader(gl, type, source) {
+            const s = gl.createShader(type);
+            gl.shaderSource(s, source); gl.compileShader(s);
+            return s;
+        }
+
+        const vs = createShader(gl, gl.VERTEX_SHADER, document.getElementById('vs').text);
+        const fs = createShader(gl, gl.FRAGMENT_SHADER, document.getElementById('fs').text);
+        const prog = gl.createProgram();
+        gl.attachShader(prog, vs); gl.attachShader(prog, fs);
+        gl.linkProgram(prog); gl.useProgram(prog);
+
+        const ids = new Float32Array(128);
+        for(let i=0; i<128; i++) ids[i] = i;
+        gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer());
+        gl.bufferData(gl.ARRAY_BUFFER, ids, gl.STATIC_DRAW);
+        const a_id = gl.getAttribLocation(prog, 'a_id');
+        gl.enableVertexAttribArray(a_id);
+        gl.vertexAttribPointer(a_id, 1, gl.FLOAT, false, 0, 0);
+
+        gl.enable(gl.BLEND); gl.blendFunc(gl.SRC_ALPHA, gl.ONE);
+
+        const proj = mat4.create(), view = mat4.create(), vp = mat4.create();
+        let lastTime = 0, frameCount = 0;
+
+        function render(time) {
+            frameCount++;
+            if (time - lastTime >= 1000) {
+                fpsCounter.innerText = `FPS: ${frameCount}`;
+                frameCount = 0; lastTime = time;
+            }
+
+            canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+            gl.viewport(0, 0, canvas.width, canvas.height);
+            gl.clear(gl.COLOR_BUFFER_BIT);
+
+            // Observer Logic (Calculated ONCE per frame)
+            mat4.perspective(proj, Math.PI/4, canvas.width/canvas.height, 0.1, 1000);
+            const r = 60.0, ct = time * 0.0002;
+            mat4.lookAt(view, [r*Math.cos(ct), 40, r*Math.sin(ct)], [0,0,0], [0,1,0]);
+            mat4.multiply(vp, proj, view);
+
+            gl.uniformMatrix4fv(gl.getUniformLocation(prog, "u_viewProj"), false, vp);
+            gl.uniform1f(gl.getUniformLocation(prog, "u_time"), time);
+            gl.drawArrays(gl.POINTS, 0, 128);
+            requestAnimationFrame(render);
+        }
+        requestAnimationFrame(render);
+    </script>
+</body>
+</html>

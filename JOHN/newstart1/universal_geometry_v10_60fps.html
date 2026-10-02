@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Universal Geometry V10: 60FPS Engine</title>
+    <style>
+        body { margin: 0; overflow: hidden; background: #000; font-family: 'Courier New', monospace; }
+        #fps_counter {
+            position: absolute; top: 10px; left: 10px; color: #00ff00;
+            font-size: 24px; font-weight: bold; text-shadow: 2px 2px 4px #000;
+            z-index: 100;
+        }
+        #ui {
+            position: absolute; bottom: 20px; left: 20px; color: #00ffff;
+            background: rgba(0,0,0,0.7); padding: 15px; border: 1px solid #00ffff;
+            font-size: 12px; pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="fps_counter">FPS: --</div>
+    <div id="ui">
+        [ UNIVERSAL GEOMETRY v10.0 ]<br>
+        FIELD: 11/7 ASYMMETRIC DIPOLE<br>
+        SPARK: 138.88° PLP REFRACTION (X+Y=16)<br>
+        FOLD: NIGHT DREAM-FOLDING ACTIVE
+    </div>
+    <canvas id="glCanvas"></canvas>
+
+    <script id="vs" type="x-shader/x-vertex">
+        attribute float a_id;
+        uniform float u_time;
+        uniform float u_aspect;
+        varying float v_psi;
+        varying vec3 v_color;
+
+        const float PI = 3.14159265;
+        const float KAPPA = 0.03125;
+        const float DELTA = 0.00035;
+        const float REFR = 2.4239; // 138.88 deg
+        const float LAG = 0.1569;
+
+        // Newton-Raphson for psi^3 - psi - k = 0
+        float solvePsi(float k) {
+            float x = 1.0;
+            for(int i=0; i<3; i++) x = x - (x*x*x - x - k) / (3.0*x*x - 1.0);
+            return x;
+        }
+
+        void main() {
+            float t = u_time * 0.5;
+            float is_night = step(0.5, fract(t * 0.1)); // Day/Night Toggle
+            
+            // 1. Bit Extraction from ID (Fake bits for 128 types)
+            float id_norm = a_id / 128.0;
+            float is_woman = step(0.5, fract(a_id * 0.5));
+            float is_extra = step(0.5, fract(a_id * 0.125));
+            
+            // 2. Initial Position (Column Logic)
+            float x_start = (mod(a_id, 8.0) / 8.0) * 32.0;
+            float y_start = 16.0;
+            vec2 pos = vec2(x_start, y_start);
+
+            // 3. UV Lag & Hysteresis (Time shift per particle)
+            float local_t = t - (a_id * LAG * DELTA);
+            
+            // 4. 11/7 Dipole Field & Starburst
+            float charge = mix(1.57, 0.63, is_woman); // 11/7 vs 7/11
+            float expansion = (is_extra * 2.0 - 1.0) * sin(local_t) * (1.0 - is_night);
+            pos.x += expansion * charge;
+
+            // 5. PLP REFRACTION (X+Y=16)
+            float refract_gate = step(16.0, pos.x + pos.y);
+            float angle = local_t * 0.5 + (refract_gate * REFR);
+            pos += vec2(cos(angle), sin(angle)) * 5.0;
+
+            // 6. NIGHT DREAM-FOLDING
+            // Women: Linear Static (Sink) | Men: Column Hopping
+            float fold_x = sin(local_t * 5.0 + a_id) * 10.0 * (1.0 - is_woman);
+            float sink_z = -10.0 * is_woman;
+            pos.x += fold_x * is_night;
+            
+            // 7. Solving the Master Equation for Z-height
+            v_psi = solvePsi(length(pos - 16.0) * KAPPA);
+            float z = v_psi * 10.0 + (sink_z * is_night);
+
+            // 8. 3D Projection
+            vec3 worldPos = vec3((pos.x - 16.0) * 2.0, z, (pos.y - 16.0) * 2.0);
+            
+            // Camera (Auto-Orbit)
+            float cam_a = t * 0.2;
+            vec3 eye = vec3(40.0 * cos(cam_a), 30.0, 40.0 * sin(cam_a));
+            vec3 target = vec3(0.0, 0.0, 0.0);
+            vec3 zaxis = normalize(eye - target);
+            vec3 xaxis = normalize(cross(vec3(0,1,0), zaxis));
+            vec3 yaxis = cross(zaxis, xaxis);
+            vec3 viewPos = vec3(dot(xaxis, worldPos - eye), dot(yaxis, worldPos - eye), dot(zaxis, worldPos - eye));
+
+            gl_Position = vec4(viewPos.x / u_aspect, viewPos.y, viewPos.z * 0.01, -viewPos.z);
+            gl_PointSize = max(4.0, 150.0 / length(viewPos));
+            
+            v_color = mix(vec3(0.0, 0.5, 1.0), vec3(1.0, 0.0, 0.5), is_woman);
+            if(is_night > 0.5) v_color *= 0.5; // Dim at night
+        }
+    </script>
+
+    <script id="fs" type="x-shader/x-fragment">
+        precision highp float;
+        varying float v_psi;
+        varying vec3 v_color;
+        void main() {
+            float dist = length(gl_PointCoord - 0.5);
+            if(dist > 0.5) discard;
+            vec3 glow = v_color * (1.0 + v_psi * 2.0);
+            gl_FragColor = vec4(glow, 1.0 - dist * 2.0);
+        }
+    </script>
+
+    <script>
+        const canvas = document.getElementById('glCanvas');
+        const gl = canvas.getContext('webgl', { antialias: true });
+        const fpsCounter = document.getElementById('fps_counter');
+
+        function createShader(gl, type, source) {
+            const s = gl.createShader(type);
+            gl.shaderSource(s, source);
+            gl.compileShader(s);
+            if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) console.error(gl.getShaderInfoLog(s));
+            return s;
+        }
+
+        const vs = createShader(gl, gl.VERTEX_SHADER, document.getElementById('vs').text);
+        const fs = createShader(gl, gl.FRAGMENT_SHADER, document.getElementById('fs').text);
+        const prog = gl.createProgram();
+        gl.attachShader(prog, vs); gl.attachShader(prog, fs);
+        gl.linkProgram(prog); gl.useProgram(prog);
+
+        // 128 Types
+        const ids = new Float32Array(128);
+        for(let i=0; i<128; i++) ids[i] = i;
+        const buf = gl.createBuffer();
+        gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+        gl.bufferData(gl.ARRAY_BUFFER, ids, gl.STATIC_DRAW);
+        const a_id = gl.getAttribLocation(prog, 'a_id');
+        gl.enableVertexAttribArray(a_id);
+        gl.vertexAttribPointer(a_id, 1, gl.FLOAT, false, 0, 0);
+
+        gl.enable(gl.BLEND);
+        gl.blendFunc(gl.SRC_ALPHA, gl.ONE);
+
+        let lastTime = 0, frameCount = 0;
+        function render(time) {
+            frameCount++;
+            if (time - lastTime >= 1000) {
+                fpsCounter.innerText = `FPS: ${frameCount}`;
+                frameCount = 0;
+                lastTime = time;
+            }
+
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            gl.viewport(0, 0, canvas.width, canvas.height);
+            gl.clearColor(0, 0, 0, 1);
+            gl.clear(gl.COLOR_BUFFER_BIT);
+
+            gl.uniform1f(gl.getUniformLocation(prog, "u_time"), time * 0.001);
+            gl.uniform1f(gl.getUniformLocation(prog, "u_aspect"), canvas.width / canvas.height);
+            gl.drawArrays(gl.POINTS, 0, 128);
+            requestAnimationFrame(render);
+        }
+        requestAnimationFrame(render);
+    </script>
+</body>
+</html>

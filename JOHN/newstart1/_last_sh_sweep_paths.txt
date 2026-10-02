@@ -1,0 +1,3 @@
+out_root=D:/Users/user/Documents/newstart/out/external_trackA
+sweep_dir=D:/Users/user/Documents/newstart/runs/sh_1_64/micro_20260303b
+results_csv=D:/Users/user/Documents/newstart/runs/sh_1_64/micro_20260303b/sh_r_sweep_results.csv

@@ -1,0 +1,35 @@
+{
+  "version": "v11_pairing",
+  "method": "6-sphere pairing \u2192 3-peak (closure \u00d7 W7 weighted)",
+  "best_chi2_n": 0.12928164807669457,
+  "pairing": {
+    "peak1": [
+      "Fe",
+      "EM"
+    ],
+    "peak2": [
+      "H",
+      "O"
+    ],
+    "peak3": [
+      "C",
+      "S"
+    ]
+  },
+  "amplitudes": {
+    "A1": 5769.0,
+    "A2": 3598.062260706525,
+    "A3": 1971.1647568101312
+  },
+  "ratios": {
+    "peak1": 1.0,
+    "peak2": 0.6236890727520411,
+    "peak3": 0.34168222513609486
+  },
+  "planck_ratios": {
+    "peak1": 1.0,
+    "peak2": 0.4406309585716762,
+    "peak3": 0.2513433870688161
+  },
+  "grade": "MEDIUM"
+}

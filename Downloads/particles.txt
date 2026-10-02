@@ -1,0 +1,59 @@
+﻿UNIQUE PARTICLES IN CIRCUITFILE.MD: 57
+
+- (2 nodes): sodium, male_right_oxytocin
+(獄쎼끉???? (1 nodes): right_androgen_and
+Axion (2 nodes): water_oxidised_manganese_monazite_manganese_oxygen_complex_or, water_oxidised_manganese_monazite_manganese_oxygen_complex_or
+charm_quark (2 nodes): methylation_in1_xor, methylation_in1_xor
+cortisol (1 nodes): right_d2
+Dark Energy (4 nodes): co2_in1_xor, co2_in1_xor, actomyosin_in1_xor, actomyosin_in1_xor
+dopamine (1 nodes): male_left_noradrenaline
+Down Quark (1 nodes): pentose_phosphate_out_2_nor
+down_quark (2 nodes): right_sole_dopamine_q_bar_or, drd1_peripheral_q_bar_or
+Ego (4 nodes): methylation, methylation, pyrite_in1_xor, pyrite_in1_xor
+Electromagnetic Wave (2 nodes): clay_gouge, aurora
+electron (6 nodes): memory_entropy_out_co2_nor, memory_entropy, chlorine_ion_pump, oxidised_manganese_reset_and, oxidised_manganese_reset_and, ga31_mn_reset_and
+Electron Antineutrino (1 nodes): sodium
+electron_antineutrino (2 nodes): observer_left_endorphin_electron_antineutrino, mor_postsynaptic
+electron_neutrino (1 nodes): drd2_mpoa_out0_nand
+energy (3 nodes): glymphatic_system, cambisol_in1_xor, peonidine_in1_xor
+expression (1 nodes): oxytocin_preset_and
+GABA-A (1 nodes): female_gaba_b_2
+GABA-B_2 (1 nodes): citric_acid_cycle
+GKYIB (3 nodes): adapter_protein_q_bar_or, glp1_q_bar_or, glp1_q_bar_or
+gluon (2 nodes): histosol_ctrl1_or, sulforaphane
+graviton (5 nodes): ferritin_in1_xor, ferritin_in1_xor, plume_out0_nand, plume_out0_nand, tm69_pyrite_and
+higgs (3 nodes): methanogenesis_out0_nand, methanogenesis, nitrogenase_out_2_nor
+Left Progesterone (1 nodes): laterite_q_bar_or
+left_progesterone (1 nodes): laterite_q_bar_or
+muon (1 nodes): aurora
+Muon Antineutrino (2 nodes): manganese_nodule, right_sole_dopamine_q_bar_or
+Muon Neutrino (3 nodes): fold_belt_in1_xor, fold_belt_in1_xor, magnetite_out0_nand
+muon_antineutrino (3 nodes): histosol_in1_xor, drd1_peripheral_q_bar_or, drd1_peripheral
+muon_neutrino,color=BLUE (1 nodes): water_vapour_ach_or
+neutron (2 nodes): craton_in1_xor, craton_in1_xor
+neutron_star (2 nodes): podzol_out0_nand, ga31_mn_reset_and
+noradrenaline (1 nodes): choline
+Observer (4 nodes): cysteine, disulfide_bond, subduction_zone_in1_xor, subduction_zone_in1_xor
+photon (2 nodes): large_igneous_province_in1_xor, large_igneous_province_in1_xor
+precursor (1 nodes): right_acetylcholine_expression
+Quark Herself (2 nodes): substance_p_out_autophagy_xor, caco3_final_and
+Right Testosterone (2 nodes): water, pi_electron_cloud_out0_nand
+right_testosterone (2 nodes): carbonic_anhydrase, thorium_straight_drd2s_and
+satisfaction (1 nodes): right_cortisol
+serotonin_1a (1 nodes): male_gaba_a
+serotonin_1b (1 nodes): male_gaba_a
+Spark (None Proton) (1 nodes): nacl_ctrl1_unspark_and
+Spark (Proton) (1 nodes): sodium_in1_xor
+Strange Quark (2 nodes): hind_insula_out0_nand, andosol_out0_nand
+strange_quark (2 nodes): glymphatic_system, drd2s_presynaptic
+Tau (1 nodes): collagen_out0_nand
+Tau Neutrino (2 nodes): right_acetylcholine_out0_nand, monazite
+tau_neutrino (1 nodes): chrna7_vagal_out0_nand
+TCA (1 nodes): left_female_vasopressin
+Time (3 nodes): heme, heme, heath_aerenchyma
+Up Quark (3 nodes): mc1r_q_bar_or, gluon_orogen_q_bar_or, gluon_orogen_q_bar_or
+up_quark (2 nodes): male_right_oxytocin_q_bar_or, male_right_oxytocin_q_bar_or
+vasopressin (1 nodes): female_right_satisfaction
+w boson (2 nodes): carbon_q_bar_or, carbon_q_bar_or
+w_boson (4 nodes): observer_leftd2, left_genital_d2_out0_nand, cck_ctrl_and, cck
+Z Boson (2 nodes): methionine, copper_iron_complex

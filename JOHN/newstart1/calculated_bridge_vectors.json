@@ -1,0 +1,35 @@
+[
+  {
+    "source": "mediator:synthetic_alpha",
+    "target": "core_center",
+    "vector": [
+      -2.974,
+      7.019,
+      0.256
+    ],
+    "gap_min_dist": 7.6274,
+    "contact_score": 0.0169
+  },
+  {
+    "source": "gateway_peak",
+    "target": "core_center",
+    "vector": [
+      -0.974,
+      8.019,
+      0.756
+    ],
+    "gap_min_dist": 8.1132,
+    "contact_score": 0.015
+  },
+  {
+    "source": "mediator:synthetic_alpha",
+    "target": "right_branch",
+    "vector": [
+      13.565,
+      7.019,
+      0.256
+    ],
+    "gap_min_dist": 15.2755,
+    "contact_score": 0.002
+  }
+]

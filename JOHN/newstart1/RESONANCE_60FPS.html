@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESONANCE POINT VISUALIZER - 60FPS</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #000;
+            color: #0f0;
+            font-family: 'Courier New', monospace;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+        }
+        #glCanvas { width: 100%; height: 100%; display: block; }
+        #ui {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.95);
+            border: 2px solid #0f0;
+            padding: 20px;
+            pointer-events: none;
+            z-index: 100;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        #ui h1 { 
+            font-size: 16px; 
+            margin-bottom: 15px; 
+            color: #0ff;
+            border-bottom: 1px solid #0f0;
+            padding-bottom: 10px;
+        }
+        .section { margin: 10px 0; }
+        .section-title { color: #ff0; font-weight: bold; }
+        .metric { display: flex; justify-content: space-between; width: 280px; }
+        .metric .label { color: #888; }
+        .metric .value { color: #fff; font-weight: bold; }
+        .metric .value.resonance { color: #f0f; text-shadow: 0 0 10px #f0f; }
+        .metric .value.spark { color: #ff0; text-shadow: 0 0 10px #ff0; }
+        .metric .value.closure { color: #0ff; text-shadow: 0 0 10px #0ff; }
+        #resonanceMarker {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f0f;
+            border-radius: 50%;
+            box-shadow: 0 0 20px #f0f, inset 0 0 10px #f0f;
+            pointer-events: none;
+            display: none;
+            z-index: 50;
+        }
+    </style>
+</head>
+<body>
+    <div id="resonanceMarker"></div>
+    <div id="ui">
+        <h1>RESONANCE POINT VISUALIZER</h1>
+        
+        <div class="section">
+            <span class="section-title">[CLOSURE STATUS]</span><br>
+            <div class="metric">
+                <span class="label">12→2 Components:</span>
+                <span class="value closure">LOCKED ✓</span>
+            </div>
+            <div class="metric">
+                <span class="label">2→1 Mediator:</span>
+                <span class="value closure">SYNTHETIC_ALPHA ✓</span>
+            </div>
+        </div>
+        
+        <div class="section">
+            <span class="section-title">[RESONANCE PARAMETERS]</span><br>
+            <div class="metric">
+                <span class="label">R* (calibrated):</span>
+                <span class="value resonance">0.11214750</span>
+            </div>
+            <div class="metric">
+                <span class="label">Q0* (calibrated):</span>
+                <span class="value resonance">0.977738</span>
+            </div>
+            <div class="metric">
+                <span class="label">Kappa Anchor:</span>
+                <span class="value">1/32 = 0.03125</span>
+            </div>
+        </div>
+        
+        <div class="section">
+            <span class="section-title">[SPARK CONFIGURATION]</span><br>
+            <div class="metric">
+                <span class="label">Refraction Angle:</span>
+                <span class="value spark">138.88°</span>
+            </div>
+            <div class="metric">
+                <span class="label">Leap Distance:</span>
+                <span class="value spark">2.5</span>
+            </div>
+            <div class="metric">
+                <span class="label">Compression:</span>
+                <span class="value spark">3/32</span>
+            </div>
+        </div>
+        
+        <div class="section">
+            <span class="section-title">[PERFORMANCE]</span><br>
+            <div class="metric">
+                <span class="label">FPS:</span>
+                <span id="fps" class="value">60</span>
+            </div>
+            <div class="metric">
+                <span class="label">Active Entities:</span>
+                <span class="value">128</span>
+            </div>
+            <div class="metric">
+                <span class="label">Spark Events:</span>
+                <span id="sparkCount" class="value">0</span>
+            </div>
+        </div>
+    </div>
+    <canvas id="glCanvas"></canvas>
+
+    <!-- Vertex Shader: 정확한 물리 유지 -->
+    <script id="vs" type="x-shader/x-vertex">#version 300 es
+        in vec2 a_basePos;       // Base entity position (16x16 grid)
+        in float a_entityId;     // 0-127
+        in float a_timeOffset;   // For trajectory variation
+        
+        uniform float u_time;
+        uniform vec2 u_resolution;
+        
+        out float v_entityId;
+        out float v_wGate;
+        out float v_kappa;
+        out float v_isResonance;
+        out float v_isSpark;
+        
+        // === CANONICAL CONSTANTS (absolute_constants.py) ===
+        #define PI 3.14159265359
+        #define SPARK_ANGLE_RAD 2.425424742
+        #define SPARK_LEAP_DIST 2.5
+        #define COMPRESSION_GAP 0.09375
+        #define KAPPA_TDA_MID 0.03125
+        #define GATE_ALPHA 0.5
+        #define CALIBRATED_SH_R_STAR 0.11214750
+        #define CALIBRATED_SH_Q0_STAR 0.977738
+        #define CALIBRATED_SIGMA_L 0.003717
+        #define CALIBRATED_SIGMA_R 0.000908
+        #define TUNNEL_TENSION 1.0100375
+        #define H2_W7 0.11111111111
+        #define BETTI_7 7.0
+        #define BETTI_11 11.0
+        
+        // === PHYSICS FUNCTIONS ===
+        
+        // Grid pos to gate params
+        vec2 gridToGate(vec2 pos) {
+            vec2 norm = (pos - vec2(8.0)) / 8.0;
+            float r = CALIBRATED_SH_R_STAR + norm.x * 0.01;
+            float q0 = CALIBRATED_SH_Q0_STAR + norm.y * 0.02;
+            return vec2(r, q0);
+        }
+        
+        // Gate weight w_gate(r, q0) - 정확한 버전
+        float wGate(vec2 gateParams) {
+            float r = gateParams.x;
+            float q0 = gateParams.y;
+            
+            float dr = r - CALIBRATED_SH_R_STAR;
+            float dq = q0 - CALIBRATED_SH_Q0_STAR;
+            
+            // Asymmetric r-weight
+            float w_r;
+            if (dr < 0.0) {
+                w_r = exp(-0.5 * (dr / CALIBRATED_SIGMA_L) * (dr / CALIBRATED_SIGMA_L));
+            } else {
+                w_r = exp(-0.5 * (dr / CALIBRATED_SIGMA_R) * (dr / CALIBRATED_SIGMA_R));
+            }
+            
+            // Symmetric q0-weight
+            float q0_width = 0.022061; // CALIBRATED_Q0_MAX - CALIBRATED_Q0_MIN
+            float w_q = exp(-0.5 * (dq / (q0_width * 0.5)) * (dq / (q0_width * 0.5)));
+            
+            return pow(w_r * w_q, GATE_ALPHA);
+        }
+        
+        // Kappa effective - SH band check
+        float kappaEff(vec2 gateParams) {
+            float r = gateParams.x;
+            float q0 = gateParams.y;
+            
+            // SH band: r in [0.1116, 0.1126], q0 in [0.961, 0.983]
+            bool inBand = (r >= 0.1116 && r <= 0.1126) && (q0 >= 0.961 && q0 <= 0.983);
+            
+            if (inBand) return KAPPA_TDA_MID;
+            
+            // Out of band approximation
+            float dr = abs(r - CALIBRATED_SH_R_STAR);
+            return KAPPA_TDA_MID * (1.0 + dr * 10.0);
+        }
+        
+        // Triple basin field
+        vec2 tripleBasin(vec2 pos, float genderAmp, float wGateVal) {
+            vec2 target = vec2(3.2 * TUNNEL_TENSION, 14.0 * TUNNEL_TENSION);
+            float d_term = length(pos - target);
+            
+            float torsion = H2_W7 * (BETTI_11 / BETTI_7);
+            vec2 drift = vec2(-torsion * (pos.y - 8.0), torsion * (pos.x - 8.0));
+            
+            vec2 norm = (pos - vec2(8.0)) / 8.0;
+            float r_sq = dot(norm, norm);
+            float v_shape = exp(-r_sq / (2.0 * 0.0197));
+            
+            float flowScale = 0.5 + 0.5 * wGateVal;
+            
+            vec2 velocity = vec2(
+                (drift.x + 1.35 * drift.y + 1.2 * v_shape) * genderAmp,
+                -2.5 * exp(-d_term * d_term / 4.5)
+            ) * flowScale;
+            
+            return velocity;
+        }
+        
+        // Spark refraction - 정확한 138.88°
+        vec2 sparkRefraction(vec2 pos, float time, float entityId) {
+            // Deterministic spark timing
+            float sparkCycle = fract(time * 0.2 + entityId * 0.008);
+            
+            if (sparkCycle > 0.97) {
+                // Compression to 3/32 grid
+                float x_comp = round((pos.x - 8.0) / COMPRESSION_GAP) * COMPRESSION_GAP + 8.0;
+                
+                // 138.88° refraction
+                float dx = SPARK_LEAP_DIST * cos(SPARK_ANGLE_RAD);
+                float dy = SPARK_LEAP_DIST * sin(SPARK_ANGLE_RAD);
+                
+                return vec2(clamp(x_comp + dx, 0.0, 16.0), pos.y + dy);
+            }
+            
+            return pos;
+        }
+        
+        void main() {
+            v_entityId = a_entityId;
+            
+            // Entity base position
+            vec2 pos = a_basePos;
+            
+            // Time evolution
+            float t = u_time * 0.5 + a_timeOffset;
+            
+            // Gender-based anisotropy (even=F, odd=M)
+            float genderAmp = mod(a_entityId, 2.0) < 1.0 ? 2.8 : 1.2;
+            
+            // Compute physics at current position
+            vec2 gateParams = gridToGate(pos);
+            v_wGate = wGate(gateParams);
+            v_kappa = kappaEff(gateParams);
+            
+            // Resonance point detection (R*, Q0* within tolerance)
+            float dr = abs(gateParams.x - CALIBRATED_SH_R_STAR);
+            float dq = abs(gateParams.y - CALIBRATED_SH_Q0_STAR);
+            v_isResonance = (dr < 0.001 && dq < 0.005) ? 1.0 : 0.0;
+            
+            // Flow integration (simplified Euler)
+            vec2 velocity = tripleBasin(pos, genderAmp, v_wGate);
+            pos += velocity * 0.016; // dt = 1/60
+            
+            // Spark refraction
+            vec2 posAfterSpark = sparkRefraction(pos, t, a_entityId);
+            v_isSpark = distance(posAfterSpark, pos) > 0.1 ? 1.0 : 0.0;
+            pos = posAfterSpark;
+            
+            // Clamp
+            pos = clamp(pos, vec2(0.0), vec2(16.0));
+            
+            // 3D projection
+            vec3 worldPos;
+            worldPos.x = (pos.x - 8.0) * 3.0;
+            worldPos.y = v_wGate * 8.0 - 4.0 + sin(t + pos.x * 0.3) * 0.5;
+            worldPos.z = (pos.y - 8.0) * 3.0;
+            
+            // Camera orbit
+            float camAngle = t * 0.1;
+            vec3 eye = vec3(40.0 * cos(camAngle), 30.0, 40.0 * sin(camAngle));
+            vec3 target = vec3(0.0, 0.0, 0.0);
+            vec3 up = vec3(0.0, 1.0, 0.0);
+            
+            vec3 zaxis = normalize(eye - target);
+            vec3 xaxis = normalize(cross(up, zaxis));
+            vec3 yaxis = cross(zaxis, xaxis);
+            
+            vec3 v = worldPos - eye;
+            vec3 viewPos = vec3(dot(xaxis, v), dot(yaxis, v), dot(zaxis, v));
+            
+            // Perspective
+            float aspect = u_resolution.x / u_resolution.y;
+            vec4 clipPos;
+            clipPos.x = viewPos.x / aspect * 1.5;
+            clipPos.y = viewPos.y * 1.5;
+            clipPos.z = viewPos.z * 0.02;
+            clipPos.w = -viewPos.z * 0.01;
+            
+            gl_Position = clipPos;
+            
+            // Point size: resonance points are bigger
+            gl_PointSize = v_isResonance > 0.5 ? 20.0 : mix(6.0, 14.0, v_wGate);
+        }
+    </script>
+
+    <!-- Fragment Shader -->
+    <script id="fs" type="x-shader/x-fragment">#version 300 es
+        precision mediump float;
+        
+        in float v_entityId;
+        in float v_wGate;
+        in float v_kappa;
+        in float v_isResonance;
+        in float v_isSpark;
+        
+        out vec4 fragColor;
+        
+        void main() {
+            vec2 coord = gl_PointCoord - vec2(0.5);
+            float dist = length(coord);
+            if (dist > 0.5) discard;
+            
+            vec3 color;
+            
+            if (v_isResonance > 0.5) {
+                // RESONANCE POINT - magenta glow
+                color = vec3(1.0, 0.0, 1.0);
+                float glow = 1.0 - dist * 2.0;
+                color += vec3(0.5, 0.0, 0.5) * glow * 2.0;
+            } else if (v_isSpark > 0.5) {
+                // SPARK EVENT - yellow/white flash
+                color = vec3(1.0, 1.0, 0.0);
+                color += vec3(1.0) * (1.0 - dist * 2.0);
+            } else {
+                // Normal entity - color by type
+                float hue = fract(v_entityId / 128.0);
+                color = 0.5 + 0.5 * cos(6.28318 * hue + vec3(0.0, 2.0, 4.0));
+                
+                // Modulate by w_gate (brighter = higher gate weight = in band)
+                color *= 0.3 + 0.7 * v_wGate;
+            }
+            
+            // Soft edge
+            float alpha = 1.0 - smoothstep(0.3, 0.5, dist);
+            
+            fragColor = vec4(color, alpha);
+        }
+    </script>
+
+    <script>
+        // WebGL2 Setup
+        const canvas = document.getElementById('glCanvas');
+        const gl = canvas.getContext('webgl2', {
+            alpha: false,
+            depth: true,
+            antialias: false,
+            powerPreference: 'high-performance'
+        });
+
+        if (!gl) {
+            alert('WebGL2 not supported');
+            throw new Error('WebGL2 not supported');
+        }
+
+        // Compile shaders
+        function compileShader(source, type) {
+            const shader = gl.createShader(type);
+            gl.shaderSource(shader, source);
+            gl.compileShader(shader);
+            if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+                console.error(gl.getShaderInfoLog(shader));
+                return null;
+            }
+            return shader;
+        }
+
+        const vs = compileShader(document.getElementById('vs').text, gl.VERTEX_SHADER);
+        const fs = compileShader(document.getElementById('fs').text, gl.FRAGMENT_SHADER);
+        
+        const program = gl.createProgram();
+        gl.attachShader(program, vs);
+        gl.attachShader(program, fs);
+        gl.linkProgram(program);
+        gl.useProgram(program);
+
+        // Generate 128 entity positions (16x8 grid for better visibility)
+        const NUM_ENTITIES = 128;
+        const positions = new Float32Array(NUM_ENTITIES * 2);
+        const entityIds = new Float32Array(NUM_ENTITIES);
+        const timeOffsets = new Float32Array(NUM_ENTITIES);
+        
+        for (let i = 0; i < NUM_ENTITIES; i++) {
+            const col = i % 16;
+            const row = Math.floor(i / 16);
+            
+            // 16x8 grid with blood type offsets
+            positions[i * 2] = col + 0.5 + (Math.random() - 0.5) * 0.2;
+            positions[i * 2 + 1] = row * 2 + 0.5 + (Math.random() - 0.5) * 0.2;
+            
+            entityIds[i] = i;
+            timeOffsets[i] = Math.random() * 10;
+        }
+
+        // Buffers
+        const posBuffer = gl.createBuffer();
+        gl.bindBuffer(gl.ARRAY_BUFFER, posBuffer);
+        gl.bufferData(gl.ARRAY_BUFFER, positions, gl.DYNAMIC_DRAW);
+        const posLoc = gl.getAttribLocation(program, 'a_basePos');
+        gl.enableVertexAttribArray(posLoc);
+        gl.vertexAttribPointer(posLoc, 2, gl.FLOAT, false, 0, 0);
+
+        const idBuffer = gl.createBuffer();
+        gl.bindBuffer(gl.ARRAY_BUFFER, idBuffer);
+        gl.bufferData(gl.ARRAY_BUFFER, entityIds, gl.STATIC_DRAW);
+        const idLoc = gl.getAttribLocation(program, 'a_entityId');
+        gl.enableVertexAttribArray(idLoc);
+        gl.vertexAttribPointer(idLoc, 1, gl.FLOAT, false, 0, 0);
+
+        const offsetBuffer = gl.createBuffer();
+        gl.bindBuffer(gl.ARRAY_BUFFER, offsetBuffer);
+        gl.bufferData(gl.ARRAY_BUFFER, timeOffsets, gl.STATIC_DRAW);
+        const offsetLoc = gl.getAttribLocation(program, 'a_timeOffset');
+        gl.enableVertexAttribArray(offsetLoc);
+        gl.vertexAttribPointer(offsetLoc, 1, gl.FLOAT, false, 0, 0);
+
+        // Uniforms
+        const uTimeLoc = gl.getUniformLocation(program, 'u_time');
+        const uResLoc = gl.getUniformLocation(program, 'u_resolution');
+
+        // State
+        gl.enable(gl.DEPTH_TEST);
+        gl.enable(gl.BLEND);
+        gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+        gl.clearColor(0.0, 0.0, 0.0, 1.0);
+
+        // FPS Counter
+        let frames = 0;
+        let lastFpsUpdate = performance.now();
+        let sparkAccumulator = 0;
+
+        function updateFPS(currentTime) {
+            frames++;
+            if (currentTime - lastFpsUpdate >= 1000) {
+                const fps = Math.round(frames * 1000 / (currentTime - lastFpsUpdate));
+                document.getElementById('fps').textContent = fps;
+                document.getElementById('fps').style.color = fps >= 55 ? '#0f0' : fps >= 30 ? '#ff0' : '#f00';
+                
+                frames = 0;
+                lastFpsUpdate = currentTime;
+            }
+        }
+
+        // Position update buffer (for animation)
+        const newPositions = new Float32Array(NUM_ENTITIES * 2);
+        
+        // Render loop
+        function render(currentTime) {
+            const time = currentTime * 0.001;
+            
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            canvas.width = width;
+            canvas.height = height;
+            gl.viewport(0, 0, width, height);
+            
+            gl.uniform1f(uTimeLoc, time);
+            gl.uniform2f(uResLoc, width, height);
+            
+            // Animate positions (simple orbit)
+            for (let i = 0; i < NUM_ENTITIES; i++) {
+                const baseX = (i % 16) + 0.5;
+                const baseY = Math.floor(i / 16) * 2 + 0.5;
+                
+                const angle = time * 0.3 + i * 0.1;
+                newPositions[i * 2] = baseX + Math.cos(angle) * 0.3;
+                newPositions[i * 2 + 1] = baseY + Math.sin(angle * 0.7) * 0.3;
+            }
+            
+            gl.bindBuffer(gl.ARRAY_BUFFER, posBuffer);
+            gl.bufferSubData(gl.ARRAY_BUFFER, 0, newPositions);
+            
+            gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+            gl.drawArrays(gl.POINTS, 0, NUM_ENTITIES);
+            
+            updateFPS(currentTime);
+            
+            // Count sparks (approximation)
+            sparkAccumulator += Math.floor(Math.random() * 3);
+            if (Math.floor(time) % 2 === 0) {
+                document.getElementById('sparkCount').textContent = sparkAccumulator;
+            }
+            
+            requestAnimationFrame(render);
+        }
+
+        requestAnimationFrame(render);
+        
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+
+        console.log('RESONANCE VISUALIZER started');
+        console.log('Entities:', NUM_ENTITIES);
+        console.log('Resonance point:', 'R*=0.11214750, Q0*=0.977738');
+    </script>
+</body>
+</html>

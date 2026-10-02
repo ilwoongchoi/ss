@@ -1,0 +1,4081 @@
+TTK-23-36
+
+Review of Hubble tension solutions
+with new SH0ES and SPT-3G data
+
+Ali Rida Khalife,a Maryam Bahrami Zanjani,b Silvia Galli,a Sven
+Günther,b Julien Lesgourgues,b Karim Benabed.a
+
+aSorbonne Université, CNRS, UMR 7095, Institut d’Astrophysique de Paris, 98 bis bd Arago,
+75014 Paris, France
+
+bInstitute for Theoretical Particle Physics and Cosmology (TTK), RWTH Aachen University,
+Sommerfeldstr. 16, D-52056 Aachen, Germany.
+
+E-mail: ridakhal@iap.fr, bahrami.zanjani.m@gmail.com, gallis@iap.fr,
+sven.guenther@rwth-aachen.de, lesgourg@physik.rwth-aachen.de, benabed@iap.fr
+
+Abstract. We present an updated analysis of eleven cosmological models that may help
+reduce the Hubble tension, which now reaches the 6σ level when considering the latest SH0ES
+measurement versus recent CMB and BAO data, assuming ΛCDM. Specifically, we look at
+five classical extensions of ΛCDM (with massive neutrinos, spatial curvature, free-streaming
+or self-interacting relativistic relics, or dynamical dark energy) and six elaborate models fea-
+turing either a time-varying electron mass, early dark energy or some non-trivial interactions
+in the neutrino sector triggered by a light Majoron. We improve over previous works in
+several ways. We include the latest data from the South Pole Telescope as well as the most
+recent measurement of the Hubble rate by the SH0ES collaboration. We treat the summed
+neutrino mass as a free parameter in most of our models, which reveals interesting degenera-
+cies and constraints. We define additional metrics to assess the potential of a model to reduce
+or even solve the Hubble tension. We validate an emulator that uses active learning to train
+itself during each parameter inference run for any arbitrary model. We find that the time-
+varying electron mass and the Majoron models are now ruled out at more than 3σ. Models
+with a time-varying electron mass and spatial curvature or with early dark energy reduce
+the tension to 1.0  2.9σ. Nevertheless, none of the models considered in this work is favored
+with enough statistical significance to become the next concordance model of Cosmology.
+
+
+Contents
+
+1  Introduction                                          1
+
+2  Results summary                                       4
+
+3  Cosmological models                                    8
+
+4  Methodology                                         13
+
+4.1  Observational data                                   13
+
+4.2  Bayesian analysis pipeline                               13
+
+4.3  Quantifying the tension level                             14
+
+5  Results and Discussion                                  17
+
+5.1  General trends                                      19
+
+5.2  Classical extensions of ΛCDM                             21
+
+5.3  Varying mₑ and its extensions                            23
+
+5.4  Early Dark Energy                                   28
+
+5.5  Majoron                                          32
+
+5.6  Update on the S₈ Tension                               34
+
+6  Conclusions                                          36
+
+A Accelerating MCMC runs using an online learning emulator        38
+
+A.1 Comparing Emulator Results with usual MCMC                 38
+
+A.2 Minimization and best-fit models                          39
+
+1  Introduction
+
+Since its appearance almost a decade ago, the Hubble tension [1–3] has become one of the
+most debated topics in modern Cosmology [4, 5] (see figures 1 of [6, 7] for the evolution of
+Hubble tension over the years). Simply stated, this tension arises from a discrepancy between
+values of the current expansion rate of the Universe, the Hubble parameter (H₀), inferred
+either indirectly and in a model-dependent way from the angular scale of a few standard
+rulers, or directly from the luminosity of standard candles.
+
+The former method mainly includes observations of the sound horizon angular scales
+in Cosmic Microwave Background (CMB) and Baryon Acoustic Oscillation (BAO) data.1
+Assuming the minimal cosmological model, ΛCDM, the Planck collaboration reports H₀ =
+
+67.36  0.54 km/s/Mpc at the 68% confidence level (CL) [9].2 However, it is crucial to note
+
+that similar values have been inferred by other CMB [12–14] and non-CMB [8, 15–20] probes
+of the early Universe, showing that the tension subsists even when excluding Planck.
+
+1One can also use another standard ruler, the horizon at matter-radiation equality [8]. This 
+provides results
+consistent with those from the sound horizon.
+
+2This comes from the analysis of Planck Release 3 (PR3) data with temperature, polarization, and 
+lensing
+
+information (TT,TE,EE+lowE+lensing). Although our work is based on PR3, we note that a recent 
+analysis
+of PR4 by ref. [10] yields a similar but slightly more constraining result, H0 = 67.66 ± 0.49 
+km/s/Mpc (see
+also ref. [11]).
+
+– 1 –
+
+
+On the other hand, the latter method relies mainly on the luminosity of type-Ia su-
+pernovae (SNIa) calibrated by Cepheids using the distance ladder technique [21]. For this
+measurement, the main contender is the SH0ES collaboration [22–24], which recently pre-
+sented an improved measurement of H₀ = 73.29  0.90 km/s/Mpc [25], in 5.6σ tension with
+the Planck measurement. Like for the measurement of the angular scale of standard rulers,
+other late universe observations are hinting at similar conclusions, although with much lower
+significance [26–34].
+
+In order to resolve this tension, one might consider two different approaches. The first
+reassesses the data and its analysis in an attempt to uncover some hidden systematics. A great
+deal  of work has been done along this direction, both for the angular scale of standard rulers
+(see section 6 of ref. [35] and references therein) and for distance ladders [36–43]. However,
+these efforts did not really reduce or resolve the tension significantly, and some re-analyses
+even increased it further [25]. Hence, even though the possibility of hidden systematics is not
+completely excluded, one can attempt the second approach: looking for alternative models
+to ΛCDM.
+
+The minimal ΛCDM model is extremely successful at describing many observations with
+just 6 parameters. Nevertheless, this model has a few features that make it incomplete, at
+least from a theoretical cosmology perspective. These include the fine-tuning and origin of the
+cosmological constant Λ, the coincidence problem, the nature of Dark Matter (DM), and the
+origin  of cosmological inflation (see [44–46] for reviews). Furthermore, since measurements of
+the angular scale of the sound horizon infer the value of H₀ under the assumption of a given
+cosmological model, i.e. indirectly, one should naturally consider the potential of different
+models to solve the Hubble tension.
+
+To achieve this goal, one must search for a model in which the extremely precise determi-
+nation of the angular scale of the sound horizon by CMB and BAO data remains compatible
+with higher values of H₀ than in the ΛCDM model – or even, ideally, predicts a higher value
+of H₀ than this model. In natural units, where ℏ = c = 1, the sound horizon angular scale is
+given by
+
+
+∫ ∞ 
+
+  −1/2
+
+ −1/2
+
+
+3 1 + ³ρb
+
+γ
+
+8πG Σiρi   dz
+
+
+rs(zdₑc)
+
+θ
+
+=                zdec                  
+
+,      (1.1)
+
+
+ˢ  rA(zₒbs)
+
+H−¹ sinK
+
+ ∫ zobs 
+
+Σ Ω ( ) −1/2
+
+where rs(zdₑc) is the comoving sound horizon at the time of decoupling (for CMB observations,
+at the time of photon decoupling, and for BAO observations, at the baryon drag time);
+rA(zₒbs) is the comoving angular diameter distance to observations (for CMB observations,
+to the time of photon decoupling, and for BAO observations, to the mean redshift of the
+galaxies used in the measurement); G is Newton’s constant; ρi is the energy density of species
+i, with ρb and ργ being that of baryons and photons, respectively; finally, Ωi = 8πGρi/(3H²)
+
+0
+
+for species i, and spatial curvature is parameterized by Ω = −  2
+
+
+for the definition of sinK above).
+
+K  K/H0 (see eq.(2.39) of [47]
+
+The angle θs is extremely well constrained, especially by CMB observations (100 θs =
+1.04075  0.00028 at the 68%CL [14]). Therefore, we can see from the last part of eq. (1.1)
+that, if H₀ is to match the late Universe value (without shifting 100 θs by more than a few
+σ’s), one must change some, or all, of the other terms. This can be done in two ways:
+by modifying the ingredients of the cosmological model before recombination (z ≥ zdₑc) or
+
+– 2 –
+
+
+after recombination (    ). An example of the former solution consists in increasing the
+energy budget of relativistic species in that epoch, i.e. increase  i ρi in the numerator of
+eq. (1.1), enough to have H₀  73 km/s/Mpc. In this case, one should take care of avoiding
+a conflict with Big Bang Nucleosynthesis (BBN) bounds on the relativistic energy density
+at even earlier times – some of the models considered here address this problem successfully,
+
+but in this work, for simplicity, we will not enter into further considerations concerning BBN.
+As an example of a post-recombination solution, one may assume a decreasing amount of
+Dark Energy (DE) in the late universe by making its equation of state (EoS) parameter,
+wDE, dynamical [48, 49] (we define wDE = pDE/ρDE, where pDE and ρDE are the pressure
+and energy density of DE, respectively).3 In principle one can always modify both eras, as
+we shall see later for two of the models considered here. This option is further discussed on
+a general basis in ref. [52].
+
+The aforementioned examples are a mere sample of a plethora of models that have been
+put forward to resolve the Hubble tension, with either pre- or post-recombination modifica-
+tions of ΛCDM. Many other models have been extensively assessed (see refs. [4, 5, 53, 54]
+for non-exhaustive reviews) and sometimes ruled out as viable solutions. However, given
+that a final consensus has not been reached yet, it is important to build upon these previous
+analyses with new, state-of-the-art data, to better constrain the remaining models. This is
+precisely the goal of the current work.
+
+We present updated constraints on twelve non-minimal cosmologies, including ΛCDM
+for comparison. We divide these models into classical extensions of ΛCDM, i.e. with one or
+two parameters that have solid physical motivations and/or are interesting to confront to the
+data independently of the Hubble tension; and more elaborate models that have been previ-
+ously suggested as promising solutions to the tension in ref. [5]. The latter models include
+the varying electron mass scenario (mₑ) [55–58] and some of its extensions [59], Early Dark
+Energy (EDE) [60–62], and a Majoron-inspired model [63–65]. In most cases, we generalise
+over previous analyses by treating the summed neutrino mass Σmν as a free parameter. This
+is a more physically motivated choice compared to fixing the mass to the minimum value
+allowed by laboratory experiments.4 It also allows us to investigate possible degeneracies
+between the neutrino mass and other cosmological parameters in extended models. After
+presenting a concise summary of our main results in section 2, we briefly elaborate on the
+twelve models included in this work (and their physical parameters) in section 3.
+
+We confront each of these models with distinct data sets and their combinations, in-
+cluding recent Baryon Acoustic Oscillations (BAO) [16, 17, 66, 67], SNIa [15] and CMB [9,
+13, 14, 68, 69] data, as presented in section 4. In our analysis, we underline the role and
+the constraining power of SPT-3G 2018 data [13, 14] compared to other CMB ones. For
+each data set, we assess the ability of the various models to provide an explanation for the
+Hubble tension through a variety of metrics discussed in section 4. In the same section, we
+show that we have been able to speed up our pipeline for Bayesian parameter extraction and
+for likelihood maximization by a large factor without biasing the results, thanks to a new
+emulator [70] that uses an active learning scheme and requires no prior training.
+
+Section 5 contains an extensive discussion of our results. We conclude our work in
+
+3It should be noted, however, that this particular model was shown not to solve the Hubble tension 
+[16,
+50, 51]. We mention it here just as an illustration.
+
+⁴We do not vary Σmν for EDE and the Majoron models. The former already has many free parameters
+and adding Σmν would make the convergence of the fitting algorithm prohibitively slow. In the 
+Majoron case,
+the only theory code available at the moment neglects the small effect of neutrino masses.
+
+– 3 –
+
+
+section 6. In appendix A we give details on our parameter inference pipeline, emulator, and
+minimization technique.
+
+2  Results summary
+
+We fitted our models to many different combinations of data from CMB (Planck, SPT-
+3G 2018, ACT-DR4), BAO (6dFGS, BOSS, eBOSS), and SNIa (Pantheon) observations.
+However, to summarize our main results and compare the ability of different models to
+explain (or at least reduce) the Hubble tension, we focus on the combination of Planck,
+SPT-3G 2018, BAO, and SNIa data.
+
+Indeed, the earlier work of ref. [5] considered the combination of Planck (TT, TE,
+EE+lowE+lensing), BAO (6dFGS, DR7, DR12), and SNIa (Pantheon) data as their baseline.
+Ref. [5] also performed additional tests with data from ACT-DR4 and concluded that it did
+not impact significantly the main conclusions, except for EDE. Indeed, it was shown in
+previous works [71–73] that there is a preference for EDE from ACT-DR4 data. We will
+return to this point in section 5. Since one of our main objectives is to highlight the impact
+of SPT-3G 2018 data, we do add it to the previously used baseline data set. We also check
+the role of ACT-DR4 data (on top of SPT-3G 2018) in section 5, but we do not include it
+in our baseline, since its impact has already been studied. Note that our baseline also differs
+from that of ref. [5] through the inclusion of some recent measurements of the BAO scale by
+eBOSS DR16 (see section 4.1 for more details and references on the observational data used
+in this work).
+
+Our main results for the different models and the baseline data set are presented in
+Table 1 and summarized graphically in Figure 1. The second column provides the mean
+value, best-fit value, and 68%CL credible intervals for H₀ when each model is fitted to the
+baseline data set. The next columns of Table 1 refer to several complementary approaches
+to quantify the level of the Hubble tension. Two of them have already been used in [5]:
+the “Difference of the Maximum A Posteriori” (DMAP) yields a number of σ’s denoted as
+QDMAP and listed in the the 4th column, and the “Akaike Information Criterion (AIC) with
+SH0ES” yields a number denoted as ∆AICw/ and provided in the 8th column. However, we
+improve over the previous tests in two ways. First, we replace the Gaussian Tension (GT)
+metric of ref. [5] by its generalisation to the case of non-Gaussian posteriors, that we call the
+“Marginalised Posterior Compatibility Level” (MPCL) and translate into a number QMPCL
+of σ’s listed in the 3d column (see section 4.3). Second, we also compute the “AIC without
+SH0ES”, ∆AICw/ₒ, reported in the 6th column.
+
+The meaning of these various metrics can be summarized as follows. Both QMPCL
+and QDMAP assess the compatibility between the value of H₀ predicted either by the baseline
+data set or by the SH0ES measurement, under the assumption of a given cosmological model.
+The former evaluates this level of compatibility in a Bayesian way (depending on priors and
+volume effects) and the latter in a frequentist way (depending solely on maximum likelihoods,
+or equivalently on best-fit χ²). Next, the ∆AICw/ₒ metric states whether an extended model
+is preferred over ΛCDM given the baseline data set only, and ∆AICw/ addresses the same
+question given the baseline plus SH0ES data set. We further elaborate on these parameters
+and their definitions in section 4.3. Note that the MPCL metric can be quickly inferred
+from the Monte Carlo Markov Chains (MCMC), while the DMAP and AIC metrics require
+minimizations, which can be numerically expensive (despite the speed-up resulting from the
+new method described in section A.2, which uses an emulator for this purpose). For this
+
+– 4 –
+
+
+reason, we compute the DMAP and AIC metrics only for ΛCDM and for extended models
+that have QMPCL ≤ 4σ.
+
+
+Models       H₀(km/s/Mpc)  QMPCL(σ)  QDMAP(σ)
+
+w/o SH0ES
+
+∆χ² ∆AIC
+
+w/ SH0ES
+
+∆χ²  ∆AIC
+
+
+ΛCDM
+
++Σmν
+
++Σmν+CPL
+
++Σmν+ Nₑff
+
++Σmν + ΩK
+
++Σmν + NSIDR
+
+mₑ
+mₑ+Σmν
+mₑ    + ΩK
+
+mₑ + ΩK + Σmν
+EDE
+
+Majoron
+
+67.56(67.58)+0.38
+
+67.60(67.01)+0.49
+
+67.94(67.89)+0.78
+
+68.25(67.45)+0.62
+
+67.67(66.88)+0.62
+
+68.53(69.06)+0.69
+
+68.00(68.03)+1.06
+
+68.22(67.70)+1.09
+
+68.20(67.42)+1.63
+
+69.75(67.75)+1.85
+
+68.18(68.55)+0.42
+
+68.55(68.08)+0.48
+
+6.0     5.8
+
+5.9     —
+
+4.5     —
+
+4.2     —
+
+5.1     —
+
+3.8     4.0
+
+3.8     3.9
+
+3.5     3.6
+
+2.9     3.1
+
+1.5     3.0
+
+3.7     2.7
+
+4.3     —
+
+0   0
+
+—   —
+
+—   —
+
+—   —
+
+—   —
+
+-0.1  3.9
+
+0.0  2.0
+
+-1.0  3.1
+
+-1.0  3.0
+
+-0.9  5.1
+
+-4.6  1.4
+
+—   —
+
+0   0
+
+—   —
+
+—   —
+
+—   —
+
+—   —
+
+-17.1  -13.1
+
+-18.0  -16.0
+
+-21.6  -17.6
+
+-24.7  -20.7
+
+-25.6  -19.8
+
+-31.1  -25.1
+
+—   —
+
+Table 1: Summary of this work’s main results. All the values reported here correspond
+to the data set combination: Planck (TT,TE,EE+lowE+lensing), SPT-3G (TT+TE+EE),
+BAO (6dFGS+DR7+DR12+DR16), and SN Ia. For each of our models, we report in the
+second column the mean, best fit5 and 68%CL credible interval of H₀. The third column
+presents the Marginalised Posterior Compatibility Level between SH0ES and the rest of the
+data, expressed in units of σ. The third column presents a frequentist version of the same
+test. The numbers in boldface show the cases reducing the tension below the 3σ level. The
+next columns show the χ² and Akaike Information Criterion improvement for each model
+relative to ΛCDM, either without or with SH0ES data included. We refer the reader to
+Figure 1 for a graphical representation of the first four columns, and to section 4 for more
+details.
+
+The first line of Table 1 shows that the Hubble tension is now of the order of 6σ for
+ΛCDM with our baseline data set. Like in [5], we will consider that a given model brings the
+tension down to an acceptable level when it decreases to 3σ or less. This condition may sound
+too permissive since a 3σ tension is still significant. However, we need to set a conservative
+threshold given that in the future we may get new insight on unaccounted systematics in
+current data, that may not completely solve the tension, but bring it from an apparent 3σ
+level to less than 2σ. Thus, to be on the safe side, we will not describe models with a 3σ
+tension as clearly incompatible with all existing data. This threshold could be imposed to
+either of the QMPCL or QDMAP metrics, but we wish to remain agnostic concerning the use
+of a Bayesian versus frequentist metric. Thus, we will conservatively consider that our main
+
+5For the models for which we did not run an explicit minimization algorithm, we report the value of 
+the
+best-fitting sample from the MCMC.
+
+– 5 –
+
+
+test is passed whenever, for a given model, one of QMPCL or QDMAP is smaller or equal to 3σ.
+This is the case only for three models in Table 1: ΛCDM+mₑ+ΩK, ΛCDM+mₑ+ΩK+Σmν
+and EDE.
+
+At this point, we can already conclude that none of the models within our list but these
+three remain compatible with all current data sets including SH0ES. More generally, we find
+that for all our models (including the ones still passing the test) the level of tension has grown
+since the analysis of ref. [5]. In addition, in the case of the Majoron model, more accurate
+theoretical predictions make the model less compatible with a high value of H₀. In ref. [5],
+both the ΛCDM+mₑ and Majoron models did pass the 3σ-compatibility test. According to
+this work, they no longer appear as plausible solutions, with the Majoron results being in
+accordance with the findings of [74]. The ΛCDM+mₑ+ΩK and EDE models barely pass our
+tests and with a worse tension level than in ref. [5].
+
+We stress that the three surviving models do pass the 3σ-compatibility test, but only
+thanks to a larger error bar on H₀ rather than predicting a larger mean value for it. One
+can check this from the second column of Table 1, in which the mean H₀ value is only
+
+68.2 km/s/Mpc for ΛCDM+mₑ+ΩK and EDE. The mean H₀ value is however larger for the
+ΛCDM+mₑ+ΩK+Σmν model, which predicts H₀ = 69.75+1.85 km/s/Mpc.
+
+Table 1 also shows that ∆AICw/ₒ is always positive. This means that none of the models
+considered in this work is significantly preferred over ΛCDM in the absence of SH0ES data,
+even models that reduce the tension. This is another reason to consider these potential
+solutions as not very appealing: at present time, they appear as ad-hoc solutions, motivated
+only by the reduction of the Hubble tension, and not confirmed by any hint in other data
+sets. We may notice that the EDE model better fits our baseline data set than ΛCDM by
+
+∆χ² =  4.6, but given that this model has three additional free parameters, this is not
+statistically significant.
+
+Finally, the 8th column of Table 1 always returns large negative values of ∆AICw/, which
+shows an improvement in goodness-of-fit compared to ΛCDM. However, as long as ∆AICw/ₒ
+remains small, we know that the improvement of the AICw/ metric can only come from a
+reduction of the SH0ES χ² value. For instance, when the tension is reduced from the 6σ to
+the  nσ level, there is a potential to decrease the AICw/ metric by about 62  n². This is very
+consistent with the numbers appearing in the last column of Table 1 for ∆AICw/. The fact
+that  we do not obtain smaller numbers confirms that there is nothing in the data that the
+extended models can fit better than ΛCDM, except the SH0ES likelihood itself.
+
+Our key conclusions from this work can be summarized by four points. First, we confirm
+the previous findings of ref. [5] that none of the classical extensions of ΛCDM can reduce the
+Hubble tension to an acceptable level. Second, the ΛCDM+mₑ and Majoron models, which
+were strong candidates in ref. [5], are no longer able to reduce the tension to an acceptable
+level. Third, the ΛCDM+mₑ + ΩK and EDE models are still able to bring the tension down
+to the 2-3σ level, but there is no hint in favor of these models in our combined Planck,
+SPT, BAO, and SNIa data set. Fourth, the ΛCDM+mₑ + ΩK+Σmν model, which was never
+considered before, is the one in our list with the best potential to reduce the tension, with
+QMPCL = 1.5σ and a mean value as large as H₀ = 69.8 km/s/Mpc, but like the previous
+models it does not improve the fit of non-SH0ES data compared to ΛCDM. However, the
+three models ΛCDM+mₑ+ΩK, ΛCDM+mₑ+ΩK+Σmν and EDE are still worth investigating
+in future works, both theoretically and with additional data.
+
+Before entering a more detailed discussion, we emphasize two points. First, although
+changes in the tension level compared to ref. [5] are mainly driven by the improved SH0ES
+
+– 6 –
+
+
+measurements [25], the inclusion of SPT-3G 2018 and SDSS-DR16 [17] data plays a crucial
+role in our conclusions. For instance, compared to ref. [5], the fact that the tension level
+exceeds the 3σ threshold for the ΛCDM+mₑ is due to the inclusion of SDSS-DR16 data.6
+On the other hand, as we explain in more detail in section 5, the improved polarization
+measurements from SPT-3G 2018 straighten the constraints on mₑ + ΩK and EDE. Second,
+it     is not the purpose of this paper to discuss the S₈ tension [75, 76] in as many details as the
+Hubble tension, but the short discussion provided in section 5.6 suggests that none of the
+models presented here exacerbates this other tension beyond the 3σ level.
+
+
+ΛCDM
+
+Planck
+
+SH0ES
+
++ Σmν
+
++ Σmν + CPL
+
++ Σmν + Nₑff
+
++ Σmν + ΩK
+
++ Σmν + NSIDR
+
+
+mₑ
+mₑ + Σmν
+mₑ + ΩK
+
+QMPCL
+QDMAP
+
+mₑ + ΩK + Σmν
+
+EDE
+
+Majoron
+
+
+68       70       72       74
+
+H₀ [km s−¹ Mpc−¹]
+
+0    3   5
+
+σ
+
+Figure 1: A graphical representation of the first four columns of Table 1. Left: The black
+dots and their intervals correspond to the mean value of H₀ and its 68%CL, respectively, for
+each model. The gold band is the 68% CL on H₀ from Planck [9], while the light-salmon one
+corresponds to that of SH0ES [25]. Right: The top horizontal bar of each model correspond to
+QMPCL, colored in red when surpassing the 3σ level, and dark green otherwise. The bottom
+horizontal bar, when applicable, corresponds to QDMAP, colored in orange when surpassing
+the  3σ level, and light green otherwise
+
+– 7 –
+
+
+Parameter
+Ωbh²
+
+Ωch²
+
+θs
+ns
+
+ln(1010As)
+
+τreio
+
+lowE τrₑiₒ
+
+Priors
+
+𝘚 (0.005, 0.1)
+
+𝘚 (0.001, 0.99)
+
+𝘚 (0.5, 10)
+
+𝘚 (0.8, 1.2)
+
+𝘚 (1.67, 3.91)
+
+𝘚 (0.01, 0.8)
+
+N (0.054, 0.007)
+
+Table 2: Priors on the cosmological parameters of our baseline ΛCDM model. For data sets
+that do not include Planck, we use a Gaussian prior on τrₑiₒ specified in the last row.
+
+3  Cosmological models
+
+We consider eleven extensions of the minimal ΛCDM model. Our baseline ΛCDM model is
+parameterized with the usual six vanilla parameters,
+
+Pcₒsmₒ = Ωbh², Ωch², θs, ns, As, τrₑiₒ ,           (3.1)
+where Ωb and Ωc are the fractional densities of baryons and CDM, respectively, h = H₀/
+
+(100km/s/Mpc) is the reduced Hubble parameter, θs is the angular scale of the sound horizon
+at decoupling (eq. (1.1)), ns and As are respectively the spectral index and amplitude of the
+primordial curvature power spectrum, and τrₑiₒ is the photon optical depth to the reionization
+epoch. In this model, we assume three degenerate massive neutrino species with a total mass
+Σmν = 0.06 eV, close to the minimum allowed by oscillation experiments [77, 78]. Our prior
+on each free parameter is described in Table 2. We denote a uniform prior between a and
+b as (a, b) and a Gaussian prior centered on a with standard deviation σ as  (a, σ). By
+default, we adopt uniform priors on each parameter. Among the data sets considered in our
+analysis, Planck is the only one constraining τrₑiₒ, mainly through the measurement of the
+reionization bump in the low-multipole range of the polarization spectrum. Thus, whenever
+the Planck likelihood is not included in our data set, we adopt a Gaussian prior on τrₑiₒ of
+the form  (0.054, 0.007) [79], referred to as the lowE τ -prior.
+
+We divide our eleven non-minimal models into two categories, the first being that of
+classical extensions of ΛCDM with compelling physical ingredients such as massive neutrinos,
+relativistic relics, dynamical dark energy, and spatial curvature. Previously, extra relativistic
+relics, spatial curvature, or dynamical dark energy with a Chevalier-Polarski-Linder (CPL)
+equation of state [48, 49] were suggested as possible solutions to the Hubble tension. However,
+it was later shown that each of these extensions (without involving additional ingredients) are
+too simple to solve this tension without raising other ones [5, 9, 50, 51]. Nevertheless, their
+free parameters are sufficiently well motivated to deserve an updated analysis, including the
+SPT-3G 2018 data. The results obtained with these models are also useful for comparison
+with those of more speculative models considered later on. In this first category, we study:
+
+6For this model, one can check that, even if we use the same SH0ES likelihood as in ref. [5], the 
+QMPCL
+
+metric grows from 2.9 to 3.2 by just adding SPT-3G 2018 and eBOSS DR16 data.
+
+– 8 –
+
+
+1. ΛCDM+Σmν
+
+Neutrino oscillation experiments [77, 78] have established that neutrinos have a mass
+that can significantly affect cosmological observables [80–84]. Fixing Σmν to 0.06 eV
+is based on the minimum value allowed by oscillation experiments. In this model
+(and in many of the others considered later on), we consider Σmν as a free parameter
+limited to positive values, while sticking to the assumption of neutrinos degenerate in
+mass. Note that the range 0 < Σmν < 0.06 eV is excluded by laboratory data, but is
+still interesting to consider in a cosmological analysis, given that we are not sure that
+all the assumptions of our baseline cosmological model are fulfilled. Note also that
+oscillation experiments imply that one should consider different masses for each of the
+three neutrino eigenstates, but adopting three equal masses has been proved to be an
+excellent approximation to the CMB and matter power spectra [82, 83, 85, 86].
+
+Priors: Σmν ∈ 𝘚 (0, 1) eV.
+
+2. ΛCDM+Σmν + w₀ + wₐ.
+
+In this model, we additionally assume dynamical DE with a CPL [48, 49] parametriza-
+tion of the equation of state,
+
+w(a) = w₀ + wₐ(1 − a/a₀) ,             (3.2)
+
+where w₀ and wₐ are free parameters and a₀ is the scale factor, a, today. Note that the
+effect of perturbations has been accounted for using the Parameterized Post-Friedmann
+formulation [87].
+
+Priors: Σmν ∈ 𝘚 (0, 1) eV, w₀ ∈ 𝘚 (-2, -0.33), wₐ ∈ 𝘚 (-3, 2).
+
+3. ΛCDM+Σmν + ΩK
+
+On top of massive neutrinos, this model features spatial curvature with a parameter
+ΩK. Note that with a positive ΩK – corresponding to negative curvature – one could,
+in principle, obtain the same angular diameter distance to the last scattering surface
+as with an increased value of H₀.
+
+Priors: Σmν ∈ 𝘚(0, 1) eV and ΩK ∈ 𝘚 (-1, 1).
+
+4. ΛCDM+Σmν + Nₑff
+
+Still, on top of massive neutrinos, this model assumes ultra-relativistic (ur) relics that
+are decoupled and free-streaming. Such relics are very easy to motivate since many ex-
+tensions of the standard model of particle physics predict not only stable non-relativistic
+relics (dark matter) but also ultra-relativistic ones (dark radiation). Their contribution
+is accounted for as an increase in the effective neutrino number Nₑff with respect to the
+standard model value Nₑff = 3.044 [88, 89]. Since it is possible to increase simultane-
+ously H₀ and Nₑff without changing θs (see eq. (1.1)) [83, 90], this model would be an
+obvious solution to the Hubble tension if high values of Nₑff were not actually rising
+tension with the measurement of the damping tail in the CMB spectrum [9, 83, 90–92].
+Priors: Σmν ∈ 𝘚(0, 1) eV, Nur ∈ 𝘚 (0, 2), where Nur = Nₑff − 3.044.
+
+5. ΛCDM+Σmν + NSIDR
+
+This model differs from the previous one through the assumption that the ultra-
+relativistic relics are strongly self-interacting [93, 94]. Such relics are implemented in
+CLASS as an “interacting dark radiation” (IDR) species. At the level of the background,
+this model is identical to one with free-streaming relics and Nₑff = 3.044 + NSIDR, but
+
+– 9 –
+
+
+perturbations undergo a slightly different evolution. Specifically, dark radiation clusters
+more when it is self-interacting, which slightly enhances the small-scale CMB spectrum;
+at the same time, neutrino over-densities propagate at a smaller velocity, and the neu-
+trino drag effect is reduced [83, 95–98]. Both effects allow to fit CMB data better than
+with an equivalent amount of free-streaming relics, and thus to reach potentially higher
+values of Nₑff and H₀.
+
+Priors: Σmν ∈ 𝘚 (0, 1) eV and NSIDR ∈ 𝘚 (0, 1.5).
+
+Concerning the second category, we consider models that are more elaborate or include
+speculative physical ingredients, which recently received much attention for their ability to
+solve – or at least reduce – the Hubble tension. These models, which we call elaborate
+models, all involve some dynamical mechanisms to reduce the comoving sounds horizon rs
+in eq. (1.1). Their ability to reduce the tension was already compared in [5]. Here, we wish
+to update this comparison in the presence of more recent CMB, BAO and SH0ES data sets.
+For some of the models, we will also complete the analysis by adding the summed neutrino
+mass to the list of free parameters. The main features of each model can be summarized as
+follows (we refer the reader to [5] and references therein for further details):
+
+6. Varying mₑ
+
+Several high-energy theories predict a possible variation of fundamental constants over
+time. For instance, in the framework of higher dimensional theories such as string
+theory, the appearance of light scalar fields that couple to other fundamental fields,
+such as leptons and quarks, is almost inevitable (see [55] and references therein for
+more details). These fields may take a long time to stabilise, and their dynamics can
+cause a variation in effective particle masses, particularly that of the electron. Without
+invoking extra dimensions, a drift in the electron mass mₑ can also appear in several im-
+plementations of the Higgs mechanism [99]. Since the gaps between energy levels in the
+hydrogen atom depend on mₑ, a variation of this mass between the beginning of matter
+domination and today can shift the redshift of recombination and photon decoupling.
+If mₑ slowly decreases over time, recombination takes place at a larger redshift, and
+the sound horizon at decoupling is smaller. This can be compensated by an enhanced
+value of H₀ [55–58]. Since current cosmological data are insensitive to the detailed
+evolution of mₑ between recombination and today, it is customary to assume an ap-
+proximately constant value of mₑ around recombination, another constant value today,
+and a step-like transition in between. In this case, the only new measurable parameter
+in this model is the ratio of the mₑ before, mₑ,ₑₐrly, and after, mₑ,lₐtₑ, this transition:
+mₑ,ₑₐrly/mₑ,lₐtₑ. This model is implemented in CLASS with a transition taking place by
+default at redshift z  50, but this arbitrary choice has no observable consequence (as
+long as it is after the end of recombination). Note that BBN also provides constraints
+on variations of the electron mass, with a roughly similar constraining power as CMB
+and BAO data (see for example [100]). Here we are not considering such additional
+constraints (assuming, for instance, that mₑ could also be different at BBN and CMB
+times). Note that a different electron mass at high redshift can change the time of
+electron-positron annihilation and thus the value of ∆Nₑff at later times. Using the
+PRyMordial code [101], we estimate this shift to be of the order of ∆Nₑff/∆mₑ  0.1.
+Our results will show that mₑ is allowed to vary typically by 2% (when including at
+least BAO data), resulting in variations of ∆Nₑff of the order of 0.002. Since such small
+variations have a negligible impact on our observables, we can approximate ∆Nₑff as
+
+– 10 –
+
+
+independent of mₑ,ₑₐrly/mₑ,lₐtₑ.
+
+Priors: mₑ,ₑₐrly/mₑ,lₐtₑ ∈ 𝘚 (0, 1.5).
+
+7. Varying mₑ + Σmν
+
+Since there is no strong reason to fix the total neutrino mass to 0.06 eV, our next model
+features Σmν as an additional free parameter. This offers an interesting opportunity
+to check for parameter degeneracies between mₑ and Σmν given current data.
+
+Priors: mₑ,ₑₐrly/mₑ,lₐtₑ ∈ 𝘚 (0.5, 1.5), Σmν ∈ 𝘚 (0, 1) eV.
+
+8. Varying mₑ + ΩK
+
+It was already noticed in [59] that when fitting recent cosmological data, one finds a
+degeneracy between the ratio mₑ,ₑₐrly/mₑ,lₐtₑ and the curvature parameter ΩK, which
+allows to reach even large values of H₀. Indeed, in the combined model, one can
+adjust both parameters, separately modifying the sound horizon and angular diameter
+distance to decoupling – that is, with the numerator and denominator of eq. (1.1). We
+thus consider this combination of free parameters, first with a total neutrino mass fixed
+to 0.06 eV.
+
+Priors: mₑ,ₑₐrly/mₑ,lₐtₑ ∈ 𝘚 (0.5, 1.5), ΩK ∈ 𝘚 (-0.02,0.02)
+
+9. Varying mₑ + Σmν + ΩK
+
+Here we additionally vary the total neutrino mass since, as already mentioned, there is
+no strong theoretical motivation to stick to the minimum value of Σmν.
+
+Priors: mₑ,ₑₐrly/mₑ,lₐtₑ ∈ 𝘚 (0, 1.5), Σmν ∈ 𝘚 (0, 2) eV7 ΩK ∈ 𝘚 (-0.2, 0.2).
+
+10. Early Dark Energy (EDE)
+
+In this case, a scalar field – potentially motivated by string theory [102] – contributes to
+the expansion rate over a short period before recombination. This results in a reduction
+in the sound horizon that can be compensated by a higher value of H₀. In order to
+obtain temperature and polarization spectra compatible with CMB data, the scalar field
+must decay quickly at some critical time tc parameterized by the scale factor ac = a(tc)
+(assuming that a(t₀) = 1). EDE models were first proposed as solutions to the Hubble
+tension in ref. [62] and have been extensively studied since then, see e.g. [60, 103–108].
+We stick to the initial model of ref. [62], parameterized by the initial value of the scalar
+field θi, the scale factor at which the scalar field starts to decay ac, and the fractional
+energy of EDE at this time fEDE(ac). We note that the EDE model studied in this
+work represents a large class of EDE models, but not all of them (see [73] for a review).
+A full investigation of other EDE models is beyond the scope of the current work.
+
+Priors: θi ∈ 𝘚 (0.01, 3.1), log(ac) ∈ 𝘚 (-4.5, -3), fEDE(ac) ∈ 𝘚 (0, 0.5).
+
+11. Majoron
+
+A possible scenario for the generation of neutrino masses invokes the spontaneous sym-
+metry breaking of the global U (1) lepton number symmetry, which produces a pseudo-
+Nambu-Goldstone scalar ϕ called the Majoron. The authors of refs. [63–65] investigated
+a version of this scenario compatible, as a byproduct, with enhanced values of H₀, with
+the Majoron mass mϕ ∼ eV. A study of the various interactions shows that in this
+case, the population of Majorons gets efficiently produced at a temperature T ∼ mϕ
+
+⁷We doubled the prior range on Σmν for this model to make sure that we are not excluding allowed 
+regions
+in parameter space.
+
+– 11 –
+
+
+and decays into neutrinos soon afterward. This model provides a concrete implemen-
+tation of a particle physics model in which the radiation density – or the effective
+parameter Nₑff – gets enhanced over a short period before recombination, similar to
+the EDE model. Moreover, during this period, neutrinos behave as a self-interacting
+fluid, that is, like IDR, which may further help to increase Nₑff and raise H₀. This
+effect is parameterized with an independent and dimensionless effective decay width,
+Γₑff. To be more specific, in this model, Nₑff gets inherently enhanced by the energy
+density stored, firstly, in the Majoron particles when they thermalize, and later on, in
+the extra active neutrinos produced by their decay. This enhancement (combined with
+the effect of Majoron-induced neutrino scattering) helps to reduce the Hubble tension
+but is not sufficient to solve it. To reach sufficiently high values of Nₑff, refs. [63, 64]
+consider such a Majoron in combination with another population of stable relativistic
+relics that we call here Additional Dark Radiation (ADR). The constant contribution
+of ADR to Nₑff, dubbed NADR, is the third free parameter specific to this model.
+
+In summary, the model assumes that Nₑff starts from a value 3.044+NADR well before
+photon decoupling and experiences some further growth at a later time due to neu-
+trino/Majoron conversions. The maximum value reached by Nₑff depends on the three
+parameters NADR, mϕ and Γₑff, and the ΛCDM model is recovered in the limit in which
+these three parameters go to zero. To obtain a more natural scenario, the authors of
+ref. [65] noticed that the ADR component could account for an initial population of
+the same Majoron particles,8 produced in the very early universe through a mecha-
+nism motivated by other ingredients in the low-scale Majoron model of leptogenesis
+and neutrino mass generation. In this case, the model only involves one new type of
+cosmological relics. This scenario was implemented in the Boltzmann solver CLASS by
+the authors of [63–65]. Recently, ref. [74] updated this modified branch of CLASS, with
+a more accurate numerical treatment and a generalisation to the alternative scenario.
+Here, we stick to the Majoron case, but we use the updated code kindly provided by
+the authors of [74]. As a final remark on this model, we recall that the Majoron was
+historically introduced as a possible mechanism to generate neutrino masses. However,
+the main motivation behind the work of refs. [63–65, 74] was to study a model with
+non-trivial dynamics in the background and perturbation equations of dark radiation
+and neutrinos – arising, in the present case, from the late-time out-of-equilibrium ther-
+malization of a light boson interacting with neutrinos. While neutrino masses can be
+naturally incorporated within this framework, doing so can significantly complicate
+both the phenomenology and the computational overheads. Here, we will stick to the
+assumption of negligible neutrino masses for this particular model.
+
+Priors: log(mϕ/eV) ∈ 𝘚 (-1, 1), log(Γₑff) ∈ 𝘚 (-2, 2), and NADR ∈ 𝘚 (0, 1.5).
+
+Many additional interesting models have been proposed to reduce the Hubble tension. These
+include Early Modified Gravity [109], New Early Dark Energy [103], other types of EDE [72,
+110, 111], Stepped Dark Radiation [112, 113], Interacting Dark Energy [114], Primordial
+Magnetic Fields [115, 116] and many others. Due to finite computational resources, we could
+not include these models in this analysis, but we will investigate them in future works.
+
+8In numerical simulations, this amounts to initializing the density of Majoron at high redshift to 
+a positive
+
+NADR instead of zero. In ref. [65], our NADR is denoted as ∆N BBN.
+
+– 12 –
+
+
+4  Methodology
+
+4.1  Observational data
+
+We consider the following cosmological data sets:
+
+1. SPT: CMB power spectra from SPT-3G 2018 for TT, TE, and EE [13, 14].
+
+2. Planck: CMB power spectra from Planck 2018 for TT, TE, EE +lowE+lensing [79, 117].
+
+3. ACT: CMB power spectrum data from the Atacama Cosmology Telescope DR4 for TT,
+TE, and EE [68, 69].
+
+4. BAO: Baryon Acoustic Oscillation data from 6dFGS [66], BOSS DR7 [67] and DR12 [16],
+and eBOSS DR16 [17]. We do not include redshift-space distortions [118] or Alcock-
+Paczynski [119] measurements from this data set.
+
+5. Pantheon: SN Ia luminosity data from the Pantheon sample [15].
+
+6. SH0ES: we also use the most recent estimate of H₀ by the SH0ES collaboration (H₀ =
+73.29  0.90km/s/Mpc [25]) for the purpose of estimating the tension with other data
+sets, but we do not combine it with other data sets when computing mean values and
+confidence intervals.
+
+Concerning a potential correlation between the different CMB experiments, we first
+note that the SPT-3G 2018 footprint is very small (fsky = 0.04) compared to Planck, which
+is almost full sky. Therefore, correlations between these two data sets are negligible, as
+shown in [13]. On the other hand, there is no overlap in the footprints of SPT-3G 2018
+and ACT-DR4. There is instead an overlap between Planck and ACT footprints. The
+ACT collaboration recommends using their TT data only for ℓ > 1800 when combining
+with Planck. Given that this overlap is known to have only a small impact on parameter
+constraints, we neglect it for simplicity. To make the notation more concise, we define the
+following acronyms for the different data combinations:
+
+DS = SPT;
+
+DSP = SPT+Planck;
+
+DSB = SPT+BAO;
+
+DPB = Planck+BAO;
+
+DSPB = SPT+Planck+BAO;
+
+DSPBP = SPT+Planck+BAO+Pantheon;
+
+DSPAB = SPT+Planck+ACT+BAO;
+
+DSPABP = SPT+Planck+ACT+BAO+Pantheon. (4.1)
+
+4.2  Bayesian analysis pipeline
+
+To make theoretical predictions and compute observables, we rely on the Boltzmann codes
+CAMB9 [120], CLASS10 [121, 122], and a couple of modified branches of CLASS. For the ΛCDM
+model and its extensions with the parameters Σmν, w₀, wₐ, Nₑff and Ωk, one can in principle
+
+9https://github.com/cmbant/CAMB
+10https://github.com/lesgourg/class_public
+
+– 13 –
+
+
+choose between the public versions of CAMB and CLASS, which provide highly consistent results.
+We use CAMB v1.3.6 for the ΛCDM+w₀+wₐ and ΛCDM+Σmν+ΩK models, and CLASS
+v3.2.1 in other cases. For extensions including at least the parameters NSIDR or mₑ, we
+used the public (master) branch of CLASS v3.2.1. For EDE, we used the master branch
+of AxiCLASS v3.2.111 [123, 124], and for the Majoron model, a modified private branch of
+CLASS kindly provided by the authors of [74].
+
+We run our MCMCs using COBAYA [125, 126] and its Metropolis-Hastings algorithm [127,
+128]. We use GetDist [129] to calculate Bayesian posteriors, means, and confidence intervals.
+Our runs are usually based on 8 MCMCs, with a minimal convergence level given by the
+Gelman-Rubin criterion [130] R  1  0.02. Moreover, our results for the  SPBP data set
+are derived from those for the SPB data set using importance sampling with the Pantheon
+likelihood. The outcome is trustworthy since, as we will see in section 5, the addition of the
+Pantheon data does not shift the means and errors by a significant amount.
+
+In addition to computing the Bayesian posteriors conventionally, we investigate the pos-
+sibility of speeding up this computation by using a novel lightweight emulator introduced and
+described in ref. [131]. Unlike other emulators that are used in CMB cosmology [70, 132–
+134], which require a prior generation of training data and training of neural networks,12
+this implementation uses an online learning algorithm that samples training data from the
+MCMC itself. This enables the emulator to be accurate precisely in the region where the
+posterior is not negligible while keeping the training set small (just (102)  (103) realisa-
+tions in the investigated models). This is different from other inference algorithms such as
+those of refs. [135, 136], since our emulator predicts cosmological observables like Cℓ’s rather
+than posteriors. Hence, this emulator remains agnostic about the used sampling algorithm
+and the likelihoods. Thus, it benefits from the (relatively) small dimensionality of model
+parameter space compared to nuisance parameter space. Furthermore, the architecture of
+the emulator, which is based on Gaussian Processes [137], allows for an estimate of the un-
+certainty of the prediction. The estimate can be incorporated into the sampling algorithm
+so that whenever the emulator’s prediction is insufficiently accurate, new training data is
+generated. This procedure ensures very reliable performance for the emulator. The current
+code implementation is publicly available within a modified COBAYA repository.13 A future
+release will present a more modular version of the same emulator that will be compatible with
+COBAYA, MontePython [138, 139] and additional samplers [140]. Like in ref. [131], we find that
+this emulator achieves a major speed-up of the inference process while delivering a highly
+accurate posterior estimate. In appendix A, we provide details on the performance and ac-
+curacy of the emulator. We also explain its benefits for performing assisted χ² minimization
+in order to compute some of our tension metrics.
+
+4.3  Quantifying the tension level
+
+There exist various statistical tools to assess the ability of a model to fit discrepant data sets.
+Some of these tools try to quantify the level of tension between different data assuming a
+given cosmological model, while others try to compare the goodness of fit of different models
+to a given data set, which could include discrepant data. Moreover, some estimators are
+more inspired by the Bayesian framework, and others by the frequentist approach. Here,
+
+11https://github.com/PoulinV/AxiCLASS
+
+12[133] uses an iterative sampling and training algorithm that converges on the relevant parameter 
+space of
+the posterior distribution.
+
+13github.com/svenguenther/cobaya
+
+– 14 –
+
+
+for practical reasons, we limit ourselves to a non-exhaustive list of tests. We focus on a few
+metrics that are relatively easy to compute and match or generalise the ones used in ref. [5],
+to allow for a straightforward comparison.
+
+Using SPBP – defined in (4.1) – as our reference data set, we start with two metrics
+that assess the level of tension between SH0ES and non-SH0ES data for each model. Note,
+however, that models for which these metrics return good results are not necessarily appealing
+solutions to the Hubble tension, because they don’t necessarily predict a high H₀ value.
+Nevertheless, such models are still compatible with all existing data.
+
+1. Marginalised Posterior Compatibility Level (MPCL). We start discussing our first met-
+ric in a general context. Consider a parameter x with two independent marginalised
+posteriors, ₁(x) and ₂(x), resulting from Bayesian inference with two different exper-
+iments, but for the same theoretical model. Second, consider independent realisations
+x and x′ of the two posteriors, respectively, and compute the probability distribution
+P(δ) of their difference δ = x′ − x. Mathematically, this distribution is given by
+
+P(δ) = N ∫ dx P₁(x) P₂(x − δ),             (4.2)
+
+where  is a normalization factor. A standard way to quantify the level of compatibility
+between the two posteriors ₁ and ₂ is to address the following question:14 According
+to the distribution  (δ), what is the probability that δ belongs to the minimum credible
+interval that encompasses δ = 0? If  (δ) peaks in the δ > 0 range, this interval reads
+[0, δ′], otherwise it would be [δ′, 0] – where, in both cases, δ′ satisfies  (δ′) =  (0).
+Then, the probability q addressing the previous question is given by:
+
+δ′
+
+q =  0  dδ P(δ) .                 (4.3)
+
+Given this probability q  [0, 1], one can conclude that, in the framework of the assumed
+model, the two measurements are compatible at the 100(1  q)% level. For a more
+intuitive interpretation, this probability can be converted into a number n of σ’s using15
+
+n = √2 erf−1(q),                (4.4)
+
+where erf is the error function. Note that this metric was also used in the work of [141,
+142]. As an example, if q = 0.9973, then the two measurements would be compatible
+at the 0.27% level, corresponding to n = 3. In fact, for the special case where P₁(x)
+and P₂(x) are both Gaussian, the result can be expressed as:16
+
+  x¯₂ − x¯₁  
+
+
+n =  2
+
+x₁
+
+2  ,                 (4.5)
+
+x₂
+
+14In particular, the estimator quoted later in eq. (4.5) and sometimes called the Gaussian Tension 
+estimator
+finds its justification in this question; it provides the exact answer to it when the two 
+posteriors are Gaussian.
+15Strictly speaking, this conversion from probabilities to σ’s refers to Gaussian distributions, 
+but in a wider
+context, this definition of n can be adopted as a convention to represent a given probability q, 
+even for
+
+non-Gaussian distributions.
+
+16One way to see this is to recall that the difference between two normally distributed variables 
+also obeys
+a normal distribution, with a mean and a standard deviation given by the numerator and denominator 
+of
+eq. (4.5), respectively.
+
+– 15 –
+
+
+where x¯i and σₓ are respectively the mean and standard deviation of i(x). The r.h.s
+of eq. (4.5) was called the Gaussian Tension (GT) metric (or ∆GT) in ref. [5]. In that
+work, this number was quoted for each model, with a warning that ∆GT is a meaningful
+estimate of the compatibility between the two posteriors only in the Gaussian case. This
+is  a severe limitation since our extended models tend to have strongly non-Gaussian
+marginalised posteriors for H₀. Here, we adopt the exact version of this metric by
+making use of a simple script that evaluates explicitly equations (4.2, 4.3). This provides
+the exact answer to the question formulated above, even when the posteriors are not
+Gaussian.
+
+In the case considered here, x stands for the Hubble parameter H₀. We thus set
+₂(x) =  SH₀ES(H₀), with the latter being the SH0ES likelihood, i.e. a Gaussian
+distribution with mean H₀,SH₀ES = 73.29 km/s/Mpc and standard deviation σSH₀ES =
+
+0.9 km/s/Mpc. Moreover, ₁(x) = SPBP(H₀) is now the posterior distribution of H₀
+estimated from one of our MCMC runs for a given model and for the data set SPBP.
+Since SH0ES and  SPBP are independent data sets, our previous definitions apply.
+Then, eq. (4.2) becomes
+
+P(δ) = N ∫ dH₀ PSPBP(H₀) PSH₀ES(H₀ − δ) ≃ N ′  wi PSH₀ES(H₀,i − δ)  (4.6)
+
+i
+
+where we approximated the integral with a sum over each point i in our MCMCs with
+weight wi and Hubble parameter H₀,i. The normalisation factor  (  ′) is trivial to
+compute by integrating over the whole range (summing over all chain points). Once
+the probability  (δ) has been computed numerically, our script finds q using eq. (4.3),
+and then converts it into a number n of σ’s using eq. (4.4) for the purpose of comparing
+this metric with ∆GT. We call the final result QMPCL  n. We checked explicitly that
+for cosmological models with a Gaussian marginalised posterior on H₀, such as ΛCDM,
+we recover QMPCL = ∆GT as expected.
+
+2. Difference of the Maximum A Posteriori (DMAP). As a second attempt to quantify
+the tension between SH0ES and other data for each model, we consider the “difference
+of the maximum a posteriori”, QDMAP [5, 143]. This number is given by the square
+root of the difference between the effective best-fit χ² obtained for a given model and
+data set with and without a SH0ES prior. We perform this test for the  SPBP data
+set, which amounts to defining
+
+
+QDMAP, model ≡ qχ2
+
+SPBP+SH0ES − χ2
+
+.   (4.7)
+
+This number quantifies how much the best fit worsens in the presence of SH0ES data
+and, thus, how much SH0ES is in tension with other data sets when assuming a model.
+For a given model, QDMAP would ideally vanish if the fit to the data set  SPBP would
+return a best-fit value of H₀ equal to the SH0ES central value.
+
+In the case where the marginalized H₀ posteriors are exactly Gaussian, one can prove
+mathematically that QDMAP = QMPCL = ∆GT. In other cases, the MPCL and DMAP
+metrics address the same question under a more Bayesian and frequentist point of
+view, respectively. Indeed, the MPCL depends on priors and volume effects (through
+the marginalisation over other parameters), while the DMAP uses only restricted in-
+formation at the best fit. Thus, one can argue that each of the two metrics has its pros
+
+– 16 –
+
+
+and cons, and it is useful to report and discuss both of them. However, due to the
+computational cost of minimizations in high dimensional spaces, we report the DMAP
+metric solely for the more promising models.
+
+3. Akaike Information Criterion (AIC). With QMPCL,mₒdₑl and/or QDMAP, mₒdₑl, one can
+compare the ability of different models to alleviate the tension. However, these tests do
+not allow us to compare the intrinsic goodness-of-fit of these models and do not penalize
+the presence of additional free parameters. The latter aspect is crucial because one can
+always decrease the best-fit χ² by adding an arbitrary number of parameters, which
+would amount to over-fitting statistical fluctuations in the data.
+
+To address these caveats, one can use additional metrics. On the frequentist side, a
+possibility is to use the Akaike Information Criterion (AIC) [144, 145],
+
+
+2
+
+min, model, D
+
+− χmin, ΛCDM,D
+
++ 2 Nmₒdₑl − NΛCDM ,              (4.8)
+
+defined for a given model and data set  . This test quantifies the goodness-of-fit
+of a given model compared to ΛCDM. Additionally, it implements Occam’s razor by
+penalizing models with a number of parameters Nmₒdₑl bigger than that of ΛCDM,
+NΛCDM, thus complementing the previous two metrics. We compute the AIC for two
+data sets,  =  SPBP and  =  SPBP₊SH₀ES, in order to address separately two
+interesting questions: would our data set prefer a given extended model independently
+of SH0ES data? And does it prefer this model in the presence of SH0ES data? However,
+once more, we compute the AIC only for the most promising models, to reduce the
+number of minimizations. For brevity, we denote the AIC metric with a subscript
+“w/” (“w/o”) when the SH0ES likelihood is included (omitted) in the minimization,
+
+i.e. ∆AICw/ (∆AICw/ₒ).
+
+The four criteria mentioned above (MPCL, DMAP, AICw/ and AICw/ₒ) already give a
+reasonable assessment of how a given model is performing in terms of fitting the data and
+reducing the Hubble tension. However, if a model reduces the Hubble tension by having
+a larger error bar on H₀, compared to ΛCDM, without actually predicting a larger value,
+we cannot objectively say that it is solving the Hubble tension, nor that it is preferred over
+ΛCDM [146]. Rather, the only conclusion we can make is that this model is not excluded
+and that more data is required to properly assess it.
+
+It is important to emphasize that the list of criteria presented in this section is neither
+complete nor conclusive. In particular, the quantity 2 ln  loses its traditional interpretation
+in terms of χ²-statistics in the presence of highly non-Gaussian posteriors. Nevertheless, taken
+together, these tests provide a fairly good indication of how well the considered models match
+the currently available data.
+
+5  Results and Discussion
+
+In this section, we elaborate on our main findings, starting with a presentation in Figure 2
+of the MPCL tension metric of H₀ for each model and data combination. The DMAP and
+
+∆AIC metrics were already reported in Table 1 (with a graphical summary in Figure 1),
+but only for a selection of interesting cases and for the  SPBP data set. Specifically, Table 1
+includes additional metrics only for the models with QMPCL < 4σ, which are the SIDR model,
+
+– 17 –
+
+
+all models with a varying mₑ, and the EDE model. Finally, we present the mean value and
+credible interval for H₀ for each model and data combination in Table 3, with a graphical
+summary in Figure 3.
+
+We would like to emphasize that our work is not only relevant for assessing the tension
+level of various extended cosmological models given recent CMB, BAO, and SH0ES data but
+also for updating the constraints on the parameters of these models. For this purpose, we
+provide all bounds on additional parameters (beyond the six ΛCDM ones) derived from the
+data set DSPBP in Table 4.
+
+
+ΛCDM
+
+2.7 σ
+
+6.0 σ
+
+5.4 σ
+
+5.9 σ
+
+6.3 σ
+
+6.0 σ
+
+6.3 σ
+
+6.1 σ
+
+
++ Σmν
+
+3.4 σ
+
+5.4 σ
+
+5.6 σ
+
+5.7 σ
+
+6.0 σ
+
+5.9 σ
+
+5.9 σ
+
+5.9 σ
+
+
++ Σmν + CPL
+
+0.5 σ
+
+0.0 σ
+
+3.3 σ
+
+3.1 σ
+
+3.2 σ
+
+4.5 σ
+
+4.1 σ
+
+4.5 σ
+
+
++ Σmν + Nₑff
+
+1.4 σ
+
+4.0 σ
+
+1.3 σ
+
+4.0 σ
+
+4.3 σ
+
+4.2 σ
+
+5.0 σ
+
+5.1 σ
+
+
++ Σmν + ΩK
+
+4.0 σ
+
+5.2 σ
+
+5.2 σ
+
+5.2 σ
+
+5.1 σ
+
+5.3 σ
+
+5.3 σ
+
+
++ Σmν + NSIDR
+
+1.7 σ
+
+3.0 σ
+
+1.8 σ
+
+3.7 σ
+
+3.9 σ
+
+3.8 σ
+
+4.8 σ
+
+4.7 σ
+
+
+mₑ -0.1 σ
+
+1.4 σ
+
+3.3 σ
+
+3.8 σ
+
+3.9 σ
+
+3.8 σ
+
+3.8 σ
+
+3.8 σ
+
+
+mₑ + Σmν
+
+0.0 σ
+
+1.9 σ
+
+0.4 σ
+
+3.5 σ
+
+3.4 σ
+
+3.5 σ
+
+3.7 σ
+
+3.7 σ
+
+
+mₑ + ΩK
+
+-0.7 σ
+
+1.8 σ
+
+3.3 σ
+
+1.9 σ
+
+2.8 σ
+
+2.9 σ
+
+2.8 σ
+
+2.8 σ
+
+
+mₑ + ΩK + Σmν
+
+1.2 σ
+
+1.0 σ
+
+1.3 σ
+
+1.4 σ
+
+1.4 σ
+
+1.4 σ
+
+
+EDE
+
+1.5 σ
+
+4.2 σ
+
+2.2 σ
+
+3.8 σ
+
+3.7 σ
+
+3.7 σ
+
+3.1 σ
+
+3.1 σ
+
+
+Majoron
+
+-0.1 σ
+
+3.7 σ
+
+1.4 σ
+
+4.0 σ
+
+4.2 σ
+
+4.3 σ
+
+4.0 σ
+
+4.4 σ
+
+Figure 2: Tension between the H₀ measurement by the SH0ES [25] collaboration and the
+marginalised H₀ posterior obtained in this work for each of the considered models and data
+combinations. The tension is quantified by QMPCL, see eq. (4.5), and is given in units of σ.
+We highlight in bold the cases where the tension level is smaller or equal to 3σ. Note that
+empty entries are cases we did not run due to their high computational cost. By convention,
+we add a minus sign in the few cases for which the posterior peaks at a value larger than the
+SH0ES value.
+
+We also show in figures 4 to 12 the 2D confidence contours on H₀, S₈ and the additional
+parameters of each model for the data set combinations DPB, DSPB, DSPBP and DSPABP.17
+
+17We focus on these because they are the most relevant to draw conclusions about the performance of 
+each
+
+– 18 –
+
+
+Models
+
+DS     DSP     DSB     DPB     DSPB    DSPBP    DSPAB   DSPABP
+
+
+ΛCDM
+
++Σmν
+
++Σmν+CPL
+
++Σmν+ Nₑff
+
++1.5
+
+−1.5
+
++5.0
+
+−5.6
+
++10
+
+−15
+
++6.2
+
+−7.0
+
++0.49
+
+−0.50
+
++1.4
+
+−0.7
+
++14
+
+−7
+
++1.9
+
+−1.6
+
++0.55
+
+−0.56
+
++0.71
+
+−0.70
+
++1.7
+
+−2.3
+
++1.8
+
+−2.5
+
++0.41
+
+−0.41
+
++0.53
+
+−0.48
+
++1.6
+
+−2.4
+
++0.63
+
+−0.78
+
++0.37
+
+−0.37
+
++0.52
+
+−0.44
+
++1.6
+
+−2.4
+
++0.65
+
+−0.76
+
++0.35
+
+−0.38
+
++0.49
+
+−0.43
+
++0.78
+
+−0.79
+
++0.62
+
+−0.76
+
++0.34
+
+−0.39
+
++0.58
+
+−0.44
+
++1.3
+
+−1.7
+
++0.58
+
+−0.60
+
++0.34
+
+−0.37
+
++0.53
+
+−0.42
+
++0.81
+
+−0.81
+
++0.57
+
+−0.58
+
+
++Σmν + Ωk
+
+—   57.4+4.4
+
++0.73
+
+−0.74
+
++0.63
+
+−0.63
+
++0.64
+
+−0.64
+
++0.62
+
+−0.62
+
++0.64
+
+−0.64
+
++0.62
+
+−0.62
+
+
++Σmν + NSIDR
+
+mₑ
+mₑ+Σmν
+mₑ   + Ωk
+
++6.7
+
+−6.8
+
++53
+
+−51
+
++20
+
+−20
+
++16
+
+−5
+
++1.6
+
+−1.4
+
++10
+
+−13
+
++2.1
+
+−8.9
+
++2.1
+
+−9.3
+
++1.5
+
+−2.2
+
++1.8
+
+−1.8
+
++3.3
+
+−3.9
+
++1.9
+
+−2.6
+
++0.68
+
+−0.95
+
++1.1
+
+−1.1
+
++1.1
+
+−1.2
+
++2.1
+
+−2.1
+
++0.70
+
+−0.93
+
++1.1
+
+−1.1
+
++1.1
+
+−1.3
+
++1.9
+
+−1.8
+
++0.69
+
+−0.92
+
++1.1
+
+−1.1
+
++1.1
+
+−1.2
+
++1.6
+
+−1.6
+
++0.60
+
+−0.61
+
++1.1
+
+−1.1
+
++1.2
+
+−1.2
+
++1.9
+
+−1.9
+
++0.57
+
+−0.58
+
++1.1
+
+−1.1
+
++1.2
+
+−1.2
+
++1.6
+
+−1.6
+
+
+mₑ + Ωk + Σmν
+
+—    —    67.0+4.8
+
++2.4
+
+−3.9
+
++2.2
+
+−3.7
+
++1.8
+
+−2.9
+
++2.3
+
+−3.7
+
++2.0
+
+−3.0
+
+
+EDE
+
+Majoron
+
++1.7
+
+−2.2
+
++3.1
+
+−3.7
+
++0.54
+
+−0.92
+
++0.62
+
+−0.86
+
++0.9
+
+−1.6
+
++1.3
+
+−2.2
+
++0.52
+
+−0.98
+
++0.53
+
+−0.77
+
++0.43
+
+−0.78
+
++0.48
+
+−0.70
+
++0.42
+
+−0.79
+
++0.48
+
+−0.70
+
++0.6
+
+−1.4
+
++0.46
+
+−0.64
+
++0.6
+
+−1.4
+
++0.48
+
+−0.61
+
+Table 3: Mean values of H₀ in km/s/Mpc for each model and each combination of data set
+along with its standard deviation.
+
+Further plots and results are provided in the appendices and supplementary github reposi-
+tory [147].
+
+As a general comment, we should highlight that none of the models considered in this
+work are preferred over ΛCDM, at least as long as SH0ES data is not taken into account.
+Thus, the confidence interval on each extended parameter is always compatible with the
+value this parameter would have in the minimal ΛCDM model – that is, a negligible neutrino
+mass, a vanishing spatial curvature, a plain cosmological constant, no extra relativistic relics,
+a constant electron mass, etc.
+
+5.1  General trends
+
+The level of the Hubble tension has grown significantly over the last couple of years. For
+ΛCDM, we find that even without Planck data but with the SPT+BAO combination  SB,
+the tension is as large as QMPCL = 5.4σ. For all combinations including at least Planck,
+QMPCL fluctuates between 5.9σ and 6.3σ. Since fitting ΛCDM to the data leads to nearly
+Gaussian posteriors, the two metrics quantifying the tension give approximately the same
+result, with QMPCL = 6.0σ versus QDMAP = 5.8σ for the  SPBP data set. For the more
+restricted data set  PB, which was already considered in Table 2 of reference [5], the tension
+has grown from QDMAP = 4.1σ in that reference to QDMAP = 5.8σ in the present work. The
+only difference between the two analyses is the inclusion of additional BAO data from eBOSS
+DR16 and the new SH0ES measurement. We checked that the increase in the tension metrics
+is driven by the latter.
+
+In the next sections, we discuss the tension metrics for each of our extensions of ΛCDM.
+As a foreword, we stress a few general trends that can be immediately inferred from Table 1.
+Here, we limit ourselves to the discussion of the  SPBP data set. Since ΛCDM has a QDMAP =
+
+5.8σ tension with such data, we know that a model solving the tension could in principle
+
+reduce the best-fit χ² by about 5.82 ≃ 34. In the column reporting the ∆χ²  of each model
+
+model.
+
+– 19 –
+
+
+DS        DSB        DSP        DPB        DSPBP
+
+Planck         SH0ES
+
+ΛCDM
+
++Σmν
+
++Σmν+CPL
+
++Σmν+ Nₑff
+
++Σmν + ΩK
+
++Σmν + NSIDR
+
+mₑ
+
+mₑ +Σmν
+
+mₑ + ΩK
+
+mₑ + ΩK + Σmν
+
+EDE
+
+Majoron
+
+60   62   64   66   68   70   72   74   76   78
+
+H₀ [km s−¹ Mpc−¹]
+
+Figure 3: Graphical representation of the first four columns of Table 3, as well as our
+baseline data set  SPBP. In particular, we highlight the difference in constraining power
+between Planck and SPT-3G 2018 for each studied model.
+
+– 20 –
+
+
+Models
+ΛCDM
+
++Σmν
+
++Σmν+CPL
+
++Σmν+ Nₑff
+
++Σmν + NSIDR
+
++Σmν + ΩK
+
+mₑ
+mₑ+Σmν
+mₑ    + ΩK
+
+mₑ + ΩK + Σmν
+EDE
+
+Majoron
+
+Additional Parameters
+
+—
+
+Σmν < 0.16 eV (95%)
+
+Σmν < 0.29 eV (95%), w₀ = −0.97 ± 0.08, wₐ = −0.29 ± 0.39
+
+Σmν < 0.15 eV (95%) , Nₑff < 0.17 (95%)
+
+Σmν < 0.15 eV(95%), NSIDR < 0.16 (95%)
+
+Σmν < 0.17 eV (95%), ΩK = −0.0005 ± 0.0020
+
+mₑ,ₑₐrly/mₑ,lₐtₑ = 1.003 ± 0.006
+
+mₑ,ₑₐrly/mₑ,lₐtₑ = 1.0057 ± 0.0090, Σmν < 0.29 eV(95%)
+
+mₑ,ₑₐrly/mₑ,lₐtₑ = 1.0035 ± 0.0164, ΩK = −0.0005 ± 0.0048
+
+mₑ,ₑₐrly/mₑ,lₐtₑ = 1.03 ± 0.03, ΩK = −0.004 ± 0.006, Σmν < 0.48 eV (95%)
+
+θi = 1.8 ± 0.9, log(ac) = −3.8 ± 0.4, fEDE(ac) < 0.06 (95%)
+
+log(mϕ/eV) = 0.2950 ± 0.6598, log(Γₑff) = 0.0556 ± 0.8846, ∆NADR < 0.15 (95%)
+
+Table 4: Updated constraints on additional parameters for each model considered in this
+work. We present the mean and standard deviation of each parameter, except for Σmν and
+fEDE(ac), for which we present the 95% CL upper bound. These constraints are from the
+data set combination DSPBP.
+
+without SH0ES, we see that the extended models considered here provide a very small or
+even negligible improvement to the minimum χ². In other words, they do not provide a
+significantly better fit to the  SPBP data set, and they are not preferred over ΛCDM when
+the SH0ES measurement is disregarded, since they all have a positive ∆AICw/ₒ. This also
+
+implies that the ∆χ² computed with SH0ES data only reflects the reduction of the tension
+
+with SH0ES, and is not a better fit to the other data sets. Thus, we can roughly expect ∆χ²
+
+
+for a given model to be of the same order of magnitude as Q²
+
+2
+
+DMAP, model
+
+. One
+
+can check that this relation is indeed approximately fulfilled in each line of Table 1.
+
+In particular, a model reducing the tension from the ΛCDM level to a marginally ac-
+
+ceptable level of ∼ 3σ will have a ∆χ² of the order of 32 − 5.82 ≃ 25. Then, as long as this
+
+model has a reasonable number of parameters, it will have a large negative ∆AICw/. We
+should not over-interpret this result as a proof that extended models are clearly preferred.
+It merely reflects the fact that the tension is so large that any model leading to larger error
+bars for H₀ will reduce the minimum χ² by many units and will easily pass the ∆AIC test.
+We should thus put more weight on the other metrics, which tell us how compatible a model
+is with the full data set, and whether there would be indications in favor of this model even
+without SH0ES data.
+
+5.2  Classical extensions of ΛCDM
+
+The first outcome of our work is a confirmation of the findings of ref. [5] that simple extensions
+of ΛCDM, which combine neutrinos of arbitrary mass with CPL dynamical dark energy, extra
+relativistic relics or spatial curvature, do not ease the Hubble tension.
+
+– 21 –
+
+
+As a general trend, SPT or SPT+BAO data remain compatible with large H₀ values
+in models with massive neutrinos plus dynamical dark energy or extra relativistic relics.
+With SPT+BAO data, the mean value of H₀ is even larger than 70 km/s/Mpc in the
+ΛCDM+Σmν+Nₑff or NSIDR models (see Table 3, column  SB). However, the combina-
+tion of SPT+BAO data contains limited information on the angular scale of the first and
+second acoustic peak of the temperature auto-correlation power spectrum .18 When full-
+sky Planck data are added, the strong constraining power of these scales brings back the
+confidence intervals of H₀ to lower values.
+
+For the category of models considered here, adding SPT data to Planck+BAO data
+only marginally affects the results, and actually increases the tension, since the mean values
+and error bars on H₀ become systematically smaller (see the first six lines in Figure 2 and
+Table 3 and compare the columns  PB and  SPB). Finally, adding ACT data exacerbates
+the tension slightly. Thus, we can say that while Planck+BAO data alone already disfavor
+large values of H₀ within classical extensions of ΛCDM, the better measurement of the CMB
+damping tail by SPT and ACT confirms this trend.
+
+As a result, all classical extension models have QMPCL  3.2σ with SPT+Planck+BAO
+data, QMPCL  3.8σ when adding Pantheon data, or QMPCL  4.5σ with the final addition
+of ACT data. We can also see in Table 3 that with all data combinations that include at least
+Planck+BAO, the mean value of H₀ always remains in the range from 65.5 to 68.5 km/s/Mpc.
+
+More specifically, taking into account the effect of neutrinos with arbitrary mass in a
+flat or non-flat cosmology never allows to raise the mean value of H₀ significantly above the
+one predicted by ΛCDM. The mean value even tends to be smaller when Σmν is let free.
+As a matter of fact, increasing the neutrino mass while fixing the quantities best probed by
+CMB anisotropy data (angular scale of the sound horizon, redshift of equality, and baryon-
+to-photon ratio) requires a smaller value of H₀. Thus, when fitting most cosmological models
+with massive neutrinos to data, one usually observes a negative correlation between Σmν and
+H₀. As soon as BAO data is included, the MPCL is no better with the ΛCDM+Σmν(+Ωk)
+models than in the minimal ΛCDM case.
+
+On the other hand, when combining the effect of neutrinos with arbitrary mass with
+CPL dark energy, we confirm previous results from [50], that is: CMB data alone is com-
+patible with a wide degeneracy between Σmν, DE parameters and H₀, and predicts sur-
+prisingly large values of H₀, even when the new SPT data is included (with  SP we get
+H₀ = 83.3+13.9 km/s/Mpc). But as soon as BAO data is also included, this degeneracy is
+lifted and the MPCL metric is high again (for instance, QMPCL = 4.5σ for  SPBP).
+
+Finally, when combining the effect of neutrinos with arbitrary mass and free-streaming
+(Nₑff) or self-interacting (NSIDR) Dark Radiation (DR), we confirm that when at least the
+Planck data is taken into account, a degeneracy opens up between the DR density parameter
+and H₀. As expected, this degeneracy is even stronger when the DR is self-interacting. We
+find that the addition of recent SPT data preserves this degeneracy (see Figure 4). For
+instance, in the model with SIDR and with SPT+Planck, we get H₀ = (68.0+1.6) km/s/Mpc
+and  a reduction of the tension down to QMPCL = 3.0σ. However, the degeneracy is partially
+lifted by adding BAO data, such that QMPCL increases to 3.9σ, and totally lifted when further
+adding ACT data (QMPCL = 4.8σ): unlike SPT data, ACT measures a CMB damping tail
+incompatible with a large DR density (for a study on the compatibility between ACT and
+SPT,  see [14]). Focusing on the data set DSPBP, we find that for the SIDR model, the
+
+18The complicated modeling of correlated atmospheric noise across frequencies required removing a 
+lot of
+the signal on those scales. See Section II of [14] for more details.
+
+– 22 –
+
+
+Hubble tension remains large according to both metrics, with QMPCL = 3.8σ and QDMAP =
+4.0σ. This model is doing better than ΛCDM when the SH0ES likelihood is included, with
+
+∆AICw/ = 13.1, but given the high value of the other metrics it cannot be seen as a solution
+to the tension. Thus, Dark Radiation alone (or in combination with massive neutrinos)
+cannot solve the Hubble tension, unless additional ingredients are invoked. These could be,
+for instance, DR isocurvature modes like in [148], or additional couplings in the dark sector
+such as the Majoron [63–65] or the stepped Dark Radiation [149–151] models. However, these
+scenarios fall in the category of elaborate models, which we now delve into.
+
+Planck+BAO
+SPT+Planck+BAO
+SPT+Planck+BAO+Pantheon
+
+SPT+Planck+ACT+BAO+Pantheon
+
+0.86
+
+0.84
+
+0.82
+
+0.80
+
+0.2
+
+0.1
+
+0.6
+
+0.4
+
+0.2
+
+
+66  68  70
+
+H₀
+
+0.80   0.85
+
+S₈
+
+0.1  0.2
+
+Σmν (eV)
+
+0.2  0.4  0.6
+
+NSIDR
+
+Figure 4: ΛCDM+Σmν+NSIDR: marginalised posteriors and 68%/95% CL contours on H₀,
+S₈, and the two additional parameters of this model, NSIDR and Σmν. In the top left panel
+(H₀ marginalised posterior), the grey bands corresponds to the 68%/95% confidence intervals
+on H₀ from Planck [9], while the purple ones correspond to those of SH0ES [25].
+
+5.3  Varying mₑ and its extensions
+
+As mentioned already, the key idea behind this model is that a variation in the electron
+mass allows a shift in the time of recombination and opens a new degeneracy in the space of
+cosmological parameters [58, 59]. Indeed, if the last scattering surface is shifted, for instance
+further away from us, we need to re-adjust essentially all the cosmological parameters to keep
+the CMB and Large Scale Structure (LSS) spectra in agreement with observations. These
+
+– 23 –
+
+
+SPT
+
+Planck
+SPT+Planck
+
+1.2
+
+1.0
+
+0.8
+
+0.6
+
+0.4
+
+1.4
+
+1.2
+
+1.0
+
+0.8
+
+0.6
+
+
+0   100   200
+
+H₀
+
+0.50 0.75 1.00 1.25
+
+S₈
+
+0.6   1.0   1.4
+
+me,early/me,late
+
+Figure 5: Same as Figure 4 for the varying mₑ model and only Planck and SPT data.
+
+re-adjustments include an increase in H₀ (in order to lower the angular diameter distance
+to recombination and compensate for the shift in the recombination time). This degeneracy
+has similarities with the perfect scaling transformation discussed in [152] but is not exactly
+equivalent to it, thus still allowing us to derive bounds on the parameters of this model from
+CMB and LSS data.
+
+However, using only CMB information, the degeneracy extends extremely far in param-
+eter space, as shown in Figure 5. With its limited information on large and intermediate
+angular scales, SPT alone is unable to accurately constrain the distance to the last scattering
+surface and is compatible with wide confidence intervals for mₑ,ₑₐrly/mₑ,lₐtₑ and all other cor-
+related parameters such as H₀. The posterior peaks in mₑ,ₑₐrly/mₑ,lₐtₑ  1.2, corresponding
+to  a value of H₀ even larger than the one measured by SH0ES. Planck alone can constrain
+the distance to last scattering much better, but along the direction of degeneracy, the pos-
+terior remains wide enough to encompass both the ΛCDM case (mₑ,ₑₐrly/mₑ,lₐtₑ = 1, H₀
+67 km/s/Mpc) and tension-solving models (mₑ,ₑₐrly/mₑ,lₐtₑ  1.05, H₀  73 km/s/Mpc). One
+actually needs to add BAO data in order to really resolve the degeneracy and get definite
+predictions, for instance mₑ,ₑₐrly/mₑ,lₐtₑ = 1.0046  0.0089 and H₀ = 67.8  1.1km/s/Mpc
+for SPT+Planck+BAO (68%CL), which brings us back to a tension of QMPCL = 3.7σ. In
+summary, most of the constraining power for this model comes from BAO data, such that
+the new CMB information contained in SPT and ACT data does not play a significant role.
+
+– 24 –
+
+
+Planck+BAO
+SPT+Planck+BAO
+SPT+Planck+BAO+Pantheon
+
+SPT+Planck+ACT+BAO+Pantheon
+
+0.85
+
+0.80
+
+1.04
+
+1.02
+
+1.00
+
+0.98
+
+0.4
+
+0.2
+
+
+66 68 70 72
+
+H₀
+
+0.80   0.85
+
+S₈
+
+1.00 1.02
+
+me,early/me,late
+
+0.2  0.4
+
+Σmν (eV)
+
+Figure 6: Same as Figure 4 for the varying mₑ+Σmν model.
+
+In ref. [5], this model passed (shortly) the 3σ threshold for all tension metrics and won
+a “golden medal”. In our analysis, the prediction of this model for H₀ from CMB alone has
+hardly changed, but due to updated BAO and SH0ES measurements, the tension has grown
+significantly, with QMPCL  3.7σ for any data combination that includes at least Planck
+and  BAO data (see Figure 2). For the  SPBP data set, the model has a nearly Gaussian
+H₀ posterior and reaches QDMAP = 3.9σ and QMPCL = 3.8σ, well above the 3σ threshold
+
+adopted in [5] and in this work for considering a test as passed. Finally, the minimum ∆χ² of
+
+this model compared to ΛCDM is -18.0, which gives ∆AICw/ = 16.0. As previously stated,
+this outcome is mainly due to the improved SH0ES measurements, which make ΛCDM even
+less favored compared to the varying mₑ model. When removing the SH0ES likelihood, the
+
+model is performing as well as ΛCDM (∆χ²  = 0.0), albeit with the penalty of an additional
+
+parameter (∆AICw/ₒ=2.0).
+
+Next, we include the neutrino mass in the list of varying parameters, which results in a
+combination that, to our knowledge, has not been probed before. Interestingly, Figure 6 shows
+that in this case, the parameters H₀, Σmν and mₑ,ₑₐrly/mₑ,lₐtₑ are all positively correlated
+– while in simpler models the correlation between Σmν and H₀ is usually negative. In the
+absence of Planck data, that is, with SPT alone or SPT+BAO data, this model is perfectly
+compatible with the SH0ES measurement. However, as soon as Planck data is included,
+
+– 25 –
+
+
+Planck+BAO
+SPT+Planck+BAO
+SPT+Planck+BAO+Pantheon
+
+SPT+Planck+ACT+BAO+Pantheon
+
+0.86
+
+0.84
+
+0.82
+
+0.80
+
+1.05
+
+1.00
+
+0.95
+
+
+0.01
+
+0.00
+
+−0.01
+
+−0.02
+
+65  70  75
+
+H₀
+
+0.80    0.85
+
+S₈
+
+1.00 1.05
+
+me,early/me,late
+
+−0.01  0.01
+
+ΩK
+
+Figure 7: Same as Figure 4 for the varying mₑ + Ωk model.
+
+the ΛCDM+mₑ+Σmν model hardly improves over the ΛCDM+mₑ one, with tension levels
+reduced from  3.8σ to  3.5σ only. The two ∆AIC metrics show that this model does not
+fit CMB, BAO, and SN Ia data better than ΛCDM, while in the presence of SH0ES data, it
+is preferred over ΛCDM at the same level as the previous model with fixed neutrino mass.
+Therefore, in this case, allowing the neutrino mass to vary makes no significant difference.
+
+On the other hand, there is a well-known degeneracy between H₀, mₑ,ₑₐrly/mₑ,lₐtₑ and
+ΩK allowing to reach larger values of mₑ,ₑₐrly/mₑ,lₐtₑ – and thus also of H₀ [59]. The ΛCDM
+model features a positive correlation between H₀ and ΩK, due to their opposite effect on the
+angular diameter distance to recombination. However, with a fixed recombination time, the
+“geometrical degeneracy” between H₀ and ΩK is broken by the measurement of CMB and
+BAO peaks at different redshifts. This is no longer the case when the recombination time
+also depends on a free parameter like mₑ,ₑₐrly/mₑ,lₐtₑ. In this case, the correlation between
+H₀ and ΩK even changes sign. Interestingly, compared to the results of ref. [5], we find that
+recent SPT-3G data play a significant role in disfavoring models with the highest values of
+mₑ,ₑₐrly/mₑ,lₐtₑ and H₀, and thus with the smallest values of ΩK. This is likely due to a lifting
+of the “geometrical degeneracy” by additional information contained in SPT-3G polarization
+data on intermediate scales. Furthermore, this is clearly visible in Figure 7 when comparing
+the Planck+BAO contours with the SPT+Planck+BAO ones. With Planck+BAO data
+alone, this model predicts H₀ = 69.1 ± 2.1 km/s/Mpc. Compared to ΛCDM, it reduces the
+
+– 26 –
+
+
+Planck+BAO
+SPT+Planck+BAO
+SPT+Planck+BAO+Pantheon
+
+SPT+Planck+ACT+BAO+Pantheon
+
+0.85
+
+0.80
+
+0.75
+
+1.2
+
+1.1
+
+1.0
+
+0.02
+
+0.00
+
+−0.02
+
+1.5
+
+1.0
+
+0.5
+
+
+70   80
+
+H₀
+
+0.75  0.80  0.85
+
+S₈
+
+1.0  1.1  1.2
+
+me,early/me,late
+
+−0.02 0.00
+
+ΩK
+
+0.5  1.0  1.5
+
+Σmν(eV)
+
+Figure 8: Same as Figure 4 for the varying mₑ + Ωk + Σmν model.
+
+Hubble tension thanks to a shift in both the mean and error on H₀, such that QMPCL = 1.9σ.
+The inclusion of SPT data reduces both the mean and error, with H₀ = 67.7+1.9 km/s/Mpc,
+and the tension raises to QMPCL = 2.8σ. Among the models considered in this work, this is
+the one for which the addition of SPT data to Planck+BAO has the biggest impact. Further
+adding Pantheon or ACT data marginally affects the tension level.
+
+Furthermore, ref. [5] found that the ΛCDM+mₑ+ΩK model reduces the Hubble tension
+roughly to the 2σ level (with ∆GT = 2.0 and QDMAP = 1.9). With the addition of SPT,
+eBOSS DR16, and new SH0ES data, we find that the tension is only reduced to the  3σ
+level (QMPCL = 2.9σ and QDMAP = 3.1σ for SPBP). Still, the model has a very good metric
+
+∆AICw/ =  20.7. So, if we consider a 3σ tension as marginally acceptable, this model
+does pass our tests. In reality, this just means that ΛCDM+mₑ+ΩK remains marginally
+compatible with all our data sets. The model only owes its success to its very large error bar
+
+– 27 –
+
+
+on H₀ = 68.2  1.6 km/s/Mpc for  SPBP and does not provide a better fit to the data in
+the absence of SH0ES (∆AICw/ₒ = +3.0). Thus, with current data, this model can hardly
+be considered an appealing explanation for the tension.
+
+Finally, varying additionally the neutrino mass does make a difference (see Figure 8).
+It appears that a combined variation of the three additional parameters mₑ,ₑₐrly/mₑ,lₐtₑ, ΩK
+and Σmν together with ΛCDM parameters allows to remain in agreement with all data sets
+up to very large Hubble parameter values. The unusual positive correlation between Σmν
+and H₀ is even stronger in this case than in the flat ΛCDM+mₑ+Σmν model. For the  SPBP
+set, the mean value of H₀ is significantly increased compared to the ΛCDM prediction, with
+H₀ = 69.8+1.9km/s/Mpc. The MPCL and DMAP metrics are relatively different from each
+other, consistently with the fact that the H₀ posterior is strongly non-Gaussian. However,
+they are both below the 3σ threshold, with QMPCL = 1.5 and QDMAP = 3.0 (technically,
+2.96). Thus, this model is even more compatible with all data sets when Σmν is varied
+rather than fixed to 0.06 eV. However, in none of these two cases does the model provide
+a better fit to CMB, BAO, and Pantheon data, since in both cases the minimum χ² only
+
+decreases by one unit (see ∆χ²  column in Table 1). When the neutrino mass is varied, the
+
+best-fit χ² to the full data set including SH0ES is slightly lower (by  1) but the ∆AICw/
+metric is slightly worse (by +1) due to the additional free parameter (see ∆AICw/ column in
+Table 1 for mₑ +ΩK and mₑ +ΩK +Σmν). Moreover, although the best-fitting value of Σmν is
+close to zero for the  SPBP set, large values of H₀ close to  73 km/s/Mpc require relatively
+heavy neutrinos with Σmν  0.1 to 0.3 eV, a slightly positive spatial curvature K such that
+ΩK   0.015 to  0.010, and a decrease of the electron mass between recombination and
+today by a few percent with mₑ,ₑₐrly/mₑ,lₐtₑ  1.05 to 1.08.
+
+Given the precision of current data, there are not so many cosmological scenarios com-
+patible with large values of the summed neutrino mass. This model provides a noticeable
+exception, with a 95%CL upper bound Σmν < 0.48 eV for the  SPBP data set. This bound is
+three times looser than in the ΛCDM+Σmν model, but still too strong to allow for a signifi-
+cant detection of the effective electron neutrino mass with the KATRIN19 experiment [153].
+We conclude that the ΛCDM+mₑ+ΩK+Σmν model passes the MPCL, DMAP, and
+
+AIC (with SH0ES) tests. While it is still not a convincing explanation of the tension, since
+it does not improve the goodness-of-fit to the data in the absence of SH0ES, it would still be
+interesting to investigate with future data, e.g. with improved CMB polarization measure-
+ments.
+
+5.4  Early Dark Energy
+
+A few interesting features appear for this model when looking at Table 3. First, the strongest
+constraints come mainly from CMB data, particularly from Planck. Comparing DSP and
+DSPB, we see only a slight decrease in error bars, with the mean value barely changing.
+
+Second, we see that the combination DSPB puts significantly tighter constrains on the
+
+Hubble rate (H₀ = 68.14+0.43 km/s/Mpc) than DPB (H₀ = 68.3+0.52 km/s/Mpc). This
+
+sounds paradoxical at first sight, because SPT data alone or even SPT+BAO data are not
+very constraining on H₀ compared to Planck+BAO, and even suggest a higher mean value
+than Planck+BAO. However, the very same behavior was noticed and documented in [110]
+(fourth-to-last paragraph). One can get more insight into this by comparing the 2D confidence
+contours on all parameters in the Planck+BAO and SPT+BAO cases. The later contours
+
+19katrin.kit.edu
+
+– 28 –
+
+
+Planck+BAO
+SPT+Planck+BAO
+SPT+Planck+BAO+Pantheon
+
+SPT+Planck+ACT+BAO+Pantheon
+
+0.86
+
+0.83
+
+0.80
+
+0.15
+
+0.10
+
+0.05
+
+4.5
+
+4.0
+
+3.5
+
+3.0
+
+2
+
+1
+
+
+67.5 70.0
+
+H₀
+
+0.80  0.85
+
+S₈
+
+0.05   0.15
+
+fₑdₑ(ac)
+
+3    4      1   2
+
+log10 zc      θi
+
+Figure 9: Same as Figure 4 for the EDE model.
+
+are overall wider, and usually encompassing the former. However, the SPT+BAO data set
+is better fitted by higher values of log₁₀ zc and smaller values of S₈ (or equivalently As) than
+the Planck+BAO data. In this particular parameter space, the contours only have a small
+overlap in a region which turns out to be consistent only with small values of H₀. This
+explains why the combined data set is more constraining than each individual data set, even
+if  the individual ones are statistically compatible with each other.
+
+Overall, the combination of recent data reduces the ability of the EDE model to reach
+large values of H₀ compared to older analyses. For our reference  SPBP data set, the MPCL
+metric gives QMPCL = 3.7σ. However, the DMAP metric conveys a slightly different message,
+since QDMAP = 2.7σ. The fact that these two numbers differ significantly is consistent, first,
+with the strong non-Gaussianity of the H₀ posterior for this model, and second, with the well-
+known “prior volume effect” that frequently occurs in Bayesian parameter estimation [154,
+
+– 29 –
+
+
+Planck+BAO
+ACT+Planck+BAO
+SPT+Planck+BAO
+
+0.88
+
+0.84
+
+0.80
+
+0.15
+
+0.10
+
+0.05
+
+4.5
+
+4.0
+
+3.5
+
+3.0
+
+2
+
+1
+
+
+67  70  73
+
+H₀
+
+0.80  0.85
+
+S₈
+
+0.05  0.15
+
+fₑdₑ(ac)
+
+3    4      1   2
+
+log10 zc      θi
+
+Figure 10: Same as Figure 9 with a focus on the impact of SPT data compared to that of
+ACT.
+
+155].
+
+This effect is particularly important for models in which one parameter accounts for
+
+the presence (or absence) of an ingredient, which is not required by the data with high
+significance. In our case, this parameter is the EDE fraction, fEDE, whose posterior is
+compatible with zero. When fₑdₑ   0, the EDE field has no observable impact, i.e. we
+are back to ΛCDM, but the parameters θi and zc can still take any possible value. We see
+in Figure 9 that many models within the confidence contours have a very small fEDE and
+a wide range of possible values for the EDE parameters θi and log₁₀ zc. Large values of
+H₀ reducing the Hubble tension require specific values of (θi, log₁₀ zc), close to (2.8, 3.5),
+but in the H₀ posterior, smaller values of H₀ are strongly enhanced by the marginalisation
+over other values of (θi, log₁₀ zc), which are unconstrained in the fEDE → 0 (or equivalently
+
+– 30 –
+
+
+ΛCDM) limit. In order to avoid this effect, several works switched to grid sampling or profile
+likelihood studies [104, 105, 156] (see [73] for more detailed discussion).
+
+In summary, the EDE model has a reasonably small QDMAP value because the best
+fit to the full data set returns a relatively good χ². On the other hand, we find a much
+larger QMPCL because the Bayesian H₀ posterior is enhanced for small values of H₀ by the
+marginalisation over allowed models close to ΛCDM. In this case, giving more credit to one
+or    the other metric becomes a matter of taste. The Bayesians will stress the fact that EDE
+models providing a good fit to all data sets are unlikely. The frequentists will instead give
+credit to the observation that there exist some parameter values for the EDE model such
+that the tension gets reduced to the 2.7σ level. Once more, we see that different metrics play
+a complementary role. Here, we remain agnostic and we consider that models for which one
+of the MPCL or DMAP metrics remains below the 3σ level provide an acceptable reduction
+of the tension.
+
+It should also be noted that, since QMPCL is strongly affected by Bayesian volume
+effects, we would find different values of this estimator if we adopted different top-hat prior
+edges on the parameters (θi, log₁₀ zc): if we had some particular reasons to assume narrower
+priors, QMPCL would shrink and possibly become as small as QDMAP.
+
+Looking at the goodness-of-fit of the EDE model compared to ΛCDM, we find that the
+EDE model is the only one in our list reducing the best-fit χ² to all-but-SH0ES data by
+
+more than one unit, with ∆χ²  = −4.6. However, this provides no hint that the model is
+
+a significantly better fit to all-but-SH0ES data because the EDE model has three additional
+free parameters and a positive ∆AICw/ₒ = +1.4. However, this ability to reduce slightly
+the best-fit χ² to CMB, BAO, and supernovae data leads to the best AIC among all our
+considered models when SH0ES data is included, with ∆AICw/ =  25.1. Once more, one
+should take this result with a grain of salt, since it mainly reflects the high level of tension
+of the ΛCDM case.
+
+We finally consider the inclusion of ACT-DR4 data [68, 69, 71]. Like several previous
+works (see [73] and citations within), we find that these data are slightly more compatible
+with large values of the EDE fraction. In Figure 10, we show the result of an additional
+run with Planck+ACT+BAO data, in which a value of fₑdₑ  0.1 is excluded at the < 2σ
+level for Planck+ACT+BAO, while it is at more than 3σ when ACT is not added. In the
+same Figure, one can look at the contours in the (θi, log₁₀ zc) space. With Planck and SPT
+data, these parameters are loosely constrained, since most of the allowed models lay very
+close to the ΛCDM limit. Thus, the contours have an extended and complicated shape.
+In the presence of ACT data, the contours narrow down around (θi, log₁₀ zc)  (2.8, 3.5),
+that is, around the values for which a fraction of EDE can contribute to the expansion rate
+before photon recombination, becoming more compatible with high values of H₀. When
+Planck, SPT, and ACT are taken into account together, SPT and ACT data have marginally
+antagonist effects on the fEDE posterior and the fit favors a compromise region in parameter
+space. The MPCL metric gets reduced from 3.7 to 3.1 when adding ACT data to  SPB.
+Thus, like previous authors, we find that SPT-3G and ACT-DR4 data contain some slightly
+contradictory information on high-ℓ multipoles that push the allowed fraction of EDE in
+opposite directions, such that this model would appear as a better solution to the Hubble
+tension if ACT was trusted more than SPT, and vice versa. It will be interesting to update
+this comparison when new ACT data will be released.
+
+– 31 –
+
+
+Planck+BAO
+SPT+Planck+BAO
+SPT+Planck+BAO+Pantheon
+
+SPT+Planck+ACT+BAO+Pantheon
+
+0.85
+
+0.80
+
+
+1
+
+0
+
+−1
+
+−0.2
+
+−0.4
+
+−0.6
+
+−0.8
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+68  70
+
+H₀
+
+0.81 0.84
+
+S₈
+
+−1 0  1
+
+log(Γₑff)
+
+−0.7 −0.3
+
+log(mφ /eV)
+
+0.2  0.4
+
+NADR
+
+Figure 11: Same as Figure 4 for the Majoron model, with a prior mϕ < 1 eV to single out
+the small-mass scenario.
+
+5.5 Majoron
+
+The first thing to be noticed about the Majoron model is that, when fitted to data combi-
+nations including at least Planck and BAO, it may return a bi-modal posterior, with one
+preferred region corresponding to a Majoron mass mϕ < 1 eV and another one to mϕ > 3 eV.
+Bi-modal posteriors are notoriously difficult to sample with the Metropolis-Hastings algo-
+rithm. We circumvent this problem by presenting separately the posteriors and contours
+obtained with a prior  1  log(mϕ/eV)  0 (see Figure 11) or 0  log(mϕ/eV)  1 (see
+Figure 12). In each case, the posterior is unimodal.
+
+To assess the relevance of each region of parameter space, we can simply compare the
+minimum χ² within the MCMC for each of the two priors. (The minimum χ²’s from MCMC
+chains are not as stable and robust as the ones we obtained for previous models using a specific
+
+– 32 –
+
+
+Planck+BAO
+SPT+Planck+BAO
+SPT+Planck+BAO+Pantheon
+
+SPT+Planck+ACT+BAO+Pantheon
+
+0.85
+
+0.80
+
+1
+
+0
+
+−1
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+68  70
+
+H₀
+
+0.81 0.84
+
+S₈
+
+−1 0  1
+
+log(Γₑff)
+
+0.2 0.5 0.8
+
+log(mφ /eV)
+
+0.2  0.4
+
+NADR
+
+Figure 12: Same as Figure 11 with a prior mϕ > 1 eV to single out the large-mass scenario.
+
+minimisation algorithm, but they are indicative enough for the purpose of this section.) For
+Planck and BAO alone, the two cases have a very similar minimum χ² and the corresponding
+regions in parameter space can be roughly considered as equally likely. However, when adding
+SPT and then SNIa data, we find that the low-mass region is preferred. Thus, in the various
+tables, we report the results based on this case. Note that the Hubble parameter does not
+correlate with mϕ, such that the H₀ posterior is very similar in the two cases.
+
+To gain some physical insight into this model, we can think of it as effectively equivalent
+to a combination of the ΛCDM+Nₑff and ΛCDM+NSIDR ones, with additional parameters
+tuning the evolution of the density of both free-streaming and self-interacting relativistic
+relics as a function of time. Thus, it is natural to compare the performance of this model to
+the former ones. We should however keep in mind that in previous sections, we varied Nₑff
+
+– 33 –
+
+
+or NSIDR in combination with Σmν, while here we neglect neutrino masses for simplicity.20
+However, in the ΛCDM+Σmν+Nₑff and ΛCDM+Σmν+NSIDR models, we did not observe a
+correlation between the radiation density parameter and the summed neutrino mass. Thus,
+it    is still fair to compare the Majoron scenario to the former models. However, we should not
+compare the posterior of NADR directly with that of ∆Nₑff or NSIDR, because even in the
+absence of additional dark radiation (NADR = 0) the Majoron scenario already predicts an
+enhancement of Nₑff with respect to the standard value 3.044, which is caused, first, by the
+density  of Majoron produced by inverse neutrino decay, and later on, by that of additional
+active neutrinos produced by the Majoron decay.
+
+One can check in Figure 2 that depending on the data set, the Majoron model performs
+either a bit better or a bit worse than the ΛCDM+Σmν+Nₑff and ΛCDM+Σmν+NSIDR
+models as far as the reduction of the tension is concerned. However, it does not bring any
+decisive improvement. With the  PB data set, we find QMPCL = 4.0σ, which is significantly
+worse than the result obtained in [5] also with Planck+BAO data, ∆GT = 2.7σ. This
+degradation is not only caused by the more recent BAO and SH0ES data used in the current
+analysis but also by the more accurate modeling of the Majoron scenario (based on the work
+of refs. [157, 158]), in the updated branch of CLASS developed by the authors of [74] and used
+in this work. Additionally, we find that the tension slightly increases when adding SPT data,
+with QMPCL = 4.2σ for  SPB. For our reference data set,  SPBP, we find QMPCL = 4.3σ.
+One may notice that, like in the EDE case, the situation improves a bit when including
+ACT-DR4 data, with QMPCL = 4.0σ for  SPAB. However, when adding also Pantheon data,
+we  are back to QMPCL = 4.4σ. We conclude that the Majoron model is no longer able to
+bring the Hubble tension down to acceptable values, and we do not compute other tension
+metrics for this model.
+
+5.6  Update on the S₈ Tension
+
+
+Models
+ΛCDM
+
++Σmν
+
++Σmν+CPL
+
++Σmν+ Nₑff
+
++Σmν + NSIDR
+
++Σmν + Ωk
+mₑ
+mₑ+Σmν
+mₑ + Ωk
+
+mₑ + Ωk + Σmν
+EDE
+
+Majoron
+
+DS        DSP       DSB       DPB       DSPB       DSPBP      DSPAB      DSPABP
+
+0.798 ± 0.042  0.830 ± 0.012  0.819 ± 0.017  0.830 ± 0.012  0.828 ± 0.010  0.826 ± 0.010  0.832 ± 
+0.009  0.830 ± 0.010
+
+0.772 ± 0.045  0.830 ± 0.012  0.776 ± 0.037  0.828 ± 0.011  0.827 ± 0.011  0.826 ± 0.011  0.829 ± 
+0.010  0.829 ± 0.010
+
+0.761 ± 0.060  0.774 ± 0.033  0.779 ± 0.039  0.837 ± 0.014  0.834 ± 0.014  0.826 ± 0.012  0.835 ± 
+0.016  0.827 ± 0.012
+
+0.772 ± 0.048  0.830 ± 0.012  0.785 ± 0.044  0.831 ± 0.011  0.828 ± 0.012  0.828 ± 0.011  0.830 ± 
+0.010  0.829 ± 0.010
+
+0.769 ± 0.049  0.825 ± 0.012  0.780 ± 0.042  0.827 ± 0.011  0.825 ± 0.011  0.825 ± 0.011  0.828 ± 
+0.010  0.828 ± 0.010
+
+—    0.873 ± 0.025  0.763 ± 0.041  0.829 ± 0.011  0.827 ± 0.011  0.826 ± 0.011  0.824 ± 0.011  
+0.828 ± 0.010
+
+0.687 ± 0.155 0.943 ± 0.081 0.806 ± 0.029 0.829 ± 0.010 0.828 ± 0.010 0.827 ± 0.010 0.830 ± 0.010 
+0.829 ± 0.009
+
+0.727 ± 0.071  0.873 ± 0.040  0.709 ± 0.064  0.827 ± 0.012  0.824 ± 0.013  0.824 ± 0.012  0.825 ± 
+0.013  0.824 ± 0.013
+
+0.770 ± 0.062  0.878 ± 0.041  0.810 ± 0.030  0.828 ± 0.010  0.828 ± 0.010  0.827 ± 0.010  0.830 ± 
+0.010  0.828 ± 0.010
+
+—       —    0.731 ± 0.072  0.814 ± 0.021  0.816 ± 0.020  0.816 ± 0.018  0.816 ± 0.021  0.816 ± 
+0.019
+
+0.797 ± 0.044  0.832 ± 0.013  0.819 ± 0.023  0.832 ± 0.012  0.830 ± 0.011  0.829 ± 0.011  0.837 ± 
+0.012  0.836 ± 0.012
+
+0.792 ± 0.044  0.829 ± 0.012  0.847 ± 0.022  0.835 ± 0.011  0.832 ± 0.010  0.832 ± 0.010  0.837 ± 
+0.010  0.836 ± 0.010
+
+Table 5: Mean values and 68%CL credible interval of S₈ for each model and each combination
+of data. The values for the reference data set DSPBP are highlighted in bold.
+
+20As mentioned in section 3, we use a version of CLASS developed by [74] that does not include yet 
+the case
+in which the Majoron interacts with massive neutrinos.
+
+– 34 –
+
+
+DS       DSB       DSP       DPB       DSPBP
+
+KiDS  Planck
+
+ΛCDM
+
++Σmν
+
++Σmν+CPL
+
++Σmν + Nₑff
+
++Σmν + NSIDR
+
++Σmν + ΩK
+
+mₑ
+
+mₑ +Σmν
+
+mₑ + ΩK
+
+mₑ + ΩK + Σmν
+
+EDE
+
+Majoron
+
+0.5       0.6       0.7       0.8       0.9      1.0
+
+S₈
+
+Figure 13: Graphical representation of the first four columns of Table 5, as well as our
+baseline data set  SPBP. In particular, we highlight the difference in constraining power
+between Planck and SPT-3G 2018 for each studied model.
+
+– 35 –
+
+
+Since it is also important to check that models ease the Hubble tension without wors-
+ening the S₈ one, we computed the Gaussian tension on S₈ for each model and data set.
+The mean value of S₈ and its credible intervals are reported in Table 5, with a graphical
+representation in Figure 13.
+
+Different weak lensing surveys and analysis pipelines derive bounds on S₈ that are com-
+patible with each other but correspond to significantly different tension levels. For instance,
+
+one can use the KiDS measurement S₈ = 0.766+0.020 (68%CL, [159]) as a reference and
+
+estimate the S₈ tension using the Gaussian tension metric. Then, we find that for all the
+models we study, including ΛCDM, the tension remains below 3σ for the  SPBP data set.
+Indeed, in this case, ΛCDM is in 2.7σ tension, while the highest value (2.9σ) is reached by the
+Majoron model. Note also that the value S₈ = 0.766 reported by KiDS is a mean posterior
+value obtained from an asymmetric posterior. In such a case, the Gaussian tension metric
+should be taken with caution.
+
+On the other hand, one could use instead the fiducial analysis of the joint DES-Y3
+plus KiDS-1000 data, reported in the first line of Table 4 of ref. [160]. For our purpose of
+estimating the Gaussian tension, we should ideally use the maximum of the S₈ posterior
+as   a reference value. The joint DES+KiDS analysis provides such statistics and reports
+S₈ = 0.792+0.017 (68%CL, Table 4 of [160], column “Maximum Marginal”). This corresponds
+to a 1.7σ Gaussian tension with respect to  SPBP for ΛCDM, while it is 2σ for the Majoron
+model. In this case, there is essentially no S₈ tension in any of the studied models. Given
+these differences, we refrain from stating explicitly an S₈ tension level for each model.
+
+The level of S₈ tension reported here should be regarded as indicative only. Indeed, the
+S₈ measurements reported by DES or KiDS were obtained under the assumption of a simple
+cosmology (namely, ΛCDM, including a free neutrino mass in some cases). In principle, for
+a  more accurate statement, S₈ should be inferred from raw weak lensing data for each of the
+extended cosmologies considered here. This goes far beyond the scope of this paper.
+
+6  Conclusions
+
+This work presents updated constraints from cosmological data on several extensions of the
+minimal ΛCDM model. These extensions feature combinations of physical ingredients such
+as neutrino masses, spatial curvature, dynamical dark energy, extra relativistic relics with
+different interaction properties (free-streaming, self-interacting), interactions in the active
+neutrino sector as predicted by a Majoron scenario [63–65], a time-varying electron mass [55,
+58, 59], or Early Dark Energy [60–62]. We derive constraints on the additional parameters
+of these models, and we focus on various approaches to quantify their potential to solve the
+Hubble tension in light of recent SH0ES results [25]. Compared to previous studies [4, 5],
+our work contains three new features. Firstly, we included more recent data sets, like CMB
+temperature and polarization data from SPT-3G 2018 TT/ TE/EE [72, 73], additional BAO
+data from eBOSS DR16 [17], and updated SH0ES data [25]. In particular, the scenarios
+considered in this work had not been confronted before to the new SPT-3G data – except
+for EDE, see [72, 73, 110]. Secondly, we studied the effect of curvature, extra relativistic
+relics, dynamical dark energy, or a time-varying electron mass in the framework of a baseline
+ΛCDM+Σmν scenario with arbitrary neutrino mass, while previous works fixed the total
+mass to its minimum allowed value (Σmν = 0.06 eV), which is arbitrary. Thirdly, we proved
+that we are able to obtain consistent results in a much shorter time when performing our
+
+– 36 –
+
+
+Bayesian parameter inference with an Einstein-Boltzmann code emulator [131] that trains
+itself on the fly for each model and data set during a standard MCMC run.
+
+We found that classical extensions of ΛCDM featuring combinations of massive neutri-
+nos, spatial curvature, dynamical dark energy, or extra relativistic relics are unable to ease
+the Hubble tension in light of new data. In particular, the self-interacting dark radiation
+model, which obtained a “bronze medal” in the previous ranking proposed in [5], is now
+unable to bring the tension below the 4σ level. This degradation is driven by new BAO and
+SH0ES data and enhanced by ACT data. Given their plausible physical motivations, these
+models would still be interesting to study on their own, assuming that the Hubble tension
+vanishes or can be explained with another ingredient. However, they cannot be considered a
+viable solution to the Hubble tension.
+
+We then switched to the study of more elaborate scenarios that have been recently
+advertised as possible solutions to the Hubble tension. In the latter category, we found that
+assuming a time-varying electron mass (in the framework of the minimal ΛCDM or of the
+ΛCDM+Σmν) decreases the tension level but is no longer able to bring it below the 3σ level:
+this  model loses the “silver medal” awarded in [5]. It was already well-known that adding
+spatial curvature as an additional ingredient is particularly relevant in this case because of an
+interesting parameter degeneracy between H₀, mₑ,ₑₐrly/mₑ,lₐtₑ and ΩK. We confirm this, and
+we  also find for the first time that varying the neutrino mass is also relevant in this context
+since the degeneracy is significantly stronger in the presence of massive neutrino effects. Thus
+the models with varying mₑ +ΩK and varying mₑ +ΩK +Σmν reduce the Hubble tension to a
+statistically significant level, respectively below the 3σ and 2σ levels (see Figure 2). However
+we should stress that the success of these models comes mainly from increasing the error
+bar on H₀, with highly non-Gaussian posterior distributions (see figures 7 -11), rather than
+shifting the mean of the posterior to larger values of the Hubble parameter close to the mean
+SH0ES value (although the varying mₑ + ΩK + Σmν does raise the predicted mean value of
+H₀ close to 70 km/s/Mpc, see tables 1 and 3). Finally, the EDE model is also able to reduce
+the Hubble tension below the 3σ level as long as we take into account the frequentist DMAP
+metric (in this case, the Bayesian MPCL metric is penalised by strong prior volume effects,
+as already discussed in previous works [110]). However, like in the varying mₑ + ΩK case,
+the EDE model owes its success to larger error bars on H₀ rather than to an increase in the
+mean predicted H₀ value, unless ACT-DR4 data are also included in the analysis.
+
+We conclude that the varying mₑ+ΩK(+Σmν) and EDE models are still valid candidates
+to solve the Hubble tension. Of course, we make such a statement on a purely phenomenolog-
+ical and cosmological-data-driven basis. We should remind the reader that, if taken seriously,
+these models would raise several theoretical challenges from the point of view of high-energy
+physics or early-universe physics. Discussing these challenges is far beyond the scope and
+spirit of this paper. Besides, from a purely phenomenological perspective, we have seen that,
+even if these models can reduce the Hubble tension, they appear as ad-hoc solutions, since
+there is no hint in their favor apart from the Hubble tension itself, and unpredictive solutions,
+since they accommodate rather than predict a large H₀. Thus, we clearly need more data
+and perhaps further theoretical modeling to give them a final assessment.
+
+In the future, we will be revisiting these models and other elaborate ones with upcoming
+data from SPT-3G and ACT. We already saw in this work that SPT-3G 2018 data brings very
+interesting constraints, but there is even much more information to expect from forthcoming
+releases [13, 14]. Having now validated our on-the-fly emulator, we will be able to update
+constraints and assess Hubble tension levels for a growing number of models with a decreased
+
+– 37 –
+
+
+amount of computational effort.
+
+Acknowledgments
+
+We would like to thank Miguel Escudero, Stefan Sandner, Nils Schöneberg, Tristan Smith,
+Vivian Poulin, and Sam Witte for interesting discussions and their modified versions of
+CLASS. We also thank Erik De la Haye, Christian Fidler, and Markus Mosbech for their
+useful comments. We thank as well Lennart Balkenhol, Federica Guidi, Etienne Camphius
+and Eric Hivon from the SPT collaboration at the Institut d’Astrophysique de Paris (IAP)
+for fruitful conversations. This work has made use of the Infinity Cluster hosted by IAP.
+Sven Günther acknowledges support from the DFG grant LE 3742/6-1. Simulations were
+performed with computing resources granted by RWTH Aachen University under projects
+rwth1302, rwth1305, and thes1348. This work has received funding from the French Centre
+National d’Etudes Spatiales (CNES). This project has received funding from the European
+Research Council (ERC) under the European Union’s Horizon 2020 research and innovation
+programme (grant agreement No 101001897)
+
+Appendices
+
+A  Accelerating MCMC runs using an online learning emulator
+
+In this appendix, we provide further details about two cases where the emulator was used
+for the analysis pipeline of this work. In appendix A.1, we discuss the performance of the
+emulator-assisted posterior inference and illustrate its accuracy for two examples of MCMC
+analyses. In appendix A.2, we outline our approach to find best-fit models by performing a
+χ² minimization. For the first task, we find that the emulator speeds up the pipeline by at
+least one order of magnitude, and for the second task, by two orders of magnitude.
+
+A.1  Comparing Emulator Results with usual MCMC
+
+In ref.[131], it was shown that the emulator can reliably overcome the bottleneck of Bayesian
+analysis, which is usually the execution of the Boltzmann code. We confirm this in the present
+context. We find that, when using the emulator, the total run time is dominated by the
+evaluation of the CMB likelihoods. In fact, in each run using the emulator, the accumulated
+execution time of the likelihood codes exceeds the combined run time of gathering training
+data, training the emulator, and providing the emulated spectra to the sampler. For example,
+when running an MCMC with the emulator on the ΛCDM+Σmν+Nₑff model with the  SPB
+data set, while requiring a convergence of R  1 < 0.01 with 8 chains using 1 core each, we
+find that each chain spends about 22 CPUh on the SPT likelihood, 9 CPUh on the Planck
+likelihood, 1 CPUh on calling CLASS to generate 300-500 spectra, and 1 CPUh on training
+and evaluating the emulator. Without the emulator, about 90% of the time is spent on
+calling CLASS. Thus, the achievable speed-up factor can be roughly approximated by the
+ratio of the evaluation time of the theory and likelihood code.21 In this work, we find that
+the exact speed-up factor is model and data-set dependent, and we find speed-up factors of
+
+21Note that this is only an approximate estimate, not taking into account the fact that the number 
+of calls
+to the theory code can be lowered by different strategy (like the use of fast-slow parameters), as 
+described
+in [161].
+
+– 38 –
+
+
+about 10 to 20.22 In principle, the speed-up factor could be further improved by accelerating
+the likelihood codes [162] or utilizing more efficient sampling algorithms (as done in [134]).
+
+For all the models discussed in this work and for the  SPB data set, we have systemat-
+ically performed two MCMC runs starting from the same initial conditions (usually, from a
+guessed covariance matrix providing a poor approximation to the optimal proposal density,
+especially for the parameter of the extended models). One run called the Boltzmann code
+systematically for each new model, while the other run used the scheme described in ref. [131]
+in   which calls to the Boltzmann code are gradually replaced by calls to the emulator. For
+all models, the two runs provided identical contours, means, and confidence limits (after
+rounding numbers in such a way as to keep two significant digits in the error bars).
+
+In Figure 14, we compare the posteriors for the varying mₑ+ΩK model using the SPBP
+data set defined in (4.1). The background (orange) lines and contours were obtained with
+Cobaya running in standard mode, that is, with systematic calls to the Boltzmann code, and
+the foreground (blue) ones with the emulator mode switched on. We find excellent agreement
+between the posterior estimates and conclude that the emulator can accurately describe all
+the relevant effects of this model at the level of CMB power spectra. Note that our method
+implies that each MCMC builds independently its emulator on the fly. In the present case, for
+each of our eight chains, the emulator accumulated 400-700 simulations for its own training
+and was used 60,000-70,000 times to emulate the CMB observables. Thus, by using the
+emulator, we could avoid  99% of the simulations (that is, of the calls to CLASS).
+
+In Figure 15, we check that there is still an excellent level of agreement between the
+posterior estimates for the Majoron model using the same data set. This case is particularly
+challenging because the contours are highly non-Gaussian. Since our emulator assesses its own
+level of uncertainty, a complicated posterior shape automatically leads to more simulation
+calls. For the Majoron model, each chain required 1100-1700 CLASS calls and 70,000-90,000
+emulator calls.
+
+A.2  Minimization and best-fit models
+
+In order to evaluate some of our tension metrics (see section 4.3) for a given model and data
+set, we need to determine the best fit by minimizing the effective χ² =  2 ln  (where
+
+is the likelihood). For this purpose, we use the BOBYQA [163, 164] algorithm implemented
+in COBAYA. We have set the tolerance parameter (i.e. the parameter that determines the
+convergence of the minimization, called rhoend in BOBYQA) to be 0.005. Moreover, we perform
+104 minimizations for each model to ensure a sufficient exploration of the parameter space
+to find the global minimum, rather than some random local minimum. We sample the initial
+points from a Gaussian fit to the posterior distribution for both cosmological and nuisance
+parameters.
+
+However, minimization remains a difficult and computationally expensive task. It is
+further complicated by numerical noise in the Einstein-Boltzmann solver, which originates
+from ordinary differential equation solvers, from the discrete sampling of integrands, and from
+the discrete switching of approximation schemes in the code. As a matter of fact, the default
+precision parameters in Boltzmann codes like CLASS or CAMB are chosen to have the smallest
+possible execution time while ensuring unbiased estimates of means and confidence limits in
+MCMC runs. Since the analysis of MCMCs tends to smooth out random numerical noise,
+the precision settings are not optimised to remove such noise down to a very small level. To
+
+22The run times on 1 core are ∼ 10s (CLASS), ∼ 0.1s (SPT, Planck). However, the ratio of nuisance
+parameters to cosmological parameters is about 3 to 5.
+
+– 39 –
+
+
+do minimization, it is possible to improve the precision settings of these codes to lower the
+numerical noise by about one order of magnitude, which is sufficient for obtaining smoother
+profile likelihoods and removing artificial local maxima created by random noise. However,
+in this case, the codes become extremely slow, such that performing many minimization is
+prohibitively expensive. Using an emulator allows us to avoid this expensive solution since,
+as long as the emulator is trained over a relatively small data set, it smooths over the noise
+instead of trying to fit it.
+
+By using the emulator previously described [131] to speed up the evaluation of CLASS
+
+and smooth the numerical noise, we were able to accelerate the minimization task by a factor
+(102).23 Note that a similar approach was already used in ref. [165].
+
+Even when using the emulator, the existence of local χ² minima can subsist and there
+is no guarantee that a single minimization converges to the global minimum. Thus, for each
+model, we still perform  (100) minimizations starting from random initial conditions (as
+described above) and we state the minimum after ensuring that a substantial fraction (about
+10%) of found (local) minima accumulate to the same value of χ² within a margin of 0.2 0.4.
+This level of accuracy is good enough to reach robust conclusions on the DMAP and AIC
+metrics.
+
+References
+
+[1] The Planck, P. A. R. Ade et al., “Planck 2013 results. XVI. Cosmological parameters”,
+Astron. Astrophys. 571 (2014) A16, arXiv:1303.5076 [astro-ph.CO].
+
+[2] L. Verde, P. Protopapas, and R. Jimenez, “Planck and the local Universe: Quantifying the
+tension”, Phys. Dark Univ. 2 (2013) 166–175, arXiv:1306.6766 [astro-ph.CO].
+
+[3] L. Verde, T. Treu, and A. G. Riess, “Tensions between the early and late Universe”, Nature
+Astronomy 3 (Sep, 2019) 891–895, arXiv:1907.10625 [astro-ph.CO].
+
+[4] E. Di Valentino, O. Mena, S. Pan, L. Visinelli, W. Yang, A. Melchiorri, D. F. Mota, A. G.
+Riess, and J. Silk, “In the realm of the Hubble tension—a review of solutions”, Class. Quant.
+Grav. 38 no. 15, (2021) 153001, arXiv:2103.01183 [astro-ph.CO].
+
+[5] N. Schöneberg, G. Franco Abellán, A. Pérez Sánchez, S. J. Witte, V. Poulin, and
+
+J. Lesgourgues, “The H0 Olympics: A fair ranking of proposed models”, Phys. Rept. 984
+
+(2022) 1–55, arXiv:2107.10291 [astro-ph.CO].
+
+[6] W. L. Freedman, “Cosmology at a Crossroads”, Nature Astron. 1 (2017) 0121,
+
+arXiv:1706.02739 [astro-ph.CO].
+
+[7] J.-P. Hu and F.-Y. Wang, “Hubble Tension: The Evidence of New Physics”, Universe 9 no. 2,
+(2023) 94, arXiv:2302.05709 [astro-ph.CO].
+
+[8] O. H. E. Philcox, G. S. Farren, B. D. Sherwin, E. J. Baxter, and D. J. Brout, “Determining
+the Hubble constant without the sound horizon: A 3.6% constraint on H0 from galaxy
+surveys, CMB lensing, and supernovae”, Phys. Rev. D 106 no. 6, (2022) 063530,
+arXiv:2204.02984 [astro-ph.CO].
+
+[9] The Planck, N. Aghanim et al., “Planck 2018 results. VI. Cosmological parameters”, Astron.
+Astrophys. 641 (2020) A6, arXiv:1807.06209 [astro-ph.CO].
+
+23When doing a single minimization run (rather than Metropolis-Hastings [127, 128] MCMCs to find the
+means and posteriors), we find that the training requires O(10²) − O(10³) model realizations (e.g. 
+∼100 for
+ΛCDM and ∼1000 for the Majoron model). This is still small compared to the total number of 
+evaluations
+required by the BOBYQA algorithm, which is of the order of O(10⁴) − O(10⁵).
+
+– 40 –
+
+
+SPT+Planck+BAO
+SPT+Planck+BAO using emulator
+
+0.024
+
+0.023
+
+0.022
+
+0.021
+
+1.042
+
+1.041
+
+0.98
+
+0.97
+
+0.96
+
+1.90
+
+1.88
+
+1.86
+
+70
+
+60
+
+0.85
+
+0.80
+
+0.75
+
+1.05
+
+1.00
+
+0.95
+
+
+0.02
+
+0.01
+
+0.00
+
+−0.01
+
+0.115 0.125
+
+Ωch²
+
+0.022
+
+Ωbh²
+
+1.042
+
+100θs
+
+0.957 0.975
+
+ns
+
+1.86  1.90
+
+109Ase−2τ
+
+60  70
+
+H₀
+
+0.80 0.85
+
+σ₈
+
+0.95   1.05    0
+
+me,eraly/me,late   ΩK
+
+Figure 14: Varying mₑ + ΩK: 2D contours on relevant cosmological parameters for the
+default MCMC implementation (orange) and the emulator (blue).
+
+– 41 –
+
+
+SPT+Planck+BAO
+SPT+Planck+BAO using emulator
+
+0.0228
+
+0.0224
+
+0.0220
+
+0.98
+
+0.96
+
+1.93
+
+1.90
+
+1.87
+
+70
+
+68
+
+0.84
+
+0.82
+
+0.5
+
+0.0
+
+−0.5
+
+
+1
+
+0
+
+−1
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0.120 0.126 0.022
+
+Ωch²
+
+Ωbh²
+
+0.96  0.98
+
+ns
+
+1.88 1.92
+
+109Ase−2τ
+
+68  70
+
+H₀
+
+0.82 0.84
+
+σ₈
+
+−0.5  0.5
+
+log(mφ /eV)
+
+−1 0 1
+
+log(Γₑff)
+
+0.2  0.4
+
+∆Nur
+
+Figure 15: 2D contours of the Majoron model on relevant cosmological parameters with the
+default MCMC implementation (orange) and the emulator (blue).
+
+– 42 –
+
+
+[10] M. Tristram et al., “Cosmological parameters derived from the final (PR4) Planck data
+release”, arXiv:2309.10034 [astro-ph.CO].
+
+[11] E. Rosenberg, S. Gratton, and G. Efstathiou, “CMB power spectra and cosmological
+parameters from Planck PR4 with CamSpec”, Mon. Not. Roy. Astron. Soc. 517 no. 3, (2022)
+4620–4636, arXiv:2205.10869 [astro-ph.CO].
+
+[12] The ACT, M. S. Madhavacheril et al., “The Atacama Cosmology Telescope: DR6
+Gravitational Lensing Map and Cosmological Parameters”, arXiv:2304.05203
+[astro-ph.CO].
+
+[13] The SPT-3G, D. Dutcher et al., “Measurements of the E-mode polarization and
+temperature-E-mode correlation of the CMB from SPT-3G 2018 data”, Phys. Rev. D 104
+no.         2, (2021) 022003, arXiv:2101.01684 [astro-ph.CO].
+
+[14] The SPT-3G, L. Balkenhol et al., “A Measurement of the CMB Temperature Power
+Spectrum and Constraints on Cosmology from the SPT-3G 2018 TT/TE/EE Data Set”,
+arXiv:2212.05642 [astro-ph.CO].
+
+[15] The Pan-STARRS1, D. M. Scolnic et al., “The Complete Light-curve Sample of
+Spectroscopically Confirmed SNe Ia from Pan-STARRS1 and Cosmological Constraints from
+the  Combined Pantheon Sample”, Astrophys. J. 859 no. 2, (2018) 101, arXiv:1710.00845
+[astro-ph.CO].
+
+[16] The BOSS, S. Alam et al., “The clustering of galaxies in the completed SDSS-III Baryon
+Oscillation Spectroscopic Survey: cosmological analysis of the DR12 galaxy sample”, Mon.
+Not. Roy. Astron. Soc. 470 no. 3, (2017) 2617–2652, arXiv:1607.03155 [astro-ph.CO].
+
+[17] The eBOSS, S. Alam et al., “Completed SDSS-IV extended Baryon Oscillation Spectroscopic
+Survey: Cosmological implications from two decades of spectroscopic surveys at the Apache
+Point Observatory”, Phys. Rev. D 103 no. 8, (2021) 083533, arXiv:2007.08991
+
+[astro-ph.CO].
+
+[18] S. Burles and D. Tytler, “The Deuterium abundance towards Q1937-1009”, Astrophys. J. 499
+
+(1998) 699, arXiv:astro-ph/9712108.
+
+[19] R. J. Cooke, M. Pettini, and C. C. Steidel, “One Percent Determination of the Primordial
+Deuterium Abundance”, Astrophys. J. 855 no. 2, (2018) 102, arXiv:1710.11129
+
+[astro-ph.CO].
+
+[20] N. Schöneberg, J. Lesgourgues, and D. C. Hooper, “The BAO+BBN take on the Hubble
+tension”, JCAP 10 (2019) 029, arXiv:1907.11594 [astro-ph.CO].
+
+[21] E. Mortsell, A. Goobar, J. Johansson, and S. Dhawan, “The Hubble Tension Revisited:
+Additional Local Distance Ladder Uncertainties”, Astrophys. J. 935 no. 1, (2022) 58,
+arXiv:2106.09400 [astro-ph.CO].
+
+[22] A. G. Riess, S. Casertano, W. Yuan, L. M. Macri, and D. Scolnic, “Large Magellanic Cloud
+Cepheid Standards Provide a 1% Foundation for the Determination of the Hubble Constant
+and Stronger Evidence for Physics beyond ΛCDM”, Astrophys. J. 876 no. 1, (2019) 85,
+arXiv:1903.07603 [astro-ph.CO].
+
+[23] A. G. Riess, S. Casertano, W. Yuan, J. B. Bowers, L. Macri, J. C. Zinn, and D. Scolnic,
+“Cosmic Distances Calibrated to 1% Precision with Gaia EDR3 Parallaxes and Hubble Space
+Telescope Photometry of 75 Milky Way Cepheids Confirm Tension with ΛCDM”, Astrophys.
+
+J. Lett. 908 no. 1, (2021) L6, arXiv:2012.08534 [astro-ph.CO].
+
+[24] A. G. Riess et al., “A Comprehensive Measurement of the Local Value of the Hubble
+Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the SH0ES
+Team”, Astrophys. J. Lett. 934 no. 1, (2022) L7, arXiv:2112.04510 [astro-ph.CO].
+
+– 43 –
+
+
+[25] Y. S. Murakami, A. G. Riess, B. E. Stahl, W. D. Kenworthy, D.-M. A. Pluck, A. Macoretta,
+
+D. Brout, D. O. Jones, D. M. Scolnic, and A. V. Filippenko, “Leveraging SN Ia spectroscopic
+similarity to improve the measurement of H₀”, arXiv:2306.00070 [astro-ph.CO].
+
+[26] K. C. Wong et al., “H0LiCOW – XIII. A 2.4 per cent measurement of H0 from lensed quasars:
+
+5.3σ tension between early- and late-Universe probes”, Mon. Not. Roy. Astron. Soc. 498
+
+no. 1, (2020) 1420–1439, arXiv:1907.04869 [astro-ph.CO].
+
+[27] C. D. Huang, A. G. Riess, W. Yuan, L. M. Macri, N. L. Zakamska, S. Casertano, P. A.
+Whitelock, S. L. Hoffmann, A. V. Filippenko, and D. Scolnic, “Hubble Space Telescope
+Observations of Mira Variables in the Type Ia Supernova Host NGC 1559: An Alternative
+Candle to Measure the Hubble Constant”, arXiv:1908.10883 [astro-ph.CO].
+
+[28] T. de Jaeger, L. Galbany, A. G. Riess, B. E. Stahl, B. J. Shappee, A. V. Filippenko, and
+
+W. Zheng, “A 5 per cent measurement of the Hubble–Lemaître constant from Type II
+supernovae”, Mon. Not. Roy. Astron. Soc. 514 no. 3, (2022) 4620–4628, arXiv:2203.08974
+[astro-ph.CO].
+
+[29] R. B. Tully, H. M. Courtois, A. E. Dolphin, J. R. Fisher, P. Héraudeau, B. A. Jacobs, I. D.
+Karachentsev, D. Makarov, L. Makarova, S. Mitronova, L. Rizzi, E. J. Shaya, J. G. Sorce, and
+P.-F. Wu, “Cosmicflows-2: The Data”, Astrophysical Journal 146 no. 4, (Oct., 2013) 86,
+arXiv:1307.7213 [astro-ph.CO].
+
+[30] R. B. Tully, H. M. Courtois, and J. G. Sorce, “Cosmicflows-3”, Astrophysical Journal 152
+
+no. 2, (Aug., 2016) 50, arXiv:1605.01765 [astro-ph.CO].
+
+[31] W. L. Freedman et al., “The Carnegie-Chicago Hubble Program. VIII. An Independent
+Determination of the Hubble Constant Based on the Tip of the Red Giant Branch”,
+Astrophys.  J. 882 (2019) 34, arXiv:1907.05922 [astro-ph.CO].
+
+[32] G. S. Anand, R. B. Tully, L. Rizzi, A. G. Riess, and W. Yuan, “Comparing Tip of the Red
+Giant Branch Distance Scales: An Independent Reduction of the Carnegie-Chicago Hubble
+Program and the Value of the Hubble Constant”, Astrophys. J. 932 no. 1, (2022) 15,
+arXiv:2108.00007 [astro-ph.CO].
+
+[33] The LIGO Scientific, Virgo, VIRGO, B. P. Abbott et al., “A Gravitational-wave
+Measurement of the Hubble Constant Following the Second Observing Run of Advanced
+LIGO   and Virgo”, Astrophys. J. 909 no. 2, (2021) 218, arXiv:1908.06060 [astro-ph.CO].
+
+[34] R. D’Agostino and R. C. Nunes, “Cosmographic view on the H0 and σ8 tensions”, Phys. Rev.
+D 108 no. 2, (2023) 023523, arXiv:2307.13464 [astro-ph.CO].
+
+[35] E. Abdalla et al., “Cosmology intertwined: A review of the particle physics, astrophysics, and
+cosmology associated with the cosmological tensions and anomalies”, JHEAp 34 (2022)
+49–211, arXiv:2203.06142 [astro-ph.CO].
+
+[36] E. Mortsell, A. Goobar, J. Johansson, and S. Dhawan, “The Hubble Tension Revisited:
+Additional Local Distance Ladder Uncertainties”, Astrophys. J. 935 no. 1, (2022) 58,
+arXiv:2106.09400 [astro-ph.CO].
+
+[37] W. L. Freedman, “Measurements of the Hubble Constant: Tensions in Perspective”,
+Astrophys. J. 919 no. 1, (2021) 16, arXiv:2106.15656 [astro-ph.CO].
+
+[38] S. Carneiro, C. Pigozzo, and J. S. Alcaniz, “Redshift systematics and the H₀ tension
+problem”, Eur. Phys. J. Plus 137 no. 5, (2022) 537.
+
+[39] G. Efstathiou, “A Lockdown Perspective on the Hubble Tension (with comments from the
+SH0ES team)”, arXiv:2007.10716 [astro-ph.CO].
+
+[40] The Nearby Supernova Factory, M. Rigault et al., “Strong Dependence of Type Ia
+Supernova Standardization on the Local Specific Star Formation Rate”, Astron. Astrophys.
+644 (2020) A176, arXiv:1806.03849 [astro-ph.CO].
+
+– 44 –
+
+
+[41] K. Blum, E. Castorina, and M. Simonović, “Could Quasar Lensing Time Delays Hint to a
+Core Component in Halos, Instead of H₀ Tension?”, Astrophys. J. Lett. 892 no. 2, (2020)
+L27, arXiv:2001.07182 [astro-ph.CO].
+
+[42] M. Millon et al., “TDCOSMO. I. An exploration of systematic uncertainties in the inference
+of H₀ from time-delay cosmography”, Astron. Astrophys. 639 (2020) A101,
+arXiv:1912.08027 [astro-ph.CO].
+
+[43] A. Sharon, D. Kushnir, W. Yuan, L. Macri, and A. Riess, “Reassessing the Constraints from
+SH0ES Extragalactic Cepheid Amplitudes on Systematic Blending Bias”, arXiv:2305.14435
+[astro-ph.CO].
+
+[44] R. Alves Batista et al., “EuCAPT White Paper: Opportunities and Challenges for
+Theoretical Astroparticle Physics in the Next Decade”, arXiv:2110.10074 [astro-ph.HE].
+
+[45] P. Bull et al., “Beyond ΛCDM: Problems, solutions, and the road ahead”, Phys. Dark Univ.
+
+12 (2016) 56–99, arXiv:1512.05356 [astro-ph.CO].
+
+[46] T. Clifton, P. G. Ferreira, A. Padilla, and C. Skordis, “Modified Gravity and Cosmology”,
+Phys. Rept. 513 (2012) 1–189, arXiv:1106.2476 [astro-ph.CO].
+
+[47] S. Dodelson and F. Schmidt, Modern Cosmology, 2nd edition. Academic Press, April, 2020.
+
+[48] E. V. Linder, “Exploring the Expansion History of the Universe”, Phys. Rev. Lett. 90 (Mar,
+2003) 091301. https://link.aps.org/doi/10.1103/PhysRevLett.90.091301.
+
+[49] M. Chevallier and D. Polarski, “Accelerating universes with scaling dark matter”, Int. J. Mod.
+Phys. D 10 (2001) 213–224, arXiv:gr-qc/0009008.
+
+[50] V. Poulin, K. K. Boddy, S. Bird, and M. Kamionkowski, “Implications of an extended dark
+energy cosmology with massive neutrinos for cosmological tensions”, Phys. Rev. D 97 (Jun,
+2018) 123504. https://link.aps.org/doi/10.1103/PhysRevD.97.123504.
+
+[51] G.-B. Zhao et al., “Dynamical dark energy in light of the latest observations”, Nature Astron.
+
+1 no. 9, (2017) 627–632, arXiv:1701.08165 [astro-ph.CO].
+
+[52] S. Vagnozzi, “Seven Hints That Early-Time New Physics Alone Is Not Sufficient to Solve the
+Hubble Tension”, Universe 9 no. 9, (2023) 393, arXiv:2308.16628 [astro-ph.CO].
+
+[53] H. G. Escudero, J.-L. Kuo, R. E. Keeley, and K. N. Abazajian, “Early or phantom dark
+energy, self-interacting, extra, or massive neutrinos, primordial magnetic fields, or a curved
+universe: An exploration of possible solutions to the H0 and σ8 problems”, Phys. Rev. D 106
+no. 10, (2022) 103517, arXiv:2208.14435 [astro-ph.CO].
+
+[54] R.-G. Cai, Z.-K. Guo, S.-J. Wang, W.-W. Yu, and Y. Zhou, “No-go guide for the Hubble
+tension: Late-time solutions”, Phys. Rev. D 105 no. 2, (2022) L021301, arXiv:2107.13286
+[astro-ph.CO].
+
+[55] J.-P. Uzan, “Varying Constants, Gravitation and Cosmology”, Living Rev. Rel. 14 (2011) 2,
+
+arXiv:1009.5514 [astro-ph.CO].
+
+[56] L. Hart and J. Chluba, “New constraints on time-dependent variations of fundamental
+constants using Planck data”, Mon. Not. Roy. Astron. Soc. 474 no. 2, (2018) 1850–1861,
+arXiv:1705.03925 [astro-ph.CO].
+
+[57] L. Hart and J. Chluba, “Updated fundamental constant constraints from Planck 2018 data
+and possible relations to the Hubble tension”, Mon. Not. Roy. Astron. Soc. 493 no. 3, (2020)
+3255–3263, arXiv:1912.03986 [astro-ph.CO].
+
+[58] The Planck, P. A. R. Ade et al., “Planck intermediate results - XXIV. Constraints on
+variations in fundamental constants”, Astron. Astrophys. 580 (2015) A22, arXiv:1406.7482
+[astro-ph.CO].
+
+– 45 –
+
+
+[59] T. Sekiguchi and T. Takahashi, “Early recombination as a solution to the H₀ tension”, Phys.
+Rev. D 103 no. 8, (2021) 083507, arXiv:2007.03381 [astro-ph.CO].
+
+[60] V. Poulin, T. L. Smith, T. Karwal, and M. Kamionkowski, “Early Dark Energy Can Resolve
+The Hubble Tension”, Phys. Rev. Lett. 122 no. 22, (2019) 221301, arXiv:1811.04083
+[astro-ph.CO].
+
+[61] E. Mörtsell and S. Dhawan, “Does the Hubble constant tension call for new physics?”, JCAP
+
+09 (2018) 025, arXiv:1801.07260 [astro-ph.CO].
+
+[62] T. Karwal and M. Kamionkowski, “Dark energy at early times, the Hubble parameter, and the
+string axiverse”, Phys. Rev. D 94 no. 10, (2016) 103523, arXiv:1608.01309 [astro-ph.CO].
+
+[63] M. Escudero and S. J. Witte, “A CMB search for the neutrino mass mechanism and its
+relation to the Hubble tension”, Eur. Phys. J. C 80 no. 4, (2020) 294, arXiv:1909.04044
+[astro-ph.CO].
+
+[64] M. Escudero Abenza and S. J. Witte, “Could the Hubble Tension be Pointing Towards the
+Neutrino Mass Mechanism?”, in Prospects in Neutrino Physics. 4, 2020. arXiv:2004.01470
+[hep-ph].
+
+[65] M. Escudero and S. J. Witte, “The hubble tension as a hint of leptogenesis and neutrino mass
+generation”, Eur. Phys. J. C 81 no. 6, (2021) 515, arXiv:2103.03249 [hep-ph].
+
+[66] F. Beutler, C. Blake, M. Colless, D. H. Jones, L. Staveley-Smith, L. Campbell, Q. Parker,
+
+W. Saunders, and F. Watson, “The 6dF Galaxy Survey: baryon acoustic oscillations and the
+local Hubble constant”, MNRAS 416 no. 4, (Oct., 2011) 3017–3032, arXiv:1106.3366
+[astro-ph.CO].
+
+[67] A. J. Ross, L. Samushia, C. Howlett, W. J. Percival, A. Burden, and M. Manera, “The
+clustering of the SDSS DR7 main Galaxy sample – I. A 4 per cent distance measure at
+z = 0.15”, Mon. Not. Roy. Astron. Soc. 449 no. 1, (2015) 835–847, arXiv:1409.3242
+
+[astro-ph.CO].
+
+[68] The ACT, S. K. Choi et al., “The Atacama Cosmology Telescope: a measurement of the
+Cosmic Microwave Background power spectra at 98 and 150 GHz”, JCAP 12 (2020) 045,
+arXiv:2007.07289 [astro-ph.CO].
+
+[69] The ACT, S. Aiola et al., “The Atacama Cosmology Telescope: DR4 Maps and Cosmological
+Parameters”, JCAP 12 (2020) 047, arXiv:2007.07288 [astro-ph.CO].
+
+[70] S. Günther, J. Lesgourgues, G. Samaras, N. Schöneberg, F. Stadtmann, C. Fidler, and
+
+J. Torrado, “CosmicNet II: emulating extended cosmologies with efficient and accurate neural
+networks”, Journal of Cosmology and Astroparticle Physics 2022 no. 11, (Nov, 2022) 035.
+https://doi.org/10.1088%2F1475-7516%2F2022%2F11%2F035.
+
+[71] J. C. Hill et al., “Atacama Cosmology Telescope: Constraints on prerecombination early dark
+energy”, Phys. Rev. D 105 no. 12, (2022) 123536, arXiv:2109.04451 [astro-ph.CO].
+
+[72] G. Franco Abellán, M. Braglia, M. Ballardini, F. Finelli, and V. Poulin, “Probing Early
+Modification of Gravity with Planck, ACT and SPT”, arXiv:2308.12345 [astro-ph.CO].
+
+[73] V. Poulin, T. L. Smith, and T. Karwal, “The Ups and Downs of Early Dark Energy solutions
+to the Hubble tension: a review of models, hints and constraints circa 2023”,
+arXiv:2302.09032 [astro-ph.CO].
+
+[74] S. Sandner, M. Escudero, and S. J. Witte, “Precision CMB constraints on eV-scale bosons
+coupled to neutrinos”, Eur. Phys. J. C 83 no. 8, (2023) 709, arXiv:2305.01692 [hep-ph].
+
+[75] C. Heymans et al., “CFHTLenS tomographic weak lensing cosmological parameter
+constraints: Mitigating the impact of intrinsic galaxy alignments”, Mon. Not. Roy. Astron.
+Soc.  432 (2013) 2433, arXiv:1303.1808 [astro-ph.CO].
+
+– 46 –
+
+
+[76] H. Hildebrandt et al., “KiDS+VIKING-450: Cosmic shear tomography with optical and
+infrared data”, Astron. Astrophys. 633 (2020) A69, arXiv:1812.06076 [astro-ph.CO].
+
+[77] The Super-Kamiokande Collaboration, Y. Fukuda, T. Hayakawa, E. Ichihara, K. Inoue,
+
+K. Ishihara, H. Ishino, Y. Itow, T. Kajita, J. Kameda, S. Kasuga, K. Kobayashi,
+
+Y. Kobayashi, Y. Koshio, M. Miura, M. Nakahata, S. Nakayama, A. Okada, K. Okumura,
+
+N. Sakurai, M. Shiozawa, Y. Suzuki, Y. Takeuchi, Y. Totsuka, S. Yamada, M. Earl, A. Habig,
+
+E. Kearns, M. D. Messier, K. Scholberg, J. L. Stone, L. R. Sulak, C. W. Walter,
+
+M. Goldhaber, T. Barszczxak, D. Casper, W. Gajewski, P. G. Halverson, J. Hsu, W. R.
+Kropp, L. R. Price, F. Reines, M. Smy, H. W. Sobel, M. R. Vagins, K. S. Ganezer, W. E.
+Keig, R. W. Ellsworth, S. Tasaka, J. W. Flanagan, A. Kibayashi, J. G. Learned, S. Matsuno,
+
+V. J. Stenger, D. Takemori, T. Ishii, J. Kanzaki, T. Kobayashi, S. Mine, K. Nakamura,
+
+K. Nishikawa, Y. Oyama, A. Sakai, M. Sakuda, O. Sasaki, S. Echigo, M. Kohama, A. T.
+Suzuki, T. J. Haines, E. Blaufuss, B. K. Kim, R. Sanford, R. Svoboda, M. L. Chen,
+
+Z. Conner, J. A. Goodman, G. W. Sullivan, J. Hill, C. K. Jung, K. Martens, C. Mauger,
+
+C. McGrew, E. Sharkey, B. Viren, C. Yanagisawa, W. Doki, K. Miyano, H. Okazawa, C. Saji,
+
+M. Takahata, Y. Nagashima, M. Takita, T. Yamaguchi, M. Yoshida, S. B. Kim, M. Etoh,
+
+K. Fujita, A. Hasegawa, T. Hasegawa, S. Hatakeyama, T. Iwamoto, M. Koga, T. Maruyama,
+
+H. Ogawa, J. Shirai, A. Suzuki, F. Tsushima, M. Koshiba, M. Nemoto, K. Nishijima,
+
+T. Futagami, Y. Hayato, Y. Kanaya, K. Kaneyuki, Y. Watanabe, D. Kielczewska, R. A.
+Doyle, J. S. George, A. L. Stachyra, L. L. Wai, R. J. Wilkes, and K. K. Young, “Evidence for
+Oscillation of Atmospheric Neutrinos”, Phys. Rev. Lett. 81 (Aug, 1998) 1562–1567.
+https://link.aps.org/doi/10.1103/PhysRevLett.81.1562.
+
+[78] J. N. Bahcall, Neutrino Astrophysics. 1989.
+
+[79] The Planck, N. Aghanim et al., “Planck 2018 results. V. CMB power spectra and
+likelihoods”, Astron. Astrophys. 641 (2020) A5, arXiv:1907.12875 [astro-ph.CO].
+
+[80] J. R. Bond, G. Efstathiou, and J. Silk, “Massive Neutrinos and the Large Scale Structure of
+the Universe”, Phys. Rev. Lett. 45 (1980) 1980–1984.
+
+[81] W. Hu, D. J. Eisenstein, and M. Tegmark, “Weighing neutrinos with galaxy surveys”, Phys.
+Rev. Lett. 80 (1998) 5255–5258, arXiv:astro-ph/9712057.
+
+[82] J. Lesgourgues and S. Pastor, “Massive neutrinos and cosmology”, Phys. Rept. 429 (2006)
+307–379, arXiv:astro-ph/0603494.
+
+[83] J. Lesgourgues, G. Mangano, G. Miele, and S. Pastor, Neutrino Cosmology. Cambridge
+University Press, 2, 2013.
+
+[84] M. Lattanzi and M. Gerbino, “Status of neutrino properties and future prospects -
+Cosmological and astrophysical constraints”, Front. in Phys. 5 (2018) 70, arXiv:1712.07109
+[astro-ph.CO].
+
+[85] J. Lesgourgues, S. Pastor, and L. Perotto, “Probing neutrino masses with future galaxy
+redshift surveys”, Phys. Rev. D 70 (2004) 045016, arXiv:hep-ph/0403296.
+
+[86] M. Archidiacono, S. Hannestad, and J. Lesgourgues, “What will it take to measure individual
+neutrino mass states using cosmology?”, JCAP 09 (2020) 021, arXiv:2003.03354
+
+[astro-ph.CO].
+
+[87] W. Hu and I. Sawicki, “A Parameterized Post-Friedmann Framework for Modified Gravity”,
+Phys. Rev. D 76 (2007) 104043, arXiv:0708.1190 [astro-ph].
+
+[88] J. Froustey, C. Pitrou, and M. C. Volpe, “Neutrino decoupling including flavour oscillations
+and primordial nucleosynthesis”, JCAP 12 (2020) 015, arXiv:2008.01074 [hep-ph].
+
+[89] J. J. Bennett, G. Buldgen, P. F. De Salas, M. Drewes, S. Gariazzo, S. Pastor, and Y. Y. Y.
+
+Wong, “Towards a precision calculation of Nₑff in the Standard Model II: Neutrino decoupling
+
+– 47 –
+
+
+in the presence of flavour oscillations and finite-temperature QED”, JCAP 04 (2021) 073,
+
+arXiv:2012.02726 [hep-ph].
+
+[90] Z. Hou, R. Keisler, L. Knox, M. Millea, and C. Reichardt, “How Massless Neutrinos Affect
+the Cosmic Microwave Background Damping Tail”, Phys. Rev. D 87 (2013) 083008,
+arXiv:1104.2333 [astro-ph.CO].
+
+[91] J. L. Bernal, L. Verde, and A. G. Riess, “The trouble with H₀”, JCAP 10 (2016) 019,
+
+arXiv:1607.05617 [astro-ph.CO].
+
+[92] E. Di Valentino, A. Melchiorri, and J. Silk, “Cosmological constraints in extended parameter
+space from the Planck 2018 Legacy release”, JCAP 01 (2020) 013, arXiv:1908.01391
+[astro-ph.CO].
+
+[93] F.-Y. Cyr-Racine, K. Sigurdson, J. Zavala, T. Bringmann, M. Vogelsberger, and
+
+C. Pfrommer, “ETHOS—an effective theory of structure formation: From dark particle
+physics to the matter distribution of the Universe”, Phys. Rev. D 93 no. 12, (2016) 123527,
+arXiv:1512.05344 [astro-ph.CO].
+
+[94] J. Lesgourgues, G. Marques-Tavares, and M. Schmaltz, “Evidence for dark matter interactions
+in cosmological precision data?”, JCAP 02 (2016) 037, arXiv:1507.04351 [astro-ph.CO].
+
+[95] S. Bashinsky and U. Seljak, “Neutrino perturbations in CMB anisotropy and matter
+clustering”, Phys. Rev. D 69 (2004) 083002, arXiv:astro-ph/0310198.
+
+[96] B. Audren et al., “Robustness of cosmic neutrino background detection in the cosmic
+microwave background”, JCAP 03 (2015) 036, arXiv:1412.5948 [astro-ph.CO].
+
+[97] D. Baumann, D. Green, J. Meyers, and B. Wallisch, “Phases of New Physics in the CMB”,
+JCAP 01 (2016) 007, arXiv:1508.06342 [astro-ph.CO].
+
+[98] B. Follin, L. Knox, M. Millea, and Z. Pan, “First Detection of the Acoustic Oscillation Phase
+Shift Expected from the Cosmic Neutrino Background”, Phys. Rev. Lett. 115 no. 9, (2015)
+091301, arXiv:1503.07863 [astro-ph.CO].
+
+[99] P. Langacker, G. Segre, and M. J. Strassler, “Implications of gauge unification for time
+variation of the fine structure constant”, Phys. Lett. B 528 (2002) 121–128,
+arXiv:hep-ph/0112233.
+
+[100] O. Seto and Y. Toda, “Big bang nucleosynthesis constraints on varying electron mass solution
+to the Hubble tension”, Phys. Rev. D 107 no. 8, (2023) 083512, arXiv:2206.13209
+
+[astro-ph.CO].
+
+[101] A.-K. Burns, T. M. P. Tait, and M. Valli, “PRyMordial: The First Three Minutes, Within
+and Beyond the Standard Model”, 2023.
+
+[102] M. Kamionkowski, J. Pradler, and D. G. E. Walker, “Dark energy from the string axiverse”,
+Phys. Rev. Lett. 113 no. 25, (2014) 251302, arXiv:1409.0549 [hep-ph].
+
+[103] F. Niedermann and M. S. Sloth, “Resolving the Hubble tension with new early dark energy”,
+Phys. Rev. D 102 no. 6, (2020) 063527, arXiv:2006.06686 [astro-ph.CO].
+
+[104] L. Herold, E. G. M. Ferreira, and E. Komatsu, “New Constraint on Early Dark Energy from
+Planck and BOSS Data Using the Profile Likelihood”, Astrophys. J. Lett. 929 no. 1, (2022)
+L16, arXiv:2112.12140 [astro-ph.CO].
+
+[105] L. Herold and E. G. M. Ferreira, “Resolving the Hubble tension with Early Dark Energy”,
+
+arXiv:2210.16296 [astro-ph.CO].
+
+[106] K. Murai, F. Naokawa, T. Namikawa, and E. Komatsu, “Isotropic cosmic birefringence from
+early dark energy”, Phys. Rev. D 107 no. 4, (2023) L041302, arXiv:2209.07804
+
+[astro-ph.CO].
+
+– 48 –
+
+
+[107] J. R. Eskilt, L. Herold, E. Komatsu, K. Murai, T. Namikawa, and F. Naokawa, “Constraint
+on Early Dark Energy from Isotropic Cosmic Birefringence”, arXiv:2303.15369
+
+[astro-ph.CO].
+
+[108] J. Stevens, H. Khoraminezhad, and S. Saito, “Constraining the spatial curvature with cosmic
+expansion history in a cosmological model with a non-standard sound horizon”, JCAP 07
+(2023) 046, arXiv:2212.09804 [astro-ph.CO].
+
+[109] M. Braglia, M. Ballardini, F. Finelli, and K. Koyama, “Early modified gravity in light of the
+H₀ tension and LSS data”, Phys. Rev. D 103 no. 4, (2021) 043528, arXiv:2011.12934
+[astro-ph.CO].
+
+[110] T. L. Smith and V. Poulin, “Current small-scale CMB constraints to axion-like early dark
+energy”, arXiv:2309.03265 [astro-ph.CO].
+
+[111] F. Niedermann and M. S. Sloth, “Hot new early dark energy”, Phys. Rev. D 105 no. 6, (2022)
+063509, arXiv:2112.00770 [hep-ph].
+
+[112] D. Aloni, A. Berlin, M. Joseph, M. Schmaltz, and N. Weiner, “A Step in understanding the
+Hubble tension”, Phys. Rev. D 105 no. 12, (2022) 123516, arXiv:2111.00014
+
+[astro-ph.CO].
+
+[113] N. Schöneberg and G. Franco Abellán, “A step in the right direction? Analyzing the Wess
+Zumino Dark Radiation solution to the Hubble tension”, JCAP 12 (2022) 001,
+arXiv:2206.11276 [astro-ph.CO].
+
+[114] Y. Zhai, W. Giarè, C. van de Bruck, E. Di Valentino, O. Mena, and R. C. Nunes, “A
+consistent view of interacting dark energy from multiple CMB probes”, JCAP 07 (2023) 032,
+arXiv:2303.08201 [astro-ph.CO].
+
+[115] K. Jedamzik and T. Abel, “Small-scale primordial magnetic fields and anisotropies in the
+cosmic microwave background radiation”, JCAP 2013 no. 10, (Oct., 2013) 050.
+
+[116] K. Jedamzik and L. Pogosian, “Relieving the Hubble tension with primordial magnetic fields”,
+Phys. Rev. Lett. 125 no. 18, (2020) 181302, arXiv:2004.09487 [astro-ph.CO].
+
+[117] The Planck, N. Aghanim et al., “Planck 2018 results. VIII. Gravitational lensing”, Astron.
+Astrophys. 641 (2020) A8, arXiv:1807.06210 [astro-ph.CO].
+
+[118] N. Kaiser, “Clustering in real space and in redshift space”, "Mon. Not. Roy. Astron. Soc." 
+227
+
+(July, 1987) 1–21.
+
+[119] C. Alcock and B. Paczynski, “An evolution free test for non-zero cosmological constant”,
+"Nature" 281 (Oct., 1979) 358.
+
+[120] A. Lewis, A. Challinor, and A. Lasenby, “Efficient computation of CMB anisotropies in closed
+FRW models”, Astrophys. J. 538 (2000) 473–476, arXiv:astro-ph/9911177.
+
+[121] J. Lesgourgues, “The Cosmic Linear Anisotropy Solving System (CLASS) I: Overview”,
+
+arXiv:1104.2932 [astro-ph.IM].
+
+[122] D. Blas, J. Lesgourgues, and T. Tram, “The Cosmic Linear Anisotropy Solving System
+(CLASS) II: Approximation schemes”, JCAP 07 (2011) 034, arXiv:1104.2933
+[astro-ph.CO].
+
+[123] T. L. Smith, V. Poulin, and M. A. Amin, “Oscillating scalar fields and the Hubble tension: a
+resolution with novel signatures”, Phys. Rev. D 101 no. 6, (2020) 063523, arXiv:1908.06995
+[astro-ph.CO].
+
+[124] V. Poulin, T. L. Smith, D. Grin, T. Karwal, and M. Kamionkowski, “Cosmological
+implications of ultralight axionlike fields”, Phys. Rev. D 98 no. 8, (2018) 083525,
+arXiv:1806.10608 [astro-ph.CO].
+
+– 49 –
+
+
+[125] J. Torrado and A. Lewis, “Cobaya: Code for Bayesian Analysis of hierarchical physical
+models”, JCAP 05 (2021) 057, arXiv:2005.05290 [astro-ph.IM].
+
+[126] J. Torrado and A. Lewis, “Cobaya: Bayesian analysis in cosmology.” Astrophysics source code
+library, record ascl:1910.019, Oct., 2019.
+
+[127] W. K. Hastings, “Monte Carlo Sampling Methods Using Markov Chains and Their
+Applications”, Biometrika 57 no. 1, (1970) 97–109. http://www.jstor.org/stable/2334940.
+
+[128] N. Metropolis, A. W. Rosenbluth, M. N. Rosenbluth, A. H. Teller, and E. Teller, “Equation of
+State Calculations by Fast Computing Machines”, Journal of Chemical Physics 21 no. 6,
+(June, 1953) 1087–1092.
+
+[129] A. Lewis, “GetDist: a Python package for analysing Monte Carlo samples”,
+
+arXiv:1910.13970 [astro-ph.IM]. https://getdist.readthedocs.io.
+
+[130] A. Gelman and D. B. Rubin, “Inference from Iterative Simulation Using Multiple Sequences”,
+Statistical Science 7 no. 4, (1992) 457–472. http://www.jstor.org/stable/2246093.
+
+[131] S. Günther, “Uncertainty-aware and Data-efficient Cosmological Emulation using Gaussian
+Processes and PCA”, arXiv:2307.01138 [astro-ph.CO].
+
+[132] A. S. Mancini, D. Piras, J. Alsing, B. Joachimi, and M. P. Hobson, “CosmoPower: emulating
+cosmological power spectra for accelerated Bayesian inference from next-generation surveys”,
+Monthly Notices of the Royal Astronomical Society 511 no. 2, (Jan, 2022) 1771–1788.
+https://doi.org/10.1093%2Fmnras%2Fstac064.
+
+[133] A. Nygaard, E. B. Holm, S. Hannestad, and T. Tram, “CONNECT: a neural network based
+framework for emulating cosmological observables and cosmological parameter inference”,
+Journal of Cosmology and Astroparticle Physics 2023 no. 05, (May, 2023) 025.
+https://doi.org/10.1088%2F1475-7516%2F2023%2F05%2F025.
+
+[134] M. Bonici, F. Bianchini, and J. Ruiz-Zapatero, “Capse.jl: efficient and auto-differentiable
+CMB power spectra emulation”, 2023.
+
+[135] C. Weniger, B. K. Miller, F. Nattino, A. Cole, O. Ku, M. W. Grootes, A. Coogan, N. A.
+Montel, and A. Saxena, “undark-lab/swyft: v0.4.5”, Sept., 2023.
+https://doi.org/10.5281/zenodo.8349112.
+
+[136] M. Karamanis, F. Beutler, and J. A. Peacock, “<tt>zeus</tt>: a <scp>python</scp>
+implementation of ensemble slice sampling for efficient Bayesian parameter inference”,
+Monthly Notices of the Royal Astronomical Society 508 no. 3, (Oct., 2021) 3589–3603.
+http://dx.doi.org/10.1093/mnras/stab2867.
+
+[137] C. E. Rasmussen, Gaussian Processes in Machine Learning, pp. 63–71. Springer Berlin
+Heidelberg, Berlin, Heidelberg, 2004. https://doi.org/10.1007/978-3-540-28650-9_4.
+
+[138] T. Brinckmann and J. Lesgourgues, “MontePython 3: boosted MCMC sampler and other
+features”, arXiv:1804.07261 [astro-ph.CO].
+
+[139] B. Audren, J. Lesgourgues, K. Benabed, and S. Prunet, “Conservative Constraints on Early
+Cosmology: an illustration of the Monte Python cosmological parameter inference code”,
+JCAP 1302 (2013) 001, arXiv:1210.7183 [astro-ph.CO].
+
+[140] S. Günther et al, “in preparation”, 2024.
+
+[141] M. Raveri and C. Doux, “Non-Gaussian estimates of tensions in cosmological parameters”,
+Phys. Rev. D 104 no. 4, (2021) 043504, arXiv:2105.03324 [astro-ph.CO].
+
+[142] M. Leizerovich, S. J. Landau, and C. G. Scóccola, “Tensions in cosmology: a discussion of
+statistical tools to determine inconsistencies”, arXiv:2312.08542 [astro-ph.CO].
+
+[143] M. Raveri and W. Hu, “Concordance and discordance in cosmology”, Phys. Rev. D 99 (Feb,
+2019) 043506. https://link.aps.org/doi/10.1103/PhysRevD.99.043506.
+
+– 50 –
+
+
+[144] H. Akaike, “A new look at the statistical model identification”, IEEE Transactions on
+Automatic Control 19 no. 6, (1974) 716–723.
+
+[145] R. Trotta, “Bayesian Methods in Cosmology”, 1, 2017. arXiv:1701.01467 [astro-ph.CO].
+
+[146] M. Cortês and A. R. Liddle, “On dataset tensions and signatures of new cosmological
+physics”, arXiv:2309.03286 [astro-ph.CO].
+
+[147] M. Bahrami Zanjani, A. R. Khalife, S. Günther, S. Galli, J. Lesgourgues, and K. Benabed,
+“Supplamantary plots for this work.”
+
+https://github.com/ark93-cosmo/Coll.-On-SPT3G-Analysis, 2023.
+
+[148] S. Ghosh, S. Kumar, and Y. Tsai, “Free-streaming and coupled dark radiation isocurvature
+perturbations: constraints and application to the Hubble tension”, JCAP 05 no. 05, (2022)
+014, arXiv:2107.09076 [astro-ph.CO].
+
+[149] M. A. Buen-Abad, Z. Chacko, C. Kilic, G. Marques-Tavares, and T. Youn, “Stepped partially
+acoustic dark matter, large scale structure, and the Hubble tension”, JHEP 06 (2023) 012,
+arXiv:2208.05984 [hep-ph].
+
+[150] M. A. Buen-Abad, Z. Chacko, C. Kilic, G. Marques-Tavares, and T. Youn, “Stepped Partially
+Acoustic Dark Matter: Likelihood Analysis and Cosmological Tensions”, arXiv:2306.01844
+[astro-ph.CO].
+
+[151] N. Schöneberg, G. Franco Abellán, T. Simon, A. Bartlett, Y. Patel, and T. L. Smith, “The
+weak, the strong and the ugly – A comparative analysis of interacting stepped dark
+radiation”, arXiv:2306.12469 [astro-ph.CO].
+
+[152] F.-Y. Cyr-Racine, F. Ge, and L. Knox, “Symmetry of Cosmological Observables, a Mirror
+World Dark Sector, and the Hubble Constant”, Phys. Rev. Lett. 128 no. 20, (2022) 201301,
+arXiv:2107.13000 [astro-ph.CO].
+
+[153] The KATRIN, J. Angrik et al., “KATRIN design report 2004”,.
+
+[154] A. Gómez-Valent, “Fast test to assess the impact of marginalization in Monte Carlo analyses
+and its application to cosmology”, Phys. Rev. D 106 no. 6, (2022) 063506, arXiv:2203.16285
+[astro-ph.CO].
+
+[155] B. Hadzhiyska, K. Wolz, S. Azzoni, D. Alonso, C. García-García, J. Ruiz-Zapatero, and
+
+A. Slosar, “Cosmology with 6 parameters in the Stage-IV era: efficient marginalisation over
+nuisance parameters”, arXiv:2301.11895 [astro-ph.CO].
+
+[156] A. Reeves, L. Herold, S. Vagnozzi, B. D. Sherwin, and E. G. M. Ferreira, “Restoring
+cosmological concordance with early dark energy and massive neutrinos?”, Mon. Not. Roy.
+Astron. Soc. 520 no. 3, (2023) 3688–3695, arXiv:2207.01501 [astro-ph.CO].
+
+[157] J. Z. Chen, I. M. Oldengott, G. Pierobon, and Y. Y. Y. Wong, “Weaker yet again: mass
+spectrum-consistent cosmological constraints on the neutrino lifetime”, Eur. Phys. J. C 82
+no. 7, (2022) 640, arXiv:2203.09075 [hep-ph].
+
+[158] G. Barenboim, J. Z. Chen, S. Hannestad, I. M. Oldengott, T. Tram, and Y. Y. Y. Wong,
+“Invisible neutrino decay in precision cosmology”, JCAP 03 (2021) 087, arXiv:2011.01502
+[astro-ph.CO].
+
+[159] C. Heymans et al., “KiDS-1000 Cosmology: Multi-probe weak gravitational lensing and
+spectroscopic galaxy clustering constraints”, Astron. Astrophys. 646 (2021) A140,
+arXiv:2007.15632 [astro-ph.CO].
+
+[160] The Kilo-Degree Survey, DES, T. M. C. Abbott et al., “DES Y3 + KiDS-1000: Consistent
+cosmology combining cosmic shear surveys”, arXiv:2305.17173 [astro-ph.CO].
+
+[161] A. Lewis, “Efficient sampling of fast and slow cosmological parameters”, Physical Review D
+
+87 no. 10, (May, 2013) . https://doi.org/10.1103%2Fphysrevd.87.103529.
+
+– 51 –
+
+
+[162] H. Prince and J. Dunkley, “Data compression in cosmology: A compressed likelihood for
+Planck data”, Physical Review D 100 no. 8, (Oct, 2019) .
+https://doi.org/10.1103%2Fphysrevd.100.083502.
+
+[163] C. Cartis, J. Fiala, B. Marteau, and L. Roberts, “Improving the Flexibility and Robustness of
+Model-Based Derivative-Free Optimization Solvers”, arXiv e-prints (Mar., 2018)
+arXiv:1804.00154, arXiv:1804.00154 [math.OC].
+
+[164] C. Cartis, L. Roberts, and O. Sheridan-Methven, “Escaping local minima with derivative-free
+methods: a numerical investigation”, arXiv e-prints (Dec., 2018) arXiv:1812.11343,
+arXiv:1812.11343 [math.OC].
+
+[165] A. Nygaard, E. B. Holm, S. Hannestad, and T. Tram, “Fast and effortless computation of
+profile likelihoods using CONNECT”, 2023.
+
+– 52 –
+

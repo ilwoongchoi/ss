@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mandelbrot Pocket Folding - Unified Consciousness Theory</title>
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            color: #0f0;
+            font-family: 'Courier New', monospace;
+            overflow: hidden;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        #canvas-container {
+            flex: 1;
+            position: relative;
+        }
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        #ui {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.8);
+            padding: 15px;
+            border: 1px solid #0f0;
+            font-size: 11px;
+            max-width: 350px;
+        }
+        #controls {
+            padding: 10px;
+            background: #111;
+            border-top: 1px solid #0f0;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            font-size: 12px;
+        }
+        .pocket-info {
+            position: absolute;
+            background: rgba(0,0,0,0.9);
+            border: 1px solid #0f0;
+            padding: 8px;
+            font-size: 10px;
+            pointer-events: none;
+            display: none;
+        }
+        input[type="range"] {
+            width: 100px;
+        }
+        .tunnel-line {
+            stroke: #0f0;
+            stroke-width: 0.5;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="canvas-container">
+            <canvas id="mandelbrot"></canvas>
+            <div id="ui">
+                <div><b>MANDELBROT POCKET FOLDING</b></div>
+                <div>Complex z = x + iy</div>
+                <div>Folding: z → z/|z| × (1 - tanh(|z|×fold))</div>
+                <br>
+                <div><b>POCKETS (constants):</b></div>
+                <div>• C = 0.2828 (√2/5) - Electron anchor</div>
+                <div>• θ = 138.88° (Spark angle)</div>
+                <div>• Ω = 7.4 (Homeostasis lock)</div>
+                <div>• δ = 0.076 (Slotting delta)</div>
+                <div>• W7 = π/20 (Barnard gate)</div>
+                <br>
+                <div>Click to toggle fold view</div>
+            </div>
+            <div class="pocket-info" id="tooltip"></div>
+        </div>
+        <div id="controls">
+            <label>Fold Strength: <input type="range" id="foldSlider" min="0" max="3" step="0.01" value="1"></label>
+            <label>Zoom: <input type="range" id="zoomSlider" min="0.5" max="5" step="0.1" value="2"></label>
+            <label>Rotation: <input type="range" id="rotSlider" min="0" max="360" step="1" value="0"></label>
+            <label>Veins Graph: <input type="file" id="veinsFile" accept=".json"></label>
+            <label><input type="checkbox" id="showVeins"> Veins</label>
+            <label><input type="checkbox" id="showVeinTunnels" checked> MST tunnels</label>
+            <label>Skip: <input type="range" id="skipSlider" min="1" max="50" step="1" value="1"></label>
+            <span id="veinsStatus"></span>
+            <span id="coords">z = 0 + 0i</span>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('mandelbrot');
+        const ctx = canvas.getContext('2d');
+        const tooltip = document.getElementById('tooltip');
+        
+        let width, height;
+        let centerX, centerY;
+        let scale = 200;
+        let foldStrength = 1;
+        let rotation = 0;
+        let showFolded = false;
+        const FOLD_DISPLAY_SCALE = 2.5;
+
+        // Optional vein overlay (load *_graph.json from analysis_results/veins_pocket_tunnel/)
+        let veinsGraph = null;
+        let showVeinsOverlay = false;
+        let showVeinTunnels = true;
+        let edgeSkip = 1;
+        const veinsStatusEl = document.getElementById('veinsStatus');
+        
+        // Constants from absolute_constants.py
+        const CONSTANTS = {
+            C: Math.sqrt(2) / 5,  // 0.282842712...
+            C2: (Math.sqrt(2) / 5) ** 2,  // 0.08
+            SPARK_ANGLE: 138.88 * Math.PI / 180,
+            OMEGA_TARGET: 7.4,
+            OMEGA_SLOTTING_DELTA: 0.076,
+            OMEGA_W7: Math.PI / 20,
+            // Repo-derived "gate/residual" pockets (see geometry_package/absolute_constants.py)
+            GATE_5_32: 5/32,
+            W7_DATA: 0.15697685963482133,
+            RESID_DATA_5_32: 0.15697685963482133 - (5/32),
+            OMEGA_KAPPA: 1/32,
+            PHI: (1 + Math.sqrt(5)) / 2,
+            S_ELECTRON: 1/8,
+            S_PHOTON: 1/16,
+            TOTAL_DEBT_AREA: 1.322828,
+            HALF_SPARK: 69.44 * Math.PI / 180,
+            B7: 7,
+            B11: 11,
+            B0: 1
+        };
+        // Derived tunnels that exist as identities / near-identities in the repo.
+        CONSTANTS.DRIFT_FROM_GAP_11_OVER_8 = (CONSTANTS.B11 / (CONSTANTS.B7 + CONSTANTS.B0)) / 18.0; // (11/8)/18
+        CONSTANTS.PI_OVER_20_MINUS_5_32 = CONSTANTS.OMEGA_W7 - CONSTANTS.GATE_5_32;
+        CONSTANTS.NEUTRINO_UNIT = 1/128;
+        CONSTANTS.GAP_7_128 = 7/128;
+        CONSTANTS.PHOTON_UNIT_8_128 = 8/128; // = 1/16
+        
+        // Define pockets on complex plane
+        const POCKETS = [
+            { name: "C_ROOT", re: CONSTANTS.C, im: 0, val: CONSTANTS.C, color: '#ff0', desc: "√2/5 = 0.2828" },
+            { name: "C_CONJUGATE", re: 0, im: CONSTANTS.C, val: CONSTANTS.C, color: '#ff0', desc: "i×0.2828" },
+            { name: "SPARK_EULER", re: Math.cos(CONSTANTS.SPARK_ANGLE), im: Math.sin(CONSTANTS.SPARK_ANGLE), val: 1, color: '#f0f', desc: "e^i×138.88°" },
+            { name: "SPARK_HALF", re: Math.cos(CONSTANTS.HALF_SPARK), im: Math.sin(CONSTANTS.HALF_SPARK), val: 1, color: '#f80', desc: "69.44° half-spark" },
+            { name: "OMEGA_LOCK", re: CONSTANTS.OMEGA_TARGET/10, im: 0, val: CONSTANTS.OMEGA_TARGET/10, color: '#0ff', desc: "Ω=7.4 (scaled /10)" },
+            { name: "DELTA_LOCKED", re: CONSTANTS.OMEGA_SLOTTING_DELTA, im: 0, val: CONSTANTS.OMEGA_SLOTTING_DELTA, color: '#f00', desc: "δ_locked = 0.076" },
+            { name: "DELTA_DERIVED", re: CONSTANTS.DRIFT_FROM_GAP_11_OVER_8, im: 0, val: CONSTANTS.DRIFT_FROM_GAP_11_OVER_8, color: '#f44', desc: "δ_derived = (11/8)/18" },
+            { name: "W7_PI_OVER_20", re: CONSTANTS.OMEGA_W7, im: 0, val: CONSTANTS.OMEGA_W7, color: '#0f0', desc: "π/20" },
+            { name: "GATE_5_32", re: CONSTANTS.GATE_5_32, im: 0, val: CONSTANTS.GATE_5_32, color: '#6f6', desc: "5/32" },
+            { name: "W7_DATA", re: CONSTANTS.W7_DATA, im: 0, val: CONSTANTS.W7_DATA, color: '#3f3', desc: "W7_DATA (repo)" },
+            { name: "RESID_5_32", re: CONSTANTS.RESID_DATA_5_32 * 100, im: 0, val: CONSTANTS.RESID_DATA_5_32, color: '#0a0', desc: "RESID_DATA_5_32 (×100 on axis)" },
+            { name: "KAPPA", re: CONSTANTS.OMEGA_KAPPA, im: 0, val: CONSTANTS.OMEGA_KAPPA, color: '#88f', desc: "1/32 = 0.03125" },
+            { name: "NEUTRINO_1_128", re: CONSTANTS.NEUTRINO_UNIT, im: 0, val: CONSTANTS.NEUTRINO_UNIT, color: '#6ff', desc: "1/128 = 0.0078125" },
+            { name: "GAP_7_128", re: CONSTANTS.GAP_7_128, im: 0, val: CONSTANTS.GAP_7_128, color: '#f66', desc: "7/128 = 0.0546875" },
+            { name: "PHI_SPIRAL", re: Math.cos(Math.PI/CONSTANTS.PHI), im: Math.sin(Math.PI/CONSTANTS.PHI), val: 1, color: '#fa0', desc: "π/φ spiral" },
+            { name: "ELECTRON", re: CONSTANTS.S_ELECTRON, im: 0, val: CONSTANTS.S_ELECTRON, color: '#fff', desc: "1/8 = 0.125" },
+            { name: "PHOTON", re: CONSTANTS.S_PHOTON, im: 0, val: CONSTANTS.S_PHOTON, color: '#aaa', desc: "1/16 = 0.0625 = 8/128" },
+            { name: "B7_B11", re: CONSTANTS.B7/16, im: CONSTANTS.B11/16, val: Math.sqrt(CONSTANTS.B7**2 + CONSTANTS.B11**2)/16, color: '#f0f', desc: "(7,11)/16" },
+            { name: "DEBT_AREA", re: CONSTANTS.TOTAL_DEBT_AREA, im: 0, val: CONSTANTS.TOTAL_DEBT_AREA, color: '#800', desc: "1.322828" },
+            { name: "UNIT_CIRCLE", re: 1, im: 0, val: 1, color: '#0ff', desc: "|z|=1" },
+        ];
+        
+        // Tunnels: connections between pockets
+        const TUNNELS = [
+            {
+                from: "C_ROOT", to: "DELTA_LOCKED",
+                label: "C²·0.95 ≈ δ_locked",
+                lhsFn: () => CONSTANTS.C2 * 0.95,
+                rhsFn: () => CONSTANTS.OMEGA_SLOTTING_DELTA,
+            },
+            {
+                from: "DELTA_DERIVED", to: "DELTA_LOCKED",
+                label: "δ_derived ≈ δ_locked",
+                lhsFn: () => CONSTANTS.DRIFT_FROM_GAP_11_OVER_8,
+                rhsFn: () => CONSTANTS.OMEGA_SLOTTING_DELTA,
+            },
+            {
+                from: "W7_PI_OVER_20", to: "GATE_5_32",
+                label: "π/20 ≈ 5/32",
+                lhsFn: () => CONSTANTS.OMEGA_W7,
+                rhsFn: () => CONSTANTS.GATE_5_32,
+            },
+            {
+                from: "W7_DATA", to: "GATE_5_32",
+                label: "W7_DATA - 5/32 = RESID_DATA_5_32",
+                lhsFn: () => CONSTANTS.W7_DATA - CONSTANTS.GATE_5_32,
+                rhsFn: () => CONSTANTS.RESID_DATA_5_32,
+            },
+            {
+                from: "PHOTON", to: "NEUTRINO_1_128",
+                label: "1/16 - 1/128 = 7/128",
+                lhsFn: () => CONSTANTS.S_PHOTON - CONSTANTS.NEUTRINO_UNIT,
+                rhsFn: () => CONSTANTS.GAP_7_128,
+            },
+            {
+                from: "NEUTRINO_1_128", to: "PHOTON",
+                label: "1/128 + 7/128 = 1/16",
+                lhsFn: () => CONSTANTS.NEUTRINO_UNIT + CONSTANTS.GAP_7_128,
+                rhsFn: () => CONSTANTS.S_PHOTON,
+            },
+            {
+                from: "SPARK_HALF", to: "SPARK_EULER",
+                label: "spark/2 (phase anchor)",
+                lhsFn: () => (CONSTANTS.SPARK_ANGLE / 2),
+                rhsFn: () => CONSTANTS.HALF_SPARK,
+            },
+            {
+                from: "DEBT_AREA", to: "SPARK_EULER",
+                label: "TOTAL_DEBT_AREA · 105 ≈ 138.88° (deg-space)",
+                lhsFn: () => (CONSTANTS.TOTAL_DEBT_AREA * 105),
+                rhsFn: () => 138.88,
+                units: "deg"
+            },
+        ];
+        
+        function resize() {
+            width = canvas.width = canvas.offsetWidth;
+            height = canvas.height = canvas.offsetHeight;
+            centerX = width / 2;
+            centerY = height / 2;
+            draw();
+        }
+        
+        function toScreen(re, im) {
+            const s = scale;
+            const x = centerX + re * s;
+            const y = centerY - im * s;
+            return { x, y };
+        }
+        
+        function fromScreen(x, y) {
+            const s = scale;
+            const re = (x - centerX) / s;
+            const im = -(y - centerY) / s;
+            return { re, im };
+        }
+        
+        function foldTransform(re, im, strength) {
+            const r = Math.sqrt(re*re + im*im);
+            if (r === 0) return { re: 0, im: 0 };
+            
+            // Folding: map exterior to interior via (1 - tanh(r×strength))
+            const fold = 1 - Math.tanh(r * strength);
+            const theta = Math.atan2(im, re);
+            
+            return {
+                re: fold * Math.cos(theta),
+                im: fold * Math.sin(theta)
+            };
+        }
+
+        function inverseFoldTransform(re, im, strength) {
+            // Inverse of: r' = 1 - tanh(r·strength), theta preserved.
+            // Maps folded plane (unit disk) back to original plane.
+            const rFold = Math.sqrt(re*re + im*im);
+            if (rFold === 0) {
+                // rFold→0 means r→∞. Clamp to a large radius for rendering.
+                const theta = Math.atan2(im, re);
+                const r = 1e6;
+                return { re: r * Math.cos(theta), im: r * Math.sin(theta) };
+            }
+            if (strength < 1e-6) return { re, im };
+            const theta = Math.atan2(im, re);
+            const fold = Math.min(1, Math.max(0, rFold));
+            const r = Math.atanh(1 - fold) / strength;
+            return { re: r * Math.cos(theta), im: r * Math.sin(theta) };
+        }
+        
+        function rotateZ(re, im, angle) {
+            const c = Math.cos(angle);
+            const s = Math.sin(angle);
+            return {
+                re: re * c - im * s,
+                im: re * s + im * c
+            };
+        }
+        
+        function mandelbrotIterations(c_re, c_im, maxIter = 100) {
+            let z_re = 0, z_im = 0;
+            for (let i = 0; i < maxIter; i++) {
+                const z2 = z_re * z_re - z_im * z_im + c_re;
+                z_im = 2 * z_re * z_im + c_im;
+                z_re = z2;
+                if (z_re * z_re + z_im * z_im > 4) return i;
+            }
+            return maxIter;
+        }
+        
+        function drawMandelbrot() {
+            const imageData = ctx.createImageData(width, height);
+            const data = imageData.data;
+            // Pre-fill black (for folded warp too)
+            for (let i = 0; i < data.length; i += 4) {
+                data[i] = 0;
+                data[i + 1] = 0;
+                data[i + 2] = 0;
+                data[i + 3] = 255;
+            }
+
+            const rotRad = rotation * Math.PI / 180;
+            const maxIter = 80;
+            
+            for (let y = 0; y < height; y += 2) {
+                for (let x = 0; x < width; x += 2) {
+                    // Screen plane → undo camera rotation
+                    const scr = fromScreen(x, y);
+                    const unrot = rotateZ(scr.re, scr.im, -rotRad);
+
+                    let c_re, c_im;
+                    if (showFolded) {
+                        // Treat the screen plane as the folded plane, then invert fold to recover original c.
+                        const folded = { re: unrot.re / FOLD_DISPLAY_SCALE, im: unrot.im / FOLD_DISPLAY_SCALE };
+                        const orig = inverseFoldTransform(folded.re, folded.im, foldStrength);
+                        c_re = orig.re;
+                        c_im = orig.im;
+                    } else {
+                        c_re = unrot.re;
+                        c_im = unrot.im;
+                    }
+
+                    const iter = mandelbrotIterations(c_re, c_im, maxIter);
+                    
+                    // Color based on iteration count and folding
+                    let r, g, b;
+                    if (iter === maxIter) {
+                        r = 0; g = 0; b = 0;
+                    } else {
+                        const t = iter / maxIter;
+                        if (showFolded) {
+                            // Folded view: green-cyan scheme
+                            r = 0;
+                            g = Math.floor(255 * (1 - t * 0.5));
+                            b = Math.floor(255 * t);
+                        } else {
+                            // Normal view: deep purple-gold
+                            r = Math.floor(255 * Math.pow(t, 0.5));
+                            g = Math.floor(128 * t);
+                            b = Math.floor(255 * (1 - t));
+                        }
+                    }
+                    
+                    // Draw 2x2 block
+                    for (let dy = 0; dy < 2 && y + dy < height; dy++) {
+                        for (let dx = 0; dx < 2 && x + dx < width; dx++) {
+                            const idx = ((y + dy) * width + (x + dx)) * 4;
+                            data[idx] = r;
+                            data[idx + 1] = g;
+                            data[idx + 2] = b;
+                            data[idx + 3] = 255;
+                        }
+                    }
+                }
+            }
+            
+            ctx.putImageData(imageData, 0, 0);
+        }
+
+        function tunnelMetrics(tunnel) {
+            if (!tunnel.lhsFn || !tunnel.rhsFn) return null;
+            const lhs = tunnel.lhsFn();
+            const rhs = tunnel.rhsFn();
+            const absErr = Math.abs(lhs - rhs);
+            const denom = Math.max(1e-12, Math.abs(rhs));
+            const relErr = absErr / denom;
+            return { lhs, rhs, absErr, relErr };
+        }
+
+        function tunnelColor(metrics) {
+            if (!metrics) return '#0f0';
+            // Simple tiering: <=1e-4: green, <=1e-2: yellow, else red.
+            if (metrics.absErr <= 1e-4) return '#00ff66';
+            if (metrics.absErr <= 1e-2) return '#ffee00';
+            return '#ff3344';
+        }
+
+        function drawVeins() {
+            if (!veinsGraph || !showVeinsOverlay) return;
+            const nodes = veinsGraph.nodes || [];
+            const polyEdges = veinsGraph.poly_edges || veinsGraph.edges || [];
+            const tunnelEdges = veinsGraph.tunnel_edges || [];
+            if (!nodes.length || !polyEdges.length) return;
+
+            const rotRad = rotation * Math.PI / 180;
+            const screen = new Array(nodes.length);
+
+            for (let i = 0; i < nodes.length; i++) {
+                let re = nodes[i][0];
+                let im = nodes[i][1];
+                if (showFolded) {
+                    const folded = foldTransform(re, im, foldStrength);
+                    re = folded.re * FOLD_DISPLAY_SCALE;
+                    im = folded.im * FOLD_DISPLAY_SCALE;
+                }
+                const rotated = rotateZ(re, im, rotRad);
+                screen[i] = toScreen(rotated.re, rotated.im);
+            }
+
+            // Vein polylines (thin)
+            ctx.lineWidth = 0.6;
+            ctx.strokeStyle = 'rgba(0, 255, 255, 0.25)';
+            ctx.setLineDash([]);
+            ctx.beginPath();
+            const skip = Math.max(1, edgeSkip | 0);
+            for (let i = 0; i < polyEdges.length; i += skip) {
+                const e = polyEdges[i];
+                const p1 = screen[e[0]];
+                const p2 = screen[e[1]];
+                if (!p1 || !p2) continue;
+                ctx.moveTo(p1.x, p1.y);
+                ctx.lineTo(p2.x, p2.y);
+            }
+            ctx.stroke();
+
+            // MST tunnel edges (thicker, dashed)
+            if (showVeinTunnels && tunnelEdges.length) {
+                ctx.lineWidth = 1.2;
+                ctx.strokeStyle = 'rgba(255, 0, 255, 0.70)';
+                ctx.setLineDash([2, 2]);
+                ctx.beginPath();
+                for (let i = 0; i < tunnelEdges.length; i++) {
+                    const e = tunnelEdges[i];
+                    const p1 = screen[e[0]];
+                    const p2 = screen[e[1]];
+                    if (!p1 || !p2) continue;
+                    ctx.moveTo(p1.x, p1.y);
+                    ctx.lineTo(p2.x, p2.y);
+                }
+                ctx.stroke();
+                ctx.setLineDash([]);
+            }
+        }
+        
+        function drawPockets() {
+            // Draw tunnels first
+            ctx.lineWidth = 1;
+            ctx.setLineDash([3, 3]);
+            const rotRad = rotation * Math.PI / 180;
+            
+            for (const tunnel of TUNNELS) {
+                const fromPocket = POCKETS.find(p => p.name === tunnel.from);
+                const toPocket = POCKETS.find(p => p.name === tunnel.to);
+                if (!fromPocket || !toPocket) continue;
+
+                const metrics = tunnelMetrics(tunnel);
+                ctx.strokeStyle = tunnelColor(metrics);
+                
+                let p1 = { re: fromPocket.re, im: fromPocket.im };
+                let p2 = { re: toPocket.re, im: toPocket.im };
+                
+                if (showFolded) {
+                    p1 = foldTransform(p1.re, p1.im, foldStrength);
+                    p2 = foldTransform(p2.re, p2.im, foldStrength);
+                    p1.re *= FOLD_DISPLAY_SCALE; p1.im *= FOLD_DISPLAY_SCALE;
+                    p2.re *= FOLD_DISPLAY_SCALE; p2.im *= FOLD_DISPLAY_SCALE;
+                }
+                
+                p1 = rotateZ(p1.re, p1.im, rotRad);
+                p2 = rotateZ(p2.re, p2.im, rotRad);
+                
+                const s1 = toScreen(p1.re, p1.im);
+                const s2 = toScreen(p2.re, p2.im);
+                
+                ctx.beginPath();
+                ctx.moveTo(s1.x, s1.y);
+                ctx.lineTo(s2.x, s2.y);
+                ctx.stroke();
+            }
+            
+            ctx.setLineDash([]);
+            
+            // Draw pockets
+            for (const p of POCKETS) {
+                let pos = { re: p.re, im: p.im };
+                
+                if (showFolded) {
+                    pos = foldTransform(pos.re, pos.im, foldStrength);
+                    pos.re *= FOLD_DISPLAY_SCALE;
+                    pos.im *= FOLD_DISPLAY_SCALE;
+                }
+                
+                pos = rotateZ(pos.re, pos.im, rotRad);
+                const screen = toScreen(pos.re, pos.im);
+                
+                // Glow
+                const grad = ctx.createRadialGradient(screen.x, screen.y, 0, screen.x, screen.y, 15);
+                grad.addColorStop(0, p.color);
+                grad.addColorStop(0.5, p.color + '80');
+                grad.addColorStop(1, 'transparent');
+                ctx.fillStyle = grad;
+                ctx.beginPath();
+                ctx.arc(screen.x, screen.y, 15, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Center dot
+                ctx.fillStyle = '#fff';
+                ctx.beginPath();
+                ctx.arc(screen.x, screen.y, 3, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Label
+                ctx.fillStyle = p.color;
+                ctx.font = '10px monospace';
+                ctx.fillText(p.name, screen.x + 8, screen.y - 8);
+            }
+        }
+        
+        function drawFoldGrid() {
+            if (!showFolded) return;
+            
+            ctx.strokeStyle = '#0f0';
+            ctx.lineWidth = 0.5;
+            ctx.globalAlpha = 0.3;
+            
+            // Draw concentric fold circles
+            for (let r = 0.2; r <= 2; r += 0.2) {
+                const fold = 1 - Math.tanh(r * foldStrength);
+                const radius = fold * FOLD_DISPLAY_SCALE * scale;
+                
+                ctx.beginPath();
+                ctx.arc(centerX, centerY, radius, 0, Math.PI * 2);
+                ctx.stroke();
+            }
+            
+            // Draw radial fold lines
+            for (let theta = 0; theta < 2 * Math.PI; theta += Math.PI / 12) {
+                const p1 = rotateZ(0, 0, rotation * Math.PI / 180);
+                const p2 = rotateZ(FOLD_DISPLAY_SCALE * Math.cos(theta), FOLD_DISPLAY_SCALE * Math.sin(theta), rotation * Math.PI / 180);
+                const s1 = toScreen(p1.re, p1.im);
+                const s2 = toScreen(p2.re, p2.im);
+                
+                ctx.beginPath();
+                ctx.moveTo(s1.x, s1.y);
+                ctx.lineTo(s2.x, s2.y);
+                ctx.stroke();
+            }
+            
+            ctx.globalAlpha = 1;
+        }
+        
+        function draw() {
+            drawMandelbrot();
+            drawFoldGrid();
+            drawVeins();
+            drawPockets();
+        }
+        
+        // Event handlers
+        document.getElementById('foldSlider').addEventListener('input', (e) => {
+            foldStrength = parseFloat(e.target.value);
+            draw();
+        });
+        
+        document.getElementById('zoomSlider').addEventListener('input', (e) => {
+            scale = 200 * parseFloat(e.target.value);
+            draw();
+        });
+        
+        document.getElementById('rotSlider').addEventListener('input', (e) => {
+            rotation = parseFloat(e.target.value);
+            draw();
+        });
+
+        const veinsFileEl = document.getElementById('veinsFile');
+        const showVeinsEl = document.getElementById('showVeins');
+        const showVeinTunnelsEl = document.getElementById('showVeinTunnels');
+        const skipSliderEl = document.getElementById('skipSlider');
+
+        function setVeinsStatus(msg) {
+            if (!veinsStatusEl) return;
+            veinsStatusEl.textContent = msg;
+        }
+
+        veinsFileEl.addEventListener('change', (e) => {
+            const file = e.target.files && e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = () => {
+                try {
+                    const obj = JSON.parse(String(reader.result));
+                    // Minimal schema check (expects {nodes, poly_edges, tunnel_edges})
+                    if (!obj.nodes || (!obj.poly_edges && !obj.edges)) {
+                        throw new Error("Missing nodes/poly_edges");
+                    }
+                    veinsGraph = obj;
+                    showVeinsOverlay = true;
+                    showVeinsEl.checked = true;
+                    const nNodes = (obj.nodes || []).length;
+                    const nPoly = (obj.poly_edges || obj.edges || []).length;
+                    const nTun = (obj.tunnel_edges || []).length;
+                    setVeinsStatus(`veins: nodes=${nNodes} poly=${nPoly} tunnels=${nTun}`);
+                    draw();
+                } catch (err) {
+                    setVeinsStatus(`veins load error: ${err}`);
+                    veinsGraph = null;
+                    showVeinsOverlay = false;
+                    showVeinsEl.checked = false;
+                    draw();
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        showVeinsEl.addEventListener('change', (e) => {
+            showVeinsOverlay = Boolean(e.target.checked);
+            draw();
+        });
+
+        showVeinTunnelsEl.addEventListener('change', (e) => {
+            showVeinTunnels = Boolean(e.target.checked);
+            draw();
+        });
+
+        skipSliderEl.addEventListener('input', (e) => {
+            edgeSkip = parseInt(e.target.value, 10) || 1;
+            draw();
+        });
+        
+        canvas.addEventListener('mousemove', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            const { re, im } = fromScreen(x, y);
+            document.getElementById('coords').textContent = `z = ${re.toFixed(4)} ${im >= 0 ? '+' : ''}${im.toFixed(4)}i`;
+            
+            // Check pocket hover
+            for (const p of POCKETS) {
+                let pos = { re: p.re, im: p.im };
+                if (showFolded) {
+                    pos = foldTransform(pos.re, pos.im, foldStrength);
+                    pos.re *= FOLD_DISPLAY_SCALE; pos.im *= FOLD_DISPLAY_SCALE;
+                }
+                pos = rotateZ(pos.re, pos.im, rotation * Math.PI / 180);
+                const screen = toScreen(pos.re, pos.im);
+                const dist = Math.hypot(x - screen.x, y - screen.y);
+                
+                if (dist < 20) {
+                    const val = (p.val !== undefined) ? p.val : Math.sqrt(p.re*p.re + p.im*p.im);
+                    tooltip.style.display = 'block';
+                    tooltip.style.left = (e.clientX + 15) + 'px';
+                    tooltip.style.top = (e.clientY + 15) + 'px';
+                    tooltip.innerHTML = `<b>${p.name}</b><br>${p.desc}<br>z = ${p.re.toFixed(6)} ${p.im >= 0 ? '+' : ''}${p.im.toFixed(6)}i<br>val = ${val.toPrecision(8)}`;
+                    return;
+                }
+            }
+            tooltip.style.display = 'none';
+        });
+        
+        canvas.addEventListener('click', () => {
+            showFolded = !showFolded;
+            document.getElementById('ui').innerHTML = showFolded ?
+                `<div><b>FOLDED VIEW (compactified)</b></div>
+                 <div>Screen plane treated as folded (unit disk × ${FOLD_DISPLAY_SCALE})</div>
+                 <div>${POCKETS.length} pockets, ${TUNNELS.length} tunnels (color = |lhs-rhs|)</div>
+                 <div>Click to return to normal view</div>` :
+                `<div><b>MANDELBROT PLANE</b></div>
+                 <div>Complex z = x + iy (rotation is camera-only)</div>
+                 <div>Click to fold</div>`;
+            draw();
+        });
+        
+        window.addEventListener('resize', resize);
+        resize();
+    </script>
+</body>
+</html>

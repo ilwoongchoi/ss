@@ -1,0 +1,26 @@
+{
+  "inputs": {
+    "edges": "LHD_QUANT_HALPHA_BOLO_EDGES.csv",
+    "universal": "BRIDGE_VECTORS_FINAL.csv"
+  },
+  "universal_ranges": {
+    "gap_min": 0.0,
+    "gap_max": 15.2755,
+    "contact_min": 0.002,
+    "contact_max": 0.95,
+    "drift_min": 1.0,
+    "drift_max": 4.61
+  },
+  "lhd_anchors": {
+    "score_p05": 0.026905635308366982,
+    "score_p95": 0.0854303307734039,
+    "phase_stability_p05": 0.20149363577365875,
+    "phase_stability_p95": 0.2734387218952179,
+    "phase_bias_abs_p05": 0.12977099418640137,
+    "phase_bias_abs_p95": 0.32824426889419556
+  },
+  "notes": [
+    "This is an isomorphic *scale mapping* onto the project's existing bridge-vector fields, not a claim that LHD edges are literally the same nodes as synthetic_alpha/core_center.",
+    "If you want stricter quantization to specific constants (e.g., 1/28, pi/20), provide the constant list file and we can snap mapped_gap_dist / phase_mean to nearest bins and report residuals."
+  ]
+}

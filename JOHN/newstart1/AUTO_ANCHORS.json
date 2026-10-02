@@ -1,0 +1,178 @@
+{
+  "PLP_ZERO": [
+    2.0,
+    14.0
+  ],
+  "FEMALE_SPARE_VASOPRESSIN": [
+    2.0,
+    14.75
+  ],
+  "TIME_SENSOR": [
+    9.0,
+    14.0
+  ],
+  "CORRIDOR_LOOPSTART": [
+    9.5,
+    9.5
+  ],
+  "CORRIDOR_MIRROR": [
+    6.5,
+    9.5
+  ],
+  "CHOKE_PRIMARY": [
+    6.0,
+    10.0
+  ],
+  "CHOKE_SECONDARY_1": [
+    6.0,
+    10.5
+  ],
+  "CHOKE_SECONDARY_2": [
+    6.5,
+    10.0
+  ],
+  "CHOKE_TERTIARY_1": [
+    5.5,
+    10.5
+  ],
+  "CHOKE_TERTIARY_2": [
+    6.5,
+    9.5
+  ],
+  "CHOKE_TERTIARY_3": [
+    6.5,
+    10.5
+  ],
+  "CHOKE_RIDGE_1": [
+    5.5,
+    10.5
+  ],
+  "CHOKE_RIDGE_2": [
+    6.0,
+    10.0
+  ],
+  "CHOKE_RIDGE_3": [
+    6.5,
+    9.5
+  ],
+  "CHOKE_RIDGE_4": [
+    6.5,
+    10.0
+  ],
+  "ALOPECIA_LEFT_INNER_DEEP_POINTS": [
+    5.0,
+    14.75
+  ],
+  "ALOPECIA_LEFT_INNER_POINTS": [
+    4.5,
+    14.75
+  ],
+  "COSMIC_RAY_RIGHT_NOSTRIL_DEEP_POINTS": [
+    11.25,
+    9.0
+  ],
+  "COSMIC_RAY_RIGHT_NOSTRIL_POINTS": [
+    11.25,
+    9.0
+  ],
+  "FLASH_ANCHOR_POINTS": [
+    8.5,
+    12.0
+  ],
+  "GABA_C_LEFT_EYE_POINTS": [
+    5.0,
+    11.0
+  ],
+  "GABA_C_RIGHT_EYE_POINTS": [
+    11.25,
+    9.0
+  ],
+  "GLABELLA_LEFT_POINTS": [
+    8.0,
+    10.5
+  ],
+  "LEFT_D2_OCULI_OUTER_DEEP_POINTS": [
+    2.0,
+    9.75
+  ],
+  "LEFT_D2_OCULI_OUTER_POINTS": [
+    2.0,
+    9.75
+  ],
+  "LEFT_INNER_GLABELLA_POINTS": [
+    7.75,
+    12.0
+  ],
+  "LEFT_LLSAN_POINTS": [
+    5.0,
+    11.0
+  ],
+  "LEFT_LLS_POINTS": [
+    7.5,
+    10.5
+  ],
+  "LEFT_NASALIS_UNDEREYE_POINTS": [
+    5.0,
+    11.0
+  ],
+  "MEDIATOR_TO_SHEET4_POINTS": [
+    2.0,
+    9.75
+  ],
+  "NOSE_CENTER_POINTS": [
+    8.25,
+    12.0
+  ],
+  "PLP_CAULDRON_LEFT_DEEPER_POINTS": [
+    2.0,
+    13.5
+  ],
+  "PLP_CAULDRON_LEFT_DEEPEST_POINTS": [
+    2.0,
+    14.75
+  ],
+  "PLP_CAULDRON_LEFT_DEEP_POINTS": [
+    2.0,
+    13.5
+  ],
+  "PLP_CAULDRON_LEFT_POINTS": [
+    2.0,
+    13.5
+  ],
+  "RIGHT_CHOKE_BAND_POINTS": [
+    11.25,
+    9.0
+  ],
+  "RIGHT_D2_NOSE_HEIGHT_POINTS": [
+    14.25,
+    12.75
+  ],
+  "RIGHT_INNER_GLABELLA_POINTS": [
+    8.5,
+    12.0
+  ],
+  "TIME_SENSOR_POINTS": [
+    9.0,
+    14.0
+  ],
+  "VASOPRESSIN_NECKBAND_POINTS": [
+    6.5,
+    5.0
+  ],
+  "unmapped_peak_001": [
+    5.0,
+    11.0
+  ],
+  "unmapped_peak_002": [
+    4.75,
+    11.0
+  ],
+  "unmapped_peak_003": [
+    5.0,
+    10.75
+  ],
+  "unmapped_peak_004": [
+    4.75,
+    10.75
+  ]
+}

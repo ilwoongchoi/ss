@@ -1,0 +1,282 @@
+﻿electric_grid_and|AND: Bio-electric Field / Galvanotactic Grid
+male_left_epinephrine_switch_pre_and|AND: Female L-Vasopressin + L-Genital D2
+male_left_epinephrine_switch_pre_or|OR: GLP-1 Q + Male R-Oxytocin Q_bar
+male_left_epinephrine_switch|AND: Metabolic Healing Switch
+opioid_and|AND: Deep Spark + Global Analgesia Sync + Epinephrine Switch
+opioid_nor|NOR: Metabolic Void / Absolute Hunger
+opioid_xnor_or|OR: Satiety Phase Coherence
+bioenergetic_drive_and|AND: Metabolic Drive / Bio-energetic Permission
+heme_in0_xor|XOR: heme HO-1 input vs observer
+heme_in1_xor|XOR: heme ETC input vs observer
+heme|Fe-protoporphyrin IX / heme-oxygenase complex, 2 tristate
+cytochrome_c_oxidase_in0_xor|XOR: COX forward O2 input vs Bio-energetic Drive
+cytochrome_c_oxidase_in1_xor|XOR: COX retrograde cyt-c input vs observer
+cytochrome_c_oxidase|Complex IV / mitochondrial terminal oxidase, 2 tristate
+water_vapour_in0_xor|XOR: water vapour tropospheric input vs observer
+water_vapour_in1_xor|XOR: water vapour stratospheric input vs observer
+water_vapour|2 tristate
+steel_in0_xor|XOR: steel ferritic input vs observer
+steel_in1_xor|XOR: steel austenitic input vs observer
+steel|2 tristate
+clay_gouge|AND: fault-zone clay matrix ??sealing
+quark_orogen_magma|Mitochondrial De Novo Synthesis (Deep Arc Magma), 1 tristate
+observer_leftd2|AND: Master Metabolic Permissive Bus
+nonobserver_left_d2|AND: Spatial Clarity / Cortisol Baseline Switch
+left_endorphin_non_observer|AND: Global Opioid Background / Recovery Wiring
+observer_left_endorphin_electron_antineutrino|mu-opioid receptor (MOR) Metabolic Spark, AND
+plume_in0_xor|XOR: left_endorphin xor gluon_orogen observer merger
+mc1r_q_or|OR: mc1r q output vs observer
+mc1r_q_bar_or|OR: mc1r q_bar output vs observer
+mc1r|MC1R receptor ??reversible cAMP/PKA signalling switch, D flip-flop
+methanogenesis_out0_nand|NAND: methanogenesis out0 output
+methanogenesis|Gut-archaeal CH4 production via methyl-CoM reductase, MUX
+histosol_in0_xor|XOR: histosol peat input vs observer
+histosol_in1_xor|XOR: histosol fen input vs observer
+histosol|Sulfur Cycle Reservoir (Peat/Fen), 2 tristate
+eos_o2_and|AND: Endorphin Saturation (EOS) + O2 Supply
+eos_o2_observer_and|3-input AND: Endorphin Saturation (EOS) + O2 Supply + observer baseline
+histosol_ctrl1_or|3-input OR: histosol.ctrl1 combined driver
+sulforaphane|Nrf2 activator ??isothiocyanate?밙eap1?밡rf2 canonical pathway, 2 tristate
+aurora|AND: Na+ oxidative threshold detector
+aurora_2|XOR: stress-mode proton source vs Na+ oxidative threshold
+glymphatic_system|AQP4-polarized perivascular CSF-ISF exchange, AND
+cysteine|AND: glutathione precursor gate
+subduction_zone|AND: subduction zone gate
+memory_entropy_out_co2_nor|NOR: memory_entropy out_co2 output
+sdh_esr1_me_ctrl_and|AND: SDH Krebs NAND output + ESR1 frontalis inner expression
+memory_entropy|2-output decoder: right hippocampal CA1/subiculum novelty-mismatch output
+hind_insula_out0_nand|NAND: hind_insula out0 output
+hind_insula|Right posterior granular insula primary ?퉕nteroceptive cortex, MUX
+carbon_q_or|OR: carbon q output vs observer
+carbon_q_bar_or|OR: carbon q_bar output vs observer
+carbon|D flip-flop: metabolic carbon-state latch
+fold_belt_in0_xor|XOR: fold-belt surficial input vs observer
+fold_belt_in1_xor|XOR: fold-belt metamorphic input vs observer
+fold_belt|Compressional fold-and-thrust belt, 2 tristate
+fold_belt_ctrl1_or|3-input OR: combined driver for fold_belt.ctrl1
+substance_p_out_mc1r_xnor|XNOR: substance_p out_mc1r output
+substance_p_out_autophagy_xor|XOR: substance_p out_autophagy output
+substance_p|2-output decoder: Substance P neuropeptide NK1R ligand
+methionine|AND: sulphur amino acid gate
+podzol_out1_and|AND: podzol out1 + observer
+adapter_protein_q_and|AND3: adapter_protein q + podzol out1 + observer
+adapter_protein_q_bar_or|OR: adapter_protein q_bar output vs observer
+adapter_protein|D flip-flop: somatic signal adapter
+succinate_dehydrogenase_out0_nand|NAND: succinate dehydrogenase out0 output
+succinate_dehydrogenase_out1_or|OR: succinate dehydrogenase out1 to collagen
+succinate_dehydrogenase_out2_nand|NAND: succinate dehydrogenase out2 output
+water_vapour_ach_or|OR: water vapour stratospheric OR ACh expression ??SDH input
+succinate_dehydrogenase|Complex II / Krebs-cycle SDH hypoxia sensor, 3-output decoder
+collagen_out0_nand|NAND: collagen out0 output
+collagen|ECM triple-helix structural protein, MUX
+andosol_out0_nand|NAND: andosol out0 output
+andosol|Mitochondrial ROS Buffer Layer (Volcanic Ash), MUX
+cambisol_in0_xor|XOR: cambisol young-weathering input vs observer
+cambisol_in1_xor|XOR: cambisol mature-humus input vs observer
+cambisol|Early Autophagic Vacuole (Young Soil), 2 tristate
+female_gaba_b|AND: female GABA-B postsynaptic slow IPSP, Node 43
+anoxia_nacl_and|1 tristate: anoxia + male_left_noradrenaline ??NaCl unspark route
+nacl_ctrl1_unspark_and|AND: anoxia_nacl_and + left female vasopressin
+collagen_in1_or|OR: ionic summation ??collagen ECM Ca2+ scaffold
+sodium_in0_xor|XOR: sodium ECF input vs observer
+sodium_in1_xor|XOR: sodium AP input vs observer
+sodium|2 tristate
+mycorradicin_right_acetylcholine_or|OR: mycorradicin output vs right acetylcholine observer output
+mycorradicin_leftd2_and|AND: Stress-Recovery OR + Master Bus
+mycorradicin_autophagy_intermediate_and|AND: Stress-recovery + O2 + SDH-Soil
+mycorradicin_autophagy_input_or|OR: combined autophagy trigger
+copper_iron_complex|Cu-Fe mixed-valence redox cofactor, AND
+autophagy_r_or|OR: Master bus reset + lysosomal acidification reset ??autophagy.r
+autophagy|tristate ch.0 + gated SR latch + T flip-flop: bulk vs SP-inflammatory autophagy
+t_ff|T flip-flop
+water_out0_nand|NAND: water out0 output
+carbonic_anhydrase_autophagy_or|OR: carbonic anhydrase reverse proton flow + autophagy ACC mode
+carbonic_anhydrase_co2_xor|XOR: catabolic proton state vs respiratory CO2 flux
+water|MUX: Hydrological Cycle / Proton Source Selector
+nitrogenase_out_1_xnor|XNOR: nitrogenase out_1 output
+nitrogenase_out_2_nor|NOR: nitrogenase out_2 output
+nitrogenase|3-output decoder: biological N2-fixation
+nitrogenase_metabolic_and|AND: female_gaba_b_2 + citric_acid_cycle ??metabolic hypoxia gate
+nitrogenase_metabolic_da_and|AND: metabolic + right_sole_dopamine observer ??hypoxia confirmation
+nitrogenase_env_and|3-input AND: metabolic + heath_aerenchyma + sodium ??environment gate
+nitrogenase_iron_or|OR: laterite_q_or + sulfur_iron_complex ??iron supply
+nitrogenase_in_main_and|3-input AND: metabolic_da + env + iron ??nitrogenase.in_main
+chlorine_ion_pump|Cl- ATPase ??acid-rhizosphere Cl- flux, tristate + gated SR latch
+heath_aerenchyma|Calluna/Erica ericoid-heath aerenchyma tissue, 1 tristate
+heath_aerenchyma_out0_and|AND: heath aerenchyma output gated with male right oxytocin
+podzol_out0_nand|NAND: podzol out0 output
+podzol|Lysosomal Acidic Matrix (Leached Soil), MUX
+lower_mantle_q_or|OR: lower_mantle q output vs observer
+lower_mantle_q_bar_or|OR: lower_mantle q_bar output vs observer
+lower_mantle|Mitochondrial Matrix State (Lower Mantle), D flip-flop
+basin_q_or|OR: basin q output vs observer
+basin_q_bar_or|OR: basin q_bar output vs observer
+basin|Cytosolic Metabolite Sink (Subsidence Basin), D flip-flop
+left_genital_d2_out0_nand|NAND: left_genital_d2 out0 output
+left_genital_d2|D2 at MPOA/spinal ejaculation generator: D2 brake on OXT/AVP climax, AND
+caco3_pyrite_lactate_and|2-input AND: carbonate arm
+caco3_leftd2_podzol_observer_and|3-input AND: caco3 permissive arm
+caco3_final_and|2-input AND: caco3 combined carbonate-buffer output
+caco3_laterite_and|AND: pH-Driven Iron Storage Trigger
+laterite_d_and|3-input AND: Recovery-Mode Iron Sequestration
+laterite_d_or|3-input OR: Ferritin Synthesis Driver
+manganese_nodule|gated SR latch: deep-sea Mn-nodule deposition
+pentose_phosphate_out_1_xnor|XNOR: pentose_phosphate out_1 output
+pentose_phosphate_out_2_nor|NOR: pentose_phosphate out_2 output
+pentose_phosphate|2-output decoder: pentose phosphate pathway redox gate
+disulfide_bond|NAND: disulfide bridge formation
+peonidine_in0_xor|XOR: peonidine free-anthocyanin input vs observer
+peonidine_in0_and|AND: peonidine_in0_xor.out AND right_d2.out1 ??peonidine.in0
+peonidine_in1_xor|XOR: peonidine conjugate input vs observer
+peonidine|2 tristate
+right_acetylcholine_out0_nand|NAND: right acetylcholine out0 output
+right_acetylcholine|alpha7 nicotinic AChR right facial/vagal cholinergic anti-inflammatory, MUX
+co2_in0_xor|XOR: co2 respiratory input vs observer
+co2_in1_xor|XOR: co2 metabolic input vs observer
+co2|2 tristate
+glp1_q_or|OR: glp1 q output vs observer
+glp1_q_bar_or|OR: glp1 q_bar output vs observer
+glp1|GLP-1 incretin vagal-neural release latch, D flip-flop
+cck_ctrl_and|AND: Phase Coherence + GLP-1 Satiety Drive
+cck|MUX: Cholecystokinin / Postprandial Satiety Gate
+cck_cox_ctrl_and|3-input AND: CCK satiety + Mn-redox + Master Bus permissive
+proton_pump_ctrl_or|OR: D2 stress + master bus ??proton pump control
+proton_pump_input_silicon_collagen_xnor|XNOR: D2 reward vs bio-electric grid ??silicon collagen (?꾧낏/?곕뒔怨?
+proton_pump_input_or|OR: silicon collagen XNOR + laterite iron-storage ??proton pump input
+proton_pump|tristate buffer: observer proton pump ??COX control
+cck_ctrl_or|3-input OR: CCK-ctrl AND + straight CCK + proton pump ??COX control
+cck_heath_aerenchyma_and|3-input AND: CCK satiety + O2 availability + D2 reward reset
+laterite_q_or|OR: laterite q output vs observer
+laterite_q_bar_or|OR: laterite q_bar output vs observer
+laterite|D flip-flop: tropical laterite weathering latch
+outer_core_convection|Mitochondrial Proton Motive Force (Outer-Core Convection), AND
+male_right_oxytocin_q_or|OR: male right oxytocin q output vs non observer
+male_right_oxytocin_q_bar_or|OR: male right oxytocin q_bar output vs observer
+male_right_oxytocin|Right SMG OXTR egocentric-bias suppressor, D flip-flop
+gluon_orogen_clk|OR: orogen dual-clock merger
+gluon_orogen_q_or|OR: gluon_orogen q output vs observer
+gluon_orogen_q_bar_or|OR: gluon_orogen q_bar output vs observer
+gluon_orogen|Cytoskeletal Stress Fiber (Gluon Orogen), D flip-flop
+lactate_dehydrogenase|3-input MUX: LDH anoxic/lactate/deep-metamorphic signal selector
+lactate_caco3_and|2-input AND: lactate -> caco3
+mangrove_aerenchyma|Rhizophora aerenchyma radial O2-loss tissue, AND
+thorium_out0_nand|NAND: thorium out0 output
+monazite_thorium_and|AND: nitrogenase out_3 + monazite
+water_oxidised_manganese_monazite_and|3-input AND: Mn-redox + water cycle + monazite/nitrogenase
+water_oxidised_manganese_monazite_manganese_oxygen_complex_or|2-input OR: REE arm merged with Mn-OEC
+monazite|Nucleotide Phosphate Routing / REE Pool, MUX
+thorium|Nucleotide Backbone Stability / REE Catalyst, MUX
+magnetite_out0_nand|NAND: magnetite out0 output
+magnetite|Intracellular Magnetic/Directional Sensor (Fe3O4), MUX
+magnetite_ctrl_xor|XOR: glymphatic clearance vs laterite iron-storage mismatch
+oxidised_manganese_set_and|AND: Mn-latch SET
+oxidised_manganese_reset_and|AND: Mn-latch RESET
+oxidised_manganese|Mn-Redox State Latch (Mn4+/Mn2+), Gated SR latch (ch0) + 1 tristate (ch1)
+manganese_oxygen_complex|Manganese-Oxygen Complex (OEC), 2 tristate
+pi_electron_cloud_out0_nand|NAND: pi_electron_cloud out0 output
+thorium_straight_leftd2_and|AND: electric_grid + thorium
+pi_electron_cloud_ctrl_or|OR: D2-gated thorium OR thorium-NAND
+pi_electron_cloud|Porphyrin/quinone pi-electron reservoir, MUX
+pi_electron_cloud_in0_and|AND: Bio-electric Grid + O2 Supply
+pi_electron_cloud_in0_or|3-input OR: pi_electron_cloud.in0 combined driver
+ferritin_in0_xor|XOR: ferritin iron-storage input vs observer
+ferritin_in1_xor|XOR: ferritin ferroxidase input vs observer
+ferritin|2 tristate
+ferritin_ctrl0_and|3-input AND: Master Bus + MOR Spark + O2 Supply
+ferritin_ctrl0_or|3-input OR: ferritin.ctrl0 combined driver
+methylation_in0_xor|XOR: methylation SAM input vs observer
+methylation_in1_xor|XOR: methylation SAH input vs observer
+methylation|One-carbon SAM-SAH cycle methyl-donor network, 2 tristate
+sulfur_iron_complex|2 tristate
+large_igneous_province_in0_xor|XOR: LIP flood-basalt input vs observer
+large_igneous_province_in1_xor|XOR: LIP slab-precursor input vs observer
+large_igneous_province|Ferroptotic Oxidative Burst (LIP), 2 tristate
+large_igneous_province_ctrl0_and|3-input AND: self-loop + mc1r_q_bar + anoxia
+subduction_zone_in0_xor|XOR: subduction cold-slab input vs observer
+subduction_zone_in1_xor|XOR: subduction arc-fluid input vs observer
+subduction_zone|Mitophagy / Organelle Recycling (Subduction), 2 tristate
+monazite_out0_nand|NAND: monazite out0 output
+craton_in0_xor|XOR: craton lithospheric input vs observer
+craton_in1_xor|XOR: craton surface input vs observer
+craton|Nuclear Scaffold / Lamin Backbone (Cratonic Shield), 2 tristate
+pyrite_in0_xor|XOR: pyrite framboidal input vs observer
+pyrite_in1_xor|XOR: pyrite burial input vs observer
+pyrite|2 tristate
+right_sole_dopamine_q_or|OR: right_sole_dopamine q output vs observer
+right_sole_dopamine_q_bar_or|OR: right_sole_dopamine q_bar output vs observer
+right_sole_dopamine|Peripheral D1/D5 sympathetic terminals, D flip-flop
+observer_right_sole_dopamine|Observer copy: peripheral D1/D5 right plantar dopamine, D flip-flop
+plume_out0_nand|NAND: plume out0 output
+plume|Mantle plume LLSVP-rooted upwelling, MUX
+actomyosin_ctrl|4-input AND gate: actomyosin power-stroke controller
+actomyosin_in0_xor|XOR: actomyosin contraction input vs observer
+actomyosin_in1_xor|XOR: actomyosin relaxation input vs observer
+actomyosin|Actomyosin Mechanical Tension, 2 tristate
+nacl_ctrl1_combined|AND: NaCl.out0 self-loop + Unspark
+water_vapour_ctrl1_combined|AND: water_vapour.out0 self-loop + 5HT1A
+methylation_ctrl0_combined|AND: methylation.out1 self-loop + 5HT1B
+sulfur_ctrl0_combined|AND: sulfur self-loop + D2 + GABA-A
+co2_ctrl1_combined|AND: co2.out0 self-loop + Unspark
+co2_ctrl1_unspark_and|AND: Oxytocin + Cortisol + Chlorine
+chlorine_ctrl0_combined|AND: Cl-pump self-loop + GABA-B
+craton_ctrl0_combined|AND: craton self-loop + Vasopressin
+cox_ctrl1_combined|AND: COX self-loop + Vasopressin
+oxytocin_preset_and|AND: Peonidine + SDH-Krebs
+right_acetylcholine_expression|ACh expression route ??alpha7 nAChR postsynaptic
+choline|AND: ACh precursor synthesis gate
+male_left_noradrenaline|3-input AND: choline + COX forward + thorium straight
+right_d2|2 tristate ??DRD2 postsynaptic indirect
+right_cortisol|GR intracellular nuclear receptor, AND
+female_right_satisfaction|關-opioid postsynaptic satisfaction, AND
+left_female_vasopressin|V1B postsynaptic pituitary, XOR
+citric_acid_cycle|AND: basin + core convection
+female_gaba_b_2|AND: female_gaba_b + dopamine non-observer
+male_gaba_a_pre_logic|AND: LIP + female_gaba_b
+male_gaba_a_xor|XOR: pre_logic + female_gaba_b_2
+male_gaba_a_complex_and|AND: male_gaba_a_xor + metabolic_da
+male_gaba_a|AND: LIP + complex_input
+esr1_ach_temporalis_xor|XOR: Right Temporalis ESR1 (estrogen conjugate) vs Right Temporalis ACh
+esr1_ach_d2_and|AND: ESR1?뷒Ch temporalis XOR + Right D2 reward
+esr1_ach_d2_pi_and|AND: ESR1?뷒Ch+D2 + pi_electron_cloud tunneling
+esr1_frontalis_inner_xor|XOR: Right Frontalis Inner Lower ESR1 Expression vs Recovery Baseline
+esr1_recovery_water_and|AND: ESR1?뷧ecovery XOR + Water Vapour hydration
+esr1_ach_temporalis_and|AND: Right Acetylcholine MUX output + Right Temporalis ESR1 Switch
+esr1_expression_2_and|AND: Temporalis ACh+ESR1 + Male GABA-A
+esr1_expression_2|ESR1 Expression 2 ??GABA-A-gated temporalis estrogenic expression, AND
+esr1_water_ach_expression_xor|XOR: ESR1 Expression 2 + ESR1?뷧ecovery ??ACh Expression rerouting
+cytochrome_c_oxidase_retrograde_oxytocin_and|4-input AND: COX retrograde XOR + oxytocin q + D2 brake + oxytocin q_bar_or ??gluon_orogen reset
+cytochrome_c_oxidase_retrograde_tg|Transmission Gate: COX retrograde XOR ??AND bidirectional switch
+drd2s_presynaptic|AND: Master Metabolic Permissive Bus
+drd2l_postsynaptic|AND: Spatial Clarity / Cortisol Baseline Switch
+mor_presynaptic|AND: Global Opioid Background / Recovery Wiring
+mor_postsynaptic|mu-opioid receptor (MOR) Metabolic Spark, AND
+left_epinephrine_electric_grid_and|AND: left epinephrine switch + electric grid
+sulforaphane_ctrl1_xnor|XNOR: healing-grid AND + sodium osmotic status
+right_androgen_and|AND: healing-grid + opioid void
+memory_entropy_out_hind_insula_xnor|XNOR: memory_entropy out_hind_insula output
+mycorradicin_chrna7_vagal_or|OR: mycorradicin output vs right acetylcholine observer output
+mycorradicin_drd2s_and|AND: Stress-Recovery OR + Master Bus
+carbonic_anhydrase|NOT: proton pool reverse-flow reflection point
+drd2_mpoa_out0_nand|NAND: drd2_mpoa out0 output
+drd2_mpoa|D2 at MPOA/spinal ejaculation generator: D2 brake on OXT/AVP climax, AND
+caco3_drd2s_podzol_observer_and|3-input AND: caco3 permissive arm
+ac89_actinium_trigger_and|AND: CaCO3-pyrite-lactate buffer + magnetite directional field
+ac89_oxytocin_drd2s_and|AND: male right oxytocin bonding + left D2 non-observer spatial clarity
+ac89_final_and|AND: actinium mineral trigger + oxytocin-leftd2 neural gate
+ac89_co2_or|OR: actinium final collapse + CO2 respiratory flux
+chrna7_vagal_out0_nand|NAND: right acetylcholine out0 output
+chrna7_vagal|alpha7 nicotinic AChR right facial/vagal cholinergic anti-inflammatory, MUX
+cck_cytochrome_c_oxidase_ctrl_and|3-input AND: CCK satiety + Mn-redox + Master Bus permissive
+ga31_gallium_nitride_nor|NOR: serotonergic anti-anxiety + Mn-OEC water-splitting
+ga31_mn_reset_and|AND: GaN gradient + Mn-redox reset coincidence
+thorium_straight_drd2s_and|AND: electric_grid + thorium
+tm69_thulium_lasing_and|AND: vagal cholinergic inversion + catabolic carbon state
+tm69_pyrite_and|AND: thulium lasing + pyrite burial XOR output
+drd1_peripheral_q_or|3-input OR: drd1_peripheral q + observer q_bar reversal vs observer
+drd1_peripheral_q_bar_or|OR: drd1_peripheral q_bar output vs observer
+drd1_peripheral|Peripheral D1/D5 sympathetic terminals, D flip-flop
+drd1_observer|Observer copy: peripheral D1/D5 right plantar dopamine, D flip-flop
+caco3|alias: legacy carbonate buffer name mapped to caco3_final_and
+cytochrome_c_oxidase_ctrl1_combined|AND: COX self-loop + vasopressin
+chrna7_vagal_expression|ACh expression route
+t_ff_out|buffer: autophagy mode output

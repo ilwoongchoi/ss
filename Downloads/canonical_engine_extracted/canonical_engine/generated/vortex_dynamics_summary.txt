@@ -1,0 +1,51 @@
+================================================================================
+4-VORTEX DYNAMICS SUMMARY
+================================================================================
+
+TCA Flow: V2(OAA) → V1(αKG) → V4(Succinyl-CoA) → V3(Succinate) → V2
+
+■ Stress Pair Intensity by Vortex
+--------------------------------------------------------------------------------
+  Vortex                CO₂ / O₂            Light / Dark        Heat / Cold         Matter / Non-matter
+  Oxaloacetate          0.615±0.053      0.500±0.000      0.533±0.016      0.500±0.000    
+  α-Ketoglutarate       0.544±0.022      0.613±0.056      0.534±0.016      0.500±0.000    
+  Succinyl-CoA          0.500±0.000      0.539±0.019      0.528±0.013      0.613±0.053    
+  Succinate             0.528±0.013      0.500±0.000      0.614±0.055      0.544±0.022    
+
+■ Stress Pair Balance (polarity) by Vortex
+--------------------------------------------------------------------------------
+  Vortex                CO₂ / O₂            Light / Dark        Heat / Cold         Matter / Non-matter
+  Oxaloacetate          +0.022              +0.001              -0.002              -0.001            
+  α-Ketoglutarate       +0.005              +0.026              -0.005              -0.001            
+  Succinyl-CoA          -0.000              +0.000              -0.000              +0.009            
+  Succinate             -0.001              +0.000              +0.008              +0.001            
+
+■ Dominant Stress Pair per Vortex (highest mean intensity)
+--------------------------------------------------------------------------------
+  Oxaloacetate         → CO₂ / O₂ (CO2/O2)  intensity=0.615
+  α-Ketoglutarate      → Light / Dark (Light/Dark)  intensity=0.613
+  Succinyl-CoA         → Matter / Non-matter (Matter/Non-matter)  intensity=0.613
+  Succinate            → Heat / Cold (Heat/Cold)  intensity=0.614
+
+■ Transition Dynamics (rate of change at vortex boundaries)
+--------------------------------------------------------------------------------
+  Oxaloacetate → α-Ketoglutarate:
+    CO₂ / O₂              Δ=-0.0564 ↓
+    Light / Dark          Δ=+0.0000 ↓
+    Heat / Cold           Δ=-0.0363 ↓
+    Matter / Non-matter   Δ=-0.0000 ↓
+  α-Ketoglutarate → Succinyl-CoA:
+    CO₂ / O₂              Δ=-0.0153 ↓
+    Light / Dark          Δ=-0.1707 ↓
+    Heat / Cold           Δ=-0.0512 ↓
+    Matter / Non-matter   Δ=+0.1750 ↑
+  Succinyl-CoA → Succinate:
+    CO₂ / O₂              Δ=+0.0437 ↑
+    Light / Dark          Δ=-0.0048 ↓
+    Heat / Cold           Δ=-0.0034 ↓
+    Matter / Non-matter   Δ=-0.1044 ↓
+  Succinate → Oxaloacetate:
+    CO₂ / O₂              Δ=+0.1325 ↑
+    Light / Dark          Δ=+0.0000 ↓
+    Heat / Cold           Δ=-0.0410 ↓
+    Matter / Non-matter   Δ=-0.0681 ↓

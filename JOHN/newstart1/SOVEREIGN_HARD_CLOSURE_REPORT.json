@@ -1,0 +1,23 @@
+{
+  "model": "6P-hard-closure",
+  "best_params": {
+    "substeps": 24,
+    "dt": 0.018,
+    "radial_lock": 0.12,
+    "emergency_gain": 0.26,
+    "dx_norm_max": 2.2,
+    "omega_band": 0.45
+  },
+  "metrics": {
+    "score": 0.09850895642648808,
+    "mean_closure_error": 0.021677371766324435,
+    "max_closure_error": 0.08882063558218345,
+    "p95_closure_error": 0.06725486660243675,
+    "periodic_error_l2_before_lock": 1.879756190610299,
+    "periodic_error_l2_after_lock": 8.777083671441753e-17,
+    "tail_risk_ratio": 0.0,
+    "avg_recovery_windows": 0.0,
+    "max_recovery_windows": 0
+  },
+  "output_csv": "SOVEREIGN_128x128_Z_MAP_CLOSED.csv"
+}

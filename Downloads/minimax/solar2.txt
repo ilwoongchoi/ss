@@ -1,0 +1,64 @@
+﻿======================================================================
+6 ATTRACTOR × SOLAR SYSTEM BODY MAPPING
+======================================================================
+
+Total bodies mapped: 46
+
+  Sun                       (star        )  → repair           (0.980)  2nd: energy (0.660)
+  Mercury                   (planet      )  → opioid           (0.811)  2nd: repair (0.721)
+  Venus                     (planet      )  → repair           (0.873)  2nd: information (0.703)
+  Earth                     (planet      )  → repair           (0.952)  2nd: energy (0.618)
+  Mars                      (planet      )  → repair           (0.954)  2nd: gan_bulkhead (0.607)
+  Jupiter                   (planet      )  → gan_bulkhead     (0.829)  2nd: energy (0.687)
+  Saturn                    (planet      )  → gan_bulkhead     (0.716)  2nd: information (0.641)
+  Uranus                    (planet      )  → gan_bulkhead     (0.722)  2nd: information (0.664)
+  Neptune                   (planet      )  → gan_bulkhead     (0.725)  2nd: information (0.672)
+  Pluto                     (dwarf       )  → opioid           (0.844)  2nd: repair (0.751)
+  Ceres                     (dwarf       )  → repair           (0.924)  2nd: gan_bulkhead (0.584)
+  Eris                      (dwarf       )  → opioid           (0.794)  2nd: repair (0.723)
+  Makemake                  (dwarf       )  → opioid           (0.747)  2nd: repair (0.693)
+  Haumea                    (dwarf       )  → gan_bulkhead     (0.639)  2nd: opioid (0.604)
+  Moon                      (moon        )  → opioid           (0.770)  2nd: repair (0.692)
+  Io                        (moon        )  → opioid           (0.691)  2nd: repair (0.653)
+  Europa                    (moon        )  → opioid           (0.715)  2nd: repair (0.665)
+  Ganymede                  (moon        )  → opioid           (0.736)  2nd: repair (0.678)
+  Callisto                  (moon        )  → opioid           (0.759)  2nd: repair (0.688)
+  Titan                     (moon        )  → opioid           (0.757)  2nd: repair (0.688)
+  Enceladus                 (moon        )  → opioid           (0.768)  2nd: cox_retrograde (0.139)
+  Triton                    (moon        )  → opioid           (0.731)  2nd: repair (0.671)
+  Halley_comet              (comet       )  → cox_retrograde   (0.994)  2nd: opioid (0.703)
+  Eros                      (asteroid    )  → cox_retrograde   (0.980)  2nd: information (0.631)
+  Bennu                     (asteroid    )  → cox_retrograde   (0.970)  2nd: information (0.621)
+  Itokawa                   (asteroid    )  → cox_retrograde   (0.993)  2nd: opioid (0.725)
+  Vesta                     (asteroid    )  → repair           (0.906)  2nd: gan_bulkhead (0.571)
+  Pallas                    (asteroid    )  → cox_retrograde   (0.987)  2nd: opioid (0.640)
+  Psyche                    (asteroid    )  → repair           (0.901)  2nd: gan_bulkhead (0.571)
+  Haumea_ring               (tno         )  → gan_bulkhead     (0.639)  2nd: opioid (0.604)
+  Quaoar                    (tno         )  → opioid           (0.658)  2nd: gan_bulkhead (0.472)
+  Sedna                     (tno         )  → opioid           (0.769)  2nd: repair (0.701)
+  2012_VP113_Biden          (tno         )  → cox_retrograde   (0.939)  2nd: information (0.597)
+  Planet_Nine_hyp           (hypothetical)  → information      (0.843)  2nd: repair (0.782)
+  Oort_inner                (oort        )  → cox_retrograde   (0.987)  2nd: opioid (0.711)
+  Oort_outer                (oort        )  → cox_retrograde   (0.994)  2nd: opioid (0.689)
+  Barnards_Star_b           (exoplanet   )  → opioid           (0.698)  2nd: repair (0.670)
+  Proxima_b                 (exoplanet   )  → opioid           (0.670)  2nd: repair (0.647)
+  TRAPPIST-1b               (exoplanet   )  → opioid           (0.670)  2nd: repair (0.646)
+  TRAPPIST-1c               (exoplanet   )  → opioid           (0.670)  2nd: repair (0.647)
+  TRAPPIST-1d               (exoplanet   )  → opioid           (0.670)  2nd: repair (0.645)
+  TRAPPIST-1e               (exoplanet   )  → opioid           (0.670)  2nd: repair (0.646)
+  TRAPPIST-1f               (exoplanet   )  → opioid           (0.670)  2nd: repair (0.646)
+  TRAPPIST-1g               (exoplanet   )  → opioid           (0.670)  2nd: repair (0.647)
+  TRAPPIST-1h               (exoplanet   )  → opioid           (0.670)  2nd: repair (0.643)
+  K2-18b                    (exoplanet   )  → opioid           (0.637)  2nd: repair (0.617)
+
+[Sun ↔ each attractor]
+  Sun ↔ energy: cosine = 0.660
+  Sun ↔ information: cosine = 0.513
+  Sun ↔ repair: cosine = 0.980
+  Sun ↔ opioid: cosine = 0.535
+  Sun ↔ gan_bulkhead: cosine = 0.650
+  Sun ↔ cox_retrograde: cosine = 0.395
+
+Wrote C:\Users\Administrator\.minimax-agent\projects\solar_system_mapping.json
+
+6 attractor × 46 solar system bodies — full mapping done

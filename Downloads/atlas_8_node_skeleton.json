@@ -1,0 +1,90 @@
+{
+  "N1_GABA_B": {
+    "dimension": "0D",
+    "neurochemical": "GABA-B",
+    "muscular": "Left Occipitalis",
+    "archetype": "Big Woman",
+    "role": "Stability Base",
+    "kai_kyn_coord": [
+      0,
+      0
+    ]
+  },
+  "N2_GABA_A": {
+    "dimension": "1D",
+    "neurochemical": "GABA-A",
+    "muscular": "Right Occipitalis",
+    "archetype": "Small Woman",
+    "role": "Linear Constraint",
+    "kai_kyn_coord": [
+      1,
+      0
+    ]
+  },
+  "N3_5HT1A": {
+    "dimension": "2D",
+    "neurochemical": "5HT1A",
+    "muscular": "Left Temporalis",
+    "archetype": "Flow/Resonance",
+    "role": "Surface Metric",
+    "kai_kyn_coord": [
+      2,
+      1
+    ]
+  },
+  "N4_L_D2": {
+    "dimension": "3D",
+    "neurochemical": "Left D2",
+    "muscular": "Left Frontalis",
+    "archetype": "Small Man",
+    "role": "Volume/Execution",
+    "kai_kyn_coord": [
+      3,
+      2
+    ]
+  },
+  "N5_VOID": {
+    "dimension": "VOID",
+    "neurochemical": "Right D2 (Glutamate)",
+    "muscular": "Right Frontalis",
+    "archetype": "Big Man",
+    "role": "Origin / Universal Source",
+    "kai_kyn_coord": [
+      0,
+      0
+    ]
+  },
+  "N6_R_ACH": {
+    "dimension": "1D Vertical",
+    "neurochemical": "Right Acetylcholine",
+    "muscular": "Right Temporalis",
+    "archetype": "Gravity",
+    "role": "Vertical Alignment",
+    "kai_kyn_coord": [
+      1,
+      3
+    ]
+  },
+  "N7_R_CORTISOL": {
+    "dimension": "Fake 3D",
+    "neurochemical": "Right Cortisol",
+    "muscular": "Right Lie Muscle (Procerus Lower)",
+    "archetype": "Deceit (Small Man)",
+    "role": "External Projection / Shield",
+    "kai_kyn_coord": [
+      3,
+      3
+    ]
+  },
+  "N8_L_CORTISOL": {
+    "dimension": "8th Node (Biological Origin)",
+    "neurochemical": "Left Cortisol",
+    "muscular": "Left Lie Muscle (Procerus Lower)",
+    "archetype": "Deceit (Small Woman)",
+    "role": "Endpoint / Emotional Origin / Mandelbrot Termination",
+    "kai_kyn_coord": [
+      3,
+      4
+    ]
+  }
+}

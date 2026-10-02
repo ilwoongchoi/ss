@@ -1,0 +1,23 @@
+﻿======================================================================
+LIE GROUP ISOMORPHISM VERIFICATION (SymPy)
+======================================================================
+
+[1] observer_leftd2 ↔ Sagittarius A* (Bondi + Eddington)
+  Residual: inf  →  FAIL
+
+[2] quark_orogen_magma ↔ Neutron Star (TOV)
+  Residual: inf  →  FAIL
+
+[3] observer_leftd2 ↔ Main Sequence Star (Salpeter IMF)
+  Residual: inf  →  FAIL
+
+[4] memory_entropy ↔ CMB acoustic peak (ℓ=220)
+  Residual: inf  →  FAIL
+
+Wrote C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism.json
+
+Verdict: FAIL
+  obs_leftd2_SgrA: FAIL (residual = inf)
+  qom_TOV: FAIL (residual = inf)
+  obs_leftd2_MS: FAIL (residual = inf)
+  mem_CMB: FAIL (residual = inf)

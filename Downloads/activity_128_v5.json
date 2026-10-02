@@ -1,0 +1,2050 @@
+[
+  {
+    "id": 1,
+    "profile": "ENTP_M_O",
+    "group": "NT",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "EP",
+    "slots": [
+      "ABSTRACT LIGHT PAINTING PHOTOGRAPHY",
+      "EXPERIMENTAL VIDEO PROJECTION ART",
+      "SPONTANEOUS DIGITAL ART (NO THEME)",
+      "LIGHT BOX SCULPTURE PROTOTYPE",
+      "EXTREME LIGHT INSTALLATION (LARGE-SCALE)",
+      "HOLOGRAPHIC PROJECTION EXPERIMENT"
+    ]
+  },
+  {
+    "id": 2,
+    "profile": "ENTP_M_A",
+    "group": "NT",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "EP",
+    "slots": [
+      "STRUCTURED ABSTRACT LIGHT PAINTING PHOTOGRAPHY",
+      "STRUCTURED EXPERIMENTAL VIDEO PROJECTION ART",
+      "STRUCTURED SPONTANEOUS DIGITAL ART (NO THEME)",
+      "LIGHT BOX SCULPTURE PROTOTYPE",
+      "EXTREME LIGHT INSTALLATION (LARGE-SCALE)",
+      "HOLOGRAPHIC PROJECTION EXPERIMENT"
+    ]
+  },
+  {
+    "id": 3,
+    "profile": "ENTP_M_B",
+    "group": "NT",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "EP",
+    "slots": [
+      "RAW ABSTRACT LIGHT PAINTING PHOTOGRAPHY",
+      "RAW EXPERIMENTAL VIDEO PROJECTION ART",
+      "RAW SPONTANEOUS DIGITAL ART (NO THEME)",
+      "LIGHT BOX SCULPTURE PROTOTYPE",
+      "EXTREME LIGHT INSTALLATION (LARGE-SCALE)",
+      "HOLOGRAPHIC PROJECTION EXPERIMENT"
+    ]
+  },
+  {
+    "id": 4,
+    "profile": "ENTP_M_AB",
+    "group": "NT",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "EP",
+    "slots": [
+      "FUSION ABSTRACT LIGHT PAINTING PHOTOGRAPHY",
+      "FUSION EXPERIMENTAL VIDEO PROJECTION ART",
+      "FUSION SPONTANEOUS DIGITAL ART (NO THEME)",
+      "LIGHT BOX SCULPTURE PROTOTYPE",
+      "EXTREME LIGHT INSTALLATION (LARGE-SCALE)",
+      "HOLOGRAPHIC PROJECTION EXPERIMENT"
+    ]
+  },
+  {
+    "id": 5,
+    "profile": "ENTP_F_O",
+    "group": "NT",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "EP",
+    "slots": [
+      "GREEN NATURE PHOTOGRAPHY (VIVID)",
+      "BOTANICAL ILLUSTRATION (DIGITAL)",
+      "IMAGINED GREEN LANDSCAPE PAINTING",
+      "NATURE WALK PHOTOGRAPHY",
+      "VIBRANT GREEN COMPOSITION ART",
+      "FLORAL LIGHT PAINTING"
+    ]
+  },
+  {
+    "id": 6,
+    "profile": "ENTP_F_A",
+    "group": "NT",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "EP",
+    "slots": [
+      "STRUCTURED GREEN NATURE PHOTOGRAPHY (VIVID)",
+      "STRUCTURED BOTANICAL ILLUSTRATION (DIGITAL)",
+      "STRUCTURED IMAGINED GREEN LANDSCAPE PAINTING",
+      "NATURE WALK PHOTOGRAPHY",
+      "VIBRANT GREEN COMPOSITION ART",
+      "FLORAL LIGHT PAINTING"
+    ]
+  },
+  {
+    "id": 7,
+    "profile": "ENTP_F_B",
+    "group": "NT",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "EP",
+    "slots": [
+      "RAW GREEN NATURE PHOTOGRAPHY (VIVID)",
+      "RAW BOTANICAL ILLUSTRATION (DIGITAL)",
+      "RAW IMAGINED GREEN LANDSCAPE PAINTING",
+      "NATURE WALK PHOTOGRAPHY",
+      "VIBRANT GREEN COMPOSITION ART",
+      "FLORAL LIGHT PAINTING"
+    ]
+  },
+  {
+    "id": 8,
+    "profile": "ENTP_F_AB",
+    "group": "NT",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "EP",
+    "slots": [
+      "FUSION GREEN NATURE PHOTOGRAPHY (VIVID)",
+      "FUSION BOTANICAL ILLUSTRATION (DIGITAL)",
+      "FUSION IMAGINED GREEN LANDSCAPE PAINTING",
+      "NATURE WALK PHOTOGRAPHY",
+      "VIBRANT GREEN COMPOSITION ART",
+      "FLORAL LIGHT PAINTING"
+    ]
+  },
+  {
+    "id": 9,
+    "profile": "INTP_M_O",
+    "group": "NT",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "IP",
+    "slots": [
+      "SOLO ABSTRACT DIGITAL PAINTING (THEMELESS)",
+      "LIGHT RAY TRACING ART",
+      "FRACTAL VISUALIZATION (NO SUBJECT)",
+      "CODE-BASED GENERATIVE ART",
+      "DEEP PARAMETRIC COMPOSITION",
+      "ALGORITHMIC LIGHT ART"
+    ]
+  },
+  {
+    "id": 10,
+    "profile": "INTP_M_A",
+    "group": "NT",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "IP",
+    "slots": [
+      "STRUCTURED SOLO ABSTRACT DIGITAL PAINTING (THEMELESS)",
+      "STRUCTURED LIGHT RAY TRACING ART",
+      "STRUCTURED FRACTAL VISUALIZATION (NO SUBJECT)",
+      "CODE-BASED GENERATIVE ART",
+      "DEEP PARAMETRIC COMPOSITION",
+      "ALGORITHMIC LIGHT ART"
+    ]
+  },
+  {
+    "id": 11,
+    "profile": "INTP_M_B",
+    "group": "NT",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "IP",
+    "slots": [
+      "RAW SOLO ABSTRACT DIGITAL PAINTING (THEMELESS)",
+      "RAW LIGHT RAY TRACING ART",
+      "RAW FRACTAL VISUALIZATION (NO SUBJECT)",
+      "CODE-BASED GENERATIVE ART",
+      "DEEP PARAMETRIC COMPOSITION",
+      "ALGORITHMIC LIGHT ART"
+    ]
+  },
+  {
+    "id": 12,
+    "profile": "INTP_M_AB",
+    "group": "NT",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "IP",
+    "slots": [
+      "FUSION SOLO ABSTRACT DIGITAL PAINTING (THEMELESS)",
+      "FUSION LIGHT RAY TRACING ART",
+      "FUSION FRACTAL VISUALIZATION (NO SUBJECT)",
+      "CODE-BASED GENERATIVE ART",
+      "DEEP PARAMETRIC COMPOSITION",
+      "ALGORITHMIC LIGHT ART"
+    ]
+  },
+  {
+    "id": 13,
+    "profile": "INTP_F_O",
+    "group": "NT",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "IP",
+    "slots": [
+      "SOLO GREEN NATURE PAINTING (TRADITIONAL)",
+      "BOTANICAL WATERCOLOR STUDY",
+      "IMAGINED ECOSYSTEM ILLUSTRATION",
+      "NATURE OBSERVATION SKETCHING",
+      "DETAILED LEAF STRUCTURE ART",
+      "FOREST CANOPY VISUAL STUDY"
+    ]
+  },
+  {
+    "id": 14,
+    "profile": "INTP_F_A",
+    "group": "NT",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "IP",
+    "slots": [
+      "STRUCTURED SOLO GREEN NATURE PAINTING (TRADITIONAL)",
+      "STRUCTURED BOTANICAL WATERCOLOR STUDY",
+      "STRUCTURED IMAGINED ECOSYSTEM ILLUSTRATION",
+      "NATURE OBSERVATION SKETCHING",
+      "DETAILED LEAF STRUCTURE ART",
+      "FOREST CANOPY VISUAL STUDY"
+    ]
+  },
+  {
+    "id": 15,
+    "profile": "INTP_F_B",
+    "group": "NT",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "IP",
+    "slots": [
+      "RAW SOLO GREEN NATURE PAINTING (TRADITIONAL)",
+      "RAW BOTANICAL WATERCOLOR STUDY",
+      "RAW IMAGINED ECOSYSTEM ILLUSTRATION",
+      "NATURE OBSERVATION SKETCHING",
+      "DETAILED LEAF STRUCTURE ART",
+      "FOREST CANOPY VISUAL STUDY"
+    ]
+  },
+  {
+    "id": 16,
+    "profile": "INTP_F_AB",
+    "group": "NT",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "IP",
+    "slots": [
+      "FUSION SOLO GREEN NATURE PAINTING (TRADITIONAL)",
+      "FUSION BOTANICAL WATERCOLOR STUDY",
+      "FUSION IMAGINED ECOSYSTEM ILLUSTRATION",
+      "NATURE OBSERVATION SKETCHING",
+      "DETAILED LEAF STRUCTURE ART",
+      "FOREST CANOPY VISUAL STUDY"
+    ]
+  },
+  {
+    "id": 17,
+    "profile": "ENTJ_M_O",
+    "group": "NT",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "EJ",
+    "slots": [
+      "LARGE-SCALE LIGHT INSTALLATION (PUBLIC)",
+      "ABSTRACT VIDEO ART PRODUCTION",
+      "ORGANIZED DIGITAL ART EXHIBITION",
+      "LIGHT SCULPTURE COMMISSION",
+      "MONUMENTAL PROJECTION MAPPING",
+      "PUBLIC LIGHT ART COMMISSION"
+    ]
+  },
+  {
+    "id": 18,
+    "profile": "ENTJ_M_A",
+    "group": "NT",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "EJ",
+    "slots": [
+      "STRUCTURED LARGE-SCALE LIGHT INSTALLATION (PUBLIC)",
+      "STRUCTURED ABSTRACT VIDEO ART PRODUCTION",
+      "STRUCTURED ORGANIZED DIGITAL ART EXHIBITION",
+      "LIGHT SCULPTURE COMMISSION",
+      "MONUMENTAL PROJECTION MAPPING",
+      "PUBLIC LIGHT ART COMMISSION"
+    ]
+  },
+  {
+    "id": 19,
+    "profile": "ENTJ_M_B",
+    "group": "NT",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "EJ",
+    "slots": [
+      "RAW LARGE-SCALE LIGHT INSTALLATION (PUBLIC)",
+      "RAW ABSTRACT VIDEO ART PRODUCTION",
+      "RAW ORGANIZED DIGITAL ART EXHIBITION",
+      "LIGHT SCULPTURE COMMISSION",
+      "MONUMENTAL PROJECTION MAPPING",
+      "PUBLIC LIGHT ART COMMISSION"
+    ]
+  },
+  {
+    "id": 20,
+    "profile": "ENTJ_M_AB",
+    "group": "NT",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "EJ",
+    "slots": [
+      "FUSION LARGE-SCALE LIGHT INSTALLATION (PUBLIC)",
+      "FUSION ABSTRACT VIDEO ART PRODUCTION",
+      "FUSION ORGANIZED DIGITAL ART EXHIBITION",
+      "LIGHT SCULPTURE COMMISSION",
+      "MONUMENTAL PROJECTION MAPPING",
+      "PUBLIC LIGHT ART COMMISSION"
+    ]
+  },
+  {
+    "id": 21,
+    "profile": "ENTJ_F_O",
+    "group": "NT",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "EJ",
+    "slots": [
+      "ORGANIZED GREEN NATURE EXHIBITION",
+      "BOTANICAL ART SHOW CURATION",
+      "PUBLIC NATURE MURAL PROJECT",
+      "COMMUNITY GARDEN VISUAL DESIGN",
+      "LARGE-SCALE NATURE INSTALLATION",
+      "ENVIRONMENTAL ART COMMISSION"
+    ]
+  },
+  {
+    "id": 22,
+    "profile": "ENTJ_F_A",
+    "group": "NT",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "EJ",
+    "slots": [
+      "STRUCTURED ORGANIZED GREEN NATURE EXHIBITION",
+      "STRUCTURED BOTANICAL ART SHOW CURATION",
+      "STRUCTURED PUBLIC NATURE MURAL PROJECT",
+      "COMMUNITY GARDEN VISUAL DESIGN",
+      "LARGE-SCALE NATURE INSTALLATION",
+      "ENVIRONMENTAL ART COMMISSION"
+    ]
+  },
+  {
+    "id": 23,
+    "profile": "ENTJ_F_B",
+    "group": "NT",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "EJ",
+    "slots": [
+      "RAW ORGANIZED GREEN NATURE EXHIBITION",
+      "RAW BOTANICAL ART SHOW CURATION",
+      "RAW PUBLIC NATURE MURAL PROJECT",
+      "COMMUNITY GARDEN VISUAL DESIGN",
+      "LARGE-SCALE NATURE INSTALLATION",
+      "ENVIRONMENTAL ART COMMISSION"
+    ]
+  },
+  {
+    "id": 24,
+    "profile": "ENTJ_F_AB",
+    "group": "NT",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "EJ",
+    "slots": [
+      "FUSION ORGANIZED GREEN NATURE EXHIBITION",
+      "FUSION BOTANICAL ART SHOW CURATION",
+      "FUSION PUBLIC NATURE MURAL PROJECT",
+      "COMMUNITY GARDEN VISUAL DESIGN",
+      "LARGE-SCALE NATURE INSTALLATION",
+      "ENVIRONMENTAL ART COMMISSION"
+    ]
+  },
+  {
+    "id": 25,
+    "profile": "INTJ_M_O",
+    "group": "NT",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC ABSTRACT ART SERIES (THEMELESS)",
+      "PRECISION LIGHT FIELD RENDERING",
+      "METHODICAL DIGITAL COMPOSITION STUDY",
+      "ALGORITHMIC ART GENERATION SYSTEM",
+      "HIGH-DETAIL PARAMETRIC ART SERIES",
+      "LONG-TERM DIGITAL ART ARCHITECTURE"
+    ]
+  },
+  {
+    "id": 26,
+    "profile": "INTJ_M_A",
+    "group": "NT",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "IJ",
+    "slots": [
+      "STRUCTURED SYSTEMATIC ABSTRACT ART SERIES (THEMELESS)",
+      "STRUCTURED PRECISION LIGHT FIELD RENDERING",
+      "STRUCTURED METHODICAL DIGITAL COMPOSITION STUDY",
+      "ALGORITHMIC ART GENERATION SYSTEM",
+      "HIGH-DETAIL PARAMETRIC ART SERIES",
+      "LONG-TERM DIGITAL ART ARCHITECTURE"
+    ]
+  },
+  {
+    "id": 27,
+    "profile": "INTJ_M_B",
+    "group": "NT",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "IJ",
+    "slots": [
+      "RAW SYSTEMATIC ABSTRACT ART SERIES (THEMELESS)",
+      "RAW PRECISION LIGHT FIELD RENDERING",
+      "RAW METHODICAL DIGITAL COMPOSITION STUDY",
+      "ALGORITHMIC ART GENERATION SYSTEM",
+      "HIGH-DETAIL PARAMETRIC ART SERIES",
+      "LONG-TERM DIGITAL ART ARCHITECTURE"
+    ]
+  },
+  {
+    "id": 28,
+    "profile": "INTJ_M_AB",
+    "group": "NT",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "IJ",
+    "slots": [
+      "FUSION SYSTEMATIC ABSTRACT ART SERIES (THEMELESS)",
+      "FUSION PRECISION LIGHT FIELD RENDERING",
+      "FUSION METHODICAL DIGITAL COMPOSITION STUDY",
+      "ALGORITHMIC ART GENERATION SYSTEM",
+      "HIGH-DETAIL PARAMETRIC ART SERIES",
+      "LONG-TERM DIGITAL ART ARCHITECTURE"
+    ]
+  },
+  {
+    "id": 29,
+    "profile": "INTJ_F_O",
+    "group": "NT",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC BOTANICAL ART SERIES (GREEN)",
+      "PRECISION NATURE ILLUSTRATION STUDY",
+      "METHODICAL GREEN COMPOSITION ARCHIVE",
+      "ALGORITHMIC NATURE ART SYSTEM",
+      "FINE BOTANICAL ART COLLECTION",
+      "LONG-TERM NATURE VISUAL ARCHITECTURE"
+    ]
+  },
+  {
+    "id": 30,
+    "profile": "INTJ_F_A",
+    "group": "NT",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "IJ",
+    "slots": [
+      "STRUCTURED SYSTEMATIC BOTANICAL ART SERIES (GREEN)",
+      "STRUCTURED PRECISION NATURE ILLUSTRATION STUDY",
+      "STRUCTURED METHODICAL GREEN COMPOSITION ARCHIVE",
+      "ALGORITHMIC NATURE ART SYSTEM",
+      "FINE BOTANICAL ART COLLECTION",
+      "LONG-TERM NATURE VISUAL ARCHITECTURE"
+    ]
+  },
+  {
+    "id": 31,
+    "profile": "INTJ_F_B",
+    "group": "NT",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "IJ",
+    "slots": [
+      "RAW SYSTEMATIC BOTANICAL ART SERIES (GREEN)",
+      "RAW PRECISION NATURE ILLUSTRATION STUDY",
+      "RAW METHODICAL GREEN COMPOSITION ARCHIVE",
+      "ALGORITHMIC NATURE ART SYSTEM",
+      "FINE BOTANICAL ART COLLECTION",
+      "LONG-TERM NATURE VISUAL ARCHITECTURE"
+    ]
+  },
+  {
+    "id": 32,
+    "profile": "INTJ_F_AB",
+    "group": "NT",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "IJ",
+    "slots": [
+      "FUSION SYSTEMATIC BOTANICAL ART SERIES (GREEN)",
+      "FUSION PRECISION NATURE ILLUSTRATION STUDY",
+      "FUSION METHODICAL GREEN COMPOSITION ARCHIVE",
+      "ALGORITHMIC NATURE ART SYSTEM",
+      "FINE BOTANICAL ART COLLECTION",
+      "LONG-TERM NATURE VISUAL ARCHITECTURE"
+    ]
+  },
+  {
+    "id": 33,
+    "profile": "ENFP_M_O",
+    "group": "NF",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "EP",
+    "slots": [
+      "TRAIL RUNNING (FOREST, SPONTANEOUS ROUTE)",
+      "CONSERVATION VOLUNTEERING (OUTDOOR)",
+      "IMPROMPTU OUTDOOR CARDIO SESSION",
+      "WILDLIFE TRAIL EXPLORATION",
+      "EXTREME TRAIL RUNNING CHALLENGE",
+      "OUTDOOR SURVIVAL CARDIO"
+    ]
+  },
+  {
+    "id": 34,
+    "profile": "ENFP_M_A",
+    "group": "NF",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "EP",
+    "slots": [
+      "STRUCTURED TRAIL RUNNING (FOREST, SPONTANEOUS ROUTE)",
+      "STRUCTURED CONSERVATION VOLUNTEERING (OUTDOOR)",
+      "STRUCTURED IMPROMPTU OUTDOOR CARDIO SESSION",
+      "WILDLIFE TRAIL EXPLORATION",
+      "EXTREME TRAIL RUNNING CHALLENGE",
+      "OUTDOOR SURVIVAL CARDIO"
+    ]
+  },
+  {
+    "id": 35,
+    "profile": "ENFP_M_B",
+    "group": "NF",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "EP",
+    "slots": [
+      "EXTREME TRAIL RUNNING (FOREST, SPONTANEOUS ROUTE)",
+      "EXTREME CONSERVATION VOLUNTEERING (OUTDOOR)",
+      "EXTREME IMPROMPTU OUTDOOR CARDIO SESSION",
+      "WILDLIFE TRAIL EXPLORATION",
+      "EXTREME TRAIL RUNNING CHALLENGE",
+      "OUTDOOR SURVIVAL CARDIO"
+    ]
+  },
+  {
+    "id": 36,
+    "profile": "ENFP_M_AB",
+    "group": "NF",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "EP",
+    "slots": [
+      "CROSS-TERRAIN TRAIL RUNNING (FOREST, SPONTANEOUS ROUTE)",
+      "CROSS-TERRAIN CONSERVATION VOLUNTEERING (OUTDOOR)",
+      "CROSS-TERRAIN IMPROMPTU OUTDOOR CARDIO SESSION",
+      "WILDLIFE TRAIL EXPLORATION",
+      "EXTREME TRAIL RUNNING CHALLENGE",
+      "OUTDOOR SURVIVAL CARDIO"
+    ]
+  },
+  {
+    "id": 37,
+    "profile": "ENFP_F_O",
+    "group": "NF",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "EP",
+    "slots": [
+      "FOREST TRAIL RUNNING (VIVID NATURE)",
+      "CONSERVATION VOLUNTEERING (COMMUNITY GARDEN)",
+      "SPONTANEOUS NATURE WALK CARDIO",
+      "WILDLIFE GARDEN TENDING",
+      "EXTREME COASTAL TRAIL RUNNING",
+      "NATURE IMMERSION CARDIO"
+    ]
+  },
+  {
+    "id": 38,
+    "profile": "ENFP_F_A",
+    "group": "NF",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "EP",
+    "slots": [
+      "STRUCTURED FOREST TRAIL RUNNING (VIVID NATURE)",
+      "STRUCTURED CONSERVATION VOLUNTEERING (COMMUNITY GARDEN)",
+      "STRUCTURED SPONTANEOUS NATURE WALK CARDIO",
+      "WILDLIFE GARDEN TENDING",
+      "EXTREME COASTAL TRAIL RUNNING",
+      "NATURE IMMERSION CARDIO"
+    ]
+  },
+  {
+    "id": 39,
+    "profile": "ENFP_F_B",
+    "group": "NF",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "EP",
+    "slots": [
+      "EXTREME FOREST TRAIL RUNNING (VIVID NATURE)",
+      "EXTREME CONSERVATION VOLUNTEERING (COMMUNITY GARDEN)",
+      "EXTREME SPONTANEOUS NATURE WALK CARDIO",
+      "WILDLIFE GARDEN TENDING",
+      "EXTREME COASTAL TRAIL RUNNING",
+      "NATURE IMMERSION CARDIO"
+    ]
+  },
+  {
+    "id": 40,
+    "profile": "ENFP_F_AB",
+    "group": "NF",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "EP",
+    "slots": [
+      "CROSS-TERRAIN FOREST TRAIL RUNNING (VIVID NATURE)",
+      "CROSS-TERRAIN CONSERVATION VOLUNTEERING (COMMUNITY GARDEN)",
+      "CROSS-TERRAIN SPONTANEOUS NATURE WALK CARDIO",
+      "WILDLIFE GARDEN TENDING",
+      "EXTREME COASTAL TRAIL RUNNING",
+      "NATURE IMMERSION CARDIO"
+    ]
+  },
+  {
+    "id": 41,
+    "profile": "INFP_M_O",
+    "group": "NF",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "IP",
+    "slots": [
+      "SOLO TRAIL RUNNING (FOREST, INTROSPECTIVE)",
+      "PRIVATE NATURE CONSERVATION WORK",
+      "SOLO OUTDOOR CARDIO (MEDITATIVE)",
+      "WILDLIFE OBSERVATION HIKE",
+      "DEEP FOREST RUNNING (LONG DISTANCE)",
+      "NATURE PHOTOGRAPHY WALK"
+    ]
+  },
+  {
+    "id": 42,
+    "profile": "INFP_M_A",
+    "group": "NF",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "IP",
+    "slots": [
+      "STRUCTURED SOLO TRAIL RUNNING (FOREST, INTROSPECTIVE)",
+      "STRUCTURED PRIVATE NATURE CONSERVATION WORK",
+      "STRUCTURED SOLO OUTDOOR CARDIO (MEDITATIVE)",
+      "WILDLIFE OBSERVATION HIKE",
+      "DEEP FOREST RUNNING (LONG DISTANCE)",
+      "NATURE PHOTOGRAPHY WALK"
+    ]
+  },
+  {
+    "id": 43,
+    "profile": "INFP_M_B",
+    "group": "NF",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "IP",
+    "slots": [
+      "EXTREME SOLO TRAIL RUNNING (FOREST, INTROSPECTIVE)",
+      "EXTREME PRIVATE NATURE CONSERVATION WORK",
+      "EXTREME SOLO OUTDOOR CARDIO (MEDITATIVE)",
+      "WILDLIFE OBSERVATION HIKE",
+      "DEEP FOREST RUNNING (LONG DISTANCE)",
+      "NATURE PHOTOGRAPHY WALK"
+    ]
+  },
+  {
+    "id": 44,
+    "profile": "INFP_M_AB",
+    "group": "NF",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "IP",
+    "slots": [
+      "CROSS-TERRAIN SOLO TRAIL RUNNING (FOREST, INTROSPECTIVE)",
+      "CROSS-TERRAIN PRIVATE NATURE CONSERVATION WORK",
+      "CROSS-TERRAIN SOLO OUTDOOR CARDIO (MEDITATIVE)",
+      "WILDLIFE OBSERVATION HIKE",
+      "DEEP FOREST RUNNING (LONG DISTANCE)",
+      "NATURE PHOTOGRAPHY WALK"
+    ]
+  },
+  {
+    "id": 45,
+    "profile": "INFP_F_O",
+    "group": "NF",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "IP",
+    "slots": [
+      "SOLO FOREST RUNNING (MEDITATIVE)",
+      "PRIVATE CONSERVATION GARDENING",
+      "SOLO NATURE CARDIO (CONTEMPLATIVE)",
+      "BOTANICAL TRAIL OBSERVATION",
+      "DEEP NATURE WALKING (MINDFUL)",
+      "WILDFLOWER MEADOW WALKING"
+    ]
+  },
+  {
+    "id": 46,
+    "profile": "INFP_F_A",
+    "group": "NF",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "IP",
+    "slots": [
+      "STRUCTURED SOLO FOREST RUNNING (MEDITATIVE)",
+      "STRUCTURED PRIVATE CONSERVATION GARDENING",
+      "STRUCTURED SOLO NATURE CARDIO (CONTEMPLATIVE)",
+      "BOTANICAL TRAIL OBSERVATION",
+      "DEEP NATURE WALKING (MINDFUL)",
+      "WILDFLOWER MEADOW WALKING"
+    ]
+  },
+  {
+    "id": 47,
+    "profile": "INFP_F_B",
+    "group": "NF",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "IP",
+    "slots": [
+      "EXTREME SOLO FOREST RUNNING (MEDITATIVE)",
+      "EXTREME PRIVATE CONSERVATION GARDENING",
+      "EXTREME SOLO NATURE CARDIO (CONTEMPLATIVE)",
+      "BOTANICAL TRAIL OBSERVATION",
+      "DEEP NATURE WALKING (MINDFUL)",
+      "WILDFLOWER MEADOW WALKING"
+    ]
+  },
+  {
+    "id": 48,
+    "profile": "INFP_F_AB",
+    "group": "NF",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "IP",
+    "slots": [
+      "CROSS-TERRAIN SOLO FOREST RUNNING (MEDITATIVE)",
+      "CROSS-TERRAIN PRIVATE CONSERVATION GARDENING",
+      "CROSS-TERRAIN SOLO NATURE CARDIO (CONTEMPLATIVE)",
+      "BOTANICAL TRAIL OBSERVATION",
+      "DEEP NATURE WALKING (MINDFUL)",
+      "WILDFLOWER MEADOW WALKING"
+    ]
+  },
+  {
+    "id": 49,
+    "profile": "ENFJ_M_O",
+    "group": "NF",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "EJ",
+    "slots": [
+      "ORGANIZED TRAIL RUNNING EVENT",
+      "CONSERVATION PROJECT LEADERSHIP",
+      "GROUP OUTDOOR CARDIO SESSION",
+      "WILDLIFE TRAIL GROUP EXPLORATION",
+      "EXTREME TRAIL RACING EVENT ORGANIZATION",
+      "COMMUNITY OUTDOOR FITNESS EVENT"
+    ]
+  },
+  {
+    "id": 50,
+    "profile": "ENFJ_M_A",
+    "group": "NF",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "EJ",
+    "slots": [
+      "STRUCTURED ORGANIZED TRAIL RUNNING EVENT",
+      "STRUCTURED CONSERVATION PROJECT LEADERSHIP",
+      "STRUCTURED GROUP OUTDOOR CARDIO SESSION",
+      "WILDLIFE TRAIL GROUP EXPLORATION",
+      "EXTREME TRAIL RACING EVENT ORGANIZATION",
+      "COMMUNITY OUTDOOR FITNESS EVENT"
+    ]
+  },
+  {
+    "id": 51,
+    "profile": "ENFJ_M_B",
+    "group": "NF",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "EJ",
+    "slots": [
+      "EXTREME ORGANIZED TRAIL RUNNING EVENT",
+      "EXTREME CONSERVATION PROJECT LEADERSHIP",
+      "EXTREME GROUP OUTDOOR CARDIO SESSION",
+      "WILDLIFE TRAIL GROUP EXPLORATION",
+      "EXTREME TRAIL RACING EVENT ORGANIZATION",
+      "COMMUNITY OUTDOOR FITNESS EVENT"
+    ]
+  },
+  {
+    "id": 52,
+    "profile": "ENFJ_M_AB",
+    "group": "NF",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "EJ",
+    "slots": [
+      "CROSS-TERRAIN ORGANIZED TRAIL RUNNING EVENT",
+      "CROSS-TERRAIN CONSERVATION PROJECT LEADERSHIP",
+      "CROSS-TERRAIN GROUP OUTDOOR CARDIO SESSION",
+      "WILDLIFE TRAIL GROUP EXPLORATION",
+      "EXTREME TRAIL RACING EVENT ORGANIZATION",
+      "COMMUNITY OUTDOOR FITNESS EVENT"
+    ]
+  },
+  {
+    "id": 53,
+    "profile": "ENFJ_F_O",
+    "group": "NF",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "EJ",
+    "slots": [
+      "ORGANIZED NATURE WALK EVENT",
+      "COMMUNITY CONSERVATION PROJECT LEADERSHIP",
+      "GROUP FOREST CARDIO SESSION",
+      "WILDLIFE GARDEN COMMUNITY PROJECT",
+      "EXTREME NATURE RETREAT ORGANIZATION",
+      "COMMUNITY FOREST FITNESS EVENT"
+    ]
+  },
+  {
+    "id": 54,
+    "profile": "ENFJ_F_A",
+    "group": "NF",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "EJ",
+    "slots": [
+      "STRUCTURED ORGANIZED NATURE WALK EVENT",
+      "STRUCTURED COMMUNITY CONSERVATION PROJECT LEADERSHIP",
+      "STRUCTURED GROUP FOREST CARDIO SESSION",
+      "WILDLIFE GARDEN COMMUNITY PROJECT",
+      "EXTREME NATURE RETREAT ORGANIZATION",
+      "COMMUNITY FOREST FITNESS EVENT"
+    ]
+  },
+  {
+    "id": 55,
+    "profile": "ENFJ_F_B",
+    "group": "NF",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "EJ",
+    "slots": [
+      "EXTREME ORGANIZED NATURE WALK EVENT",
+      "EXTREME COMMUNITY CONSERVATION PROJECT LEADERSHIP",
+      "EXTREME GROUP FOREST CARDIO SESSION",
+      "WILDLIFE GARDEN COMMUNITY PROJECT",
+      "EXTREME NATURE RETREAT ORGANIZATION",
+      "COMMUNITY FOREST FITNESS EVENT"
+    ]
+  },
+  {
+    "id": 56,
+    "profile": "ENFJ_F_AB",
+    "group": "NF",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "EJ",
+    "slots": [
+      "CROSS-TERRAIN ORGANIZED NATURE WALK EVENT",
+      "CROSS-TERRAIN COMMUNITY CONSERVATION PROJECT LEADERSHIP",
+      "CROSS-TERRAIN GROUP FOREST CARDIO SESSION",
+      "WILDLIFE GARDEN COMMUNITY PROJECT",
+      "EXTREME NATURE RETREAT ORGANIZATION",
+      "COMMUNITY FOREST FITNESS EVENT"
+    ]
+  },
+  {
+    "id": 57,
+    "profile": "INFJ_M_O",
+    "group": "NF",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC TRAIL RUNNING TRAINING PLAN",
+      "METHODICAL CONSERVATION WORK (SCHEDULED)",
+      "STRUCTURED OUTDOOR CARDIO PROGRAM",
+      "WILDLIFE TRAIL MAPPING & DOCUMENTATION",
+      "FINE TRAIL RUNNING TECHNIQUE STUDY",
+      "LONG-TERM NATURE FITNESS ARCHIVING"
+    ]
+  },
+  {
+    "id": 58,
+    "profile": "INFJ_M_A",
+    "group": "NF",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "IJ",
+    "slots": [
+      "STRUCTURED SYSTEMATIC TRAIL RUNNING TRAINING PLAN",
+      "STRUCTURED METHODICAL CONSERVATION WORK (SCHEDULED)",
+      "STRUCTURED OUTDOOR CARDIO PROGRAM",
+      "WILDLIFE TRAIL MAPPING & DOCUMENTATION",
+      "FINE TRAIL RUNNING TECHNIQUE STUDY",
+      "LONG-TERM NATURE FITNESS ARCHIVING"
+    ]
+  },
+  {
+    "id": 59,
+    "profile": "INFJ_M_B",
+    "group": "NF",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "IJ",
+    "slots": [
+      "EXTREME SYSTEMATIC TRAIL RUNNING TRAINING PLAN",
+      "EXTREME METHODICAL CONSERVATION WORK (SCHEDULED)",
+      "EXTREME STRUCTURED OUTDOOR CARDIO PROGRAM",
+      "WILDLIFE TRAIL MAPPING & DOCUMENTATION",
+      "FINE TRAIL RUNNING TECHNIQUE STUDY",
+      "LONG-TERM NATURE FITNESS ARCHIVING"
+    ]
+  },
+  {
+    "id": 60,
+    "profile": "INFJ_M_AB",
+    "group": "NF",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "IJ",
+    "slots": [
+      "CROSS-TERRAIN SYSTEMATIC TRAIL RUNNING TRAINING PLAN",
+      "CROSS-TERRAIN METHODICAL CONSERVATION WORK (SCHEDULED)",
+      "CROSS-TERRAIN STRUCTURED OUTDOOR CARDIO PROGRAM",
+      "WILDLIFE TRAIL MAPPING & DOCUMENTATION",
+      "FINE TRAIL RUNNING TECHNIQUE STUDY",
+      "LONG-TERM NATURE FITNESS ARCHIVING"
+    ]
+  },
+  {
+    "id": 61,
+    "profile": "INFJ_F_O",
+    "group": "NF",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC NATURE WALKING PROGRAM",
+      "METHODICAL CONSERVATION STUDY (BOTANICAL)",
+      "STRUCTURED FOREST CARDIO ROUTINE",
+      "WILDLIFE TRAIL BOTANICAL DOCUMENTATION",
+      "FINE NATURE WALKING TECHNIQUE STUDY",
+      "LONG-TERM NATURE IMMERSION JOURNAL"
+    ]
+  },
+  {
+    "id": 62,
+    "profile": "INFJ_F_A",
+    "group": "NF",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "IJ",
+    "slots": [
+      "STRUCTURED SYSTEMATIC NATURE WALKING PROGRAM",
+      "STRUCTURED METHODICAL CONSERVATION STUDY (BOTANICAL)",
+      "STRUCTURED FOREST CARDIO ROUTINE",
+      "WILDLIFE TRAIL BOTANICAL DOCUMENTATION",
+      "FINE NATURE WALKING TECHNIQUE STUDY",
+      "LONG-TERM NATURE IMMERSION JOURNAL"
+    ]
+  },
+  {
+    "id": 63,
+    "profile": "INFJ_F_B",
+    "group": "NF",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "IJ",
+    "slots": [
+      "EXTREME SYSTEMATIC NATURE WALKING PROGRAM",
+      "EXTREME METHODICAL CONSERVATION STUDY (BOTANICAL)",
+      "EXTREME STRUCTURED FOREST CARDIO ROUTINE",
+      "WILDLIFE TRAIL BOTANICAL DOCUMENTATION",
+      "FINE NATURE WALKING TECHNIQUE STUDY",
+      "LONG-TERM NATURE IMMERSION JOURNAL"
+    ]
+  },
+  {
+    "id": 64,
+    "profile": "INFJ_F_AB",
+    "group": "NF",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "IJ",
+    "slots": [
+      "CROSS-TERRAIN SYSTEMATIC NATURE WALKING PROGRAM",
+      "CROSS-TERRAIN METHODICAL CONSERVATION STUDY (BOTANICAL)",
+      "CROSS-TERRAIN STRUCTURED FOREST CARDIO ROUTINE",
+      "WILDLIFE TRAIL BOTANICAL DOCUMENTATION",
+      "FINE NATURE WALKING TECHNIQUE STUDY",
+      "LONG-TERM NATURE IMMERSION JOURNAL"
+    ]
+  },
+  {
+    "id": 65,
+    "profile": "ESTP_M_O",
+    "group": "ST",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED ELECTRIC GUITAR SOLO (ROCK/BLUES)",
+      "LIVE DRUM SAMPLING BEAT MAKING",
+      "SPONTANEOUS DJ SET (ROCK/BLUES)",
+      "IMPROMPTU JAM SESSION",
+      "EXTREME LIVE GUITAR PERFORMANCE",
+      "ON-THE-SPOT BEAT PRODUCTION"
+    ]
+  },
+  {
+    "id": 66,
+    "profile": "ESTP_M_A",
+    "group": "ST",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED ELECTRIC GUITAR SOLO (JAZZ STANDARDS)",
+      "LIVE DRUM SAMPLING BEAT MAKING",
+      "SPONTANEOUS DJ SET (JAZZ STANDARDS)",
+      "IMPROMPTU JAM SESSION",
+      "EXTREME LIVE GUITAR PERFORMANCE",
+      "ON-THE-SPOT BEAT PRODUCTION"
+    ]
+  },
+  {
+    "id": 67,
+    "profile": "ESTP_M_B",
+    "group": "ST",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED ELECTRIC GUITAR SOLO (METAL/PUNK)",
+      "LIVE DRUM SAMPLING BEAT MAKING",
+      "SPONTANEOUS DJ SET (METAL/PUNK)",
+      "IMPROMPTU JAM SESSION",
+      "EXTREME LIVE GUITAR PERFORMANCE",
+      "ON-THE-SPOT BEAT PRODUCTION"
+    ]
+  },
+  {
+    "id": 68,
+    "profile": "ESTP_M_AB",
+    "group": "ST",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED ELECTRIC GUITAR SOLO (JAZZ-ROCK-HIPHOP BLEND)",
+      "LIVE DRUM SAMPLING BEAT MAKING",
+      "SPONTANEOUS DJ SET (JAZZ-ROCK-HIPHOP BLEND)",
+      "IMPROMPTU JAM SESSION",
+      "EXTREME LIVE GUITAR PERFORMANCE",
+      "ON-THE-SPOT BEAT PRODUCTION"
+    ]
+  },
+  {
+    "id": 69,
+    "profile": "ESTP_F_O",
+    "group": "ST",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED CELLO PERFORMANCE (CLASSICAL)",
+      "LIVE PIANO IMPROVISATION (CLASSICAL)",
+      "SPONTANEOUS DJ SET (CLASSICAL)",
+      "IMPROMPTU CHAMBER MUSIC JAM",
+      "EXTREME CELLO PERFORMANCE (SOLO)",
+      "ON-THE-SPOT PIANO COMPOSITION"
+    ]
+  },
+  {
+    "id": 70,
+    "profile": "ESTP_F_A",
+    "group": "ST",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED CELLO PERFORMANCE (CLASSICAL REPERTOIRE)",
+      "LIVE PIANO IMPROVISATION (CLASSICAL REPERTOIRE)",
+      "SPONTANEOUS DJ SET (CLASSICAL REPERTOIRE)",
+      "IMPROMPTU CHAMBER MUSIC JAM",
+      "EXTREME CELLO PERFORMANCE (SOLO)",
+      "ON-THE-SPOT PIANO COMPOSITION"
+    ]
+  },
+  {
+    "id": 71,
+    "profile": "ESTP_F_B",
+    "group": "ST",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED CELLO PERFORMANCE (AVANT-GARDE)",
+      "LIVE PIANO IMPROVISATION (AVANT-GARDE)",
+      "SPONTANEOUS DJ SET (AVANT-GARDE)",
+      "IMPROMPTU CHAMBER MUSIC JAM",
+      "EXTREME CELLO PERFORMANCE (SOLO)",
+      "ON-THE-SPOT PIANO COMPOSITION"
+    ]
+  },
+  {
+    "id": 72,
+    "profile": "ESTP_F_AB",
+    "group": "ST",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED CELLO PERFORMANCE (CLASSICAL-JAZZ-EDM BLEND)",
+      "LIVE PIANO IMPROVISATION (CLASSICAL-JAZZ-EDM BLEND)",
+      "SPONTANEOUS DJ SET (CLASSICAL-JAZZ-EDM BLEND)",
+      "IMPROMPTU CHAMBER MUSIC JAM",
+      "EXTREME CELLO PERFORMANCE (SOLO)",
+      "ON-THE-SPOT PIANO COMPOSITION"
+    ]
+  },
+  {
+    "id": 73,
+    "profile": "ISTP_M_O",
+    "group": "ST",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "IP",
+    "slots": [
+      "SOLO GUITAR EXPLORATION (ROCK/BLUES)",
+      "MODULAR SYNTH PATCH DESIGN",
+      "PRIVATE BEAT MAKING (ROCK/BLUES)",
+      "LUTHIER WORK (GUITAR SETUP)",
+      "DEEP GUITAR TONE CRAFT",
+      "ANALOG SYNTH CALIBRATION"
+    ]
+  },
+  {
+    "id": 74,
+    "profile": "ISTP_M_A",
+    "group": "ST",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "IP",
+    "slots": [
+      "SOLO GUITAR EXPLORATION (JAZZ STANDARDS)",
+      "MODULAR SYNTH PATCH DESIGN",
+      "PRIVATE BEAT MAKING (JAZZ STANDARDS)",
+      "LUTHIER WORK (GUITAR SETUP)",
+      "DEEP GUITAR TONE CRAFT",
+      "ANALOG SYNTH CALIBRATION"
+    ]
+  },
+  {
+    "id": 75,
+    "profile": "ISTP_M_B",
+    "group": "ST",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "IP",
+    "slots": [
+      "SOLO GUITAR EXPLORATION (METAL/PUNK)",
+      "MODULAR SYNTH PATCH DESIGN",
+      "PRIVATE BEAT MAKING (METAL/PUNK)",
+      "LUTHIER WORK (GUITAR SETUP)",
+      "DEEP GUITAR TONE CRAFT",
+      "ANALOG SYNTH CALIBRATION"
+    ]
+  },
+  {
+    "id": 76,
+    "profile": "ISTP_M_AB",
+    "group": "ST",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "IP",
+    "slots": [
+      "SOLO GUITAR EXPLORATION (JAZZ-ROCK-HIPHOP BLEND)",
+      "MODULAR SYNTH PATCH DESIGN",
+      "PRIVATE BEAT MAKING (JAZZ-ROCK-HIPHOP BLEND)",
+      "LUTHIER WORK (GUITAR SETUP)",
+      "DEEP GUITAR TONE CRAFT",
+      "ANALOG SYNTH CALIBRATION"
+    ]
+  },
+  {
+    "id": 77,
+    "profile": "ISTP_F_O",
+    "group": "ST",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "IP",
+    "slots": [
+      "SOLO CELLO EXPLORATION (CLASSICAL)",
+      "PRIVATE PIANO IMPROVISATION (CLASSICAL)",
+      "MODULAR SYNTH EXPLORATION (AMBIENT)",
+      "INSTRUMENT MAINTENANCE & TUNING",
+      "DEEP CELLO TONE CRAFT",
+      "PIANO TECHNIQUE STUDY"
+    ]
+  },
+  {
+    "id": 78,
+    "profile": "ISTP_F_A",
+    "group": "ST",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "IP",
+    "slots": [
+      "SOLO CELLO EXPLORATION (CLASSICAL REPERTOIRE)",
+      "PRIVATE PIANO IMPROVISATION (CLASSICAL REPERTOIRE)",
+      "MODULAR SYNTH EXPLORATION (AMBIENT)",
+      "INSTRUMENT MAINTENANCE & TUNING",
+      "DEEP CELLO TONE CRAFT",
+      "PIANO TECHNIQUE STUDY"
+    ]
+  },
+  {
+    "id": 79,
+    "profile": "ISTP_F_B",
+    "group": "ST",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "IP",
+    "slots": [
+      "SOLO CELLO EXPLORATION (AVANT-GARDE)",
+      "PRIVATE PIANO IMPROVISATION (AVANT-GARDE)",
+      "MODULAR SYNTH EXPLORATION (AMBIENT)",
+      "INSTRUMENT MAINTENANCE & TUNING",
+      "DEEP CELLO TONE CRAFT",
+      "PIANO TECHNIQUE STUDY"
+    ]
+  },
+  {
+    "id": 80,
+    "profile": "ISTP_F_AB",
+    "group": "ST",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "IP",
+    "slots": [
+      "SOLO CELLO EXPLORATION (CLASSICAL-JAZZ-EDM BLEND)",
+      "PRIVATE PIANO IMPROVISATION (CLASSICAL-JAZZ-EDM BLEND)",
+      "MODULAR SYNTH EXPLORATION (AMBIENT)",
+      "INSTRUMENT MAINTENANCE & TUNING",
+      "DEEP CELLO TONE CRAFT",
+      "PIANO TECHNIQUE STUDY"
+    ]
+  },
+  {
+    "id": 81,
+    "profile": "ESTJ_M_O",
+    "group": "ST",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "EJ",
+    "slots": [
+      "ORGANIZED BAND REHEARSAL (ROCK/BLUES)",
+      "STRUCTURED DRUM SAMPLING SESSION",
+      "DJ SET PLANNING & EXECUTION (ROCK/BLUES)",
+      "MUSIC PRODUCTION PROJECT MANAGEMENT",
+      "LARGE-SCALE LIVE PERFORMANCE ORGANIZATION",
+      "STUDIO RECORDING SESSION"
+    ]
+  },
+  {
+    "id": 82,
+    "profile": "ESTJ_M_A",
+    "group": "ST",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "EJ",
+    "slots": [
+      "ORGANIZED BAND REHEARSAL (JAZZ STANDARDS)",
+      "STRUCTURED DRUM SAMPLING SESSION",
+      "DJ SET PLANNING & EXECUTION (JAZZ STANDARDS)",
+      "MUSIC PRODUCTION PROJECT MANAGEMENT",
+      "LARGE-SCALE LIVE PERFORMANCE ORGANIZATION",
+      "STUDIO RECORDING SESSION"
+    ]
+  },
+  {
+    "id": 83,
+    "profile": "ESTJ_M_B",
+    "group": "ST",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "EJ",
+    "slots": [
+      "ORGANIZED BAND REHEARSAL (METAL/PUNK)",
+      "STRUCTURED DRUM SAMPLING SESSION",
+      "DJ SET PLANNING & EXECUTION (METAL/PUNK)",
+      "MUSIC PRODUCTION PROJECT MANAGEMENT",
+      "LARGE-SCALE LIVE PERFORMANCE ORGANIZATION",
+      "STUDIO RECORDING SESSION"
+    ]
+  },
+  {
+    "id": 84,
+    "profile": "ESTJ_M_AB",
+    "group": "ST",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "EJ",
+    "slots": [
+      "ORGANIZED BAND REHEARSAL (JAZZ-ROCK-HIPHOP BLEND)",
+      "STRUCTURED DRUM SAMPLING SESSION",
+      "DJ SET PLANNING & EXECUTION (JAZZ-ROCK-HIPHOP BLEND)",
+      "MUSIC PRODUCTION PROJECT MANAGEMENT",
+      "LARGE-SCALE LIVE PERFORMANCE ORGANIZATION",
+      "STUDIO RECORDING SESSION"
+    ]
+  },
+  {
+    "id": 85,
+    "profile": "ESTJ_F_O",
+    "group": "ST",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "EJ",
+    "slots": [
+      "ORGANIZED ORCHESTRA REHEARSAL (CLASSICAL)",
+      "STRUCTURED PIANO RECITAL PREPARATION",
+      "DJ SET PLANNING (CLASSICAL)",
+      "CHAMBER MUSIC PROJECT MANAGEMENT",
+      "LARGE-SCALE RECITAL ORGANIZATION",
+      "STUDIO RECORDING (CLASSICAL)"
+    ]
+  },
+  {
+    "id": 86,
+    "profile": "ESTJ_F_A",
+    "group": "ST",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "EJ",
+    "slots": [
+      "ORGANIZED ORCHESTRA REHEARSAL (CLASSICAL REPERTOIRE)",
+      "STRUCTURED PIANO RECITAL PREPARATION",
+      "DJ SET PLANNING (CLASSICAL REPERTOIRE)",
+      "CHAMBER MUSIC PROJECT MANAGEMENT",
+      "LARGE-SCALE RECITAL ORGANIZATION",
+      "STUDIO RECORDING (CLASSICAL REPERTOIRE)"
+    ]
+  },
+  {
+    "id": 87,
+    "profile": "ESTJ_F_B",
+    "group": "ST",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "EJ",
+    "slots": [
+      "ORGANIZED ORCHESTRA REHEARSAL (AVANT-GARDE)",
+      "STRUCTURED PIANO RECITAL PREPARATION",
+      "DJ SET PLANNING (AVANT-GARDE)",
+      "CHAMBER MUSIC PROJECT MANAGEMENT",
+      "LARGE-SCALE RECITAL ORGANIZATION",
+      "STUDIO RECORDING (AVANT-GARDE)"
+    ]
+  },
+  {
+    "id": 88,
+    "profile": "ESTJ_F_AB",
+    "group": "ST",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "EJ",
+    "slots": [
+      "ORGANIZED ORCHESTRA REHEARSAL (CLASSICAL-JAZZ-EDM BLEND)",
+      "STRUCTURED PIANO RECITAL PREPARATION",
+      "DJ SET PLANNING (CLASSICAL-JAZZ-EDM BLEND)",
+      "CHAMBER MUSIC PROJECT MANAGEMENT",
+      "LARGE-SCALE RECITAL ORGANIZATION",
+      "STUDIO RECORDING (CLASSICAL-JAZZ-EDM BLEND)"
+    ]
+  },
+  {
+    "id": 89,
+    "profile": "ISTJ_M_O",
+    "group": "ST",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC GUITAR PRACTICE (ROCK/BLUES)",
+      "METHODICAL DRUM SAMPLING ARCHIVE",
+      "STRUCTURED DJ MIX LIBRARY (ROCK/BLUES)",
+      "MUSIC THEORY STUDY (HARMONY/COUNTERPOINT)",
+      "FINE GUITAR REPERTOIRE BUILDING",
+      "LONG-TERM MUSIC COLLECTION ARCHIVING"
+    ]
+  },
+  {
+    "id": 90,
+    "profile": "ISTJ_M_A",
+    "group": "ST",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC GUITAR PRACTICE (JAZZ STANDARDS)",
+      "METHODICAL DRUM SAMPLING ARCHIVE",
+      "STRUCTURED DJ MIX LIBRARY (JAZZ STANDARDS)",
+      "MUSIC THEORY STUDY (HARMONY/COUNTERPOINT)",
+      "FINE GUITAR REPERTOIRE BUILDING",
+      "LONG-TERM MUSIC COLLECTION ARCHIVING"
+    ]
+  },
+  {
+    "id": 91,
+    "profile": "ISTJ_M_B",
+    "group": "ST",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC GUITAR PRACTICE (METAL/PUNK)",
+      "METHODICAL DRUM SAMPLING ARCHIVE",
+      "STRUCTURED DJ MIX LIBRARY (METAL/PUNK)",
+      "MUSIC THEORY STUDY (HARMONY/COUNTERPOINT)",
+      "FINE GUITAR REPERTOIRE BUILDING",
+      "LONG-TERM MUSIC COLLECTION ARCHIVING"
+    ]
+  },
+  {
+    "id": 92,
+    "profile": "ISTJ_M_AB",
+    "group": "ST",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC GUITAR PRACTICE (JAZZ-ROCK-HIPHOP BLEND)",
+      "METHODICAL DRUM SAMPLING ARCHIVE",
+      "STRUCTURED DJ MIX LIBRARY (JAZZ-ROCK-HIPHOP BLEND)",
+      "MUSIC THEORY STUDY (HARMONY/COUNTERPOINT)",
+      "FINE GUITAR REPERTOIRE BUILDING",
+      "LONG-TERM MUSIC COLLECTION ARCHIVING"
+    ]
+  },
+  {
+    "id": 93,
+    "profile": "ISTJ_F_O",
+    "group": "ST",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC CELLO PRACTICE (CLASSICAL)",
+      "METHODICAL PIANO STUDY (REPERTOIRE)",
+      "STRUCTURED DJ MIX LIBRARY (CLASSICAL)",
+      "MUSIC THEORY STUDY (CLASSICAL HARMONY)",
+      "FINE CELLO REPERTOIRE BUILDING",
+      "LONG-TERM CLASSICAL MUSIC ARCHIVING"
+    ]
+  },
+  {
+    "id": 94,
+    "profile": "ISTJ_F_A",
+    "group": "ST",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC CELLO PRACTICE (CLASSICAL REPERTOIRE)",
+      "METHODICAL PIANO STUDY (REPERTOIRE)",
+      "STRUCTURED DJ MIX LIBRARY (CLASSICAL REPERTOIRE)",
+      "MUSIC THEORY STUDY (CLASSICAL HARMONY)",
+      "FINE CELLO REPERTOIRE BUILDING",
+      "LONG-TERM CLASSICAL MUSIC ARCHIVING"
+    ]
+  },
+  {
+    "id": 95,
+    "profile": "ISTJ_F_B",
+    "group": "ST",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC CELLO PRACTICE (AVANT-GARDE)",
+      "METHODICAL PIANO STUDY (REPERTOIRE)",
+      "STRUCTURED DJ MIX LIBRARY (AVANT-GARDE)",
+      "MUSIC THEORY STUDY (CLASSICAL HARMONY)",
+      "FINE CELLO REPERTOIRE BUILDING",
+      "LONG-TERM CLASSICAL MUSIC ARCHIVING"
+    ]
+  },
+  {
+    "id": 96,
+    "profile": "ISTJ_F_AB",
+    "group": "ST",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "IJ",
+    "slots": [
+      "SYSTEMATIC CELLO PRACTICE (CLASSICAL-JAZZ-EDM BLEND)",
+      "METHODICAL PIANO STUDY (REPERTOIRE)",
+      "STRUCTURED DJ MIX LIBRARY (CLASSICAL-JAZZ-EDM BLEND)",
+      "MUSIC THEORY STUDY (CLASSICAL HARMONY)",
+      "FINE CELLO REPERTOIRE BUILDING",
+      "LONG-TERM CLASSICAL MUSIC ARCHIVING"
+    ]
+  },
+  {
+    "id": 97,
+    "profile": "ESFP_M_O",
+    "group": "SF",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED COOKING WITH WILD INGREDIENTS",
+      "PIGMENT EXTRACTION FROM WILD BERRIES",
+      "FERMENTATION EXPERIMENT (SPONTANEOUS)",
+      "TRAIL FORAGING WALK",
+      "EXTREME TASTING MENU DESIGN",
+      "WILD HERB PESTO CRAFT"
+    ]
+  },
+  {
+    "id": 98,
+    "profile": "ESFP_M_A",
+    "group": "SF",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED COOKING WITH SEASONAL INGREDIENTS",
+      "PIGMENT EXTRACTION FROM BOTANICAL SOURCES",
+      "FERMENTATION EXPERIMENT (METHODICAL)",
+      "GARDEN FORAGING WALK",
+      "EXTREME TASTING MENU DESIGN",
+      "ARTISANAL BREAD CRAFT"
+    ]
+  },
+  {
+    "id": 99,
+    "profile": "ESFP_M_B",
+    "group": "SF",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED COOKING WITH BOLD INGREDIENTS",
+      "PIGMENT EXTRACTION FROM CHILI PEPPERS",
+      "FERMENTATION EXPERIMENT (WILD)",
+      "URBAN EDGE FORAGING WALK",
+      "EXTREME TASTING MENU DESIGN",
+      "SMOKED MEAT CRAFT"
+    ]
+  },
+  {
+    "id": 100,
+    "profile": "ESFP_M_AB",
+    "group": "SF",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "EP",
+    "slots": [
+      "IMPROVISED COOKING WITH FUSION INGREDIENTS",
+      "PIGMENT EXTRACTION FROM MULTI-SOURCE",
+      "FERMENTATION EXPERIMENT (CROSS-CULTURAL)",
+      "ETHNIC MARKET FORAGING WALK",
+      "EXTREME TASTING MENU DESIGN",
+      "CROSS-CULTURAL FERMENT CRAFT"
+    ]
+  },
+  {
+    "id": 101,
+    "profile": "ESFP_F_O",
+    "group": "SF",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "EP",
+    "slots": [
+      "VIBRANT SALAD WITH EDIBLE FLOWERS",
+      "NATURAL FOOD COLORING CRAFT",
+      "YOGURT FERMENTATION",
+      "KITCHEN HERB GARDEN TENDING",
+      "ARTISANAL JAM & PRESERVE MAKING",
+      "FLOWER SYRUP CRAFT"
+    ]
+  },
+  {
+    "id": 102,
+    "profile": "ESFP_F_A",
+    "group": "SF",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "EP",
+    "slots": [
+      "VIBRANT TART WITH EDIBLE FLOWERS",
+      "NATURAL FOOD COLORING CRAFT",
+      "YOGURT FERMENTATION",
+      "KITCHEN HERB GARDEN TENDING",
+      "ARTISANAL JAM & PRESERVE MAKING",
+      "FLOWER SYRUP CRAFT"
+    ]
+  },
+  {
+    "id": 103,
+    "profile": "ESFP_F_B",
+    "group": "SF",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "EP",
+    "slots": [
+      "VIBRANT STREET FOOD WITH EDIBLE FLOWERS",
+      "NATURAL FOOD COLORING CRAFT",
+      "YOGURT FERMENTATION",
+      "KITCHEN HERB GARDEN TENDING",
+      "ARTISANAL JAM & PRESERVE MAKING",
+      "FLOWER SYRUP CRAFT"
+    ]
+  },
+  {
+    "id": 104,
+    "profile": "ESFP_F_AB",
+    "group": "SF",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "EP",
+    "slots": [
+      "VIBRANT DECONSTRUCTED CUISINE WITH EDIBLE FLOWERS",
+      "NATURAL FOOD COLORING CRAFT",
+      "YOGURT FERMENTATION",
+      "KITCHEN HERB GARDEN TENDING",
+      "ARTISANAL JAM & PRESERVE MAKING",
+      "FLOWER SYRUP CRAFT"
+    ]
+  },
+  {
+    "id": 105,
+    "profile": "ISFP_M_O",
+    "group": "SF",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "IP",
+    "slots": [
+      "SLOW COOKING WITH WILD INGREDIENTS",
+      "EARTH PIGMENT GRINDING & PAINTING",
+      "SOURDOUGH STARTER MAINTENANCE",
+      "SOLO FORAGING HIKE",
+      "ARTISANAL CHARCUTERIE CRAFT",
+      "WILD MUSHROOM PREPARATION"
+    ]
+  },
+  {
+    "id": 106,
+    "profile": "ISFP_M_A",
+    "group": "SF",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "IP",
+    "slots": [
+      "SLOW COOKING WITH SEASONAL INGREDIENTS",
+      "EARTH PIGMENT GRINDING & PAINTING",
+      "SOURDOUGH STARTER MAINTENANCE",
+      "SOLO FORAGING HIKE",
+      "ARTISANAL CHARCUTERIE CRAFT",
+      "WILD MUSHROOM PREPARATION"
+    ]
+  },
+  {
+    "id": 107,
+    "profile": "ISFP_M_B",
+    "group": "SF",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "IP",
+    "slots": [
+      "SLOW COOKING WITH BOLD INGREDIENTS",
+      "EARTH PIGMENT GRINDING & PAINTING",
+      "SOURDOUGH STARTER MAINTENANCE",
+      "SOLO FORAGING HIKE",
+      "ARTISANAL CHARCUTERIE CRAFT",
+      "WILD MUSHROOM PREPARATION"
+    ]
+  },
+  {
+    "id": 108,
+    "profile": "ISFP_M_AB",
+    "group": "SF",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "IP",
+    "slots": [
+      "SLOW COOKING WITH FUSION INGREDIENTS",
+      "EARTH PIGMENT GRINDING & PAINTING",
+      "SOURDOUGH STARTER MAINTENANCE",
+      "SOLO FORAGING HIKE",
+      "ARTISANAL CHARCUTERIE CRAFT",
+      "WILD MUSHROOM PREPARATION"
+    ]
+  },
+  {
+    "id": 109,
+    "profile": "ISFP_F_O",
+    "group": "SF",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "IP",
+    "slots": [
+      "AESTHETIC PLATING WITH EDIBLE FLOWERS",
+      "BOTANICAL DYE FOR FOOD",
+      "SLOW JAM MAKING",
+      "FLOWER GARDEN CULTIVATION",
+      "ARTISANAL ICE CREAM CRAFT",
+      "HERBAL TEA BLENDING"
+    ]
+  },
+  {
+    "id": 110,
+    "profile": "ISFP_F_A",
+    "group": "SF",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "IP",
+    "slots": [
+      "AESTHETIC PLATING WITH EDIBLE FLOWERS",
+      "BOTANICAL DYE FOR FOOD",
+      "SLOW JAM MAKING",
+      "FLOWER GARDEN CULTIVATION",
+      "ARTISANAL ICE CREAM CRAFT",
+      "HERBAL TEA BLENDING"
+    ]
+  },
+  {
+    "id": 111,
+    "profile": "ISFP_F_B",
+    "group": "SF",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "IP",
+    "slots": [
+      "AESTHETIC PLATING WITH EDIBLE FLOWERS",
+      "BOTANICAL DYE FOR FOOD",
+      "SLOW JAM MAKING",
+      "FLOWER GARDEN CULTIVATION",
+      "ARTISANAL ICE CREAM CRAFT",
+      "HERBAL TEA BLENDING"
+    ]
+  },
+  {
+    "id": 112,
+    "profile": "ISFP_F_AB",
+    "group": "SF",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "IP",
+    "slots": [
+      "AESTHETIC PLATING WITH EDIBLE FLOWERS",
+      "BOTANICAL DYE FOR FOOD",
+      "SLOW JAM MAKING",
+      "FLOWER GARDEN CULTIVATION",
+      "ARTISANAL ICE CREAM CRAFT",
+      "HERBAL TEA BLENDING"
+    ]
+  },
+  {
+    "id": 113,
+    "profile": "ESFJ_M_O",
+    "group": "SF",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "EJ",
+    "slots": [
+      "COMMUNITY COOKING EVENT WITH WILD INGREDIENTS",
+      "PIGMENT WORKSHOP FOR GROUP",
+      "ORGANIZED FERMENTATION PARTY",
+      "GROUP FORAGING WALK",
+      "LARGE-SCALE TASTING EVENT ORGANIZATION",
+      "COMMUNITY FEAST PREPARATION"
+    ]
+  },
+  {
+    "id": 114,
+    "profile": "ESFJ_M_A",
+    "group": "SF",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "EJ",
+    "slots": [
+      "COMMUNITY COOKING EVENT WITH SEASONAL INGREDIENTS",
+      "PIGMENT WORKSHOP FOR GROUP",
+      "ORGANIZED FERMENTATION PARTY",
+      "GROUP FORAGING WALK",
+      "LARGE-SCALE TASTING EVENT ORGANIZATION",
+      "COMMUNITY FEAST PREPARATION"
+    ]
+  },
+  {
+    "id": 115,
+    "profile": "ESFJ_M_B",
+    "group": "SF",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "EJ",
+    "slots": [
+      "COMMUNITY COOKING EVENT WITH BOLD INGREDIENTS",
+      "PIGMENT WORKSHOP FOR GROUP",
+      "ORGANIZED FERMENTATION PARTY",
+      "GROUP FORAGING WALK",
+      "LARGE-SCALE TASTING EVENT ORGANIZATION",
+      "COMMUNITY FEAST PREPARATION"
+    ]
+  },
+  {
+    "id": 116,
+    "profile": "ESFJ_M_AB",
+    "group": "SF",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "EJ",
+    "slots": [
+      "COMMUNITY COOKING EVENT WITH FUSION INGREDIENTS",
+      "PIGMENT WORKSHOP FOR GROUP",
+      "ORGANIZED FERMENTATION PARTY",
+      "GROUP FORAGING WALK",
+      "LARGE-SCALE TASTING EVENT ORGANIZATION",
+      "COMMUNITY FEAST PREPARATION"
+    ]
+  },
+  {
+    "id": 117,
+    "profile": "ESFJ_F_O",
+    "group": "SF",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "EJ",
+    "slots": [
+      "COMMUNITY BAKING GATHERING",
+      "EDIBLE FLOWER ARRANGEMENT WORKSHOP",
+      "ORGANIZED PRESERVE-MAKING SESSION",
+      "COMMUNITY HERB GARDEN PROJECT",
+      "HIGH-TEA EVENT ORGANIZATION",
+      "SEASONAL FOOD CELEBRATION PLANNING"
+    ]
+  },
+  {
+    "id": 118,
+    "profile": "ESFJ_F_A",
+    "group": "SF",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "EJ",
+    "slots": [
+      "COMMUNITY BAKING GATHERING",
+      "EDIBLE FLOWER ARRANGEMENT WORKSHOP",
+      "ORGANIZED PRESERVE-MAKING SESSION",
+      "COMMUNITY HERB GARDEN PROJECT",
+      "HIGH-TEA EVENT ORGANIZATION",
+      "SEASONAL FOOD CELEBRATION PLANNING"
+    ]
+  },
+  {
+    "id": 119,
+    "profile": "ESFJ_F_B",
+    "group": "SF",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "EJ",
+    "slots": [
+      "COMMUNITY BAKING GATHERING",
+      "EDIBLE FLOWER ARRANGEMENT WORKSHOP",
+      "ORGANIZED PRESERVE-MAKING SESSION",
+      "COMMUNITY HERB GARDEN PROJECT",
+      "HIGH-TEA EVENT ORGANIZATION",
+      "SEASONAL FOOD CELEBRATION PLANNING"
+    ]
+  },
+  {
+    "id": 120,
+    "profile": "ESFJ_F_AB",
+    "group": "SF",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "EJ",
+    "slots": [
+      "COMMUNITY BAKING GATHERING",
+      "EDIBLE FLOWER ARRANGEMENT WORKSHOP",
+      "ORGANIZED PRESERVE-MAKING SESSION",
+      "COMMUNITY HERB GARDEN PROJECT",
+      "HIGH-TEA EVENT ORGANIZATION",
+      "SEASONAL FOOD CELEBRATION PLANNING"
+    ]
+  },
+  {
+    "id": 121,
+    "profile": "ISFJ_M_O",
+    "group": "SF",
+    "gender": "M",
+    "blood": "O",
+    "attitude": "IJ",
+    "slots": [
+      "TRADITIONAL RECIPE PRESERVATION & COOKING",
+      "HISTORICAL PIGMENT RESEARCH & REPLICATION",
+      "METHODICAL FERMENTATION (SAUERKRAUT)",
+      "HOME GARDEN HARVEST & COOKING",
+      "HEIRLOOM RECIPE RESTORATION",
+      "SEASONAL PRESERVATION CYCLE"
+    ]
+  },
+  {
+    "id": 122,
+    "profile": "ISFJ_M_A",
+    "group": "SF",
+    "gender": "M",
+    "blood": "A",
+    "attitude": "IJ",
+    "slots": [
+      "TRADITIONAL RECIPE PRESERVATION & COOKING",
+      "HISTORICAL PIGMENT RESEARCH & REPLICATION",
+      "METHODICAL FERMENTATION (SAUERKRAUT)",
+      "HOME GARDEN HARVEST & COOKING",
+      "HEIRLOOM RECIPE RESTORATION",
+      "SEASONAL PRESERVATION CYCLE"
+    ]
+  },
+  {
+    "id": 123,
+    "profile": "ISFJ_M_B",
+    "group": "SF",
+    "gender": "M",
+    "blood": "B",
+    "attitude": "IJ",
+    "slots": [
+      "TRADITIONAL RECIPE PRESERVATION & COOKING",
+      "HISTORICAL PIGMENT RESEARCH & REPLICATION",
+      "METHODICAL FERMENTATION (SAUERKRAUT)",
+      "HOME GARDEN HARVEST & COOKING",
+      "HEIRLOOM RECIPE RESTORATION",
+      "SEASONAL PRESERVATION CYCLE"
+    ]
+  },
+  {
+    "id": 124,
+    "profile": "ISFJ_M_AB",
+    "group": "SF",
+    "gender": "M",
+    "blood": "AB",
+    "attitude": "IJ",
+    "slots": [
+      "TRADITIONAL RECIPE PRESERVATION & COOKING",
+      "HISTORICAL PIGMENT RESEARCH & REPLICATION",
+      "METHODICAL FERMENTATION (SAUERKRAUT)",
+      "HOME GARDEN HARVEST & COOKING",
+      "HEIRLOOM RECIPE RESTORATION",
+      "SEASONAL PRESERVATION CYCLE"
+    ]
+  },
+  {
+    "id": 125,
+    "profile": "ISFJ_F_O",
+    "group": "SF",
+    "gender": "F",
+    "blood": "O",
+    "attitude": "IJ",
+    "slots": [
+      "SEASONAL JAM & PRESERVE MAKING",
+      "BOTANICAL DYE RESEARCH & APPLICATION",
+      "TRADITIONAL PICKLING (FAMILY RECIPE)",
+      "HERB DRYING & STORAGE CRAFT",
+      "HEIRLOOM DESSERT RECREATION",
+      "FLOWER SYRUP & CORDIAL CRAFT"
+    ]
+  },
+  {
+    "id": 126,
+    "profile": "ISFJ_F_A",
+    "group": "SF",
+    "gender": "F",
+    "blood": "A",
+    "attitude": "IJ",
+    "slots": [
+      "SEASONAL JAM & PRESERVE MAKING",
+      "BOTANICAL DYE RESEARCH & APPLICATION",
+      "TRADITIONAL PICKLING (FAMILY RECIPE)",
+      "HERB DRYING & STORAGE CRAFT",
+      "HEIRLOOM DESSERT RECREATION",
+      "FLOWER SYRUP & CORDIAL CRAFT"
+    ]
+  },
+  {
+    "id": 127,
+    "profile": "ISFJ_F_B",
+    "group": "SF",
+    "gender": "F",
+    "blood": "B",
+    "attitude": "IJ",
+    "slots": [
+      "SEASONAL JAM & PRESERVE MAKING",
+      "BOTANICAL DYE RESEARCH & APPLICATION",
+      "TRADITIONAL PICKLING (FAMILY RECIPE)",
+      "HERB DRYING & STORAGE CRAFT",
+      "HEIRLOOM DESSERT RECREATION",
+      "FLOWER SYRUP & CORDIAL CRAFT"
+    ]
+  },
+  {
+    "id": 128,
+    "profile": "ISFJ_F_AB",
+    "group": "SF",
+    "gender": "F",
+    "blood": "AB",
+    "attitude": "IJ",
+    "slots": [
+      "SEASONAL JAM & PRESERVE MAKING",
+      "BOTANICAL DYE RESEARCH & APPLICATION",
+      "TRADITIONAL PICKLING (FAMILY RECIPE)",
+      "HERB DRYING & STORAGE CRAFT",
+      "HEIRLOOM DESSERT RECREATION",
+      "FLOWER SYRUP & CORDIAL CRAFT"
+    ]
+  }
+]

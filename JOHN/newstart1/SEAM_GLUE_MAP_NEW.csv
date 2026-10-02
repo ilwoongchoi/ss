@@ -1,0 +1,14 @@
+step,seam_name,seam_type,patch_a,patch_b,patch_c,seam_class,pre_components,post_components,reduction,universe_phase,mechanism
+1,sheet_id:2__sheet_id:4,Direct,B,D,,Local seam,12,11,1,Internal,Lane A local seam substrate
+2,sheet_id:11__sheet_id:2,Direct,11,B,,Deprojection,11,10,1,Internal,Lane B deprojection
+3,sheet_id:14__sheet_id:2,Direct,14,B,,Deprojection,10,9,1,Internal,Lane B deprojection
+4,sheet_id:13__3__2,Relay,13,C,B,Relay path,9,7,2,Internal,Lane C relay 13→3→2
+5,sheet_id:10__sheet_id:2,Direct,10,B,,Deprojection,7,6,1,Internal,Stage 2 deprojection
+6,sheet_id:12__sheet_id:2,Direct,12,B,,Deprojection,6,5,1,Internal,Stage 2 deprojection
+7,sheet_id:10__sheet_id:1,Direct,10,A,,Activation,5,4,1,Internal,A-D activation
+8,flash_bridge__sheet_id:3,Direct,F,C,,Flash bridge,4,3,1,Internal,A-B flash bridge
+9,flash:center_in__sheet_id:3,Direct,F_prime,C,,Flash complement,3,2,1,Internal,Flash complement; MAX INTERNAL
+10,gateway_peak__mediator:synthetic_alpha,Direct,G,X,,External expansion,2,2,0,External,Add mediator X; link G↔X
+11,mediator:synthetic_alpha__sheet_id:4,Direct,X,D,,Relay connection,2,1,1,External,Relay X→D; FULL CLOSURE
+12,core_center__right_branch,HYPOXIA_BRIDGE,O,B_man,,Engine corridor,2,2,0,Engine,HYPOXIA: BIG MAN-SMALL MAN direct tunnel
+13,core_center__mediator:synthetic_alpha,HYPOXIA_JUNCTION,O,X,,Engine-to-main,2,1,1,Engine,HYPOXIA junction: engine island to main body

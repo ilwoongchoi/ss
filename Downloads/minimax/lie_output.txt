@@ -1,0 +1,28 @@
+﻿======================================================================
+LIE GROUP ISOMORPHISM VERIFICATION (SymPy)
+======================================================================
+
+[1] observer_leftd2 ↔ Sagittarius A* (Bondi + Eddington)
+python : Traceback (most recent call last):
+위치 줄:1 문자:54
++ ... nimax-agent\projects"; python -X utf8 lie_isomorphism.py 2>&1 | Out-F ...
++                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism.py", line 298, in <module>
+    main()
+  File "C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism.py", line 233, in main
+    res = test_lie_isomorphism(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism.py", line 175, in test_lie_isomorphism
+    fx_p = sp.lambdify((t, x) + tuple(vars_p), expr_p, modules=['numpy'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\sympy\utilities\lambdify.py", 
+line 919, in lambdify
+    c = compile(funcstr, filename, 'exec')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<lambdifygenerated-2>", line 1
+    def _lambdifygenerated(t, x, k_acc, k_jet, k_self, alpha, 4297000.0):
+                                                              ^^^^^^^^^
+SyntaxError: invalid syntax

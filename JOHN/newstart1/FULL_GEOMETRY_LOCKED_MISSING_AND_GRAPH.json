@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "A",
+    "B",
+    "C",
+    "D",
+    "F",
+    "F_prime",
+    "G",
+    "X",
+    "core_center",
+    "gateway_peak",
+    "mediator:synthetic_alpha",
+    "right_branch"
+  ],
+  "edges": [
+    {
+      "u": "B",
+      "v": "D",
+      "label": "Direct/Local seam step=1 red=1",
+      "weight": null
+    },
+    {
+      "u": "11",
+      "v": "B",
+      "label": "Direct/Deprojection step=2 red=1",
+      "weight": null
+    },
+    {
+      "u": "14",
+      "v": "B",
+      "label": "Direct/Deprojection step=3 red=1",
+      "weight": null
+    },
+    {
+      "u": "13",
+      "v": "C",
+      "label": "Relay/Relay path step=4 red=2",
+      "weight": null
+    },
+    {
+      "u": "B",
+      "v": "C",
+      "label": "relay->Relay/Relay path step=4 red=2",
+      "weight": null
+    },
+    {
+      "u": "10",
+      "v": "B",
+      "label": "Direct/Deprojection step=5 red=1",
+      "weight": null
+    },
+    {
+      "u": "12",
+      "v": "B",
+      "label": "Direct/Deprojection step=6 red=1",
+      "weight": null
+    },
+    {
+      "u": "10",
+      "v": "A",
+      "label": "Direct/Activation step=7 red=1",
+      "weight": null
+    },
+    {
+      "u": "F",
+      "v": "C",
+      "label": "Direct/Flash bridge step=8 red=1",
+      "weight": null
+    },
+    {
+      "u": "F_prime",
+      "v": "C",
+      "label": "Direct/Flash complement step=9 red=1",
+      "weight": null
+    },
+    {
+      "u": "G",
+      "v": "X",
+      "label": "Direct/External expansion step=10 red=0",
+      "weight": null
+    },
+    {
+      "u": "X",
+      "v": "D",
+      "label": "Direct/Relay connection step=11 red=1",
+      "weight": null
+    },
+    {
+      "u": "mediator:synthetic_alpha",
+      "v": "core_center",
+      "label": "gap=7.6274, contact=0.0169, drift=2.147",
+      "weight": 0.0169
+    },
+    {
+      "u": "gateway_peak",
+      "v": "core_center",
+      "label": "gap=8.1132, contact=0.015, drift=1.0",
+      "weight": 0.015
+    },
+    {
+      "u": "mediator:synthetic_alpha",
+      "v": "right_branch",
+      "label": "gap=15.2755, contact=0.002, drift=2.147",
+      "weight": 0.002
+    },
+    {
+      "u": "core_center",
+      "v": "right_branch",
+      "label": "gap=0.0, contact=0.95, drift=4.61",
+      "weight": 0.95
+    }
+  ],
+  "unresolved_gaps_count": 0,
+  "unresolved_gaps": [],
+  "missing_bridge_jobs_count": 0,
+  "missing_bridge_jobs": []
+}

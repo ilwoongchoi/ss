@@ -1,0 +1,5666 @@
+[
+  {
+    "num": 1,
+    "element": "H",
+    "profile": "ENFP_M_O",
+    "mbti": "ENFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.8,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.36,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.509,
+        "dominant_particle": "proton",
+        "particle_score": 0.174,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.481,
+        "dominant_particle": "energy",
+        "particle_score": 0.177,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.26,
+        "dominant_particle": "photon",
+        "particle_score": 0.098,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "dominant_particle": "female_gaba",
+        "particle_score": 0.087,
+        "activity": "인비저닝 구조 — 포용적 프레임",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 2,
+    "element": "He",
+    "profile": "ISFP_F_A",
+    "mbti": "ISFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.343,
+        "dominant_particle": "muon",
+        "particle_score": 0.121,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.341,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.128,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "dominant_particle": "tau",
+        "particle_score": 0.075,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 3,
+    "element": "Li",
+    "profile": "ESFJ_M_O",
+    "mbti": "ESFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.3,
+      "d": 1.0,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.12,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.557,
+        "dominant_particle": "tau",
+        "particle_score": 0.194,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.372,
+        "dominant_particle": "proton",
+        "particle_score": 0.142,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.317,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.14,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.286,
+        "dominant_particle": "photon",
+        "particle_score": 0.101,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 4,
+    "element": "Be",
+    "profile": "INTP_M_O",
+    "mbti": "INTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.15,
+      "d": 0.5,
+      "p": 0.5,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.3
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.42,
+        "dominant_particle": "higgs",
+        "particle_score": 0.115,
+        "activity": "질량/무질량 대비 — 무게 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.355,
+        "dominant_particle": "top_quark",
+        "particle_score": 0.129,
+        "activity": "캐논 형식 작곡 — 최위계 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.335,
+        "dominant_particle": "proton",
+        "particle_score": 0.105,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.28,
+        "dominant_particle": "neutron",
+        "particle_score": 0.103,
+        "activity": "중성 창발 — 다차원 균형",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 5,
+    "element": "B",
+    "profile": "ENTP_F_A",
+    "mbti": "ENTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.27,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.304,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.097,
+        "activity": "상향 플로우 — 상승 리듬 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.292,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.11,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.081,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 6,
+    "element": "C",
+    "profile": "ESTP_M_O",
+    "mbti": "ESTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.24,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.36,
+      "gamma": 0.45,
+      "g": 0.4,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.368,
+        "dominant_particle": "clathrate_buffer",
+        "particle_score": 0.107,
+        "activity": "봉쇄/개방 대비 — 격자 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.113,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.33,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.099,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "dominant_particle": "photon",
+        "particle_score": 0.098,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      }
+    }
+  },
+  {
+    "num": 7,
+    "element": "N",
+    "profile": "INTP_M_AB",
+    "mbti": "INTP",
+    "gender": "M",
+    "blood": "AB",
+    "vector": {
+      "r": 0.2,
+      "h": 0.075,
+      "d": 0.25,
+      "p": 0.25,
+      "s": 0.15,
+      "gamma": 0.225,
+      "g": 0.1,
+      "nu": 0.15
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.21,
+        "dominant_particle": "higgs",
+        "particle_score": 0.057,
+        "activity": "질량/무질량 대비 — 무게 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.177,
+        "dominant_particle": "top_quark",
+        "particle_score": 0.065,
+        "activity": "캐논 형식 작곡 — 최위계 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.167,
+        "dominant_particle": "proton",
+        "particle_score": 0.053,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.14,
+        "dominant_particle": "neutron",
+        "particle_score": 0.052,
+        "activity": "중성 창발 — 다차원 균형",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 8,
+    "element": "O",
+    "profile": "ISTP_M_O",
+    "mbti": "ISTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 0.3,
+      "p": 0.3,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.5
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.365,
+        "dominant_particle": "graviton",
+        "particle_score": 0.134,
+        "activity": "중력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "dominant_particle": "photon",
+        "particle_score": 0.098,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.32,
+        "dominant_particle": "energy",
+        "particle_score": 0.094,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.305,
+        "dominant_particle": "neutron_star",
+        "particle_score": 0.099,
+        "activity": "밀도 구조 — 압축 형태 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 9,
+    "element": "F",
+    "profile": "ESTJ_F_AB",
+    "mbti": "ESTJ",
+    "gender": "F",
+    "blood": "AB",
+    "vector": {
+      "r": 0.15,
+      "h": 0.225,
+      "d": 0.12,
+      "p": 0.075,
+      "s": 0.175,
+      "gamma": 0.125,
+      "g": 0.5,
+      "nu": 0.15
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.245,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.109,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.233,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.077,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.166,
+        "dominant_particle": "gluon",
+        "particle_score": 0.061,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.136,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.054,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 10,
+    "element": "Ne",
+    "profile": "ENFP_F_A",
+    "mbti": "ENFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.45,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.315,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.336,
+        "dominant_particle": "proton",
+        "particle_score": 0.088,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.096,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.081,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 11,
+    "element": "Na",
+    "profile": "INFJ_F_A",
+    "mbti": "INFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.15,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.375,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.338,
+        "dominant_particle": "photon",
+        "particle_score": 0.096,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "dominant_particle": "photon",
+        "particle_score": 0.096,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.232,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.089,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.193,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.064,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 12,
+    "element": "Mg",
+    "profile": "ESFP_F_O",
+    "mbti": "ESFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.18,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.7,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.3
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.378,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.108,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.355,
+        "dominant_particle": "muon_neutrino",
+        "particle_score": 0.116,
+        "activity": "피로 플로우 — 하강 리듬",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.353,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.128,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.132,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 13,
+    "element": "Al",
+    "profile": "ESFP_M_O",
+    "mbti": "ESFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.24,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.6,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.441,
+        "dominant_particle": "clathrate_buffer",
+        "particle_score": 0.125,
+        "activity": "봉쇄/개방 대비 — 격자 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.371,
+        "dominant_particle": "em",
+        "particle_score": 0.118,
+        "activity": "EM 플로우 — 파동 흐름 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.312,
+        "dominant_particle": "photon",
+        "particle_score": 0.113,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.27,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.087,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 14,
+    "element": "Si",
+    "profile": "ISTP_M_O",
+    "mbti": "ISTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 0.3,
+      "p": 0.3,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.5
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.365,
+        "dominant_particle": "graviton",
+        "particle_score": 0.134,
+        "activity": "중력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "dominant_particle": "photon",
+        "particle_score": 0.098,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.32,
+        "dominant_particle": "energy",
+        "particle_score": 0.094,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.305,
+        "dominant_particle": "neutron_star",
+        "particle_score": 0.099,
+        "activity": "밀도 구조 — 압축 형태 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 15,
+    "element": "P",
+    "profile": "ISTP_F_O",
+    "mbti": "ISTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.12,
+      "p": 0.3,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.6
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.455,
+        "dominant_particle": "graviton",
+        "particle_score": 0.129,
+        "activity": "중력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.403,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.139,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "dominant_particle": "muon",
+        "particle_score": 0.092,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.252,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.086,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 16,
+    "element": "S",
+    "profile": "INFJ_F_A",
+    "mbti": "INFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.15,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.375,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.338,
+        "dominant_particle": "photon",
+        "particle_score": 0.096,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "dominant_particle": "photon",
+        "particle_score": 0.096,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.232,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.089,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.193,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.064,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 17,
+    "element": "Cl",
+    "profile": "ESTJ_F_O",
+    "mbti": "ESTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.24,
+      "p": 0.15,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.491,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.218,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.465,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.154,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "dominant_particle": "gluon",
+        "particle_score": 0.122,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.271,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.108,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 18,
+    "element": "Ar",
+    "profile": "ENFJ_M_O",
+    "mbti": "ENFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.64,
+      "h": 0.4,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.36,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.459,
+        "dominant_particle": "proton",
+        "particle_score": 0.147,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.43,
+        "dominant_particle": "energy",
+        "particle_score": 0.152,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.305,
+        "dominant_particle": "photon",
+        "particle_score": 0.093,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.27,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.087,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 19,
+    "element": "K",
+    "profile": "ENFJ_F_A",
+    "mbti": "ENFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.36,
+      "h": 0.54,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.15,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.338,
+        "dominant_particle": "muon",
+        "particle_score": 0.101,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.315,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.109,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.231,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.078,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 20,
+    "element": "Ca",
+    "profile": "ENTJ_M_O",
+    "mbti": "ENTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 1.0,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.12,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.557,
+        "dominant_particle": "tau",
+        "particle_score": 0.19,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.383,
+        "dominant_particle": "proton",
+        "particle_score": 0.142,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.317,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.14,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.296,
+        "dominant_particle": "photon",
+        "particle_score": 0.113,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 21,
+    "element": "Sc",
+    "profile": "ENFP_M_O",
+    "mbti": "ENFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.8,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.36,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.509,
+        "dominant_particle": "proton",
+        "particle_score": 0.174,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.481,
+        "dominant_particle": "energy",
+        "particle_score": 0.177,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.26,
+        "dominant_particle": "photon",
+        "particle_score": 0.098,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "dominant_particle": "female_gaba",
+        "particle_score": 0.087,
+        "activity": "인비저닝 구조 — 포용적 프레임",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 22,
+    "element": "Ti",
+    "profile": "ESTJ_F_A",
+    "mbti": "ESTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.18,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.368,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.163,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.349,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.116,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "dominant_particle": "gluon",
+        "particle_score": 0.091,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.081,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 23,
+    "element": "V",
+    "profile": "ESFP_F_O",
+    "mbti": "ESFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.18,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.7,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.3
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.378,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.108,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.355,
+        "dominant_particle": "muon_neutrino",
+        "particle_score": 0.116,
+        "activity": "피로 플로우 — 하강 리듬",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.353,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.128,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.132,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 24,
+    "element": "Cr",
+    "profile": "ENFP_F_A",
+    "mbti": "ENFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.45,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.315,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.336,
+        "dominant_particle": "proton",
+        "particle_score": 0.088,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.096,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.081,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 25,
+    "element": "Mn",
+    "profile": "INFJ_F_O",
+    "mbti": "INFJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.54,
+      "d": 0.2,
+      "p": 0.15,
+      "s": 0.35,
+      "gamma": 0.5,
+      "g": 0.5,
+      "nu": 0.3
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.45,
+        "dominant_particle": "photon",
+        "particle_score": 0.128,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.417,
+        "dominant_particle": "photon",
+        "particle_score": 0.128,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.31,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.119,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.258,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.086,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 26,
+    "element": "Fe",
+    "profile": "ISTJ_F_A",
+    "mbti": "ISTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.3,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.45,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.289,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.088,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.281,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.104,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "dominant_particle": "muon",
+        "particle_score": 0.069,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.246,
+        "dominant_particle": "tau",
+        "particle_score": 0.076,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 27,
+    "element": "Co",
+    "profile": "ENTJ_F_A",
+    "mbti": "ENTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.3,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.225,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.259,
+        "dominant_particle": "muon",
+        "particle_score": 0.069,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.257,
+        "dominant_particle": "tau",
+        "particle_score": 0.076,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.253,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.067,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.225,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.069,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 28,
+    "element": "Ni",
+    "profile": "ESFJ_F_A",
+    "mbti": "ESFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.3,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.225,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.266,
+        "dominant_particle": "muon",
+        "particle_score": 0.08,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.261,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.077,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.257,
+        "dominant_particle": "tau",
+        "particle_score": 0.081,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.225,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.069,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 29,
+    "element": "Cu",
+    "profile": "ESTJ_M_O",
+    "mbti": "ESTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 0.6,
+      "p": 0.15,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.4,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.403,
+        "dominant_particle": "energy",
+        "particle_score": 0.125,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "dominant_particle": "proton",
+        "particle_score": 0.113,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.33,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.099,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.325,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.125,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 30,
+    "element": "Zn",
+    "profile": "ENFP_F_A",
+    "mbti": "ENFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.45,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.315,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.336,
+        "dominant_particle": "proton",
+        "particle_score": 0.088,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.096,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.081,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 31,
+    "element": "Ga",
+    "profile": "ISTJ_F_A",
+    "mbti": "ISTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.3,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.45,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.289,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.088,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.281,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.104,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "dominant_particle": "muon",
+        "particle_score": 0.069,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.246,
+        "dominant_particle": "tau",
+        "particle_score": 0.076,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 32,
+    "element": "Ge",
+    "profile": "ESTJ_F_O",
+    "mbti": "ESTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.24,
+      "p": 0.15,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.491,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.218,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.465,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.154,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "dominant_particle": "gluon",
+        "particle_score": 0.122,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.271,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.108,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 33,
+    "element": "As",
+    "profile": "ESTP_M_A",
+    "mbti": "ESTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.18,
+      "h": 0.188,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.27,
+      "gamma": 0.338,
+      "g": 0.3,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.276,
+        "dominant_particle": "clathrate_buffer",
+        "particle_score": 0.081,
+        "activity": "봉쇄/개방 대비 — 격자 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.085,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.074,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.235,
+        "dominant_particle": "photon",
+        "particle_score": 0.073,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      }
+    }
+  },
+  {
+    "num": 34,
+    "element": "Se",
+    "profile": "ISTJ_M_A",
+    "mbti": "ISTJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.188,
+      "d": 0.75,
+      "p": 0.112,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.18,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.407,
+        "dominant_particle": "tau",
+        "particle_score": 0.142,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.27,
+        "dominant_particle": "proton",
+        "particle_score": 0.107,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.247,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.116,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.224,
+        "dominant_particle": "z_boson",
+        "particle_score": 0.075,
+        "activity": "양자 창발 — 다상태 중첩",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 35,
+    "element": "Br",
+    "profile": "ISTJ_M_O",
+    "mbti": "ISTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 1.0,
+      "p": 0.15,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.24,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.542,
+        "dominant_particle": "tau",
+        "particle_score": 0.19,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "dominant_particle": "proton",
+        "particle_score": 0.142,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.329,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.155,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.298,
+        "dominant_particle": "z_boson",
+        "particle_score": 0.1,
+        "activity": "양자 창발 — 다상태 중첩",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 36,
+    "element": "Kr",
+    "profile": "ISFJ_F_A",
+    "mbti": "ISFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.202,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.386,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.173,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.324,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.1,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.225,
+        "dominant_particle": "gluon",
+        "particle_score": 0.091,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.079,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 37,
+    "element": "Rb",
+    "profile": "INFJ_M_O",
+    "mbti": "INFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.3,
+      "d": 0.5,
+      "p": 0.15,
+      "s": 0.3,
+      "gamma": 0.9,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.485,
+        "dominant_particle": "photon",
+        "particle_score": 0.18,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.415,
+        "dominant_particle": "photon",
+        "particle_score": 0.18,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.367,
+        "dominant_particle": "clathrate_buffer",
+        "particle_score": 0.136,
+        "activity": "봉쇄/개방 대비 — 격자 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.24,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.087,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 38,
+    "element": "Sr",
+    "profile": "ENTJ_M_O",
+    "mbti": "ENTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 1.0,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.12,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.557,
+        "dominant_particle": "tau",
+        "particle_score": 0.19,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.383,
+        "dominant_particle": "proton",
+        "particle_score": 0.142,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.317,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.14,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.296,
+        "dominant_particle": "photon",
+        "particle_score": 0.113,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 39,
+    "element": "Y",
+    "profile": "ENTJ_F_O",
+    "mbti": "ENTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.4,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.3,
+      "nu": 0.3
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.345,
+        "dominant_particle": "muon",
+        "particle_score": 0.092,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.342,
+        "dominant_particle": "tau",
+        "particle_score": 0.102,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.338,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.09,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.3,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.092,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 40,
+    "element": "Zr",
+    "profile": "INFJ_F_A",
+    "mbti": "INFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.15,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.375,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.338,
+        "dominant_particle": "photon",
+        "particle_score": 0.096,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "dominant_particle": "photon",
+        "particle_score": 0.096,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.232,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.089,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.193,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.064,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 41,
+    "element": "Nb",
+    "profile": "INTP_M_A",
+    "mbti": "INTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.112,
+      "d": 0.375,
+      "p": 0.375,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.225
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.315,
+        "dominant_particle": "higgs",
+        "particle_score": 0.086,
+        "activity": "질량/무질량 대비 — 무게 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.266,
+        "dominant_particle": "top_quark",
+        "particle_score": 0.097,
+        "activity": "캐논 형식 작곡 — 최위계 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.251,
+        "dominant_particle": "proton",
+        "particle_score": 0.079,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.21,
+        "dominant_particle": "neutron",
+        "particle_score": 0.077,
+        "activity": "중성 창발 — 다차원 균형",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 42,
+    "element": "Mo",
+    "profile": "ISTJ_F_A",
+    "mbti": "ISTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.3,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.45,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.289,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.088,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.281,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.104,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "dominant_particle": "muon",
+        "particle_score": 0.069,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.246,
+        "dominant_particle": "tau",
+        "particle_score": 0.076,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 43,
+    "element": "Tc",
+    "profile": "INTP_F_A",
+    "mbti": "INTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.202,
+      "d": 0.15,
+      "p": 0.375,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.27
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.32,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.124,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.254,
+        "dominant_particle": "graviton",
+        "particle_score": 0.066,
+        "activity": "중력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.232,
+        "dominant_particle": "higgs",
+        "particle_score": 0.066,
+        "activity": "질량/무질량 대비 — 무게 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.216,
+        "dominant_particle": "gluon",
+        "particle_score": 0.06,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      }
+    }
+  },
+  {
+    "num": 44,
+    "element": "Ru",
+    "profile": "INFP_F_O",
+    "mbti": "INFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.458,
+        "dominant_particle": "muon",
+        "particle_score": 0.162,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.454,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.17,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.132,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "dominant_particle": "tau",
+        "particle_score": 0.1,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 45,
+    "element": "Rh",
+    "profile": "ISFJ_F_O",
+    "mbti": "ISFJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.27,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.515,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.231,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.432,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.133,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.3,
+        "dominant_particle": "gluon",
+        "particle_score": 0.122,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.105,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 46,
+    "element": "Pd",
+    "profile": "INTJ_M_A",
+    "mbti": "INTJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.375,
+      "d": 0.375,
+      "p": 0.225,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.112
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.317,
+        "dominant_particle": "photon",
+        "particle_score": 0.087,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.292,
+        "dominant_particle": "tau",
+        "particle_score": 0.092,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.242,
+        "dominant_particle": "photon",
+        "particle_score": 0.087,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.199,
+        "dominant_particle": "higgs",
+        "particle_score": 0.068,
+        "activity": "세계관 틀 구축 — 질량 부여 구조 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 47,
+    "element": "Ag",
+    "profile": "ESFP_M_O",
+    "mbti": "ESFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.24,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.6,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.441,
+        "dominant_particle": "clathrate_buffer",
+        "particle_score": 0.125,
+        "activity": "봉쇄/개방 대비 — 격자 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.371,
+        "dominant_particle": "em",
+        "particle_score": 0.118,
+        "activity": "EM 플로우 — 파동 흐름 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.312,
+        "dominant_particle": "photon",
+        "particle_score": 0.113,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.27,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.087,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 48,
+    "element": "Cd",
+    "profile": "ESFP_F_A",
+    "mbti": "ESFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.135,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.283,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.081,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.267,
+        "dominant_particle": "muon",
+        "particle_score": 0.087,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.096,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 49,
+    "element": "In",
+    "profile": "ESFP_M_A",
+    "mbti": "ESFP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.18,
+      "h": 0.188,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.45,
+      "gamma": 0.405,
+      "g": 0.15,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.33,
+        "dominant_particle": "clathrate_buffer",
+        "particle_score": 0.094,
+        "activity": "봉쇄/개방 대비 — 격자 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.279,
+        "dominant_particle": "em",
+        "particle_score": 0.089,
+        "activity": "EM 플로우 — 파동 흐름 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.234,
+        "dominant_particle": "photon",
+        "particle_score": 0.085,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.203,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.066,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 50,
+    "element": "Sn",
+    "profile": "ENFJ_F_O",
+    "mbti": "ENFJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.48,
+      "h": 0.72,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.2,
+      "g": 0.5,
+      "nu": 0.3
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.451,
+        "dominant_particle": "muon",
+        "particle_score": 0.134,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.42,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.145,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.132,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.308,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.105,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 51,
+    "element": "Sb",
+    "profile": "ESFP_F_A",
+    "mbti": "ESFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.135,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.283,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.081,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.267,
+        "dominant_particle": "muon",
+        "particle_score": 0.087,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.096,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 52,
+    "element": "Te",
+    "profile": "ENFJ_F_A",
+    "mbti": "ENFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.36,
+      "h": 0.54,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.15,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.338,
+        "dominant_particle": "muon",
+        "particle_score": 0.101,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.315,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.109,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.231,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.078,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 53,
+    "element": "I",
+    "profile": "ISFP_F_O",
+    "mbti": "ISFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.458,
+        "dominant_particle": "muon",
+        "particle_score": 0.162,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.454,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.17,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.132,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "dominant_particle": "tau",
+        "particle_score": 0.1,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 54,
+    "element": "Xe",
+    "profile": "ESFJ_F_A",
+    "mbti": "ESFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.3,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.225,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.266,
+        "dominant_particle": "muon",
+        "particle_score": 0.08,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.261,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.077,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.257,
+        "dominant_particle": "tau",
+        "particle_score": 0.081,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.225,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.069,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 55,
+    "element": "Cs",
+    "profile": "ENFJ_M_O",
+    "mbti": "ENFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.64,
+      "h": 0.4,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.36,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.459,
+        "dominant_particle": "proton",
+        "particle_score": 0.147,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.43,
+        "dominant_particle": "energy",
+        "particle_score": 0.152,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.305,
+        "dominant_particle": "photon",
+        "particle_score": 0.093,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.27,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.087,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 56,
+    "element": "Ba",
+    "profile": "INTJ_M_O",
+    "mbti": "INTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.5,
+      "d": 0.5,
+      "p": 0.3,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.422,
+        "dominant_particle": "photon",
+        "particle_score": 0.116,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.39,
+        "dominant_particle": "tau",
+        "particle_score": 0.122,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.323,
+        "dominant_particle": "photon",
+        "particle_score": 0.116,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.265,
+        "dominant_particle": "higgs",
+        "particle_score": 0.091,
+        "activity": "세계관 틀 구축 — 질량 부여 구조 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 57,
+    "element": "La",
+    "profile": "ISFP_M_O",
+    "mbti": "ISFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.5,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "dominant_particle": "photon",
+        "particle_score": 0.132,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.383,
+        "dominant_particle": "tau",
+        "particle_score": 0.122,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.345,
+        "dominant_particle": "photon",
+        "particle_score": 0.132,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.087,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 58,
+    "element": "Ce",
+    "profile": "INFP_M_O",
+    "mbti": "INFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.5,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "dominant_particle": "photon",
+        "particle_score": 0.132,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.383,
+        "dominant_particle": "tau",
+        "particle_score": 0.122,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.345,
+        "dominant_particle": "photon",
+        "particle_score": 0.132,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.087,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 59,
+    "element": "Pr",
+    "profile": "ENTJ_F_O",
+    "mbti": "ENTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.4,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.3,
+      "nu": 0.3
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.345,
+        "dominant_particle": "muon",
+        "particle_score": 0.092,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.342,
+        "dominant_particle": "tau",
+        "particle_score": 0.102,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.338,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.09,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.3,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.092,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 60,
+    "element": "Nd",
+    "profile": "ESTP_F_O",
+    "mbti": "ESTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.18,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.42,
+      "gamma": 0.25,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.515,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.231,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.465,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.154,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.301,
+        "dominant_particle": "gluon",
+        "particle_score": 0.107,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.269,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.105,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 61,
+    "element": "Pm",
+    "profile": "INTJ_M_A",
+    "mbti": "INTJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.375,
+      "d": 0.375,
+      "p": 0.225,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.112
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.317,
+        "dominant_particle": "photon",
+        "particle_score": 0.087,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.292,
+        "dominant_particle": "tau",
+        "particle_score": 0.092,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.242,
+        "dominant_particle": "photon",
+        "particle_score": 0.087,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.199,
+        "dominant_particle": "higgs",
+        "particle_score": 0.068,
+        "activity": "세계관 틀 구축 — 질량 부여 구조 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 62,
+    "element": "Sm",
+    "profile": "ESTP_F_A",
+    "mbti": "ESTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.135,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.315,
+      "gamma": 0.188,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.386,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.173,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.349,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.116,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.226,
+        "dominant_particle": "gluon",
+        "particle_score": 0.08,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.202,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.079,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 63,
+    "element": "Eu",
+    "profile": "INTP_F_O",
+    "mbti": "INTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.27,
+      "d": 0.2,
+      "p": 0.5,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.36
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.427,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.165,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.338,
+        "dominant_particle": "graviton",
+        "particle_score": 0.088,
+        "activity": "중력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.31,
+        "dominant_particle": "higgs",
+        "particle_score": 0.087,
+        "activity": "질량/무질량 대비 — 무게 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.287,
+        "dominant_particle": "gluon",
+        "particle_score": 0.08,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      }
+    }
+  },
+  {
+    "num": 64,
+    "element": "Gd",
+    "profile": "ENFJ_F_O",
+    "mbti": "ENFJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.48,
+      "h": 0.72,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.2,
+      "g": 0.5,
+      "nu": 0.3
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.451,
+        "dominant_particle": "muon",
+        "particle_score": 0.134,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.42,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.145,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.132,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.308,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.105,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 65,
+    "element": "Tb",
+    "profile": "ENFP_F_O",
+    "mbti": "ENFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.6,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.42,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.448,
+        "dominant_particle": "gluon",
+        "particle_score": 0.118,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.353,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.128,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.329,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.108,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.132,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 66,
+    "element": "Dy",
+    "profile": "INTJ_F_A",
+    "mbti": "INTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.225,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.334,
+        "dominant_particle": "muon",
+        "particle_score": 0.121,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.331,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.128,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.248,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.104,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.21,
+        "dominant_particle": "tau",
+        "particle_score": 0.075,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 67,
+    "element": "Ho",
+    "profile": "ENTP_F_A",
+    "mbti": "ENTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.27,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.304,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.097,
+        "activity": "상향 플로우 — 상승 리듬 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.292,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.11,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.081,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 68,
+    "element": "Er",
+    "profile": "ESTJ_F_A",
+    "mbti": "ESTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.18,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.368,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.163,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.349,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.116,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "dominant_particle": "gluon",
+        "particle_score": 0.091,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.081,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 69,
+    "element": "Tm",
+    "profile": "ESTP_M_A",
+    "mbti": "ESTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.18,
+      "h": 0.188,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.27,
+      "gamma": 0.338,
+      "g": 0.3,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.276,
+        "dominant_particle": "clathrate_buffer",
+        "particle_score": 0.081,
+        "activity": "봉쇄/개방 대비 — 격자 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.085,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.074,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.235,
+        "dominant_particle": "photon",
+        "particle_score": 0.073,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      }
+    }
+  },
+  {
+    "num": 70,
+    "element": "Yb",
+    "profile": "ESFJ_M_O",
+    "mbti": "ESFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.3,
+      "d": 1.0,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.12,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.557,
+        "dominant_particle": "tau",
+        "particle_score": 0.194,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.372,
+        "dominant_particle": "proton",
+        "particle_score": 0.142,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.317,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.14,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.286,
+        "dominant_particle": "photon",
+        "particle_score": 0.101,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 71,
+    "element": "Lu",
+    "profile": "INFP_F_O",
+    "mbti": "INFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.458,
+        "dominant_particle": "muon",
+        "particle_score": 0.162,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.454,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.17,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.132,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "dominant_particle": "tau",
+        "particle_score": 0.1,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 72,
+    "element": "Hf",
+    "profile": "ISFJ_M_A",
+    "mbti": "ISFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.112,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.405,
+      "g": 0.3,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.287,
+        "dominant_particle": "energy",
+        "particle_score": 0.086,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.268,
+        "dominant_particle": "photon",
+        "particle_score": 0.079,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.085,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.246,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.083,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 73,
+    "element": "Ta",
+    "profile": "ESFP_F_A",
+    "mbti": "ESFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.135,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.283,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.081,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.267,
+        "dominant_particle": "muon",
+        "particle_score": 0.087,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.096,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 74,
+    "element": "W",
+    "profile": "ISTP_F_A",
+    "mbti": "ISTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.09,
+      "p": 0.225,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.45
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.341,
+        "dominant_particle": "graviton",
+        "particle_score": 0.097,
+        "activity": "중력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.302,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.104,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "dominant_particle": "muon",
+        "particle_score": 0.069,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.189,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.064,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 75,
+    "element": "Re",
+    "profile": "INTJ_F_O",
+    "mbti": "INTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.3,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "dominant_particle": "muon",
+        "particle_score": 0.162,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.442,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.17,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.331,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.139,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.28,
+        "dominant_particle": "tau",
+        "particle_score": 0.1,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 76,
+    "element": "Os",
+    "profile": "ENFJ_M_A",
+    "mbti": "ENFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.48,
+      "h": 0.3,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.27,
+      "g": 0.15,
+      "nu": 0.188
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.344,
+        "dominant_particle": "proton",
+        "particle_score": 0.11,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.323,
+        "dominant_particle": "energy",
+        "particle_score": 0.114,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.229,
+        "dominant_particle": "photon",
+        "particle_score": 0.07,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.203,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.066,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 77,
+    "element": "Ir",
+    "profile": "INTP_M_A",
+    "mbti": "INTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.112,
+      "d": 0.375,
+      "p": 0.375,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.225
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.315,
+        "dominant_particle": "higgs",
+        "particle_score": 0.086,
+        "activity": "질량/무질량 대비 — 무게 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.266,
+        "dominant_particle": "top_quark",
+        "particle_score": 0.097,
+        "activity": "캐논 형식 작곡 — 최위계 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.251,
+        "dominant_particle": "proton",
+        "particle_score": 0.079,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.21,
+        "dominant_particle": "neutron",
+        "particle_score": 0.077,
+        "activity": "중성 창발 — 다차원 균형",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 78,
+    "element": "Pt",
+    "profile": "ESFJ_F_A",
+    "mbti": "ESFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.3,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.225,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.266,
+        "dominant_particle": "muon",
+        "particle_score": 0.08,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.261,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.077,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.257,
+        "dominant_particle": "tau",
+        "particle_score": 0.081,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.225,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.069,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 79,
+    "element": "Au",
+    "profile": "ISFJ_F_A",
+    "mbti": "ISFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.202,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.386,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.173,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.324,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.1,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.225,
+        "dominant_particle": "gluon",
+        "particle_score": 0.091,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.079,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 80,
+    "element": "Hg",
+    "profile": "INFJ_M_A",
+    "mbti": "INFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.225,
+      "d": 0.375,
+      "p": 0.112,
+      "s": 0.225,
+      "gamma": 0.675,
+      "g": 0.15,
+      "nu": 0.188
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.364,
+        "dominant_particle": "photon",
+        "particle_score": 0.135,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.311,
+        "dominant_particle": "photon",
+        "particle_score": 0.135,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.276,
+        "dominant_particle": "clathrate_buffer",
+        "particle_score": 0.102,
+        "activity": "봉쇄/개방 대비 — 격자 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.18,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.066,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 81,
+    "element": "Tl",
+    "profile": "ISFJ_F_O",
+    "mbti": "ISFJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.27,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.515,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.231,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.432,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.133,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.3,
+        "dominant_particle": "gluon",
+        "particle_score": 0.122,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.105,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 82,
+    "element": "Pb",
+    "profile": "ENFJ_M_A",
+    "mbti": "ENFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.48,
+      "h": 0.3,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.27,
+      "g": 0.15,
+      "nu": 0.188
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.344,
+        "dominant_particle": "proton",
+        "particle_score": 0.11,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.323,
+        "dominant_particle": "energy",
+        "particle_score": 0.114,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.229,
+        "dominant_particle": "photon",
+        "particle_score": 0.07,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.203,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.066,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 83,
+    "element": "Bi",
+    "profile": "ISTP_M_A",
+    "mbti": "ISTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.188,
+      "d": 0.225,
+      "p": 0.225,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.375
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.274,
+        "dominant_particle": "graviton",
+        "particle_score": 0.101,
+        "activity": "중력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.27,
+        "dominant_particle": "photon",
+        "particle_score": 0.073,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.24,
+        "dominant_particle": "energy",
+        "particle_score": 0.07,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.229,
+        "dominant_particle": "neutron_star",
+        "particle_score": 0.074,
+        "activity": "밀도 구조 — 압축 형태 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 84,
+    "element": "Po",
+    "profile": "ESTP_F_A",
+    "mbti": "ESTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.135,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.315,
+      "gamma": 0.188,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.386,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.173,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.349,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.116,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.226,
+        "dominant_particle": "gluon",
+        "particle_score": 0.08,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.202,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.079,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 85,
+    "element": "At",
+    "profile": "ISTJ_F_O",
+    "mbti": "ISTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.4,
+      "p": 0.15,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.6,
+      "nu": 0.3
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.385,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.117,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.375,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.139,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "dominant_particle": "muon",
+        "particle_score": 0.092,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.327,
+        "dominant_particle": "tau",
+        "particle_score": 0.102,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 86,
+    "element": "Rn",
+    "profile": "ENTP_M_O",
+    "mbti": "ENTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.48,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.6,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.488,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.144,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.433,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.127,
+        "activity": "상향 플로우 — 상승 리듬 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.26,
+        "dominant_particle": "photon",
+        "particle_score": 0.098,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.087,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 87,
+    "element": "Fr",
+    "profile": "INFJ_M_O",
+    "mbti": "INFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.3,
+      "d": 0.5,
+      "p": 0.15,
+      "s": 0.3,
+      "gamma": 0.9,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.485,
+        "dominant_particle": "photon",
+        "particle_score": 0.18,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.415,
+        "dominant_particle": "photon",
+        "particle_score": 0.18,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.367,
+        "dominant_particle": "clathrate_buffer",
+        "particle_score": 0.136,
+        "activity": "봉쇄/개방 대비 — 격자 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.24,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.087,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 88,
+    "element": "Ra",
+    "profile": "INTJ_F_O",
+    "mbti": "INTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.3,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "dominant_particle": "muon",
+        "particle_score": 0.162,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.442,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.17,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.331,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.139,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.28,
+        "dominant_particle": "tau",
+        "particle_score": 0.1,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 89,
+    "element": "Ac",
+    "profile": "INTP_M_O",
+    "mbti": "INTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.15,
+      "d": 0.5,
+      "p": 0.5,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.3
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.42,
+        "dominant_particle": "higgs",
+        "particle_score": 0.115,
+        "activity": "질량/무질량 대비 — 무게 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.355,
+        "dominant_particle": "top_quark",
+        "particle_score": 0.129,
+        "activity": "캐논 형식 작곡 — 최위계 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.335,
+        "dominant_particle": "proton",
+        "particle_score": 0.105,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.28,
+        "dominant_particle": "neutron",
+        "particle_score": 0.103,
+        "activity": "중성 창발 — 다차원 균형",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 90,
+    "element": "Th",
+    "profile": "ESTP_M_O",
+    "mbti": "ESTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.24,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.36,
+      "gamma": 0.45,
+      "g": 0.4,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.368,
+        "dominant_particle": "clathrate_buffer",
+        "particle_score": 0.107,
+        "activity": "봉쇄/개방 대비 — 격자 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.113,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.33,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.099,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "dominant_particle": "photon",
+        "particle_score": 0.098,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      }
+    }
+  },
+  {
+    "num": 91,
+    "element": "Pa",
+    "profile": "INFP_F_A",
+    "mbti": "INFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.343,
+        "dominant_particle": "muon",
+        "particle_score": 0.121,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.341,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.128,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "dominant_particle": "tau",
+        "particle_score": 0.075,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 92,
+    "element": "U",
+    "profile": "ISTP_F_A",
+    "mbti": "ISTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.09,
+      "p": 0.225,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.45
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.341,
+        "dominant_particle": "graviton",
+        "particle_score": 0.097,
+        "activity": "중력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.302,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.104,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "dominant_particle": "muon",
+        "particle_score": 0.069,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.189,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.064,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 93,
+    "element": "Np",
+    "profile": "ISFP_F_A",
+    "mbti": "ISFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.343,
+        "dominant_particle": "muon",
+        "particle_score": 0.121,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.341,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.128,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "dominant_particle": "tau",
+        "particle_score": 0.075,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 94,
+    "element": "Pu",
+    "profile": "ISFP_M_O",
+    "mbti": "ISFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.5,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "dominant_particle": "photon",
+        "particle_score": 0.132,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.383,
+        "dominant_particle": "tau",
+        "particle_score": 0.122,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.345,
+        "dominant_particle": "photon",
+        "particle_score": 0.132,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.087,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 95,
+    "element": "Am",
+    "profile": "INFP_F_A",
+    "mbti": "INFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.343,
+        "dominant_particle": "muon",
+        "particle_score": 0.121,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.341,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.128,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "dominant_particle": "tau",
+        "particle_score": 0.075,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 96,
+    "element": "Cm",
+    "profile": "ISFP_F_A",
+    "mbti": "ISFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.343,
+        "dominant_particle": "muon",
+        "particle_score": 0.121,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.341,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.128,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "dominant_particle": "tau",
+        "particle_score": 0.075,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 97,
+    "element": "Bk",
+    "profile": "ISTJ_M_O",
+    "mbti": "ISTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 1.0,
+      "p": 0.15,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.24,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.542,
+        "dominant_particle": "tau",
+        "particle_score": 0.19,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "dominant_particle": "proton",
+        "particle_score": 0.142,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.329,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.155,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.298,
+        "dominant_particle": "z_boson",
+        "particle_score": 0.1,
+        "activity": "양자 창발 — 다상태 중첩",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 98,
+    "element": "Cf",
+    "profile": "ENTP_M_A",
+    "mbti": "ENTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.36,
+      "h": 0.188,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.45,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.112
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.366,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.108,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.325,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.095,
+        "activity": "상향 플로우 — 상승 리듬 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.195,
+        "dominant_particle": "photon",
+        "particle_score": 0.073,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.188,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.066,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 99,
+    "element": "Es",
+    "profile": "ESFJ_M_A",
+    "mbti": "ESFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.225,
+      "d": 0.75,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.09,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.418,
+        "dominant_particle": "tau",
+        "particle_score": 0.145,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.279,
+        "dominant_particle": "proton",
+        "particle_score": 0.107,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.238,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.105,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.215,
+        "dominant_particle": "photon",
+        "particle_score": 0.076,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 100,
+    "element": "Fm",
+    "profile": "INTP_F_A",
+    "mbti": "INTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.202,
+      "d": 0.15,
+      "p": 0.375,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.27
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.32,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.124,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.254,
+        "dominant_particle": "graviton",
+        "particle_score": 0.066,
+        "activity": "중력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.232,
+        "dominant_particle": "higgs",
+        "particle_score": 0.066,
+        "activity": "질량/무질량 대비 — 무게 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.216,
+        "dominant_particle": "gluon",
+        "particle_score": 0.06,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      }
+    }
+  },
+  {
+    "num": 101,
+    "element": "Md",
+    "profile": "ENFP_F_O",
+    "mbti": "ENFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.6,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.42,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.448,
+        "dominant_particle": "gluon",
+        "particle_score": 0.118,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.353,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.128,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.329,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.108,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.132,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 102,
+    "element": "No",
+    "profile": "ISFJ_M_A",
+    "mbti": "ISFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.112,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.405,
+      "g": 0.3,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.287,
+        "dominant_particle": "energy",
+        "particle_score": 0.086,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.268,
+        "dominant_particle": "photon",
+        "particle_score": 0.079,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.085,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.246,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.083,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 103,
+    "element": "Lr",
+    "profile": "ESTP_F_O",
+    "mbti": "ESTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.18,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.42,
+      "gamma": 0.25,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.515,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.231,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.465,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.154,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.301,
+        "dominant_particle": "gluon",
+        "particle_score": 0.107,
+        "activity": "접착 플로우 — 붙였다 떼는 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.269,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.105,
+        "activity": "산화/환원 대비 — TCA 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 104,
+    "element": "Rf",
+    "profile": "ENTP_F_O",
+    "mbti": "ENTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.36,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.7,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.406,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.13,
+        "activity": "상향 플로우 — 상승 리듬 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.389,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.147,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.329,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.108,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.132,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 105,
+    "element": "Db",
+    "profile": "ENTJ_M_A",
+    "mbti": "ENTJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.188,
+      "d": 0.75,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.405,
+      "g": 0.09,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.418,
+        "dominant_particle": "tau",
+        "particle_score": 0.142,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.287,
+        "dominant_particle": "proton",
+        "particle_score": 0.107,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.238,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.105,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.222,
+        "dominant_particle": "photon",
+        "particle_score": 0.085,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 106,
+    "element": "Sg",
+    "profile": "INFP_M_O",
+    "mbti": "INFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.5,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "dominant_particle": "photon",
+        "particle_score": 0.132,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.383,
+        "dominant_particle": "tau",
+        "particle_score": 0.122,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.345,
+        "dominant_particle": "photon",
+        "particle_score": 0.132,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.087,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 107,
+    "element": "Bh",
+    "profile": "ISFP_M_A",
+    "mbti": "ISFP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.375,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.405,
+      "g": 0.15,
+      "nu": 0.112
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.334,
+        "dominant_particle": "photon",
+        "particle_score": 0.099,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.287,
+        "dominant_particle": "tau",
+        "particle_score": 0.092,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.259,
+        "dominant_particle": "photon",
+        "particle_score": 0.099,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.188,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.066,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 108,
+    "element": "Hs",
+    "profile": "ISTP_M_O",
+    "mbti": "ISTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 0.3,
+      "p": 0.3,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.5
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.365,
+        "dominant_particle": "graviton",
+        "particle_score": 0.134,
+        "activity": "중력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "dominant_particle": "photon",
+        "particle_score": 0.098,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.32,
+        "dominant_particle": "energy",
+        "particle_score": 0.094,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.305,
+        "dominant_particle": "neutron_star",
+        "particle_score": 0.099,
+        "activity": "밀도 구조 — 압축 형태 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 109,
+    "element": "Mt",
+    "profile": "ISTJ_F_O",
+    "mbti": "ISTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.4,
+      "p": 0.15,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.6,
+      "nu": 0.3
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.385,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.117,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.375,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.139,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "dominant_particle": "muon",
+        "particle_score": 0.092,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.327,
+        "dominant_particle": "tau",
+        "particle_score": 0.102,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 110,
+    "element": "Ds",
+    "profile": "ENTJ_M_A",
+    "mbti": "ENTJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.188,
+      "d": 0.75,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.405,
+      "g": 0.09,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.418,
+        "dominant_particle": "tau",
+        "particle_score": 0.142,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.287,
+        "dominant_particle": "proton",
+        "particle_score": 0.107,
+        "activity": "리듬 시퀀스 즉흥 — 박자 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.238,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.105,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.222,
+        "dominant_particle": "photon",
+        "particle_score": 0.085,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 111,
+    "element": "Rg",
+    "profile": "ENTP_F_A",
+    "mbti": "ENTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.27,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.304,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.097,
+        "activity": "상향 플로우 — 상승 리듬 창작",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.292,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.11,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.081,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.099,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 112,
+    "element": "Cn",
+    "profile": "ISTP_F_O",
+    "mbti": "ISTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.12,
+      "p": 0.3,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.6
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.455,
+        "dominant_particle": "graviton",
+        "particle_score": 0.129,
+        "activity": "중력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.403,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.139,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "dominant_particle": "muon",
+        "particle_score": 0.092,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.252,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.086,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 113,
+    "element": "Nh",
+    "profile": "INFJ_F_A",
+    "mbti": "INFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.15,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.375,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.338,
+        "dominant_particle": "photon",
+        "particle_score": 0.096,
+        "activity": "광학 창발 — 간섭 패턴 창작",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "dominant_particle": "photon",
+        "particle_score": 0.096,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.232,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.089,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.193,
+        "dominant_particle": "up_quark",
+        "particle_score": 0.064,
+        "activity": "상승/하강 대비 — 방향 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 114,
+    "element": "Fl",
+    "profile": "ISFP_F_O",
+    "mbti": "ISFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.458,
+        "dominant_particle": "muon",
+        "particle_score": 0.162,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.454,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.17,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.132,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "dominant_particle": "tau",
+        "particle_score": 0.1,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 115,
+    "element": "Mc",
+    "profile": "ISFJ_M_O",
+    "mbti": "ISFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.15,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.4,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.383,
+        "dominant_particle": "energy",
+        "particle_score": 0.114,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.357,
+        "dominant_particle": "photon",
+        "particle_score": 0.106,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.113,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.328,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.111,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 116,
+    "element": "Lv",
+    "profile": "ENTJ_F_A",
+    "mbti": "ENTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.3,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.225,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.259,
+        "dominant_particle": "muon",
+        "particle_score": 0.069,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.257,
+        "dominant_particle": "tau",
+        "particle_score": 0.076,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.253,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.067,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.225,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.069,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      }
+    }
+  },
+  {
+    "num": 117,
+    "element": "Ts",
+    "profile": "ISFJ_M_O",
+    "mbti": "ISFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.15,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.4,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.383,
+        "dominant_particle": "energy",
+        "particle_score": 0.114,
+        "activity": "폭발/정지 대비 — 동력 충돌",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      },
+      "FLOW": {
+        "score": 0.357,
+        "dominant_particle": "photon",
+        "particle_score": 0.106,
+        "activity": "빛 흐름 — 광선 시퀀스 즉흥",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "dominant_particle": "malate_dehydrogenase",
+        "particle_score": 0.113,
+        "activity": "TCA 회로 설계 — 대사 사이클 구조",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.328,
+        "dominant_particle": "dark_energy",
+        "particle_score": 0.111,
+        "activity": "팽창 창발 — 다단 확장",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      }
+    }
+  },
+  {
+    "num": 118,
+    "element": "Og",
+    "profile": "INTJ_F_A",
+    "mbti": "INTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.225,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.334,
+        "dominant_particle": "muon",
+        "particle_score": 0.121,
+        "activity": "우주선 플로우 — 고에너지 흐름",
+        "desc": "즉흥적/유동적 — 흐르는 창작"
+      },
+      "EMERGENCE": {
+        "score": 0.331,
+        "dominant_particle": "charm_quark",
+        "particle_score": 0.128,
+        "activity": "매력 창발 — 다차원 끌림",
+        "desc": "창발/복합 — 층위가 겹쳐 새로운 것이 나오는 창작"
+      },
+      "STRUCTURE": {
+        "score": 0.248,
+        "dominant_particle": "w_boson",
+        "particle_score": 0.104,
+        "activity": "게임 룰 시스템 설계 — 상호작용 규칙 창작",
+        "desc": "건축적/체계적 — 구조를 세우는 창작"
+      },
+      "CONTRAST": {
+        "score": 0.21,
+        "dominant_particle": "tau",
+        "particle_score": 0.075,
+        "activity": "무거움/가벼움 — 질량 대비 창작",
+        "desc": "대비/갈등 — 충돌에서 나오는 창작"
+      }
+    }
+  }
+]

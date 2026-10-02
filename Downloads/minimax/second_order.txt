@@ -1,0 +1,24 @@
+﻿======================================================================
+2nd-ORDER ODE ISOMORPHISM (LC tank + RLC damped)
+======================================================================
+
+[1] circuit LC tank (muon ferritin) ↔ physical LC oscillator
+python : Traceback (most recent call last):
+위치 줄:1 문자:54
++ ... imax-agent\projects"; python -X utf8 second_order_iso.py 2>&1 | Out-F ...
++                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Administrator\.minimax-agent\projects\second_order_iso.py", line 183, in <module>
+    main()
+  File "C:\Users\Administrator\.minimax-agent\projects\second_order_iso.py", line 134, in main
+    r = res_2nd(circuit_lc_tank, physical_lc_oscillator, 0.1, 0.0, u, t_end=20.0, dt=0.001)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.minimax-agent\projects\second_order_iso.py", line 108, in res_2nd
+    return sum((xs1[i] - xs2[i])**2 for i in range(n)) / n
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.minimax-agent\projects\second_order_iso.py", line 108, in <genexpr>
+    return sum((xs1[i] - xs2[i])**2 for i in range(n)) / n
+               ~~~~~~~~~~~~~~~~~^^~
+OverflowError: (34, 'Result too large')

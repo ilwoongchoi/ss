@@ -1,0 +1,136 @@
+{
+  "aux_version": "2.2.13-AUX-001",
+  "base_registry": "atlas_constants_registry_v2_2_13_rutgers_extended.json",
+  "base_sha256_prefix": "ff9f2f963874d108",
+  "patch_type": "pi_feature_aux_overlay",
+  "generated_at": "2026-02-22T02:36:44Z",
+  "policy": "append-only. Base registry is READ-ONLY. All entries here are AUX candidates.",
+  "pi_features": {
+    "F1_b1_cycle_density": {
+      "formula": "b1 / b0",
+      "value": 11.0,
+      "unit": "cycles_per_component",
+      "status": "regime_label",
+      "kernel_refs": [
+        "atlas_locked_b1=11",
+        "atlas_locked_b0=1"
+      ],
+      "evidence_ref": "scripts/Injection Pack.md:LOCKED KERNEL",
+      "note": "11 = 8+3 = 2^3+3. No simple dyadic fraction. Regime label only."
+    },
+    "F2_pi_bridge_over_kappa": {
+      "formula": "pi_bridge / kappa",
+      "value": 68.0,
+      "unit": "dimensionless",
+      "status": "regime_label",
+      "kernel_refs": [
+        "atlas_locked_pi_bridge=2.125",
+        "kappa_stability_threshold=0.03125"
+      ],
+      "evidence_ref": null,
+      "note": "68 = 4*17. Proximity to alpha_fs denominator 137 is NOT claimed. Regime label only."
+    },
+    "F3_kappa_times_b1": {
+      "formula": "kappa * b1",
+      "value": 0.34375,
+      "unit": "dimensionless",
+      "status": "candidate_unverified",
+      "kernel_refs": [
+        "kappa_stability_threshold=0.03125",
+        "atlas_locked_b1=11"
+      ],
+      "evidence_ref": null,
+      "note": "= 11/32 = 0.34375. DISTINCT from NaK_ATPase_ATP_fraction_measured=0.352 (different units and axes). Do not conflate."
+    },
+    "F4_bio_cross_attractor": {
+      "formula": "mean(bio_mito_kcrit, cross_domain_csv_cluster_hi)",
+      "value": 0.67245,
+      "unit": "dimensionless",
+      "status": "candidate_unverified",
+      "deviation_pct": 0.579,
+      "kernel_refs": [
+        "bio_mito_kcrit=0.674405 (confirmed_rutgers_stageB)",
+        "cross_domain_csv_cluster_hi=0.6705 (confirmed_rutgers_stageB)"
+      ],
+      "evidence_ref": "RUTGERS/verification/INJECTION__KAPPA_PARAMETERS__LATEST.md + CORE_INTERNAL",
+      "note": "STRONGEST cross-domain convergence found: bio Stage-B and 3 independent CSV datasets all cluster at ~0.670 within 0.58%. Candidate empirical attractor. Does NOT equal 2/3=0.6667 (deviation 0.9%) or golden_ratio-1=0.618 (deviation 8.8%). Nearest simple fraction: 21/31=0.6774 (deviation 0.4%) -- candidate_unverified."
+    },
+    "F5_hydro_do_near_2kappa": {
+      "formula": "hydro_thecut_do_kcrit / kappa",
+      "value": 2.0118,
+      "unit": "dimensionless",
+      "status": "candidate_unverified",
+      "deviation_from_2": 0.0059,
+      "kernel_refs": [
+        "hydro_thecut_do_kcrit=0.06287 (confirmed_rutgers_stageB)",
+        "kappa_stability_threshold=0.03125"
+      ],
+      "evidence_ref": "RUTGERS/verification/domains/hydrology/evidence/HYDRO_STAGE_B__KCRIT_VERDICT__THECUT_DO_HOURLY.md",
+      "note": "hydro_do ~ 2*kappa within 1.18%. Within measurement tolerance (tol=0.008). Suggestive but not conclusive. candidate_unverified."
+    },
+    "F6_Z0_per_b1_cycle": {
+      "formula": "Z0_free_space_impedance / b1",
+      "value": 34.2727,
+      "unit": "Ohm_per_cycle",
+      "status": "regime_label",
+      "kernel_refs": [
+        "Z0_free_space_impedance=377.0 Ohm (confirmed_literature)",
+        "atlas_locked_b1=11"
+      ],
+      "evidence_ref": null,
+      "note": "Electromagnetic impedance per H1 cycle. Dimensional mixing (Ohm / topological count). No physical identity claimed. Regime label only."
+    },
+    "F7_PMF_kappa_slice": {
+      "formula": "mitochondrial_PMF * kappa",
+      "value": -5.625,
+      "unit": "mV",
+      "status": "candidate_unverified",
+      "kernel_refs": [
+        "mitochondrial_PMF=-180.0 mV (confirmed_literature)",
+        "kappa_stability_threshold=0.03125"
+      ],
+      "evidence_ref": null,
+      "note": "kappa-scaled PMF slice = -5.625 mV. Nearest: -5.625 = -180/32. candidate_unverified. No biophysical identity claimed without independent evidence."
+    },
+    "F8_alpha_over_kappa": {
+      "formula": "fine_structure_constant / kappa",
+      "value": 0.233515,
+      "unit": "dimensionless",
+      "status": "regime_label",
+      "kernel_refs": [
+        "fine_structure_constant=0.007297 (confirmed_literature)",
+        "kappa_stability_threshold=0.03125"
+      ],
+      "evidence_ref": null,
+      "note": "= alpha/kappa = 0.2335. Nearest: 7/30=0.2333 (deviation 0.09%). Regime label only. No physical unification claimed."
+    },
+    "F11_fusion_near_kappa_squared": {
+      "formula": "fusion_kcrit / kappa^2",
+      "value": 1.0097,
+      "unit": "dimensionless",
+      "status": "candidate_unverified",
+      "deviation_from_1": 0.0097,
+      "kernel_refs": [
+        "fusion_kcrit=0.000986 (confirmed_rutgers_stageB, tol=8.8e-5)",
+        "kappa_stability_threshold=0.03125"
+      ],
+      "evidence_ref": "RUTGERS/verification/domains/fusion/evidence/FUSION_STAGE_B__KCRIT_VERDICT.md",
+      "note": "fusion_kcrit ~ kappa^2 = 1/1024 = 0.000977 within 0.97%. Tightly estimated (tol=8.8e-5). Strongest arithmetic convergence after F4. candidate_unverified pending independent replication."
+    }
+  },
+  "aux_cert_notes": {
+    "forbidden": [
+      "Do not equate F3 (kappa*b1=11/32=0.34375) with NaK_ATPase_ATP_fraction_measured=0.352 -- different units and axes",
+      "Do not equate F2 (pi_bridge/kappa=68) with fine_structure_constant denominator 137",
+      "Do not equate F6 (Z0/b1) as a physical constant -- dimensional mixing",
+      "Do not modify base registry constants"
+    ],
+    "strongest_findings": [
+      "F4: bio_mito_kcrit ~ cross_domain_hi within 0.58% -- 4 independent datasets",
+      "F11: fusion_kcrit ~ kappa^2 within 0.97% -- tight tolerance measurement"
+    ],
+    "suggestive_pending_replication": [
+      "F5: hydro_do ~ 2*kappa within 1.18%"
+    ]
+  }
+}

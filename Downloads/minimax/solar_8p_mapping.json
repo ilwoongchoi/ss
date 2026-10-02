@@ -1,0 +1,1099 @@
+{
+  "_version": "8d_v1",
+  "_date": "2026-09-09",
+  "_method": "8-dim encoding using kernel's 5+2+1 (r,h,d,p,s,gamma,g,nu), cosine similarity to 6 attractor signatures",
+  "dims": [
+    "r",
+    "h",
+    "d",
+    "p",
+    "s",
+    "gamma",
+    "g",
+    "nu"
+  ],
+  "n_bodies": 46,
+  "attractor_signatures": {
+    "energy": [
+      1.0,
+      0.5,
+      0.5,
+      0.1,
+      0.3,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "information": [
+      0.5,
+      0.4,
+      0.6,
+      0.7,
+      0.7,
+      0.1,
+      0.4,
+      0.5
+    ],
+    "repair": [
+      0.2,
+      0.1,
+      0.9,
+      0.0,
+      0.6,
+      0.0,
+      0.3,
+      0.1
+    ],
+    "opioid": [
+      0.2,
+      0.1,
+      0.5,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.0
+    ],
+    "gan_bulkhead": [
+      0.9,
+      0.6,
+      0.3,
+      0.6,
+      0.6,
+      0.0,
+      0.95,
+      1.0
+    ],
+    "cox_retrograde": [
+      0.8,
+      0.3,
+      0.3,
+      0.6,
+      0.5,
+      0.0,
+      0.7,
+      0.8
+    ]
+  },
+  "body_mapping": {
+    "Sun": {
+      "8d_vector": [
+        0.974,
+        0.0,
+        1.0,
+        -1.933,
+        0.297,
+        0.1,
+        0.977,
+        0.953
+      ],
+      "type": "G2V",
+      "best_attractor": "energy",
+      "scores": {
+        "energy": 0.629,
+        "information": 0.201,
+        "repair": 0.523,
+        "opioid": 0.282,
+        "gan_bulkhead": 0.381,
+        "cox_retrograde": 0.342
+      }
+    },
+    "Mercury": {
+      "8d_vector": [
+        0.565,
+        -1.305,
+        1.0,
+        -4.5,
+        0.116,
+        0.8,
+        0.759,
+        0.83
+      ],
+      "type": "planet",
+      "best_attractor": "opioid",
+      "scores": {
+        "energy": 0.166,
+        "information": -0.258,
+        "repair": 0.219,
+        "opioid": 0.236,
+        "gan_bulkhead": -0.107,
+        "cox_retrograde": -0.135
+      }
+    },
+    "Venus": {
+      "8d_vector": [
+        0.63,
+        -3.333,
+        1.0,
+        1.0,
+        0.0,
+        0.1,
+        0.796,
+        0.849
+      ],
+      "type": "planet",
+      "best_attractor": "cox_retrograde",
+      "scores": {
+        "energy": 0.165,
+        "information": 0.182,
+        "repair": 0.229,
+        "opioid": 0.107,
+        "gan_bulkhead": 0.141,
+        "cox_retrograde": 0.266
+      }
+    },
+    "Earth": {
+      "8d_vector": [
+        0.634,
+        0.0,
+        1.0,
+        0.4,
+        0.998,
+        0.1,
+        0.799,
+        0.851
+      ],
+      "type": "planet",
+      "best_attractor": "information",
+      "scores": {
+        "energy": 0.83,
+        "information": 0.908,
+        "repair": 0.856,
+        "opioid": 0.356,
+        "gan_bulkhead": 0.85,
+        "cox_retrograde": 0.878
+      }
+    },
+    "Mars": {
+      "8d_vector": [
+        0.588,
+        -3.333,
+        1.0,
+        -0.341,
+        0.992,
+        0.1,
+        0.768,
+        0.837
+      ],
+      "type": "planet",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.176,
+        "information": 0.133,
+        "repair": 0.36,
+        "opioid": 0.105,
+        "gan_bulkhead": 0.104,
+        "cox_retrograde": 0.206
+      }
+    },
+    "Jupiter": {
+      "8d_vector": [
+        0.807,
+        0.962,
+        1.0,
+        1.0,
+        1.0,
+        0.1,
+        0.88,
+        0.903
+      ],
+      "type": "planet",
+      "best_attractor": "information",
+      "scores": {
+        "energy": 0.842,
+        "information": 0.984,
+        "repair": 0.74,
+        "opioid": 0.332,
+        "gan_bulkhead": 0.928,
+        "cox_retrograde": 0.924
+      }
+    },
+    "Saturn": {
+      "8d_vector": [
+        0.794,
+        -0.103,
+        1.0,
+        1.0,
+        1.0,
+        0.1,
+        0.863,
+        0.899
+      ],
+      "type": "planet",
+      "best_attractor": "information",
+      "scores": {
+        "energy": 0.787,
+        "information": 0.94,
+        "repair": 0.762,
+        "opioid": 0.32,
+        "gan_bulkhead": 0.861,
+        "cox_retrograde": 0.912
+      }
+    },
+    "Uranus": {
+      "8d_vector": [
+        0.734,
+        -0.201,
+        1.0,
+        1.0,
+        1.0,
+        0.1,
+        0.837,
+        0.881
+      ],
+      "type": "planet",
+      "best_attractor": "information",
+      "scores": {
+        "energy": 0.761,
+        "information": 0.927,
+        "repair": 0.76,
+        "opioid": 0.315,
+        "gan_bulkhead": 0.838,
+        "cox_retrograde": 0.893
+      }
+    },
+    "Neptune": {
+      "8d_vector": [
+        0.732,
+        -0.265,
+        1.0,
+        1.0,
+        1.0,
+        0.1,
+        0.839,
+        0.88
+      ],
+      "type": "planet",
+      "best_attractor": "information",
+      "scores": {
+        "energy": 0.751,
+        "information": 0.916,
+        "repair": 0.756,
+        "opioid": 0.311,
+        "gan_bulkhead": 0.827,
+        "cox_retrograde": 0.885
+      }
+    },
+    "Ceres": {
+      "8d_vector": [
+        0.446,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.1,
+        0.677,
+        0.794
+      ],
+      "type": "dwarf",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.052,
+        "information": -0.268,
+        "repair": 0.224,
+        "opioid": 0.062,
+        "gan_bulkhead": -0.172,
+        "cox_retrograde": -0.157
+      }
+    },
+    "Pluto": {
+      "8d_vector": [
+        0.512,
+        -3.333,
+        1.0,
+        -1.267,
+        0.597,
+        0.8,
+        0.713,
+        0.814
+      ],
+      "type": "dwarf",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.121,
+        "information": -0.029,
+        "repair": 0.287,
+        "opioid": 0.248,
+        "gan_bulkhead": -0.019,
+        "cox_retrograde": 0.062
+      }
+    },
+    "Haumea": {
+      "8d_vector": [
+        0.485,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.8,
+        0.697,
+        0.806
+      ],
+      "type": "dwarf",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.058,
+        "information": -0.253,
+        "repair": 0.224,
+        "opioid": 0.164,
+        "gan_bulkhead": -0.165,
+        "cox_retrograde": -0.149
+      }
+    },
+    "Makemake": {
+      "8d_vector": [
+        0.476,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.8,
+        0.693,
+        0.803
+      ],
+      "type": "dwarf",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.056,
+        "information": -0.254,
+        "repair": 0.224,
+        "opioid": 0.164,
+        "gan_bulkhead": -0.166,
+        "cox_retrograde": -0.151
+      }
+    },
+    "Eris": {
+      "8d_vector": [
+        0.511,
+        -3.333,
+        1.0,
+        -4.6,
+        0.981,
+        0.8,
+        0.717,
+        0.814
+      ],
+      "type": "dwarf",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.062,
+        "information": -0.252,
+        "repair": 0.224,
+        "opioid": 0.165,
+        "gan_bulkhead": -0.161,
+        "cox_retrograde": -0.146
+      }
+    },
+    "Moon": {
+      "8d_vector": [
+        0.54,
+        -3.333,
+        1.0,
+        -4.6,
+        0.282,
+        1.0,
+        0.738,
+        0.822
+      ],
+      "type": "moon",
+      "best_attractor": "opioid",
+      "scores": {
+        "energy": 0.049,
+        "information": -0.304,
+        "repair": 0.167,
+        "opioid": 0.197,
+        "gan_bulkhead": -0.193,
+        "cox_retrograde": -0.179
+      }
+    },
+    "Io": {
+      "8d_vector": [
+        0.543,
+        -3.333,
+        1.0,
+        -2.267,
+        0.875,
+        1.0,
+        0.74,
+        0.823
+      ],
+      "type": "moon",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.114,
+        "information": -0.094,
+        "repair": 0.289,
+        "opioid": 0.26,
+        "gan_bulkhead": -0.058,
+        "cox_retrograde": -0.001
+      }
+    },
+    "Europa": {
+      "8d_vector": [
+        0.532,
+        -3.333,
+        1.0,
+        -3.6,
+        0.724,
+        1.0,
+        0.732,
+        0.82
+      ],
+      "type": "moon",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.077,
+        "information": -0.215,
+        "repair": 0.231,
+        "opioid": 0.222,
+        "gan_bulkhead": -0.137,
+        "cox_retrograde": -0.107
+      }
+    },
+    "Ganymede": {
+      "8d_vector": [
+        0.57,
+        -3.333,
+        1.0,
+        -3.6,
+        0.572,
+        1.0,
+        0.747,
+        0.831
+      ],
+      "type": "moon",
+      "best_attractor": "opioid",
+      "scores": {
+        "energy": 0.079,
+        "information": -0.225,
+        "repair": 0.219,
+        "opioid": 0.224,
+        "gan_bulkhead": -0.14,
+        "cox_retrograde": -0.11
+      }
+    },
+    "Callisto": {
+      "8d_vector": [
+        0.564,
+        -3.333,
+        1.0,
+        -3.6,
+        0.389,
+        1.0,
+        0.743,
+        0.829
+      ],
+      "type": "moon",
+      "best_attractor": "opioid",
+      "scores": {
+        "energy": 0.073,
+        "information": -0.243,
+        "repair": 0.201,
+        "opioid": 0.224,
+        "gan_bulkhead": -0.153,
+        "cox_retrograde": -0.122
+      }
+    },
+    "Titan": {
+      "8d_vector": [
+        0.568,
+        -3.333,
+        1.0,
+        0.459,
+        0.398,
+        1.0,
+        0.746,
+        0.831
+      ],
+      "type": "moon",
+      "best_attractor": "opioid",
+      "scores": {
+        "energy": 0.155,
+        "information": 0.169,
+        "repair": 0.275,
+        "opioid": 0.305,
+        "gan_bulkhead": 0.113,
+        "cox_retrograde": 0.228
+      }
+    },
+    "Triton": {
+      "8d_vector": [
+        0.522,
+        -3.333,
+        1.0,
+        -1.267,
+        0.615,
+        1.0,
+        0.72,
+        0.817
+      ],
+      "type": "moon",
+      "best_attractor": "opioid",
+      "scores": {
+        "energy": 0.123,
+        "information": -0.022,
+        "repair": 0.286,
+        "opioid": 0.288,
+        "gan_bulkhead": -0.015,
+        "cox_retrograde": 0.065
+      }
+    },
+    "Charon": {
+      "8d_vector": [
+        0.464,
+        -3.333,
+        1.0,
+        -4.6,
+        0.597,
+        1.0,
+        0.684,
+        0.799
+      ],
+      "type": "moon",
+      "best_attractor": "opioid",
+      "scores": {
+        "energy": 0.044,
+        "information": -0.286,
+        "repair": 0.189,
+        "opioid": 0.193,
+        "gan_bulkhead": -0.189,
+        "cox_retrograde": -0.174
+      }
+    },
+    "Vesta": {
+      "8d_vector": [
+        0.403,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.1,
+        0.658,
+        0.781
+      ],
+      "type": "asteroid",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.046,
+        "information": -0.272,
+        "repair": 0.223,
+        "opioid": 0.061,
+        "gan_bulkhead": -0.178,
+        "cox_retrograde": -0.163
+      }
+    },
+    "Pallas": {
+      "8d_vector": [
+        0.406,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.1,
+        0.655,
+        0.782
+      ],
+      "type": "asteroid",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.046,
+        "information": -0.272,
+        "repair": 0.222,
+        "opioid": 0.061,
+        "gan_bulkhead": -0.178,
+        "cox_retrograde": -0.163
+      }
+    },
+    "Hygiea": {
+      "8d_vector": [
+        0.389,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.1,
+        0.643,
+        0.777
+      ],
+      "type": "asteroid",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.043,
+        "information": -0.274,
+        "repair": 0.221,
+        "opioid": 0.06,
+        "gan_bulkhead": -0.181,
+        "cox_retrograde": -0.166
+      }
+    },
+    "Juno": {
+      "8d_vector": [
+        0.395,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.1,
+        0.627,
+        0.779
+      ],
+      "type": "asteroid",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.042,
+        "information": -0.274,
+        "repair": 0.221,
+        "opioid": 0.06,
+        "gan_bulkhead": -0.182,
+        "cox_retrograde": -0.166
+      }
+    },
+    "Bennu": {
+      "8d_vector": [
+        0.0,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.1,
+        0.35,
+        0.633
+      ],
+      "type": "asteroid",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": -0.031,
+        "information": -0.321,
+        "repair": 0.197,
+        "opioid": 0.045,
+        "gan_bulkhead": -0.249,
+        "cox_retrograde": -0.234
+      }
+    },
+    "Sedna": {
+      "8d_vector": [
+        0.45,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.1,
+        0.677,
+        0.795
+      ],
+      "type": "TNO",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.053,
+        "information": -0.267,
+        "repair": 0.225,
+        "opioid": 0.062,
+        "gan_bulkhead": -0.172,
+        "cox_retrograde": -0.156
+      }
+    },
+    "Quaoar": {
+      "8d_vector": [
+        0.456,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.8,
+        0.682,
+        0.797
+      ],
+      "type": "TNO",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.053,
+        "information": -0.256,
+        "repair": 0.223,
+        "opioid": 0.163,
+        "gan_bulkhead": -0.169,
+        "cox_retrograde": -0.154
+      }
+    },
+    "Orcus": {
+      "8d_vector": [
+        0.446,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.8,
+        0.671,
+        0.794
+      ],
+      "type": "TNO",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.051,
+        "information": -0.258,
+        "repair": 0.222,
+        "opioid": 0.163,
+        "gan_bulkhead": -0.171,
+        "cox_retrograde": -0.156
+      }
+    },
+    "Gonggong": {
+      "8d_vector": [
+        0.465,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.8,
+        0.685,
+        0.8
+      ],
+      "type": "TNO",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.055,
+        "information": -0.256,
+        "repair": 0.223,
+        "opioid": 0.164,
+        "gan_bulkhead": -0.168,
+        "cox_retrograde": -0.152
+      }
+    },
+    "Planet9": {
+      "8d_vector": [
+        0.686,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.1,
+        0.832,
+        0.866
+      ],
+      "type": "hypothetical",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.093,
+        "information": -0.241,
+        "repair": 0.237,
+        "opioid": 0.071,
+        "gan_bulkhead": -0.134,
+        "cox_retrograde": -0.118
+      }
+    },
+    "Theia": {
+      "8d_vector": [
+        0.58,
+        -3.333,
+        1.0,
+        -4.6,
+        1.0,
+        0.1,
+        0.768,
+        0.834
+      ],
+      "type": "hypothetical",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.075,
+        "information": -0.253,
+        "repair": 0.232,
+        "opioid": 0.067,
+        "gan_bulkhead": -0.15,
+        "cox_retrograde": -0.135
+      }
+    },
+    "Proxima-b": {
+      "8d_vector": [
+        0.642,
+        -3.333,
+        1.0,
+        0.4,
+        0.475,
+        1.0,
+        0.81,
+        0.853
+      ],
+      "type": "exoplanet",
+      "best_attractor": "opioid",
+      "scores": {
+        "energy": 0.178,
+        "information": 0.182,
+        "repair": 0.291,
+        "opioid": 0.307,
+        "gan_bulkhead": 0.133,
+        "cox_retrograde": 0.246
+      }
+    },
+    "TRAPPIST-1e": {
+      "8d_vector": [
+        0.627,
+        -3.333,
+        1.0,
+        0.4,
+        0.65,
+        1.0,
+        0.793,
+        0.849
+      ],
+      "type": "exoplanet",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.179,
+        "information": 0.2,
+        "repair": 0.311,
+        "opioid": 0.305,
+        "gan_bulkhead": 0.142,
+        "cox_retrograde": 0.255
+      }
+    },
+    "Kepler-22b": {
+      "8d_vector": [
+        0.681,
+        -3.333,
+        1.0,
+        0.4,
+        0.998,
+        0.8,
+        0.819,
+        0.865
+      ],
+      "type": "exoplanet",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.204,
+        "information": 0.244,
+        "repair": 0.358,
+        "opioid": 0.261,
+        "gan_bulkhead": 0.178,
+        "cox_retrograde": 0.291
+      }
+    },
+    "HD209458b": {
+      "8d_vector": [
+        0.828,
+        -3.333,
+        1.0,
+        1.0,
+        0.727,
+        1.0,
+        0.875,
+        0.909
+      ],
+      "type": "exoplanet",
+      "best_attractor": "cox_retrograde",
+      "scores": {
+        "energy": 0.226,
+        "information": 0.296,
+        "repair": 0.322,
+        "opioid": 0.302,
+        "gan_bulkhead": 0.225,
+        "cox_retrograde": 0.344
+      }
+    },
+    "WASP-12b": {
+      "8d_vector": [
+        0.868,
+        -3.333,
+        1.0,
+        1.0,
+        0.979,
+        1.0,
+        0.876,
+        0.921
+      ],
+      "type": "exoplanet",
+      "best_attractor": "cox_retrograde",
+      "scores": {
+        "energy": 0.239,
+        "information": 0.325,
+        "repair": 0.351,
+        "opioid": 0.299,
+        "gan_bulkhead": 0.246,
+        "cox_retrograde": 0.364
+      }
+    },
+    "51Pegb": {
+      "8d_vector": [
+        0.833,
+        -3.333,
+        1.0,
+        1.0,
+        0.698,
+        0.8,
+        0.877,
+        0.91
+      ],
+      "type": "exoplanet",
+      "best_attractor": "cox_retrograde",
+      "scores": {
+        "energy": 0.229,
+        "information": 0.294,
+        "repair": 0.322,
+        "opioid": 0.262,
+        "gan_bulkhead": 0.226,
+        "cox_retrograde": 0.347
+      }
+    },
+    "GJ1214b": {
+      "8d_vector": [
+        0.69,
+        -3.333,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.819,
+        0.867
+      ],
+      "type": "exoplanet",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.206,
+        "information": 0.308,
+        "repair": 0.345,
+        "opioid": 0.294,
+        "gan_bulkhead": 0.217,
+        "cox_retrograde": 0.336
+      }
+    },
+    "Kepler-452b": {
+      "8d_vector": [
+        0.663,
+        -3.333,
+        1.0,
+        0.4,
+        0.998,
+        0.1,
+        0.829,
+        0.859
+      ],
+      "type": "exoplanet",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.206,
+        "information": 0.235,
+        "repair": 0.365,
+        "opioid": 0.108,
+        "gan_bulkhead": 0.18,
+        "cox_retrograde": 0.295
+      }
+    },
+    "LHS1140b": {
+      "8d_vector": [
+        0.639,
+        -3.333,
+        1.0,
+        0.4,
+        0.65,
+        0.8,
+        0.8,
+        0.852
+      ],
+      "type": "exoplanet",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.184,
+        "information": 0.2,
+        "repair": 0.316,
+        "opioid": 0.264,
+        "gan_bulkhead": 0.146,
+        "cox_retrograde": 0.26
+      }
+    },
+    "Mercury2": {
+      "8d_vector": [
+        0.565,
+        -1.305,
+        1.0,
+        -4.5,
+        0.116,
+        0.8,
+        0.759,
+        0.83
+      ],
+      "type": "planet",
+      "best_attractor": "opioid",
+      "scores": {
+        "energy": 0.166,
+        "information": -0.258,
+        "repair": 0.219,
+        "opioid": 0.236,
+        "gan_bulkhead": -0.107,
+        "cox_retrograde": -0.135
+      }
+    },
+    "Venus2": {
+      "8d_vector": [
+        0.63,
+        -3.333,
+        1.0,
+        1.0,
+        0.0,
+        0.1,
+        0.796,
+        0.849
+      ],
+      "type": "planet",
+      "best_attractor": "cox_retrograde",
+      "scores": {
+        "energy": 0.165,
+        "information": 0.182,
+        "repair": 0.229,
+        "opioid": 0.107,
+        "gan_bulkhead": 0.141,
+        "cox_retrograde": 0.266
+      }
+    },
+    "Enceladus": {
+      "8d_vector": [
+        0.4,
+        -3.333,
+        1.0,
+        -2.6,
+        0.93,
+        1.0,
+        0.646,
+        0.78
+      ],
+      "type": "moon",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.076,
+        "information": -0.138,
+        "repair": 0.275,
+        "opioid": 0.245,
+        "gan_bulkhead": -0.103,
+        "cox_retrograde": -0.053
+      }
+    },
+    "Miranda": {
+      "8d_vector": [
+        0.395,
+        -3.333,
+        1.0,
+        -4.6,
+        0.924,
+        1.0,
+        0.639,
+        0.779
+      ],
+      "type": "moon",
+      "best_attractor": "repair",
+      "scores": {
+        "energy": 0.041,
+        "information": -0.266,
+        "repair": 0.212,
+        "opioid": 0.19,
+        "gan_bulkhead": -0.182,
+        "cox_retrograde": -0.167
+      }
+    }
+  },
+  "attractor_counts": {
+    "energy": 1,
+    "opioid": 9,
+    "cox_retrograde": 5,
+    "information": 5,
+    "repair": 26
+  }
+}

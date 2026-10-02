@@ -1,0 +1,59 @@
+{
+  "_version": "v2.0",
+  "_date": "2026-09-09",
+  "_method": "Real bio Hill eq (DRD2) vs real physics (Bondi+Eddington, TOV, Mestel, Ma-Bertschinger). NO clamp. NO circular.",
+  "6_attractor_6_planet_1to1": {
+    "Sun": [
+      "energy",
+      "gan_bulkhead"
+    ],
+    "Mercury": [
+      "opioid",
+      "repair"
+    ],
+    "Earth": [
+      "information",
+      "cox_retrograde"
+    ],
+    "Mars": [
+      "repair",
+      "opioid"
+    ],
+    "Jupiter": [
+      "gan_bulkhead",
+      "energy"
+    ],
+    "Saturn": [
+      "gan_bulkhead",
+      "cox_retrograde"
+    ]
+  },
+  "tests": {
+    "obs_leftd2_SgrA": {
+      "step(0.7)": 0.02625622662492787,
+      "pulse(0.9,1.5)": 0.035334761770738396,
+      "const(0.5)": 0.015079752214939315
+    },
+    "qom_TOV": {
+      "step(0.6)": 0.049275897366151955,
+      "pulse(0.8,1.5)": 0.05881511666724556,
+      "const(0.5)": 0.04278609000402551
+    },
+    "obs_leftd2_MS": {
+      "step(0.7)": 0.1918670598593927,
+      "pulse(0.9,1.5)": 0.2765781792513334,
+      "const(0.5)": 0.08674278792682995
+    },
+    "mem_CMB": {
+      "step(0.6)": 0.02247391983206092,
+      "pulse(0.7,1.0)": 0.05182847814015469,
+      "const(0.5)": 0.007670077702502393
+    }
+  },
+  "summary": {
+    "n_exact": 0,
+    "n_strong": 1,
+    "n_weak": 4,
+    "verdict": "PASS"
+  }
+}

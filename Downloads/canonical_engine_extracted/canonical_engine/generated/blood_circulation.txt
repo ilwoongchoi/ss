@@ -1,0 +1,101 @@
+
+BLOOD O  complexity=1  mode=single sequential loop
+============================================================
+  O-main:
+    -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+    -> observer_leftd2                     | outer left frontalis
+    -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+    -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 
+    -> heme                                | just inner to left nipple (inferred: left chest medial 
+    -> left_genital_d2                     | left of the genital (inferred: left side of genitalia /
+    -> gluon_orogen                        | left inner bum (inferred: left gluteal fold medial / le
+    -> laterite                            | left calf between thumb toe and magnetite (inferred: le
+    -> oxidised_manganese                  | left fourth toe (inferred: left 4th digit)
+    -> right_sole_dopamine                 | upper center of right sole (inferred: right plantar arc
+    -> copper_iron_complex                 | outside of right foot where pinky toe meets foot (infer
+    -> collagen                            | right Achilles tendon (inferred: right calcaneal tendon
+    -> subduction_zone                     | left outer femoral nerve or just outside that on the th
+    -> water_vapour                        | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spi
+    -> aurora                              | outlet of energy from the middle of the brain to the ve
+    -> co2                                 | right back of head on left inner occipitalis muscle ver
+
+BLOOD A  complexity=2  mode=two antiphase sequential streams
+============================================================
+  A-forward:
+    -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+    -> observer_leftd2                     | outer left frontalis
+    -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+    -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 
+    -> heme                                | just inner to left nipple (inferred: left chest medial 
+    -> left_genital_d2                     | left of the genital (inferred: left side of genitalia /
+    -> gluon_orogen                        | left inner bum (inferred: left gluteal fold medial / le
+    -> laterite                            | left calf between thumb toe and magnetite (inferred: le
+  A-return:
+    -> oxidised_manganese                  | left fourth toe (inferred: left 4th digit)
+    -> right_sole_dopamine                 | upper center of right sole (inferred: right plantar arc
+    -> copper_iron_complex                 | outside of right foot where pinky toe meets foot (infer
+    -> collagen                            | right Achilles tendon (inferred: right calcaneal tendon
+    -> subduction_zone                     | left outer femoral nerve or just outside that on the th
+    -> water_vapour                        | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spi
+    -> aurora                              | outlet of energy from the middle of the brain to the ve
+    -> co2                                 | right back of head on left inner occipitalis muscle ver
+
+BLOOD B  complexity=3  mode=triple spiral / delayed branches
+============================================================
+  B-spiral-0:
+    -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+    -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 
+    -> gluon_orogen                        | left inner bum (inferred: left gluteal fold medial / le
+    -> right_sole_dopamine                 | upper center of right sole (inferred: right plantar arc
+    -> subduction_zone                     | left outer femoral nerve or just outside that on the th
+    -> co2                                 | right back of head on left inner occipitalis muscle ver
+    -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+    -> left_genital_d2                     | left of the genital (inferred: left side of genitalia /
+    -> oxidised_manganese                  | left fourth toe (inferred: left 4th digit)
+  B-spiral-1:
+    -> observer_leftd2                     | outer left frontalis
+    -> heme                                | just inner to left nipple (inferred: left chest medial 
+    -> laterite                            | left calf between thumb toe and magnetite (inferred: le
+    -> copper_iron_complex                 | outside of right foot where pinky toe meets foot (infer
+    -> water_vapour                        | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spi
+    -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+    -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 
+    -> gluon_orogen                        | left inner bum (inferred: left gluteal fold medial / le
+    -> right_sole_dopamine                 | upper center of right sole (inferred: right plantar arc
+  B-spiral-2:
+    -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+    -> left_genital_d2                     | left of the genital (inferred: left side of genitalia /
+    -> oxidised_manganese                  | left fourth toe (inferred: left 4th digit)
+    -> collagen                            | right Achilles tendon (inferred: right calcaneal tendon
+    -> aurora                              | outlet of energy from the middle of the brain to the ve
+    -> observer_leftd2                     | outer left frontalis
+    -> heme                                | just inner to left nipple (inferred: left chest medial 
+    -> laterite                            | left calf between thumb toe and magnetite (inferred: le
+    -> copper_iron_complex                 | outside of right foot where pinky toe meets foot (infer
+
+BLOOD AB  complexity=4  mode=4-quadrant simultaneous spark discharge
+============================================================
+  AB-quadrant-0:
+    -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+    -> heme                                | just inner to left nipple (inferred: left chest medial 
+    -> oxidised_manganese                  | left fourth toe (inferred: left 4th digit)
+    -> subduction_zone                     | left outer femoral nerve or just outside that on the th
+    -> memory_entropy                      | hind of cysteine; choice point between cysteine and dis
+  AB-quadrant-1:
+    -> observer_leftd2                     | outer left frontalis
+    -> left_genital_d2                     | left of the genital (inferred: left side of genitalia /
+    -> right_sole_dopamine                 | upper center of right sole (inferred: right plantar arc
+    -> water_vapour                        | thoracic spinous processes (흉추돌기) (inferred: T1-T12 spi
+    -> observer_leftd2                     | outer left frontalis
+  AB-quadrant-2:
+    -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+    -> gluon_orogen                        | left inner bum (inferred: left gluteal fold medial / le
+    -> copper_iron_complex                 | outside of right foot where pinky toe meets foot (infer
+    -> aurora                              | outlet of energy from the middle of the brain to the ve
+    -> observer_left_endorphin_electron_antineutrino | left lip philtrum near the very center (inferred: left 
+  AB-quadrant-3:
+    -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 
+    -> laterite                            | left calf between thumb toe and magnetite (inferred: le
+    -> collagen                            | right Achilles tendon (inferred: right calcaneal tendon
+    -> co2                                 | right back of head on left inner occipitalis muscle ver
+    -> pi_electron_cloud                   | left throat anterior (inferred: left anterior cervical 

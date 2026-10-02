@@ -1,0 +1,2231 @@
+====================================================================================================
+PROXIMAL AREA RESONANCE — WHY ALL SUBJECTS CO-LOCATE AND EXCHANGE ENERGY
+====================================================================================================
+
+CORE THESIS:
+----------------------------------------------------------------------------------------------------
+The circuit's 4 stress pairs drive geological processes that create specific soil types.
+Those soils support specific biomes and food chains.
+Human haplogroups adapted to those biomes over 50,000+ years.
+Non-human organisms co-evolved with the same geological substrate.
+The 8D vector of each subject resonates with the underlying geological node's stress pair.
+Temporal jetlag (circadian phase offset) creates resonance windows where co-located
+subjects exchange energy — sync (high resonance) or anti-phase (stress-driven adaptation).
+
+STRESS PAIR → GEOLOGICAL PROCESS → SOIL → BIOME → HAPLOGROUP → CO-LOCATION
+
+■ 4 STRESS PAIRS → GEOLOGICAL DRIVERS
+----------------------------------------------------------------------------------------------------
+  o2_co2                dims=('h', 'p')  hours=(3, 9)  → Oxidation/reduction — drives iron precipitation, organic carbon burial, redox cycling
+  heat_cold             dims=('nu', 'r')  hours=(9, 15)  → Thermal gradient — drives freeze-thaw, metamorphic grade, mantle convection
+  matter_nonmatter      dims=('s', 'g')  hours=(15, 21)  → Mass/binding balance — drives craton stability, metal accretion, LIP eruption
+  light_dark            dims=('gamma', 'd')  hours=(0, 3)  → Surface/depth cycle — drives subduction recycling, radioactive decay, UV adaptation
+
+■ ENERGY EXCHANGE SUMMARY
+----------------------------------------------------------------------------------------------------
+  Total co-located subjects:   132
+  Total subject pairs:         357
+  Sync pairs (jetlag < 4h):    85
+  Anti-phase pairs (jetlag > 8h): 111
+  Partial pairs:               161
+
+■ RESONANCE BY BIOME
+----------------------------------------------------------------------------------------------------
+  temperate        subjects= 38  sync= 37  partial= 68  antiphase= 35
+  desert           subjects= 17  sync= 12  partial= 36  antiphase= 18
+  mountain         subjects= 15  sync=  9  partial= 10  antiphase= 14
+  boreal           subjects= 14  sync= 10  partial= 20  antiphase= 16
+  volcanic         subjects= 13  sync=  5  partial=  9  antiphase= 10
+  pelagic          subjects= 10  sync=  1  partial=  7  antiphase=  4
+  tropical         subjects=  6  sync=  6  partial=  5  antiphase=  4
+  subduction       subjects=  6  sync=  2  partial=  0  antiphase=  4
+  rift             subjects=  6  sync=  2  partial=  0  antiphase=  4
+  permafrost       subjects=  4  sync=  1  partial=  4  antiphase=  1
+  steppe           subjects=  3  sync=  0  partial=  2  antiphase=  1
+
+■ PROXIMAL AREA DETAILS (ALL 25 GEOLOGICAL NODES)
+----------------------------------------------------------------------------------------------------
+
+================================================================================
+  GEOLOGICAL NODE: steel
+  Type: iron_formation  |  Biome: temperate  |  Stress: matter_nonmatter
+  Location: (65.50, 20.50)  |  Banded Iron Formation (Kiruna, Sweden)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          5
+    mtDNA:                2
+    Ethnic archetypes:    7
+    Biological subjects:  3
+    Cosmic spheres:       3
+    Attractors:           2
+
+  HAPLOGROUPS IN THIS AREA:
+    R1a         Balto-Slavic / Indo-Iranian
+      soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      blood: O, A  rh: Rh+ dominant, Rh- minority
+      dominant stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.85 h=0.70 d=0.60 p=0.55 s=0.50 g=0.65 g=0.60 n=0.45
+    R1b         Celtic / Italic / Germanic
+      soil: Calcisols + Regosols — limestone Z-Boson structural
+      blood: O (highest world O; Basque/Celtic)  rh: Rh- HIGHEST (Basque 30-35%, Irish elevated)
+      dominant stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.80 h=0.65 d=0.55 p=0.60 s=0.65 g=0.70 g=0.50 n=0.60
+    I1          Nordic / Germanic
+      soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      blood: O, A  rh: Rh+ dominant, Rh- ~15-18%
+      dominant stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      8D: r=0.75 h=0.80 d=0.75 p=0.45 s=0.55 g=0.60 g=0.65 n=0.50
+    I2          Dinaric / Balkan / Sardinian
+      soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundatio
+      blood: O, A  rh: Rh- elevated Balkan ~16%
+      dominant stress: o2_co2  jetlag: 12.0h  resonance: 0.00
+      8D: r=0.70 h=0.75 d=0.70 p=0.50 s=0.60 g=0.55 g=0.55 n=0.55
+    N1c         Uralo-Finnic / Baltic / Siberian
+      soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      blood: A, O  rh: Rh+ dominant, Rh- moderate (Finnish ~15%)
+      dominant stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      8D: r=0.50 h=0.85 d=0.85 p=0.35 s=0.55 g=0.50 g=0.60 n=0.65
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (temperate):
+    red fox (Vulpes vulpes)
+      type: mammal  element: Cu  particle: muon_neutrino
+      stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      role: adaptable predator, copper metabolism
+    oak (Quercus robur)
+      type: plant  element: C  particle: photon
+      stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      role: keystone tree, tannin binding
+    Cambisol microbiome
+      type: microbiome  element: Si  particle: graviton
+      stress: o2_co2  jetlag: 12.0h  resonance: 0.00
+      role: moderate weathering, balanced nutrient cycling
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=4895km
+    Earth       Equator (Earth center)  attractor=Repair  dist=7466km
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=4642km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'iron_formation' creates 'Banded Iron Formation (Kiruna, Sweden)'.
+  Banded iron formations precipitated from Fe²⁺ in anoxic oceans ~2.4Ga during the Great Oxidation Event. The O₂/CO₂ stress pair (h,p) drove iron oxidation, locking Fe³⁺ into sedimentary layers. Human populations on these formations inherit iron-rich substrates that select for specific blood types and hemoglobin variants.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    R1a (Balto-Slavic / Indo-Iranian):
+      Soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      Dominant stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    R1b (Celtic / Italic / Germanic):
+      Soil: Calcisols + Regosols — limestone Z-Boson structural
+      Dominant stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    I1 (Nordic / Germanic):
+      Soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      Dominant stress: light_dark (jetlag=7.5h, resonance=0.38)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    I2 (Dinaric / Balkan / Sardinian):
+      Soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundation
+      Dominant stress: o2_co2 (jetlag=12.0h, resonance=0.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    N1c (Uralo-Finnic / Baltic / Siberian):
+      Soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      Dominant stress: light_dark (jetlag=7.5h, resonance=0.38)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    red fox (Vulpes vulpes) (mammal):
+      Element: Cu, Particle: muon_neutrino
+      Stress: light_dark (jetlag=7.5h, resonance=0.38)
+      Role: adaptable predator, copper metabolism
+    oak (Quercus robur) (plant):
+      Element: C, Particle: photon
+      Stress: light_dark (jetlag=7.5h, resonance=0.38)
+      Role: keystone tree, tannin binding
+    Cambisol microbiome (microbiome):
+      Element: Si, Particle: graviton
+      Stress: o2_co2 (jetlag=12.0h, resonance=0.00)
+      Role: moderate weathering, balanced nutrient cycling
+
+  ENERGY EXCHANGE DYNAMICS:
+    R1a                                       stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    R1b                                       stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    I1                                        stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    I2                                        stress=o2_co2                jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+    N1c                                       stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    red fox (Vulpes vulpes)                   stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    oak (Quercus robur)                       stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    Cambisol microbiome                       stress=o2_co2                jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+
+
+================================================================================
+  GEOLOGICAL NODE: clay_gouge
+  Type: fault_gouge  |  Biome: mountain  |  Stress: heat_cold
+  Location: (36.00, -120.00)  |  San Andreas Fault gouge zone
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          0
+    mtDNA:                0
+    Ethnic archetypes:    1
+    Biological subjects:  3
+    Cosmic spheres:       0
+    Attractors:           0
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (mountain):
+    snow leopard (Panthera uncia)
+      type: mammal  element: Mg  particle: muon
+      stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      role: apex predator, altitude hypoxia adaptation
+    rhododendron (Rhododendron)
+      type: plant  element: B  particle: graviton
+      stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      role: MC1R analog, UV tolerance
+    Leptosol microbiome
+      type: microbiome  element: Mn  particle: muon_antineutrino
+      stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      role: skeletal soil, direct Z-boson foundation
+
+  HISTORICAL EXPLANATION:
+  The geological process 'fault_gouge' creates 'San Andreas Fault gouge zone'.
+  Fault gouge forms from tectonic friction along plate boundaries. The heat/cold stress pair (nu,r) governs the frictional heating vs. ambient cooling cycle. Clay minerals in the gouge zone retain water and create micro-environments that support unique microbiomes.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    snow leopard (Panthera uncia) (mammal):
+      Element: Mg, Particle: muon
+      Stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      Role: apex predator, altitude hypoxia adaptation
+    rhododendron (Rhododendron) (plant):
+      Element: B, Particle: graviton
+      Stress: light_dark (jetlag=10.5h, resonance=0.12)
+      Role: MC1R analog, UV tolerance
+    Leptosol microbiome (microbiome):
+      Element: Mn, Particle: muon_antineutrino
+      Stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      Role: skeletal soil, direct Z-boson foundation
+
+  ENERGY EXCHANGE DYNAMICS:
+    snow leopard (Panthera uncia)             stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+    rhododendron (Rhododendron)               stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    Leptosol microbiome                       stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+
+
+================================================================================
+  GEOLOGICAL NODE: craton
+  Type: craton  |  Biome: steppe  |  Stress: matter_nonmatter
+  Location: (-26.00, 24.00)  |  Kaapvaal Craton (S.Africa, oldest ~3.7Ga)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          0
+    mtDNA:                0
+    Ethnic archetypes:    1
+    Biological subjects:  3
+    Cosmic spheres:       2
+    Attractors:           2
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (steppe):
+    Przewalski's horse (Equus ferus)
+      type: mammal  element: Fe  particle: quark
+      stress: matter_nonmatter  jetlag: 0.0h  resonance: 1.00
+      role: nomadic grazer, iron-blood kinetic
+    Stipa feather grass
+      type: plant  element: C  particle: photon
+      stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      role: steppe anchor, deep root periodicity
+    Chernozem microbiome
+      type: microbiome  element: C  particle: photon
+      stress: o2_co2  jetlag: 12.0h  resonance: 0.00
+      role: maximal organic carbon, gluon homeostasis
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=6080km
+    Earth       Equator (Earth center)  attractor=Repair  dist=3870km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'craton' creates 'Kaapvaal Craton (S.Africa, oldest ~3.7Ga)'.
+  Cratons are the oldest stable continental fragments (>3Ga). Their deep lithospheric roots resist deformation, creating stable platforms where deep soils (chernozems, kastanozems) accumulate. The matter/non-matter stress pair (s,g) governs the slow mass accumulation vs. binding energy balance over geological time.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    Przewalski's horse (Equus ferus) (mammal):
+      Element: Fe, Particle: quark
+      Stress: matter_nonmatter (jetlag=0.0h, resonance=1.00)
+      Role: nomadic grazer, iron-blood kinetic
+    Stipa feather grass (plant):
+      Element: C, Particle: photon
+      Stress: light_dark (jetlag=7.5h, resonance=0.38)
+      Role: steppe anchor, deep root periodicity
+    Chernozem microbiome (microbiome):
+      Element: C, Particle: photon
+      Stress: o2_co2 (jetlag=12.0h, resonance=0.00)
+      Role: maximal organic carbon, gluon homeostasis
+
+  ENERGY EXCHANGE DYNAMICS:
+    Przewalski's horse (Equus ferus)          stress=matter_nonmatter      jetlag=  0.0h  resonance=1.00  [SYNC]
+    Stipa feather grass                       stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    Chernozem microbiome                      stress=o2_co2                jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+
+
+================================================================================
+  GEOLOGICAL NODE: laterite
+  Type: tropical_weathering  |  Biome: tropical  |  Stress: o2_co2
+  Location: (-1.00, 23.00)  |  Congo Basin tropical laterite
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          2
+    mtDNA:                1
+    Ethnic archetypes:    3
+    Biological subjects:  4
+    Cosmic spheres:       2
+    Attractors:           2
+
+  HAPLOGROUPS IN THIS AREA:
+    E1b1b       NE Africa / Berber / E-V13
+      soil: Nitisols (Ethiopian highlands) + Solonchaks (Dallol) — iron-
+      blood: A, O  rh: Rh+ dominant, Rh- moderate
+      dominant stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.75 h=0.70 d=0.55 p=0.70 s=0.60 g=0.65 g=0.75 n=0.55
+    E1b1a       Sub-Saharan / Bantu / W.African
+      soil: Ferralsols + Plinthosols — iron oxide, tropical deep weather
+      blood: O (very high), A  rh: Rh+ dominant, Rh- very rare
+      dominant stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.90 h=0.55 d=0.45 p=0.75 s=0.60 g=0.60 g=0.65 n=0.40
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (tropical):
+    African elephant (Loxodonta)
+      type: mammal  element: Ca  particle: electron
+      stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      role: keystone herbivore, calcium bone mass
+    Ficus (strangler fig)
+      type: plant  element: C  particle: photon
+      stress: light_dark  jetlag: 4.5h  resonance: 0.62
+      role: canopy dominance, light competition
+    termites (Macrotermes)
+      type: insect  element: Si  particle: graviton
+      stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      role: soil engineering, methane production
+    Ferralsol microbiome
+      type: microbiome  element: Fe  particle: quark
+      stress: matter_nonmatter  jetlag: 12.0h  resonance: 0.00
+      role: iron oxide lock, P+ sequestration
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=3688km
+    Earth       Equator (Earth center)  attractor=Repair  dist=2560km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'tropical_weathering' creates 'Congo Basin tropical laterite'.
+  Tropical laterites form through intense leaching in hot, humid climates. The O₂/CO₂ stress pair (h,p) drives rapid organic decomposition, leaving iron and aluminum oxides. Human haplogroups here evolved high r (motor/kinetic) for tropical energy expenditure and adapted to iron-locked phosphorus deficiency.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    E1b1b (NE Africa / Berber / E-V13):
+      Soil: Nitisols (Ethiopian highlands) + Solonchaks (Dallol) — iron-rich red clay
+      Dominant stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    E1b1a (Sub-Saharan / Bantu / W.African):
+      Soil: Ferralsols + Plinthosols — iron oxide, tropical deep weathering
+      Dominant stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    African elephant (Loxodonta) (mammal):
+      Element: Ca, Particle: electron
+      Stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      Role: keystone herbivore, calcium bone mass
+    Ficus (strangler fig) (plant):
+      Element: C, Particle: photon
+      Stress: light_dark (jetlag=4.5h, resonance=0.62)
+      Role: canopy dominance, light competition
+    termites (Macrotermes) (insect):
+      Element: Si, Particle: graviton
+      Stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      Role: soil engineering, methane production
+    Ferralsol microbiome (microbiome):
+      Element: Fe, Particle: quark
+      Stress: matter_nonmatter (jetlag=12.0h, resonance=0.00)
+      Role: iron oxide lock, P+ sequestration
+
+  ENERGY EXCHANGE DYNAMICS:
+    E1b1b                                     stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+    E1b1a                                     stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+    African elephant (Loxodonta)              stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+    Ficus (strangler fig)                     stress=light_dark            jetlag=  4.5h  resonance=0.62  [PARTIAL]
+    termites (Macrotermes)                    stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+    Ferralsol microbiome                      stress=matter_nonmatter      jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+
+
+================================================================================
+  GEOLOGICAL NODE: podzol
+  Type: boreal_soil  |  Biome: boreal  |  Stress: heat_cold
+  Location: (64.00, 26.00)  |  Finnish boreal podzol
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          5
+    mtDNA:                2
+    Ethnic archetypes:    7
+    Biological subjects:  4
+    Cosmic spheres:       3
+    Attractors:           2
+
+  HAPLOGROUPS IN THIS AREA:
+    R1a         Balto-Slavic / Indo-Iranian
+      soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      blood: O, A  rh: Rh+ dominant, Rh- minority
+      dominant stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.85 h=0.70 d=0.60 p=0.55 s=0.50 g=0.65 g=0.60 n=0.45
+    R1b         Celtic / Italic / Germanic
+      soil: Calcisols + Regosols — limestone Z-Boson structural
+      blood: O (highest world O; Basque/Celtic)  rh: Rh- HIGHEST (Basque 30-35%, Irish elevated)
+      dominant stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.80 h=0.65 d=0.55 p=0.60 s=0.65 g=0.70 g=0.50 n=0.60
+    I1          Nordic / Germanic
+      soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      blood: O, A  rh: Rh+ dominant, Rh- ~15-18%
+      dominant stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      8D: r=0.75 h=0.80 d=0.75 p=0.45 s=0.55 g=0.60 g=0.65 n=0.50
+    I2          Dinaric / Balkan / Sardinian
+      soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundatio
+      blood: O, A  rh: Rh- elevated Balkan ~16%
+      dominant stress: o2_co2  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.70 h=0.75 d=0.70 p=0.50 s=0.60 g=0.55 g=0.55 n=0.55
+    N1c         Uralo-Finnic / Baltic / Siberian
+      soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      blood: A, O  rh: Rh+ dominant, Rh- moderate (Finnish ~15%)
+      dominant stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      8D: r=0.50 h=0.85 d=0.85 p=0.35 s=0.55 g=0.50 g=0.60 n=0.65
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (boreal):
+    reindeer (Rangifer tarandus)
+      type: mammal  element: Fe  particle: muon
+      stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      role: migratory anchor, iron-blood cold adaptation
+    Siberian larch (Larix sibirica)
+      type: plant  element: C  particle: photon
+      stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      role: deciduous conifer, seasonal light gate
+    mycorrhizal fungi (Suillus)
+      type: fungi  element: N  particle: electron_neutrino
+      stress: matter_nonmatter  jetlag: 6.0h  resonance: 0.50
+      role: soil binding, nitrogen fixation proxy
+    podzol soil microbiome
+      type: microbiome  element: Si  particle: graviton
+      stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      role: acidic leach, slow decomposition
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=4889km
+    Earth       Equator (Earth center)  attractor=Repair  dist=7427km
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=4394km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'boreal_soil' creates 'Finnish boreal podzol'.
+  Podzols form under cold, acidic coniferous forests. The heat/cold stress pair (nu,r) governs the freeze-thaw cycle that drives eluviation. Slow decomposition locks carbon in permafrost. Human haplogroups here evolved high h+d (mass anchor + GABA) for cold patience and low r+p (not impulsive).
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    R1a (Balto-Slavic / Indo-Iranian):
+      Soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      Dominant stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    R1b (Celtic / Italic / Germanic):
+      Soil: Calcisols + Regosols — limestone Z-Boson structural
+      Dominant stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    I1 (Nordic / Germanic):
+      Soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      Dominant stress: light_dark (jetlag=10.5h, resonance=0.12)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    I2 (Dinaric / Balkan / Sardinian):
+      Soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundation
+      Dominant stress: o2_co2 (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    N1c (Uralo-Finnic / Baltic / Siberian):
+      Soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      Dominant stress: light_dark (jetlag=10.5h, resonance=0.12)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    reindeer (Rangifer tarandus) (mammal):
+      Element: Fe, Particle: muon
+      Stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      Role: migratory anchor, iron-blood cold adaptation
+    Siberian larch (Larix sibirica) (plant):
+      Element: C, Particle: photon
+      Stress: light_dark (jetlag=10.5h, resonance=0.12)
+      Role: deciduous conifer, seasonal light gate
+    mycorrhizal fungi (Suillus) (fungi):
+      Element: N, Particle: electron_neutrino
+      Stress: matter_nonmatter (jetlag=6.0h, resonance=0.50)
+      Role: soil binding, nitrogen fixation proxy
+    podzol soil microbiome (microbiome):
+      Element: Si, Particle: graviton
+      Stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      Role: acidic leach, slow decomposition
+
+  ENERGY EXCHANGE DYNAMICS:
+    R1a                                       stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+    R1b                                       stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+    I1                                        stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    I2                                        stress=o2_co2                jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    N1c                                       stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    reindeer (Rangifer tarandus)              stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+    Siberian larch (Larix sibirica)           stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    mycorrhizal fungi (Suillus)               stress=matter_nonmatter      jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    podzol soil microbiome                    stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+
+
+================================================================================
+  GEOLOGICAL NODE: andosol
+  Type: volcanic_soil  |  Biome: volcanic  |  Stress: o2_co2
+  Location: (35.36, 138.73)  |  Fuji volcanic andosol (Japan)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          1
+    mtDNA:                0
+    Ethnic archetypes:    5
+    Biological subjects:  3
+    Cosmic spheres:       1
+    Attractors:           0
+
+  HAPLOGROUPS IN THIS AREA:
+    O2          Sino-Tibetan / Han / Korean / Japanese
+      soil: Anthrosols + Fluvisols — rice/millet paddy, alluvial river p
+      blood: A (very high: Korea/Japan), O, B  rh: Rh+ dominant, Rh- very rare
+      dominant stress: matter_nonmatter  jetlag: 12.0h  resonance: 0.00
+      8D: r=0.60 h=0.75 d=0.80 p=0.40 s=0.60 g=0.55 g=0.85 n=0.50
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (volcanic):
+    extremophile archaea (Sulfolobus)
+      type: archaea  element: S  particle: gluon
+      stress: matter_nonmatter  jetlag: 12.0h  resonance: 0.00
+      role: sulfur oxidation, Nrf2 analog
+    volcanic grass (Miscanthus)
+      type: plant  element: P  particle: higgs
+      stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      role: phosphorus accumulator, pioneer species
+    Andosol microbiome
+      type: microbiome  element: Al  particle: down_quark
+      stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      role: allophane mineral, phosphorus retention
+
+  COSMIC SPHERE INFLUENCE:
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=4209km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'volcanic_soil' creates 'Fuji volcanic andosol (Japan)'.
+  Andosols form from volcanic ash weathering. Fresh minerals (P, Fe, Mg) are released slowly. The O₂/CO₂ stress pair (h,p) governs the oxidation of reduced volcanic gases. Human haplogroups here evolved high h (structural tradition) from the reliable agricultural base.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    O2 (Sino-Tibetan / Han / Korean / Japanese):
+      Soil: Anthrosols + Fluvisols — rice/millet paddy, alluvial river plain
+      Dominant stress: matter_nonmatter (jetlag=12.0h, resonance=0.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    extremophile archaea (Sulfolobus) (archaea):
+      Element: S, Particle: gluon
+      Stress: matter_nonmatter (jetlag=12.0h, resonance=0.00)
+      Role: sulfur oxidation, Nrf2 analog
+    volcanic grass (Miscanthus) (plant):
+      Element: P, Particle: higgs
+      Stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      Role: phosphorus accumulator, pioneer species
+    Andosol microbiome (microbiome):
+      Element: Al, Particle: down_quark
+      Stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      Role: allophane mineral, phosphorus retention
+
+  ENERGY EXCHANGE DYNAMICS:
+    O2                                        stress=matter_nonmatter      jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+    extremophile archaea (Sulfolobus)         stress=matter_nonmatter      jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+    volcanic grass (Miscanthus)               stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+    Andosol microbiome                        stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+
+
+================================================================================
+  GEOLOGICAL NODE: cambisol
+  Type: temperate_soil  |  Biome: temperate  |  Stress: o2_co2
+  Location: (48.00, 8.00)  |  European temperate cambisol (Black Forest)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          6
+    mtDNA:                3
+    Ethnic archetypes:    12
+    Biological subjects:  3
+    Cosmic spheres:       3
+    Attractors:           2
+
+  HAPLOGROUPS IN THIS AREA:
+    R1a         Balto-Slavic / Indo-Iranian
+      soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      blood: O, A  rh: Rh+ dominant, Rh- minority
+      dominant stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.85 h=0.70 d=0.60 p=0.55 s=0.50 g=0.65 g=0.60 n=0.45
+    R1b         Celtic / Italic / Germanic
+      soil: Calcisols + Regosols — limestone Z-Boson structural
+      blood: O (highest world O; Basque/Celtic)  rh: Rh- HIGHEST (Basque 30-35%, Irish elevated)
+      dominant stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.80 h=0.65 d=0.55 p=0.60 s=0.65 g=0.70 g=0.50 n=0.60
+    I1          Nordic / Germanic
+      soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      blood: O, A  rh: Rh+ dominant, Rh- ~15-18%
+      dominant stress: light_dark  jetlag: 4.5h  resonance: 0.62
+      8D: r=0.75 h=0.80 d=0.75 p=0.45 s=0.55 g=0.60 g=0.65 n=0.50
+    I2          Dinaric / Balkan / Sardinian
+      soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundatio
+      blood: O, A  rh: Rh- elevated Balkan ~16%
+      dominant stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.70 h=0.75 d=0.70 p=0.50 s=0.60 g=0.55 g=0.55 n=0.55
+    J2          Mesopotamian / Minoan / Anatolian
+      soil: Fluvisols + Vertisols — alluvial river clay, water-retentive
+      blood: A, B, O  rh: Rh+ dominant, Rh- moderate
+      dominant stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.70 h=0.75 d=0.60 p=0.65 s=0.70 g=0.70 g=0.70 n=0.60
+    N1c         Uralo-Finnic / Baltic / Siberian
+      soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      blood: A, O  rh: Rh+ dominant, Rh- moderate (Finnish ~15%)
+      dominant stress: light_dark  jetlag: 4.5h  resonance: 0.62
+      8D: r=0.50 h=0.85 d=0.85 p=0.35 s=0.55 g=0.50 g=0.60 n=0.65
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (temperate):
+    red fox (Vulpes vulpes)
+      type: mammal  element: Cu  particle: muon_neutrino
+      stress: light_dark  jetlag: 4.5h  resonance: 0.62
+      role: adaptable predator, copper metabolism
+    oak (Quercus robur)
+      type: plant  element: C  particle: photon
+      stress: light_dark  jetlag: 4.5h  resonance: 0.62
+      role: keystone tree, tannin binding
+    Cambisol microbiome
+      type: microbiome  element: Si  particle: graviton
+      stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      role: moderate weathering, balanced nutrient cycling
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=2815km
+    Earth       Equator (Earth center)  attractor=Repair  dist=5393km
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=5977km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'temperate_soil' creates 'European temperate cambisol (Black Forest)'.
+  Cambisols form in temperate climates with moderate weathering. Balanced nutrient cycling supports diverse ecosystems. The O₂/CO₂ stress pair (h,p) drives seasonal decomposition. Human haplogroups here show balanced 8D vectors with moderate values across all axes.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    R1a (Balto-Slavic / Indo-Iranian):
+      Soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      Dominant stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    R1b (Celtic / Italic / Germanic):
+      Soil: Calcisols + Regosols — limestone Z-Boson structural
+      Dominant stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    I1 (Nordic / Germanic):
+      Soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      Dominant stress: light_dark (jetlag=4.5h, resonance=0.62)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → MODERATE RESONANCE: partial sync, oscillating energy exchange.
+    I2 (Dinaric / Balkan / Sardinian):
+      Soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundation
+      Dominant stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    J2 (Mesopotamian / Minoan / Anatolian):
+      Soil: Fluvisols + Vertisols — alluvial river clay, water-retentive
+      Dominant stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    N1c (Uralo-Finnic / Baltic / Siberian):
+      Soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      Dominant stress: light_dark (jetlag=4.5h, resonance=0.62)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → MODERATE RESONANCE: partial sync, oscillating energy exchange.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    red fox (Vulpes vulpes) (mammal):
+      Element: Cu, Particle: muon_neutrino
+      Stress: light_dark (jetlag=4.5h, resonance=0.62)
+      Role: adaptable predator, copper metabolism
+    oak (Quercus robur) (plant):
+      Element: C, Particle: photon
+      Stress: light_dark (jetlag=4.5h, resonance=0.62)
+      Role: keystone tree, tannin binding
+    Cambisol microbiome (microbiome):
+      Element: Si, Particle: graviton
+      Stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      Role: moderate weathering, balanced nutrient cycling
+
+  ENERGY EXCHANGE DYNAMICS:
+    R1a                                       stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    R1b                                       stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    I1                                        stress=light_dark            jetlag=  4.5h  resonance=0.62  [PARTIAL]
+    I2                                        stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+    J2                                        stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+    N1c                                       stress=light_dark            jetlag=  4.5h  resonance=0.62  [PARTIAL]
+    red fox (Vulpes vulpes)                   stress=light_dark            jetlag=  4.5h  resonance=0.62  [PARTIAL]
+    oak (Quercus robur)                       stress=light_dark            jetlag=  4.5h  resonance=0.62  [PARTIAL]
+    Cambisol microbiome                       stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+
+
+================================================================================
+  GEOLOGICAL NODE: histosol
+  Type: peatland  |  Biome: permafrost  |  Stress: heat_cold
+  Location: (60.00, 90.00)  |  Siberian peatland histosol
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          1
+    mtDNA:                0
+    Ethnic archetypes:    1
+    Biological subjects:  3
+    Cosmic spheres:       1
+    Attractors:           0
+
+  HAPLOGROUPS IN THIS AREA:
+    C           Mongolic / Turkic / Na-Dene
+      soil: Kastanozems + Cryosols — steppe chestnut, permafrost lock
+      blood: O, B, A  rh: Rh+ dominant, Rh- very rare
+      dominant stress: o2_co2  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.85 h=0.65 d=0.50 p=0.70 s=0.75 g=0.65 g=0.60 n=0.50
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (permafrost):
+    musk ox (Ovibos moschatus)
+      type: mammal  element: Fe  particle: quark
+      stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      role: arctic survivor, qiviut insulation
+    Sphagnum moss
+      type: plant  element: C  particle: photon
+      stress: matter_nonmatter  jetlag: 6.0h  resonance: 0.50
+      role: peat accumulator, carbon lock
+    Cryosol microbiome
+      type: microbiome  element: H  particle: right_testosterone
+      stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      role: frozen organic matter, methane reservoir
+
+  COSMIC SPHERE INFLUENCE:
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=1668km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'peatland' creates 'Siberian peatland histosol'.
+  Histosols form in waterlogged, anaerobic conditions where organic matter accumulates faster than it decomposes. The heat/cold stress pair (nu,r) governs the freeze-thaw that limits decomposition. These are major methane reservoirs — the circuit's methanogenesis node.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    C (Mongolic / Turkic / Na-Dene):
+      Soil: Kastanozems + Cryosols — steppe chestnut, permafrost lock
+      Dominant stress: o2_co2 (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    musk ox (Ovibos moschatus) (mammal):
+      Element: Fe, Particle: quark
+      Stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      Role: arctic survivor, qiviut insulation
+    Sphagnum moss (plant):
+      Element: C, Particle: photon
+      Stress: matter_nonmatter (jetlag=6.0h, resonance=0.50)
+      Role: peat accumulator, carbon lock
+    Cryosol microbiome (microbiome):
+      Element: H, Particle: right_testosterone
+      Stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      Role: frozen organic matter, methane reservoir
+
+  ENERGY EXCHANGE DYNAMICS:
+    C                                         stress=o2_co2                jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    musk ox (Ovibos moschatus)                stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+    Sphagnum moss                             stress=matter_nonmatter      jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    Cryosol microbiome                        stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+
+
+================================================================================
+  GEOLOGICAL NODE: pyrite
+  Type: hydrothermal_sulfide  |  Biome: subduction  |  Stress: matter_nonmatter
+  Location: (-27.00, -70.00)  |  Atacama hydrothermal pyrite (Chile)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          0
+    mtDNA:                0
+    Ethnic archetypes:    1
+    Biological subjects:  3
+    Cosmic spheres:       1
+    Attractors:           1
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (subduction):
+    deep-sea tube worm (Riftia pachyptila)
+      type: invertebrate  element: S  particle: gluon
+      stress: matter_nonmatter  jetlag: 0.0h  resonance: 1.00
+      role: hydrothermal vent, sulfur chemosynthesis
+    vent archaea (Methanopyrus)
+      type: archaea  element: P  particle: higgs
+      stress: o2_co2  jetlag: 12.0h  resonance: 0.00
+      role: methanogenesis at 122°C, extremophile limit
+    manganese nodule microbiome
+      type: microbiome  element: Mn  particle: muon_antineutrino
+      stress: matter_nonmatter  jetlag: 0.0h  resonance: 1.00
+      role: deep-sea metal precipitation
+
+  COSMIC SPHERE INFLUENCE:
+    Barnard     Barnard's Star projection (S.Pacific)  attractor=Energy  dist=2676km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'hydrothermal_sulfide' creates 'Atacama hydrothermal pyrite (Chile)'.
+  Pyrite forms at hydrothermal vents where reduced sulfur meets iron. The matter/non-matter stress pair (s,g) governs the metal sulfide precipitation. These environments host chemosynthetic ecosystems independent of sunlight — the circuit's subduction_zone / light_dark inversion.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    deep-sea tube worm (Riftia pachyptila) (invertebrate):
+      Element: S, Particle: gluon
+      Stress: matter_nonmatter (jetlag=0.0h, resonance=1.00)
+      Role: hydrothermal vent, sulfur chemosynthesis
+    vent archaea (Methanopyrus) (archaea):
+      Element: P, Particle: higgs
+      Stress: o2_co2 (jetlag=12.0h, resonance=0.00)
+      Role: methanogenesis at 122°C, extremophile limit
+    manganese nodule microbiome (microbiome):
+      Element: Mn, Particle: muon_antineutrino
+      Stress: matter_nonmatter (jetlag=0.0h, resonance=1.00)
+      Role: deep-sea metal precipitation
+
+  ENERGY EXCHANGE DYNAMICS:
+    deep-sea tube worm (Riftia pachyptila)    stress=matter_nonmatter      jetlag=  0.0h  resonance=1.00  [SYNC]
+    vent archaea (Methanopyrus)               stress=o2_co2                jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+    manganese nodule microbiome               stress=matter_nonmatter      jetlag=  0.0h  resonance=1.00  [SYNC]
+
+
+================================================================================
+  GEOLOGICAL NODE: fold_belt
+  Type: orogenic_belt  |  Biome: mountain  |  Stress: heat_cold
+  Location: (28.00, 87.00)  |  Himalayan fold belt
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          3
+    mtDNA:                1
+    Ethnic archetypes:    3
+    Biological subjects:  3
+    Cosmic spheres:       1
+    Attractors:           0
+
+  HAPLOGROUPS IN THIS AREA:
+    D           Tibetan / Ainu / Andamanese
+      soil: Andosols (Japan volcanic) + Cryosols (Tibet) + Gelisols
+      blood: A, O, B  rh: Rh+ dominant, Rh- rare
+      dominant stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      8D: r=0.50 h=0.90 d=0.85 p=0.35 s=0.60 g=0.50 g=0.55 n=0.75
+    L           S.Asian / Dravidian / Indian
+      soil: Vertisols + Nitisols — black cotton soil, tropical iron-rich
+      blood: B, O, A  rh: Rh+ dominant, Rh- rare
+      dominant stress: matter_nonmatter  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.60 h=0.75 d=0.70 p=0.50 s=0.60 g=0.65 g=0.75 n=0.60
+    H           Indian tribal / Romani / Dravidian
+      soil: Acrisols + Ferralsols — tropical deeply weathered
+      blood: O, B, A  rh: Rh+ dominant, Rh- rare
+      dominant stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.75 h=0.60 d=0.55 p=0.65 s=0.65 g=0.70 g=0.60 n=0.55
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (mountain):
+    snow leopard (Panthera uncia)
+      type: mammal  element: Mg  particle: muon
+      stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      role: apex predator, altitude hypoxia adaptation
+    rhododendron (Rhododendron)
+      type: plant  element: B  particle: graviton
+      stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      role: MC1R analog, UV tolerance
+    Leptosol microbiome
+      type: microbiome  element: Mn  particle: muon_antineutrino
+      stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      role: skeletal soil, direct Z-boson foundation
+
+  COSMIC SPHERE INFLUENCE:
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=1909km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'orogenic_belt' creates 'Himalayan fold belt'.
+  Fold belts form from continental collision. The heat/cold stress pair (nu,r) governs the metamorphic grade via geothermal gradient vs. uplift cooling. Mountain barriers isolate populations, creating genetic bottlenecks that amplify specific haplogroup frequencies.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    D (Tibetan / Ainu / Andamanese):
+      Soil: Andosols (Japan volcanic) + Cryosols (Tibet) + Gelisols
+      Dominant stress: light_dark (jetlag=10.5h, resonance=0.12)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    L (S.Asian / Dravidian / Indian):
+      Soil: Vertisols + Nitisols — black cotton soil, tropical iron-rich
+      Dominant stress: matter_nonmatter (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    H (Indian tribal / Romani / Dravidian):
+      Soil: Acrisols + Ferralsols — tropical deeply weathered
+      Dominant stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    snow leopard (Panthera uncia) (mammal):
+      Element: Mg, Particle: muon
+      Stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      Role: apex predator, altitude hypoxia adaptation
+    rhododendron (Rhododendron) (plant):
+      Element: B, Particle: graviton
+      Stress: light_dark (jetlag=10.5h, resonance=0.12)
+      Role: MC1R analog, UV tolerance
+    Leptosol microbiome (microbiome):
+      Element: Mn, Particle: muon_antineutrino
+      Stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      Role: skeletal soil, direct Z-boson foundation
+
+  ENERGY EXCHANGE DYNAMICS:
+    D                                         stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    L                                         stress=matter_nonmatter      jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    H                                         stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+    snow leopard (Panthera uncia)             stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+    rhododendron (Rhododendron)               stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    Leptosol microbiome                       stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+
+
+================================================================================
+  GEOLOGICAL NODE: subduction_zone
+  Type: subduction  |  Biome: subduction  |  Stress: light_dark
+  Location: (15.00, 145.00)  |  Mariana subduction zone
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          0
+    mtDNA:                0
+    Ethnic archetypes:    1
+    Biological subjects:  3
+    Cosmic spheres:       2
+    Attractors:           0
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (subduction):
+    deep-sea tube worm (Riftia pachyptila)
+      type: invertebrate  element: S  particle: gluon
+      stress: matter_nonmatter  jetlag: 7.5h  resonance: 0.38
+      role: hydrothermal vent, sulfur chemosynthesis
+    vent archaea (Methanopyrus)
+      type: archaea  element: P  particle: higgs
+      stress: o2_co2  jetlag: 4.5h  resonance: 0.62
+      role: methanogenesis at 122°C, extremophile limit
+    manganese nodule microbiome
+      type: microbiome  element: Mn  particle: muon_antineutrino
+      stress: matter_nonmatter  jetlag: 7.5h  resonance: 0.38
+      role: deep-sea metal precipitation
+
+  COSMIC SPHERE INFLUENCE:
+    Moon        Tropic of Capricorn (lunar antipode)  attractor=Time  dist=5727km
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=6106km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'subduction' creates 'Mariana subduction zone'.
+  Subduction zones recycle oceanic crust into the mantle. The light/dark stress pair (gamma,d) governs the surface (light) vs. deep (dark) material cycle. Arc volcanism above subduction zones creates volcanic soils that support dense populations.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    deep-sea tube worm (Riftia pachyptila) (invertebrate):
+      Element: S, Particle: gluon
+      Stress: matter_nonmatter (jetlag=7.5h, resonance=0.38)
+      Role: hydrothermal vent, sulfur chemosynthesis
+    vent archaea (Methanopyrus) (archaea):
+      Element: P, Particle: higgs
+      Stress: o2_co2 (jetlag=4.5h, resonance=0.62)
+      Role: methanogenesis at 122°C, extremophile limit
+    manganese nodule microbiome (microbiome):
+      Element: Mn, Particle: muon_antineutrino
+      Stress: matter_nonmatter (jetlag=7.5h, resonance=0.38)
+      Role: deep-sea metal precipitation
+
+  ENERGY EXCHANGE DYNAMICS:
+    deep-sea tube worm (Riftia pachyptila)    stress=matter_nonmatter      jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    vent archaea (Methanopyrus)               stress=o2_co2                jetlag=  4.5h  resonance=0.62  [PARTIAL]
+    manganese nodule microbiome               stress=matter_nonmatter      jetlag=  7.5h  resonance=0.38  [PARTIAL]
+
+
+================================================================================
+  GEOLOGICAL NODE: basin
+  Type: sedimentary_basin  |  Biome: desert  |  Stress: o2_co2
+  Location: (32.00, 44.00)  |  Mesopotamian sedimentary basin
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          6
+    mtDNA:                4
+    Ethnic archetypes:    10
+    Biological subjects:  4
+    Cosmic spheres:       3
+    Attractors:           2
+
+  HAPLOGROUPS IN THIS AREA:
+    R1a         Balto-Slavic / Indo-Iranian
+      soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      blood: O, A  rh: Rh+ dominant, Rh- minority
+      dominant stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.85 h=0.70 d=0.60 p=0.55 s=0.50 g=0.65 g=0.60 n=0.45
+    I2          Dinaric / Balkan / Sardinian
+      soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundatio
+      blood: O, A  rh: Rh- elevated Balkan ~16%
+      dominant stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.70 h=0.75 d=0.70 p=0.50 s=0.60 g=0.55 g=0.55 n=0.55
+    J1          Semitic / Arabian / Cohanim
+      soil: Arenosols + Solonchaks — desert sand, saline quark-tension
+      blood: A, O  rh: Rh+ dominant, Rh- ~15% (Jewish)
+      dominant stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.65 h=0.85 d=0.65 p=0.55 s=0.50 g=0.60 g=0.80 n=0.55
+    J2          Mesopotamian / Minoan / Anatolian
+      soil: Fluvisols + Vertisols — alluvial river clay, water-retentive
+      blood: A, B, O  rh: Rh+ dominant, Rh- moderate
+      dominant stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.70 h=0.75 d=0.60 p=0.65 s=0.70 g=0.70 g=0.70 n=0.60
+    G2a         Caucasian / Neolithic Farmer
+      soil: Andosols + Cambisols — volcanic mineral-rich
+      blood: A, O, B  rh: Rh+ dominant, Rh- moderate
+      dominant stress: light_dark  jetlag: 4.5h  resonance: 0.62
+      8D: r=0.55 h=0.80 d=0.75 p=0.40 s=0.60 g=0.55 g=0.70 n=0.50
+    T           Near Eastern / Egyptian / Ethiopian
+      soil: Fluvisols + Arenosols — Nile alluvial + desert sand
+      blood: A, O  rh: Rh+ dominant, Rh- moderate
+      dominant stress: matter_nonmatter  jetlag: 12.0h  resonance: 0.00
+      8D: r=0.65 h=0.70 d=0.60 p=0.55 s=0.65 g=0.65 g=0.65 n=0.55
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (desert):
+    dromedary camel (Camelus dromedarius)
+      type: mammal  element: Na  particle: w_boson
+      stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      role: water conservation, sodium pump
+    date palm (Phoenix dactylifera)
+      type: plant  element: K  particle: photon
+      stress: light_dark  jetlag: 4.5h  resonance: 0.62
+      role: oasis anchor, potassium salt tolerance
+    halophile archaea (Haloquadratum)
+      type: archaea  element: Cl  particle: gluon
+      stress: matter_nonmatter  jetlag: 12.0h  resonance: 0.00
+      role: salt crystallization, chlorine pump analog
+    Arenosol microbiome
+      type: microbiome  element: Si  particle: graviton
+      stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      role: quartz sand, minimal organic buffer
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=4401km
+    Earth       Equator (Earth center)  attractor=Repair  dist=5828km
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=4192km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'sedimentary_basin' creates 'Mesopotamian sedimentary basin'.
+  Sedimentary basins accumulate eroded material from surrounding highlands. The O₂/CO₂ stress pair (h,p) governs the organic carbon burial vs. oxidation. River-fed alluvial soils (fluvisols) sustain agriculture, supporting high population densities.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    R1a (Balto-Slavic / Indo-Iranian):
+      Soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      Dominant stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    I2 (Dinaric / Balkan / Sardinian):
+      Soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundation
+      Dominant stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    J1 (Semitic / Arabian / Cohanim):
+      Soil: Arenosols + Solonchaks — desert sand, saline quark-tension
+      Dominant stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    J2 (Mesopotamian / Minoan / Anatolian):
+      Soil: Fluvisols + Vertisols — alluvial river clay, water-retentive
+      Dominant stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    G2a (Caucasian / Neolithic Farmer):
+      Soil: Andosols + Cambisols — volcanic mineral-rich
+      Dominant stress: light_dark (jetlag=4.5h, resonance=0.62)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → MODERATE RESONANCE: partial sync, oscillating energy exchange.
+    T (Near Eastern / Egyptian / Ethiopian):
+      Soil: Fluvisols + Arenosols — Nile alluvial + desert sand
+      Dominant stress: matter_nonmatter (jetlag=12.0h, resonance=0.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    dromedary camel (Camelus dromedarius) (mammal):
+      Element: Na, Particle: w_boson
+      Stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      Role: water conservation, sodium pump
+    date palm (Phoenix dactylifera) (plant):
+      Element: K, Particle: photon
+      Stress: light_dark (jetlag=4.5h, resonance=0.62)
+      Role: oasis anchor, potassium salt tolerance
+    halophile archaea (Haloquadratum) (archaea):
+      Element: Cl, Particle: gluon
+      Stress: matter_nonmatter (jetlag=12.0h, resonance=0.00)
+      Role: salt crystallization, chlorine pump analog
+    Arenosol microbiome (microbiome):
+      Element: Si, Particle: graviton
+      Stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      Role: quartz sand, minimal organic buffer
+
+  ENERGY EXCHANGE DYNAMICS:
+    R1a                                       stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    I2                                        stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+    J1                                        stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+    J2                                        stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+    G2a                                       stress=light_dark            jetlag=  4.5h  resonance=0.62  [PARTIAL]
+    T                                         stress=matter_nonmatter      jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+    dromedary camel (Camelus dromedarius)     stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    date palm (Phoenix dactylifera)           stress=light_dark            jetlag=  4.5h  resonance=0.62  [PARTIAL]
+    halophile archaea (Haloquadratum)         stress=matter_nonmatter      jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+    Arenosol microbiome                       stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+
+
+================================================================================
+  GEOLOGICAL NODE: monazite
+  Type: rare_earth  |  Biome: rift  |  Stress: light_dark
+  Location: (-22.00, 46.00)  |  Madagascar monazite rare earth deposit
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          0
+    mtDNA:                0
+    Ethnic archetypes:    0
+    Biological subjects:  3
+    Cosmic spheres:       2
+    Attractors:           2
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (rift):
+    gelada baboon (Theropithecus)
+      type: mammal  element: Fe  particle: quark
+      stress: matter_nonmatter  jetlag: 7.5h  resonance: 0.38
+      role: highland primate, iron-rich diet
+    acacia (Vachellia)
+      type: plant  element: N  particle: electron_neutrino
+      stress: o2_co2  jetlag: 4.5h  resonance: 0.62
+      role: nitrogen fixation, rift valley transmitter
+    Nitisol microbiome
+      type: microbiome  element: Fe  particle: quark
+      stress: matter_nonmatter  jetlag: 7.5h  resonance: 0.38
+      role: iron antenna, P+ stored at surface
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=7096km
+    Earth       Equator (Earth center)  attractor=Repair  dist=5549km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'rare_earth' creates 'Madagascar monazite rare earth deposit'.
+  Monazite deposits concentrate rare earth elements through magmatic and sedimentary processes. The light/dark stress pair (gamma,d) governs the radioactive decay (light/energy emission) vs. stable lattice (dark/binding).
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    gelada baboon (Theropithecus) (mammal):
+      Element: Fe, Particle: quark
+      Stress: matter_nonmatter (jetlag=7.5h, resonance=0.38)
+      Role: highland primate, iron-rich diet
+    acacia (Vachellia) (plant):
+      Element: N, Particle: electron_neutrino
+      Stress: o2_co2 (jetlag=4.5h, resonance=0.62)
+      Role: nitrogen fixation, rift valley transmitter
+    Nitisol microbiome (microbiome):
+      Element: Fe, Particle: quark
+      Stress: matter_nonmatter (jetlag=7.5h, resonance=0.38)
+      Role: iron antenna, P+ stored at surface
+
+  ENERGY EXCHANGE DYNAMICS:
+    gelada baboon (Theropithecus)             stress=matter_nonmatter      jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    acacia (Vachellia)                        stress=o2_co2                jetlag=  4.5h  resonance=0.62  [PARTIAL]
+    Nitisol microbiome                        stress=matter_nonmatter      jetlag=  7.5h  resonance=0.38  [PARTIAL]
+
+
+================================================================================
+  GEOLOGICAL NODE: plume
+  Type: mantle_plume  |  Biome: volcanic  |  Stress: heat_cold
+  Location: (64.96, -19.02)  |  Iceland mantle plume hotspot
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          3
+    mtDNA:                2
+    Ethnic archetypes:    4
+    Biological subjects:  3
+    Cosmic spheres:       3
+    Attractors:           2
+
+  HAPLOGROUPS IN THIS AREA:
+    R1b         Celtic / Italic / Germanic
+      soil: Calcisols + Regosols — limestone Z-Boson structural
+      blood: O (highest world O; Basque/Celtic)  rh: Rh- HIGHEST (Basque 30-35%, Irish elevated)
+      dominant stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.80 h=0.65 d=0.55 p=0.60 s=0.65 g=0.70 g=0.50 n=0.60
+    I1          Nordic / Germanic
+      soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      blood: O, A  rh: Rh+ dominant, Rh- ~15-18%
+      dominant stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      8D: r=0.75 h=0.80 d=0.75 p=0.45 s=0.55 g=0.60 g=0.65 n=0.50
+    N1c         Uralo-Finnic / Baltic / Siberian
+      soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      blood: A, O  rh: Rh+ dominant, Rh- moderate (Finnish ~15%)
+      dominant stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      8D: r=0.50 h=0.85 d=0.85 p=0.35 s=0.55 g=0.50 g=0.60 n=0.65
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (volcanic):
+    extremophile archaea (Sulfolobus)
+      type: archaea  element: S  particle: gluon
+      stress: matter_nonmatter  jetlag: 6.0h  resonance: 0.50
+      role: sulfur oxidation, Nrf2 analog
+    volcanic grass (Miscanthus)
+      type: plant  element: P  particle: higgs
+      stress: o2_co2  jetlag: 6.0h  resonance: 0.50
+      role: phosphorus accumulator, pioneer species
+    Andosol microbiome
+      type: microbiome  element: Al  particle: down_quark
+      stress: o2_co2  jetlag: 6.0h  resonance: 0.50
+      role: allophane mineral, phosphorus retention
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=4810km
+    Earth       Equator (Earth center)  attractor=Repair  dist=7385km
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=6350km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'mantle_plume' creates 'Iceland mantle plume hotspot'.
+  Mantle plumes deliver deep heat to the surface, creating hotspots and large igneous provinces. The heat/cold stress pair (nu,r) is directly expressed as the plume's thermal anomaly vs. ambient mantle temperature.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    R1b (Celtic / Italic / Germanic):
+      Soil: Calcisols + Regosols — limestone Z-Boson structural
+      Dominant stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    I1 (Nordic / Germanic):
+      Soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      Dominant stress: light_dark (jetlag=10.5h, resonance=0.12)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    N1c (Uralo-Finnic / Baltic / Siberian):
+      Soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      Dominant stress: light_dark (jetlag=10.5h, resonance=0.12)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    extremophile archaea (Sulfolobus) (archaea):
+      Element: S, Particle: gluon
+      Stress: matter_nonmatter (jetlag=6.0h, resonance=0.50)
+      Role: sulfur oxidation, Nrf2 analog
+    volcanic grass (Miscanthus) (plant):
+      Element: P, Particle: higgs
+      Stress: o2_co2 (jetlag=6.0h, resonance=0.50)
+      Role: phosphorus accumulator, pioneer species
+    Andosol microbiome (microbiome):
+      Element: Al, Particle: down_quark
+      Stress: o2_co2 (jetlag=6.0h, resonance=0.50)
+      Role: allophane mineral, phosphorus retention
+
+  ENERGY EXCHANGE DYNAMICS:
+    R1b                                       stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+    I1                                        stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    N1c                                       stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    extremophile archaea (Sulfolobus)         stress=matter_nonmatter      jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    volcanic grass (Miscanthus)               stress=o2_co2                jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    Andosol microbiome                        stress=o2_co2                jetlag=  6.0h  resonance=0.50  [PARTIAL]
+
+
+================================================================================
+  GEOLOGICAL NODE: large_igneous_province
+  Type: LIP  |  Biome: boreal  |  Stress: matter_nonmatter
+  Location: (66.00, 95.00)  |  Siberian Traps LIP
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          1
+    mtDNA:                0
+    Ethnic archetypes:    1
+    Biological subjects:  4
+    Cosmic spheres:       1
+    Attractors:           0
+
+  HAPLOGROUPS IN THIS AREA:
+    C           Mongolic / Turkic / Na-Dene
+      soil: Kastanozems + Cryosols — steppe chestnut, permafrost lock
+      blood: O, B, A  rh: Rh+ dominant, Rh- very rare
+      dominant stress: o2_co2  jetlag: 12.0h  resonance: 0.00
+      8D: r=0.85 h=0.65 d=0.50 p=0.70 s=0.75 g=0.65 g=0.60 n=0.50
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (boreal):
+    reindeer (Rangifer tarandus)
+      type: mammal  element: Fe  particle: muon
+      stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      role: migratory anchor, iron-blood cold adaptation
+    Siberian larch (Larix sibirica)
+      type: plant  element: C  particle: photon
+      stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      role: deciduous conifer, seasonal light gate
+    mycorrhizal fungi (Suillus)
+      type: fungi  element: N  particle: electron_neutrino
+      stress: matter_nonmatter  jetlag: 0.0h  resonance: 1.00
+      role: soil binding, nitrogen fixation proxy
+    podzol soil microbiome
+      type: microbiome  element: Si  particle: graviton
+      stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      role: acidic leach, slow decomposition
+
+  COSMIC SPHERE INFLUENCE:
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=2354km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'LIP' creates 'Siberian Traps LIP'.
+  Large igneous provinces form from massive flood basalt eruptions, often correlated with mass extinctions. The matter/non-matter stress pair (s,g) governs the mass eruption vs. atmospheric gas binding (CO₂/SO₂).
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    C (Mongolic / Turkic / Na-Dene):
+      Soil: Kastanozems + Cryosols — steppe chestnut, permafrost lock
+      Dominant stress: o2_co2 (jetlag=12.0h, resonance=0.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    reindeer (Rangifer tarandus) (mammal):
+      Element: Fe, Particle: muon
+      Stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      Role: migratory anchor, iron-blood cold adaptation
+    Siberian larch (Larix sibirica) (plant):
+      Element: C, Particle: photon
+      Stress: light_dark (jetlag=7.5h, resonance=0.38)
+      Role: deciduous conifer, seasonal light gate
+    mycorrhizal fungi (Suillus) (fungi):
+      Element: N, Particle: electron_neutrino
+      Stress: matter_nonmatter (jetlag=0.0h, resonance=1.00)
+      Role: soil binding, nitrogen fixation proxy
+    podzol soil microbiome (microbiome):
+      Element: Si, Particle: graviton
+      Stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      Role: acidic leach, slow decomposition
+
+  ENERGY EXCHANGE DYNAMICS:
+    C                                         stress=o2_co2                jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+    reindeer (Rangifer tarandus)              stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    Siberian larch (Larix sibirica)           stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    mycorrhizal fungi (Suillus)               stress=matter_nonmatter      jetlag=  0.0h  resonance=1.00  [SYNC]
+    podzol soil microbiome                    stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+
+
+================================================================================
+  GEOLOGICAL NODE: manganese_nodule
+  Type: deep_sea_nodule  |  Biome: pelagic  |  Stress: matter_nonmatter
+  Location: (15.00, -150.00)  |  Pacific deep-sea manganese nodules (Clarion-Clipperton)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          0
+    mtDNA:                0
+    Ethnic archetypes:    0
+    Biological subjects:  3
+    Cosmic spheres:       1
+    Attractors:           0
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (pelagic):
+    blue whale (Balaenoptera musculus)
+      type: mammal  element: Fe  particle: quark
+      stress: matter_nonmatter  jetlag: 0.0h  resonance: 1.00
+      role: largest organism, iron ocean fertilization
+    diatom (Thalassiosira)
+      type: algae  element: Si  particle: graviton
+      stress: o2_co2  jetlag: 12.0h  resonance: 0.00
+      role: silica frustule, ocean carbon pump
+    Prochlorococcus
+      type: cyanobacteria  element: O  particle: photon
+      stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      role: most abundant photosynthesizer, O2 production
+
+  COSMIC SPHERE INFLUENCE:
+    Moon        Tropic of Capricorn (lunar antipode)  attractor=Time  dist=5382km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'deep_sea_nodule' creates 'Pacific deep-sea manganese nodules (Clarion-Clipperton)'.
+  Manganese nodules grow at ~1mm per million years on the deep seafloor. The matter/non-matter stress pair (s,g) governs the slow metal accretion vs. seawater dissolution balance.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    blue whale (Balaenoptera musculus) (mammal):
+      Element: Fe, Particle: quark
+      Stress: matter_nonmatter (jetlag=0.0h, resonance=1.00)
+      Role: largest organism, iron ocean fertilization
+    diatom (Thalassiosira) (algae):
+      Element: Si, Particle: graviton
+      Stress: o2_co2 (jetlag=12.0h, resonance=0.00)
+      Role: silica frustule, ocean carbon pump
+    Prochlorococcus (cyanobacteria):
+      Element: O, Particle: photon
+      Stress: light_dark (jetlag=7.5h, resonance=0.38)
+      Role: most abundant photosynthesizer, O2 production
+
+  ENERGY EXCHANGE DYNAMICS:
+    blue whale (Balaenoptera musculus)        stress=matter_nonmatter      jetlag=  0.0h  resonance=1.00  [SYNC]
+    diatom (Thalassiosira)                    stress=o2_co2                jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+    Prochlorococcus                           stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+
+
+================================================================================
+  GEOLOGICAL NODE: gluon_orogen
+  Type: orogenic_core  |  Biome: mountain  |  Stress: matter_nonmatter
+  Location: (30.00, 81.00)  |  Himalayan orogen (gluon coupling)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          3
+    mtDNA:                1
+    Ethnic archetypes:    3
+    Biological subjects:  3
+    Cosmic spheres:       1
+    Attractors:           0
+
+  HAPLOGROUPS IN THIS AREA:
+    D           Tibetan / Ainu / Andamanese
+      soil: Andosols (Japan volcanic) + Cryosols (Tibet) + Gelisols
+      blood: A, O, B  rh: Rh+ dominant, Rh- rare
+      dominant stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      8D: r=0.50 h=0.90 d=0.85 p=0.35 s=0.60 g=0.50 g=0.55 n=0.75
+    L           S.Asian / Dravidian / Indian
+      soil: Vertisols + Nitisols — black cotton soil, tropical iron-rich
+      blood: B, O, A  rh: Rh+ dominant, Rh- rare
+      dominant stress: matter_nonmatter  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.60 h=0.75 d=0.70 p=0.50 s=0.60 g=0.65 g=0.75 n=0.60
+    H           Indian tribal / Romani / Dravidian
+      soil: Acrisols + Ferralsols — tropical deeply weathered
+      blood: O, B, A  rh: Rh+ dominant, Rh- rare
+      dominant stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.75 h=0.60 d=0.55 p=0.65 s=0.65 g=0.70 g=0.60 n=0.55
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (mountain):
+    snow leopard (Panthera uncia)
+      type: mammal  element: Mg  particle: muon
+      stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      role: apex predator, altitude hypoxia adaptation
+    rhododendron (Rhododendron)
+      type: plant  element: B  particle: graviton
+      stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      role: MC1R analog, UV tolerance
+    Leptosol microbiome
+      type: microbiome  element: Mn  particle: muon_antineutrino
+      stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      role: skeletal soil, direct Z-boson foundation
+
+  COSMIC SPHERE INFLUENCE:
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=1844km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'orogenic_core' creates 'Himalayan orogen (gluon coupling)'.
+  Orogenic cores represent the deep root of mountain belts where crustal thickening creates granitic magmas. The matter/non-matter stress pair (s,g) governs the mass accumulation vs. partial melting.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    D (Tibetan / Ainu / Andamanese):
+      Soil: Andosols (Japan volcanic) + Cryosols (Tibet) + Gelisols
+      Dominant stress: light_dark (jetlag=7.5h, resonance=0.38)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    L (S.Asian / Dravidian / Indian):
+      Soil: Vertisols + Nitisols — black cotton soil, tropical iron-rich
+      Dominant stress: matter_nonmatter (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    H (Indian tribal / Romani / Dravidian):
+      Soil: Acrisols + Ferralsols — tropical deeply weathered
+      Dominant stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    snow leopard (Panthera uncia) (mammal):
+      Element: Mg, Particle: muon
+      Stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      Role: apex predator, altitude hypoxia adaptation
+    rhododendron (Rhododendron) (plant):
+      Element: B, Particle: graviton
+      Stress: light_dark (jetlag=7.5h, resonance=0.38)
+      Role: MC1R analog, UV tolerance
+    Leptosol microbiome (microbiome):
+      Element: Mn, Particle: muon_antineutrino
+      Stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      Role: skeletal soil, direct Z-boson foundation
+
+  ENERGY EXCHANGE DYNAMICS:
+    D                                         stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    L                                         stress=matter_nonmatter      jetlag=  0.0h  resonance=1.00  [SYNC]
+    H                                         stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    snow leopard (Panthera uncia)             stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    rhododendron (Rhododendron)               stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    Leptosol microbiome                       stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+
+
+================================================================================
+  GEOLOGICAL NODE: outer_core_convection
+  Type: deep_earth  |  Biome: pelagic  |  Stress: heat_cold
+  Location: (0.00, 0.00)  |  Core-mantle boundary (global, equatorial)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          1
+    mtDNA:                1
+    Ethnic archetypes:    2
+    Biological subjects:  3
+    Cosmic spheres:       2
+    Attractors:           2
+
+  HAPLOGROUPS IN THIS AREA:
+    E1b1a       Sub-Saharan / Bantu / W.African
+      soil: Ferralsols + Plinthosols — iron oxide, tropical deep weather
+      blood: O (very high), A  rh: Rh+ dominant, Rh- very rare
+      dominant stress: o2_co2  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.90 h=0.55 d=0.45 p=0.75 s=0.60 g=0.60 g=0.65 n=0.40
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (pelagic):
+    blue whale (Balaenoptera musculus)
+      type: mammal  element: Fe  particle: quark
+      stress: matter_nonmatter  jetlag: 6.0h  resonance: 0.50
+      role: largest organism, iron ocean fertilization
+    diatom (Thalassiosira)
+      type: algae  element: Si  particle: graviton
+      stress: o2_co2  jetlag: 6.0h  resonance: 0.50
+      role: silica frustule, ocean carbon pump
+    Prochlorococcus
+      type: cyanobacteria  element: O  particle: photon
+      stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      role: most abundant photosynthesizer, O2 production
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=2613km
+    Earth       Equator (Earth center)  attractor=Repair  dist=0km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'deep_earth' creates 'Core-mantle boundary (global, equatorial)'.
+  Core-mantle boundary convection drives plate tectonics. The heat/cold stress pair (nu,r) is the fundamental engine — hot core vs. cold surface.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    E1b1a (Sub-Saharan / Bantu / W.African):
+      Soil: Ferralsols + Plinthosols — iron oxide, tropical deep weathering
+      Dominant stress: o2_co2 (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    blue whale (Balaenoptera musculus) (mammal):
+      Element: Fe, Particle: quark
+      Stress: matter_nonmatter (jetlag=6.0h, resonance=0.50)
+      Role: largest organism, iron ocean fertilization
+    diatom (Thalassiosira) (algae):
+      Element: Si, Particle: graviton
+      Stress: o2_co2 (jetlag=6.0h, resonance=0.50)
+      Role: silica frustule, ocean carbon pump
+    Prochlorococcus (cyanobacteria):
+      Element: O, Particle: photon
+      Stress: light_dark (jetlag=10.5h, resonance=0.12)
+      Role: most abundant photosynthesizer, O2 production
+
+  ENERGY EXCHANGE DYNAMICS:
+    E1b1a                                     stress=o2_co2                jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    blue whale (Balaenoptera musculus)        stress=matter_nonmatter      jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    diatom (Thalassiosira)                    stress=o2_co2                jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    Prochlorococcus                           stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+
+
+================================================================================
+  GEOLOGICAL NODE: lower_mantle
+  Type: deep_mantle  |  Biome: pelagic  |  Stress: matter_nonmatter
+  Location: (-10.00, 160.00)  |  Pacific LLSVP (large low-shear-velocity province)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          0
+    mtDNA:                0
+    Ethnic archetypes:    0
+    Biological subjects:  3
+    Cosmic spheres:       1
+    Attractors:           0
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (pelagic):
+    blue whale (Balaenoptera musculus)
+      type: mammal  element: Fe  particle: quark
+      stress: matter_nonmatter  jetlag: 0.0h  resonance: 1.00
+      role: largest organism, iron ocean fertilization
+    diatom (Thalassiosira)
+      type: algae  element: Si  particle: graviton
+      stress: o2_co2  jetlag: 12.0h  resonance: 0.00
+      role: silica frustule, ocean carbon pump
+    Prochlorococcus
+      type: cyanobacteria  element: O  particle: photon
+      stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      role: most abundant photosynthesizer, O2 production
+
+  COSMIC SPHERE INFLUENCE:
+    Moon        Tropic of Capricorn (lunar antipode)  attractor=Time  dist=2600km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'deep_mantle' creates 'Pacific LLSVP (large low-shear-velocity province)'.
+  LLSVPs are thermochemical piles at the base of the mantle. The matter/non-matter stress pair (s,g) governs the dense material accumulation vs. convective stirring.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    blue whale (Balaenoptera musculus) (mammal):
+      Element: Fe, Particle: quark
+      Stress: matter_nonmatter (jetlag=0.0h, resonance=1.00)
+      Role: largest organism, iron ocean fertilization
+    diatom (Thalassiosira) (algae):
+      Element: Si, Particle: graviton
+      Stress: o2_co2 (jetlag=12.0h, resonance=0.00)
+      Role: silica frustule, ocean carbon pump
+    Prochlorococcus (cyanobacteria):
+      Element: O, Particle: photon
+      Stress: light_dark (jetlag=7.5h, resonance=0.38)
+      Role: most abundant photosynthesizer, O2 production
+
+  ENERGY EXCHANGE DYNAMICS:
+    blue whale (Balaenoptera musculus)        stress=matter_nonmatter      jetlag=  0.0h  resonance=1.00  [SYNC]
+    diatom (Thalassiosira)                    stress=o2_co2                jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+    Prochlorococcus                           stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+
+
+================================================================================
+  GEOLOGICAL NODE: oxidised_manganese
+  Type: manganese_oxide  |  Biome: rift  |  Stress: o2_co2
+  Location: (-23.00, 30.00)  |  Kalahari manganese field (S.Africa)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          0
+    mtDNA:                0
+    Ethnic archetypes:    1
+    Biological subjects:  3
+    Cosmic spheres:       2
+    Attractors:           2
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (rift):
+    gelada baboon (Theropithecus)
+      type: mammal  element: Fe  particle: quark
+      stress: matter_nonmatter  jetlag: 12.0h  resonance: 0.00
+      role: highland primate, iron-rich diet
+    acacia (Vachellia)
+      type: plant  element: N  particle: electron_neutrino
+      stress: o2_co2  jetlag: 0.0h  resonance: 1.00
+      role: nitrogen fixation, rift valley transmitter
+    Nitisol microbiome
+      type: microbiome  element: Fe  particle: quark
+      stress: matter_nonmatter  jetlag: 12.0h  resonance: 0.00
+      role: iron antenna, P+ stored at surface
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=6103km
+    Earth       Equator (Earth center)  attractor=Repair  dist=4130km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'manganese_oxide' creates 'Kalahari manganese field (S.Africa)'.
+  Manganese oxide deposits form in arid environments through evaporation. The O₂/CO₂ stress pair (h,p) governs the redox cycling of Mn²⁺/Mn⁴⁺.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    gelada baboon (Theropithecus) (mammal):
+      Element: Fe, Particle: quark
+      Stress: matter_nonmatter (jetlag=12.0h, resonance=0.00)
+      Role: highland primate, iron-rich diet
+    acacia (Vachellia) (plant):
+      Element: N, Particle: electron_neutrino
+      Stress: o2_co2 (jetlag=0.0h, resonance=1.00)
+      Role: nitrogen fixation, rift valley transmitter
+    Nitisol microbiome (microbiome):
+      Element: Fe, Particle: quark
+      Stress: matter_nonmatter (jetlag=12.0h, resonance=0.00)
+      Role: iron antenna, P+ stored at surface
+
+  ENERGY EXCHANGE DYNAMICS:
+    gelada baboon (Theropithecus)             stress=matter_nonmatter      jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+    acacia (Vachellia)                        stress=o2_co2                jetlag=  0.0h  resonance=1.00  [SYNC]
+    Nitisol microbiome                        stress=matter_nonmatter      jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+
+
+================================================================================
+  GEOLOGICAL NODE: magnetite
+  Type: iron_oxide  |  Biome: temperate  |  Stress: light_dark
+  Location: (-32.00, 116.00)  |  Western Australia magnetite deposit
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          0
+    mtDNA:                0
+    Ethnic archetypes:    0
+    Biological subjects:  3
+    Cosmic spheres:       1
+    Attractors:           0
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (temperate):
+    red fox (Vulpes vulpes)
+      type: mammal  element: Cu  particle: muon_neutrino
+      stress: light_dark  jetlag: 0.0h  resonance: 1.00
+      role: adaptable predator, copper metabolism
+    oak (Quercus robur)
+      type: plant  element: C  particle: photon
+      stress: light_dark  jetlag: 0.0h  resonance: 1.00
+      role: keystone tree, tannin binding
+    Cambisol microbiome
+      type: microbiome  element: Si  particle: graviton
+      stress: o2_co2  jetlag: 4.5h  resonance: 0.62
+      role: moderate weathering, balanced nutrient cycling
+
+  COSMIC SPHERE INFLUENCE:
+    Moon        Tropic of Capricorn (lunar antipode)  attractor=Time  dist=6280km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'iron_oxide' creates 'Western Australia magnetite deposit'.
+  Magnetite deposits form through magmatic and hydrothermal processes. The light/dark stress pair (gamma,d) governs the Fe²⁺/Fe³⁺ redox — magnetite contains both, making it a 'light/dark' mineral.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    red fox (Vulpes vulpes) (mammal):
+      Element: Cu, Particle: muon_neutrino
+      Stress: light_dark (jetlag=0.0h, resonance=1.00)
+      Role: adaptable predator, copper metabolism
+    oak (Quercus robur) (plant):
+      Element: C, Particle: photon
+      Stress: light_dark (jetlag=0.0h, resonance=1.00)
+      Role: keystone tree, tannin binding
+    Cambisol microbiome (microbiome):
+      Element: Si, Particle: graviton
+      Stress: o2_co2 (jetlag=4.5h, resonance=0.62)
+      Role: moderate weathering, balanced nutrient cycling
+
+  ENERGY EXCHANGE DYNAMICS:
+    red fox (Vulpes vulpes)                   stress=light_dark            jetlag=  0.0h  resonance=1.00  [SYNC]
+    oak (Quercus robur)                       stress=light_dark            jetlag=  0.0h  resonance=1.00  [SYNC]
+    Cambisol microbiome                       stress=o2_co2                jetlag=  4.5h  resonance=0.62  [PARTIAL]
+
+
+================================================================================
+  GEOLOGICAL NODE: thorium
+  Type: radioactive  |  Biome: desert  |  Stress: light_dark
+  Location: (25.00, 73.00)  |  Rajasthan thorium deposit (India)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          3
+    mtDNA:                1
+    Ethnic archetypes:    3
+    Biological subjects:  4
+    Cosmic spheres:       2
+    Attractors:           1
+
+  HAPLOGROUPS IN THIS AREA:
+    D           Tibetan / Ainu / Andamanese
+      soil: Andosols (Japan volcanic) + Cryosols (Tibet) + Gelisols
+      blood: A, O, B  rh: Rh+ dominant, Rh- rare
+      dominant stress: light_dark  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.50 h=0.90 d=0.85 p=0.35 s=0.60 g=0.50 g=0.55 n=0.75
+    L           S.Asian / Dravidian / Indian
+      soil: Vertisols + Nitisols — black cotton soil, tropical iron-rich
+      blood: B, O, A  rh: Rh+ dominant, Rh- rare
+      dominant stress: matter_nonmatter  jetlag: 7.5h  resonance: 0.38
+      8D: r=0.60 h=0.75 d=0.70 p=0.50 s=0.60 g=0.65 g=0.75 n=0.60
+    H           Indian tribal / Romani / Dravidian
+      soil: Acrisols + Ferralsols — tropical deeply weathered
+      blood: O, B, A  rh: Rh+ dominant, Rh- rare
+      dominant stress: heat_cold  jetlag: 10.5h  resonance: 0.12
+      8D: r=0.75 h=0.60 d=0.55 p=0.65 s=0.65 g=0.70 g=0.60 n=0.55
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (desert):
+    dromedary camel (Camelus dromedarius)
+      type: mammal  element: Na  particle: w_boson
+      stress: heat_cold  jetlag: 10.5h  resonance: 0.12
+      role: water conservation, sodium pump
+    date palm (Phoenix dactylifera)
+      type: plant  element: K  particle: photon
+      stress: light_dark  jetlag: 0.0h  resonance: 1.00
+      role: oasis anchor, potassium salt tolerance
+    halophile archaea (Haloquadratum)
+      type: archaea  element: Cl  particle: gluon
+      stress: matter_nonmatter  jetlag: 7.5h  resonance: 0.38
+      role: salt crystallization, chlorine pump analog
+    Arenosol microbiome
+      type: microbiome  element: Si  particle: graviton
+      stress: o2_co2  jetlag: 4.5h  resonance: 0.62
+      role: quartz sand, minimal organic buffer
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=7306km
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=2698km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'radioactive' creates 'Rajasthan thorium deposit (India)'.
+  Thorium deposits concentrate in monazite sands. The light/dark stress pair (gamma,d) governs the radioactive decay (gamma emission) vs. stable crystal lattice (dark binding).
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    D (Tibetan / Ainu / Andamanese):
+      Soil: Andosols (Japan volcanic) + Cryosols (Tibet) + Gelisols
+      Dominant stress: light_dark (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    L (S.Asian / Dravidian / Indian):
+      Soil: Vertisols + Nitisols — black cotton soil, tropical iron-rich
+      Dominant stress: matter_nonmatter (jetlag=7.5h, resonance=0.38)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    H (Indian tribal / Romani / Dravidian):
+      Soil: Acrisols + Ferralsols — tropical deeply weathered
+      Dominant stress: heat_cold (jetlag=10.5h, resonance=0.12)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    dromedary camel (Camelus dromedarius) (mammal):
+      Element: Na, Particle: w_boson
+      Stress: heat_cold (jetlag=10.5h, resonance=0.12)
+      Role: water conservation, sodium pump
+    date palm (Phoenix dactylifera) (plant):
+      Element: K, Particle: photon
+      Stress: light_dark (jetlag=0.0h, resonance=1.00)
+      Role: oasis anchor, potassium salt tolerance
+    halophile archaea (Haloquadratum) (archaea):
+      Element: Cl, Particle: gluon
+      Stress: matter_nonmatter (jetlag=7.5h, resonance=0.38)
+      Role: salt crystallization, chlorine pump analog
+    Arenosol microbiome (microbiome):
+      Element: Si, Particle: graviton
+      Stress: o2_co2 (jetlag=4.5h, resonance=0.62)
+      Role: quartz sand, minimal organic buffer
+
+  ENERGY EXCHANGE DYNAMICS:
+    D                                         stress=light_dark            jetlag=  0.0h  resonance=1.00  [SYNC]
+    L                                         stress=matter_nonmatter      jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    H                                         stress=heat_cold             jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    dromedary camel (Camelus dromedarius)     stress=heat_cold             jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    date palm (Phoenix dactylifera)           stress=light_dark            jetlag=  0.0h  resonance=1.00  [SYNC]
+    halophile archaea (Haloquadratum)         stress=matter_nonmatter      jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    Arenosol microbiome                       stress=o2_co2                jetlag=  4.5h  resonance=0.62  [PARTIAL]
+
+
+================================================================================
+  GEOLOGICAL NODE: quark_orogen_magma
+  Type: arc_magma  |  Biome: volcanic  |  Stress: heat_cold
+  Location: (-6.00, 105.00)  |  Sunda arc partial melt (Indonesia)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          0
+    mtDNA:                0
+    Ethnic archetypes:    1
+    Biological subjects:  3
+    Cosmic spheres:       1
+    Attractors:           0
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (volcanic):
+    extremophile archaea (Sulfolobus)
+      type: archaea  element: S  particle: gluon
+      stress: matter_nonmatter  jetlag: 6.0h  resonance: 0.50
+      role: sulfur oxidation, Nrf2 analog
+    volcanic grass (Miscanthus)
+      type: plant  element: P  particle: higgs
+      stress: o2_co2  jetlag: 6.0h  resonance: 0.50
+      role: phosphorus accumulator, pioneer species
+    Andosol microbiome
+      type: microbiome  element: Al  particle: down_quark
+      stress: o2_co2  jetlag: 6.0h  resonance: 0.50
+      role: allophane mineral, phosphorus retention
+
+  COSMIC SPHERE INFLUENCE:
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=5865km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'arc_magma' creates 'Sunda arc partial melt (Indonesia)'.
+  Arc magmas form above subduction zones through flux melting. The heat/cold stress pair (nu,r) governs the thermal budget — cold subducting slab releases fluids that melt hot mantle wedge.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    extremophile archaea (Sulfolobus) (archaea):
+      Element: S, Particle: gluon
+      Stress: matter_nonmatter (jetlag=6.0h, resonance=0.50)
+      Role: sulfur oxidation, Nrf2 analog
+    volcanic grass (Miscanthus) (plant):
+      Element: P, Particle: higgs
+      Stress: o2_co2 (jetlag=6.0h, resonance=0.50)
+      Role: phosphorus accumulator, pioneer species
+    Andosol microbiome (microbiome):
+      Element: Al, Particle: down_quark
+      Stress: o2_co2 (jetlag=6.0h, resonance=0.50)
+      Role: allophane mineral, phosphorus retention
+
+  ENERGY EXCHANGE DYNAMICS:
+    extremophile archaea (Sulfolobus)         stress=matter_nonmatter      jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    volcanic grass (Miscanthus)               stress=o2_co2                jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    Andosol microbiome                        stress=o2_co2                jetlag=  6.0h  resonance=0.50  [PARTIAL]
+
+
+================================================================================
+  GEOLOGICAL NODE: succinate_dehydrogenase
+  Type: metabolic_reference  |  Biome: temperate  |  Stress: heat_cold
+  Location: (42.00, 14.00)  |  Mediterranean metabolic hub (Italy)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          7
+    mtDNA:                7
+    Ethnic archetypes:    15
+    Biological subjects:  3
+    Cosmic spheres:       3
+    Attractors:           2
+
+  HAPLOGROUPS IN THIS AREA:
+    R1a         Balto-Slavic / Indo-Iranian
+      soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      blood: O, A  rh: Rh+ dominant, Rh- minority
+      dominant stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.85 h=0.70 d=0.60 p=0.55 s=0.50 g=0.65 g=0.60 n=0.45
+    R1b         Celtic / Italic / Germanic
+      soil: Calcisols + Regosols — limestone Z-Boson structural
+      blood: O (highest world O; Basque/Celtic)  rh: Rh- HIGHEST (Basque 30-35%, Irish elevated)
+      dominant stress: heat_cold  jetlag: 0.0h  resonance: 1.00
+      8D: r=0.80 h=0.65 d=0.55 p=0.60 s=0.65 g=0.70 g=0.50 n=0.60
+    I1          Nordic / Germanic
+      soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      blood: O, A  rh: Rh+ dominant, Rh- ~15-18%
+      dominant stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      8D: r=0.75 h=0.80 d=0.75 p=0.45 s=0.55 g=0.60 g=0.65 n=0.50
+    I2          Dinaric / Balkan / Sardinian
+      soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundatio
+      blood: O, A  rh: Rh- elevated Balkan ~16%
+      dominant stress: o2_co2  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.70 h=0.75 d=0.70 p=0.50 s=0.60 g=0.55 g=0.55 n=0.55
+    J2          Mesopotamian / Minoan / Anatolian
+      soil: Fluvisols + Vertisols — alluvial river clay, water-retentive
+      blood: A, B, O  rh: Rh+ dominant, Rh- moderate
+      dominant stress: o2_co2  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.70 h=0.75 d=0.60 p=0.65 s=0.70 g=0.70 g=0.70 n=0.60
+    N1c         Uralo-Finnic / Baltic / Siberian
+      soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      blood: A, O  rh: Rh+ dominant, Rh- moderate (Finnish ~15%)
+      dominant stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      8D: r=0.50 h=0.85 d=0.85 p=0.35 s=0.55 g=0.50 g=0.60 n=0.65
+    T           Near Eastern / Egyptian / Ethiopian
+      soil: Fluvisols + Arenosols — Nile alluvial + desert sand
+      blood: A, O  rh: Rh+ dominant, Rh- moderate
+      dominant stress: matter_nonmatter  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.65 h=0.70 d=0.60 p=0.55 s=0.65 g=0.65 g=0.65 n=0.55
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (temperate):
+    red fox (Vulpes vulpes)
+      type: mammal  element: Cu  particle: muon_neutrino
+      stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      role: adaptable predator, copper metabolism
+    oak (Quercus robur)
+      type: plant  element: C  particle: photon
+      stress: light_dark  jetlag: 10.5h  resonance: 0.12
+      role: keystone tree, tannin binding
+    Cambisol microbiome
+      type: microbiome  element: Si  particle: graviton
+      stress: o2_co2  jetlag: 6.0h  resonance: 0.50
+      role: moderate weathering, balanced nutrient cycling
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=2431km
+    Earth       Equator (Earth center)  attractor=Repair  dist=4877km
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=5906km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'metabolic_reference' creates 'Mediterranean metabolic hub (Italy)'.
+  Succinate dehydrogenase is the metabolic hub connecting TCA cycle to ETC. Its geological projection represents the Mediterranean — the crossroads of three continents where metabolic diversity is maximal.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    R1a (Balto-Slavic / Indo-Iranian):
+      Soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      Dominant stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    R1b (Celtic / Italic / Germanic):
+      Soil: Calcisols + Regosols — limestone Z-Boson structural
+      Dominant stress: heat_cold (jetlag=0.0h, resonance=1.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → HIGH RESONANCE: haplogroup is in circadian sync with geological node.
+    I1 (Nordic / Germanic):
+      Soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      Dominant stress: light_dark (jetlag=10.5h, resonance=0.12)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    I2 (Dinaric / Balkan / Sardinian):
+      Soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundation
+      Dominant stress: o2_co2 (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    J2 (Mesopotamian / Minoan / Anatolian):
+      Soil: Fluvisols + Vertisols — alluvial river clay, water-retentive
+      Dominant stress: o2_co2 (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    N1c (Uralo-Finnic / Baltic / Siberian):
+      Soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      Dominant stress: light_dark (jetlag=10.5h, resonance=0.12)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    T (Near Eastern / Egyptian / Ethiopian):
+      Soil: Fluvisols + Arenosols — Nile alluvial + desert sand
+      Dominant stress: matter_nonmatter (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    red fox (Vulpes vulpes) (mammal):
+      Element: Cu, Particle: muon_neutrino
+      Stress: light_dark (jetlag=10.5h, resonance=0.12)
+      Role: adaptable predator, copper metabolism
+    oak (Quercus robur) (plant):
+      Element: C, Particle: photon
+      Stress: light_dark (jetlag=10.5h, resonance=0.12)
+      Role: keystone tree, tannin binding
+    Cambisol microbiome (microbiome):
+      Element: Si, Particle: graviton
+      Stress: o2_co2 (jetlag=6.0h, resonance=0.50)
+      Role: moderate weathering, balanced nutrient cycling
+
+  ENERGY EXCHANGE DYNAMICS:
+    R1a                                       stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+    R1b                                       stress=heat_cold             jetlag=  0.0h  resonance=1.00  [SYNC]
+    I1                                        stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    I2                                        stress=o2_co2                jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    J2                                        stress=o2_co2                jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    N1c                                       stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    T                                         stress=matter_nonmatter      jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    red fox (Vulpes vulpes)                   stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    oak (Quercus robur)                       stress=light_dark            jetlag= 10.5h  resonance=0.12  [ANTI-PHASE]
+    Cambisol microbiome                       stress=o2_co2                jetlag=  6.0h  resonance=0.50  [PARTIAL]
+
+
+================================================================================
+  GEOLOGICAL NODE: ferritin
+  Type: iron_storage  |  Biome: temperate  |  Stress: matter_nonmatter
+  Location: (51.50, -0.13)  |  Iron storage reference (London)
+================================================================================
+
+  CO-LOCATED SUBJECTS:
+    Haplogroups:          5
+    mtDNA:                3
+    Ethnic archetypes:    11
+    Biological subjects:  3
+    Cosmic spheres:       3
+    Attractors:           2
+
+  HAPLOGROUPS IN THIS AREA:
+    R1a         Balto-Slavic / Indo-Iranian
+      soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      blood: O, A  rh: Rh+ dominant, Rh- minority
+      dominant stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.85 h=0.70 d=0.60 p=0.55 s=0.50 g=0.65 g=0.60 n=0.45
+    R1b         Celtic / Italic / Germanic
+      soil: Calcisols + Regosols — limestone Z-Boson structural
+      blood: O (highest world O; Basque/Celtic)  rh: Rh- HIGHEST (Basque 30-35%, Irish elevated)
+      dominant stress: heat_cold  jetlag: 6.0h  resonance: 0.50
+      8D: r=0.80 h=0.65 d=0.55 p=0.60 s=0.65 g=0.70 g=0.50 n=0.60
+    I1          Nordic / Germanic
+      soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      blood: O, A  rh: Rh+ dominant, Rh- ~15-18%
+      dominant stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      8D: r=0.75 h=0.80 d=0.75 p=0.45 s=0.55 g=0.60 g=0.65 n=0.50
+    I2          Dinaric / Balkan / Sardinian
+      soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundatio
+      blood: O, A  rh: Rh- elevated Balkan ~16%
+      dominant stress: o2_co2  jetlag: 12.0h  resonance: 0.00
+      8D: r=0.70 h=0.75 d=0.70 p=0.50 s=0.60 g=0.55 g=0.55 n=0.55
+    N1c         Uralo-Finnic / Baltic / Siberian
+      soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      blood: A, O  rh: Rh+ dominant, Rh- moderate (Finnish ~15%)
+      dominant stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      8D: r=0.50 h=0.85 d=0.85 p=0.35 s=0.55 g=0.50 g=0.60 n=0.65
+
+  BIOLOGICAL SUBJECTS IN THIS BIOME (temperate):
+    red fox (Vulpes vulpes)
+      type: mammal  element: Cu  particle: muon_neutrino
+      stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      role: adaptable predator, copper metabolism
+    oak (Quercus robur)
+      type: plant  element: C  particle: photon
+      stress: light_dark  jetlag: 7.5h  resonance: 0.38
+      role: keystone tree, tannin binding
+    Cambisol microbiome
+      type: microbiome  element: Si  particle: graviton
+      stress: o2_co2  jetlag: 12.0h  resonance: 0.00
+      role: moderate weathering, balanced nutrient cycling
+
+  COSMIC SPHERE INFLUENCE:
+    Sun         Tropic of Cancer (solar zenith)  attractor=Information  dist=3114km
+    Earth       Equator (Earth center)  attractor=Repair  dist=5727km
+    CoMag       Coma Berenices projection (N.Asia)  attractor=Bridge  dist=6279km
+
+  HISTORICAL EXPLANATION:
+  The geological process 'iron_storage' creates 'Iron storage reference (London)'.
+  Ferritin is the iron storage protein. Its geological projection represents iron storage deposits — the link between biological iron metabolism and geological iron formations.
+
+  WHY THESE HAPLOGROUPS ARE HERE:
+    R1a (Balto-Slavic / Indo-Iranian):
+      Soil: Chernozem (Mollisols) — Gluon-Quark homeostasis
+      Dominant stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    R1b (Celtic / Italic / Germanic):
+      Soil: Calcisols + Regosols — limestone Z-Boson structural
+      Dominant stress: heat_cold (jetlag=6.0h, resonance=0.50)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    I1 (Nordic / Germanic):
+      Soil: Podzols (Spodosols) — neutrino fast-leach acidic
+      Dominant stress: light_dark (jetlag=7.5h, resonance=0.38)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    I2 (Dinaric / Balkan / Sardinian):
+      Soil: Leptosols + Cambisols — mountain skeletal, Z-Boson foundation
+      Dominant stress: o2_co2 (jetlag=12.0h, resonance=0.00)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+    N1c (Uralo-Finnic / Baltic / Siberian):
+      Soil: Podzols + Gleysols — acidic waterlogged, nu-leach + h-cold
+      Dominant stress: light_dark (jetlag=7.5h, resonance=0.38)
+      The soil type matches the geological substrate. The haplogroup's 8D vector
+      evolved to resonate with the stress pair that created this soil.
+      → LOW RESONANCE: anti-phase, stress-driven adaptation rather than harmony.
+
+  WHY THESE BIOLOGICAL SUBJECTS ARE HERE:
+    red fox (Vulpes vulpes) (mammal):
+      Element: Cu, Particle: muon_neutrino
+      Stress: light_dark (jetlag=7.5h, resonance=0.38)
+      Role: adaptable predator, copper metabolism
+    oak (Quercus robur) (plant):
+      Element: C, Particle: photon
+      Stress: light_dark (jetlag=7.5h, resonance=0.38)
+      Role: keystone tree, tannin binding
+    Cambisol microbiome (microbiome):
+      Element: Si, Particle: graviton
+      Stress: o2_co2 (jetlag=12.0h, resonance=0.00)
+      Role: moderate weathering, balanced nutrient cycling
+
+  ENERGY EXCHANGE DYNAMICS:
+    R1a                                       stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    R1b                                       stress=heat_cold             jetlag=  6.0h  resonance=0.50  [PARTIAL]
+    I1                                        stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    I2                                        stress=o2_co2                jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+    N1c                                       stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    red fox (Vulpes vulpes)                   stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    oak (Quercus robur)                       stress=light_dark            jetlag=  7.5h  resonance=0.38  [PARTIAL]
+    Cambisol microbiome                       stress=o2_co2                jetlag= 12.0h  resonance=0.00  [ANTI-PHASE]
+
+
+====================================================================================================
+SYNTHESIS: THE UNIVERSAL CO-LOCATION PRINCIPLE
+====================================================================================================
+
+1. GEOLOGICAL SUBSTRATE IS THE ANCHOR
+   Each geological node creates a specific soil through its stress pair process.
+   The soil's mineral composition, pH, water retention, and nutrient profile
+   are determined by the geological process (e.g., glaciation → podzol,
+   tropical weathering → ferralsol, volcanic ash → andosol).
+
+2. SOIL SELECTS BIOME
+   The soil type determines which plant communities can thrive.
+   Plants determine herbivore communities, which determine predators.
+   The entire food chain is anchored to the geological substrate.
+
+3. BIOME SELECTS HAPLOGROUP
+   Human populations adapted to each biome over 50,000+ years.
+   Diet (plant/animal availability), climate (cold/heat), altitude (O2),
+   and pathogen load (tropical vs. arctic) selected for specific
+   neurochemical receptor polymorphisms (D2, COMT, MAO-A, 5-HT).
+   These polymorphisms determine the 8D vector, which resonates
+   with the geological node's stress pair.
+
+4. 8D VECTOR RESONANCE IS THE BINDING MECHANISM
+   The haplogroup's 8D vector and the geological node's stress pair
+   share the same dimensional axes. When the haplogroup's dominant
+   stress pair matches the geological node's stress pair, they are
+   in circadian sync (jetlag ≈ 0h, resonance ≈ 1.0).
+   This creates maximum energy exchange — the haplogroup 'fits' the land.
+
+5. JETLAG CREATES TEMPORAL WINDOWS
+   Each stress pair activates during a specific circadian window:
+     light_dark:   0-3h   (AB spark — deep night)
+     o2_co2:       3-9h   (A accumulate — dawn to noon)
+     heat_cold:    9-15h  (O accumulate — noon to afternoon)
+     matter_non:   15-21h (B accumulate — afternoon to night)
+     reset_spark:  21-3h  (AB integration — night to dawn)
+   When two subjects share the same stress pair, their activation
+   windows overlap → continuous energy exchange (SYNC).
+   When stress pairs differ by 6h, they alternate → oscillating
+   exchange (PARTIAL). When they differ by 12h, they are anti-phase
+   → stress-driven adaptation rather than harmony (ANTI-PHASE).
+
+6. NON-HUMAN ORGANISMS ARE CO-RESONATORS
+   Each biome's fauna, flora, and microbiome carry 8D vectors
+   that match the geological stress pair. They are not passive
+   inhabitants — they actively modulate the soil chemistry,
+   nutrient cycling, and atmospheric gas composition, creating
+   feedback loops that reinforce the geological process.
+   Example: termite mounds in tropical laterites accelerate
+   iron oxide formation → reinforces ferralsol → selects for
+   E1b1a haplogroup (high r, iron-locked P+).
+
+7. THE CIRCUIT IS THE META-STRUCTURE
+   The neuro-bio-geochemical circuit is not just a metaphor —
+   it is the meta-structure that governs which subjects co-locate.
+   Each circuit node (e.g., steel, clay_gouge, craton) maps to
+   a geological process, which creates a soil, which selects a biome,
+   which selects a haplogroup, which carries an 8D vector that
+   resonates with the circuit node's stress pair.
+   The circuit is the cause; geography is the effect.

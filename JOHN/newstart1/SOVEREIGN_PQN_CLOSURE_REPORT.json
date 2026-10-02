@@ -1,0 +1,20 @@
+{
+  "model": "PQN-only",
+  "mean_closure_error": 0.19173972012691992,
+  "max_closure_error": 0.2736095532223377,
+  "min_closure_error": 0.0032334594751919354,
+  "periodic_error_l2_before_lock": 0.9414565015006281,
+  "periodic_error_l2_after_lock": 0.0,
+  "spark_mean": -0.0012035154982808893,
+  "spark_peak_window": 30,
+  "spark_peak_value": 0.7831076013472816,
+  "spark_mean_when_vasopressin_on": -0.0023772494726915887,
+  "spark_mean_when_vasopressin_off": 0.0001691564378943423,
+  "spark_abs_mean_when_vasopressin_on": 0.29034484175484826,
+  "spark_abs_mean_when_vasopressin_off": 0.21398379281337482,
+  "spark_abs_peak_when_vasopressin_on": 0.8978691298636764,
+  "spark_abs_peak_when_vasopressin_off": 0.7362238294077716,
+  "recovery_event_count": 7,
+  "recovery_avg_windows": 12.142857142857142,
+  "recovery_max_windows": 26
+}

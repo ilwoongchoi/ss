@@ -1,0 +1,28 @@
+﻿======================================================================
+FULL CIRCUIT-PHYSICS ISOMORPHISM VERIFICATION (v2)
+======================================================================
+
+[1] observer_leftd2 ↔ Sagittarius A* (v2, self-regulation)
+  step  : 0.000282  →  STRONG
+  pulse : 0.000173  →  STRONG
+  ramp  : 0.000306  →  STRONG
+  const : 0.000387  →  STRONG
+
+[2] quark_orogen_magma ↔ Neutron Star (TOV v2)
+  step  : 0.147548  →  HEURISTIC
+  pulse : 0.143754  →  HEURISTIC
+  ramp  : 0.149784  →  HEURISTIC
+
+[3] observer_leftd2 ↔ Main Sequence Star (L ∝ M^3.5 v2)
+  step  : 0.033374  →  WEAK
+  pulse : 0.029522  →  WEAK
+  ramp  : 0.035720  →  WEAK
+
+[4] memory_entropy ↔ CMB acoustic peak (ℓ=220 v2)
+  const : 0.001639  →  STRONG
+  pulse : 0.005948  →  STRONG
+  step  : 0.001546  →  STRONG
+
+Wrote C:\Users\Administrator\.minimax-agent\projects\equation_isomorphism_v2.json
+
+Verdict: FAIL

@@ -1,0 +1,42 @@
+{
+  "_version": "FINAL",
+  "_date": "2026-09-09",
+  "_honest": true,
+  "conclusion": "v2 STRONG was single-peak only. 3-peak honest fit = 0.15 (WEAK). CA1 theta-gamma-ripple ratios (1:7.5:18.75) do NOT match CMB acoustic ratios (1:2.44:3.68).",
+  "all_versions": {
+    "v2_1peak_1order": {
+      "method": "1st-order damped driven oscillator, single peak",
+      "residual": 0.0077,
+      "grade": "STRONG (but only 1 peak)",
+      "honest_grade": "INCOMPLETE (1 of 3 peaks)"
+    },
+    "v3_1peak_1order_silk_b": {
+      "method": "v2 + Silk damping + B-mode secondary oscillation",
+      "residual": 0.008,
+      "grade": "STRONG (still only 1 peak)",
+      "honest_grade": "INCOMPLETE (1 of 3 peaks)"
+    },
+    "v4_1peak_planck_fit": {
+      "method": "1-peak Butterworth × Gaussian, fit to 19 Planck points",
+      "residual": 0.3774,
+      "grade": "HEURISTIC",
+      "honest_grade": "HEURISTIC"
+    },
+    "v5_3peak_planck_fit": {
+      "method": "3-peak Lorentzian × Gaussian Silk, fit to 19 Planck points",
+      "residual": 0.1513,
+      "grade": "HEURISTIC (1st-order ODE cannot produce 3 peaks)",
+      "honest_grade": "WEAK at 3-peak level"
+    }
+  },
+  "cmb_peak_ratios": {
+    "l_2/l_1": 2.440909090909091,
+    "l_3/l_1": 3.6818181818181817
+  },
+  "ca1_band_ratios": {
+    "gamma/theta_8Hz": 7.5,
+    "ripple/theta_8Hz": 18.75,
+    "ripple/gamma_60Hz": 2.5
+  },
+  "final_verdict": "WEAK at full-spectrum level (was STRONG only at single-peak level)"
+}

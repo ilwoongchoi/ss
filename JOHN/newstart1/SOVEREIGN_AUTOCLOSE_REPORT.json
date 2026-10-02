@@ -1,0 +1,55 @@
+{
+  "model": "6P-autonomous-closure",
+  "params": {
+    "dt": 0.006,
+    "substeps": 32,
+    "k_anchor": 3.0,
+    "attractor_k": 0.05,
+    "relax": 0.55,
+    "max_iters": 30,
+    "tol": 1e-05
+  },
+  "periodic_error_l2": 0.9995235562690146,
+  "mean_closure_error": 10.916150278808411,
+  "max_closure_error": 232.12104085837993,
+  "iterations": 30,
+  "score": 28.03228023968995,
+  "output_csv": "SOVEREIGN_128x128_Z_MAP_AUTOCLOSE.csv",
+  "iter_history_tail": [
+    {
+      "iter": 25,
+      "score": 31.111192613918625,
+      "periodic_error": 2.379616782300528,
+      "mean_err": 11.506142610908068,
+      "max_err": 247.0442591780027
+    },
+    {
+      "iter": 26,
+      "score": 28.256342124109274,
+      "periodic_error": 0.7806308636926289,
+      "mean_err": 10.803286862011948,
+      "max_err": 236.9456085871246
+    },
+    {
+      "iter": 27,
+      "score": 36.27271480003742,
+      "periodic_error": 2.9853667833393533,
+      "mean_err": 11.596015497631385,
+      "max_err": 292.2874259252708
+    },
+    {
+      "iter": 28,
+      "score": 32.91234516845918,
+      "periodic_error": 1.9455710254341896,
+      "mean_err": 10.803031465244423,
+      "max_err": 271.85713130189447
+    },
+    {
+      "iter": 29,
+      "score": 28.03228023968995,
+      "periodic_error": 0.9995235562690146,
+      "mean_err": 10.916150278808411,
+      "max_err": 232.12104085837993
+    }
+  ]
+}

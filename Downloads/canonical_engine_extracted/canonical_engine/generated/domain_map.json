@@ -1,0 +1,554 @@
+{
+  "heme_in0_xor": {
+    "domain": "biochemistry"
+  },
+  "heme_in1_xor": {
+    "domain": "biochemistry"
+  },
+  "heme": {
+    "domain": "biochemistry"
+  },
+  "cytochrome_c_oxidase_in0_xor": {
+    "domain": "biochemistry"
+  },
+  "cytochrome_c_oxidase_in1_xor": {
+    "domain": "biochemistry"
+  },
+  "cytochrome_c_oxidase": {
+    "domain": "biochemistry"
+  },
+  "water_vapour_in0_xor": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "water_vapour_in1_xor": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "water_vapour": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "steel_in0_xor": {
+    "domain": "soil_geology"
+  },
+  "steel_in1_xor": {
+    "domain": "soil_geology"
+  },
+  "steel": {
+    "domain": "soil_geology"
+  },
+  "clay_gouge": {
+    "domain": "soil_geology"
+  },
+  "quark_orogen_magma": {
+    "domain": "soil_geology"
+  },
+  "observer_leftd2": {
+    "domain": "math_dynamics"
+  },
+  "nonobserver_left_d2": {
+    "domain": "math_dynamics"
+  },
+  "left_endorphin_non_observer": {
+    "domain": "neurochemistry"
+  },
+  "observer_left_endorphin_electron_antineutrino": {
+    "domain": "neurochemistry"
+  },
+  "plume_in0_xor": {
+    "domain": "mantle"
+  },
+  "mc1r_q_or": {
+    "domain": "neurochemistry"
+  },
+  "mc1r_q_bar_or": {
+    "domain": "neurochemistry"
+  },
+  "mc1r": {
+    "domain": "neurochemistry"
+  },
+  "methanogenesis_out0_nand": {
+    "domain": "biochemistry"
+  },
+  "methanogenesis": {
+    "domain": "biochemistry"
+  },
+  "histosol_in0_xor": {
+    "domain": "biochemistry"
+  },
+  "histosol_in1_xor": {
+    "domain": "biochemistry"
+  },
+  "histosol": {
+    "domain": "biochemistry"
+  },
+  "histosol_ctrl1_and": {
+    "domain": "biochemistry"
+  },
+  "histosol_ctrl1_or": {
+    "domain": "biochemistry"
+  },
+  "sulforaphane": {
+    "domain": "biochemistry"
+  },
+  "aurora": {
+    "domain": "astronomy"
+  },
+  "glymphatic_system": {
+    "domain": "biochemistry"
+  },
+  "cysteine": {
+    "domain": "biochemistry"
+  },
+  "memory_entropy_out_hind_insula_xnor": {
+    "domain": "neurochemistry"
+  },
+  "memory_entropy_out_co2_nor": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "memory_entropy": {
+    "domain": "math_dynamics"
+  },
+  "hind_insula_out0_nand": {
+    "domain": "neurochemistry"
+  },
+  "hind_insula": {
+    "domain": "neurochemistry"
+  },
+  "carbon_q_or": {
+    "domain": "energy_thermodynamics"
+  },
+  "carbon_q_bar_or": {
+    "domain": "astronomy"
+  },
+  "carbon": {
+    "domain": "energy_thermodynamics"
+  },
+  "fold_belt_in0_xor": {
+    "domain": "soil_geology"
+  },
+  "fold_belt_in1_xor": {
+    "domain": "soil_geology"
+  },
+  "fold_belt": {
+    "domain": "soil_geology"
+  },
+  "fold_belt_ctrl1_and": {
+    "domain": "soil_geology"
+  },
+  "fold_belt_ctrl1_or": {
+    "domain": "soil_geology"
+  },
+  "substance_p_out_mc1r_xnor": {
+    "domain": "biochemistry"
+  },
+  "substance_p_out_autophagy_xor": {
+    "domain": "biochemistry"
+  },
+  "substance_p": {
+    "domain": "biochemistry"
+  },
+  "methionine": {
+    "domain": "biochemistry"
+  },
+  "podzol_out1_and": {
+    "domain": "soil_geology"
+  },
+  "adapter_protein_q_or": {
+    "domain": "biology_muscle"
+  },
+  "adapter_protein_q_bar_or": {
+    "domain": "biology_muscle"
+  },
+  "adapter_protein": {
+    "domain": "biology_muscle"
+  },
+  "succinate_dehydrogenase_out0_nand": {
+    "domain": "energy_thermodynamics"
+  },
+  "succinate_dehydrogenase_out1_or": {
+    "domain": "energy_thermodynamics"
+  },
+  "succinate_dehydrogenase_out2_nand": {
+    "domain": "astronomy"
+  },
+  "succinate_dehydrogenase": {
+    "domain": "energy_thermodynamics"
+  },
+  "collagen_out0_nand": {
+    "domain": "biology_muscle"
+  },
+  "collagen": {
+    "domain": "biology_muscle"
+  },
+  "andosol_out0_nand": {
+    "domain": "soil_geology"
+  },
+  "andosol": {
+    "domain": "soil_geology"
+  },
+  "cambisol_in0_xor": {
+    "domain": "soil_geology"
+  },
+  "cambisol_in1_xor": {
+    "domain": "soil_geology"
+  },
+  "cambisol": {
+    "domain": "soil_geology"
+  },
+  "NaCl_in0_xor": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "NaCl_in1_xor": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "NaCl": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "sodium_in0_xor": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "sodium_in1_xor": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "sodium": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "mycorradicin": {
+    "domain": "other"
+  },
+  "mycorradicin_right_acetylcholine_or": {
+    "domain": "neurochemistry"
+  },
+  "mycorradicin_leftd2_and": {
+    "domain": "other"
+  },
+  "mycorradicin_autophagy_intermediate_and": {
+    "domain": "microbial"
+  },
+  "mycorradicin_autophagy_input_or": {
+    "domain": "microbial"
+  },
+  "copper_iron_complex": {
+    "domain": "soil_geology"
+  },
+  "autophagy": {
+    "domain": "microbial"
+  },
+  "water_out0_nand": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "water": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "nitrogenase_out_1_xnor": {
+    "domain": "other"
+  },
+  "nitrogenase_out_2_nor": {
+    "domain": "particle_physics"
+  },
+  "nitrogenase": {
+    "domain": "other"
+  },
+  "nitrogenase_in_main_and": {
+    "domain": "other"
+  },
+  "nitrogenase_in_main_or": {
+    "domain": "other"
+  },
+  "chlorine_ion_pump": {
+    "domain": "biochemistry"
+  },
+  "heath_aerenchyma": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "heath_aerenchyma_out0_and": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "podzol_out0_nand": {
+    "domain": "soil_geology"
+  },
+  "podzol": {
+    "domain": "soil_geology"
+  },
+  "lower_mantle_q_or": {
+    "domain": "mantle"
+  },
+  "lower_mantle_q_bar_or": {
+    "domain": "mantle"
+  },
+  "lower_mantle": {
+    "domain": "mantle"
+  },
+  "basin_q_or": {
+    "domain": "soil_geology"
+  },
+  "basin_q_bar_or": {
+    "domain": "soil_geology"
+  },
+  "basin": {
+    "domain": "soil_geology"
+  },
+  "left_genital_d2_out0_nand": {
+    "domain": "neurochemistry"
+  },
+  "left_genital_d2": {
+    "domain": "neurochemistry"
+  },
+  "caco3_pyrite_lactate_and": {
+    "domain": "soil_geology"
+  },
+  "caco3_leftd2_podzol_observer_and": {
+    "domain": "soil_geology"
+  },
+  "caco3_final_and": {
+    "domain": "soil_geology"
+  },
+  "caco3_laterite_and": {
+    "domain": "soil_geology"
+  },
+  "laterite_d_and": {
+    "domain": "soil_geology"
+  },
+  "laterite_d_or": {
+    "domain": "soil_geology"
+  },
+  "manganese_nodule": {
+    "domain": "other"
+  },
+  "pentose_phosphate_out_1_xnor": {
+    "domain": "biochemistry"
+  },
+  "pentose_phosphate_out_2_nor": {
+    "domain": "biochemistry"
+  },
+  "pentose_phosphate": {
+    "domain": "biochemistry"
+  },
+  "disulfide_bond": {
+    "domain": "biochemistry"
+  },
+  "peonidine_in0_xor": {
+    "domain": "other"
+  },
+  "peonidine_in1_xor": {
+    "domain": "other"
+  },
+  "peonidine": {
+    "domain": "other"
+  },
+  "right_acetylcholine_out0_nand": {
+    "domain": "neurochemistry"
+  },
+  "right_acetylcholine": {
+    "domain": "neurochemistry"
+  },
+  "co2_in0_xor": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "co2_in1_xor": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "co2": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "glp1_q_or": {
+    "domain": "other"
+  },
+  "glp1_q_bar_or": {
+    "domain": "particle_physics"
+  },
+  "glp1": {
+    "domain": "other"
+  },
+  "cck": {
+    "domain": "other"
+  },
+  "cck_cox_ctrl_and": {
+    "domain": "other"
+  },
+  "laterite_q_or": {
+    "domain": "soil_geology"
+  },
+  "laterite_q_bar_or": {
+    "domain": "soil_geology"
+  },
+  "laterite": {
+    "domain": "soil_geology"
+  },
+  "outer_core_convection": {
+    "domain": "mantle"
+  },
+  "male_right_oxytocin_q_or": {
+    "domain": "neurochemistry"
+  },
+  "male_right_oxytocin_q_bar_or": {
+    "domain": "neurochemistry"
+  },
+  "male_right_oxytocin": {
+    "domain": "neurochemistry"
+  },
+  "gluon_orogen_clk": {
+    "domain": "soil_geology"
+  },
+  "gluon_orogen_q_or": {
+    "domain": "soil_geology"
+  },
+  "gluon_orogen_q_bar_or": {
+    "domain": "soil_geology"
+  },
+  "gluon_orogen": {
+    "domain": "soil_geology"
+  },
+  "lactate_dehydrogenase": {
+    "domain": "energy_thermodynamics"
+  },
+  "lactate_caco3_and": {
+    "domain": "soil_geology"
+  },
+  "mangrove_aerenchyma": {
+    "domain": "atmosphere_hydrosphere"
+  },
+  "thorium_out0_nand": {
+    "domain": "soil_geology"
+  },
+  "monazite_thorium_and": {
+    "domain": "soil_geology"
+  },
+  "water_oxidised_manganese_monazite_and": {
+    "domain": "soil_geology"
+  },
+  "water_oxidised_manganese_monazite_manganese_oxygen_complex_or": {
+    "domain": "soil_geology"
+  },
+  "monazite": {
+    "domain": "soil_geology"
+  },
+  "thorium": {
+    "domain": "soil_geology"
+  },
+  "magnetite_out0_nand": {
+    "domain": "soil_geology"
+  },
+  "magnetite": {
+    "domain": "soil_geology"
+  },
+  "oxidised_manganese_set_and": {
+    "domain": "other"
+  },
+  "oxidised_manganese_reset_and": {
+    "domain": "other"
+  },
+  "oxidised_manganese": {
+    "domain": "other"
+  },
+  "manganese_oxygen_complex": {
+    "domain": "other"
+  },
+  "pi_electron_cloud_out0_nand": {
+    "domain": "astronomy"
+  },
+  "pi_electron_cloud": {
+    "domain": "particle_physics"
+  },
+  "pi_electron_cloud_in0_and": {
+    "domain": "particle_physics"
+  },
+  "pi_electron_cloud_in0_or": {
+    "domain": "particle_physics"
+  },
+  "ferritin_in0_xor": {
+    "domain": "biochemistry"
+  },
+  "ferritin_in1_xor": {
+    "domain": "biochemistry"
+  },
+  "ferritin": {
+    "domain": "biochemistry"
+  },
+  "ferritin_ctrl0_and": {
+    "domain": "biochemistry"
+  },
+  "ferritin_ctrl0_or": {
+    "domain": "biochemistry"
+  },
+  "methylation_in0_xor": {
+    "domain": "biochemistry"
+  },
+  "methylation_in1_xor": {
+    "domain": "biochemistry"
+  },
+  "methylation": {
+    "domain": "biochemistry"
+  },
+  "sulfur_iron_complex": {
+    "domain": "energy_thermodynamics"
+  },
+  "large_igneous_province_in0_xor": {
+    "domain": "soil_geology"
+  },
+  "large_igneous_province_in1_xor": {
+    "domain": "soil_geology"
+  },
+  "large_igneous_province": {
+    "domain": "soil_geology"
+  },
+  "subduction_zone_in0_xor": {
+    "domain": "soil_geology"
+  },
+  "subduction_zone_in1_xor": {
+    "domain": "soil_geology"
+  },
+  "subduction_zone": {
+    "domain": "soil_geology"
+  },
+  "monazite_out0_nand": {
+    "domain": "soil_geology"
+  },
+  "craton_in0_xor": {
+    "domain": "soil_geology"
+  },
+  "craton_in1_xor": {
+    "domain": "soil_geology"
+  },
+  "craton": {
+    "domain": "soil_geology"
+  },
+  "pyrite_in0_xor": {
+    "domain": "soil_geology"
+  },
+  "pyrite_in1_xor": {
+    "domain": "soil_geology"
+  },
+  "pyrite": {
+    "domain": "soil_geology"
+  },
+  "right_sole_dopamine_q_or": {
+    "domain": "neurochemistry"
+  },
+  "right_sole_dopamine_q_bar_or": {
+    "domain": "neurochemistry"
+  },
+  "right_sole_dopamine": {
+    "domain": "neurochemistry"
+  },
+  "observer_right_sole_dopamine": {
+    "domain": "neurochemistry"
+  },
+  "plume_out0_nand": {
+    "domain": "mantle"
+  },
+  "plume": {
+    "domain": "mantle"
+  },
+  "actomyosin_ctrl": {
+    "domain": "biology_muscle"
+  },
+  "actomyosin_in0_xor": {
+    "domain": "biology_muscle"
+  },
+  "actomyosin_in1_xor": {
+    "domain": "biology_muscle"
+  },
+  "actomyosin": {
+    "domain": "biology_muscle"
+  }
+}

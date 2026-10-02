@@ -1,0 +1,40 @@
+{
+  "summary": {
+    "nodes": 15,
+    "baseline_components": 4,
+    "scenario_components": 3
+  },
+  "components": [
+    [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "2",
+      "3",
+      "4",
+      "flash:center_in",
+      "flash_bridge",
+      "gateway_peak",
+      "mediator:synthetic_alpha"
+    ],
+    [
+      "core_center"
+    ],
+    [
+      "right_branch"
+    ]
+  ],
+  "bridges": [
+    {
+      "u": "core_center",
+      "v": "right_branch",
+      "gap": null,
+      "score": 0.95,
+      "table": "seam_failure_table.csv",
+      "blocked_reason": "drift/dispersion"
+    }
+  ]
+}

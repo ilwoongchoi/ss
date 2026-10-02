@@ -1,0 +1,898 @@
+{
+  "constants": {
+    "PHI": 1.618033988749895,
+    "ALPHA": 0.0072973525692838015,
+    "PI": 3.141592653589793,
+    "BETTI_0": 1.0,
+    "BETTI_5": 5.0,
+    "BETTI_7": 7.0,
+    "BETTI_11": 11.0,
+    "SPARK_ANGLE_DEG": 138.88,
+    "SPARK_LEAP_DIST": 2.5,
+    "LATTICE_3_32": 0.09375,
+    "F_1_32": 0.03125,
+    "F_3_32": 0.09375,
+    "KAPPA_TDA_MIN": 0.015625,
+    "KAPPA_TDA_MID": 0.03125,
+    "KAPPA_TDA_MAX": 0.0625,
+    "MANIFOLD_CLOSURE": 1.0000424
+  },
+  "universe_nodes": [
+    {
+      "id": "A",
+      "name": "sheet_id:1",
+      "type": "intrinsic_main"
+    },
+    {
+      "id": "B",
+      "name": "sheet_id:2",
+      "type": "intrinsic_main"
+    },
+    {
+      "id": "C",
+      "name": "sheet_id:3",
+      "type": "intrinsic_main"
+    },
+    {
+      "id": "D",
+      "name": "sheet_id:4",
+      "type": "intrinsic_main"
+    },
+    {
+      "id": "10",
+      "name": "sheet_id:10",
+      "type": "intrinsic_main"
+    },
+    {
+      "id": "11",
+      "name": "sheet_id:11",
+      "type": "intrinsic_main"
+    },
+    {
+      "id": "12",
+      "name": "sheet_id:12",
+      "type": "intrinsic_main"
+    },
+    {
+      "id": "13",
+      "name": "sheet_id:13",
+      "type": "intrinsic_main"
+    },
+    {
+      "id": "14",
+      "name": "sheet_id:14",
+      "type": "intrinsic_main"
+    },
+    {
+      "id": "F'",
+      "name": "flash:center_in",
+      "type": "intrinsic_main"
+    },
+    {
+      "id": "F",
+      "name": "flash_bridge",
+      "type": "intrinsic_main"
+    },
+    {
+      "id": "G",
+      "name": "gateway_peak",
+      "type": "intrinsic_isolated"
+    },
+    {
+      "id": "X",
+      "name": "mediator:synthetic_alpha",
+      "type": "extended_mediator"
+    }
+  ],
+  "archetype_overlay": {
+    "nodes": [
+      {
+        "node": "core_center",
+        "archetype": "Big Man",
+        "universe": null,
+        "component_role": null,
+        "barrier_status": null,
+        "internal_component": null,
+        "extended_component": null,
+        "seam_count": null
+      },
+      {
+        "node": "flash:center_in",
+        "archetype": "Spark",
+        "universe": "Original",
+        "component_role": "Flash complement",
+        "barrier_status": "None",
+        "internal_component": "Main",
+        "extended_component": "Unified",
+        "seam_count": "1"
+      },
+      {
+        "node": "flash_bridge",
+        "archetype": "Spark",
+        "universe": "Original",
+        "component_role": "A-B flash bridge",
+        "barrier_status": "None",
+        "internal_component": "Main",
+        "extended_component": "Unified",
+        "seam_count": "1"
+      },
+      {
+        "node": "gateway_peak",
+        "archetype": "Boundary",
+        "universe": "Original",
+        "component_role": "Isolated residual; Internal boundary",
+        "barrier_status": "True barrier with B",
+        "internal_component": "Isolated",
+        "extended_component": "Unified",
+        "seam_count": "0"
+      },
+      {
+        "node": "mediator:synthetic_alpha",
+        "archetype": "Mediator",
+        "universe": "Extended",
+        "component_role": "External mediator",
+        "barrier_status": "Bypasses G-B barrier",
+        "internal_component": "N/A",
+        "extended_component": "Unified",
+        "seam_count": "2"
+      },
+      {
+        "node": "right_branch",
+        "archetype": "Small Man",
+        "universe": null,
+        "component_role": null,
+        "barrier_status": null,
+        "internal_component": null,
+        "extended_component": null,
+        "seam_count": null
+      },
+      {
+        "node": "sheet_id:1",
+        "archetype": "Big Woman",
+        "universe": "Original",
+        "component_role": "Anchor node (A)",
+        "barrier_status": "None",
+        "internal_component": "Main",
+        "extended_component": "Unified",
+        "seam_count": "1"
+      },
+      {
+        "node": "sheet_id:10",
+        "archetype": "Small Woman",
+        "universe": "Original",
+        "component_role": "Stage 2 repair; A-D bridge",
+        "barrier_status": "None",
+        "internal_component": "Main",
+        "extended_component": "Unified",
+        "seam_count": "2"
+      },
+      {
+        "node": "sheet_id:11",
+        "archetype": "Small Woman",
+        "universe": "Original",
+        "component_role": "Lane B deprojection",
+        "barrier_status": "None",
+        "internal_component": "Main",
+        "extended_component": "Unified",
+        "seam_count": "1"
+      },
+      {
+        "node": "sheet_id:12",
+        "archetype": "Small Woman",
+        "universe": "Original",
+        "component_role": "Stage 2 repair",
+        "barrier_status": "None",
+        "internal_component": "Main",
+        "extended_component": "Unified",
+        "seam_count": "1"
+      },
+      {
+        "node": "sheet_id:13",
+        "archetype": "Small Woman",
+        "universe": "Original",
+        "component_role": "Lane C relay origin",
+        "barrier_status": "None",
+        "internal_component": "Main",
+        "extended_component": "Unified",
+        "seam_count": "1"
+      },
+      {
+        "node": "sheet_id:14",
+        "archetype": "Small Woman",
+        "universe": "Original",
+        "component_role": "Lane B deprojection",
+        "barrier_status": "None",
+        "internal_component": "Main",
+        "extended_component": "Unified",
+        "seam_count": "1"
+      },
+      {
+        "node": "sheet_id:2",
+        "archetype": "Big Woman",
+        "universe": "Original",
+        "component_role": "Gateway neighbor (B)",
+        "barrier_status": "True barrier with G",
+        "internal_component": "Main",
+        "extended_component": "Unified",
+        "seam_count": "6"
+      },
+      {
+        "node": "sheet_id:3",
+        "archetype": "Big Woman",
+        "universe": "Original",
+        "component_role": "Flash anchor (C)",
+        "barrier_status": "None",
+        "internal_component": "Main",
+        "extended_component": "Unified",
+        "seam_count": "3"
+      },
+      {
+        "node": "sheet_id:4",
+        "archetype": "Big Woman",
+        "universe": "Original",
+        "component_role": "Anchor node (D); Relay target",
+        "barrier_status": "None",
+        "internal_component": "Main",
+        "extended_component": "Unified",
+        "seam_count": "2"
+      }
+    ],
+    "edges": [
+      {
+        "u": "sheet_id:2",
+        "v": "sheet_id:4",
+        "step": "1",
+        "seam_name": "sheet_id:2__sheet_id:4",
+        "seam_type": "Direct",
+        "seam_class": "Local seam",
+        "pre_components": "12",
+        "post_components": "11",
+        "reduction": "1",
+        "universe_phase": "Internal",
+        "mechanism": "Lane A local seam substrate",
+        "kind": "seam_glue",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Big Woman",
+        "v_archetype": "Big Woman"
+      },
+      {
+        "u": "sheet_id:11",
+        "v": "sheet_id:2",
+        "step": "2",
+        "seam_name": "sheet_id:11__sheet_id:2",
+        "seam_type": "Direct",
+        "seam_class": "Deprojection",
+        "pre_components": "11",
+        "post_components": "10",
+        "reduction": "1",
+        "universe_phase": "Internal",
+        "mechanism": "Lane B deprojection",
+        "kind": "seam_glue",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Small Woman",
+        "v_archetype": "Big Woman"
+      },
+      {
+        "u": "sheet_id:14",
+        "v": "sheet_id:2",
+        "step": "3",
+        "seam_name": "sheet_id:14__sheet_id:2",
+        "seam_type": "Direct",
+        "seam_class": "Deprojection",
+        "pre_components": "10",
+        "post_components": "9",
+        "reduction": "1",
+        "universe_phase": "Internal",
+        "mechanism": "Lane B deprojection",
+        "kind": "seam_glue",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Small Woman",
+        "v_archetype": "Big Woman"
+      },
+      {
+        "u": "sheet_id:13",
+        "v": "sheet_id:3",
+        "step": "4",
+        "seam_name": "sheet_id:13__3__2",
+        "seam_type": "Relay",
+        "seam_class": "Relay path",
+        "pre_components": "9",
+        "post_components": "7",
+        "reduction": "2",
+        "universe_phase": "Internal",
+        "mechanism": "Lane C relay 13\u21923\u21922",
+        "kind": "seam_glue",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Small Woman",
+        "v_archetype": "Big Woman"
+      },
+      {
+        "u": "sheet_id:2",
+        "v": "sheet_id:3",
+        "step": "4",
+        "seam_name": "sheet_id:13__3__2",
+        "seam_type": "Relay",
+        "seam_class": "Relay path",
+        "pre_components": "9",
+        "post_components": "7",
+        "reduction": "2",
+        "universe_phase": "Internal",
+        "mechanism": "Lane C relay 13\u21923\u21922",
+        "kind": "seam_glue_relay_leg",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Big Woman",
+        "v_archetype": "Big Woman"
+      },
+      {
+        "u": "sheet_id:10",
+        "v": "sheet_id:2",
+        "step": "5",
+        "seam_name": "sheet_id:10__sheet_id:2",
+        "seam_type": "Direct",
+        "seam_class": "Deprojection",
+        "pre_components": "7",
+        "post_components": "6",
+        "reduction": "1",
+        "universe_phase": "Internal",
+        "mechanism": "Stage 2 deprojection",
+        "kind": "seam_glue",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Small Woman",
+        "v_archetype": "Big Woman"
+      },
+      {
+        "u": "sheet_id:12",
+        "v": "sheet_id:2",
+        "step": "6",
+        "seam_name": "sheet_id:12__sheet_id:2",
+        "seam_type": "Direct",
+        "seam_class": "Deprojection",
+        "pre_components": "6",
+        "post_components": "5",
+        "reduction": "1",
+        "universe_phase": "Internal",
+        "mechanism": "Stage 2 deprojection",
+        "kind": "seam_glue",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Small Woman",
+        "v_archetype": "Big Woman"
+      },
+      {
+        "u": "sheet_id:10",
+        "v": "sheet_id:1",
+        "step": "7",
+        "seam_name": "sheet_id:10__sheet_id:1",
+        "seam_type": "Direct",
+        "seam_class": "Activation",
+        "pre_components": "5",
+        "post_components": "4",
+        "reduction": "1",
+        "universe_phase": "Internal",
+        "mechanism": "A-D activation",
+        "kind": "seam_glue",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Small Woman",
+        "v_archetype": "Big Woman"
+      },
+      {
+        "u": "flash_bridge",
+        "v": "sheet_id:3",
+        "step": "8",
+        "seam_name": "flash_bridge__sheet_id:3",
+        "seam_type": "Direct",
+        "seam_class": "Flash bridge",
+        "pre_components": "4",
+        "post_components": "3",
+        "reduction": "1",
+        "universe_phase": "Internal",
+        "mechanism": "A-B flash bridge",
+        "kind": "seam_glue",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Spark",
+        "v_archetype": "Big Woman"
+      },
+      {
+        "u": "flash:center_in",
+        "v": "sheet_id:3",
+        "step": "9",
+        "seam_name": "flash:center_in__sheet_id:3",
+        "seam_type": "Direct",
+        "seam_class": "Flash complement",
+        "pre_components": "3",
+        "post_components": "2",
+        "reduction": "1",
+        "universe_phase": "Internal",
+        "mechanism": "Flash complement; MAX INTERNAL",
+        "kind": "seam_glue",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Spark",
+        "v_archetype": "Big Woman"
+      },
+      {
+        "u": "gateway_peak",
+        "v": "mediator:synthetic_alpha",
+        "step": "10",
+        "seam_name": "gateway_peak__mediator:synthetic_alpha",
+        "seam_type": "Direct",
+        "seam_class": "External expansion",
+        "pre_components": "2",
+        "post_components": "2",
+        "reduction": "0",
+        "universe_phase": "External",
+        "mechanism": "Add mediator X; link G\u2194X",
+        "kind": "seam_glue",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Boundary",
+        "v_archetype": "Mediator"
+      },
+      {
+        "u": "mediator:synthetic_alpha",
+        "v": "sheet_id:4",
+        "step": "11",
+        "seam_name": "mediator:synthetic_alpha__sheet_id:4",
+        "seam_type": "Direct",
+        "seam_class": "Relay connection",
+        "pre_components": "2",
+        "post_components": "1",
+        "reduction": "1",
+        "universe_phase": "External",
+        "mechanism": "Relay X\u2192D; FULL CLOSURE",
+        "kind": "seam_glue",
+        "bridge_vector_gap": null,
+        "bridge_vector_contact": null,
+        "bridge_vector_drift": null,
+        "u_archetype": "Mediator",
+        "v_archetype": "Big Woman"
+      },
+      {
+        "u": "mediator:synthetic_alpha",
+        "v": "core_center",
+        "kind": "bridge_vector",
+        "step": null,
+        "seam_name": null,
+        "seam_type": null,
+        "seam_class": null,
+        "pre_components": null,
+        "post_components": null,
+        "reduction": null,
+        "universe_phase": null,
+        "mechanism": null,
+        "bridge_vector_gap": "7.6274",
+        "bridge_vector_contact": "0.0169",
+        "bridge_vector_drift": "2.147",
+        "u_archetype": "Mediator",
+        "v_archetype": "Big Man"
+      },
+      {
+        "u": "gateway_peak",
+        "v": "core_center",
+        "kind": "bridge_vector",
+        "step": null,
+        "seam_name": null,
+        "seam_type": null,
+        "seam_class": null,
+        "pre_components": null,
+        "post_components": null,
+        "reduction": null,
+        "universe_phase": null,
+        "mechanism": null,
+        "bridge_vector_gap": "8.1132",
+        "bridge_vector_contact": "0.015",
+        "bridge_vector_drift": "1.0",
+        "u_archetype": "Boundary",
+        "v_archetype": "Big Man"
+      },
+      {
+        "u": "mediator:synthetic_alpha",
+        "v": "right_branch",
+        "kind": "bridge_vector",
+        "step": null,
+        "seam_name": null,
+        "seam_type": null,
+        "seam_class": null,
+        "pre_components": null,
+        "post_components": null,
+        "reduction": null,
+        "universe_phase": null,
+        "mechanism": null,
+        "bridge_vector_gap": "15.2755",
+        "bridge_vector_contact": "0.002",
+        "bridge_vector_drift": "2.147",
+        "u_archetype": "Mediator",
+        "v_archetype": "Small Man"
+      },
+      {
+        "u": "core_center",
+        "v": "right_branch",
+        "kind": "bridge_vector",
+        "step": null,
+        "seam_name": null,
+        "seam_type": null,
+        "seam_class": null,
+        "pre_components": null,
+        "post_components": null,
+        "reduction": null,
+        "universe_phase": null,
+        "mechanism": null,
+        "bridge_vector_gap": "0.0",
+        "bridge_vector_contact": "0.95",
+        "bridge_vector_drift": "4.61",
+        "u_archetype": "Big Man",
+        "v_archetype": "Small Man"
+      }
+    ]
+  },
+  "face_locks": {
+    "face_corridor": {
+      "lock_type": "emergent_terminal_coordinates",
+      "new_fundamental_constants": false,
+      "control_manifold": "128-grid face",
+      "band": {
+        "y_min": 9.25,
+        "y_max": 14.5
+      },
+      "corridor_mode": "narrow_mediator_band",
+      "corridor_points": [
+        [
+          8.0,
+          12.0
+        ],
+        [
+          8.5,
+          12.0
+        ],
+        [
+          9.0,
+          9.5
+        ],
+        [
+          9.5,
+          9.5
+        ],
+        [
+          10.0,
+          9.5
+        ],
+        [
+          10.5,
+          12.0
+        ],
+        [
+          11.0,
+          12.0
+        ],
+        [
+          11.5,
+          12.0
+        ],
+        [
+          12.0,
+          12.0
+        ],
+        [
+          12.5,
+          12.0
+        ],
+        [
+          13.0,
+          12.0
+        ]
+      ],
+      "loopstart_terminal": [
+        9.5,
+        9.5
+      ],
+      "loopend_terminal": [
+        9.5,
+        9.5
+      ],
+      "mirror_terminal": [
+        6.5,
+        9.5
+      ],
+      "dominance": "right_biased",
+      "promote_scores_to_constants": false,
+      "constraints": [
+        "no new nodes",
+        "no new Betti objects",
+        "preserve single-component closure",
+        "no surface bulge",
+        "right_cortisol_above rule",
+        "right_d2 adjacency priority"
+      ],
+      "scores": {
+        "right_dock_score": 0.458952937,
+        "left_dock_score": 0.2294764685
+      }
+    },
+    "face_choke_band": {
+      "lock_type": "left_plp_big_woman_seam_terminal",
+      "band": {
+        "y_min": 5.0,
+        "y_max": 14.5,
+        "x_min": 0.0,
+        "x_max": 8.0
+      },
+      "primary": [
+        6.0,
+        10.0
+      ],
+      "secondary": [
+        [
+          6.0,
+          10.5
+        ],
+        [
+          6.5,
+          10.0
+        ]
+      ],
+      "tertiary": [
+        [
+          5.5,
+          10.5
+        ],
+        [
+          6.5,
+          9.5
+        ],
+        [
+          6.5,
+          10.5
+        ]
+      ],
+      "ridge": [
+        [
+          5.5,
+          10.5
+        ],
+        [
+          6.0,
+          10.0
+        ],
+        [
+          6.5,
+          9.5
+        ],
+        [
+          6.5,
+          10.0
+        ]
+      ],
+      "interpretation": [
+        "x+y=16 is the PLP spine diagonal seam (refraction line for spark gate).",
+        "Nose bridge is PLP core / cold stress / UV stress / gravity axis.",
+        "Nose center is histamine H1/H3 + ROS/darkness survival + stress activation axis.",
+        "Upper lip is excitatory/inhibitory serotonin transition zone.",
+        "gateway_peak is isolated residual internal boundary; sheet_id:2 is Big Woman gateway neighbor and barrier node.",
+        "This band is the terminal choke zone from core_center toward Big Woman boundary seam.",
+        "Ridge is the overlap of PLP diagonal seam, darkness axis, and Big Woman boundary residual.",
+        "Left nose-ridge / LLSAN / upper-cheek corridor are local extensions of this core ridge."
+      ],
+      "constraints": [
+        "no new nodes",
+        "no new Betti objects",
+        "preserve single-component closure",
+        "no surface bulge",
+        "right_cortisol_above rule",
+        "right_d2 adjacency priority"
+      ]
+    },
+    "plp_zero_points": {
+      "plp_zero": [
+        2.0,
+        14.0
+      ],
+      "female_spare_vasopressin": [
+        2.0,
+        14.75
+      ],
+      "time_sensor": [
+        9.0,
+        14.0
+      ],
+      "cosmic_ray_point": [
+        11.25,
+        9.0
+      ],
+      "maxwell_impedance_point": [
+        8.0,
+        9.25
+      ],
+      "impedance_primary_left_inner": [
+        7.75,
+        12.0
+      ],
+      "impedance_primary_right_inner": [
+        8.5,
+        12.0
+      ]
+    },
+    "note": "Merged lock registry for final geometry pass; no new constants."
+  },
+  "auto_anchors": {
+    "PLP_ZERO": [
+      2.0,
+      14.0
+    ],
+    "FEMALE_SPARE_VASOPRESSIN": [
+      2.0,
+      14.75
+    ],
+    "TIME_SENSOR": [
+      9.0,
+      14.0
+    ],
+    "CORRIDOR_LOOPSTART": [
+      9.5,
+      9.5
+    ],
+    "CORRIDOR_MIRROR": [
+      6.5,
+      9.5
+    ],
+    "CHOKE_PRIMARY": [
+      6.0,
+      10.0
+    ],
+    "CHOKE_SECONDARY_1": [
+      6.0,
+      10.5
+    ],
+    "CHOKE_SECONDARY_2": [
+      6.5,
+      10.0
+    ],
+    "CHOKE_TERTIARY_1": [
+      5.5,
+      10.5
+    ],
+    "CHOKE_TERTIARY_2": [
+      6.5,
+      9.5
+    ],
+    "CHOKE_TERTIARY_3": [
+      6.5,
+      10.5
+    ],
+    "CHOKE_RIDGE_1": [
+      5.5,
+      10.5
+    ],
+    "CHOKE_RIDGE_2": [
+      6.0,
+      10.0
+    ],
+    "CHOKE_RIDGE_3": [
+      6.5,
+      9.5
+    ],
+    "CHOKE_RIDGE_4": [
+      6.5,
+      10.0
+    ],
+    "ALOPECIA_LEFT_INNER_DEEP_POINTS": [
+      5.0,
+      14.75
+    ],
+    "ALOPECIA_LEFT_INNER_POINTS": [
+      4.5,
+      14.75
+    ],
+    "COSMIC_RAY_RIGHT_NOSTRIL_DEEP_POINTS": [
+      11.25,
+      9.0
+    ],
+    "COSMIC_RAY_RIGHT_NOSTRIL_POINTS": [
+      11.25,
+      9.0
+    ],
+    "FLASH_ANCHOR_POINTS": [
+      8.5,
+      12.0
+    ],
+    "GABA_C_LEFT_EYE_POINTS": [
+      5.0,
+      11.0
+    ],
+    "GABA_C_RIGHT_EYE_POINTS": [
+      11.25,
+      9.0
+    ],
+    "GLABELLA_LEFT_POINTS": [
+      8.0,
+      10.5
+    ],
+    "LEFT_D2_OCULI_OUTER_DEEP_POINTS": [
+      2.0,
+      9.75
+    ],
+    "LEFT_D2_OCULI_OUTER_POINTS": [
+      2.0,
+      9.75
+    ],
+    "LEFT_INNER_GLABELLA_POINTS": [
+      7.75,
+      12.0
+    ],
+    "LEFT_LLSAN_POINTS": [
+      5.0,
+      11.0
+    ],
+    "LEFT_LLS_POINTS": [
+      7.5,
+      10.5
+    ],
+    "LEFT_NASALIS_UNDEREYE_POINTS": [
+      5.0,
+      11.0
+    ],
+    "MEDIATOR_TO_SHEET4_POINTS": [
+      2.0,
+      9.75
+    ],
+    "NOSE_CENTER_POINTS": [
+      8.25,
+      12.0
+    ],
+    "PLP_CAULDRON_LEFT_DEEPER_POINTS": [
+      2.0,
+      13.5
+    ],
+    "PLP_CAULDRON_LEFT_DEEPEST_POINTS": [
+      2.0,
+      14.75
+    ],
+    "PLP_CAULDRON_LEFT_DEEP_POINTS": [
+      2.0,
+      13.5
+    ],
+    "PLP_CAULDRON_LEFT_POINTS": [
+      2.0,
+      13.5
+    ],
+    "RIGHT_CHOKE_BAND_POINTS": [
+      11.25,
+      9.0
+    ],
+    "RIGHT_D2_NOSE_HEIGHT_POINTS": [
+      14.25,
+      12.75
+    ],
+    "RIGHT_INNER_GLABELLA_POINTS": [
+      8.5,
+      12.0
+    ],
+    "TIME_SENSOR_POINTS": [
+      9.0,
+      14.0
+    ],
+    "VASOPRESSIN_NECKBAND_POINTS": [
+      6.5,
+      5.0
+    ]
+  },
+  "master_lock_reference_path": "Master_Lock_Reference.md"
+}

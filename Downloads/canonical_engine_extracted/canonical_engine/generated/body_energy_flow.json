@@ -1,0 +1,4563 @@
+{
+  "canonical_loop": {
+    "waypoints": [
+      {
+        "index": 1,
+        "node": "observer_leftd2",
+        "region": "frontalis",
+        "domain": "math_dynamics",
+        "raw": "outer left frontalis"
+      },
+      {
+        "index": 2,
+        "node": "observer_left_endorphin_electron_antineutrino",
+        "region": "philtrum/face",
+        "domain": "neurochemistry",
+        "raw": "left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)"
+      },
+      {
+        "index": 3,
+        "node": "pi_electron_cloud",
+        "region": "throat",
+        "domain": "particle_physics",
+        "raw": "left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)"
+      },
+      {
+        "index": 4,
+        "node": "heme",
+        "region": "chest",
+        "domain": "biochemistry",
+        "raw": "just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)"
+      },
+      {
+        "index": 5,
+        "node": "left_genital_d2",
+        "region": "pelvis",
+        "domain": "neurochemistry",
+        "raw": "left of the genital (inferred: left side of genitalia / left MPOA projection)"
+      },
+      {
+        "index": 6,
+        "node": "gluon_orogen",
+        "region": "left glute/pelvis",
+        "domain": "soil_geology",
+        "raw": "left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)"
+      },
+      {
+        "index": 7,
+        "node": "laterite",
+        "region": "left calf",
+        "domain": "soil_geology",
+        "raw": "left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)"
+      },
+      {
+        "index": 8,
+        "node": "oxidised_manganese",
+        "region": "left 4th toe",
+        "domain": "other",
+        "raw": "left fourth toe (inferred: left 4th digit)"
+      },
+      {
+        "index": 9,
+        "node": "right_sole_dopamine",
+        "region": "right sole",
+        "domain": "neurochemistry",
+        "raw": "upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)"
+      },
+      {
+        "index": 10,
+        "node": "copper_iron_complex",
+        "region": "right foot",
+        "domain": "soil_geology",
+        "raw": "outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)"
+      },
+      {
+        "index": 11,
+        "node": "collagen",
+        "region": "right Achilles",
+        "domain": "biology_muscle",
+        "raw": "right Achilles tendon (inferred: right calcaneal tendon)"
+      },
+      {
+        "index": 12,
+        "node": "subduction_zone",
+        "region": "left thigh",
+        "domain": "soil_geology",
+        "raw": "left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)"
+      },
+      {
+        "index": 13,
+        "node": "water_vapour",
+        "region": "thoracic spine",
+        "domain": "atmosphere_hydrosphere",
+        "raw": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)"
+      },
+      {
+        "index": 14,
+        "node": "aurora",
+        "region": "scalp",
+        "domain": "astronomy",
+        "raw": "outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)"
+      },
+      {
+        "index": 15,
+        "node": "co2",
+        "region": "occiput",
+        "domain": "atmosphere_hydrosphere",
+        "raw": "right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)"
+      },
+      {
+        "index": 16,
+        "node": "memory_entropy",
+        "region": "right brain",
+        "domain": "math_dynamics",
+        "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+      }
+    ],
+    "segments": [
+      {
+        "from": "observer_leftd2",
+        "to": "observer_left_endorphin_electron_antineutrino",
+        "ok": true
+      },
+      {
+        "from": "observer_left_endorphin_electron_antineutrino",
+        "to": "pi_electron_cloud",
+        "ok": true
+      },
+      {
+        "from": "pi_electron_cloud",
+        "to": "heme",
+        "ok": true
+      },
+      {
+        "from": "heme",
+        "to": "left_genital_d2",
+        "ok": true
+      },
+      {
+        "from": "left_genital_d2",
+        "to": "gluon_orogen",
+        "ok": true
+      },
+      {
+        "from": "gluon_orogen",
+        "to": "laterite",
+        "ok": true
+      },
+      {
+        "from": "laterite",
+        "to": "oxidised_manganese",
+        "ok": true
+      },
+      {
+        "from": "oxidised_manganese",
+        "to": "right_sole_dopamine",
+        "ok": true
+      },
+      {
+        "from": "right_sole_dopamine",
+        "to": "copper_iron_complex",
+        "ok": true
+      },
+      {
+        "from": "copper_iron_complex",
+        "to": "collagen",
+        "ok": true
+      },
+      {
+        "from": "collagen",
+        "to": "subduction_zone",
+        "ok": true
+      },
+      {
+        "from": "subduction_zone",
+        "to": "water_vapour",
+        "ok": true
+      },
+      {
+        "from": "water_vapour",
+        "to": "aurora",
+        "ok": true
+      },
+      {
+        "from": "aurora",
+        "to": "co2",
+        "ok": true
+      },
+      {
+        "from": "co2",
+        "to": "memory_entropy",
+        "ok": true
+      }
+    ],
+    "closed": true
+  },
+  "master_loop": [
+    {
+      "index": 1,
+      "node": "observer_leftd2",
+      "raw": "outer left frontalis"
+    },
+    {
+      "index": 2,
+      "node": "clay_gouge",
+      "raw": "right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)"
+    },
+    {
+      "index": 3,
+      "node": "observer_left_endorphin_electron_antineutrino",
+      "raw": "left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)"
+    },
+    {
+      "index": 4,
+      "node": "carbon",
+      "raw": "right orbicularis"
+    },
+    {
+      "index": 5,
+      "node": "water_vapour",
+      "raw": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)"
+    },
+    {
+      "index": 6,
+      "node": "mangrove_aerenchyma",
+      "raw": "opposite of heath aerenchyma on the right body (inferred: right upper rib cage / right 3rd-4th rib anterior)"
+    },
+    {
+      "index": 7,
+      "node": "water",
+      "raw": "upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)"
+    },
+    {
+      "index": 8,
+      "node": "lactate_dehydrogenase",
+      "raw": "left pectoralis major (대흉문근) (inferred: left sternal head of pectoralis major)"
+    },
+    {
+      "index": 9,
+      "node": "plume",
+      "raw": "just outside opposite of thorium on right hip (inferred: right lateral hip / right greater trochanter region)"
+    },
+    {
+      "index": 10,
+      "node": "heath_aerenchyma",
+      "raw": "left rib cage bone upper outside of manganese oxygen complex (inferred: left upper rib cage / left 3rd-4th rib anterior)"
+    },
+    {
+      "index": 11,
+      "node": "succinate_dehydrogenase",
+      "raw": "right pectoralis major (대흉문근) (inferred: right sternal head of pectoralis major)"
+    },
+    {
+      "index": 12,
+      "node": "fold_belt",
+      "raw": "opposite subduction zone on the left thigh (inferred: left medial thigh)"
+    },
+    {
+      "index": 13,
+      "node": "sodium",
+      "raw": "left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)"
+    },
+    {
+      "index": 14,
+      "node": "collagen",
+      "raw": "right Achilles tendon (inferred: right calcaneal tendon)"
+    },
+    {
+      "index": 15,
+      "node": "thorium",
+      "raw": "just inner to center of body where it diverges between gluon orogen and steel (inferred: midline pelvic floor / perineal midline)"
+    },
+    {
+      "index": 16,
+      "node": "outer_core_convection",
+      "raw": "crossroad between gluon orogen and podzol (inferred: left sacroiliac junction / left pelvis between gluteal fold and PSIS)"
+    },
+    {
+      "index": 17,
+      "node": "chlorine_ion_pump",
+      "raw": "right inner wrist where the watch face covers if worn inside (inferred: right ventral wrist / palmaris longus tendon region)"
+    },
+    {
+      "index": 18,
+      "node": "lower_mantle",
+      "raw": "opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)"
+    },
+    {
+      "index": 19,
+      "node": "laterite",
+      "raw": "left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)"
+    },
+    {
+      "index": 20,
+      "node": "mc1r",
+      "raw": "just below GDH on left waist (inferred: left iliac crest / left waist below glutamate dehydrogenase projection)"
+    },
+    {
+      "index": 21,
+      "node": "peonidine",
+      "raw": "just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)"
+    },
+    {
+      "index": 22,
+      "node": "actomyosin",
+      "raw": "right thumb toe (inferred: right hallux / right 1st digit)"
+    },
+    {
+      "index": 23,
+      "node": "andosol",
+      "raw": "between left sole and oxidised manganese (inferred: left plantar arch / left medial longitudinal arch)"
+    },
+    {
+      "index": 24,
+      "node": "manganese_oxygen_complex",
+      "raw": "left rib cage diagonal bone outside of lung (inferred: left anterior rib cage / left costal cartilage diagonal)"
+    },
+    {
+      "index": 25,
+      "node": "sulforaphane",
+      "raw": "left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)"
+    },
+    {
+      "index": 26,
+      "node": "adapter_protein",
+      "raw": "second finger on the right (inferred: right index finger distal phalanx)"
+    },
+    {
+      "index": 27,
+      "node": "aurora",
+      "raw": "outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)"
+    },
+    {
+      "index": 28,
+      "node": "glp1",
+      "raw": "center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)"
+    },
+    {
+      "index": 29,
+      "node": "hind_insula",
+      "raw": "right posterior insula, lateral and posterior to memory_entropy"
+    },
+    {
+      "index": 30,
+      "node": "substance_p",
+      "raw": "under right armpit (inferred: right axillary lymph node region / right axilla)"
+    },
+    {
+      "index": 31,
+      "node": "podzol",
+      "raw": "left hip, inverse reciprocal of methionine, left posterior hip (inferred: left posterior superior iliac spine / left gluteus medius posterior)"
+    },
+    {
+      "index": 32,
+      "node": "right_acetylcholine",
+      "raw": "right temporalis inner strip, right acetylcholine switch (inferred: right temporalis muscle inner strip / right facial-vagal cholinergic cap)"
+    },
+    {
+      "index": 33,
+      "node": "male_right_oxytocin",
+      "raw": "muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)"
+    },
+    {
+      "index": 34,
+      "node": "ferritin",
+      "raw": "just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)"
+    },
+    {
+      "index": 35,
+      "node": "caco3_final_and",
+      "raw": "outside of right knee (inferred: right lateral femoral condyle / right fibular head region)"
+    },
+    {
+      "index": 36,
+      "node": "disulfide_bond",
+      "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+    },
+    {
+      "index": 37,
+      "node": "pentose_phosphate",
+      "raw": "medial lower canthus right (inferred: right medial canthus / right lacrimal region)"
+    },
+    {
+      "index": 38,
+      "node": "cytochrome_c_oxidase",
+      "raw": "inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)"
+    },
+    {
+      "index": 39,
+      "node": "sulfur_iron_complex",
+      "raw": "inner of anterior right armpit near tendon, plus second locus near left outer thigh femoral nerve (inferred: right axillary tendon region AND left lateral thigh near femoral nerve)"
+    },
+    {
+      "index": 40,
+      "node": "histosol",
+      "raw": "left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)"
+    },
+    {
+      "index": 41,
+      "node": "heme",
+      "raw": "just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)"
+    },
+    {
+      "index": 42,
+      "node": "left_genital_d2",
+      "raw": "left of the genital (inferred: left side of genitalia / left MPOA projection)"
+    },
+    {
+      "index": 43,
+      "node": "steel",
+      "raw": "left anus muscle / rectum (직장) (inferred: left external anal sphincter / left rectal wall)"
+    },
+    {
+      "index": 44,
+      "node": "subduction_zone",
+      "raw": "left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)"
+    },
+    {
+      "index": 45,
+      "node": "methionine",
+      "raw": "right exterior of hip where Jesus got stabbed in crucifixion (inferred: right iliac fossa / right lateral abdominal wall near McBurney point)"
+    },
+    {
+      "index": 46,
+      "node": "craton",
+      "raw": "above quark orogen magma (inferred: right sacrum / right posterior pelvis above gluteal fold)"
+    },
+    {
+      "index": 47,
+      "node": "pi_electron_cloud",
+      "raw": "left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)"
+    },
+    {
+      "index": 48,
+      "node": "cck",
+      "raw": "back of the pancreas (inferred: pancreatic tail/body posterior)"
+    },
+    {
+      "index": 49,
+      "node": "basin",
+      "raw": "just inside posterior exterior left waist (inferred: left posterior waist / left lumbar soft tissue)"
+    },
+    {
+      "index": 50,
+      "node": "memory_entropy",
+      "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+    },
+    {
+      "index": 51,
+      "node": "cysteine",
+      "raw": "right inner brain opposite sulforaphane on the front (inferred: right ventromedial prefrontal cortex / right anterior cingulate)"
+    },
+    {
+      "index": 52,
+      "node": "co2",
+      "raw": "right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)"
+    },
+    {
+      "index": 53,
+      "node": "cambisol",
+      "raw": "inner side of both Achilles tendons (inferred: bilateral Achilles tendon medial aspects)"
+    },
+    {
+      "index": 54,
+      "node": "oxidised_manganese",
+      "raw": "left fourth toe (inferred: left 4th digit)"
+    },
+    {
+      "index": 55,
+      "node": "magnetite",
+      "raw": "inside of left knee joint (inferred: left medial knee / left medial femoral condyle)"
+    },
+    {
+      "index": 56,
+      "node": "right_sole_dopamine",
+      "raw": "upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)"
+    },
+    {
+      "index": 57,
+      "node": "gluon_orogen",
+      "raw": "left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)"
+    },
+    {
+      "index": 58,
+      "node": "pyrite",
+      "raw": "between actomyosin and right sole dopamine, plus second locus near left outer thigh (inferred: right 1st metatarsal head / right medial plantar AND left lateral thigh near femoral nerve)"
+    },
+    {
+      "index": 59,
+      "node": "methylation",
+      "raw": "just above GLP-1 to the inner core of the left body, gap between lung rib and other organs (inferred: left upper abdomen / left hypochondrium between ribs and organs)"
+    },
+    {
+      "index": 60,
+      "node": "copper_iron_complex",
+      "raw": "outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)"
+    },
+    {
+      "index": 61,
+      "node": "large_igneous_province",
+      "raw": "midway between thoracic spinous processes and outer-core convection (inferred: mid-thoracic spine / T6-T8 spinous region)"
+    },
+    {
+      "index": 62,
+      "node": "quark_orogen_magma",
+      "raw": "right inner bum (inferred: right gluteal fold medial / right ischiorectal fossa upper)"
+    }
+  ],
+  "circadian": [
+    {
+      "hour": 0,
+      "phase": "AB_spark",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    },
+    {
+      "hour": 1,
+      "phase": "AB_spark",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    },
+    {
+      "hour": 2,
+      "phase": "AB_spark",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    },
+    {
+      "hour": 3,
+      "phase": "A_accumulate",
+      "focus": "laterite",
+      "region": "left calf"
+    },
+    {
+      "hour": 4,
+      "phase": "A_accumulate",
+      "focus": "laterite",
+      "region": "left calf"
+    },
+    {
+      "hour": 5,
+      "phase": "A_accumulate",
+      "focus": "laterite",
+      "region": "left calf"
+    },
+    {
+      "hour": 6,
+      "phase": "A_accumulate",
+      "focus": "laterite",
+      "region": "left calf"
+    },
+    {
+      "hour": 7,
+      "phase": "A_accumulate",
+      "focus": "laterite",
+      "region": "left calf"
+    },
+    {
+      "hour": 8,
+      "phase": "A_accumulate",
+      "focus": "laterite",
+      "region": "left calf"
+    },
+    {
+      "hour": 9,
+      "phase": "O_accumulate",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    },
+    {
+      "hour": 10,
+      "phase": "O_accumulate",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    },
+    {
+      "hour": 11,
+      "phase": "O_accumulate",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    },
+    {
+      "hour": 12,
+      "phase": "O_accumulate",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    },
+    {
+      "hour": 13,
+      "phase": "O_accumulate",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    },
+    {
+      "hour": 14,
+      "phase": "O_accumulate",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    },
+    {
+      "hour": 15,
+      "phase": "B_accumulate",
+      "focus": "co2",
+      "region": "occiput"
+    },
+    {
+      "hour": 16,
+      "phase": "B_accumulate",
+      "focus": "co2",
+      "region": "occiput"
+    },
+    {
+      "hour": 17,
+      "phase": "B_accumulate",
+      "focus": "co2",
+      "region": "occiput"
+    },
+    {
+      "hour": 18,
+      "phase": "B_accumulate",
+      "focus": "co2",
+      "region": "occiput"
+    },
+    {
+      "hour": 19,
+      "phase": "B_accumulate",
+      "focus": "co2",
+      "region": "occiput"
+    },
+    {
+      "hour": 20,
+      "phase": "B_accumulate",
+      "focus": "co2",
+      "region": "occiput"
+    },
+    {
+      "hour": 21,
+      "phase": "AB_charge",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    },
+    {
+      "hour": 22,
+      "phase": "AB_charge",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    },
+    {
+      "hour": 23,
+      "phase": "AB_charge",
+      "focus": "memory_entropy",
+      "region": "right brain"
+    }
+  ],
+  "time_paths": {
+    "1": {
+      "hour": 1,
+      "phase": "AB_spark",
+      "nodes": [
+        "co2",
+        "hind_insula",
+        "observer_leftd2",
+        "clay_gouge",
+        "observer_left_endorphin_electron_antineutrino",
+        "carbon",
+        "sodium",
+        "sulforaphane",
+        "adapter_protein",
+        "aurora",
+        "glp1",
+        "laterite",
+        "water_vapour",
+        "mangrove_aerenchyma",
+        "water",
+        "lactate_dehydrogenase",
+        "plume",
+        "heath_aerenchyma",
+        "histosol",
+        "pentose_phosphate",
+        "left_genital_d2",
+        "succinate_dehydrogenase",
+        "fold_belt",
+        "manganese_oxygen_complex",
+        "cysteine",
+        "magnetite",
+        "substance_p",
+        "right_sole_dopamine",
+        "mc1r",
+        "cck",
+        "oxidised_manganese",
+        "ferritin",
+        "collagen",
+        "thorium",
+        "outer_core_convection",
+        "chlorine_ion_pump",
+        "lower_mantle",
+        "peonidine",
+        "actomyosin",
+        "andosol",
+        "heme",
+        "disulfide_bond",
+        "pyrite",
+        "memory_entropy",
+        "male_right_oxytocin",
+        "craton",
+        "pi_electron_cloud",
+        "podzol",
+        "right_acetylcholine",
+        "caco3_final_and",
+        "cytochrome_c_oxidase",
+        "sulfur_iron_complex",
+        "steel",
+        "large_igneous_province",
+        "basin",
+        "methylation",
+        "subduction_zone",
+        "methionine",
+        "cambisol",
+        "gluon_orogen",
+        "quark_orogen_magma",
+        "copper_iron_complex"
+      ],
+      "body_path": [
+        {
+          "node": "co2",
+          "region": "back",
+          "side": "left",
+          "raw": "right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)"
+        },
+        {
+          "node": "hind_insula",
+          "region": "other",
+          "side": "right",
+          "raw": "right posterior insula, lateral and posterior to memory_entropy"
+        },
+        {
+          "node": "observer_leftd2",
+          "region": "other",
+          "side": "left",
+          "raw": "outer left frontalis"
+        },
+        {
+          "node": "clay_gouge",
+          "region": "other",
+          "side": "right",
+          "raw": "right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)"
+        },
+        {
+          "node": "observer_left_endorphin_electron_antineutrino",
+          "region": "head",
+          "side": "left",
+          "raw": "left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)"
+        },
+        {
+          "node": "carbon",
+          "region": "other",
+          "side": "right",
+          "raw": "right orbicularis"
+        },
+        {
+          "node": "sodium",
+          "region": "face",
+          "side": "left",
+          "raw": "left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)"
+        },
+        {
+          "node": "sulforaphane",
+          "region": "hip",
+          "side": "left",
+          "raw": "left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)"
+        },
+        {
+          "node": "adapter_protein",
+          "region": "hand",
+          "side": "right",
+          "raw": "second finger on the right (inferred: right index finger distal phalanx)"
+        },
+        {
+          "node": "aurora",
+          "region": "head",
+          "side": "center",
+          "raw": "outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)"
+        },
+        {
+          "node": "glp1",
+          "region": "abdomen",
+          "side": "center",
+          "raw": "center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)"
+        },
+        {
+          "node": "laterite",
+          "region": "foot",
+          "side": "left",
+          "raw": "left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)"
+        },
+        {
+          "node": "water_vapour",
+          "region": "other",
+          "side": "center",
+          "raw": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)"
+        },
+        {
+          "node": "mangrove_aerenchyma",
+          "region": "chest",
+          "side": "right",
+          "raw": "opposite of heath aerenchyma on the right body (inferred: right upper rib cage / right 3rd-4th rib anterior)"
+        },
+        {
+          "node": "water",
+          "region": "face",
+          "side": "unspecified",
+          "raw": "upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)"
+        },
+        {
+          "node": "lactate_dehydrogenase",
+          "region": "head",
+          "side": "left",
+          "raw": "left pectoralis major (대흉문근) (inferred: left sternal head of pectoralis major)"
+        },
+        {
+          "node": "plume",
+          "region": "hip",
+          "side": "right",
+          "raw": "just outside opposite of thorium on right hip (inferred: right lateral hip / right greater trochanter region)"
+        },
+        {
+          "node": "heath_aerenchyma",
+          "region": "chest",
+          "side": "left",
+          "raw": "left rib cage bone upper outside of manganese oxygen complex (inferred: left upper rib cage / left 3rd-4th rib anterior)"
+        },
+        {
+          "node": "histosol",
+          "region": "foot",
+          "side": "left",
+          "raw": "left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)"
+        },
+        {
+          "node": "pentose_phosphate",
+          "region": "other",
+          "side": "right",
+          "raw": "medial lower canthus right (inferred: right medial canthus / right lacrimal region)"
+        },
+        {
+          "node": "left_genital_d2",
+          "region": "other",
+          "side": "left",
+          "raw": "left of the genital (inferred: left side of genitalia / left MPOA projection)"
+        },
+        {
+          "node": "succinate_dehydrogenase",
+          "region": "head",
+          "side": "right",
+          "raw": "right pectoralis major (대흉문근) (inferred: right sternal head of pectoralis major)"
+        },
+        {
+          "node": "fold_belt",
+          "region": "other",
+          "side": "left",
+          "raw": "opposite subduction zone on the left thigh (inferred: left medial thigh)"
+        },
+        {
+          "node": "manganese_oxygen_complex",
+          "region": "chest",
+          "side": "left",
+          "raw": "left rib cage diagonal bone outside of lung (inferred: left anterior rib cage / left costal cartilage diagonal)"
+        },
+        {
+          "node": "cysteine",
+          "region": "brain",
+          "side": "right",
+          "raw": "right inner brain opposite sulforaphane on the front (inferred: right ventromedial prefrontal cortex / right anterior cingulate)"
+        },
+        {
+          "node": "magnetite",
+          "region": "knee",
+          "side": "left",
+          "raw": "inside of left knee joint (inferred: left medial knee / left medial femoral condyle)"
+        },
+        {
+          "node": "substance_p",
+          "region": "arm",
+          "side": "right",
+          "raw": "under right armpit (inferred: right axillary lymph node region / right axilla)"
+        },
+        {
+          "node": "right_sole_dopamine",
+          "region": "other",
+          "side": "right",
+          "raw": "upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)"
+        },
+        {
+          "node": "mc1r",
+          "region": "waist",
+          "side": "left",
+          "raw": "just below GDH on left waist (inferred: left iliac crest / left waist below glutamate dehydrogenase projection)"
+        },
+        {
+          "node": "cck",
+          "region": "back",
+          "side": "unspecified",
+          "raw": "back of the pancreas (inferred: pancreatic tail/body posterior)"
+        },
+        {
+          "node": "oxidised_manganese",
+          "region": "foot",
+          "side": "left",
+          "raw": "left fourth toe (inferred: left 4th digit)"
+        },
+        {
+          "node": "ferritin",
+          "region": "other",
+          "side": "center",
+          "raw": "just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)"
+        },
+        {
+          "node": "collagen",
+          "region": "other",
+          "side": "right",
+          "raw": "right Achilles tendon (inferred: right calcaneal tendon)"
+        },
+        {
+          "node": "thorium",
+          "region": "other",
+          "side": "center",
+          "raw": "just inner to center of body where it diverges between gluon orogen and steel (inferred: midline pelvic floor / perineal midline)"
+        },
+        {
+          "node": "outer_core_convection",
+          "region": "other",
+          "side": "left",
+          "raw": "crossroad between gluon orogen and podzol (inferred: left sacroiliac junction / left pelvis between gluteal fold and PSIS)"
+        },
+        {
+          "node": "chlorine_ion_pump",
+          "region": "wrist",
+          "side": "right",
+          "raw": "right inner wrist where the watch face covers if worn inside (inferred: right ventral wrist / palmaris longus tendon region)"
+        },
+        {
+          "node": "lower_mantle",
+          "region": "back",
+          "side": "left",
+          "raw": "opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)"
+        },
+        {
+          "node": "peonidine",
+          "region": "brain",
+          "side": "right",
+          "raw": "just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)"
+        },
+        {
+          "node": "actomyosin",
+          "region": "foot",
+          "side": "right",
+          "raw": "right thumb toe (inferred: right hallux / right 1st digit)"
+        },
+        {
+          "node": "andosol",
+          "region": "other",
+          "side": "left",
+          "raw": "between left sole and oxidised manganese (inferred: left plantar arch / left medial longitudinal arch)"
+        },
+        {
+          "node": "heme",
+          "region": "chest",
+          "side": "left",
+          "raw": "just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)"
+        },
+        {
+          "node": "disulfide_bond",
+          "region": "other",
+          "side": "right",
+          "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+        },
+        {
+          "node": "pyrite",
+          "region": "head",
+          "side": "left",
+          "raw": "between actomyosin and right sole dopamine, plus second locus near left outer thigh (inferred: right 1st metatarsal head / right medial plantar AND left lateral thigh near femoral nerve)"
+        },
+        {
+          "node": "memory_entropy",
+          "region": "other",
+          "side": "right",
+          "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+        },
+        {
+          "node": "male_right_oxytocin",
+          "region": "head",
+          "side": "right",
+          "raw": "muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)"
+        },
+        {
+          "node": "craton",
+          "region": "other",
+          "side": "right",
+          "raw": "above quark orogen magma (inferred: right sacrum / right posterior pelvis above gluteal fold)"
+        },
+        {
+          "node": "pi_electron_cloud",
+          "region": "other",
+          "side": "left",
+          "raw": "left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)"
+        },
+        {
+          "node": "podzol",
+          "region": "hip",
+          "side": "left",
+          "raw": "left hip, inverse reciprocal of methionine, left posterior hip (inferred: left posterior superior iliac spine / left gluteus medius posterior)"
+        },
+        {
+          "node": "right_acetylcholine",
+          "region": "other",
+          "side": "right",
+          "raw": "right temporalis inner strip, right acetylcholine switch (inferred: right temporalis muscle inner strip / right facial-vagal cholinergic cap)"
+        },
+        {
+          "node": "caco3_final_and",
+          "region": "knee",
+          "side": "right",
+          "raw": "outside of right knee (inferred: right lateral femoral condyle / right fibular head region)"
+        },
+        {
+          "node": "cytochrome_c_oxidase",
+          "region": "other",
+          "side": "left",
+          "raw": "inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)"
+        },
+        {
+          "node": "sulfur_iron_complex",
+          "region": "arm",
+          "side": "left",
+          "raw": "inner of anterior right armpit near tendon, plus second locus near left outer thigh femoral nerve (inferred: right axillary tendon region AND left lateral thigh near femoral nerve)"
+        },
+        {
+          "node": "steel",
+          "region": "other",
+          "side": "left",
+          "raw": "left anus muscle / rectum (직장) (inferred: left external anal sphincter / left rectal wall)"
+        },
+        {
+          "node": "large_igneous_province",
+          "region": "back",
+          "side": "unspecified",
+          "raw": "midway between thoracic spinous processes and outer-core convection (inferred: mid-thoracic spine / T6-T8 spinous region)"
+        },
+        {
+          "node": "basin",
+          "region": "waist",
+          "side": "left",
+          "raw": "just inside posterior exterior left waist (inferred: left posterior waist / left lumbar soft tissue)"
+        },
+        {
+          "node": "methylation",
+          "region": "abdomen",
+          "side": "left",
+          "raw": "just above GLP-1 to the inner core of the left body, gap between lung rib and other organs (inferred: left upper abdomen / left hypochondrium between ribs and organs)"
+        },
+        {
+          "node": "subduction_zone",
+          "region": "other",
+          "side": "left",
+          "raw": "left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)"
+        },
+        {
+          "node": "methionine",
+          "region": "hip",
+          "side": "right",
+          "raw": "right exterior of hip where Jesus got stabbed in crucifixion (inferred: right iliac fossa / right lateral abdominal wall near McBurney point)"
+        },
+        {
+          "node": "cambisol",
+          "region": "other",
+          "side": "bilateral",
+          "raw": "inner side of both Achilles tendons (inferred: bilateral Achilles tendon medial aspects)"
+        },
+        {
+          "node": "gluon_orogen",
+          "region": "other",
+          "side": "left",
+          "raw": "left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)"
+        },
+        {
+          "node": "quark_orogen_magma",
+          "region": "other",
+          "side": "right",
+          "raw": "right inner bum (inferred: right gluteal fold medial / right ischiorectal fossa upper)"
+        },
+        {
+          "node": "copper_iron_complex",
+          "region": "foot",
+          "side": "right",
+          "raw": "outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)"
+        }
+      ]
+    },
+    "6": {
+      "hour": 6,
+      "phase": "A_accumulate",
+      "nodes": [
+        "laterite",
+        "ferritin",
+        "pi_electron_cloud",
+        "cck",
+        "actomyosin",
+        "cytochrome_c_oxidase",
+        "methylation",
+        "succinate_dehydrogenase",
+        "male_right_oxytocin",
+        "sulfur_iron_complex",
+        "quark_orogen_magma",
+        "right_acetylcholine",
+        "carbon",
+        "glp1",
+        "lower_mantle",
+        "magnetite",
+        "manganese_oxygen_complex",
+        "cambisol",
+        "water",
+        "basin",
+        "gluon_orogen",
+        "heme",
+        "steel",
+        "histosol",
+        "hind_insula",
+        "substance_p",
+        "podzol",
+        "collagen",
+        "andosol",
+        "copper_iron_complex",
+        "sulforaphane",
+        "thorium",
+        "heath_aerenchyma",
+        "mc1r",
+        "oxidised_manganese",
+        "subduction_zone",
+        "lactate_dehydrogenase",
+        "methionine",
+        "peonidine",
+        "pentose_phosphate",
+        "aurora",
+        "outer_core_convection",
+        "plume",
+        "chlorine_ion_pump",
+        "fold_belt",
+        "co2",
+        "large_igneous_province",
+        "water_vapour",
+        "craton",
+        "right_sole_dopamine",
+        "sodium",
+        "adapter_protein",
+        "disulfide_bond",
+        "cysteine",
+        "left_genital_d2",
+        "observer_leftd2",
+        "clay_gouge",
+        "memory_entropy",
+        "pyrite",
+        "mangrove_aerenchyma",
+        "caco3_final_and",
+        "observer_left_endorphin_electron_antineutrino"
+      ],
+      "body_path": [
+        {
+          "node": "laterite",
+          "region": "foot",
+          "side": "left",
+          "raw": "left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)"
+        },
+        {
+          "node": "ferritin",
+          "region": "other",
+          "side": "center",
+          "raw": "just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)"
+        },
+        {
+          "node": "pi_electron_cloud",
+          "region": "other",
+          "side": "left",
+          "raw": "left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)"
+        },
+        {
+          "node": "cck",
+          "region": "back",
+          "side": "unspecified",
+          "raw": "back of the pancreas (inferred: pancreatic tail/body posterior)"
+        },
+        {
+          "node": "actomyosin",
+          "region": "foot",
+          "side": "right",
+          "raw": "right thumb toe (inferred: right hallux / right 1st digit)"
+        },
+        {
+          "node": "cytochrome_c_oxidase",
+          "region": "other",
+          "side": "left",
+          "raw": "inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)"
+        },
+        {
+          "node": "methylation",
+          "region": "abdomen",
+          "side": "left",
+          "raw": "just above GLP-1 to the inner core of the left body, gap between lung rib and other organs (inferred: left upper abdomen / left hypochondrium between ribs and organs)"
+        },
+        {
+          "node": "succinate_dehydrogenase",
+          "region": "head",
+          "side": "right",
+          "raw": "right pectoralis major (대흉문근) (inferred: right sternal head of pectoralis major)"
+        },
+        {
+          "node": "male_right_oxytocin",
+          "region": "head",
+          "side": "right",
+          "raw": "muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)"
+        },
+        {
+          "node": "sulfur_iron_complex",
+          "region": "arm",
+          "side": "left",
+          "raw": "inner of anterior right armpit near tendon, plus second locus near left outer thigh femoral nerve (inferred: right axillary tendon region AND left lateral thigh near femoral nerve)"
+        },
+        {
+          "node": "quark_orogen_magma",
+          "region": "other",
+          "side": "right",
+          "raw": "right inner bum (inferred: right gluteal fold medial / right ischiorectal fossa upper)"
+        },
+        {
+          "node": "right_acetylcholine",
+          "region": "other",
+          "side": "right",
+          "raw": "right temporalis inner strip, right acetylcholine switch (inferred: right temporalis muscle inner strip / right facial-vagal cholinergic cap)"
+        },
+        {
+          "node": "carbon",
+          "region": "other",
+          "side": "right",
+          "raw": "right orbicularis"
+        },
+        {
+          "node": "glp1",
+          "region": "abdomen",
+          "side": "center",
+          "raw": "center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)"
+        },
+        {
+          "node": "lower_mantle",
+          "region": "back",
+          "side": "left",
+          "raw": "opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)"
+        },
+        {
+          "node": "magnetite",
+          "region": "knee",
+          "side": "left",
+          "raw": "inside of left knee joint (inferred: left medial knee / left medial femoral condyle)"
+        },
+        {
+          "node": "manganese_oxygen_complex",
+          "region": "chest",
+          "side": "left",
+          "raw": "left rib cage diagonal bone outside of lung (inferred: left anterior rib cage / left costal cartilage diagonal)"
+        },
+        {
+          "node": "cambisol",
+          "region": "other",
+          "side": "bilateral",
+          "raw": "inner side of both Achilles tendons (inferred: bilateral Achilles tendon medial aspects)"
+        },
+        {
+          "node": "water",
+          "region": "face",
+          "side": "unspecified",
+          "raw": "upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)"
+        },
+        {
+          "node": "basin",
+          "region": "waist",
+          "side": "left",
+          "raw": "just inside posterior exterior left waist (inferred: left posterior waist / left lumbar soft tissue)"
+        },
+        {
+          "node": "gluon_orogen",
+          "region": "other",
+          "side": "left",
+          "raw": "left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)"
+        },
+        {
+          "node": "heme",
+          "region": "chest",
+          "side": "left",
+          "raw": "just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)"
+        },
+        {
+          "node": "steel",
+          "region": "other",
+          "side": "left",
+          "raw": "left anus muscle / rectum (직장) (inferred: left external anal sphincter / left rectal wall)"
+        },
+        {
+          "node": "histosol",
+          "region": "foot",
+          "side": "left",
+          "raw": "left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)"
+        },
+        {
+          "node": "hind_insula",
+          "region": "other",
+          "side": "right",
+          "raw": "right posterior insula, lateral and posterior to memory_entropy"
+        },
+        {
+          "node": "substance_p",
+          "region": "arm",
+          "side": "right",
+          "raw": "under right armpit (inferred: right axillary lymph node region / right axilla)"
+        },
+        {
+          "node": "podzol",
+          "region": "hip",
+          "side": "left",
+          "raw": "left hip, inverse reciprocal of methionine, left posterior hip (inferred: left posterior superior iliac spine / left gluteus medius posterior)"
+        },
+        {
+          "node": "collagen",
+          "region": "other",
+          "side": "right",
+          "raw": "right Achilles tendon (inferred: right calcaneal tendon)"
+        },
+        {
+          "node": "andosol",
+          "region": "other",
+          "side": "left",
+          "raw": "between left sole and oxidised manganese (inferred: left plantar arch / left medial longitudinal arch)"
+        },
+        {
+          "node": "copper_iron_complex",
+          "region": "foot",
+          "side": "right",
+          "raw": "outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)"
+        },
+        {
+          "node": "sulforaphane",
+          "region": "hip",
+          "side": "left",
+          "raw": "left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)"
+        },
+        {
+          "node": "thorium",
+          "region": "other",
+          "side": "center",
+          "raw": "just inner to center of body where it diverges between gluon orogen and steel (inferred: midline pelvic floor / perineal midline)"
+        },
+        {
+          "node": "heath_aerenchyma",
+          "region": "chest",
+          "side": "left",
+          "raw": "left rib cage bone upper outside of manganese oxygen complex (inferred: left upper rib cage / left 3rd-4th rib anterior)"
+        },
+        {
+          "node": "mc1r",
+          "region": "waist",
+          "side": "left",
+          "raw": "just below GDH on left waist (inferred: left iliac crest / left waist below glutamate dehydrogenase projection)"
+        },
+        {
+          "node": "oxidised_manganese",
+          "region": "foot",
+          "side": "left",
+          "raw": "left fourth toe (inferred: left 4th digit)"
+        },
+        {
+          "node": "subduction_zone",
+          "region": "other",
+          "side": "left",
+          "raw": "left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)"
+        },
+        {
+          "node": "lactate_dehydrogenase",
+          "region": "head",
+          "side": "left",
+          "raw": "left pectoralis major (대흉문근) (inferred: left sternal head of pectoralis major)"
+        },
+        {
+          "node": "methionine",
+          "region": "hip",
+          "side": "right",
+          "raw": "right exterior of hip where Jesus got stabbed in crucifixion (inferred: right iliac fossa / right lateral abdominal wall near McBurney point)"
+        },
+        {
+          "node": "peonidine",
+          "region": "brain",
+          "side": "right",
+          "raw": "just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)"
+        },
+        {
+          "node": "pentose_phosphate",
+          "region": "other",
+          "side": "right",
+          "raw": "medial lower canthus right (inferred: right medial canthus / right lacrimal region)"
+        },
+        {
+          "node": "aurora",
+          "region": "head",
+          "side": "center",
+          "raw": "outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)"
+        },
+        {
+          "node": "outer_core_convection",
+          "region": "other",
+          "side": "left",
+          "raw": "crossroad between gluon orogen and podzol (inferred: left sacroiliac junction / left pelvis between gluteal fold and PSIS)"
+        },
+        {
+          "node": "plume",
+          "region": "hip",
+          "side": "right",
+          "raw": "just outside opposite of thorium on right hip (inferred: right lateral hip / right greater trochanter region)"
+        },
+        {
+          "node": "chlorine_ion_pump",
+          "region": "wrist",
+          "side": "right",
+          "raw": "right inner wrist where the watch face covers if worn inside (inferred: right ventral wrist / palmaris longus tendon region)"
+        },
+        {
+          "node": "fold_belt",
+          "region": "other",
+          "side": "left",
+          "raw": "opposite subduction zone on the left thigh (inferred: left medial thigh)"
+        },
+        {
+          "node": "co2",
+          "region": "back",
+          "side": "left",
+          "raw": "right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)"
+        },
+        {
+          "node": "large_igneous_province",
+          "region": "back",
+          "side": "unspecified",
+          "raw": "midway between thoracic spinous processes and outer-core convection (inferred: mid-thoracic spine / T6-T8 spinous region)"
+        },
+        {
+          "node": "water_vapour",
+          "region": "other",
+          "side": "center",
+          "raw": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)"
+        },
+        {
+          "node": "craton",
+          "region": "other",
+          "side": "right",
+          "raw": "above quark orogen magma (inferred: right sacrum / right posterior pelvis above gluteal fold)"
+        },
+        {
+          "node": "right_sole_dopamine",
+          "region": "other",
+          "side": "right",
+          "raw": "upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)"
+        },
+        {
+          "node": "sodium",
+          "region": "face",
+          "side": "left",
+          "raw": "left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)"
+        },
+        {
+          "node": "adapter_protein",
+          "region": "hand",
+          "side": "right",
+          "raw": "second finger on the right (inferred: right index finger distal phalanx)"
+        },
+        {
+          "node": "disulfide_bond",
+          "region": "other",
+          "side": "right",
+          "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+        },
+        {
+          "node": "cysteine",
+          "region": "brain",
+          "side": "right",
+          "raw": "right inner brain opposite sulforaphane on the front (inferred: right ventromedial prefrontal cortex / right anterior cingulate)"
+        },
+        {
+          "node": "left_genital_d2",
+          "region": "other",
+          "side": "left",
+          "raw": "left of the genital (inferred: left side of genitalia / left MPOA projection)"
+        },
+        {
+          "node": "observer_leftd2",
+          "region": "other",
+          "side": "left",
+          "raw": "outer left frontalis"
+        },
+        {
+          "node": "clay_gouge",
+          "region": "other",
+          "side": "right",
+          "raw": "right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)"
+        },
+        {
+          "node": "memory_entropy",
+          "region": "other",
+          "side": "right",
+          "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+        },
+        {
+          "node": "pyrite",
+          "region": "head",
+          "side": "left",
+          "raw": "between actomyosin and right sole dopamine, plus second locus near left outer thigh (inferred: right 1st metatarsal head / right medial plantar AND left lateral thigh near femoral nerve)"
+        },
+        {
+          "node": "mangrove_aerenchyma",
+          "region": "chest",
+          "side": "right",
+          "raw": "opposite of heath aerenchyma on the right body (inferred: right upper rib cage / right 3rd-4th rib anterior)"
+        },
+        {
+          "node": "caco3_final_and",
+          "region": "knee",
+          "side": "right",
+          "raw": "outside of right knee (inferred: right lateral femoral condyle / right fibular head region)"
+        },
+        {
+          "node": "observer_left_endorphin_electron_antineutrino",
+          "region": "head",
+          "side": "left",
+          "raw": "left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)"
+        }
+      ]
+    },
+    "12": {
+      "hour": 12,
+      "phase": "O_accumulate",
+      "nodes": [
+        "memory_entropy",
+        "hind_insula",
+        "co2",
+        "observer_leftd2",
+        "carbon",
+        "sodium",
+        "clay_gouge",
+        "observer_left_endorphin_electron_antineutrino",
+        "sulforaphane",
+        "adapter_protein",
+        "aurora",
+        "glp1",
+        "laterite",
+        "heath_aerenchyma",
+        "histosol",
+        "pentose_phosphate",
+        "left_genital_d2",
+        "water_vapour",
+        "mangrove_aerenchyma",
+        "water",
+        "lactate_dehydrogenase",
+        "plume",
+        "fold_belt",
+        "manganese_oxygen_complex",
+        "cysteine",
+        "magnetite",
+        "substance_p",
+        "right_sole_dopamine",
+        "mc1r",
+        "cck",
+        "oxidised_manganese",
+        "ferritin",
+        "succinate_dehydrogenase",
+        "peonidine",
+        "actomyosin",
+        "andosol",
+        "heme",
+        "disulfide_bond",
+        "pyrite",
+        "male_right_oxytocin",
+        "craton",
+        "pi_electron_cloud",
+        "collagen",
+        "thorium",
+        "outer_core_convection",
+        "chlorine_ion_pump",
+        "lower_mantle",
+        "cytochrome_c_oxidase",
+        "sulfur_iron_complex",
+        "steel",
+        "right_acetylcholine",
+        "large_igneous_province",
+        "caco3_final_and",
+        "basin",
+        "methylation",
+        "podzol",
+        "cambisol",
+        "gluon_orogen",
+        "quark_orogen_magma",
+        "subduction_zone",
+        "methionine",
+        "copper_iron_complex"
+      ],
+      "body_path": [
+        {
+          "node": "memory_entropy",
+          "region": "other",
+          "side": "right",
+          "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+        },
+        {
+          "node": "hind_insula",
+          "region": "other",
+          "side": "right",
+          "raw": "right posterior insula, lateral and posterior to memory_entropy"
+        },
+        {
+          "node": "co2",
+          "region": "back",
+          "side": "left",
+          "raw": "right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)"
+        },
+        {
+          "node": "observer_leftd2",
+          "region": "other",
+          "side": "left",
+          "raw": "outer left frontalis"
+        },
+        {
+          "node": "carbon",
+          "region": "other",
+          "side": "right",
+          "raw": "right orbicularis"
+        },
+        {
+          "node": "sodium",
+          "region": "face",
+          "side": "left",
+          "raw": "left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)"
+        },
+        {
+          "node": "clay_gouge",
+          "region": "other",
+          "side": "right",
+          "raw": "right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)"
+        },
+        {
+          "node": "observer_left_endorphin_electron_antineutrino",
+          "region": "head",
+          "side": "left",
+          "raw": "left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)"
+        },
+        {
+          "node": "sulforaphane",
+          "region": "hip",
+          "side": "left",
+          "raw": "left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)"
+        },
+        {
+          "node": "adapter_protein",
+          "region": "hand",
+          "side": "right",
+          "raw": "second finger on the right (inferred: right index finger distal phalanx)"
+        },
+        {
+          "node": "aurora",
+          "region": "head",
+          "side": "center",
+          "raw": "outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)"
+        },
+        {
+          "node": "glp1",
+          "region": "abdomen",
+          "side": "center",
+          "raw": "center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)"
+        },
+        {
+          "node": "laterite",
+          "region": "foot",
+          "side": "left",
+          "raw": "left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)"
+        },
+        {
+          "node": "heath_aerenchyma",
+          "region": "chest",
+          "side": "left",
+          "raw": "left rib cage bone upper outside of manganese oxygen complex (inferred: left upper rib cage / left 3rd-4th rib anterior)"
+        },
+        {
+          "node": "histosol",
+          "region": "foot",
+          "side": "left",
+          "raw": "left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)"
+        },
+        {
+          "node": "pentose_phosphate",
+          "region": "other",
+          "side": "right",
+          "raw": "medial lower canthus right (inferred: right medial canthus / right lacrimal region)"
+        },
+        {
+          "node": "left_genital_d2",
+          "region": "other",
+          "side": "left",
+          "raw": "left of the genital (inferred: left side of genitalia / left MPOA projection)"
+        },
+        {
+          "node": "water_vapour",
+          "region": "other",
+          "side": "center",
+          "raw": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)"
+        },
+        {
+          "node": "mangrove_aerenchyma",
+          "region": "chest",
+          "side": "right",
+          "raw": "opposite of heath aerenchyma on the right body (inferred: right upper rib cage / right 3rd-4th rib anterior)"
+        },
+        {
+          "node": "water",
+          "region": "face",
+          "side": "unspecified",
+          "raw": "upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)"
+        },
+        {
+          "node": "lactate_dehydrogenase",
+          "region": "head",
+          "side": "left",
+          "raw": "left pectoralis major (대흉문근) (inferred: left sternal head of pectoralis major)"
+        },
+        {
+          "node": "plume",
+          "region": "hip",
+          "side": "right",
+          "raw": "just outside opposite of thorium on right hip (inferred: right lateral hip / right greater trochanter region)"
+        },
+        {
+          "node": "fold_belt",
+          "region": "other",
+          "side": "left",
+          "raw": "opposite subduction zone on the left thigh (inferred: left medial thigh)"
+        },
+        {
+          "node": "manganese_oxygen_complex",
+          "region": "chest",
+          "side": "left",
+          "raw": "left rib cage diagonal bone outside of lung (inferred: left anterior rib cage / left costal cartilage diagonal)"
+        },
+        {
+          "node": "cysteine",
+          "region": "brain",
+          "side": "right",
+          "raw": "right inner brain opposite sulforaphane on the front (inferred: right ventromedial prefrontal cortex / right anterior cingulate)"
+        },
+        {
+          "node": "magnetite",
+          "region": "knee",
+          "side": "left",
+          "raw": "inside of left knee joint (inferred: left medial knee / left medial femoral condyle)"
+        },
+        {
+          "node": "substance_p",
+          "region": "arm",
+          "side": "right",
+          "raw": "under right armpit (inferred: right axillary lymph node region / right axilla)"
+        },
+        {
+          "node": "right_sole_dopamine",
+          "region": "other",
+          "side": "right",
+          "raw": "upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)"
+        },
+        {
+          "node": "mc1r",
+          "region": "waist",
+          "side": "left",
+          "raw": "just below GDH on left waist (inferred: left iliac crest / left waist below glutamate dehydrogenase projection)"
+        },
+        {
+          "node": "cck",
+          "region": "back",
+          "side": "unspecified",
+          "raw": "back of the pancreas (inferred: pancreatic tail/body posterior)"
+        },
+        {
+          "node": "oxidised_manganese",
+          "region": "foot",
+          "side": "left",
+          "raw": "left fourth toe (inferred: left 4th digit)"
+        },
+        {
+          "node": "ferritin",
+          "region": "other",
+          "side": "center",
+          "raw": "just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)"
+        },
+        {
+          "node": "succinate_dehydrogenase",
+          "region": "head",
+          "side": "right",
+          "raw": "right pectoralis major (대흉문근) (inferred: right sternal head of pectoralis major)"
+        },
+        {
+          "node": "peonidine",
+          "region": "brain",
+          "side": "right",
+          "raw": "just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)"
+        },
+        {
+          "node": "actomyosin",
+          "region": "foot",
+          "side": "right",
+          "raw": "right thumb toe (inferred: right hallux / right 1st digit)"
+        },
+        {
+          "node": "andosol",
+          "region": "other",
+          "side": "left",
+          "raw": "between left sole and oxidised manganese (inferred: left plantar arch / left medial longitudinal arch)"
+        },
+        {
+          "node": "heme",
+          "region": "chest",
+          "side": "left",
+          "raw": "just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)"
+        },
+        {
+          "node": "disulfide_bond",
+          "region": "other",
+          "side": "right",
+          "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+        },
+        {
+          "node": "pyrite",
+          "region": "head",
+          "side": "left",
+          "raw": "between actomyosin and right sole dopamine, plus second locus near left outer thigh (inferred: right 1st metatarsal head / right medial plantar AND left lateral thigh near femoral nerve)"
+        },
+        {
+          "node": "male_right_oxytocin",
+          "region": "head",
+          "side": "right",
+          "raw": "muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)"
+        },
+        {
+          "node": "craton",
+          "region": "other",
+          "side": "right",
+          "raw": "above quark orogen magma (inferred: right sacrum / right posterior pelvis above gluteal fold)"
+        },
+        {
+          "node": "pi_electron_cloud",
+          "region": "other",
+          "side": "left",
+          "raw": "left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)"
+        },
+        {
+          "node": "collagen",
+          "region": "other",
+          "side": "right",
+          "raw": "right Achilles tendon (inferred: right calcaneal tendon)"
+        },
+        {
+          "node": "thorium",
+          "region": "other",
+          "side": "center",
+          "raw": "just inner to center of body where it diverges between gluon orogen and steel (inferred: midline pelvic floor / perineal midline)"
+        },
+        {
+          "node": "outer_core_convection",
+          "region": "other",
+          "side": "left",
+          "raw": "crossroad between gluon orogen and podzol (inferred: left sacroiliac junction / left pelvis between gluteal fold and PSIS)"
+        },
+        {
+          "node": "chlorine_ion_pump",
+          "region": "wrist",
+          "side": "right",
+          "raw": "right inner wrist where the watch face covers if worn inside (inferred: right ventral wrist / palmaris longus tendon region)"
+        },
+        {
+          "node": "lower_mantle",
+          "region": "back",
+          "side": "left",
+          "raw": "opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)"
+        },
+        {
+          "node": "cytochrome_c_oxidase",
+          "region": "other",
+          "side": "left",
+          "raw": "inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)"
+        },
+        {
+          "node": "sulfur_iron_complex",
+          "region": "arm",
+          "side": "left",
+          "raw": "inner of anterior right armpit near tendon, plus second locus near left outer thigh femoral nerve (inferred: right axillary tendon region AND left lateral thigh near femoral nerve)"
+        },
+        {
+          "node": "steel",
+          "region": "other",
+          "side": "left",
+          "raw": "left anus muscle / rectum (직장) (inferred: left external anal sphincter / left rectal wall)"
+        },
+        {
+          "node": "right_acetylcholine",
+          "region": "other",
+          "side": "right",
+          "raw": "right temporalis inner strip, right acetylcholine switch (inferred: right temporalis muscle inner strip / right facial-vagal cholinergic cap)"
+        },
+        {
+          "node": "large_igneous_province",
+          "region": "back",
+          "side": "unspecified",
+          "raw": "midway between thoracic spinous processes and outer-core convection (inferred: mid-thoracic spine / T6-T8 spinous region)"
+        },
+        {
+          "node": "caco3_final_and",
+          "region": "knee",
+          "side": "right",
+          "raw": "outside of right knee (inferred: right lateral femoral condyle / right fibular head region)"
+        },
+        {
+          "node": "basin",
+          "region": "waist",
+          "side": "left",
+          "raw": "just inside posterior exterior left waist (inferred: left posterior waist / left lumbar soft tissue)"
+        },
+        {
+          "node": "methylation",
+          "region": "abdomen",
+          "side": "left",
+          "raw": "just above GLP-1 to the inner core of the left body, gap between lung rib and other organs (inferred: left upper abdomen / left hypochondrium between ribs and organs)"
+        },
+        {
+          "node": "podzol",
+          "region": "hip",
+          "side": "left",
+          "raw": "left hip, inverse reciprocal of methionine, left posterior hip (inferred: left posterior superior iliac spine / left gluteus medius posterior)"
+        },
+        {
+          "node": "cambisol",
+          "region": "other",
+          "side": "bilateral",
+          "raw": "inner side of both Achilles tendons (inferred: bilateral Achilles tendon medial aspects)"
+        },
+        {
+          "node": "gluon_orogen",
+          "region": "other",
+          "side": "left",
+          "raw": "left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)"
+        },
+        {
+          "node": "quark_orogen_magma",
+          "region": "other",
+          "side": "right",
+          "raw": "right inner bum (inferred: right gluteal fold medial / right ischiorectal fossa upper)"
+        },
+        {
+          "node": "subduction_zone",
+          "region": "other",
+          "side": "left",
+          "raw": "left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)"
+        },
+        {
+          "node": "methionine",
+          "region": "hip",
+          "side": "right",
+          "raw": "right exterior of hip where Jesus got stabbed in crucifixion (inferred: right iliac fossa / right lateral abdominal wall near McBurney point)"
+        },
+        {
+          "node": "copper_iron_complex",
+          "region": "foot",
+          "side": "right",
+          "raw": "outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)"
+        }
+      ]
+    },
+    "18": {
+      "hour": 18,
+      "phase": "B_accumulate",
+      "nodes": [
+        "hind_insula",
+        "carbon",
+        "sodium",
+        "sulforaphane",
+        "adapter_protein",
+        "aurora",
+        "glp1",
+        "laterite",
+        "heath_aerenchyma",
+        "histosol",
+        "pentose_phosphate",
+        "left_genital_d2",
+        "fold_belt",
+        "manganese_oxygen_complex",
+        "cysteine",
+        "magnetite",
+        "substance_p",
+        "right_sole_dopamine",
+        "mc1r",
+        "cck",
+        "oxidised_manganese",
+        "ferritin",
+        "peonidine",
+        "actomyosin",
+        "andosol",
+        "lactate_dehydrogenase",
+        "heme",
+        "disulfide_bond",
+        "pyrite",
+        "memory_entropy",
+        "observer_left_endorphin_electron_antineutrino",
+        "male_right_oxytocin",
+        "craton",
+        "water_vapour",
+        "pi_electron_cloud",
+        "cytochrome_c_oxidase",
+        "succinate_dehydrogenase",
+        "sulfur_iron_complex",
+        "steel",
+        "thorium",
+        "collagen",
+        "right_acetylcholine",
+        "large_igneous_province",
+        "observer_leftd2",
+        "caco3_final_and",
+        "basin",
+        "plume",
+        "clay_gouge",
+        "methylation",
+        "co2",
+        "cambisol",
+        "water",
+        "podzol",
+        "mangrove_aerenchyma",
+        "gluon_orogen",
+        "quark_orogen_magma",
+        "lower_mantle",
+        "copper_iron_complex",
+        "methionine",
+        "subduction_zone",
+        "outer_core_convection",
+        "chlorine_ion_pump"
+      ],
+      "body_path": [
+        {
+          "node": "hind_insula",
+          "region": "other",
+          "side": "right",
+          "raw": "right posterior insula, lateral and posterior to memory_entropy"
+        },
+        {
+          "node": "carbon",
+          "region": "other",
+          "side": "right",
+          "raw": "right orbicularis"
+        },
+        {
+          "node": "sodium",
+          "region": "face",
+          "side": "left",
+          "raw": "left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)"
+        },
+        {
+          "node": "sulforaphane",
+          "region": "hip",
+          "side": "left",
+          "raw": "left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)"
+        },
+        {
+          "node": "adapter_protein",
+          "region": "hand",
+          "side": "right",
+          "raw": "second finger on the right (inferred: right index finger distal phalanx)"
+        },
+        {
+          "node": "aurora",
+          "region": "head",
+          "side": "center",
+          "raw": "outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)"
+        },
+        {
+          "node": "glp1",
+          "region": "abdomen",
+          "side": "center",
+          "raw": "center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)"
+        },
+        {
+          "node": "laterite",
+          "region": "foot",
+          "side": "left",
+          "raw": "left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)"
+        },
+        {
+          "node": "heath_aerenchyma",
+          "region": "chest",
+          "side": "left",
+          "raw": "left rib cage bone upper outside of manganese oxygen complex (inferred: left upper rib cage / left 3rd-4th rib anterior)"
+        },
+        {
+          "node": "histosol",
+          "region": "foot",
+          "side": "left",
+          "raw": "left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)"
+        },
+        {
+          "node": "pentose_phosphate",
+          "region": "other",
+          "side": "right",
+          "raw": "medial lower canthus right (inferred: right medial canthus / right lacrimal region)"
+        },
+        {
+          "node": "left_genital_d2",
+          "region": "other",
+          "side": "left",
+          "raw": "left of the genital (inferred: left side of genitalia / left MPOA projection)"
+        },
+        {
+          "node": "fold_belt",
+          "region": "other",
+          "side": "left",
+          "raw": "opposite subduction zone on the left thigh (inferred: left medial thigh)"
+        },
+        {
+          "node": "manganese_oxygen_complex",
+          "region": "chest",
+          "side": "left",
+          "raw": "left rib cage diagonal bone outside of lung (inferred: left anterior rib cage / left costal cartilage diagonal)"
+        },
+        {
+          "node": "cysteine",
+          "region": "brain",
+          "side": "right",
+          "raw": "right inner brain opposite sulforaphane on the front (inferred: right ventromedial prefrontal cortex / right anterior cingulate)"
+        },
+        {
+          "node": "magnetite",
+          "region": "knee",
+          "side": "left",
+          "raw": "inside of left knee joint (inferred: left medial knee / left medial femoral condyle)"
+        },
+        {
+          "node": "substance_p",
+          "region": "arm",
+          "side": "right",
+          "raw": "under right armpit (inferred: right axillary lymph node region / right axilla)"
+        },
+        {
+          "node": "right_sole_dopamine",
+          "region": "other",
+          "side": "right",
+          "raw": "upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)"
+        },
+        {
+          "node": "mc1r",
+          "region": "waist",
+          "side": "left",
+          "raw": "just below GDH on left waist (inferred: left iliac crest / left waist below glutamate dehydrogenase projection)"
+        },
+        {
+          "node": "cck",
+          "region": "back",
+          "side": "unspecified",
+          "raw": "back of the pancreas (inferred: pancreatic tail/body posterior)"
+        },
+        {
+          "node": "oxidised_manganese",
+          "region": "foot",
+          "side": "left",
+          "raw": "left fourth toe (inferred: left 4th digit)"
+        },
+        {
+          "node": "ferritin",
+          "region": "other",
+          "side": "center",
+          "raw": "just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)"
+        },
+        {
+          "node": "peonidine",
+          "region": "brain",
+          "side": "right",
+          "raw": "just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)"
+        },
+        {
+          "node": "actomyosin",
+          "region": "foot",
+          "side": "right",
+          "raw": "right thumb toe (inferred: right hallux / right 1st digit)"
+        },
+        {
+          "node": "andosol",
+          "region": "other",
+          "side": "left",
+          "raw": "between left sole and oxidised manganese (inferred: left plantar arch / left medial longitudinal arch)"
+        },
+        {
+          "node": "lactate_dehydrogenase",
+          "region": "head",
+          "side": "left",
+          "raw": "left pectoralis major (대흉문근) (inferred: left sternal head of pectoralis major)"
+        },
+        {
+          "node": "heme",
+          "region": "chest",
+          "side": "left",
+          "raw": "just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)"
+        },
+        {
+          "node": "disulfide_bond",
+          "region": "other",
+          "side": "right",
+          "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+        },
+        {
+          "node": "pyrite",
+          "region": "head",
+          "side": "left",
+          "raw": "between actomyosin and right sole dopamine, plus second locus near left outer thigh (inferred: right 1st metatarsal head / right medial plantar AND left lateral thigh near femoral nerve)"
+        },
+        {
+          "node": "memory_entropy",
+          "region": "other",
+          "side": "right",
+          "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+        },
+        {
+          "node": "observer_left_endorphin_electron_antineutrino",
+          "region": "head",
+          "side": "left",
+          "raw": "left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)"
+        },
+        {
+          "node": "male_right_oxytocin",
+          "region": "head",
+          "side": "right",
+          "raw": "muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)"
+        },
+        {
+          "node": "craton",
+          "region": "other",
+          "side": "right",
+          "raw": "above quark orogen magma (inferred: right sacrum / right posterior pelvis above gluteal fold)"
+        },
+        {
+          "node": "water_vapour",
+          "region": "other",
+          "side": "center",
+          "raw": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)"
+        },
+        {
+          "node": "pi_electron_cloud",
+          "region": "other",
+          "side": "left",
+          "raw": "left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)"
+        },
+        {
+          "node": "cytochrome_c_oxidase",
+          "region": "other",
+          "side": "left",
+          "raw": "inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)"
+        },
+        {
+          "node": "succinate_dehydrogenase",
+          "region": "head",
+          "side": "right",
+          "raw": "right pectoralis major (대흉문근) (inferred: right sternal head of pectoralis major)"
+        },
+        {
+          "node": "sulfur_iron_complex",
+          "region": "arm",
+          "side": "left",
+          "raw": "inner of anterior right armpit near tendon, plus second locus near left outer thigh femoral nerve (inferred: right axillary tendon region AND left lateral thigh near femoral nerve)"
+        },
+        {
+          "node": "steel",
+          "region": "other",
+          "side": "left",
+          "raw": "left anus muscle / rectum (직장) (inferred: left external anal sphincter / left rectal wall)"
+        },
+        {
+          "node": "thorium",
+          "region": "other",
+          "side": "center",
+          "raw": "just inner to center of body where it diverges between gluon orogen and steel (inferred: midline pelvic floor / perineal midline)"
+        },
+        {
+          "node": "collagen",
+          "region": "other",
+          "side": "right",
+          "raw": "right Achilles tendon (inferred: right calcaneal tendon)"
+        },
+        {
+          "node": "right_acetylcholine",
+          "region": "other",
+          "side": "right",
+          "raw": "right temporalis inner strip, right acetylcholine switch (inferred: right temporalis muscle inner strip / right facial-vagal cholinergic cap)"
+        },
+        {
+          "node": "large_igneous_province",
+          "region": "back",
+          "side": "unspecified",
+          "raw": "midway between thoracic spinous processes and outer-core convection (inferred: mid-thoracic spine / T6-T8 spinous region)"
+        },
+        {
+          "node": "observer_leftd2",
+          "region": "other",
+          "side": "left",
+          "raw": "outer left frontalis"
+        },
+        {
+          "node": "caco3_final_and",
+          "region": "knee",
+          "side": "right",
+          "raw": "outside of right knee (inferred: right lateral femoral condyle / right fibular head region)"
+        },
+        {
+          "node": "basin",
+          "region": "waist",
+          "side": "left",
+          "raw": "just inside posterior exterior left waist (inferred: left posterior waist / left lumbar soft tissue)"
+        },
+        {
+          "node": "plume",
+          "region": "hip",
+          "side": "right",
+          "raw": "just outside opposite of thorium on right hip (inferred: right lateral hip / right greater trochanter region)"
+        },
+        {
+          "node": "clay_gouge",
+          "region": "other",
+          "side": "right",
+          "raw": "right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)"
+        },
+        {
+          "node": "methylation",
+          "region": "abdomen",
+          "side": "left",
+          "raw": "just above GLP-1 to the inner core of the left body, gap between lung rib and other organs (inferred: left upper abdomen / left hypochondrium between ribs and organs)"
+        },
+        {
+          "node": "co2",
+          "region": "back",
+          "side": "left",
+          "raw": "right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)"
+        },
+        {
+          "node": "cambisol",
+          "region": "other",
+          "side": "bilateral",
+          "raw": "inner side of both Achilles tendons (inferred: bilateral Achilles tendon medial aspects)"
+        },
+        {
+          "node": "water",
+          "region": "face",
+          "side": "unspecified",
+          "raw": "upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)"
+        },
+        {
+          "node": "podzol",
+          "region": "hip",
+          "side": "left",
+          "raw": "left hip, inverse reciprocal of methionine, left posterior hip (inferred: left posterior superior iliac spine / left gluteus medius posterior)"
+        },
+        {
+          "node": "mangrove_aerenchyma",
+          "region": "chest",
+          "side": "right",
+          "raw": "opposite of heath aerenchyma on the right body (inferred: right upper rib cage / right 3rd-4th rib anterior)"
+        },
+        {
+          "node": "gluon_orogen",
+          "region": "other",
+          "side": "left",
+          "raw": "left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)"
+        },
+        {
+          "node": "quark_orogen_magma",
+          "region": "other",
+          "side": "right",
+          "raw": "right inner bum (inferred: right gluteal fold medial / right ischiorectal fossa upper)"
+        },
+        {
+          "node": "lower_mantle",
+          "region": "back",
+          "side": "left",
+          "raw": "opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)"
+        },
+        {
+          "node": "copper_iron_complex",
+          "region": "foot",
+          "side": "right",
+          "raw": "outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)"
+        },
+        {
+          "node": "methionine",
+          "region": "hip",
+          "side": "right",
+          "raw": "right exterior of hip where Jesus got stabbed in crucifixion (inferred: right iliac fossa / right lateral abdominal wall near McBurney point)"
+        },
+        {
+          "node": "subduction_zone",
+          "region": "other",
+          "side": "left",
+          "raw": "left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)"
+        },
+        {
+          "node": "outer_core_convection",
+          "region": "other",
+          "side": "left",
+          "raw": "crossroad between gluon orogen and podzol (inferred: left sacroiliac junction / left pelvis between gluteal fold and PSIS)"
+        },
+        {
+          "node": "chlorine_ion_pump",
+          "region": "wrist",
+          "side": "right",
+          "raw": "right inner wrist where the watch face covers if worn inside (inferred: right ventral wrist / palmaris longus tendon region)"
+        }
+      ]
+    },
+    "23": {
+      "hour": 23,
+      "phase": "AB_charge",
+      "nodes": [
+        "co2",
+        "hind_insula",
+        "observer_leftd2",
+        "clay_gouge",
+        "observer_left_endorphin_electron_antineutrino",
+        "carbon",
+        "sodium",
+        "sulforaphane",
+        "adapter_protein",
+        "aurora",
+        "glp1",
+        "laterite",
+        "water_vapour",
+        "mangrove_aerenchyma",
+        "water",
+        "lactate_dehydrogenase",
+        "plume",
+        "heath_aerenchyma",
+        "histosol",
+        "pentose_phosphate",
+        "left_genital_d2",
+        "succinate_dehydrogenase",
+        "fold_belt",
+        "manganese_oxygen_complex",
+        "cysteine",
+        "magnetite",
+        "substance_p",
+        "right_sole_dopamine",
+        "mc1r",
+        "cck",
+        "oxidised_manganese",
+        "ferritin",
+        "collagen",
+        "thorium",
+        "outer_core_convection",
+        "chlorine_ion_pump",
+        "lower_mantle",
+        "peonidine",
+        "actomyosin",
+        "andosol",
+        "heme",
+        "disulfide_bond",
+        "pyrite",
+        "memory_entropy",
+        "male_right_oxytocin",
+        "craton",
+        "pi_electron_cloud",
+        "podzol",
+        "right_acetylcholine",
+        "caco3_final_and",
+        "cytochrome_c_oxidase",
+        "sulfur_iron_complex",
+        "steel",
+        "large_igneous_province",
+        "basin",
+        "methylation",
+        "subduction_zone",
+        "methionine",
+        "cambisol",
+        "gluon_orogen",
+        "quark_orogen_magma",
+        "copper_iron_complex"
+      ],
+      "body_path": [
+        {
+          "node": "co2",
+          "region": "back",
+          "side": "left",
+          "raw": "right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)"
+        },
+        {
+          "node": "hind_insula",
+          "region": "other",
+          "side": "right",
+          "raw": "right posterior insula, lateral and posterior to memory_entropy"
+        },
+        {
+          "node": "observer_leftd2",
+          "region": "other",
+          "side": "left",
+          "raw": "outer left frontalis"
+        },
+        {
+          "node": "clay_gouge",
+          "region": "other",
+          "side": "right",
+          "raw": "right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)"
+        },
+        {
+          "node": "observer_left_endorphin_electron_antineutrino",
+          "region": "head",
+          "side": "left",
+          "raw": "left lip philtrum near the very center (inferred: left labial philtrum / left upper lip midline)"
+        },
+        {
+          "node": "carbon",
+          "region": "other",
+          "side": "right",
+          "raw": "right orbicularis"
+        },
+        {
+          "node": "sodium",
+          "region": "face",
+          "side": "left",
+          "raw": "left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)"
+        },
+        {
+          "node": "sulforaphane",
+          "region": "hip",
+          "side": "left",
+          "raw": "left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)"
+        },
+        {
+          "node": "adapter_protein",
+          "region": "hand",
+          "side": "right",
+          "raw": "second finger on the right (inferred: right index finger distal phalanx)"
+        },
+        {
+          "node": "aurora",
+          "region": "head",
+          "side": "center",
+          "raw": "outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)"
+        },
+        {
+          "node": "glp1",
+          "region": "abdomen",
+          "side": "center",
+          "raw": "center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)"
+        },
+        {
+          "node": "laterite",
+          "region": "foot",
+          "side": "left",
+          "raw": "left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)"
+        },
+        {
+          "node": "water_vapour",
+          "region": "other",
+          "side": "center",
+          "raw": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)"
+        },
+        {
+          "node": "mangrove_aerenchyma",
+          "region": "chest",
+          "side": "right",
+          "raw": "opposite of heath aerenchyma on the right body (inferred: right upper rib cage / right 3rd-4th rib anterior)"
+        },
+        {
+          "node": "water",
+          "region": "face",
+          "side": "unspecified",
+          "raw": "upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)"
+        },
+        {
+          "node": "lactate_dehydrogenase",
+          "region": "head",
+          "side": "left",
+          "raw": "left pectoralis major (대흉문근) (inferred: left sternal head of pectoralis major)"
+        },
+        {
+          "node": "plume",
+          "region": "hip",
+          "side": "right",
+          "raw": "just outside opposite of thorium on right hip (inferred: right lateral hip / right greater trochanter region)"
+        },
+        {
+          "node": "heath_aerenchyma",
+          "region": "chest",
+          "side": "left",
+          "raw": "left rib cage bone upper outside of manganese oxygen complex (inferred: left upper rib cage / left 3rd-4th rib anterior)"
+        },
+        {
+          "node": "histosol",
+          "region": "foot",
+          "side": "left",
+          "raw": "left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)"
+        },
+        {
+          "node": "pentose_phosphate",
+          "region": "other",
+          "side": "right",
+          "raw": "medial lower canthus right (inferred: right medial canthus / right lacrimal region)"
+        },
+        {
+          "node": "left_genital_d2",
+          "region": "other",
+          "side": "left",
+          "raw": "left of the genital (inferred: left side of genitalia / left MPOA projection)"
+        },
+        {
+          "node": "succinate_dehydrogenase",
+          "region": "head",
+          "side": "right",
+          "raw": "right pectoralis major (대흉문근) (inferred: right sternal head of pectoralis major)"
+        },
+        {
+          "node": "fold_belt",
+          "region": "other",
+          "side": "left",
+          "raw": "opposite subduction zone on the left thigh (inferred: left medial thigh)"
+        },
+        {
+          "node": "manganese_oxygen_complex",
+          "region": "chest",
+          "side": "left",
+          "raw": "left rib cage diagonal bone outside of lung (inferred: left anterior rib cage / left costal cartilage diagonal)"
+        },
+        {
+          "node": "cysteine",
+          "region": "brain",
+          "side": "right",
+          "raw": "right inner brain opposite sulforaphane on the front (inferred: right ventromedial prefrontal cortex / right anterior cingulate)"
+        },
+        {
+          "node": "magnetite",
+          "region": "knee",
+          "side": "left",
+          "raw": "inside of left knee joint (inferred: left medial knee / left medial femoral condyle)"
+        },
+        {
+          "node": "substance_p",
+          "region": "arm",
+          "side": "right",
+          "raw": "under right armpit (inferred: right axillary lymph node region / right axilla)"
+        },
+        {
+          "node": "right_sole_dopamine",
+          "region": "other",
+          "side": "right",
+          "raw": "upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)"
+        },
+        {
+          "node": "mc1r",
+          "region": "waist",
+          "side": "left",
+          "raw": "just below GDH on left waist (inferred: left iliac crest / left waist below glutamate dehydrogenase projection)"
+        },
+        {
+          "node": "cck",
+          "region": "back",
+          "side": "unspecified",
+          "raw": "back of the pancreas (inferred: pancreatic tail/body posterior)"
+        },
+        {
+          "node": "oxidised_manganese",
+          "region": "foot",
+          "side": "left",
+          "raw": "left fourth toe (inferred: left 4th digit)"
+        },
+        {
+          "node": "ferritin",
+          "region": "other",
+          "side": "center",
+          "raw": "just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)"
+        },
+        {
+          "node": "collagen",
+          "region": "other",
+          "side": "right",
+          "raw": "right Achilles tendon (inferred: right calcaneal tendon)"
+        },
+        {
+          "node": "thorium",
+          "region": "other",
+          "side": "center",
+          "raw": "just inner to center of body where it diverges between gluon orogen and steel (inferred: midline pelvic floor / perineal midline)"
+        },
+        {
+          "node": "outer_core_convection",
+          "region": "other",
+          "side": "left",
+          "raw": "crossroad between gluon orogen and podzol (inferred: left sacroiliac junction / left pelvis between gluteal fold and PSIS)"
+        },
+        {
+          "node": "chlorine_ion_pump",
+          "region": "wrist",
+          "side": "right",
+          "raw": "right inner wrist where the watch face covers if worn inside (inferred: right ventral wrist / palmaris longus tendon region)"
+        },
+        {
+          "node": "lower_mantle",
+          "region": "back",
+          "side": "left",
+          "raw": "opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)"
+        },
+        {
+          "node": "peonidine",
+          "region": "brain",
+          "side": "right",
+          "raw": "just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)"
+        },
+        {
+          "node": "actomyosin",
+          "region": "foot",
+          "side": "right",
+          "raw": "right thumb toe (inferred: right hallux / right 1st digit)"
+        },
+        {
+          "node": "andosol",
+          "region": "other",
+          "side": "left",
+          "raw": "between left sole and oxidised manganese (inferred: left plantar arch / left medial longitudinal arch)"
+        },
+        {
+          "node": "heme",
+          "region": "chest",
+          "side": "left",
+          "raw": "just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)"
+        },
+        {
+          "node": "disulfide_bond",
+          "region": "other",
+          "side": "right",
+          "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+        },
+        {
+          "node": "pyrite",
+          "region": "head",
+          "side": "left",
+          "raw": "between actomyosin and right sole dopamine, plus second locus near left outer thigh (inferred: right 1st metatarsal head / right medial plantar AND left lateral thigh near femoral nerve)"
+        },
+        {
+          "node": "memory_entropy",
+          "region": "other",
+          "side": "right",
+          "raw": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)"
+        },
+        {
+          "node": "male_right_oxytocin",
+          "region": "head",
+          "side": "right",
+          "raw": "muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)"
+        },
+        {
+          "node": "craton",
+          "region": "other",
+          "side": "right",
+          "raw": "above quark orogen magma (inferred: right sacrum / right posterior pelvis above gluteal fold)"
+        },
+        {
+          "node": "pi_electron_cloud",
+          "region": "other",
+          "side": "left",
+          "raw": "left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)"
+        },
+        {
+          "node": "podzol",
+          "region": "hip",
+          "side": "left",
+          "raw": "left hip, inverse reciprocal of methionine, left posterior hip (inferred: left posterior superior iliac spine / left gluteus medius posterior)"
+        },
+        {
+          "node": "right_acetylcholine",
+          "region": "other",
+          "side": "right",
+          "raw": "right temporalis inner strip, right acetylcholine switch (inferred: right temporalis muscle inner strip / right facial-vagal cholinergic cap)"
+        },
+        {
+          "node": "caco3_final_and",
+          "region": "knee",
+          "side": "right",
+          "raw": "outside of right knee (inferred: right lateral femoral condyle / right fibular head region)"
+        },
+        {
+          "node": "cytochrome_c_oxidase",
+          "region": "other",
+          "side": "left",
+          "raw": "inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)"
+        },
+        {
+          "node": "sulfur_iron_complex",
+          "region": "arm",
+          "side": "left",
+          "raw": "inner of anterior right armpit near tendon, plus second locus near left outer thigh femoral nerve (inferred: right axillary tendon region AND left lateral thigh near femoral nerve)"
+        },
+        {
+          "node": "steel",
+          "region": "other",
+          "side": "left",
+          "raw": "left anus muscle / rectum (직장) (inferred: left external anal sphincter / left rectal wall)"
+        },
+        {
+          "node": "large_igneous_province",
+          "region": "back",
+          "side": "unspecified",
+          "raw": "midway between thoracic spinous processes and outer-core convection (inferred: mid-thoracic spine / T6-T8 spinous region)"
+        },
+        {
+          "node": "basin",
+          "region": "waist",
+          "side": "left",
+          "raw": "just inside posterior exterior left waist (inferred: left posterior waist / left lumbar soft tissue)"
+        },
+        {
+          "node": "methylation",
+          "region": "abdomen",
+          "side": "left",
+          "raw": "just above GLP-1 to the inner core of the left body, gap between lung rib and other organs (inferred: left upper abdomen / left hypochondrium between ribs and organs)"
+        },
+        {
+          "node": "subduction_zone",
+          "region": "other",
+          "side": "left",
+          "raw": "left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)"
+        },
+        {
+          "node": "methionine",
+          "region": "hip",
+          "side": "right",
+          "raw": "right exterior of hip where Jesus got stabbed in crucifixion (inferred: right iliac fossa / right lateral abdominal wall near McBurney point)"
+        },
+        {
+          "node": "cambisol",
+          "region": "other",
+          "side": "bilateral",
+          "raw": "inner side of both Achilles tendons (inferred: bilateral Achilles tendon medial aspects)"
+        },
+        {
+          "node": "gluon_orogen",
+          "region": "other",
+          "side": "left",
+          "raw": "left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)"
+        },
+        {
+          "node": "quark_orogen_magma",
+          "region": "other",
+          "side": "right",
+          "raw": "right inner bum (inferred: right gluteal fold medial / right ischiorectal fossa upper)"
+        },
+        {
+          "node": "copper_iron_complex",
+          "region": "foot",
+          "side": "right",
+          "raw": "outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)"
+        }
+      ]
+    }
+  },
+  "blood_patterns": {
+    "O": {
+      "blood": "O",
+      "complexity": 1,
+      "mode": "single sequential loop",
+      "paths": [
+        {
+          "name": "O-main",
+          "nodes": [
+            "memory_entropy",
+            "observer_leftd2",
+            "observer_left_endorphin_electron_antineutrino",
+            "pi_electron_cloud",
+            "heme",
+            "left_genital_d2",
+            "gluon_orogen",
+            "laterite",
+            "oxidised_manganese",
+            "right_sole_dopamine",
+            "copper_iron_complex",
+            "collagen",
+            "subduction_zone",
+            "water_vapour",
+            "aurora",
+            "co2"
+          ]
+        }
+      ]
+    },
+    "A": {
+      "blood": "A",
+      "complexity": 2,
+      "mode": "two antiphase streams",
+      "paths": [
+        {
+          "name": "A-forward",
+          "nodes": [
+            "memory_entropy",
+            "observer_leftd2",
+            "observer_left_endorphin_electron_antineutrino",
+            "pi_electron_cloud",
+            "heme",
+            "left_genital_d2",
+            "gluon_orogen",
+            "laterite"
+          ]
+        },
+        {
+          "name": "A-return",
+          "nodes": [
+            "oxidised_manganese",
+            "right_sole_dopamine",
+            "copper_iron_complex",
+            "collagen",
+            "subduction_zone",
+            "water_vapour",
+            "aurora",
+            "co2"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "blood": "B",
+      "complexity": 3,
+      "mode": "triple spiral",
+      "paths": [
+        {
+          "name": "B-spiral-0",
+          "nodes": [
+            "memory_entropy",
+            "pi_electron_cloud",
+            "gluon_orogen",
+            "right_sole_dopamine",
+            "subduction_zone",
+            "co2",
+            "observer_left_endorphin_electron_antineutrino",
+            "left_genital_d2",
+            "oxidised_manganese"
+          ]
+        },
+        {
+          "name": "B-spiral-1",
+          "nodes": [
+            "observer_leftd2",
+            "heme",
+            "laterite",
+            "copper_iron_complex",
+            "water_vapour",
+            "memory_entropy",
+            "pi_electron_cloud",
+            "gluon_orogen",
+            "right_sole_dopamine"
+          ]
+        },
+        {
+          "name": "B-spiral-2",
+          "nodes": [
+            "observer_left_endorphin_electron_antineutrino",
+            "left_genital_d2",
+            "oxidised_manganese",
+            "collagen",
+            "aurora",
+            "observer_leftd2",
+            "heme",
+            "laterite",
+            "copper_iron_complex"
+          ]
+        }
+      ]
+    },
+    "AB": {
+      "blood": "AB",
+      "complexity": 4,
+      "mode": "4-quadrant spark discharge",
+      "paths": [
+        {
+          "name": "AB-quadrant-0",
+          "nodes": [
+            "memory_entropy",
+            "heme",
+            "oxidised_manganese",
+            "subduction_zone",
+            "memory_entropy"
+          ]
+        },
+        {
+          "name": "AB-quadrant-1",
+          "nodes": [
+            "observer_leftd2",
+            "left_genital_d2",
+            "right_sole_dopamine",
+            "water_vapour",
+            "observer_leftd2"
+          ]
+        },
+        {
+          "name": "AB-quadrant-2",
+          "nodes": [
+            "observer_left_endorphin_electron_antineutrino",
+            "gluon_orogen",
+            "copper_iron_complex",
+            "aurora",
+            "observer_left_endorphin_electron_antineutrino"
+          ]
+        },
+        {
+          "name": "AB-quadrant-3",
+          "nodes": [
+            "pi_electron_cloud",
+            "laterite",
+            "collagen",
+            "co2",
+            "pi_electron_cloud"
+          ]
+        }
+      ]
+    }
+  },
+  "slot_timeline": [
+    {
+      "slot": 1,
+      "phase": "AB_Discharge",
+      "type": "ENTP_AB_M",
+      "entity": "heme.out1",
+      "body_loc": "just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)",
+      "loop_idx": 3,
+      "release_genre": "hyperpop-adjacent",
+      "release_vec": "P=1.00 Z=0.70 Q=0.75 W=0.95 H=0.70",
+      "stress_genre": "noise pop; glitch opera",
+      "extreme_genre": "big beat; IDM"
+    },
+    {
+      "slot": 2,
+      "phase": "AB_Discharge",
+      "type": "INTP_AB_M",
+      "entity": "water_vapour.out1",
+      "body_loc": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)",
+      "loop_idx": 12,
+      "release_genre": "britpop classic",
+      "release_vec": "P=0.83 Z=0.20 Q=0.65 W=0.80 H=0.30",
+      "stress_genre": "harsh noise wall; musique concrète",
+      "extreme_genre": "synthwave; progressive rock"
+    },
+    {
+      "slot": 3,
+      "phase": "AB_Discharge",
+      "type": "ENTJ_AB_M",
+      "entity": "podzol",
+      "body_loc": "left hip, inverse reciprocal of methionine, left posterior hip (inferred: left posterior superior iliac spine / left gluteus medius posterior)",
+      "loop_idx": null,
+      "release_genre": "indietronica",
+      "release_vec": "P=0.40 Z=0.25 Q=0.30 W=0.60 H=0.40",
+      "stress_genre": "avant-garde classical; contemporary classical",
+      "extreme_genre": "prog metal; tool-adjacent"
+    },
+    {
+      "slot": 4,
+      "phase": "AB_Discharge",
+      "type": "INTJ_AB_M",
+      "entity": "lower_mantle.q_bar",
+      "body_loc": "opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)",
+      "loop_idx": null,
+      "release_genre": "dance rock",
+      "release_vec": "P=0.72 Z=0.35 Q=0.50 W=0.80 H=0.40",
+      "stress_genre": "contemporary classical; neo-classical",
+      "extreme_genre": "minimalistic ambient; drone"
+    },
+    {
+      "slot": 5,
+      "phase": "AB_Discharge",
+      "type": "ENTP_AB_F",
+      "entity": "oxidised_manganese.out0",
+      "body_loc": "left fourth toe (inferred: left 4th digit)",
+      "loop_idx": 7,
+      "release_genre": "classic rock structured",
+      "release_vec": "P=0.55 Z=0.15 Q=0.50 W=0.50 H=0.45",
+      "stress_genre": "noise; glitch",
+      "extreme_genre": "space rock; new wave"
+    },
+    {
+      "slot": 6,
+      "phase": "AB_Discharge",
+      "type": "ENFP_AB_M",
+      "entity": "pi_electron_cloud",
+      "body_loc": "left throat anterior (inferred: left anterior cervical / left thyroid cartilage region)",
+      "loop_idx": 2,
+      "release_genre": "post rock",
+      "release_vec": "P=0.25 Z=0.30 Q=0.65 W=0.20 H=0.55",
+      "stress_genre": "free jazz; noise pop",
+      "extreme_genre": "indie pop; psychedelic pop"
+    },
+    {
+      "slot": 7,
+      "phase": "AB_Discharge",
+      "type": "INTP_AB_F",
+      "entity": "sodium",
+      "body_loc": "left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)",
+      "loop_idx": null,
+      "release_genre": "noise pop",
+      "release_vec": "P=0.50 Z=0.45 Q=0.65 W=0.40 H=0.65",
+      "stress_genre": "musique concrète; noise ambient",
+      "extreme_genre": "art pop; orchestral pop"
+    },
+    {
+      "slot": 8,
+      "phase": "AB_Discharge",
+      "type": "INFP_AB_M",
+      "entity": "methylation.out1",
+      "body_loc": "just above GLP-1 to the inner core of the left body, gap between lung rib and other organs (inferred: left upper abdomen / left hypochondrium between ribs and organs)",
+      "loop_idx": null,
+      "release_genre": "classic rock",
+      "release_vec": "P=0.65 Z=0.25 Q=0.65 W=0.70 H=0.55",
+      "stress_genre": "noise folk; free improvisation",
+      "extreme_genre": "britpop; alternative rock"
+    },
+    {
+      "slot": 9,
+      "phase": "AB_Discharge",
+      "type": "ENTJ_AB_F",
+      "entity": "sulfur_iron_complex.out1",
+      "body_loc": "inner of anterior right armpit near tendon, plus second locus near left outer thigh femoral nerve (inferred: right axillary tendon region AND left lateral thigh near femoral nerve)",
+      "loop_idx": null,
+      "release_genre": "contemporary dance music",
+      "release_vec": "P=0.90 Z=0.50 Q=0.90 W=0.85 H=0.40",
+      "stress_genre": "noise; free improvisation",
+      "extreme_genre": "power pop; art rock"
+    },
+    {
+      "slot": 10,
+      "phase": "AB_Discharge",
+      "type": "INTJ_AB_F",
+      "entity": "glp1.q_bar",
+      "body_loc": "center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)",
+      "loop_idx": null,
+      "release_genre": "experimental contemporary classical",
+      "release_vec": "P=0.45 Z=0.80 Q=0.70 W=0.70 H=1.00",
+      "stress_genre": "noise pop; deconstructed club",
+      "extreme_genre": "drone; minimalistic ambient"
+    },
+    {
+      "slot": 11,
+      "phase": "AB_Discharge",
+      "type": "ENFJ_AB_M",
+      "entity": "pentose_phosphate.out_2",
+      "body_loc": "medial lower canthus right (inferred: right medial canthus / right lacrimal region)",
+      "loop_idx": null,
+      "release_genre": "ghibli-adjacent",
+      "release_vec": "P=0.20 Z=0.20 Q=0.25 W=0.55 H=0.15",
+      "stress_genre": "free jazz; avant-garde",
+      "extreme_genre": "soul; cinematic"
+    },
+    {
+      "slot": 12,
+      "phase": "AB_Discharge",
+      "type": "ENFP_AB_F",
+      "entity": "substance_p.out_autophagy",
+      "body_loc": "under right armpit (inferred: right axillary lymph node region / right axilla)",
+      "loop_idx": null,
+      "release_genre": "lofi hip hop",
+      "release_vec": "P=0.45 Z=0.30 Q=0.20 W=0.50 H=0.40",
+      "stress_genre": "freak folk; experimental pop",
+      "extreme_genre": "indie pop; space rock"
+    },
+    {
+      "slot": 13,
+      "phase": "AB_Discharge",
+      "type": "INFJ_AB_M",
+      "entity": "fold_belt",
+      "body_loc": "opposite subduction zone on the left thigh (inferred: left medial thigh)",
+      "loop_idx": null,
+      "release_genre": "noise ambient",
+      "release_vec": "P=0.25 Z=0.60 Q=0.65 W=0.15 H=0.70",
+      "stress_genre": "free improvisation; noise ambient",
+      "extreme_genre": "dark ambient; drone"
+    },
+    {
+      "slot": 14,
+      "phase": "AB_Discharge",
+      "type": "INFP_AB_F",
+      "entity": "NaCl.out1",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "symphonic metal",
+      "release_vec": "P=0.45 Z=0.50 Q=0.50 W=0.35 H=0.75",
+      "stress_genre": "experimental ambient; contemporary classical",
+      "extreme_genre": "britpop; indie rock"
+    },
+    {
+      "slot": 15,
+      "phase": "AB_Discharge",
+      "type": "ESTP_AB_M",
+      "entity": "fold_belt.out1",
+      "body_loc": "opposite subduction zone on the left thigh (inferred: left medial thigh)",
+      "loop_idx": null,
+      "release_genre": "dance pop",
+      "release_vec": "P=0.85 Z=0.20 Q=0.70 W=0.85 H=0.30",
+      "stress_genre": "jazz experimental; free jazz",
+      "extreme_genre": "drone; minimalistic ambient"
+    },
+    {
+      "slot": 16,
+      "phase": "AB_Discharge",
+      "type": "ENFJ_AB_F",
+      "entity": "peonidine.out1",
+      "body_loc": "just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)",
+      "loop_idx": null,
+      "release_genre": "dream pop",
+      "release_vec": "P=0.25 Z=0.40 Q=0.55 W=0.45 H=0.30",
+      "stress_genre": "free jazz; avant-garde pop",
+      "extreme_genre": "dream pop; ethereal"
+    },
+    {
+      "slot": 17,
+      "phase": "A_Accumulate",
+      "type": "ENTP_A_M",
+      "entity": "magnetite.out0",
+      "body_loc": "inside of left knee joint (inferred: left medial knee / left medial femoral condyle)",
+      "loop_idx": null,
+      "release_genre": "4AD shoegaze",
+      "release_vec": "P=0.20 Z=0.50 Q=0.45 W=0.40 H=0.50",
+      "stress_genre": "autechre; IDM",
+      "extreme_genre": "big beat; breakbeat"
+    },
+    {
+      "slot": 18,
+      "phase": "A_Accumulate",
+      "type": "INTP_A_M",
+      "entity": "cytochrome_c_oxidase.out1",
+      "body_loc": "inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)",
+      "loop_idx": null,
+      "release_genre": "country rock",
+      "release_vec": "P=0.45 Z=0.20 Q=0.55 W=0.35 H=0.15",
+      "stress_genre": "boards of canada; BoC-adjacent electronica",
+      "extreme_genre": "britpop; alternative rock"
+    },
+    {
+      "slot": 19,
+      "phase": "A_Accumulate",
+      "type": "ENTJ_A_M",
+      "entity": "collagen",
+      "body_loc": "right Achilles tendon (inferred: right calcaneal tendon)",
+      "loop_idx": 10,
+      "release_genre": "folk rock",
+      "release_vec": "P=0.50 Z=0.20 Q=0.35 W=0.65 H=0.25",
+      "stress_genre": "prog metal; symphonic metal",
+      "extreme_genre": "ambient; drone"
+    },
+    {
+      "slot": 20,
+      "phase": "A_Accumulate",
+      "type": "INTJ_A_M",
+      "entity": "copper_iron_complex",
+      "body_loc": "outside of right foot where pinky toe meets foot (inferred: right 5th metatarsal base / lateral right foot)",
+      "loop_idx": 9,
+      "release_genre": "cinematic folk",
+      "release_vec": "P=0.20 Z=0.15 Q=0.45 W=0.30 H=0.25",
+      "stress_genre": "industrial electronic; EBM",
+      "extreme_genre": "minimalistic ambient; dark ambient"
+    },
+    {
+      "slot": 21,
+      "phase": "A_Accumulate",
+      "type": "ENTP_A_F",
+      "entity": "mc1r",
+      "body_loc": "just below GDH on left waist (inferred: left iliac crest / left waist below glutamate dehydrogenase projection)",
+      "loop_idx": null,
+      "release_genre": "acoustic pop",
+      "release_vec": "P=0.40 Z=0.05 Q=0.20 W=0.70 H=0.05",
+      "stress_genre": "space rock without stoner; noise pop",
+      "extreme_genre": "synth pop; big beat"
+    },
+    {
+      "slot": 22,
+      "phase": "A_Accumulate",
+      "type": "ENFP_A_M",
+      "entity": "hind_insula",
+      "body_loc": "right posterior insula, lateral and posterior to memory_entropy",
+      "loop_idx": null,
+      "release_genre": "dark ambient",
+      "release_vec": "P=0.00 Z=0.50 Q=0.05 W=0.10 H=0.55",
+      "stress_genre": "space rock with stoner; indie psych",
+      "extreme_genre": "experimental; drone"
+    },
+    {
+      "slot": 23,
+      "phase": "A_Accumulate",
+      "type": "INTP_A_F",
+      "entity": "subduction_zone.out1",
+      "body_loc": "left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)",
+      "loop_idx": 11,
+      "release_genre": "indie folk",
+      "release_vec": "P=0.27 Z=0.05 Q=0.25 W=0.40 H=0.30",
+      "stress_genre": "post rock; shoegaze",
+      "extreme_genre": "art pop; chamber pop"
+    },
+    {
+      "slot": 24,
+      "phase": "A_Accumulate",
+      "type": "INFP_A_M",
+      "entity": "gluon_orogen",
+      "body_loc": "left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)",
+      "loop_idx": 5,
+      "release_genre": "R&B experimental",
+      "release_vec": "P=0.47 Z=0.75 Q=0.45 W=0.60 H=0.80",
+      "stress_genre": "boards of canada; hauntology",
+      "extreme_genre": "experimental classical; post rock"
+    },
+    {
+      "slot": 25,
+      "phase": "A_Accumulate",
+      "type": "ENTJ_A_F",
+      "entity": "oxidised_manganese",
+      "body_loc": "left fourth toe (inferred: left 4th digit)",
+      "loop_idx": 7,
+      "release_genre": "hyperpop",
+      "release_vec": "P=1.00 Z=0.70 Q=0.90 W=1.00 H=0.70",
+      "stress_genre": "symphonic; prog",
+      "extreme_genre": "ambient; folk"
+    },
+    {
+      "slot": 26,
+      "phase": "A_Accumulate",
+      "type": "INTJ_A_F",
+      "entity": "right_sole_dopamine",
+      "body_loc": "upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)",
+      "loop_idx": 8,
+      "release_genre": "freak folk",
+      "release_vec": "P=0.38 Z=0.40 Q=0.55 W=0.60 H=0.65",
+      "stress_genre": "kate bush; art pop",
+      "extreme_genre": "drone; dark ambient"
+    },
+    {
+      "slot": 27,
+      "phase": "A_Accumulate",
+      "type": "ENFJ_A_M",
+      "entity": "glymphatic_system",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "classic rock female",
+      "release_vec": "P=0.72 Z=0.10 Q=0.45 W=0.70 H=0.30",
+      "stress_genre": "progressive soul; jazz fusion",
+      "extreme_genre": "ambient; minimalistic"
+    },
+    {
+      "slot": 28,
+      "phase": "A_Accumulate",
+      "type": "ENFP_A_F",
+      "entity": "quark_orogen_magma.out0",
+      "body_loc": "right inner bum (inferred: right gluteal fold medial / right ischiorectal fossa upper)",
+      "loop_idx": null,
+      "release_genre": "chamber pop",
+      "release_vec": "P=0.55 Z=0.35 Q=0.45 W=0.70 H=0.35",
+      "stress_genre": "noise rock; psychedelic rock",
+      "extreme_genre": "indie folk; dream pop"
+    },
+    {
+      "slot": 29,
+      "phase": "A_Accumulate",
+      "type": "INFJ_A_M",
+      "entity": "aurora",
+      "body_loc": "outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)",
+      "loop_idx": 13,
+      "release_genre": "hardcore",
+      "release_vec": "P=0.85 Z=0.30 Q=0.80 W=0.45 H=0.50",
+      "stress_genre": "power electronics; industrial",
+      "extreme_genre": "ghibli; indie folk"
+    },
+    {
+      "slot": 30,
+      "phase": "A_Accumulate",
+      "type": "INFP_A_F",
+      "entity": "large_igneous_province.out0",
+      "body_loc": "midway between thoracic spinous processes and outer-core convection (inferred: mid-thoracic spine / T6-T8 spinous region)",
+      "loop_idx": null,
+      "release_genre": "ambient pop",
+      "release_vec": "P=0.20 Z=0.30 Q=0.20 W=0.60 H=0.40",
+      "stress_genre": "ghibli-adjacent; neo-classical",
+      "extreme_genre": "indie folk; britpop"
+    },
+    {
+      "slot": 31,
+      "phase": "A_Accumulate",
+      "type": "ESTP_A_M",
+      "entity": "co2",
+      "body_loc": "right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)",
+      "loop_idx": 14,
+      "release_genre": "extreme metal",
+      "release_vec": "P=1.00 Z=0.75 Q=0.95 W=0.45 H=0.90",
+      "stress_genre": "thrash metal; heavy psych",
+      "extreme_genre": "neo-classical; minimalistic ambient"
+    },
+    {
+      "slot": 32,
+      "phase": "A_Accumulate",
+      "type": "ENFJ_A_F",
+      "entity": "lactate_dehydrogenase.out1",
+      "body_loc": "left pectoralis major (대흉문근) (inferred: left sternal head of pectoralis major)",
+      "loop_idx": null,
+      "release_genre": "progressive rock",
+      "release_vec": "P=0.70 Z=0.60 Q=0.70 W=0.70 H=0.55",
+      "stress_genre": "art pop; orchestral",
+      "extreme_genre": "soul; gospel"
+    },
+    {
+      "slot": 33,
+      "phase": "A_Accumulate",
+      "type": "ISTP_A_M",
+      "entity": "steel",
+      "body_loc": "left anus muscle / rectum (직장) (inferred: left external anal sphincter / left rectal wall)",
+      "loop_idx": null,
+      "release_genre": "aero ambient",
+      "release_vec": "P=0.30 Z=0.30 Q=0.45 W=0.45 H=0.10",
+      "stress_genre": "heavy psych; fuzz rock",
+      "extreme_genre": "ambient; minimalistic"
+    },
+    {
+      "slot": 34,
+      "phase": "A_Accumulate",
+      "type": "INFJ_A_F",
+      "entity": "LeftD2",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "hard rock",
+      "release_vec": "P=0.73 Z=0.20 Q=0.65 W=0.65 H=0.50",
+      "stress_genre": "björk; art pop experimental",
+      "extreme_genre": "dark ambient; drone"
+    },
+    {
+      "slot": 35,
+      "phase": "A_Accumulate",
+      "type": "ESTP_A_F",
+      "entity": "actomyosin_ctrl.out",
+      "body_loc": "right thumb toe (inferred: right hallux / right 1st digit)",
+      "loop_idx": null,
+      "release_genre": "psychedelic funk",
+      "release_vec": "P=0.62 Z=0.55 Q=0.55 W=0.65 H=0.60",
+      "stress_genre": "no wave; noise pop",
+      "extreme_genre": "indie folk; acoustic"
+    },
+    {
+      "slot": 36,
+      "phase": "A_Accumulate",
+      "type": "ESTJ_A_M",
+      "entity": "memory_entropy.out_hind_insula",
+      "body_loc": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)",
+      "loop_idx": 15,
+      "release_genre": "new minimalism",
+      "release_vec": "P=0.15 Z=0.35 Q=0.20 W=0.50 H=0.30",
+      "stress_genre": "prog metal; technical metal",
+      "extreme_genre": "ambient; folk"
+    },
+    {
+      "slot": 37,
+      "phase": "A_Accumulate",
+      "type": "ISTP_A_F",
+      "entity": "manganese_oxygen_complex",
+      "body_loc": "left rib cage diagonal bone outside of lung (inferred: left anterior rib cage / left costal cartilage diagonal)",
+      "loop_idx": null,
+      "release_genre": "glitch opera",
+      "release_vec": "P=0.67 Z=0.95 Q=0.70 W=0.55 H=0.70",
+      "stress_genre": "psychedelic folk; shoegaze",
+      "extreme_genre": "acoustic; ambient"
+    },
+    {
+      "slot": 38,
+      "phase": "A_Accumulate",
+      "type": "ISTJ_A_M",
+      "entity": "succinate_dehydrogenase",
+      "body_loc": "right pectoralis major (대흉문근) (inferred: right sternal head of pectoralis major)",
+      "loop_idx": null,
+      "release_genre": "new age",
+      "release_vec": "P=0.35 Z=0.25 Q=0.40 W=0.30 H=0.15",
+      "stress_genre": "technical metal; prog metal",
+      "extreme_genre": "orchestral pop; art pop"
+    },
+    {
+      "slot": 39,
+      "phase": "A_Accumulate",
+      "type": "ESTJ_A_F",
+      "entity": "memory_entropy.out_co2",
+      "body_loc": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)",
+      "loop_idx": 15,
+      "release_genre": "cocteau twins",
+      "release_vec": "P=0.25 Z=0.30 Q=0.45 W=0.55 H=0.45",
+      "stress_genre": "post-punk; rock",
+      "extreme_genre": "folk; acoustic"
+    },
+    {
+      "slot": 40,
+      "phase": "A_Accumulate",
+      "type": "ESFP_A_M",
+      "entity": "chlorine_ion_pump.out1",
+      "body_loc": "right inner wrist where the watch face covers if worn inside (inferred: right ventral wrist / palmaris longus tendon region)",
+      "loop_idx": null,
+      "release_genre": "indie rock",
+      "release_vec": "P=0.80 Z=0.15 Q=0.70 W=0.65 H=0.35",
+      "stress_genre": "funk; R&B",
+      "extreme_genre": "ambient; lo-fi"
+    },
+    {
+      "slot": 41,
+      "phase": "A_Accumulate",
+      "type": "ISTJ_A_F",
+      "entity": "sulfur_iron_complex",
+      "body_loc": "inner of anterior right armpit near tendon, plus second locus near left outer thigh femoral nerve (inferred: right axillary tendon region AND left lateral thigh near femoral nerve)",
+      "loop_idx": null,
+      "release_genre": "indie psych",
+      "release_vec": "P=0.53 Z=0.45 Q=0.65 W=0.60 H=0.60",
+      "stress_genre": "post-punk; new wave",
+      "extreme_genre": "chamber pop; orchestral pop"
+    },
+    {
+      "slot": 42,
+      "phase": "A_Accumulate",
+      "type": "ISFP_A_M",
+      "entity": "NaCl",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "metal",
+      "release_vec": "P=0.72 Z=0.55 Q=0.65 W=0.25 H=0.80",
+      "stress_genre": "shoegaze; post-britpop",
+      "extreme_genre": "ambient; post rock"
+    },
+    {
+      "slot": 43,
+      "phase": "A_Accumulate",
+      "type": "ESFP_A_F",
+      "entity": "outer_core_convection",
+      "body_loc": "crossroad between gluon orogen and podzol (inferred: left sacroiliac junction / left pelvis between gluteal fold and PSIS)",
+      "loop_idx": null,
+      "release_genre": "lo-fi rock",
+      "release_vec": "P=0.75 Z=0.20 Q=0.60 W=0.60 H=0.25",
+      "stress_genre": "dance pop; electropop",
+      "extreme_genre": "ambient; dream pop"
+    },
+    {
+      "slot": 44,
+      "phase": "A_Accumulate",
+      "type": "ESFJ_A_M",
+      "entity": "cytochrome_c_oxidase",
+      "body_loc": "inner surface of intestine in the left (inferred: left small intestine mucosa / left intestinal epithelium)",
+      "loop_idx": null,
+      "release_genre": "glam rock",
+      "release_vec": "P=0.85 Z=0.20 Q=0.70 W=0.75 H=0.55",
+      "stress_genre": "arena rock; classic rock",
+      "extreme_genre": "ambient; folk"
+    },
+    {
+      "slot": 45,
+      "phase": "A_Accumulate",
+      "type": "ISFP_A_F",
+      "entity": "gluon_orogen.q_bar",
+      "body_loc": "left inner bum (inferred: left gluteal fold medial / left ischiorectal fossa upper)",
+      "loop_idx": 5,
+      "release_genre": "drone",
+      "release_vec": "P=0.05 Z=0.80 Q=0.00 W=0.25 H=0.90",
+      "stress_genre": "dream pop; noise pop",
+      "extreme_genre": "britpop; indie folk"
+    },
+    {
+      "slot": 46,
+      "phase": "A_Accumulate",
+      "type": "ESFJ_A_F",
+      "entity": "pyrite",
+      "body_loc": "between actomyosin and right sole dopamine, plus second locus near left outer thigh (inferred: right 1st metatarsal head / right medial plantar AND left lateral thigh near femoral nerve)",
+      "loop_idx": null,
+      "release_genre": "funk",
+      "release_vec": "P=0.67 Z=0.35 Q=0.55 W=0.50 H=0.40",
+      "stress_genre": "indie pop; chamber pop",
+      "extreme_genre": "experimental; ambient"
+    },
+    {
+      "slot": 47,
+      "phase": "A_Accumulate",
+      "type": "ISFJ_A_M",
+      "entity": "laterite",
+      "body_loc": "left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)",
+      "loop_idx": 6,
+      "release_genre": "industrial electronic",
+      "release_vec": "P=1.00 Z=0.75 Q=0.90 W=0.90 H=0.75",
+      "stress_genre": "arena rock; classic rock",
+      "extreme_genre": "orchestral pop; chamber pop"
+    },
+    {
+      "slot": 48,
+      "phase": "A_Accumulate",
+      "type": "ISFJ_A_F",
+      "entity": "craton.out1",
+      "body_loc": "above quark orogen magma (inferred: right sacrum / right posterior pelvis above gluteal fold)",
+      "loop_idx": null,
+      "release_genre": "dance",
+      "release_vec": "P=0.85 Z=0.25 Q=0.65 W=0.90 H=0.25",
+      "stress_genre": "art pop; orchestral pop",
+      "extreme_genre": "orchestral pop; neo-classical"
+    },
+    {
+      "slot": 49,
+      "phase": "O_Accumulate",
+      "type": "ENTP_O_M",
+      "entity": "outer_core_convection.out0",
+      "body_loc": "crossroad between gluon orogen and podzol (inferred: left sacroiliac junction / left pelvis between gluteal fold and PSIS)",
+      "loop_idx": null,
+      "release_genre": "city pop",
+      "release_vec": "P=0.70 Z=0.25 Q=0.40 W=0.70 H=0.25",
+      "stress_genre": "industrial electronic; EBM",
+      "extreme_genre": "experimental classical; drone"
+    },
+    {
+      "slot": 50,
+      "phase": "O_Accumulate",
+      "type": "INTP_O_M",
+      "entity": "thorium",
+      "body_loc": "just inner to center of body where it diverges between gluon orogen and steel (inferred: midline pelvic floor / perineal midline)",
+      "loop_idx": null,
+      "release_genre": "electronic dance",
+      "release_vec": "P=0.85 Z=0.30 Q=0.80 W=0.75 H=0.45",
+      "stress_genre": "synthwave; krautrock",
+      "extreme_genre": "britpop; indie folk"
+    },
+    {
+      "slot": 51,
+      "phase": "O_Accumulate",
+      "type": "ENTJ_O_M",
+      "entity": "memory_entropy",
+      "body_loc": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)",
+      "loop_idx": 15,
+      "release_genre": "pop country",
+      "release_vec": "P=0.65 Z=0.10 Q=0.35 W=0.65 H=0.15",
+      "stress_genre": "death metal; extreme metal",
+      "extreme_genre": "ambient; minimalistic"
+    },
+    {
+      "slot": 52,
+      "phase": "O_Accumulate",
+      "type": "INTJ_O_M",
+      "entity": "basin.q",
+      "body_loc": "just inside posterior exterior left waist (inferred: left posterior waist / left lumbar soft tissue)",
+      "loop_idx": null,
+      "release_genre": "black metal",
+      "release_vec": "P=1.00 Z=0.60 Q=0.85 W=0.30 H=1.00",
+      "stress_genre": "drone; dark ambient",
+      "extreme_genre": "lofi hip hop; nujabes"
+    },
+    {
+      "slot": 53,
+      "phase": "O_Accumulate",
+      "type": "ENTP_O_F",
+      "entity": "cck",
+      "body_loc": "back of the pancreas (inferred: pancreatic tail/body posterior)",
+      "loop_idx": null,
+      "release_genre": "drone metal",
+      "release_vec": "P=0.40 Z=0.95 Q=0.70 W=0.20 H=1.00",
+      "stress_genre": "space rock; krautrock",
+      "extreme_genre": "IDM; experimental electronic"
+    },
+    {
+      "slot": 54,
+      "phase": "O_Accumulate",
+      "type": "ENFP_O_M",
+      "entity": "heme",
+      "body_loc": "just inner to left nipple (inferred: left chest medial to nipple / left pectoralis major medial border)",
+      "loop_idx": 3,
+      "release_genre": "noise rock",
+      "release_vec": "P=0.95 Z=0.55 Q=0.80 W=0.65 H=0.85",
+      "stress_genre": "space rock with stoner; krautrock",
+      "extreme_genre": "experimental classical; drone"
+    },
+    {
+      "slot": 55,
+      "phase": "O_Accumulate",
+      "type": "INTP_O_F",
+      "entity": "nitrogenase.out_2",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "prog rock",
+      "release_vec": "P=0.70 Z=0.60 Q=0.70 W=0.70 H=0.45",
+      "stress_genre": "shoegaze; post rock",
+      "extreme_genre": "soul; indie pop"
+    },
+    {
+      "slot": 56,
+      "phase": "O_Accumulate",
+      "type": "INFP_O_M",
+      "entity": "histosol.out1",
+      "body_loc": "left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)",
+      "loop_idx": null,
+      "release_genre": "power electronics",
+      "release_vec": "P=0.62 Z=0.90 Q=0.80 W=0.65 H=1.00",
+      "stress_genre": "radiohead; post-britpop art rock",
+      "extreme_genre": "experimental classical; drone"
+    },
+    {
+      "slot": 57,
+      "phase": "O_Accumulate",
+      "type": "ENTJ_O_F",
+      "entity": "steel.out1",
+      "body_loc": "left anus muscle / rectum (직장) (inferred: left external anal sphincter / left rectal wall)",
+      "loop_idx": null,
+      "release_genre": "witch house",
+      "release_vec": "P=0.57 Z=0.60 Q=0.50 W=0.35 H=0.80",
+      "stress_genre": "metal; hard rock",
+      "extreme_genre": "ambient; minimalistic"
+    },
+    {
+      "slot": 58,
+      "phase": "O_Accumulate",
+      "type": "INTJ_O_F",
+      "entity": "autophagy.out0",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "soft rock",
+      "release_vec": "P=0.65 Z=0.00 Q=0.50 W=0.65 H=0.15",
+      "stress_genre": "power electronics; industrial",
+      "extreme_genre": "lofi nujabes; ghibli-adjacent"
+    },
+    {
+      "slot": 59,
+      "phase": "O_Accumulate",
+      "type": "ENFJ_O_M",
+      "entity": "sulforaphane",
+      "body_loc": "left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)",
+      "loop_idx": null,
+      "release_genre": "prog",
+      "release_vec": "P=0.80 Z=0.55 Q=0.70 W=0.70 H=0.40",
+      "stress_genre": "jazz fusion; progressive soul",
+      "extreme_genre": "experimental classical; drone"
+    },
+    {
+      "slot": 60,
+      "phase": "O_Accumulate",
+      "type": "ENFP_O_F",
+      "entity": "co2.out0",
+      "body_loc": "right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)",
+      "loop_idx": 14,
+      "release_genre": "ambient electronica",
+      "release_vec": "P=0.00 Z=0.30 Q=0.10 W=0.15 H=0.45",
+      "stress_genre": "space rock with stoner; shoegaze",
+      "extreme_genre": "experimental; dark ambient"
+    },
+    {
+      "slot": 61,
+      "phase": "O_Accumulate",
+      "type": "INFJ_O_M",
+      "entity": "cysteine",
+      "body_loc": "right inner brain opposite sulforaphane on the front (inferred: right ventromedial prefrontal cortex / right anterior cingulate)",
+      "loop_idx": null,
+      "release_genre": "art rock",
+      "release_vec": "P=0.72 Z=0.45 Q=0.60 W=0.68 H=0.70",
+      "stress_genre": "drone; minimalistic ambient",
+      "extreme_genre": "lofi hip hop; britpop"
+    },
+    {
+      "slot": 62,
+      "phase": "O_Accumulate",
+      "type": "INFP_O_F",
+      "entity": "ferritin.out0",
+      "body_loc": "just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)",
+      "loop_idx": null,
+      "release_genre": "technical metal",
+      "release_vec": "P=0.95 Z=0.65 Q=0.55 W=0.55 H=0.90",
+      "stress_genre": "dream pop; shoegaze",
+      "extreme_genre": "experimental classical; drone"
+    },
+    {
+      "slot": 63,
+      "phase": "O_Accumulate",
+      "type": "ESTP_O_M",
+      "entity": "water_vapour",
+      "body_loc": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)",
+      "loop_idx": 12,
+      "release_genre": "pop rock",
+      "release_vec": "P=0.80 Z=0.20 Q=0.65 W=0.85 H=0.15",
+      "stress_genre": "hardcore; punk",
+      "extreme_genre": "indie folk; minimalistic ambient"
+    },
+    {
+      "slot": 64,
+      "phase": "O_Accumulate",
+      "type": "ENFJ_O_F",
+      "entity": "subduction_zone",
+      "body_loc": "left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)",
+      "loop_idx": 11,
+      "release_genre": "indie pop",
+      "release_vec": "P=0.40 Z=0.10 Q=0.25 W=0.70 H=0.35",
+      "stress_genre": "jazz; R&B experimental",
+      "extreme_genre": "ambient; drone"
+    },
+    {
+      "slot": 65,
+      "phase": "O_Accumulate",
+      "type": "ISTP_O_M",
+      "entity": "mc1r.q_bar",
+      "body_loc": "just below GDH on left waist (inferred: left iliac crest / left waist below glutamate dehydrogenase projection)",
+      "loop_idx": null,
+      "release_genre": "experimental rock",
+      "release_vec": "P=0.80 Z=0.50 Q=0.75 W=0.75 H=0.70",
+      "stress_genre": "doom metal; sludge",
+      "extreme_genre": "psychedelic rock; ambient"
+    },
+    {
+      "slot": 66,
+      "phase": "O_Accumulate",
+      "type": "INFJ_O_F",
+      "entity": "basin",
+      "body_loc": "just inside posterior exterior left waist (inferred: left posterior waist / left lumbar soft tissue)",
+      "loop_idx": null,
+      "release_genre": "progressive soul",
+      "release_vec": "P=0.70 Z=0.35 Q=0.70 W=0.65 H=0.45",
+      "stress_genre": "dark ambient; drone",
+      "extreme_genre": "indie folk; ghibli"
+    },
+    {
+      "slot": 67,
+      "phase": "O_Accumulate",
+      "type": "ESTP_O_F",
+      "entity": "adapter_protein",
+      "body_loc": "second finger on the right (inferred: right index finger distal phalanx)",
+      "loop_idx": null,
+      "release_genre": "dream pop experimental",
+      "release_vec": "P=0.50 Z=0.45 Q=0.35 W=0.75 H=0.40",
+      "stress_genre": "electropop; synth pop",
+      "extreme_genre": "dream pop; indie folk"
+    },
+    {
+      "slot": 68,
+      "phase": "O_Accumulate",
+      "type": "ESTJ_O_M",
+      "entity": "pyrite.out1",
+      "body_loc": "between actomyosin and right sole dopamine, plus second locus near left outer thigh (inferred: right 1st metatarsal head / right medial plantar AND left lateral thigh near femoral nerve)",
+      "loop_idx": null,
+      "release_genre": "synth pop",
+      "release_vec": "P=0.88 Z=0.15 Q=0.70 W=0.80 H=0.25",
+      "stress_genre": "metal; prog rock",
+      "extreme_genre": "ambient; minimalistic"
+    },
+    {
+      "slot": 69,
+      "phase": "O_Accumulate",
+      "type": "ISTP_O_F",
+      "entity": "lower_mantle.q",
+      "body_loc": "opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)",
+      "loop_idx": null,
+      "release_genre": "weird pop",
+      "release_vec": "P=0.50 Z=0.45 Q=0.45 W=0.80 H=0.60",
+      "stress_genre": "stoner rock; heavy blues",
+      "extreme_genre": "ambient; acoustic folk"
+    },
+    {
+      "slot": 70,
+      "phase": "O_Accumulate",
+      "type": "ISTJ_O_M",
+      "entity": "water_vapour.out0",
+      "body_loc": "thoracic spinous processes (흉추돌기) (inferred: T1-T12 spinous processes, posterior midline trunk)",
+      "loop_idx": 12,
+      "release_genre": "tool-adjacent",
+      "release_vec": "P=0.73 Z=0.55 Q=0.80 W=0.45 H=0.65",
+      "stress_genre": "blues rock; southern rock",
+      "extreme_genre": "soul; gospel"
+    },
+    {
+      "slot": 71,
+      "phase": "O_Accumulate",
+      "type": "ESTJ_O_F",
+      "entity": "aurora.out0",
+      "body_loc": "outlet of energy from the middle of the brain to the very midpoint of the scalp (inferred: midline scalp vertex / superior sagittal sinus outlet)",
+      "loop_idx": 13,
+      "release_genre": "ethereal wave",
+      "release_vec": "P=0.18 Z=0.25 Q=0.40 W=0.50 H=0.30",
+      "stress_genre": "rock; blues rock",
+      "extreme_genre": "ambient; folk"
+    },
+    {
+      "slot": 72,
+      "phase": "O_Accumulate",
+      "type": "ESFP_O_M",
+      "entity": "subduction_zone.out0",
+      "body_loc": "left outer femoral nerve or just outside that on the thigh (inferred: left lateral femoral cutaneous nerve / left anterolateral thigh)",
+      "loop_idx": 11,
+      "release_genre": "experimental hip hop",
+      "release_vec": "P=0.83 Z=0.60 Q=0.70 W=0.70 H=0.50",
+      "stress_genre": "dance; electronic dance",
+      "extreme_genre": "ambient; post rock"
+    },
+    {
+      "slot": 73,
+      "phase": "O_Accumulate",
+      "type": "ISTJ_O_F",
+      "entity": "adapter_protein.q_bar",
+      "body_loc": "second finger on the right (inferred: right index finger distal phalanx)",
+      "loop_idx": null,
+      "release_genre": "pop soul",
+      "release_vec": "P=0.50 Z=0.02 Q=0.40 W=0.73 H=0.13",
+      "stress_genre": "indie pop; folk rock",
+      "extreme_genre": "soul; gospel"
+    },
+    {
+      "slot": 74,
+      "phase": "O_Accumulate",
+      "type": "ISFP_O_M",
+      "entity": "laterite.q_bar",
+      "body_loc": "left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)",
+      "loop_idx": 6,
+      "release_genre": "baroque pop",
+      "release_vec": "P=0.48 Z=0.40 Q=0.55 W=0.75 H=0.60",
+      "stress_genre": "shoegaze; alternative rock",
+      "extreme_genre": "experimental; ambient"
+    },
+    {
+      "slot": 75,
+      "phase": "O_Accumulate",
+      "type": "ESFP_O_F",
+      "entity": "pentose_phosphate",
+      "body_loc": "medial lower canthus right (inferred: right medial canthus / right lacrimal region)",
+      "loop_idx": null,
+      "release_genre": "IDM",
+      "release_vec": "P=0.60 Z=0.45 Q=0.55 W=0.75 H=0.45",
+      "stress_genre": "synth pop; dance pop",
+      "extreme_genre": "ambient; acoustic folk"
+    },
+    {
+      "slot": 76,
+      "phase": "O_Accumulate",
+      "type": "ESFJ_O_M",
+      "entity": "methylation",
+      "body_loc": "just above GLP-1 to the inner core of the left body, gap between lung rib and other organs (inferred: left upper abdomen / left hypochondrium between ribs and organs)",
+      "loop_idx": null,
+      "release_genre": "orchestral pop",
+      "release_vec": "P=0.53 Z=0.20 Q=0.65 W=0.80 H=0.55",
+      "stress_genre": "hard rock; southern rock",
+      "extreme_genre": "ambient; minimalistic"
+    },
+    {
+      "slot": 77,
+      "phase": "O_Accumulate",
+      "type": "ISFP_O_F",
+      "entity": "manganese_nodule",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "acoustic folk",
+      "release_vec": "P=0.17 Z=0.07 Q=0.25 W=0.20 H=0.27",
+      "stress_genre": "dream pop; shoegaze",
+      "extreme_genre": "britpop; alternative"
+    },
+    {
+      "slot": 78,
+      "phase": "O_Accumulate",
+      "type": "ESFJ_O_F",
+      "entity": "right_acetylcholine",
+      "body_loc": "right temporalis inner strip, right acetylcholine switch (inferred: right temporalis muscle inner strip / right facial-vagal cholinergic cap)",
+      "loop_idx": null,
+      "release_genre": "prog metal",
+      "release_vec": "P=0.95 Z=0.55 Q=0.75 W=0.55 H=0.80",
+      "stress_genre": "folk rock; americana",
+      "extreme_genre": "experimental; drone"
+    },
+    {
+      "slot": 79,
+      "phase": "O_Accumulate",
+      "type": "ISFJ_O_M",
+      "entity": "none_observer",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "fuzz rock",
+      "release_vec": "P=0.53 Z=0.30 Q=0.65 W=0.30 H=0.55",
+      "stress_genre": "hard rock; classic rock",
+      "extreme_genre": "soul; gospel"
+    },
+    {
+      "slot": 80,
+      "phase": "O_Accumulate",
+      "type": "ISFJ_O_F",
+      "entity": "disulfide_bond",
+      "body_loc": "hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)",
+      "loop_idx": null,
+      "release_genre": "PC Music",
+      "release_vec": "P=0.40 Z=0.55 Q=0.50 W=0.25 H=0.55",
+      "stress_genre": "indie pop; singer-songwriter",
+      "extreme_genre": "dream pop; soul"
+    },
+    {
+      "slot": 81,
+      "phase": "B_Accumulate",
+      "type": "ENTP_B_M",
+      "entity": "plume_out0_nand",
+      "body_loc": "just outside opposite of thorium on right hip (inferred: right lateral hip / right greater trochanter region)",
+      "loop_idx": null,
+      "release_genre": "doom metal",
+      "release_vec": "P=0.50 Z=0.55 Q=0.65 W=0.25 H=0.80",
+      "stress_genre": "noise; harsh electronica",
+      "extreme_genre": "big beat; industrial"
+    },
+    {
+      "slot": 82,
+      "phase": "B_Accumulate",
+      "type": "INTP_B_M",
+      "entity": "carbon.q",
+      "body_loc": "right orbicularis",
+      "loop_idx": null,
+      "release_genre": "lo-fi indie",
+      "release_vec": "P=0.42 Z=0.15 Q=0.35 W=0.60 H=0.50",
+      "stress_genre": "experimental contemporary classical; glitch",
+      "extreme_genre": "post rock; shoegaze"
+    },
+    {
+      "slot": 83,
+      "phase": "B_Accumulate",
+      "type": "ENTJ_B_M",
+      "entity": "male_right_oxytocin",
+      "body_loc": "muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)",
+      "loop_idx": null,
+      "release_genre": "experimental ambient",
+      "release_vec": "P=0.00 Z=0.50 Q=0.10 W=0.20 H=0.45",
+      "stress_genre": "grindcore; black metal",
+      "extreme_genre": "orchestral; cinematic"
+    },
+    {
+      "slot": 84,
+      "phase": "B_Accumulate",
+      "type": "INTJ_B_M",
+      "entity": "substance_p",
+      "body_loc": "under right armpit (inferred: right axillary lymph node region / right axilla)",
+      "loop_idx": null,
+      "release_genre": "experimental folk",
+      "release_vec": "P=0.40 Z=0.40 Q=0.30 W=0.50 H=0.55",
+      "stress_genre": "harsh noise; power electronics",
+      "extreme_genre": "lofi nujabes; minimalistic ambient"
+    },
+    {
+      "slot": 85,
+      "phase": "B_Accumulate",
+      "type": "ENTP_B_F",
+      "entity": "actomyosin",
+      "body_loc": "right thumb toe (inferred: right hallux / right 1st digit)",
+      "loop_idx": null,
+      "release_genre": "mac demarco",
+      "release_vec": "P=0.35 Z=0.35 Q=0.30 W=0.45 H=0.50",
+      "stress_genre": "noise rock; sonic youth adjacent",
+      "extreme_genre": "IDM; electronic experimental"
+    },
+    {
+      "slot": 86,
+      "phase": "B_Accumulate",
+      "type": "ENFP_B_M",
+      "entity": "glp1",
+      "body_loc": "center of triangle made by acetyl-CoA, female GABA-B and GDH (inferred: central upper abdomen / epigastric center)",
+      "loop_idx": null,
+      "release_genre": "stoner rock",
+      "release_vec": "P=0.60 Z=0.45 Q=0.70 W=0.50 H=0.70",
+      "stress_genre": "krautrock; cosmic rock",
+      "extreme_genre": "indie folk; singer-songwriter"
+    },
+    {
+      "slot": 87,
+      "phase": "B_Accumulate",
+      "type": "INTP_B_F",
+      "entity": "water",
+      "body_loc": "upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)",
+      "loop_idx": 12,
+      "release_genre": "triphop",
+      "release_vec": "P=0.37 Z=0.30 Q=0.50 W=0.30 H=0.60",
+      "stress_genre": "experimental classical; lowercase noise",
+      "extreme_genre": "indie folk; shoegaze"
+    },
+    {
+      "slot": 88,
+      "phase": "B_Accumulate",
+      "type": "INFP_B_M",
+      "entity": "sodium.out1",
+      "body_loc": "left outside of left endorphin on orbicularis oris (inferred: left lateral orbicularis oris / left corner of upper lip)",
+      "loop_idx": null,
+      "release_genre": "hans zimmer",
+      "release_vec": "P=0.53 Z=0.25 Q=0.70 W=0.70 H=0.60",
+      "stress_genre": "experimental ambient; lowercase",
+      "extreme_genre": "britpop; indie folk"
+    },
+    {
+      "slot": 89,
+      "phase": "B_Accumulate",
+      "type": "ENTJ_B_F",
+      "entity": "magnetite",
+      "body_loc": "inside of left knee joint (inferred: left medial knee / left medial femoral condyle)",
+      "loop_idx": null,
+      "release_genre": "neo-soul",
+      "release_vec": "P=0.52 Z=0.25 Q=0.45 W=0.45 H=0.45",
+      "stress_genre": "power electronics; noise",
+      "extreme_genre": "orchestral; art rock"
+    },
+    {
+      "slot": 90,
+      "phase": "B_Accumulate",
+      "type": "INTJ_B_F",
+      "entity": "lactate_dehydrogenase",
+      "body_loc": "left pectoralis major (대흉문근) (inferred: left sternal head of pectoralis major)",
+      "loop_idx": null,
+      "release_genre": "experimental pop",
+      "release_vec": "P=0.80 Z=0.60 Q=0.65 W=0.75 H=0.55",
+      "stress_genre": "arca; kelela",
+      "extreme_genre": "drone; minimalistic ambient"
+    },
+    {
+      "slot": 91,
+      "phase": "B_Accumulate",
+      "type": "ENFJ_B_M",
+      "entity": "carbon.q_bar",
+      "body_loc": "right orbicularis",
+      "loop_idx": null,
+      "release_genre": "arena rock",
+      "release_vec": "P=0.83 Z=0.20 Q=0.65 W=0.80 H=0.45",
+      "stress_genre": "experimental R&B; free jazz",
+      "extreme_genre": "soul; gospel"
+    },
+    {
+      "slot": 92,
+      "phase": "B_Accumulate",
+      "type": "ENFP_B_F",
+      "entity": "ferritin.out1",
+      "body_loc": "just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)",
+      "loop_idx": null,
+      "release_genre": "shoegaze",
+      "release_vec": "P=0.17 Z=0.40 Q=0.40 W=0.35 H=0.60",
+      "stress_genre": "space rock; psychedelic",
+      "extreme_genre": "indie folk; dream pop"
+    },
+    {
+      "slot": 93,
+      "phase": "B_Accumulate",
+      "type": "INFJ_B_M",
+      "entity": "podzol.out1",
+      "body_loc": "left hip, inverse reciprocal of methionine, left posterior hip (inferred: left posterior superior iliac spine / left gluteus medius posterior)",
+      "loop_idx": null,
+      "release_genre": "experimental electronic",
+      "release_vec": "P=0.85 Z=0.60 Q=0.70 W=0.70 H=0.65",
+      "stress_genre": "free jazz; post-punk experimental",
+      "extreme_genre": "dark ambient; neo-classical"
+    },
+    {
+      "slot": 94,
+      "phase": "B_Accumulate",
+      "type": "INFP_B_F",
+      "entity": "co2.out1",
+      "body_loc": "right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)",
+      "loop_idx": 14,
+      "release_genre": "sludge metal",
+      "release_vec": "P=0.65 Z=0.55 Q=0.75 W=0.30 H=0.85",
+      "stress_genre": "ghibli; neo-classical",
+      "extreme_genre": "indie folk; singer-songwriter"
+    },
+    {
+      "slot": 95,
+      "phase": "B_Accumulate",
+      "type": "ESTP_B_M",
+      "entity": "male_right_oxytocin.q_bar",
+      "body_loc": "muscle that links ear to the head, auricularis posterior (inferred: right posterior auricular muscle / right temporoparietal junction)",
+      "loop_idx": null,
+      "release_genre": "hip hop",
+      "release_vec": "P=0.70 Z=0.40 Q=0.55 W=0.75 H=0.60",
+      "stress_genre": "grindcore; noise rock",
+      "extreme_genre": "dark ambient; drone"
+    },
+    {
+      "slot": 96,
+      "phase": "B_Accumulate",
+      "type": "ENFJ_B_F",
+      "entity": "caco3",
+      "body_loc": "outside of right knee (inferred: right lateral femoral condyle / right fibular head region)",
+      "loop_idx": null,
+      "release_genre": "britpop",
+      "release_vec": "P=0.83 Z=0.20 Q=0.65 W=0.70 H=0.30",
+      "stress_genre": "experimental R&B; avant-pop",
+      "extreme_genre": "dream pop; indie folk"
+    },
+    {
+      "slot": 97,
+      "phase": "B_Accumulate",
+      "type": "ISTP_B_M",
+      "entity": "methanogenesis",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "death metal",
+      "release_vec": "P=0.90 Z=0.55 Q=0.90 W=0.45 H=0.65",
+      "stress_genre": "noise rock; power electronics",
+      "extreme_genre": "psychedelic rock; stoner"
+    },
+    {
+      "slot": 98,
+      "phase": "B_Accumulate",
+      "type": "INFJ_B_F",
+      "entity": "histosol",
+      "body_loc": "left outside of left foot just hind to opposite of copper iron complex (inferred: left lateral heel / left calcaneus lateral)",
+      "loop_idx": null,
+      "release_genre": "ambient",
+      "release_vec": "P=0.00 Z=0.05 Q=0.00 W=0.25 H=0.10",
+      "stress_genre": "björk; arca",
+      "extreme_genre": "ghibli; neo-classical"
+    },
+    {
+      "slot": 99,
+      "phase": "B_Accumulate",
+      "type": "ESTJ_B_M",
+      "entity": "chlorine_ion_pump",
+      "body_loc": "right inner wrist where the watch face covers if worn inside (inferred: right ventral wrist / palmaris longus tendon region)",
+      "loop_idx": null,
+      "release_genre": "post-britpop art rock",
+      "release_vec": "P=0.63 Z=0.35 Q=0.65 W=0.75 H=0.50",
+      "stress_genre": "death metal; grindcore",
+      "extreme_genre": "classic rock; prog"
+    },
+    {
+      "slot": 100,
+      "phase": "B_Accumulate",
+      "type": "ESTP_B_F",
+      "entity": "water.out0",
+      "body_loc": "upper philtrum halfway between nose and where upper lip ends (inferred: infranasal depression / upper philtrum)",
+      "loop_idx": 12,
+      "release_genre": "conventional classical",
+      "release_vec": "P=0.40 Z=0.40 Q=0.70 W=0.50 H=0.40",
+      "stress_genre": "noise rock; hardcore",
+      "extreme_genre": "ethereal wave; dream pop"
+    },
+    {
+      "slot": 101,
+      "phase": "B_Accumulate",
+      "type": "ISTP_B_F",
+      "entity": "lower_mantle",
+      "body_loc": "opposite craton on left back (inferred: left posterior trunk / left lumbar paraspinal muscles)",
+      "loop_idx": null,
+      "release_genre": "no wave",
+      "release_vec": "P=0.70 Z=0.75 Q=0.75 W=0.55 H=0.75",
+      "stress_genre": "psychedelic folk; blues experimental",
+      "extreme_genre": "psychedelic rock; stoner"
+    },
+    {
+      "slot": 102,
+      "phase": "B_Accumulate",
+      "type": "ISTJ_B_M",
+      "entity": "nitrogenase",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "death metal instrumental",
+      "release_vec": "P=0.90 Z=0.55 Q=0.90 W=0.40 H=0.75",
+      "stress_genre": "death metal; grindcore",
+      "extreme_genre": "funk; soul"
+    },
+    {
+      "slot": 103,
+      "phase": "B_Accumulate",
+      "type": "ESTJ_B_F",
+      "entity": "actomyosin.out1",
+      "body_loc": "right thumb toe (inferred: right hallux / right 1st digit)",
+      "loop_idx": null,
+      "release_genre": "neo-classical pop",
+      "release_vec": "P=0.20 Z=0.25 Q=0.45 W=0.55 H=0.45",
+      "stress_genre": "noise rock; hardcore",
+      "extreme_genre": "country rock; folk"
+    },
+    {
+      "slot": 104,
+      "phase": "B_Accumulate",
+      "type": "ESFP_B_M",
+      "entity": "left_endorphin_electron_neutrino.out0",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "folk",
+      "release_vec": "P=0.45 Z=0.12 Q=0.18 W=0.43 H=0.23",
+      "stress_genre": "drill; experimental hip hop",
+      "extreme_genre": "soul; funk"
+    },
+    {
+      "slot": 105,
+      "phase": "B_Accumulate",
+      "type": "ISTJ_B_F",
+      "entity": "craton.out0",
+      "body_loc": "above quark orogen magma (inferred: right sacrum / right posterior pelvis above gluteal fold)",
+      "loop_idx": null,
+      "release_genre": "contemporary classical",
+      "release_vec": "P=0.20 Z=0.60 Q=0.60 W=0.45 H=0.65",
+      "stress_genre": "noise rock; hardcore",
+      "extreme_genre": "dream pop; indie folk"
+    },
+    {
+      "slot": 106,
+      "phase": "B_Accumulate",
+      "type": "ISFP_B_M",
+      "entity": "heath_aerenchyma.out0",
+      "body_loc": "left rib cage bone upper outside of manganese oxygen complex (inferred: left upper rib cage / left 3rd-4th rib anterior)",
+      "loop_idx": null,
+      "release_genre": "edm",
+      "release_vec": "P=0.77 Z=0.10 Q=0.75 W=0.70 H=0.40",
+      "stress_genre": "lo-fi indie; slacker rock",
+      "extreme_genre": "britpop; oasis-adjacent"
+    },
+    {
+      "slot": 107,
+      "phase": "B_Accumulate",
+      "type": "ESFP_B_F",
+      "entity": "craton",
+      "body_loc": "above quark orogen magma (inferred: right sacrum / right posterior pelvis above gluteal fold)",
+      "loop_idx": null,
+      "release_genre": "electronic experimental",
+      "release_vec": "P=0.85 Z=0.65 Q=0.70 W=0.70 H=0.60",
+      "stress_genre": "experimental pop; hyperpop",
+      "extreme_genre": "dream pop; indie folk"
+    },
+    {
+      "slot": 108,
+      "phase": "B_Accumulate",
+      "type": "ESFJ_B_M",
+      "entity": "monazite_thorium_and",
+      "body_loc": "just inner to center of body where it diverges between gluon orogen and steel (inferred: midline pelvic floor / perineal midline)",
+      "loop_idx": null,
+      "release_genre": "technical instrumental metal",
+      "release_vec": "P=1.00 Z=0.80 Q=0.75 W=0.55 H=0.75",
+      "stress_genre": "soul; R&B",
+      "extreme_genre": "folk; acoustic"
+    },
+    {
+      "slot": 109,
+      "phase": "B_Accumulate",
+      "type": "ISFP_B_F",
+      "entity": "mycorradicin.out0",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "chillstep",
+      "release_vec": "P=0.40 Z=0.30 Q=0.40 W=0.35 H=0.65",
+      "stress_genre": "shoegaze; dream pop experimental",
+      "extreme_genre": "indie folk; acoustic"
+    },
+    {
+      "slot": 110,
+      "phase": "B_Accumulate",
+      "type": "ESFJ_B_F",
+      "entity": "manganese_nodule.q_bar",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "ethereal",
+      "release_vec": "P=0.10 Z=0.40 Q=0.20 W=0.50 H=0.40",
+      "stress_genre": "synth pop; dance pop",
+      "extreme_genre": "folk; acoustic"
+    },
+    {
+      "slot": 111,
+      "phase": "B_Accumulate",
+      "type": "ISFJ_B_M",
+      "entity": "basin.q_bar",
+      "body_loc": "just inside posterior exterior left waist (inferred: left posterior waist / left lumbar soft tissue)",
+      "loop_idx": null,
+      "release_genre": "emotional hip hop",
+      "release_vec": "P=0.45 Z=0.45 Q=0.45 W=0.55 H=0.40",
+      "stress_genre": "R&B; jazz fusion",
+      "extreme_genre": "gospel; classic R&B"
+    },
+    {
+      "slot": 112,
+      "phase": "B_Accumulate",
+      "type": "ISFJ_B_F",
+      "entity": "large_igneous_province",
+      "body_loc": "midway between thoracic spinous processes and outer-core convection (inferred: mid-thoracic spine / T6-T8 spinous region)",
+      "loop_idx": null,
+      "release_genre": "BoC-adjacent electronica",
+      "release_vec": "P=0.40 Z=0.55 Q=0.40 W=0.50 H=0.40",
+      "stress_genre": "shoegaze; ethereal wave",
+      "extreme_genre": "art pop; neo-classical"
+    },
+    {
+      "slot": 113,
+      "phase": "AB_Accumulate",
+      "type": "ISTP_AB_M",
+      "entity": "monazite",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "fever ray",
+      "release_vec": "P=0.65 Z=0.75 Q=0.65 W=0.50 H=0.80",
+      "stress_genre": "noise; free improvisation",
+      "extreme_genre": "psychedelic rock; stoner"
+    },
+    {
+      "slot": 114,
+      "phase": "AB_Accumulate",
+      "type": "INFJ_AB_F",
+      "entity": "andosol.out0",
+      "body_loc": "between left sole and oxidised manganese (inferred: left plantar arch / left medial longitudinal arch)",
+      "loop_idx": null,
+      "release_genre": "ghibli",
+      "release_vec": "P=0.40 Z=0.20 Q=0.25 W=0.45 H=0.40",
+      "stress_genre": "arca; deconstructed club",
+      "extreme_genre": "indie folk; singer-songwriter"
+    },
+    {
+      "slot": 115,
+      "phase": "AB_Accumulate",
+      "type": "ESTP_AB_F",
+      "entity": "right_sole_dopamine.q_bar",
+      "body_loc": "upper center of right sole (inferred: right plantar arch center / right medial longitudinal arch)",
+      "loop_idx": 8,
+      "release_genre": "ambient jazz",
+      "release_vec": "P=0.05 Z=0.45 Q=0.20 W=0.40 H=0.45",
+      "stress_genre": "experimental pop; hyperpop",
+      "extreme_genre": "neo-classical; minimalistic ambient"
+    },
+    {
+      "slot": 116,
+      "phase": "AB_Accumulate",
+      "type": "ESTJ_AB_M",
+      "entity": "methionine",
+      "body_loc": "right exterior of hip where Jesus got stabbed in crucifixion (inferred: right iliac fossa / right lateral abdominal wall near McBurney point)",
+      "loop_idx": null,
+      "release_genre": "k-pop structured",
+      "release_vec": "P=0.90 Z=0.10 Q=0.75 W=1.00 H=0.10",
+      "stress_genre": "jazz experimental; free jazz",
+      "extreme_genre": "classic rock; hard rock"
+    },
+    {
+      "slot": 117,
+      "phase": "AB_Accumulate",
+      "type": "ISTP_AB_F",
+      "entity": "cambisol",
+      "body_loc": "inner side of both Achilles tendons (inferred: bilateral Achilles tendon medial aspects)",
+      "loop_idx": null,
+      "release_genre": "thrash metal",
+      "release_vec": "P=0.95 Z=0.35 Q=0.55 W=0.60 H=0.75",
+      "stress_genre": "noise folk; math rock",
+      "extreme_genre": "quiet acoustic; ambient"
+    },
+    {
+      "slot": 118,
+      "phase": "AB_Accumulate",
+      "type": "ISTJ_AB_M",
+      "entity": "manganese_oxygen_complex.out1",
+      "body_loc": "left rib cage diagonal bone outside of lung (inferred: left anterior rib cage / left costal cartilage diagonal)",
+      "loop_idx": null,
+      "release_genre": "ethereal indie",
+      "release_vec": "P=0.30 Z=0.20 Q=0.40 W=0.40 H=0.35",
+      "stress_genre": "free jazz; jazz experimental",
+      "extreme_genre": "art pop; avant-pop"
+    },
+    {
+      "slot": 119,
+      "phase": "AB_Accumulate",
+      "type": "ESTJ_AB_F",
+      "entity": "clay_gouge",
+      "body_loc": "right anus muscle / rectum (직장) (inferred: right external anal sphincter / right rectal wall)",
+      "loop_idx": null,
+      "release_genre": "industrial",
+      "release_vec": "P=1.00 Z=0.70 Q=0.85 W=0.90 H=0.80",
+      "stress_genre": "experimental rock; noise",
+      "extreme_genre": "country rock; new wave"
+    },
+    {
+      "slot": 120,
+      "phase": "AB_Accumulate",
+      "type": "ESFP_AB_M",
+      "entity": "ferritin",
+      "body_loc": "just inner to heme in the middle of the body (inferred: sternal region / mediastinum center)",
+      "loop_idx": null,
+      "release_genre": "soul",
+      "release_vec": "P=0.63 Z=0.15 Q=0.65 W=0.60 H=0.35",
+      "stress_genre": "experimental R&B; hyperpop",
+      "extreme_genre": "funk; soul"
+    },
+    {
+      "slot": 121,
+      "phase": "AB_Accumulate",
+      "type": "ISTJ_AB_F",
+      "entity": "nitrogenase.out_3",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "alternative rock",
+      "release_vec": "P=0.75 Z=0.40 Q=0.65 W=0.65 H=0.40",
+      "stress_genre": "experimental rock; no wave",
+      "extreme_genre": "avant-pop; art pop"
+    },
+    {
+      "slot": 122,
+      "phase": "AB_Accumulate",
+      "type": "ISFP_AB_M",
+      "entity": "manganese_nodule.q",
+      "body_loc": "",
+      "loop_idx": null,
+      "release_genre": "minimalistic ambient",
+      "release_vec": "P=0.00 Z=0.05 Q=0.00 W=0.05 H=0.15",
+      "stress_genre": "ambient jazz; nu-jazz",
+      "extreme_genre": "britpop; indie rock"
+    },
+    {
+      "slot": 123,
+      "phase": "AB_Accumulate",
+      "type": "ESFP_AB_F",
+      "entity": "peonidine",
+      "body_loc": "just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)",
+      "loop_idx": null,
+      "release_genre": "chillwave",
+      "release_vec": "P=0.67 Z=0.35 Q=0.40 W=0.70 H=0.35",
+      "stress_genre": "hyperpop; deconstructed club",
+      "extreme_genre": "synth pop; pop"
+    },
+    {
+      "slot": 124,
+      "phase": "AB_Accumulate",
+      "type": "ESFJ_AB_M",
+      "entity": "sulforaphane.out0",
+      "body_loc": "left inner brain next to hippocampus (inferred: left hippocampal tail / parahippocampal gyrus adjacent to CA1)",
+      "loop_idx": null,
+      "release_genre": "electropop",
+      "release_vec": "P=0.82 Z=0.25 Q=0.50 W=0.90 H=0.20",
+      "stress_genre": "jazz; neo-soul",
+      "extreme_genre": "classic rock; folk"
+    },
+    {
+      "slot": 125,
+      "phase": "AB_Accumulate",
+      "type": "ISFP_AB_F",
+      "entity": "cambisol.out1",
+      "body_loc": "inner side of both Achilles tendons (inferred: bilateral Achilles tendon medial aspects)",
+      "loop_idx": null,
+      "release_genre": "post rock climax",
+      "release_vec": "P=0.62 Z=0.35 Q=0.90 W=0.55 H=0.75",
+      "stress_genre": "city pop; indietronica",
+      "extreme_genre": "indie folk; acoustic"
+    },
+    {
+      "slot": 126,
+      "phase": "AB_Accumulate",
+      "type": "ESFJ_AB_F",
+      "entity": "plume",
+      "body_loc": "just outside opposite of thorium on right hip (inferred: right lateral hip / right greater trochanter region)",
+      "loop_idx": null,
+      "release_genre": "krautrock",
+      "release_vec": "P=0.88 Z=0.60 Q=0.65 W=0.60 H=0.30",
+      "stress_genre": "art pop; orchestral pop",
+      "extreme_genre": "folk; acoustic pop"
+    },
+    {
+      "slot": 127,
+      "phase": "AB_Accumulate",
+      "type": "ISFJ_AB_M",
+      "entity": "laterite.q",
+      "body_loc": "left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)",
+      "loop_idx": 6,
+      "release_genre": "experimental classical",
+      "release_vec": "P=0.45 Z=0.65 Q=0.65 W=0.60 H=0.80",
+      "stress_genre": "jazz fusion; neo-soul",
+      "extreme_genre": "art pop; orchestral pop"
+    },
+    {
+      "slot": 128,
+      "phase": "AB_Accumulate",
+      "type": "ISFJ_AB_F",
+      "entity": "carbon",
+      "body_loc": "right orbicularis",
+      "loop_idx": null,
+      "release_genre": "post-metal",
+      "release_vec": "P=0.70 Z=0.65 Q=0.90 W=0.50 H=0.60",
+      "stress_genre": "indietronica; city pop",
+      "extreme_genre": "avant-pop; art pop"
+    }
+  ]
+}

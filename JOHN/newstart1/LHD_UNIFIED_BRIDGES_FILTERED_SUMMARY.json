@@ -1,0 +1,30 @@
+{
+  "filter": {
+    "nearest_dist<": 1.5,
+    "contact>=": 0.85
+  },
+  "by_bridge": {
+    "mediator:synthetic_alpha__core_center": {
+      "count": 38,
+      "dist_mean": 1.204287685247287,
+      "contact_mean": 0.4756536872985281,
+      "dist_min": 0.6704114004207185,
+      "dist_max": 1.4996647364583569
+    },
+    "mediator:synthetic_alpha__right_branch": {
+      "count": 34,
+      "dist_mean": 0.6472530445616281,
+      "contact_mean": 0.006878878065321391,
+      "dist_min": 0.0321706486931936,
+      "dist_max": 1.4981122717113586
+    },
+    "core_center__right_branch": {
+      "count": 26,
+      "dist_mean": 3.1112628439713137,
+      "contact_mean": 0.9344261938286093,
+      "dist_min": 2.305764349808804,
+      "dist_max": 3.61
+    }
+  },
+  "total_kept": 98
+}

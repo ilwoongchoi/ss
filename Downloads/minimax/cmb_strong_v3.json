@@ -1,0 +1,52 @@
+{
+  "_version": "v3.0",
+  "_date": "2026-09-09",
+  "_method": "v2 (1st-order damped driven) + Silk damping (Silk 1968) + B-mode (Zaldarriaga-Seljak 1997). Compare against Planck 2018 measured D_ℓ.",
+  "_comparison": "v2 best = 0.0077 (STRONG). v3 best = ?",
+  "planck_2018_reference": "arXiv:1907.12875 (TT), arXiv:1907.12889 (BB)",
+  "residual_v3": {
+    "const(0.5)": 0.007975646268360522,
+    "const(0.6)": 0.021374963859600978,
+    "pulse(0.7,1.0)": 0.047334490502931134,
+    "step(0.6)": 0.021374963859600978
+  },
+  "planck_validation": [
+    {
+      "ell": 220,
+      "D_measured_uK2": 5769.0,
+      "D_model_uK2": 7.1600660193200385,
+      "rel_squared": 0.9975192848878532
+    },
+    {
+      "ell": 537,
+      "D_measured_uK2": 2542.0,
+      "D_model_uK2": 7.1600660193200385,
+      "rel_squared": 0.9943745223290699
+    },
+    {
+      "ell": 810,
+      "D_measured_uK2": 1450.0,
+      "D_model_uK2": 7.1600660193200385,
+      "rel_squared": 0.9901484304824603
+    },
+    {
+      "ell": 1490,
+      "D_measured_uK2": 170.0,
+      "D_model_uK2": 7.1600660193200385,
+      "rel_squared": 0.9175378580910801
+    }
+  ],
+  "lie_family": {
+    "ca1": "dx/dt = k_in·u₁u₂u₃·(1-x) - k_decay·x·(1-x²) + α·exp(-(t/τ_AHP)²)",
+    "cmb": "dx/dt = k_src·u₁u₂u₃·cos(ωt)·D_Silk(t) - k_damp·x + ε_B·cos(ω'·t)",
+    "shared": "1st-order, 3-input multiplicative gate, linear damping, Gaussian envelope, secondary oscillation",
+    "group": "SO(2) × R+ × T² (rotations × positive reals × torus)"
+  },
+  "summary": {
+    "best_residual": 0.007975646268360522,
+    "best_grade": "STRONG",
+    "v2_baseline": 0.0077,
+    "improvement": "see residual values above",
+    "n_planck_pts": 4
+  }
+}

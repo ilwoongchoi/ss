@@ -1,0 +1,45 @@
+{
+  "closure_separation_kept": true,
+  "delta_theta_near_zero": true,
+  "delta_renorm_near_zero_after_3term": true,
+  "rate_residual_is_artifact": true,
+  "freeze_scope": [
+    "continuous void / bridge core",
+    "1/28 twist",
+    "3/32 compression gate",
+    "138.88 deg spark angle",
+    "left attractor",
+    "H2 closure separation (4-point)",
+    "renorm 3-term law"
+  ],
+  "excluded_hypotheses": ["H3", "H4", "D3 angle correction"],
+  "verified_status": {
+    "closure": {
+      "center_in_flash_rate_gt_0": true,
+      "out_band_flash_rate_eq_0": true
+    },
+    "angle": {
+      "delta_theta_mean_deg_approx": 0.059,
+      "interpretation": "Near zero; no angle correction required in current freeze."
+    },
+    "renorm": {
+      "delta_renorm_mean_approx": 0.002,
+      "interpretation": "Near zero after 3-term decomposition; terms are required by ablation."
+    },
+    "rate_residual": {
+      "raw_delta_rate_abs_max_approx": 0.229,
+      "interpretation": "Measurement artifact from eligibility/time-scaling and rate_post pseudo-count when eligible == 0."
+    }
+  },
+  "renorm_terms": {
+    "law": "R_after = R_before - L_comp + E_pole + G_recover",
+    "L_comp": "3/32 compression loss (proportional to |x_before - x_compressed|, capped at 3/32).",
+    "E_pole": "North Pole emission seed (w_gate-driven; angle factor treated as ~1 under near-zero delta_theta).",
+    "G_recover": "continuous refill / bridge recovery (w_gate,kappa,lag dependent; dt-scaled between flashes)."
+  },
+  "artifact_rule": {
+    "raw_delta_rate_abs_max_not_geometry_evidence": true,
+    "condition_to_reopen_geometry": "Only reopen geometry hypotheses if eligible-filtered and pseudo-count-corrected residual remains structured across ridge/turn/leg/lag_sign."
+  }
+}
+

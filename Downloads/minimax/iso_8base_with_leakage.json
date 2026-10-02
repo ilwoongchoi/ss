@@ -1,0 +1,36 @@
+{
+  "version": "iso_8base_with_leakage",
+  "method": "Cascade with KAPPA_LADDER leakage to 17 cavity",
+  "K_TRANS": {
+    "HG": 0.282842712474619,
+    "GM": 1.0,
+    "MP": 0.125,
+    "PT": 0.1875,
+    "TW": 0.282842712474619,
+    "WZ": 0.25,
+    "Znu": 0.03571428571428571
+  },
+  "K_LEAK": {
+    "HG": 0.03125,
+    "GM": 0.015625,
+    "MP": 0.0078125,
+    "PT": 0.00390625,
+    "TW": 0.09375,
+    "WZ": 0.5,
+    "Znu": 0.03125
+  },
+  "cavity_map": {
+    "HG": "D3_observer_gate_left_eye_outer",
+    "GM": "D3_observer_gate_right_eye_outer",
+    "MP": "transform_gate_right_levator_scap",
+    "PT": "structural_anchor_fold_belt_sternum",
+    "TW": "structural_anchor_right_ribs_jesus",
+    "WZ": "physiological_excretion_lungs_exhalation",
+    "Znu": "physiological_excretion_kidney_urine"
+  },
+  "final_particle_sum": 0.10914919183602015,
+  "final_leakage_sum": 0.8908508081639724,
+  "final_universe_sum": 0.9999999999999927,
+  "final_nu_mu": 0.10914919183602015,
+  "final_Z": 7.900835532570991e-59
+}

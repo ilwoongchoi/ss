@@ -1,0 +1,144 @@
+================================================================================
+5-TILE RECOMMENDATION ENGINE (Deterministic)
+================================================================================
+Profile: ENFP_F_O
+
+■ Hour 00:00 — Phase: AB_spark — Active Sphere: Sun
+--------------------------------------------------------------------------------
+  동기화      (Sync    )
+    dims: ('r', 'p')
+    spheres: Moon + Sun
+    vec8:  r=0.51, h=0.44, d=0.42, p=0.62, s=0.58, gamma=0.47, g=0.44, nu=0.42
+
+  스트레스 성장  (Stress  )
+    dims: ('h', 'd')
+    spheres: Earth + Barnard
+    vec8:  r=0.46, h=0.54, d=0.45, p=0.44, s=0.48, gamma=0.47, g=0.56, nu=0.44
+
+  히스테리시스   (Hysteresis)
+    dims: ('p', 'nu')
+    spheres: Moon + CoMag
+    vec8:  r=0.48, h=0.48, d=0.50, p=0.62, s=0.52, gamma=0.53, g=0.56, nu=0.57
+
+  거울       (Mirror  )
+    dims: ('s', 'g')
+    spheres: Sun + CoMag
+    vec8:  r=0.48, h=0.48, d=0.50, p=0.46, s=0.67, gamma=0.53, g=0.38, nu=0.46
+
+  방전       (Release )
+    dims: ('gamma', 'd')
+    spheres: Earth + Barnard
+    vec8:  r=0.46, h=0.46, d=0.45, p=0.44, s=0.48, gamma=0.60, g=0.56, nu=0.44
+
+
+■ Hour 06:00 — Phase: A_accumulate — Active Sphere: Earth
+--------------------------------------------------------------------------------
+  동기화      (Sync    )
+    dims: ('r', 'p')
+    spheres: Moon + Sun
+    vec8:  r=0.42, h=0.48, d=0.44, p=0.64, s=0.55, gamma=0.50, g=0.47, nu=0.42
+
+  스트레스 성장  (Stress  )
+    dims: ('h', 'd')
+    spheres: Earth + Barnard
+    vec8:  r=0.42, h=0.62, d=0.50, p=0.45, s=0.45, gamma=0.50, g=0.59, nu=0.44
+
+  히스테리시스   (Hysteresis)
+    dims: ('p', 'nu')
+    spheres: Moon + CoMag
+    vec8:  r=0.44, h=0.52, d=0.52, p=0.64, s=0.49, gamma=0.56, g=0.59, nu=0.58
+
+  거울       (Mirror  )
+    dims: ('s', 'g')
+    spheres: Sun + CoMag
+    vec8:  r=0.44, h=0.52, d=0.52, p=0.47, s=0.60, gamma=0.56, g=0.44, nu=0.46
+
+  방전       (Release )
+    dims: ('gamma', 'd')
+    spheres: Earth + Barnard
+    vec8:  r=0.42, h=0.50, d=0.50, p=0.45, s=0.45, gamma=0.67, g=0.59, nu=0.44
+
+
+■ Hour 12:00 — Phase: O_accumulate — Active Sphere: Moon
+--------------------------------------------------------------------------------
+  동기화      (Sync    )
+    dims: ('r', 'p')
+    spheres: Moon + Sun
+    vec8:  r=0.44, h=0.45, d=0.43, p=0.73, s=0.54, gamma=0.46, g=0.45, nu=0.46
+
+  스트레스 성장  (Stress  )
+    dims: ('h', 'd')
+    spheres: Earth + Barnard
+    vec8:  r=0.43, h=0.56, d=0.48, p=0.49, s=0.44, gamma=0.46, g=0.57, nu=0.48
+
+  히스테리시스   (Hysteresis)
+    dims: ('p', 'nu')
+    spheres: Moon + CoMag
+    vec8:  r=0.45, h=0.49, d=0.51, p=0.73, s=0.48, gamma=0.52, g=0.57, nu=0.67
+
+  거울       (Mirror  )
+    dims: ('s', 'g')
+    spheres: Sun + CoMag
+    vec8:  r=0.45, h=0.49, d=0.51, p=0.51, s=0.58, gamma=0.52, g=0.40, nu=0.50
+
+  방전       (Release )
+    dims: ('gamma', 'd')
+    spheres: Earth + Barnard
+    vec8:  r=0.43, h=0.47, d=0.48, p=0.49, s=0.44, gamma=0.58, g=0.57, nu=0.48
+
+
+■ Hour 18:00 — Phase: B_accumulate — Active Sphere: CoMag
+--------------------------------------------------------------------------------
+  동기화      (Sync    )
+    dims: ('r', 'p')
+    spheres: Moon + Sun
+    vec8:  r=0.42, h=0.46, d=0.45, p=0.64, s=0.56, gamma=0.50, g=0.49, nu=0.43
+
+  스트레스 성장  (Stress  )
+    dims: ('h', 'd')
+    spheres: Earth + Barnard
+    vec8:  r=0.42, h=0.58, d=0.52, p=0.45, s=0.46, gamma=0.50, g=0.61, nu=0.45
+
+  히스테리시스   (Hysteresis)
+    dims: ('p', 'nu')
+    spheres: Moon + CoMag
+    vec8:  r=0.44, h=0.50, d=0.53, p=0.64, s=0.50, gamma=0.56, g=0.61, nu=0.60
+
+  거울       (Mirror  )
+    dims: ('s', 'g')
+    spheres: Sun + CoMag
+    vec8:  r=0.44, h=0.50, d=0.53, p=0.47, s=0.62, gamma=0.56, g=0.49, nu=0.47
+
+  방전       (Release )
+    dims: ('gamma', 'd')
+    spheres: Earth + Barnard
+    vec8:  r=0.42, h=0.48, d=0.52, p=0.45, s=0.46, gamma=0.66, g=0.61, nu=0.45
+
+
+■ Hour 21:00 — Phase: AB_integration — Active Sphere: Barnard
+--------------------------------------------------------------------------------
+  동기화      (Sync    )
+    dims: ('r', 'p')
+    spheres: Moon + Sun
+    vec8:  r=0.41, h=0.45, d=0.46, p=0.62, s=0.54, gamma=0.47, g=0.49, nu=0.42
+
+  스트레스 성장  (Stress  )
+    dims: ('h', 'd')
+    spheres: Earth + Barnard
+    vec8:  r=0.42, h=0.56, d=0.55, p=0.44, s=0.44, gamma=0.47, g=0.61, nu=0.44
+
+  히스테리시스   (Hysteresis)
+    dims: ('p', 'nu')
+    spheres: Moon + CoMag
+    vec8:  r=0.44, h=0.49, d=0.54, p=0.62, s=0.48, gamma=0.53, g=0.61, nu=0.58
+
+  거울       (Mirror  )
+    dims: ('s', 'g')
+    spheres: Sun + CoMag
+    vec8:  r=0.44, h=0.49, d=0.54, p=0.46, s=0.58, gamma=0.53, g=0.49, nu=0.46
+
+  방전       (Release )
+    dims: ('gamma', 'd')
+    spheres: Earth + Barnard
+    vec8:  r=0.42, h=0.47, d=0.55, p=0.44, s=0.44, gamma=0.60, g=0.61, nu=0.44
+

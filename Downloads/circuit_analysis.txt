@@ -1,0 +1,428 @@
+﻿====================================================================================================
+COMPLETE CIRCUIT GRAPH ANALYSIS
+====================================================================================================
+
+## NODE STATISTICS
+Total nodes: 282
+Nodes with location: 67
+Nodes with particle: 94
+Total wires: 866
+Dangling wires (missing source): 6
+
+## GATE TYPE DISTRIBUTION
+  AND: 117
+  OR: 96
+  tristate: 28
+  MUX: 15
+  D flip-flop: 13
+  decoder: 5
+  T flip-flop: 2
+  gated SR latch: 1
+  ACh expression route ??alpha7 : 1
+  NOT: 1
+  alias: 1
+  ACh expression route: 1
+  buffer: 1
+
+## PARTICLE DISTRIBUTION
+  (獄쎼끉?? 1 nodes ??right_androgen_and
+  -: 2 nodes ??mycorradicin, male_right_oxytocin
+  Axion: 1 nodes ??water_oxidised_manganese_monazite_manganese_oxygen_complex_or
+  Dark: 2 nodes ??co2_in1_xor, actomyosin_in1_xor
+  Down: 2 nodes ??clay_gouge, pentose_phosphate_out_2_nor
+  Ego: 2 nodes ??methylation, pyrite_in1_xor
+  Electron: 6 nodes ??left_endorphin_non_observer, sodium, chlorine_ion_pump, left_genital_d2, oxidised_manganese_reset_and, manganese_oxygen_complex
+  Energy: 2 nodes ??cambisol_in1_xor, peonidine_in1_xor
+  GABA-A: 1 nodes ??female_gaba_b_2
+  GABA-B_2: 1 nodes ??citric_acid_cycle
+  GKYIB: 2 nodes ??adapter_protein_q_bar_or, glp1_q_bar_or
+  Left: 2 nodes ??basin_q_bar_or, laterite_q_bar_or
+  Muon: 6 nodes ??fold_belt_in1_xor, lower_mantle_q_bar_or, manganese_nodule, gluon_orogen, magnetite_out0_nand, right_sole_dopamine_q_bar_or
+  Observer: 3 nodes ??cysteine, disulfide_bond, subduction_zone_in1_xor
+  Quark: 2 nodes ??substance_p_out_autophagy_xor, caco3_final_and
+  Right: 2 nodes ??water, pi_electron_cloud_out0_nand
+  Spark: 2 nodes ??nacl_ctrl1_unspark_and, sodium_in1_xor
+  Strange: 2 nodes ??hind_insula_out0_nand, andosol_out0_nand
+  TCA: 1 nodes ??left_female_vasopressin
+  Tau: 4 nodes ??steel_in1_xor, collagen_out0_nand, right_acetylcholine_out0_nand, monazite
+  Time: 2 nodes ??heme, heath_aerenchyma
+  Up: 1 nodes ??gluon_orogen_q_bar_or
+  Z: 2 nodes ??methionine, copper_iron_complex
+  charm_quark: 1 nodes ??methylation_in1_xor
+  cortisol: 1 nodes ??right_d2
+  dopamine: 1 nodes ??male_left_noradrenaline
+  electron: 3 nodes ??memory_entropy_out_co2_nor, memory_entropy, ga31_mn_reset_and
+  electron_antineutrino: 2 nodes ??observer_left_endorphin_electron_antineutrino, mor_postsynaptic
+  electron_neutrino: 1 nodes ??drd2_mpoa_out0_nand
+  expression: 1 nodes ??oxytocin_preset_and
+  gluon: 2 nodes ??histosol_ctrl1_or, sulforaphane
+  graviton: 4 nodes ??mc1r_q_bar_or, ferritin_in1_xor, plume_out0_nand, tm69_pyrite_and
+  higgs: 3 nodes ??methanogenesis_out0_nand, methanogenesis, nitrogenase_out_2_nor
+  muon: 1 nodes ??aurora
+  muon_antineutrino: 3 nodes ??histosol_in1_xor, drd1_peripheral_q_bar_or, drd1_peripheral
+  neutron: 1 nodes ??craton_in1_xor
+  neutron_star: 1 nodes ??podzol_out0_nand
+  noradrenaline: 1 nodes ??choline
+  photon: 1 nodes ??large_igneous_province_in1_xor
+  photon,color=WHITE: 1 nodes ??water_vapour_ach_or
+  precursor: 1 nodes ??right_acetylcholine_expression
+  right_testosterone: 2 nodes ??carbonic_anhydrase, thorium_straight_drd2s_and
+  satisfaction: 1 nodes ??right_cortisol
+  serotonin_1b: 1 nodes ??male_gaba_a
+  strange_quark: 2 nodes ??glymphatic_system, drd2s_presynaptic
+  tau_neutrino: 1 nodes ??chrna7_vagal_out0_nand
+  up_quark: 1 nodes ??male_right_oxytocin_q_bar_or
+  vasopressin: 1 nodes ??female_right_satisfaction
+  w: 1 nodes ??carbon_q_bar_or
+  w_boson: 4 nodes ??observer_leftd2, left_genital_d2_out0_nand, cck_ctrl_and, cck
+
+## EMPTY BODY SPACES (no nodes found)
+  [MISSING] bladder (side=center, keywords=bladder)
+  [MISSING] diaphragm (side=center, keywords=diaphragm)
+  [MISSING] left ankle (side=left, keywords=ankle,malleolus,Achilles)
+  [MISSING] left arm (side=left, keywords=arm,bicep,tricep,forearm,elbow)
+  [MISSING] left cheek (side=left, keywords=cheek,zygomatic,risorius,buccal)
+  [MISSING] left clavicle (side=left, keywords=clavicle,sternocleidomastoid)
+  [MISSING] left dorsal foot (side=left, keywords=dorsal)
+  [MISSING] left eye inner (side=left, keywords=eye,canthus,eyelid)
+  [MISSING] left fingers (side=left, keywords=finger,thumb,phalange)
+  [MISSING] left hand (side=left, keywords=hand,palm)
+  [MISSING] left jaw (side=left, keywords=jaw,chin,masseter)
+  [MISSING] left kidney (side=left, keywords=kidney,adrenal)
+  [MISSING] left lung (side=left, keywords=lung,pleura,bronchus)
+  [MISSING] left nose (side=left, keywords=nose)
+  [MISSING] left popliteal (side=left, keywords=popliteal)
+  [MISSING] left shoulder (side=left, keywords=shoulder,deltoid,trapezius)
+  [MISSING] left temple (side=left, keywords=temple,temporalis)
+  [MISSING] left testis (side=left, keywords=testis,testicle,epididymis)
+  [MISSING] left tibial (side=left, keywords=tibial)
+  [MISSING] left upper back (side=left, keywords=thoracic,spine,spinous)
+  [MISSING] left wrist (side=left, keywords=wrist)
+  [MISSING] nose center (side=center, keywords=nose center,nose bridge)
+  [MISSING] prostate (side=center, keywords=prostate,seminal,vas)
+  [MISSING] right abdomen (side=right, keywords=abdomen,pancreas)
+  [MISSING] right ankle (side=right, keywords=ankle,malleolus,Achilles)
+  [MISSING] right calf (side=right, keywords=calf,tibia,fibula)
+  [MISSING] right cheek (side=right, keywords=cheek,zygomatic,risorius,buccal)
+  [MISSING] right clavicle (side=right, keywords=clavicle,sternocleidomastoid)
+  [MISSING] right dorsal foot (side=right, keywords=dorsal)
+  [MISSING] right femoral (side=right, keywords=femoral)
+  [MISSING] right forehead (side=right, keywords=forehead,frontalis)
+  [MISSING] right genital (side=right, keywords=genital,genitalia,perineum,groin,inguinal)
+  [MISSING] right jaw (side=right, keywords=jaw,chin,masseter)
+  [MISSING] right kidney (side=right, keywords=kidney,adrenal)
+  [MISSING] right knee (side=right, keywords=knee,patella)
+  [MISSING] right lung (side=right, keywords=lung,pleura,bronchus)
+  [MISSING] right neck (side=right, keywords=neck,throat,larynx,trachea)
+  [MISSING] right nipple (side=right, keywords=nipple)
+  [MISSING] right nose (side=right, keywords=nose)
+  [MISSING] right popliteal (side=right, keywords=popliteal)
+  [MISSING] right shoulder (side=right, keywords=shoulder,deltoid,trapezius)
+  [MISSING] right testis (side=right, keywords=testis,testicle,epididymis)
+  [MISSING] right tibial (side=right, keywords=tibial)
+  [MISSING] right upper back (side=right, keywords=thoracic,spine,spinous)
+  [MISSING] right waist (side=right, keywords=waist)
+  [MISSING] spleen (side=center, keywords=spleen)
+  [MISSING] uterus (side=center, keywords=uterus,ovary)
+
+Total empty regions: 47 / 90
+
+## REGIONS WITH NODES
+  [OK] left abdomen: methylation
+  [OK] left armpit: sulfur_iron_complex
+  [OK] left brain inner: sulforaphane
+  [OK] left calf: caco3_final_and, laterite
+  [OK] left chest: heath_aerenchyma, lactate_dehydrogenase, manganese_oxygen_complex
+  [OK] left ear: observer_left_endorphin_electron_antineutrino
+  [OK] left femoral: caco3_final_and
+  [OK] left foot: histosol, andosol, pyrite
+  [OK] left forehead: electric_grid_and, observer_leftd2, nonobserver_left_d2
+  [OK] left genital: left_genital_d2
+  [OK] left gluteal: steel, gluon_orogen
+  [OK] left hip: sulforaphane, podzol
+  [OK] left knee: caco3_final_and, magnetite
+  [OK] left lat dorsi: subduction_zone, female_gaba_b, sodium, caco3_final_and, sulfur_iron_complex, pyrite
+  [OK] left lip: observer_left_endorphin_electron_antineutrino, sodium
+  [OK] left lower back: lower_mantle, outer_core_convection
+  [OK] left neck: pi_electron_cloud
+  [OK] left nipple: heme
+  [OK] left occipital: co2
+  [OK] left thigh: subduction_zone, fold_belt, sulfur_iron_complex, pyrite
+  [OK] left toes: oxidised_manganese
+  [OK] left waist: mc1r, basin
+  [OK] mediastinum: ferritin
+  [OK] right arm: substance_p
+  [OK] right armpit: substance_p, sulfur_iron_complex
+  [OK] right brain inner: cysteine, hind_insula, peonidine
+  [OK] right chest: succinate_dehydrogenase, mangrove_aerenchyma
+  [OK] right ear: male_right_oxytocin
+  [OK] right eye inner: pentose_phosphate
+  [OK] right fingers: adapter_protein, actomyosin
+  [OK] right foot: copper_iron_complex, pyrite, right_sole_dopamine
+  [OK] right gluteal: clay_gouge, quark_orogen_magma
+  [OK] right hand: chlorine_ion_pump
+  [OK] right hip: methionine, craton, plume
+  [OK] right lat dorsi: hind_insula, carbon, copper_iron_complex, disulfide_bond, sulfur_iron_complex, pyrite, plume
+  [OK] right lip: carbon
+  [OK] right lower back: craton
+  [OK] right occipital: peonidine, co2
+  [OK] right temple: right_acetylcholine
+  [OK] right thigh: sulfur_iron_complex, pyrite
+  [OK] right toes: copper_iron_complex, actomyosin
+  [OK] right wrist: chlorine_ion_pump
+  [OK] scalp: aurora
+
+## DANGLING WIRES (referenced but non-existent source nodes)
+  female_gaba_b.in0 ??NaCl_in0_xor (line 810)
+  nacl_ctrl1_unspark_and.in0 ??NaCl_in0_xor (line 835)
+  collagen_in1_or.in0 ??NaCl (line 843)
+  nacl_ctrl1_combined.in0 ??NaCl (line 1923)
+  male_gaba_a.in0 ??ht1b_cortisol_satisfaction_or (line 2103)
+  ga31_gallium_nitride_nor.in0 ??ht1a (line 2774)
+
+## NODES WITH NO OUTPUTS (dead-end nodes)
+  electric_grid_and [AND]
+  male_left_epinephrine_switch_pre_and [AND]
+  male_left_epinephrine_switch_pre_or [OR]
+  male_left_epinephrine_switch [AND]
+  opioid_and [AND]
+  opioid_nor [OR]
+  opioid_xnor_or [OR]
+  bioenergetic_drive_and [AND]
+  heme_in0_xor [OR]
+  heme_in1_xor [OR]
+  heme [tristate]
+  cytochrome_c_oxidase_in0_xor [OR]
+  cytochrome_c_oxidase_in1_xor [OR]
+  cytochrome_c_oxidase [tristate]
+  water_vapour_in0_xor [OR]
+  water_vapour [tristate]
+  steel_in0_xor [OR]
+  steel_in1_xor [OR]
+  steel [tristate]
+  clay_gouge [AND]
+  quark_orogen_magma [tristate]
+  observer_leftd2 [AND]
+  nonobserver_left_d2 [AND]
+  left_endorphin_non_observer [AND]
+  observer_left_endorphin_electron_antineutrino [AND]
+  plume_in0_xor [OR]
+  mc1r_q_or [OR]
+  mc1r_q_bar_or [OR]
+  mc1r [D flip-flop]
+  methanogenesis_out0_nand [AND]
+  methanogenesis [MUX]
+  histosol_in0_xor [OR]
+  histosol_in1_xor [OR]
+  histosol [tristate]
+  eos_o2_and [AND]
+  eos_o2_observer_and [AND]
+  histosol_ctrl1_or [OR]
+  aurora [AND]
+  glymphatic_system [AND]
+  cysteine [AND]
+  subduction_zone [tristate]
+  memory_entropy_out_co2_nor [OR]
+  sdh_esr1_me_ctrl_and [AND]
+  memory_entropy [decoder]
+  hind_insula_out0_nand [AND]
+  hind_insula [MUX]
+  carbon_q_or [OR]
+  carbon_q_bar_or [OR]
+  carbon [D flip-flop]
+  fold_belt_in0_xor [OR]
+  fold_belt_in1_xor [OR]
+  fold_belt [tristate]
+  fold_belt_ctrl1_or [OR]
+  substance_p_out_mc1r_xnor [OR]
+  substance_p_out_autophagy_xor [OR]
+  substance_p [decoder]
+  methionine [AND]
+  podzol_out1_and [AND]
+  adapter_protein_q_and [AND]
+  adapter_protein_q_bar_or [OR]
+  adapter_protein [D flip-flop]
+  succinate_dehydrogenase_out0_nand [AND]
+  succinate_dehydrogenase_out1_or [OR]
+  succinate_dehydrogenase_out2_nand [AND]
+  water_vapour_ach_or [OR]
+  succinate_dehydrogenase [decoder]
+  collagen_out0_nand [AND]
+  collagen [MUX]
+  andosol_out0_nand [AND]
+  andosol [MUX]
+  cambisol_in0_xor [OR]
+  cambisol_in1_xor [OR]
+  cambisol [tristate]
+  female_gaba_b [AND]
+  anoxia_nacl_and [tristate]
+  nacl_ctrl1_unspark_and [AND]
+  collagen_in1_or [OR]
+  sodium_in0_xor [OR]
+  sodium_in1_xor [OR]
+  sodium [tristate]
+  mycorradicin [tristate]
+  mycorradicin_right_acetylcholine_or [OR]
+  mycorradicin_leftd2_and [AND]
+  mycorradicin_autophagy_intermediate_and [AND]
+  mycorradicin_autophagy_input_or [OR]
+  copper_iron_complex [AND]
+  autophagy_r_or [OR]
+  autophagy [T flip-flop]
+  water_out0_nand [AND]
+  nitrogenase_out_1_xnor [OR]
+  nitrogenase_out_2_nor [OR]
+  nitrogenase [decoder]
+  nitrogenase_metabolic_and [AND]
+  nitrogenase_metabolic_da_and [AND]
+  nitrogenase_env_and [AND]
+  nitrogenase_iron_or [OR]
+  nitrogenase_in_main_and [AND]
+  chlorine_ion_pump [tristate]
+  heath_aerenchyma [tristate]
+  heath_aerenchyma_out0_and [AND]
+  podzol_out0_nand [AND]
+  podzol [MUX]
+  lower_mantle_q_or [OR]
+  lower_mantle_q_bar_or [OR]
+  lower_mantle [D flip-flop]
+  basin_q_or [OR]
+  basin_q_bar_or [OR]
+  basin [D flip-flop]
+  left_genital_d2_out0_nand [AND]
+  caco3_pyrite_lactate_and [AND]
+  caco3_leftd2_podzol_observer_and [AND]
+  caco3_final_and [AND]
+  caco3_laterite_and [AND]
+  laterite_d_and [AND]
+  laterite_d_or [OR]
+  manganese_nodule [gated SR latch]
+  pentose_phosphate_out_1_xnor [OR]
+  pentose_phosphate_out_2_nor [OR]
+  pentose_phosphate [decoder]
+  disulfide_bond [AND]
+  peonidine_in0_xor [OR]
+  peonidine_in0_and [AND]
+  peonidine_in1_xor [OR]
+  peonidine [tristate]
+  right_acetylcholine_out0_nand [AND]
+  right_acetylcholine [MUX]
+  co2_in0_xor [OR]
+  co2_in1_xor [OR]
+  co2 [tristate]
+  glp1_q_or [OR]
+  glp1_q_bar_or [OR]
+  glp1 [D flip-flop]
+  cck_ctrl_and [AND]
+  cck [MUX]
+  cck_cox_ctrl_and [AND]
+  cck_heath_aerenchyma_and [AND]
+  laterite_q_or [OR]
+  laterite_q_bar_or [OR]
+  laterite [D flip-flop]
+  outer_core_convection [AND]
+  male_right_oxytocin_q_or [OR]
+  male_right_oxytocin_q_bar_or [OR]
+  male_right_oxytocin [D flip-flop]
+  gluon_orogen_clk [OR]
+  gluon_orogen_q_or [OR]
+  gluon_orogen_q_bar_or [OR]
+  gluon_orogen [D flip-flop]
+  lactate_dehydrogenase [MUX]
+  lactate_caco3_and [AND]
+  mangrove_aerenchyma [AND]
+  thorium_out0_nand [AND]
+  monazite_thorium_and [AND]
+  water_oxidised_manganese_monazite_and [AND]
+  water_oxidised_manganese_monazite_manganese_oxygen_complex_or [OR]
+  monazite [MUX]
+  thorium [MUX]
+  magnetite_out0_nand [AND]
+  magnetite [MUX]
+  oxidised_manganese_set_and [AND]
+  oxidised_manganese_reset_and [AND]
+  oxidised_manganese [tristate]
+  manganese_oxygen_complex [tristate]
+  pi_electron_cloud_out0_nand [AND]
+  thorium_straight_leftd2_and [AND]
+  pi_electron_cloud_ctrl_or [AND]
+  pi_electron_cloud [MUX]
+  pi_electron_cloud_in0_and [AND]
+  pi_electron_cloud_in0_or [OR]
+  ferritin_in0_xor [OR]
+  ferritin_in1_xor [OR]
+  ferritin [tristate]
+  ferritin_ctrl0_and [AND]
+  ferritin_ctrl0_or [OR]
+  methylation_in0_xor [OR]
+  methylation_in1_xor [OR]
+  sulfur_iron_complex [tristate]
+  large_igneous_province_in0_xor [OR]
+  large_igneous_province_in1_xor [OR]
+  large_igneous_province [tristate]
+  large_igneous_province_ctrl0_and [AND]
+  subduction_zone_in0_xor [OR]
+  subduction_zone_in1_xor [OR]
+  monazite_out0_nand [AND]
+  craton_in0_xor [OR]
+  craton_in1_xor [OR]
+  craton [tristate]
+  pyrite_in0_xor [OR]
+  pyrite_in1_xor [OR]
+  pyrite [tristate]
+  right_sole_dopamine_q_or [OR]
+  right_sole_dopamine_q_bar_or [OR]
+  right_sole_dopamine [D flip-flop]
+  observer_right_sole_dopamine [D flip-flop]
+  plume_out0_nand [AND]
+  plume [MUX]
+  actomyosin_ctrl [AND]
+  actomyosin_in0_xor [OR]
+  actomyosin_in1_xor [OR]
+  actomyosin [tristate]
+  nacl_ctrl1_combined [AND]
+  water_vapour_ctrl1_combined [AND]
+  methylation_ctrl0_combined [AND]
+  sulfur_ctrl0_combined [AND]
+  co2_ctrl1_combined [AND]
+  co2_ctrl1_unspark_and [AND]
+  chlorine_ctrl0_combined [AND]
+  craton_ctrl0_combined [AND]
+  cox_ctrl1_combined [AND]
+  oxytocin_preset_and [AND]
+  right_acetylcholine_expression [ACh expression route ??alpha7 ]
+  choline [AND]
+  male_left_noradrenaline [AND]
+  right_d2 [tristate]
+  right_cortisol [AND]
+  female_right_satisfaction [AND]
+  left_female_vasopressin [OR]
+  citric_acid_cycle [AND]
+  female_gaba_b_2 [AND]
+  male_gaba_a_pre_logic [AND]
+  male_gaba_a_xor [OR]
+  male_gaba_a_complex_and [AND]
+  male_gaba_a [AND]
+  esr1_ach_temporalis_xor [OR]
+  esr1_ach_d2_and [AND]
+  esr1_ach_d2_pi_and [AND]
+  esr1_frontalis_inner_xor [OR]
+  esr1_recovery_water_and [AND]
+  esr1_ach_temporalis_and [AND]
+  esr1_expression_2_and [AND]
+  esr1_expression_2 [AND]
+  esr1_water_ach_expression_xor [OR]
+  cytochrome_c_oxidase_retrograde_tg [AND]
+  caco3 [alias]
+Total dead-end nodes: 233
+
+## NODES WITH NO INPUTS (source-only nodes)
+  t_ff [T flip-flop]
+  water_out0_nand [AND]
+  nitrogenase_out_1_xnor [OR]
+  nitrogenase_out_2_nor [OR]
+  manganese_nodule [gated SR latch]
+  magnetite_out0_nand [AND]
+  oxidised_manganese [tristate]
+  cytochrome_c_oxidase_retrograde_tg [AND]
+Total source-only nodes: 8

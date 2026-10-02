@@ -1,0 +1,503 @@
+slot,main_type,profile,element,circuit_entity,phase,genre,P,Z,Q,W,H,Gamma,G,Nu
+1,ENTP_AB_M,ENTP_M_AB,Rf(104),heme.out1,release,hyperpop-adjacent,1.0,0.7,0.75,0.95,0.7,0.9,0.4,0.4
+1,ENTP_AB_M,ENTP_M_AB,Rf(104),heme.out1,stress_growth,noise pop; glitch opera,0.67,0.45,0.45,0.55,0.7,0.9,0.4,0.4
+1,ENTP_AB_M,ENTP_M_AB,Rf(104),heme.out1,extreme_growth,big beat; IDM,0.92,0.3,0.65,0.7,0.45,0.9,0.4,0.4
+1,ENTP_AB_M,ENTP_M_AB,Rf(104),heme.out1,layer4_512D,lofi hip hop,0.45,0.3,0.3,0.2,0.35,,,
+2,INTP_AB_M,INTP_M_AB,N(7),water_vapour.out1,release,britpop classic,0.83,0.2,0.65,0.8,0.3,0.9,0.4,0.7
+2,INTP_AB_M,INTP_M_AB,N(7),water_vapour.out1,stress_growth,harsh noise wall; musique concrète,0.88,1.0,0.9,1.0,1.0,0.9,0.4,0.7
+2,INTP_AB_M,INTP_M_AB,N(7),water_vapour.out1,extreme_growth,synthwave; progressive rock,0.78,0.2,0.65,0.85,0.3,0.9,0.4,0.7
+2,INTP_AB_M,INTP_M_AB,N(7),water_vapour.out1,layer4_512D,experimental classical,0.25,0.75,0.6,0.75,0.5,,,
+3,ENTJ_AB_M,ENTJ_M_AB,Y(39),podzol,release,indietronica,0.4,0.25,0.3,0.6,0.4,0.9,0.8,0.4
+3,ENTJ_AB_M,ENTJ_M_AB,Y(39),podzol,stress_growth,avant-garde classical; contemporary classical,0.15,0.75,0.45,0.55,0.85,0.9,0.8,0.4
+3,ENTJ_AB_M,ENTJ_M_AB,Y(39),podzol,extreme_growth,prog metal; tool-adjacent,0.65,0.55,0.55,0.6,0.7,0.9,0.8,0.4
+3,ENTJ_AB_M,ENTJ_M_AB,Y(39),podzol,layer4_512D,britpop,0.65,0.25,0.55,0.2,0.6,,,
+4,INTJ_AB_M,INTJ_M_AB,Re(75),lower_mantle.q_bar,release,dance rock,0.72,0.35,0.5,0.8,0.4,0.9,0.8,0.7
+4,INTJ_AB_M,INTJ_M_AB,Re(75),lower_mantle.q_bar,stress_growth,contemporary classical; neo-classical,0.27,0.65,0.5,0.65,0.65,0.9,0.8,0.7
+4,INTJ_AB_M,INTJ_M_AB,Re(75),lower_mantle.q_bar,extreme_growth,minimalistic ambient; drone,0.07,0.25,0.05,0.3,0.2,0.9,0.8,0.7
+4,INTJ_AB_M,INTJ_M_AB,Re(75),lower_mantle.q_bar,layer4_512D,experimental classical,0.25,0.75,0.6,0.75,0.5,,,
+5,ENTP_AB_F,ENTP_F_AB,Rg(111),oxidised_manganese.out0,release,classic rock structured,0.55,0.15,0.5,0.5,0.45,0.9,0.4,0.4
+5,ENTP_AB_F,ENTP_F_AB,Rg(111),oxidised_manganese.out0,stress_growth,noise; glitch,0.75,0.95,0.85,0.8,1.0,0.9,0.4,0.4
+5,ENTP_AB_F,ENTP_F_AB,Rg(111),oxidised_manganese.out0,extreme_growth,space rock; new wave,0.45,0.45,0.6,0.4,0.6,0.9,0.4,0.4
+5,ENTP_AB_F,ENTP_F_AB,Rg(111),oxidised_manganese.out0,layer4_512D,lofi nujabes,0.45,0.3,0.3,0.2,0.35,,,
+6,ENFP_AB_M,ENFP_M_AB,Md(101),pi_electron_cloud,release,post rock,0.25,0.3,0.65,0.2,0.55,0.9,0.3,0.4
+6,ENFP_AB_M,ENFP_M_AB,Md(101),pi_electron_cloud,stress_growth,free jazz; noise pop,0.55,0.8,0.65,0.4,0.9,0.9,0.3,0.4
+6,ENFP_AB_M,ENFP_M_AB,Md(101),pi_electron_cloud,extreme_growth,indie pop; psychedelic pop,0.3,0.1,0.3,0.3,0.3,0.9,0.3,0.4
+6,ENFP_AB_M,ENFP_M_AB,Md(101),pi_electron_cloud,layer4_512D,lofi hip hop,0.45,0.3,0.3,0.2,0.35,,,
+7,INTP_AB_F,INTP_F_AB,Tc(43),sodium,release,noise pop,0.5,0.45,0.65,0.4,0.65,0.9,0.4,0.7
+7,INTP_AB_F,INTP_F_AB,Tc(43),sodium,stress_growth,musique concrète; noise ambient,0.55,0.9,0.85,0.5,0.9,0.9,0.4,0.7
+7,INTP_AB_F,INTP_F_AB,Tc(43),sodium,extreme_growth,art pop; orchestral pop,0.5,0.4,0.7,0.45,0.55,0.9,0.4,0.7
+7,INTP_AB_F,INTP_F_AB,Tc(43),sodium,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+8,INFP_AB_M,INFP_M_AB,Lu(71),methylation.out1,release,classic rock,0.65,0.25,0.65,0.7,0.55,0.9,0.3,0.7
+8,INFP_AB_M,INFP_M_AB,Lu(71),methylation.out1,stress_growth,noise folk; free improvisation,0.45,0.6,0.65,0.5,0.8,0.9,0.3,0.7
+8,INFP_AB_M,INFP_M_AB,Lu(71),methylation.out1,extreme_growth,britpop; alternative rock,0.7,0.25,0.7,0.7,0.45,0.9,0.3,0.7
+8,INFP_AB_M,INFP_M_AB,Lu(71),methylation.out1,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+9,ENTJ_AB_F,ENTJ_F_AB,Co(27),sulfur_iron_complex.out1,release,contemporary dance music,0.9,0.5,0.9,0.85,0.4,0.9,0.8,0.4
+9,ENTJ_AB_F,ENTJ_F_AB,Co(27),sulfur_iron_complex.out1,stress_growth,noise; free improvisation,0.85,1.0,1.0,0.95,1.0,0.9,0.8,0.4
+9,ENTJ_AB_F,ENTJ_F_AB,Co(27),sulfur_iron_complex.out1,extreme_growth,power pop; art rock,0.7,0.2,0.65,0.7,0.3,0.9,0.8,0.4
+9,ENTJ_AB_F,ENTJ_F_AB,Co(27),sulfur_iron_complex.out1,layer4_512D,soul,0.6,0.35,0.55,0.25,0.55,,,
+10,INTJ_AB_F,INTJ_F_AB,Dy(66),glp1.q_bar,release,experimental contemporary classical,0.45,0.8,0.7,0.7,1.0,0.9,0.8,0.7
+10,INTJ_AB_F,INTJ_F_AB,Dy(66),glp1.q_bar,stress_growth,noise pop; deconstructed club,0.75,0.45,0.55,0.7,0.75,0.9,0.8,0.7
+10,INTJ_AB_F,INTJ_F_AB,Dy(66),glp1.q_bar,extreme_growth,drone; minimalistic ambient,0.2,0.85,0.2,0.25,1.0,0.9,0.8,0.7
+10,INTJ_AB_F,INTJ_F_AB,Dy(66),glp1.q_bar,layer4_512D,IDM,0.9,0.65,0.7,0.9,0.75,,,
+11,ENFJ_AB_M,ENFJ_M_AB,Sn(50),pentose_phosphate.out_2,release,ghibli-adjacent,0.2,0.2,0.25,0.55,0.15,0.9,0.7,0.4
+11,ENFJ_AB_M,ENFJ_M_AB,Sn(50),pentose_phosphate.out_2,stress_growth,free jazz; avant-garde,0.6,0.95,0.65,0.75,0.8,0.9,0.7,0.4
+11,ENFJ_AB_M,ENFJ_M_AB,Sn(50),pentose_phosphate.out_2,extreme_growth,soul; cinematic,0.5,0.3,0.45,0.65,0.3,0.9,0.7,0.4
+11,ENFJ_AB_M,ENFJ_M_AB,Sn(50),pentose_phosphate.out_2,layer4_512D,lofi hip hop,0.45,0.3,0.3,0.2,0.35,,,
+12,ENFP_AB_F,ENFP_F_AB,Zn(30),substance_p.out_autophagy,release,lofi hip hop,0.45,0.3,0.2,0.5,0.4,0.9,0.3,0.4
+12,ENFP_AB_F,ENFP_F_AB,Zn(30),substance_p.out_autophagy,stress_growth,freak folk; experimental pop,0.35,0.6,0.35,0.65,0.55,0.9,0.3,0.4
+12,ENFP_AB_F,ENFP_F_AB,Zn(30),substance_p.out_autophagy,extreme_growth,indie pop; space rock,0.45,0.3,0.3,0.7,0.35,0.9,0.3,0.4
+12,ENFP_AB_F,ENFP_F_AB,Zn(30),substance_p.out_autophagy,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+13,INFJ_AB_M,INFJ_M_AB,Mn(25),fold_belt,release,noise ambient,0.25,0.6,0.65,0.15,0.7,0.9,0.7,0.7
+13,INFJ_AB_M,INFJ_M_AB,Mn(25),fold_belt,stress_growth,free improvisation; noise ambient,0.65,0.9,0.9,0.55,0.85,0.9,0.7,0.7
+13,INFJ_AB_M,INFJ_M_AB,Mn(25),fold_belt,extreme_growth,dark ambient; drone,0.05,0.45,0.35,0.0,0.6,0.9,0.7,0.7
+13,INFJ_AB_M,INFJ_M_AB,Mn(25),fold_belt,layer4_512D,experimental classical,0.25,0.75,0.6,0.75,0.5,,,
+14,INFP_AB_F,INFP_F_AB,Am(95),NaCl.out1,release,symphonic metal,0.45,0.5,0.5,0.35,0.75,0.9,0.3,0.7
+14,INFP_AB_F,INFP_F_AB,Am(95),NaCl.out1,stress_growth,experimental ambient; contemporary classical,0.0,0.45,0.1,0.05,0.55,0.9,0.3,0.7
+14,INFP_AB_F,INFP_F_AB,Am(95),NaCl.out1,extreme_growth,britpop; indie rock,0.45,0.25,0.4,0.35,0.4,0.9,0.3,0.7
+14,INFP_AB_F,INFP_F_AB,Am(95),NaCl.out1,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+15,ESTP_AB_M,ESTP_M_AB,Lr(103),fold_belt.out1,release,dance pop,0.85,0.2,0.7,0.85,0.3,0.75,0.4,0.4
+15,ESTP_AB_M,ESTP_M_AB,Lr(103),fold_belt.out1,stress_growth,jazz experimental; free jazz,0.7,0.8,0.65,0.65,0.8,0.75,0.4,0.4
+15,ESTP_AB_M,ESTP_M_AB,Lr(103),fold_belt.out1,extreme_growth,drone; minimalistic ambient,0.05,1.0,0.15,0.15,0.95,0.75,0.4,0.4
+15,ESTP_AB_M,ESTP_M_AB,Lr(103),fold_belt.out1,layer4_512D,soul,0.6,0.35,0.55,0.25,0.55,,,
+16,ENFJ_AB_F,ENFJ_F_AB,Te(52),peonidine.out1,release,dream pop,0.25,0.4,0.55,0.45,0.3,0.9,0.7,0.4
+16,ENFJ_AB_F,ENFJ_F_AB,Te(52),peonidine.out1,stress_growth,free jazz; avant-garde pop,0.65,0.95,0.9,0.6,0.75,0.9,0.7,0.4
+16,ENFJ_AB_F,ENFJ_F_AB,Te(52),peonidine.out1,extreme_growth,dream pop; ethereal,0.25,0.4,0.55,0.45,0.3,0.9,0.7,0.4
+16,ENFJ_AB_F,ENFJ_F_AB,Te(52),peonidine.out1,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+17,ENTP_A_M,ENTP_M_A,Rn(86),magnetite.out0,release,4AD shoegaze,0.2,0.5,0.45,0.4,0.5,0.6,0.4,0.4
+17,ENTP_A_M,ENTP_M_A,Rn(86),magnetite.out0,stress_growth,autechre; IDM,0.9,1.0,0.7,0.7,0.75,0.6,0.4,0.4
+17,ENTP_A_M,ENTP_M_A,Rn(86),magnetite.out0,extreme_growth,big beat; breakbeat,0.7,0.4,0.7,0.6,0.35,0.6,0.4,0.4
+17,ENTP_A_M,ENTP_M_A,Rn(86),magnetite.out0,layer4_512D,lofi nujabes,0.45,0.3,0.3,0.2,0.35,,,
+18,INTP_A_M,INTP_M_A,Be(4),cytochrome_c_oxidase.out1,release,country rock,0.45,0.2,0.55,0.35,0.15,0.6,0.4,0.7
+18,INTP_A_M,INTP_M_A,Be(4),cytochrome_c_oxidase.out1,stress_growth,boards of canada; BoC-adjacent electronica,0.25,0.45,0.55,0.15,0.45,0.6,0.4,0.7
+18,INTP_A_M,INTP_M_A,Be(4),cytochrome_c_oxidase.out1,extreme_growth,britpop; alternative rock,0.6,0.25,0.7,0.4,0.15,0.6,0.4,0.7
+18,INTP_A_M,INTP_M_A,Be(4),cytochrome_c_oxidase.out1,layer4_512D,soul,0.6,0.35,0.55,0.25,0.55,,,
+19,ENTJ_A_M,ENTJ_M_A,Sr(38),collagen,release,folk rock,0.5,0.2,0.35,0.65,0.25,0.6,0.8,0.4
+19,ENTJ_A_M,ENTJ_M_A,Sr(38),collagen,stress_growth,prog metal; symphonic metal,0.75,0.6,0.6,0.65,0.6,0.6,0.8,0.4
+19,ENTJ_A_M,ENTJ_M_A,Sr(38),collagen,extreme_growth,ambient; drone,0.1,0.15,0.05,0.4,0.15,0.6,0.8,0.4
+19,ENTJ_A_M,ENTJ_M_A,Sr(38),collagen,layer4_512D,post rock,0.4,0.5,0.75,0.4,0.45,,,
+20,INTJ_A_M,INTJ_M_A,Ba(56),copper_iron_complex,release,cinematic folk,0.2,0.15,0.45,0.3,0.25,0.6,0.8,0.7
+20,INTJ_A_M,INTJ_M_A,Ba(56),copper_iron_complex,stress_growth,industrial electronic; EBM,0.75,0.6,0.75,0.55,0.55,0.6,0.8,0.7
+20,INTJ_A_M,INTJ_M_A,Ba(56),copper_iron_complex,extreme_growth,minimalistic ambient; dark ambient,0.0,0.05,0.1,0.0,0.05,0.6,0.8,0.7
+20,INTJ_A_M,INTJ_M_A,Ba(56),copper_iron_complex,layer4_512D,big beat,0.8,0.35,0.7,0.35,0.7,,,
+21,ENTP_A_F,ENTP_F_A,B(5),mc1r,release,acoustic pop,0.4,0.05,0.2,0.7,0.05,0.6,0.4,0.4
+21,ENTP_A_F,ENTP_F_A,B(5),mc1r,stress_growth,space rock without stoner; noise pop,0.6,0.45,0.5,0.7,0.3,0.6,0.4,0.4
+21,ENTP_A_F,ENTP_F_A,B(5),mc1r,extreme_growth,synth pop; big beat,0.8,0.1,0.5,0.9,0.1,0.6,0.4,0.4
+21,ENTP_A_F,ENTP_F_A,B(5),mc1r,layer4_512D,drone,0.0,0.85,0.15,0.9,0.1,,,
+22,ENFP_A_M,ENFP_M_A,Sc(21),hind_insula,release,dark ambient,0.0,0.5,0.05,0.1,0.55,0.6,0.3,0.4
+22,ENFP_A_M,ENFP_M_A,Sc(21),hind_insula,stress_growth,space rock with stoner; indie psych,0.3,0.5,0.5,0.45,0.45,0.6,0.3,0.4
+22,ENFP_A_M,ENFP_M_A,Sc(21),hind_insula,extreme_growth,experimental; drone,0.2,0.6,0.35,0.45,0.5,0.6,0.3,0.4
+22,ENFP_A_M,ENFP_M_A,Sc(21),hind_insula,layer4_512D,dark ambient,0.1,0.65,0.2,0.55,0.1,,,
+23,INTP_A_F,INTP_F_A,Ir(77),subduction_zone.out1,release,indie folk,0.27,0.05,0.25,0.4,0.3,0.6,0.4,0.7
+23,INTP_A_F,INTP_F_A,Ir(77),subduction_zone.out1,stress_growth,post rock; shoegaze,0.32,0.3,0.7,0.45,0.6,0.6,0.4,0.7
+23,INTP_A_F,INTP_F_A,Ir(77),subduction_zone.out1,extreme_growth,art pop; chamber pop,0.47,0.35,0.5,0.6,0.6,0.6,0.4,0.7
+23,INTP_A_F,INTP_F_A,Ir(77),subduction_zone.out1,layer4_512D,dream pop,0.3,0.4,0.4,0.35,0.5,,,
+24,INFP_A_M,INFP_M_A,Ce(58),gluon_orogen,release,R&B experimental,0.47,0.75,0.45,0.6,0.8,0.6,0.3,0.7
+24,INFP_A_M,INFP_M_A,Ce(58),gluon_orogen,stress_growth,boards of canada; hauntology,0.42,0.5,0.35,0.5,0.75,0.6,0.3,0.7
+24,INFP_A_M,INFP_M_A,Ce(58),gluon_orogen,extreme_growth,experimental classical; post rock,0.37,0.85,0.55,0.65,0.95,0.6,0.3,0.7
+24,INFP_A_M,INFP_M_A,Ce(58),gluon_orogen,layer4_512D,orchestral,0.35,0.45,0.55,0.3,0.6,,,
+25,ENTJ_A_F,ENTJ_F_A,Ds(110),oxidised_manganese,release,hyperpop,1.0,0.7,0.9,1.0,0.7,0.6,0.8,0.4
+25,ENTJ_A_F,ENTJ_F_A,Ds(110),oxidised_manganese,stress_growth,symphonic; prog,0.53,0.3,0.7,0.7,0.65,0.6,0.8,0.4
+25,ENTJ_A_F,ENTJ_F_A,Ds(110),oxidised_manganese,extreme_growth,ambient; folk,0.18,0.1,0.25,0.35,0.3,0.6,0.8,0.4
+25,ENTJ_A_F,ENTJ_F_A,Ds(110),oxidised_manganese,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+26,INTJ_A_F,INTJ_F_A,Pm(61),right_sole_dopamine,release,freak folk,0.38,0.4,0.55,0.6,0.65,0.6,0.8,0.7
+26,INTJ_A_F,INTJ_F_A,Pm(61),right_sole_dopamine,stress_growth,kate bush; art pop,0.58,0.45,0.75,0.7,0.75,0.6,0.8,0.7
+26,INTJ_A_F,INTJ_F_A,Pm(61),right_sole_dopamine,extreme_growth,drone; dark ambient,0.03,0.8,0.25,0.2,1.0,0.6,0.8,0.7
+26,INTJ_A_F,INTJ_F_A,Pm(61),right_sole_dopamine,layer4_512D,IDM,0.9,0.65,0.7,0.9,0.75,,,
+27,ENFJ_A_M,ENFJ_M_A,Cs(55),glymphatic_system,release,classic rock female,0.72,0.1,0.45,0.7,0.3,0.6,0.7,0.4
+27,ENFJ_A_M,ENFJ_M_A,Cs(55),glymphatic_system,stress_growth,progressive soul; jazz fusion,0.77,0.35,0.6,0.7,0.5,0.6,0.7,0.4
+27,ENFJ_A_M,ENFJ_M_A,Cs(55),glymphatic_system,extreme_growth,ambient; minimalistic,0.22,0.05,0.1,0.4,0.15,0.6,0.7,0.4
+27,ENFJ_A_M,ENFJ_M_A,Cs(55),glymphatic_system,layer4_512D,dark ambient,0.1,0.65,0.2,0.55,0.1,,,
+28,ENFP_A_F,ENFP_F_A,Ne(10),quark_orogen_magma.out0,release,chamber pop,0.55,0.35,0.45,0.7,0.35,0.6,0.3,0.4
+28,ENFP_A_F,ENFP_F_A,Ne(10),quark_orogen_magma.out0,stress_growth,noise rock; psychedelic rock,0.9,0.75,0.65,0.7,0.7,0.6,0.3,0.4
+28,ENFP_A_F,ENFP_F_A,Ne(10),quark_orogen_magma.out0,extreme_growth,indie folk; dream pop,0.5,0.25,0.3,0.55,0.2,0.6,0.3,0.4
+28,ENFP_A_F,ENFP_F_A,Ne(10),quark_orogen_magma.out0,layer4_512D,ghibli,0.3,0.2,0.35,0.15,0.45,,,
+29,INFJ_A_M,INFJ_M_A,Rb(37),aurora,release,hardcore,0.85,0.3,0.8,0.45,0.5,0.6,0.7,0.7
+29,INFJ_A_M,INFJ_M_A,Rb(37),aurora,stress_growth,power electronics; industrial,0.7,0.9,1.0,0.75,0.95,0.6,0.7,0.7
+29,INFJ_A_M,INFJ_M_A,Rb(37),aurora,extreme_growth,ghibli; indie folk,0.25,0.05,0.5,0.3,0.2,0.6,0.7,0.7
+29,INFJ_A_M,INFJ_M_A,Rb(37),aurora,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+30,INFP_A_F,INFP_F_A,primordial_black_hole_125,large_igneous_province.out0,release,ambient pop,0.2,0.3,0.2,0.6,0.4,0.6,0.3,0.7
+30,INFP_A_F,INFP_F_A,primordial_black_hole_125,large_igneous_province.out0,stress_growth,ghibli-adjacent; neo-classical,0.25,0.2,0.2,0.5,0.3,0.6,0.3,0.7
+30,INFP_A_F,INFP_F_A,primordial_black_hole_125,large_igneous_province.out0,extreme_growth,indie folk; britpop,0.3,0.2,0.15,0.45,0.3,0.6,0.3,0.7
+31,ESTP_A_M,ESTP_M_A,Th(90),co2,release,extreme metal,1.0,0.75,0.95,0.45,0.9,0.45,0.4,0.4
+31,ESTP_A_M,ESTP_M_A,Th(90),co2,stress_growth,thrash metal; heavy psych,1.0,0.45,0.85,0.6,0.6,0.45,0.4,0.4
+31,ESTP_A_M,ESTP_M_A,Th(90),co2,extreme_growth,neo-classical; minimalistic ambient,0.4,0.2,0.55,0.4,0.35,0.45,0.4,0.4
+31,ESTP_A_M,ESTP_M_A,Th(90),co2,layer4_512D,gospel,0.55,0.3,0.6,0.2,0.65,,,
+32,ENFJ_A_F,ENFJ_F_A,Pb(82),lactate_dehydrogenase.out1,release,progressive rock,0.7,0.6,0.7,0.7,0.55,0.6,0.7,0.4
+32,ENFJ_A_F,ENFJ_F_A,Pb(82),lactate_dehydrogenase.out1,stress_growth,art pop; orchestral,0.65,0.5,0.6,0.75,0.5,0.6,0.7,0.4
+32,ENFJ_A_F,ENFJ_F_A,Pb(82),lactate_dehydrogenase.out1,extreme_growth,soul; gospel,0.7,0.3,0.6,0.7,0.35,0.6,0.7,0.4
+32,ENFJ_A_F,ENFJ_F_A,Pb(82),lactate_dehydrogenase.out1,layer4_512D,ghibli,0.3,0.2,0.35,0.15,0.45,,,
+33,ISTP_A_M,ISTP_M_A,O(8),steel,release,aero ambient,0.3,0.3,0.45,0.45,0.1,0.45,0.4,0.7
+33,ISTP_A_M,ISTP_M_A,O(8),steel,stress_growth,heavy psych; fuzz rock,0.5,0.6,0.75,0.6,0.5,0.45,0.4,0.7
+33,ISTP_A_M,ISTP_M_A,O(8),steel,extreme_growth,ambient; minimalistic,0.1,0.2,0.3,0.4,0.1,0.45,0.4,0.7
+33,ISTP_A_M,ISTP_M_A,O(8),steel,layer4_512D,soul,0.6,0.35,0.55,0.25,0.55,,,
+34,INFJ_A_F,INFJ_F_A,Na(11),LeftD2,release,hard rock,0.73,0.2,0.65,0.65,0.5,0.6,0.7,0.7
+34,INFJ_A_F,INFJ_F_A,Na(11),LeftD2,stress_growth,björk; art pop experimental,0.73,0.75,0.8,0.7,0.85,0.6,0.7,0.7
+34,INFJ_A_F,INFJ_F_A,Na(11),LeftD2,extreme_growth,dark ambient; drone,0.13,0.55,0.3,0.15,0.8,0.6,0.7,0.7
+34,INFJ_A_F,INFJ_F_A,Na(11),LeftD2,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+35,ESTP_A_F,ESTP_F_A,Tm(69),actomyosin_ctrl.out,release,psychedelic funk,0.62,0.55,0.55,0.65,0.6,0.45,0.4,0.4
+35,ESTP_A_F,ESTP_F_A,Tm(69),actomyosin_ctrl.out,stress_growth,no wave; noise pop,0.57,0.8,0.55,0.55,0.85,0.45,0.4,0.4
+35,ESTP_A_F,ESTP_F_A,Tm(69),actomyosin_ctrl.out,extreme_growth,indie folk; acoustic,0.27,0.25,0.25,0.45,0.3,0.45,0.4,0.4
+35,ESTP_A_F,ESTP_F_A,Tm(69),actomyosin_ctrl.out,layer4_512D,art pop,0.55,0.5,0.55,0.45,0.6,,,
+36,ESTJ_A_M,ESTJ_M_A,exotic_matter_120,memory_entropy.out_hind_insula,release,new minimalism,0.15,0.35,0.2,0.5,0.3,0.45,0.8,0.4
+36,ESTJ_A_M,ESTJ_M_A,exotic_matter_120,memory_entropy.out_hind_insula,stress_growth,prog metal; technical metal,0.65,0.65,0.55,0.65,0.7,0.45,0.8,0.4
+36,ESTJ_A_M,ESTJ_M_A,exotic_matter_120,memory_entropy.out_hind_insula,extreme_growth,ambient; folk,0.0,0.2,0.0,0.4,0.25,0.45,0.8,0.4
+37,ISTP_A_F,ISTP_F_A,Hs(108),manganese_oxygen_complex,release,glitch opera,0.67,0.95,0.7,0.55,0.7,0.45,0.4,0.7
+37,ISTP_A_F,ISTP_F_A,Hs(108),manganese_oxygen_complex,stress_growth,psychedelic folk; shoegaze,0.37,0.55,0.45,0.45,0.45,0.45,0.4,0.7
+37,ISTP_A_F,ISTP_F_A,Hs(108),manganese_oxygen_complex,extreme_growth,acoustic; ambient,0.22,0.2,0.25,0.4,0.2,0.45,0.4,0.7
+37,ISTP_A_F,ISTP_F_A,Hs(108),manganese_oxygen_complex,layer4_512D,dream pop,0.3,0.4,0.4,0.35,0.5,,,
+38,ISTJ_A_M,ISTJ_M_A,Br(35),succinate_dehydrogenase,release,new age,0.35,0.25,0.4,0.3,0.15,0.45,0.8,0.7
+38,ISTJ_A_M,ISTJ_M_A,Br(35),succinate_dehydrogenase,stress_growth,technical metal; prog metal,0.9,0.8,0.85,0.6,0.7,0.45,0.8,0.7
+38,ISTJ_A_M,ISTJ_M_A,Br(35),succinate_dehydrogenase,extreme_growth,orchestral pop; art pop,0.45,0.3,0.7,0.65,0.4,0.45,0.8,0.7
+38,ISTJ_A_M,ISTJ_M_A,Br(35),succinate_dehydrogenase,layer4_512D,folk,0.35,0.18,0.28,0.12,0.38,,,
+39,ESTJ_A_F,ESTJ_F_A,Ti(22),memory_entropy.out_co2,release,cocteau twins,0.25,0.3,0.45,0.55,0.45,0.45,0.8,0.4
+39,ESTJ_A_F,ESTJ_F_A,Ti(22),memory_entropy.out_co2,stress_growth,post-punk; rock,0.55,0.3,0.5,0.45,0.45,0.45,0.8,0.4
+39,ESTJ_A_F,ESTJ_F_A,Ti(22),memory_entropy.out_co2,extreme_growth,folk; acoustic,0.3,0.02,0.28,0.38,0.18,0.45,0.8,0.4
+39,ESTJ_A_F,ESTJ_F_A,Ti(22),memory_entropy.out_co2,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+40,ESFP_A_M,ESFP_M_A,Ag(47),chlorine_ion_pump.out1,release,indie rock,0.8,0.15,0.7,0.65,0.35,0.45,0.3,0.4
+40,ESFP_A_M,ESFP_M_A,Ag(47),chlorine_ion_pump.out1,stress_growth,funk; R&B,1.0,0.15,0.75,0.75,0.35,0.45,0.3,0.4
+40,ESFP_A_M,ESFP_M_A,Ag(47),chlorine_ion_pump.out1,extreme_growth,ambient; lo-fi,0.3,0.05,0.3,0.4,0.2,0.45,0.3,0.4
+40,ESFP_A_M,ESFP_M_A,Ag(47),chlorine_ion_pump.out1,layer4_512D,psychedelic rock,0.55,0.55,0.6,0.5,0.55,,,
+41,ISTJ_A_F,ISTJ_F_A,Fe(26),sulfur_iron_complex,release,indie psych,0.53,0.45,0.65,0.6,0.6,0.45,0.8,0.7
+41,ISTJ_A_F,ISTJ_F_A,Fe(26),sulfur_iron_complex,stress_growth,post-punk; new wave,0.63,0.4,0.6,0.5,0.55,0.45,0.8,0.7
+41,ISTJ_A_F,ISTJ_F_A,Fe(26),sulfur_iron_complex,extreme_growth,chamber pop; orchestral pop,0.43,0.25,0.55,0.6,0.45,0.45,0.8,0.7
+41,ISTJ_A_F,ISTJ_F_A,Fe(26),sulfur_iron_complex,layer4_512D,folk,0.35,0.18,0.28,0.12,0.38,,,
+42,ISFP_A_M,ISFP_M_A,Pu(94),NaCl,release,metal,0.72,0.55,0.65,0.25,0.8,0.45,0.3,0.7
+42,ISFP_A_M,ISFP_M_A,Pu(94),NaCl,stress_growth,shoegaze; post-britpop,0.17,0.5,0.4,0.25,0.65,0.45,0.3,0.7
+42,ISFP_A_M,ISFP_M_A,Pu(94),NaCl,extreme_growth,ambient; post rock,0.0,0.2,0.1,0.05,0.35,0.45,0.3,0.7
+42,ISFP_A_M,ISFP_M_A,Pu(94),NaCl,layer4_512D,classic rock,0.6,0.35,0.5,0.2,0.6,,,
+43,ESFP_A_F,ESFP_F_A,Ta(73),outer_core_convection,release,lo-fi rock,0.75,0.2,0.6,0.6,0.25,0.45,0.3,0.4
+43,ESFP_A_F,ESFP_F_A,Ta(73),outer_core_convection,stress_growth,dance pop; electropop,1.0,0.0,0.85,0.9,0.1,0.45,0.3,0.4
+43,ESFP_A_F,ESFP_F_A,Ta(73),outer_core_convection,extreme_growth,ambient; dream pop,0.3,0.05,0.3,0.4,0.1,0.45,0.3,0.4
+43,ESFP_A_F,ESFP_F_A,Ta(73),outer_core_convection,layer4_512D,psychedelic rock,0.55,0.55,0.6,0.5,0.55,,,
+44,ESFJ_A_M,ESFJ_M_A,Li(3),cytochrome_c_oxidase,release,glam rock,0.85,0.2,0.7,0.75,0.55,0.45,0.7,0.4
+44,ESFJ_A_M,ESFJ_M_A,Li(3),cytochrome_c_oxidase,stress_growth,arena rock; classic rock,0.85,0.05,0.7,0.75,0.5,0.45,0.7,0.4
+44,ESFJ_A_M,ESFJ_M_A,Li(3),cytochrome_c_oxidase,extreme_growth,ambient; folk,0.3,0.05,0.3,0.4,0.35,0.45,0.7,0.4
+44,ESFJ_A_M,ESFJ_M_A,Li(3),cytochrome_c_oxidase,layer4_512D,funk,0.8,0.35,0.6,0.25,0.65,,,
+45,ISFP_A_F,ISFP_F_A,He(2),gluon_orogen.q_bar,release,drone,0.05,0.8,0.0,0.25,0.9,0.45,0.3,0.7
+45,ISFP_A_F,ISFP_F_A,He(2),gluon_orogen.q_bar,stress_growth,dream pop; noise pop,0.35,0.25,0.25,0.65,0.45,0.45,0.3,0.7
+45,ISFP_A_F,ISFP_F_A,He(2),gluon_orogen.q_bar,extreme_growth,britpop; indie folk,0.7,0.1,0.4,0.75,0.3,0.45,0.3,0.7
+45,ISFP_A_F,ISFP_F_A,He(2),gluon_orogen.q_bar,layer4_512D,country rock,0.5,0.25,0.4,0.15,0.55,,,
+46,ESFJ_A_F,ESFJ_F_A,Ni(28),pyrite,release,funk,0.67,0.35,0.55,0.5,0.4,0.45,0.7,0.4
+46,ESFJ_A_F,ESFJ_F_A,Ni(28),pyrite,stress_growth,indie pop; chamber pop,0.32,0.3,0.35,0.4,0.3,0.45,0.7,0.4
+46,ESFJ_A_F,ESFJ_F_A,Ni(28),pyrite,extreme_growth,experimental; ambient,0.22,0.75,0.45,0.3,0.65,0.45,0.7,0.4
+46,ESFJ_A_F,ESFJ_F_A,Ni(28),pyrite,layer4_512D,dream pop,0.3,0.4,0.4,0.35,0.5,,,
+47,ISFJ_A_M,ISFJ_M_A,Ts(117),laterite,release,industrial electronic,1.0,0.75,0.9,0.9,0.75,0.45,0.7,0.7
+47,ISFJ_A_M,ISFJ_M_A,Ts(117),laterite,stress_growth,arena rock; classic rock,0.85,0.2,0.7,0.8,0.45,0.45,0.7,0.7
+47,ISFJ_A_M,ISFJ_M_A,Ts(117),laterite,extreme_growth,orchestral pop; chamber pop,0.65,0.3,0.7,0.75,0.5,0.45,0.7,0.7
+47,ISFJ_A_M,ISFJ_M_A,Ts(117),laterite,layer4_512D,dark ambient,0.1,0.65,0.2,0.55,0.1,,,
+48,ISFJ_A_F,ISFJ_F_A,Hf(72),craton.out1,release,dance,0.85,0.25,0.65,0.9,0.25,0.45,0.7,0.7
+48,ISFJ_A_F,ISFJ_F_A,Hf(72),craton.out1,stress_growth,art pop; orchestral pop,0.6,0.55,0.55,0.75,0.5,0.45,0.7,0.7
+48,ISFJ_A_F,ISFJ_F_A,Hf(72),craton.out1,extreme_growth,orchestral pop; neo-classical,0.5,0.35,0.55,0.75,0.4,0.45,0.7,0.7
+48,ISFJ_A_F,ISFJ_F_A,Hf(72),craton.out1,layer4_512D,ethereal wave,0.2,0.35,0.3,0.3,0.45,,,
+49,ENTP_O_M,ENTP_M_O,neutron_star_matter_121,outer_core_convection.out0,release,city pop,0.7,0.25,0.4,0.7,0.25,0.45,0.4,0.5
+49,ENTP_O_M,ENTP_M_O,neutron_star_matter_121,outer_core_convection.out0,stress_growth,industrial electronic; EBM,1.0,0.8,0.75,0.9,0.65,0.45,0.4,0.5
+49,ENTP_O_M,ENTP_M_O,neutron_star_matter_121,outer_core_convection.out0,extreme_growth,experimental classical; drone,0.4,0.85,0.6,0.65,0.75,0.45,0.4,0.5
+50,INTP_O_M,INTP_M_O,Ac(89),thorium,release,electronic dance,0.85,0.3,0.8,0.75,0.45,0.45,0.4,0.8
+50,INTP_O_M,INTP_M_O,Ac(89),thorium,stress_growth,synthwave; krautrock,0.6,0.3,0.55,0.6,0.4,0.45,0.4,0.8
+50,INTP_O_M,INTP_M_O,Ac(89),thorium,extreme_growth,britpop; indie folk,0.65,0.3,0.55,0.55,0.4,0.45,0.4,0.8
+50,INTP_O_M,INTP_M_O,Ac(89),thorium,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+51,ENTJ_O_M,ENTJ_M_O,Ca(20),memory_entropy,release,pop country,0.65,0.1,0.35,0.65,0.15,0.45,0.8,0.5
+51,ENTJ_O_M,ENTJ_M_O,Ca(20),memory_entropy,stress_growth,death metal; extreme metal,1.0,0.6,0.65,0.55,0.7,0.45,0.8,0.5
+51,ENTJ_O_M,ENTJ_M_O,Ca(20),memory_entropy,extreme_growth,ambient; minimalistic,0.2,0.15,0.05,0.35,0.15,0.45,0.8,0.5
+51,ENTJ_O_M,ENTJ_M_O,Ca(20),memory_entropy,layer4_512D,britpop,0.65,0.25,0.55,0.2,0.6,,,
+52,INTJ_O_M,INTJ_M_O,gravitational_wave_126,basin.q,release,black metal,1.0,0.6,0.85,0.3,1.0,0.45,0.8,0.8
+52,INTJ_O_M,INTJ_M_O,gravitational_wave_126,basin.q,stress_growth,drone; dark ambient,0.2,0.8,0.3,0.1,1.0,0.45,0.8,0.8
+52,INTJ_O_M,INTJ_M_O,gravitational_wave_126,basin.q,extreme_growth,lofi hip hop; nujabes,0.65,0.1,0.45,0.35,0.5,0.45,0.8,0.8
+53,ENTP_O_F,ENTP_F_O,Cf(98),cck,release,drone metal,0.4,0.95,0.7,0.2,1.0,0.45,0.4,0.5
+53,ENTP_O_F,ENTP_F_O,Cf(98),cck,stress_growth,space rock; krautrock,0.7,0.6,0.75,0.5,0.6,0.45,0.4,0.5
+53,ENTP_O_F,ENTP_F_O,Cf(98),cck,extreme_growth,IDM; experimental electronic,0.7,0.6,0.65,0.5,0.6,0.45,0.4,0.5
+53,ENTP_O_F,ENTP_F_O,Cf(98),cck,layer4_512D,drone,0.0,0.85,0.15,0.9,0.1,,,
+54,ENFP_O_M,ENFP_M_O,H(1),heme,release,noise rock,0.95,0.55,0.8,0.65,0.85,0.45,0.3,0.5
+54,ENFP_O_M,ENFP_M_O,H(1),heme,stress_growth,space rock with stoner; krautrock,0.65,0.45,0.8,0.55,0.7,0.45,0.3,0.5
+54,ENFP_O_M,ENFP_M_O,H(1),heme,extreme_growth,experimental classical; drone,0.45,0.65,0.75,0.6,0.9,0.45,0.3,0.5
+54,ENFP_O_M,ENFP_M_O,H(1),heme,layer4_512D,ghibli,0.3,0.2,0.35,0.15,0.45,,,
+55,INTP_O_F,INTP_F_O,Nb(41),nitrogenase.out_2,release,prog rock,0.7,0.6,0.7,0.7,0.45,0.45,0.4,0.8
+55,INTP_O_F,INTP_F_O,Nb(41),nitrogenase.out_2,stress_growth,shoegaze; post rock,0.4,0.5,0.5,0.65,0.4,0.45,0.4,0.8
+55,INTP_O_F,INTP_F_O,Nb(41),nitrogenase.out_2,extreme_growth,soul; indie pop,0.7,0.3,0.6,0.7,0.25,0.45,0.4,0.8
+55,INTP_O_F,INTP_F_O,Nb(41),nitrogenase.out_2,layer4_512D,soul,0.6,0.35,0.55,0.25,0.55,,,
+56,INFP_O_M,INFP_M_O,Sg(106),histosol.out1,release,power electronics,0.62,0.9,0.8,0.65,1.0,0.45,0.3,0.8
+56,INFP_O_M,INFP_M_O,Sg(106),histosol.out1,stress_growth,radiohead; post-britpop art rock,0.37,0.35,0.5,0.25,0.65,0.45,0.3,0.8
+56,INFP_O_M,INFP_M_O,Sg(106),histosol.out1,extreme_growth,experimental classical; drone,0.12,0.65,0.55,0.25,0.85,0.45,0.3,0.8
+56,INFP_O_M,INFP_M_O,Sg(106),histosol.out1,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+57,ENTJ_O_F,ENTJ_F_O,Db(105),steel.out1,release,witch house,0.57,0.6,0.5,0.35,0.8,0.45,0.8,0.5
+57,ENTJ_O_F,ENTJ_F_O,Db(105),steel.out1,stress_growth,metal; hard rock,0.87,0.45,0.65,0.55,0.75,0.45,0.8,0.5
+57,ENTJ_O_F,ENTJ_F_O,Db(105),steel.out1,extreme_growth,ambient; minimalistic,0.12,0.1,0.1,0.35,0.3,0.45,0.8,0.5
+57,ENTJ_O_F,ENTJ_F_O,Db(105),steel.out1,layer4_512D,art pop,0.55,0.5,0.55,0.45,0.6,,,
+58,INTJ_O_F,INTJ_F_O,Pd(46),autophagy.out0,release,soft rock,0.65,0.0,0.5,0.65,0.15,0.45,0.8,0.8
+58,INTJ_O_F,INTJ_F_O,Pd(46),autophagy.out0,stress_growth,power electronics; industrial,0.95,0.9,1.0,1.0,0.9,0.45,0.8,0.8
+58,INTJ_O_F,INTJ_F_O,Pd(46),autophagy.out0,extreme_growth,lofi nujabes; ghibli-adjacent,0.65,0.1,0.45,0.45,0.25,0.45,0.8,0.8
+58,INTJ_O_F,INTJ_F_O,Pd(46),autophagy.out0,layer4_512D,synth pop,0.7,0.25,0.6,0.15,0.7,,,
+59,ENFJ_O_M,ENFJ_M_O,Ar(18),sulforaphane,release,prog,0.8,0.55,0.7,0.7,0.4,0.45,0.7,0.5
+59,ENFJ_O_M,ENFJ_M_O,Ar(18),sulforaphane,stress_growth,jazz fusion; progressive soul,0.95,0.6,0.75,0.8,0.5,0.45,0.7,0.5
+59,ENFJ_O_M,ENFJ_M_O,Ar(18),sulforaphane,extreme_growth,experimental classical; drone,0.45,0.75,0.65,0.65,0.6,0.45,0.7,0.5
+59,ENFJ_O_M,ENFJ_M_O,Ar(18),sulforaphane,layer4_512D,ghibli,0.3,0.2,0.35,0.15,0.45,,,
+60,ENFP_O_F,ENFP_F_O,black_hole_accretion_122,co2.out0,release,ambient electronica,0.0,0.3,0.1,0.15,0.45,0.45,0.3,0.5
+60,ENFP_O_F,ENFP_F_O,black_hole_accretion_122,co2.out0,stress_growth,space rock with stoner; shoegaze,0.25,0.6,0.5,0.2,0.7,0.45,0.3,0.5
+60,ENFP_O_F,ENFP_F_O,black_hole_accretion_122,co2.out0,extreme_growth,experimental; dark ambient,0.15,0.7,0.35,0.2,0.75,0.45,0.3,0.5
+61,INFJ_O_M,INFJ_M_O,Fr(87),cysteine,release,art rock,0.72,0.45,0.6,0.68,0.7,0.45,0.7,0.8
+61,INFJ_O_M,INFJ_M_O,Fr(87),cysteine,stress_growth,drone; minimalistic ambient,0.12,0.8,0.1,0.2,1.0,0.45,0.7,0.8
+61,INFJ_O_M,INFJ_M_O,Fr(87),cysteine,extreme_growth,lofi hip hop; britpop,0.57,0.1,0.25,0.45,0.45,0.45,0.7,0.8
+61,INFJ_O_M,INFJ_M_O,Fr(87),cysteine,layer4_512D,experimental,0.35,0.6,0.5,0.65,0.45,,,
+62,INFP_O_F,INFP_F_O,dark_matter_119,ferritin.out0,release,technical metal,0.95,0.65,0.55,0.55,0.9,0.45,0.3,0.8
+62,INFP_O_F,INFP_F_O,dark_matter_119,ferritin.out0,stress_growth,dream pop; shoegaze,0.35,0.25,0.25,0.5,0.6,0.45,0.3,0.8
+62,INFP_O_F,INFP_F_O,dark_matter_119,ferritin.out0,extreme_growth,experimental classical; drone,0.3,0.65,0.45,0.5,0.95,0.45,0.3,0.8
+63,ESTP_O_M,ESTP_M_O,C(6),water_vapour,release,pop rock,0.8,0.2,0.65,0.85,0.15,0.3,0.4,0.5
+63,ESTP_O_M,ESTP_M_O,C(6),water_vapour,stress_growth,hardcore; punk,1.0,0.45,0.8,0.8,0.4,0.3,0.4,0.5
+63,ESTP_O_M,ESTP_M_O,C(6),water_vapour,extreme_growth,indie folk; minimalistic ambient,0.55,0.2,0.45,0.6,0.1,0.3,0.4,0.5
+63,ESTP_O_M,ESTP_M_O,C(6),water_vapour,layer4_512D,orchestral pop,0.45,0.4,0.55,0.25,0.6,,,
+64,ENFJ_O_F,ENFJ_F_O,Os(76),subduction_zone,release,indie pop,0.4,0.1,0.25,0.7,0.35,0.45,0.7,0.5
+64,ENFJ_O_F,ENFJ_F_O,Os(76),subduction_zone,stress_growth,jazz; R&B experimental,0.5,0.35,0.4,0.7,0.6,0.45,0.7,0.5
+64,ENFJ_O_F,ENFJ_F_O,Os(76),subduction_zone,extreme_growth,ambient; drone,0.05,0.05,0.0,0.45,0.3,0.45,0.7,0.5
+64,ENFJ_O_F,ENFJ_F_O,Os(76),subduction_zone,layer4_512D,dark ambient,0.1,0.65,0.2,0.55,0.1,,,
+65,ISTP_O_M,ISTP_M_O,Si(14),mc1r.q_bar,release,experimental rock,0.8,0.5,0.75,0.75,0.7,0.3,0.4,0.8
+65,ISTP_O_M,ISTP_M_O,Si(14),mc1r.q_bar,stress_growth,doom metal; sludge,0.5,0.45,0.65,0.45,0.8,0.3,0.4,0.8
+65,ISTP_O_M,ISTP_M_O,Si(14),mc1r.q_bar,extreme_growth,psychedelic rock; ambient,0.75,0.4,0.75,0.75,0.6,0.3,0.4,0.8
+65,ISTP_O_M,ISTP_M_O,Si(14),mc1r.q_bar,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+66,INFJ_O_F,INFJ_F_O,Hg(80),basin,release,progressive soul,0.7,0.35,0.7,0.65,0.45,0.45,0.7,0.8
+66,INFJ_O_F,INFJ_F_O,Hg(80),basin,stress_growth,dark ambient; drone,0.15,0.45,0.25,0.15,0.55,0.45,0.7,0.8
+66,INFJ_O_F,INFJ_F_O,Hg(80),basin,extreme_growth,indie folk; ghibli,0.4,0.05,0.35,0.45,0.1,0.45,0.7,0.8
+66,INFJ_O_F,INFJ_F_O,Hg(80),basin,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+67,ESTP_O_F,ESTP_F_O,As(33),adapter_protein,release,dream pop experimental,0.5,0.45,0.35,0.75,0.4,0.3,0.4,0.5
+67,ESTP_O_F,ESTP_F_O,As(33),adapter_protein,stress_growth,electropop; synth pop,0.8,0.2,0.45,0.9,0.2,0.3,0.4,0.5
+67,ESTP_O_F,ESTP_F_O,As(33),adapter_protein,extreme_growth,dream pop; indie folk,0.4,0.4,0.3,0.7,0.35,0.3,0.4,0.5
+67,ESTP_O_F,ESTP_F_O,As(33),adapter_protein,layer4_512D,orchestral pop,0.45,0.4,0.55,0.25,0.6,,,
+68,ESTJ_O_M,ESTJ_M_O,Cu(29),pyrite.out1,release,synth pop,0.88,0.15,0.7,0.8,0.25,0.3,0.8,0.5
+68,ESTJ_O_M,ESTJ_M_O,Cu(29),pyrite.out1,stress_growth,metal; prog rock,1.0,0.5,0.8,0.6,0.65,0.3,0.8,0.5
+68,ESTJ_O_M,ESTJ_M_O,Cu(29),pyrite.out1,extreme_growth,ambient; minimalistic,0.28,0.15,0.25,0.4,0.2,0.3,0.8,0.5
+68,ESTJ_O_M,ESTJ_M_O,Cu(29),pyrite.out1,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+69,ISTP_O_F,ISTP_F_O,Bi(83),lower_mantle.q,release,weird pop,0.5,0.45,0.45,0.8,0.6,0.3,0.4,0.8
+69,ISTP_O_F,ISTP_F_O,Bi(83),lower_mantle.q,stress_growth,stoner rock; heavy blues,0.3,0.4,0.4,0.5,0.6,0.3,0.4,0.8
+69,ISTP_O_F,ISTP_F_O,Bi(83),lower_mantle.q,extreme_growth,ambient; acoustic folk,0.0,0.05,0.0,0.45,0.25,0.3,0.4,0.8
+69,ISTP_O_F,ISTP_F_O,Bi(83),lower_mantle.q,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+70,ISTJ_O_M,ISTJ_M_O,Bk(97),water_vapour.out0,release,tool-adjacent,0.73,0.55,0.8,0.45,0.65,0.3,0.8,0.8
+70,ISTJ_O_M,ISTJ_M_O,Bk(97),water_vapour.out0,stress_growth,blues rock; southern rock,0.53,0.2,0.6,0.45,0.35,0.3,0.8,0.8
+70,ISTJ_O_M,ISTJ_M_O,Bk(97),water_vapour.out0,extreme_growth,soul; gospel,0.58,0.2,0.65,0.45,0.35,0.3,0.8,0.8
+70,ISTJ_O_M,ISTJ_M_O,Bk(97),water_vapour.out0,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+71,ESTJ_O_F,ESTJ_F_O,cosmic_ray_123,aurora.out0,release,ethereal wave,0.18,0.25,0.4,0.5,0.3,0.3,0.8,0.5
+71,ESTJ_O_F,ESTJ_F_O,cosmic_ray_123,aurora.out0,stress_growth,rock; blues rock,0.63,0.2,0.65,0.65,0.35,0.3,0.8,0.5
+71,ESTJ_O_F,ESTJ_F_O,cosmic_ray_123,aurora.out0,extreme_growth,ambient; folk,0.08,0.1,0.25,0.35,0.15,0.3,0.8,0.5
+72,ESFP_O_M,ESFP_M_O,Al(13),subduction_zone.out0,release,experimental hip hop,0.83,0.6,0.7,0.7,0.5,0.3,0.3,0.5
+72,ESFP_O_M,ESFP_M_O,Al(13),subduction_zone.out0,stress_growth,dance; electronic dance,0.98,0.25,0.75,0.95,0.2,0.3,0.3,0.5
+72,ESFP_O_M,ESFP_M_O,Al(13),subduction_zone.out0,extreme_growth,ambient; post rock,0.28,0.25,0.25,0.5,0.15,0.3,0.3,0.5
+72,ESFP_O_M,ESFP_M_O,Al(13),subduction_zone.out0,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+73,ISTJ_O_F,ISTJ_F_O,Se(34),adapter_protein.q_bar,release,pop soul,0.5,0.02,0.4,0.73,0.13,0.3,0.8,0.8
+73,ISTJ_O_F,ISTJ_F_O,Se(34),adapter_protein.q_bar,stress_growth,indie pop; folk rock,0.4,0.1,0.3,0.7,0.1,0.3,0.8,0.8
+73,ISTJ_O_F,ISTJ_F_O,Se(34),adapter_protein.q_bar,extreme_growth,soul; gospel,0.55,0.15,0.45,0.7,0.2,0.3,0.8,0.8
+73,ISTJ_O_F,ISTJ_F_O,Se(34),adapter_protein.q_bar,layer4_512D,experimental,0.35,0.6,0.5,0.65,0.45,,,
+74,ISFP_O_M,ISFP_M_O,La(57),laterite.q_bar,release,baroque pop,0.48,0.4,0.55,0.75,0.6,0.3,0.3,0.8
+74,ISFP_O_M,ISFP_M_O,La(57),laterite.q_bar,stress_growth,shoegaze; alternative rock,0.38,0.55,0.55,0.7,0.7,0.3,0.3,0.8
+74,ISFP_O_M,ISFP_M_O,La(57),laterite.q_bar,extreme_growth,experimental; ambient,0.43,0.75,0.6,0.65,0.8,0.3,0.3,0.8
+74,ISFP_O_M,ISFP_M_O,La(57),laterite.q_bar,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+75,ESFP_O_F,ESFP_F_O,In(49),pentose_phosphate,release,IDM,0.6,0.45,0.55,0.75,0.45,0.3,0.3,0.5
+75,ESFP_O_F,ESFP_F_O,In(49),pentose_phosphate,stress_growth,synth pop; dance pop,0.8,0.1,0.65,0.95,0.2,0.3,0.3,0.5
+75,ESFP_O_F,ESFP_F_O,In(49),pentose_phosphate,extreme_growth,ambient; acoustic folk,0.2,0.1,0.2,0.55,0.15,0.3,0.3,0.5
+75,ESFP_O_F,ESFP_F_O,In(49),pentose_phosphate,layer4_512D,acoustic,0.25,0.2,0.3,0.1,0.45,,,
+76,ESFJ_O_M,ESFJ_M_O,Yb(70),methylation,release,orchestral pop,0.53,0.2,0.65,0.8,0.55,0.3,0.7,0.5
+76,ESFJ_O_M,ESFJ_M_O,Yb(70),methylation,stress_growth,hard rock; southern rock,0.78,0.15,0.65,0.8,0.5,0.3,0.7,0.5
+76,ESFJ_O_M,ESFJ_M_O,Yb(70),methylation,extreme_growth,ambient; minimalistic,0.18,0.1,0.25,0.5,0.35,0.3,0.7,0.5
+76,ESFJ_O_M,ESFJ_M_O,Yb(70),methylation,layer4_512D,orchestral pop,0.45,0.4,0.55,0.25,0.6,,,
+77,ISFP_O_F,ISFP_F_O,Bh(107),manganese_nodule,release,acoustic folk,0.17,0.07,0.25,0.2,0.27,0.3,0.3,0.8
+77,ISFP_O_F,ISFP_F_O,Bh(107),manganese_nodule,stress_growth,dream pop; shoegaze,0.17,0.3,0.35,0.25,0.45,0.3,0.3,0.8
+77,ISFP_O_F,ISFP_F_O,Bh(107),manganese_nodule,extreme_growth,britpop; alternative,0.52,0.15,0.5,0.35,0.3,0.3,0.3,0.8
+77,ISFP_O_F,ISFP_F_O,Bh(107),manganese_nodule,layer4_512D,folk,0.35,0.18,0.28,0.12,0.38,,,
+78,ESFJ_O_F,ESFJ_F_O,Es(99),right_acetylcholine,release,prog metal,0.95,0.55,0.75,0.55,0.8,0.3,0.7,0.5
+78,ESFJ_O_F,ESFJ_F_O,Es(99),right_acetylcholine,stress_growth,folk rock; americana,0.7,0.15,0.5,0.55,0.45,0.3,0.7,0.5
+78,ESFJ_O_F,ESFJ_F_O,Es(99),right_acetylcholine,extreme_growth,experimental; drone,0.55,0.6,0.55,0.45,0.75,0.3,0.7,0.5
+78,ESFJ_O_F,ESFJ_F_O,Es(99),right_acetylcholine,layer4_512D,chamber pop,0.4,0.35,0.45,0.25,0.55,,,
+79,ISFJ_O_M,ISFJ_M_O,Mc(115),none_observer,release,fuzz rock,0.53,0.3,0.65,0.3,0.55,0.3,0.7,0.8
+79,ISFJ_O_M,ISFJ_M_O,Mc(115),none_observer,stress_growth,hard rock; classic rock,0.63,0.1,0.65,0.35,0.4,0.3,0.7,0.8
+79,ISFJ_O_M,ISFJ_M_O,Mc(115),none_observer,extreme_growth,soul; gospel,0.53,0.15,0.65,0.3,0.4,0.3,0.7,0.8
+79,ISFJ_O_M,ISFJ_M_O,Mc(115),none_observer,layer4_512D,neo-classical,0.2,0.3,0.4,0.2,0.4,,,
+80,ISFJ_O_F,ISFJ_F_O,No(102),disulfide_bond,release,PC Music,0.4,0.55,0.5,0.25,0.55,0.3,0.7,0.8
+80,ISFJ_O_F,ISFJ_F_O,No(102),disulfide_bond,stress_growth,indie pop; singer-songwriter,0.35,0.25,0.4,0.3,0.3,0.3,0.7,0.8
+80,ISFJ_O_F,ISFJ_F_O,No(102),disulfide_bond,extreme_growth,dream pop; soul,0.2,0.4,0.4,0.25,0.45,0.3,0.7,0.8
+80,ISFJ_O_F,ISFJ_F_O,No(102),disulfide_bond,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+81,ENTP_B_M,ENTP_M_B,dark_energy_124,plume_out0_nand,release,doom metal,0.5,0.55,0.65,0.25,0.8,0.75,0.4,0.4
+81,ENTP_B_M,ENTP_M_B,dark_energy_124,plume_out0_nand,stress_growth,noise; harsh electronica,1.0,1.0,1.0,0.9,1.0,0.75,0.4,0.4
+81,ENTP_B_M,ENTP_M_B,dark_energy_124,plume_out0_nand,extreme_growth,big beat; industrial,1.0,0.35,0.85,0.7,0.4,0.75,0.4,0.4
+82,INTP_B_M,INTP_M_B,Eu(63),carbon.q,release,lo-fi indie,0.42,0.15,0.35,0.6,0.5,0.75,0.4,0.7
+82,INTP_B_M,INTP_M_B,Eu(63),carbon.q,stress_growth,experimental contemporary classical; glitch,0.22,0.75,0.6,0.65,1.0,0.75,0.4,0.7
+82,INTP_B_M,INTP_M_B,Eu(63),carbon.q,extreme_growth,post rock; shoegaze,0.37,0.3,0.7,0.55,0.7,0.75,0.4,0.7
+82,INTP_B_M,INTP_M_B,Eu(63),carbon.q,layer4_512D,soul,0.6,0.35,0.55,0.25,0.55,,,
+83,ENTJ_B_M,ENTJ_M_B,Pr(59),male_right_oxytocin,release,experimental ambient,0.0,0.5,0.1,0.2,0.45,0.75,0.8,0.4
+83,ENTJ_B_M,ENTJ_M_B,Pr(59),male_right_oxytocin,stress_growth,grindcore; black metal,0.8,0.95,0.65,0.45,0.85,0.75,0.8,0.4
+83,ENTJ_B_M,ENTJ_M_B,Pr(59),male_right_oxytocin,extreme_growth,orchestral; cinematic,0.15,0.4,0.4,0.5,0.5,0.75,0.8,0.4
+83,ENTJ_B_M,ENTJ_M_B,Pr(59),male_right_oxytocin,layer4_512D,synthwave,0.6,0.25,0.55,0.2,0.65,,,
+84,INTJ_B_M,INTJ_M_B,Ra(88),substance_p,release,experimental folk,0.4,0.4,0.3,0.5,0.55,0.75,0.8,0.7
+84,INTJ_B_M,INTJ_M_B,Ra(88),substance_p,stress_growth,harsh noise; power electronics,0.75,0.9,0.65,0.95,1.0,0.75,0.8,0.7
+84,INTJ_B_M,INTJ_M_B,Ra(88),substance_p,extreme_growth,lofi nujabes; minimalistic ambient,0.5,0.1,0.15,0.4,0.35,0.75,0.8,0.7
+84,INTJ_B_M,INTJ_M_B,Ra(88),substance_p,layer4_512D,big beat,0.8,0.35,0.7,0.35,0.7,,,
+85,ENTP_B_F,ENTP_F_B,Ho(67),actomyosin,release,mac demarco,0.35,0.35,0.3,0.45,0.5,0.75,0.4,0.4
+85,ENTP_B_F,ENTP_F_B,Ho(67),actomyosin,stress_growth,noise rock; sonic youth adjacent,0.6,0.75,0.55,0.45,0.9,0.75,0.4,0.4
+85,ENTP_B_F,ENTP_F_B,Ho(67),actomyosin,extreme_growth,IDM; electronic experimental,0.35,0.6,0.4,0.4,0.7,0.75,0.4,0.4
+85,ENTP_B_F,ENTP_F_B,Ho(67),actomyosin,layer4_512D,drone,0.0,0.85,0.15,0.9,0.1,,,
+86,ENFP_B_M,ENFP_M_B,Tb(65),glp1,release,stoner rock,0.6,0.45,0.7,0.5,0.7,0.75,0.3,0.4
+86,ENFP_B_M,ENFP_M_B,Tb(65),glp1,stress_growth,krautrock; cosmic rock,0.9,0.5,0.7,0.65,0.55,0.75,0.3,0.4
+86,ENFP_B_M,ENFP_M_B,Tb(65),glp1,extreme_growth,indie folk; singer-songwriter,0.55,0.1,0.45,0.55,0.35,0.75,0.3,0.4
+86,ENFP_B_M,ENFP_M_B,Tb(65),glp1,layer4_512D,dark ambient,0.1,0.65,0.2,0.55,0.1,,,
+87,INTP_B_F,INTP_F_B,Fm(100),water,release,triphop,0.37,0.3,0.5,0.3,0.6,0.75,0.4,0.7
+87,INTP_B_F,INTP_F_B,Fm(100),water,stress_growth,experimental classical; lowercase noise,0.12,0.65,0.55,0.25,0.9,0.75,0.4,0.7
+87,INTP_B_F,INTP_F_B,Fm(100),water,extreme_growth,indie folk; shoegaze,0.22,0.05,0.25,0.15,0.35,0.75,0.4,0.7
+87,INTP_B_F,INTP_F_B,Fm(100),water,layer4_512D,dream pop,0.3,0.4,0.4,0.35,0.5,,,
+88,INFP_B_M,INFP_M_B,Ru(44),sodium.out1,release,hans zimmer,0.53,0.25,0.7,0.7,0.6,0.75,0.3,0.7
+88,INFP_B_M,INFP_M_B,Ru(44),sodium.out1,stress_growth,experimental ambient; lowercase,0.33,0.3,0.35,0.4,0.5,0.75,0.3,0.7
+88,INFP_B_M,INFP_M_B,Ru(44),sodium.out1,extreme_growth,britpop; indie folk,0.83,0.1,0.65,0.7,0.35,0.75,0.3,0.7
+88,INFP_B_M,INFP_M_B,Ru(44),sodium.out1,layer4_512D,prog metal,0.75,0.65,0.7,0.6,0.55,,,
+89,ENTJ_B_F,ENTJ_F_B,Lv(116),magnetite,release,neo-soul,0.52,0.25,0.45,0.45,0.45,0.75,0.8,0.4
+89,ENTJ_B_F,ENTJ_F_B,Lv(116),magnetite,stress_growth,power electronics; noise,0.72,0.95,0.8,0.85,0.95,0.75,0.8,0.4
+89,ENTJ_B_F,ENTJ_F_B,Lv(116),magnetite,extreme_growth,orchestral; art rock,0.32,0.25,0.5,0.55,0.45,0.75,0.8,0.4
+89,ENTJ_B_F,ENTJ_F_B,Lv(116),magnetite,layer4_512D,art pop,0.55,0.5,0.55,0.45,0.6,,,
+90,INTJ_B_F,INTJ_F_B,Og(118),lactate_dehydrogenase,release,experimental pop,0.8,0.6,0.65,0.75,0.55,0.75,0.8,0.7
+90,INTJ_B_F,INTJ_F_B,Og(118),lactate_dehydrogenase,stress_growth,arca; kelela,1.0,0.95,0.8,0.9,0.8,0.75,0.8,0.7
+90,INTJ_B_F,INTJ_F_B,Og(118),lactate_dehydrogenase,extreme_growth,drone; minimalistic ambient,0.2,0.95,0.2,0.25,0.85,0.75,0.8,0.7
+90,INTJ_B_F,INTJ_F_B,Og(118),lactate_dehydrogenase,layer4_512D,space rock,0.5,0.5,0.6,0.5,0.5,,,
+91,ENFJ_B_M,ENFJ_M_B,Gd(64),carbon.q_bar,release,arena rock,0.83,0.2,0.65,0.8,0.45,0.75,0.7,0.4
+91,ENFJ_B_M,ENFJ_M_B,Gd(64),carbon.q_bar,stress_growth,experimental R&B; free jazz,0.53,0.7,0.6,0.6,0.7,0.75,0.7,0.4
+91,ENFJ_B_M,ENFJ_M_B,Gd(64),carbon.q_bar,extreme_growth,soul; gospel,0.78,0.3,0.65,0.7,0.45,0.75,0.7,0.4
+91,ENFJ_B_M,ENFJ_M_B,Gd(64),carbon.q_bar,layer4_512D,dark ambient,0.1,0.65,0.2,0.55,0.1,,,
+92,ENFP_B_F,ENFP_F_B,Cr(24),ferritin.out1,release,shoegaze,0.17,0.4,0.4,0.35,0.6,0.75,0.3,0.4
+92,ENFP_B_F,ENFP_F_B,Cr(24),ferritin.out1,stress_growth,space rock; psychedelic,0.37,0.45,0.55,0.35,0.6,0.75,0.3,0.4
+92,ENFP_B_F,ENFP_F_B,Cr(24),ferritin.out1,extreme_growth,indie folk; dream pop,0.22,0.1,0.25,0.25,0.3,0.75,0.3,0.4
+92,ENFP_B_F,ENFP_F_B,Cr(24),ferritin.out1,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+93,INFJ_B_M,INFJ_M_B,Zr(40),podzol.out1,release,experimental electronic,0.85,0.6,0.7,0.7,0.65,0.75,0.7,0.7
+93,INFJ_B_M,INFJ_M_B,Zr(40),podzol.out1,stress_growth,free jazz; post-punk experimental,0.9,0.8,0.8,0.75,0.9,0.75,0.7,0.7
+93,INFJ_B_M,INFJ_M_B,Zr(40),podzol.out1,extreme_growth,dark ambient; neo-classical,0.3,0.45,0.25,0.2,0.7,0.75,0.7,0.7
+93,INFJ_B_M,INFJ_M_B,Zr(40),podzol.out1,layer4_512D,indie pop,0.45,0.25,0.4,0.2,0.55,,,
+94,INFP_B_F,INFP_F_B,Pa(91),co2.out1,release,sludge metal,0.65,0.55,0.75,0.3,0.85,0.75,0.3,0.7
+94,INFP_B_F,INFP_F_B,Pa(91),co2.out1,stress_growth,ghibli; neo-classical,0.5,0.15,0.5,0.45,0.3,0.75,0.3,0.7
+94,INFP_B_F,INFP_F_B,Pa(91),co2.out1,extreme_growth,indie folk; singer-songwriter,0.55,0.15,0.45,0.4,0.3,0.75,0.3,0.7
+94,INFP_B_F,INFP_F_B,Pa(91),co2.out1,layer4_512D,power pop,0.65,0.25,0.5,0.15,0.65,,,
+95,ESTP_B_M,ESTP_M_B,Nd(60),male_right_oxytocin.q_bar,release,hip hop,0.7,0.4,0.55,0.75,0.6,0.6,0.4,0.4
+95,ESTP_B_M,ESTP_M_B,Nd(60),male_right_oxytocin.q_bar,stress_growth,grindcore; noise rock,1.0,0.95,0.8,0.75,1.0,0.6,0.4,0.4
+95,ESTP_B_M,ESTP_M_B,Nd(60),male_right_oxytocin.q_bar,extreme_growth,dark ambient; drone,0.15,0.65,0.2,0.3,0.85,0.6,0.4,0.4
+95,ESTP_B_M,ESTP_M_B,Nd(60),male_right_oxytocin.q_bar,layer4_512D,art pop,0.55,0.5,0.55,0.45,0.6,,,
+96,ENFJ_B_F,ENFJ_F_B,K(19),caco3,release,britpop,0.83,0.2,0.65,0.7,0.3,0.75,0.7,0.4
+96,ENFJ_B_F,ENFJ_F_B,K(19),caco3,stress_growth,experimental R&B; avant-pop,0.53,0.65,0.6,0.55,0.65,0.75,0.7,0.4
+96,ENFJ_B_F,ENFJ_F_B,K(19),caco3,extreme_growth,dream pop; indie folk,0.48,0.35,0.5,0.6,0.45,0.75,0.7,0.4
+96,ENFJ_B_F,ENFJ_F_B,K(19),caco3,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+97,ISTP_B_M,ISTP_M_B,P(15),methanogenesis,release,death metal,0.9,0.55,0.9,0.45,0.65,0.6,0.4,0.7
+97,ISTP_B_M,ISTP_M_B,P(15),methanogenesis,stress_growth,noise rock; power electronics,0.7,0.6,0.8,0.5,0.6,0.6,0.4,0.7
+97,ISTP_B_M,ISTP_M_B,P(15),methanogenesis,extreme_growth,psychedelic rock; stoner,0.5,0.45,0.75,0.5,0.45,0.6,0.4,0.7
+97,ISTP_B_M,ISTP_M_B,P(15),methanogenesis,layer4_512D,funk,0.8,0.35,0.6,0.25,0.65,,,
+98,INFJ_B_F,INFJ_F_B,S(16),histosol,release,ambient,0.0,0.05,0.0,0.25,0.1,0.75,0.7,0.7
+98,INFJ_B_F,INFJ_F_B,S(16),histosol,stress_growth,björk; arca,0.5,0.65,0.55,0.6,0.6,0.75,0.7,0.7
+98,INFJ_B_F,INFJ_F_B,S(16),histosol,extreme_growth,ghibli; neo-classical,0.1,0.05,0.2,0.4,0.1,0.75,0.7,0.7
+98,INFJ_B_F,INFJ_F_B,S(16),histosol,layer4_512D,indie pop,0.45,0.25,0.4,0.2,0.55,,,
+99,ESTJ_B_M,ESTJ_M_B,Cl(17),chlorine_ion_pump,release,post-britpop art rock,0.63,0.35,0.65,0.75,0.5,0.6,0.8,0.4
+99,ESTJ_B_M,ESTJ_M_B,Cl(17),chlorine_ion_pump,stress_growth,death metal; grindcore,1.0,0.6,0.85,0.7,0.8,0.6,0.8,0.4
+99,ESTJ_B_M,ESTJ_M_B,Cl(17),chlorine_ion_pump,extreme_growth,classic rock; prog,0.68,0.2,0.6,0.8,0.4,0.6,0.8,0.4
+99,ESTJ_B_M,ESTJ_M_B,Cl(17),chlorine_ion_pump,layer4_512D,britpop,0.65,0.25,0.55,0.2,0.6,,,
+100,ESTP_B_F,ESTP_F_B,Po(84),water.out0,release,conventional classical,0.4,0.4,0.7,0.5,0.4,0.6,0.4,0.4
+100,ESTP_B_F,ESTP_F_B,Po(84),water.out0,stress_growth,noise rock; hardcore,0.7,0.75,0.7,0.5,0.6,0.6,0.4,0.4
+100,ESTP_B_F,ESTP_F_B,Po(84),water.out0,extreme_growth,ethereal wave; dream pop,0.15,0.4,0.35,0.4,0.25,0.6,0.4,0.4
+100,ESTP_B_F,ESTP_F_B,Po(84),water.out0,layer4_512D,avant-pop,0.65,0.6,0.65,0.65,0.65,,,
+101,ISTP_B_F,ISTP_F_B,W(74),lower_mantle,release,no wave,0.7,0.75,0.75,0.55,0.75,0.6,0.4,0.7
+101,ISTP_B_F,ISTP_F_B,W(74),lower_mantle,stress_growth,psychedelic folk; blues experimental,0.45,0.5,0.65,0.55,0.45,0.6,0.4,0.7
+101,ISTP_B_F,ISTP_F_B,W(74),lower_mantle,extreme_growth,psychedelic rock; stoner,0.6,0.55,0.75,0.6,0.55,0.6,0.4,0.7
+101,ISTP_B_F,ISTP_F_B,W(74),lower_mantle,layer4_512D,synth pop,0.7,0.25,0.6,0.15,0.7,,,
+102,ISTJ_B_M,ISTJ_M_B,At(85),nitrogenase,release,death metal instrumental,0.9,0.55,0.9,0.4,0.75,0.6,0.8,0.7
+102,ISTJ_B_M,ISTJ_M_B,At(85),nitrogenase,stress_growth,death metal; grindcore,0.9,0.55,0.9,0.4,0.75,0.6,0.8,0.7
+102,ISTJ_B_M,ISTJ_M_B,At(85),nitrogenase,extreme_growth,funk; soul,0.75,0.2,0.75,0.55,0.35,0.6,0.8,0.7
+102,ISTJ_B_M,ISTJ_M_B,At(85),nitrogenase,layer4_512D,classic rock,0.6,0.35,0.5,0.2,0.6,,,
+103,ESTJ_B_F,ESTJ_F_B,Er(68),actomyosin.out1,release,neo-classical pop,0.2,0.25,0.45,0.55,0.45,0.6,0.8,0.4
+103,ESTJ_B_F,ESTJ_F_B,Er(68),actomyosin.out1,stress_growth,noise rock; hardcore,0.75,0.7,0.7,0.6,0.85,0.6,0.8,0.4
+103,ESTJ_B_F,ESTJ_F_B,Er(68),actomyosin.out1,extreme_growth,country rock; folk,0.5,0.2,0.45,0.6,0.4,0.6,0.8,0.4
+103,ESTJ_B_F,ESTJ_F_B,Er(68),actomyosin.out1,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+104,ESFP_B_M,ESFP_M_B,Mg(12),left_endorphin_electron_neutrino.out0,release,folk,0.45,0.12,0.18,0.43,0.23,0.6,0.3,0.4
+104,ESFP_B_M,ESFP_M_B,Mg(12),left_endorphin_electron_neutrino.out0,stress_growth,drill; experimental hip hop,0.9,0.35,0.5,0.55,0.5,0.6,0.3,0.4
+104,ESFP_B_M,ESFP_M_B,Mg(12),left_endorphin_electron_neutrino.out0,extreme_growth,soul; funk,0.7,0.25,0.45,0.6,0.4,0.6,0.3,0.4
+104,ESFP_B_M,ESFP_M_B,Mg(12),left_endorphin_electron_neutrino.out0,layer4_512D,psychedelic rock,0.55,0.55,0.6,0.5,0.55,,,
+105,ISTJ_B_F,ISTJ_F_B,Ga(31),craton.out0,release,contemporary classical,0.2,0.6,0.6,0.45,0.65,0.6,0.8,0.7
+105,ISTJ_B_F,ISTJ_F_B,Ga(31),craton.out0,stress_growth,noise rock; hardcore,0.7,0.7,0.7,0.5,0.75,0.6,0.8,0.7
+105,ISTJ_B_F,ISTJ_F_B,Ga(31),craton.out0,extreme_growth,dream pop; indie folk,0.25,0.4,0.45,0.45,0.45,0.6,0.8,0.7
+105,ISTJ_B_F,ISTJ_F_B,Ga(31),craton.out0,layer4_512D,folk,0.35,0.18,0.28,0.12,0.38,,,
+106,ISFP_B_M,ISFP_M_B,Fl(114),heath_aerenchyma.out0,release,edm,0.77,0.1,0.75,0.7,0.4,0.6,0.3,0.7
+106,ISFP_B_M,ISFP_M_B,Fl(114),heath_aerenchyma.out0,stress_growth,lo-fi indie; slacker rock,0.37,0.15,0.35,0.4,0.4,0.6,0.3,0.7
+106,ISFP_B_M,ISFP_M_B,Fl(114),heath_aerenchyma.out0,extreme_growth,britpop; oasis-adjacent,0.57,0.1,0.5,0.5,0.35,0.6,0.3,0.7
+106,ISFP_B_M,ISFP_M_B,Fl(114),heath_aerenchyma.out0,layer4_512D,classic rock,0.6,0.35,0.5,0.2,0.6,,,
+107,ESFP_B_F,ESFP_F_B,Cd(48),craton,release,electronic experimental,0.85,0.65,0.7,0.7,0.6,0.6,0.3,0.4
+107,ESFP_B_F,ESFP_F_B,Cd(48),craton,stress_growth,experimental pop; hyperpop,0.8,0.5,0.65,0.7,0.55,0.6,0.3,0.4
+107,ESFP_B_F,ESFP_F_B,Cd(48),craton,extreme_growth,dream pop; indie folk,0.5,0.3,0.45,0.6,0.4,0.6,0.3,0.4
+107,ESFP_B_F,ESFP_F_B,Cd(48),craton,layer4_512D,quiet acoustic,0.25,0.2,0.25,0.1,0.4,,,
+108,ESFJ_B_M,ESFJ_M_B,gold_197_placeholder,monazite_thorium_and,release,technical instrumental metal,1.0,0.8,0.75,0.55,0.75,0.6,0.7,0.4
+108,ESFJ_B_M,ESFJ_M_B,gold_197_placeholder,monazite_thorium_and,stress_growth,soul; R&B,0.8,0.3,0.6,0.55,0.4,0.6,0.7,0.4
+108,ESFJ_B_M,ESFJ_M_B,gold_197_placeholder,monazite_thorium_and,extreme_growth,folk; acoustic,0.55,0.17,0.33,0.38,0.23,0.6,0.7,0.4
+109,ISFP_B_F,ISFP_F_B,Cm(96),mycorradicin.out0,release,chillstep,0.4,0.3,0.4,0.35,0.65,0.6,0.3,0.7
+109,ISFP_B_F,ISFP_F_B,Cm(96),mycorradicin.out0,stress_growth,shoegaze; dream pop experimental,0.15,0.35,0.35,0.25,0.7,0.6,0.3,0.7
+109,ISFP_B_F,ISFP_F_B,Cm(96),mycorradicin.out0,extreme_growth,indie folk; acoustic,0.2,0.05,0.2,0.15,0.4,0.6,0.3,0.7
+109,ISFP_B_F,ISFP_F_B,Cm(96),mycorradicin.out0,layer4_512D,country rock,0.5,0.25,0.4,0.15,0.55,,,
+110,ESFJ_B_F,ESFJ_F_B,Xe(54),manganese_nodule.q_bar,release,ethereal,0.1,0.4,0.2,0.5,0.4,0.6,0.7,0.4
+110,ESFJ_B_F,ESFJ_F_B,Xe(54),manganese_nodule.q_bar,stress_growth,synth pop; dance pop,0.6,0.25,0.5,0.75,0.3,0.6,0.7,0.4
+110,ESFJ_B_F,ESFJ_F_B,Xe(54),manganese_nodule.q_bar,extreme_growth,folk; acoustic,0.25,0.22,0.18,0.43,0.23,0.6,0.7,0.4
+110,ESFJ_B_F,ESFJ_F_B,Xe(54),manganese_nodule.q_bar,layer4_512D,avant-pop,0.65,0.6,0.65,0.65,0.65,,,
+111,ISFJ_B_M,ISFJ_M_B,Tl(81),basin.q_bar,release,emotional hip hop,0.45,0.45,0.45,0.55,0.4,0.6,0.7,0.7
+111,ISFJ_B_M,ISFJ_M_B,Tl(81),basin.q_bar,stress_growth,R&B; jazz fusion,0.4,0.6,0.35,0.55,0.4,0.6,0.7,0.7
+111,ISFJ_B_M,ISFJ_M_B,Tl(81),basin.q_bar,extreme_growth,gospel; classic R&B,0.45,0.3,0.45,0.7,0.2,0.6,0.7,0.7
+111,ISFJ_B_M,ISFJ_M_B,Tl(81),basin.q_bar,layer4_512D,drone,0.0,0.85,0.15,0.9,0.1,,,
+112,ISFJ_B_F,ISFJ_F_B,Au(79),large_igneous_province,release,BoC-adjacent electronica,0.4,0.55,0.4,0.5,0.4,0.6,0.7,0.7
+112,ISFJ_B_F,ISFJ_F_B,Au(79),large_igneous_province,stress_growth,shoegaze; ethereal wave,0.2,0.5,0.35,0.5,0.4,0.6,0.7,0.7
+112,ISFJ_B_F,ISFJ_F_B,Au(79),large_igneous_province,extreme_growth,art pop; neo-classical,0.45,0.5,0.45,0.6,0.4,0.6,0.7,0.7
+112,ISFJ_B_F,ISFJ_F_B,Au(79),large_igneous_province,layer4_512D,neo-classical,0.2,0.3,0.4,0.2,0.4,,,
+113,ISTP_AB_M,ISTP_M_AB,Cn(112),monazite,release,fever ray,0.65,0.75,0.65,0.5,0.8,0.75,0.4,0.7
+113,ISTP_AB_M,ISTP_M_AB,Cn(112),monazite,stress_growth,noise; free improvisation,0.85,1.0,0.85,0.95,1.0,0.75,0.4,0.7
+113,ISTP_AB_M,ISTP_M_AB,Cn(112),monazite,extreme_growth,psychedelic rock; stoner,0.6,0.55,0.6,0.6,0.65,0.75,0.4,0.7
+113,ISTP_AB_M,ISTP_M_AB,Cn(112),monazite,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+114,INFJ_AB_F,INFJ_F_AB,Nh(113),andosol.out0,release,ghibli,0.4,0.2,0.25,0.45,0.4,0.9,0.7,0.7
+114,INFJ_AB_F,INFJ_F_AB,Nh(113),andosol.out0,stress_growth,arca; deconstructed club,0.95,0.95,0.65,0.75,1.0,0.9,0.7,0.7
+114,INFJ_AB_F,INFJ_F_AB,Nh(113),andosol.out0,extreme_growth,indie folk; singer-songwriter,0.45,0.2,0.2,0.4,0.4,0.9,0.7,0.7
+114,INFJ_AB_F,INFJ_F_AB,Nh(113),andosol.out0,layer4_512D,experimental,0.35,0.6,0.5,0.65,0.45,,,
+115,ESTP_AB_F,ESTP_F_AB,Sm(62),right_sole_dopamine.q_bar,release,ambient jazz,0.05,0.45,0.2,0.4,0.45,0.75,0.4,0.4
+115,ESTP_AB_F,ESTP_F_AB,Sm(62),right_sole_dopamine.q_bar,stress_growth,experimental pop; hyperpop,0.4,0.65,0.45,0.5,0.6,0.75,0.4,0.4
+115,ESTP_AB_F,ESTP_F_AB,Sm(62),right_sole_dopamine.q_bar,extreme_growth,neo-classical; minimalistic ambient,0.0,0.3,0.25,0.3,0.35,0.75,0.4,0.4
+115,ESTP_AB_F,ESTP_F_AB,Sm(62),right_sole_dopamine.q_bar,layer4_512D,dream pop,0.3,0.4,0.4,0.35,0.5,,,
+116,ESTJ_AB_M,ESTJ_M_AB,Ge(32),methionine,release,k-pop structured,0.9,0.1,0.75,1.0,0.1,0.75,0.8,0.4
+116,ESTJ_AB_M,ESTJ_M_AB,Ge(32),methionine,stress_growth,jazz experimental; free jazz,0.75,0.65,0.7,0.85,0.55,0.75,0.8,0.4
+116,ESTJ_AB_M,ESTJ_M_AB,Ge(32),methionine,extreme_growth,classic rock; hard rock,0.7,0.15,0.55,0.85,0.2,0.75,0.8,0.4
+116,ESTJ_AB_M,ESTJ_M_AB,Ge(32),methionine,layer4_512D,experimental,0.35,0.6,0.5,0.65,0.45,,,
+117,ISTP_AB_F,ISTP_F_AB,U(92),cambisol,release,thrash metal,0.95,0.35,0.55,0.6,0.75,0.75,0.4,0.7
+117,ISTP_AB_F,ISTP_F_AB,U(92),cambisol,stress_growth,noise folk; math rock,0.45,0.45,0.35,0.4,0.8,0.75,0.4,0.7
+117,ISTP_AB_F,ISTP_F_AB,U(92),cambisol,extreme_growth,quiet acoustic; ambient,0.3,0.0,0.1,0.4,0.4,0.75,0.4,0.7
+117,ISTP_AB_F,ISTP_F_AB,U(92),cambisol,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+118,ISTJ_AB_M,ISTJ_M_AB,Mt(109),manganese_oxygen_complex.out1,release,ethereal indie,0.3,0.2,0.4,0.4,0.35,0.75,0.8,0.7
+118,ISTJ_AB_M,ISTJ_M_AB,Mt(109),manganese_oxygen_complex.out1,stress_growth,free jazz; jazz experimental,0.7,0.8,0.8,0.55,0.85,0.75,0.8,0.7
+118,ISTJ_AB_M,ISTJ_M_AB,Mt(109),manganese_oxygen_complex.out1,extreme_growth,art pop; avant-pop,0.55,0.35,0.6,0.5,0.5,0.75,0.8,0.7
+118,ISTJ_AB_M,ISTJ_M_AB,Mt(109),manganese_oxygen_complex.out1,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+119,ESTJ_AB_F,ESTJ_F_AB,F(9),clay_gouge,release,industrial,1.0,0.7,0.85,0.9,0.8,0.75,0.8,0.4
+119,ESTJ_AB_F,ESTJ_F_AB,F(9),clay_gouge,stress_growth,experimental rock; noise,0.78,0.6,0.7,0.7,0.8,0.75,0.8,0.4
+119,ESTJ_AB_F,ESTJ_F_AB,F(9),clay_gouge,extreme_growth,country rock; new wave,0.68,0.15,0.5,0.7,0.4,0.75,0.8,0.4
+119,ESTJ_AB_F,ESTJ_F_AB,F(9),clay_gouge,layer4_512D,britpop,0.65,0.25,0.55,0.2,0.6,,,
+120,ESFP_AB_M,ESFP_M_AB,V(23),ferritin,release,soul,0.63,0.15,0.65,0.6,0.35,0.75,0.3,0.4
+120,ESFP_AB_M,ESFP_M_AB,V(23),ferritin,stress_growth,experimental R&B; hyperpop,0.38,0.55,0.6,0.5,0.6,0.75,0.3,0.4
+120,ESFP_AB_M,ESFP_M_AB,V(23),ferritin,extreme_growth,funk; soul,0.83,0.15,0.7,0.7,0.35,0.75,0.3,0.4
+120,ESFP_AB_M,ESFP_M_AB,V(23),ferritin,layer4_512D,psychedelic rock,0.55,0.55,0.6,0.5,0.55,,,
+121,ISTJ_AB_F,ISTJ_F_AB,Mo(42),nitrogenase.out_3,release,alternative rock,0.75,0.4,0.65,0.65,0.4,0.75,0.8,0.7
+121,ISTJ_AB_F,ISTJ_F_AB,Mo(42),nitrogenase.out_3,stress_growth,experimental rock; no wave,0.8,0.65,0.75,0.65,0.65,0.75,0.8,0.7
+121,ISTJ_AB_F,ISTJ_F_AB,Mo(42),nitrogenase.out_3,extreme_growth,avant-pop; art pop,0.85,0.7,0.8,0.75,0.6,0.75,0.8,0.7
+121,ISTJ_AB_F,ISTJ_F_AB,Mo(42),nitrogenase.out_3,layer4_512D,experimental,0.35,0.6,0.5,0.65,0.45,,,
+122,ISFP_AB_M,ISFP_M_AB,I(53),manganese_nodule.q,release,minimalistic ambient,0.0,0.05,0.0,0.05,0.15,0.75,0.3,0.7
+122,ISFP_AB_M,ISFP_M_AB,I(53),manganese_nodule.q,stress_growth,ambient jazz; nu-jazz,0.05,0.25,0.2,0.4,0.4,0.75,0.3,0.7
+122,ISFP_AB_M,ISFP_M_AB,I(53),manganese_nodule.q,extreme_growth,britpop; indie rock,0.45,0.1,0.4,0.5,0.25,0.75,0.3,0.7
+122,ISFP_AB_M,ISFP_M_AB,I(53),manganese_nodule.q,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+123,ESFP_AB_F,ESFP_F_AB,Sb(51),peonidine,release,chillwave,0.67,0.35,0.4,0.7,0.35,0.75,0.3,0.4
+123,ESFP_AB_F,ESFP_F_AB,Sb(51),peonidine,stress_growth,hyperpop; deconstructed club,1.0,0.8,0.75,1.0,0.6,0.75,0.3,0.4
+123,ESFP_AB_F,ESFP_F_AB,Sb(51),peonidine,extreme_growth,synth pop; pop,0.82,0.2,0.55,0.9,0.25,0.75,0.3,0.4
+123,ESFP_AB_F,ESFP_F_AB,Sb(51),peonidine,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+124,ESFJ_AB_M,ESFJ_M_AB,oxygen_16_placeholder,sulforaphane.out0,release,electropop,0.82,0.25,0.5,0.9,0.2,0.75,0.7,0.4
+124,ESFJ_AB_M,ESFJ_M_AB,oxygen_16_placeholder,sulforaphane.out0,stress_growth,jazz; neo-soul,0.67,0.55,0.5,0.75,0.45,0.75,0.7,0.4
+124,ESFJ_AB_M,ESFJ_M_AB,oxygen_16_placeholder,sulforaphane.out0,extreme_growth,classic rock; folk,0.72,0.3,0.45,0.8,0.3,0.75,0.7,0.4
+125,ISFP_AB_F,ISFP_F_AB,Np(93),cambisol.out1,release,post rock climax,0.62,0.35,0.9,0.55,0.75,0.75,0.3,0.7
+125,ISFP_AB_F,ISFP_F_AB,Np(93),cambisol.out1,stress_growth,city pop; indietronica,0.47,0.05,0.35,0.45,0.35,0.75,0.3,0.7
+125,ISFP_AB_F,ISFP_F_AB,Np(93),cambisol.out1,extreme_growth,indie folk; acoustic,0.27,0.05,0.25,0.3,0.3,0.75,0.3,0.7
+125,ISFP_AB_F,ISFP_F_AB,Np(93),cambisol.out1,layer4_512D,ambient,0.1,0.2,0.15,0.15,0.3,,,
+126,ESFJ_AB_F,ESFJ_F_AB,Pt(78),plume,release,krautrock,0.88,0.6,0.65,0.6,0.3,0.75,0.7,0.4
+126,ESFJ_AB_F,ESFJ_F_AB,Pt(78),plume,stress_growth,art pop; orchestral pop,0.73,0.5,0.65,0.7,0.4,0.75,0.7,0.4
+126,ESFJ_AB_F,ESFJ_F_AB,Pt(78),plume,extreme_growth,folk; acoustic pop,0.53,0.17,0.38,0.48,0.08,0.75,0.7,0.4
+126,ESFJ_AB_F,ESFJ_F_AB,Pt(78),plume,layer4_512D,soul,0.6,0.35,0.55,0.25,0.55,,,
+127,ISFJ_AB_M,ISFJ_M_AB,Rh(45),laterite.q,release,experimental classical,0.45,0.65,0.65,0.6,0.8,0.75,0.7,0.7
+127,ISFJ_AB_M,ISFJ_M_AB,Rh(45),laterite.q,stress_growth,jazz fusion; neo-soul,0.95,0.5,0.75,0.75,0.7,0.75,0.7,0.7
+127,ISFJ_AB_M,ISFJ_M_AB,Rh(45),laterite.q,extreme_growth,art pop; orchestral pop,0.75,0.35,0.6,0.7,0.55,0.75,0.7,0.7
+127,ISFJ_AB_M,ISFJ_M_AB,Rh(45),laterite.q,layer4_512D,indie folk,0.35,0.2,0.3,0.15,0.4,,,
+128,ISFJ_AB_F,ISFJ_F_AB,Kr(36),carbon,release,post-metal,0.7,0.65,0.9,0.5,0.6,0.75,0.7,0.7
+128,ISFJ_AB_F,ISFJ_F_AB,Kr(36),carbon,stress_growth,indietronica; city pop,0.7,0.35,0.6,0.7,0.25,0.75,0.7,0.7
+128,ISFJ_AB_F,ISFJ_F_AB,Kr(36),carbon,extreme_growth,avant-pop; art pop,0.85,0.7,0.8,0.8,0.5,0.75,0.7,0.7
+128,ISFJ_AB_F,ISFJ_F_AB,Kr(36),carbon,layer4_512D,dream pop,0.3,0.4,0.4,0.35,0.5,,,

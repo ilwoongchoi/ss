@@ -1,0 +1,13 @@
+step,bridge_name,activation_type,components_before,components_after,reduction,scope,notes
+1,sheet_id:2__sheet_id:4,local_seam,11,10,1,internal,activate local seam
+2,sheet_id:11__sheet_id:2,deprojection,10,9,1,internal,deprojection revealed seam
+3,sheet_id:14__sheet_id:2,deprojection,9,8,1,internal,deprojection revealed seam
+4a,sheet_id:13__sheet_id:3,relay_edge,8,7,1,internal,relay leg 1
+4b,sheet_id:3__sheet_id:2,relay_edge,7,6,1,internal,relay leg 2
+5,sheet_id:10__sheet_id:2,deprojection,6,5,1,internal,deprojection revealed seam
+6,sheet_id:12__sheet_id:2,deprojection,5,4,1,internal,deprojection revealed seam
+7,sheet_id:10__sheet_id:1,deprojection,4,3,1,internal,A-D bridge activation
+8,flash_bridge__sheet_id:3,flash_bridge,3,2,1,internal,A-B flash bridge activation
+9a,ADD mediator:synthetic_alpha,node_insertion,2,3,-1,extended,external mediator enters as isolated node
+9b,gateway_peak__mediator:synthetic_alpha,external_mediator_seam,3,2,1,extended,gateway binds mediator
+10,mediator:synthetic_alpha__sheet_id:4,external_mediator_relay,2,1,1,extended,mediator relays into main body

@@ -1,0 +1,25 @@
+{
+  "_version": "v4.0",
+  "_date": "2026-09-09",
+  "_method": "Transfer-function fit. CA1 and CMB both have 1st-order Butterworth × Gaussian form.",
+  "_planck_ref": "arXiv:1907.12875 (Planck 2018 TT power spectrum)",
+  "cmb_fit": {
+    "A_uK2": 5517.961287169832,
+    "l_1_acoustic": 250,
+    "l_D_silk": 1800,
+    "residual_chi2_n": 0.37741417574926267
+  },
+  "ca1_fit": {
+    "A_uK2": 5517.961287169832,
+    "l_1_ca1": 220,
+    "l_ahp": 1490,
+    "residual_chi2_n": 0.44548025348312015
+  },
+  "lie_group": "GL(1,R) × SO(2)",
+  "comparison": {
+    "v2_random_ode": 0.0077,
+    "v3_silk_bmode_added": 0.008,
+    "v4_planck_fit": 0.37741417574926267
+  },
+  "planck_data_pts": 19
+}

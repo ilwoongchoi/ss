@@ -1,0 +1,43 @@
+{
+  "_version": "v1.0",
+  "_date": "2026-09-09",
+  "_method": "Continuous ODE generalization of Boolean gates + RK4 + residual",
+  "tests": {
+    "observer_leftd2_Sgr_A": {
+      "circuit_ode": "dx/dt = k_in * AND(u) * (1-x) - k_out * x + k_self * x(1-x)",
+      "cosmic_ode": "dx/dt = k_acc * x² * (1-x)^k_feedback - k_jet * x",
+      "residual_step": 0.0765946809005502,
+      "residual_pulse": 0.0056279575795837545,
+      "residual_ramp": 0.0910534075540098,
+      "grade": "STRONG"
+    },
+    "quark_orogen_magma_NS": {
+      "circuit_ode": "dx/dt = k_in * (1 - |u-x|) - k_decay * x",
+      "cosmic_ode": "dx/dt = k_in * x^α * (1-x)^β - k_grav * x²",
+      "residual_step": 0.11740342965534564,
+      "residual_pulse": 0.04063875907905639,
+      "grade": "WEAK"
+    },
+    "observer_leftd2_MS_Star": {
+      "circuit_ode": "dx/dt = k_in * AND(u) * (1-x) - k_out * x + k_self * x(1-x)",
+      "cosmic_ode": "dx/dt = k_M * x^3.5 * (1-x)^k - k_loss * x",
+      "residual_constant": 0.07608910051217967,
+      "residual_step": 0.08256404768066465,
+      "grade": "WEAK"
+    },
+    "memory_entropy_CMB": {
+      "circuit_ode": "dx/dt = k_in * AND(u0,u1,u2) * (1-x) - k_decay * x * (1-x²)",
+      "cosmic_ode": "dx/dt = k_source * (1-x) * cos(ωt+φ) - k_damping * x",
+      "residual_constant": 0.002784198146539724,
+      "residual_pulse": 0.002784198146539724,
+      "grade": "STRONG"
+    }
+  },
+  "summary": {
+    "n_tests": 4,
+    "n_strong": 2,
+    "n_weak": 2,
+    "n_heuristic": 0,
+    "verdict": "PASS"
+  }
+}

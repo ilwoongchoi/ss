@@ -1,0 +1,150 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #0a0a0a;
+  overflow: hidden;
+  height: 100vh;
+  user-select: none;
+}
+
+#app { height: 100vh; display: flex; flex-direction: column; }
+
+.stage { display: none; flex: 1; flex-direction: column; align-items: center; justify-content: center; }
+.stage.active { display: flex; }
+
+/* ROUND DOTS — no text, just dots */
+#round-dots {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.round-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #222;
+  transition: background 0.3s;
+}
+
+.round-dot.done { background: #444; }
+.round-dot.current { background: #666; }
+
+/* TILE GRID */
+#tile-grid, #prog-tile-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 720px;
+  width: 90vw;
+}
+
+.tile {
+  aspect-ratio: 1;
+  background: #111;
+  border: 1px solid #1a1a1a;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 8px;
+  position: relative;
+}
+
+.tile:hover {
+  background: #161616;
+  border-color: #2a2a2a;
+}
+
+.tile.playing {
+  background: #181818;
+  border-color: #333;
+}
+
+.tile.selected {
+  background: #1c1c1c;
+  border-color: #555;
+  box-shadow: 0 0 0 1px #555;
+}
+
+.tile.selected.playing {
+  background: #202020;
+  border-color: #666;
+}
+
+/* Play/stop toggle button inside tile */
+.tile-play-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.tile-play-btn:hover {
+  background: #222;
+  border-color: #3a3a3a;
+}
+
+.tile-play-btn.playing {
+  background: #2a2a2a;
+  border-color: #444;
+}
+
+/* Play icon (triangle) */
+.tile-play-btn .play-icon {
+  width: 0;
+  height: 0;
+  border-left: 7px solid #555;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  margin-left: 2px;
+}
+
+.tile-play-btn:hover .play-icon {
+  border-left-color: #777;
+}
+
+.tile-play-btn.playing .play-icon {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  width: 8px;
+  height: 8px;
+  background: #777;
+  margin-left: 0;
+  border-radius: 1px;
+}
+
+/* Selected checkmark area — subtle fill on tile body when selected */
+.tile.selected::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #555;
+}
+
+/* Loading state — pulsing border while instruments load */
+.tile.loading {
+  animation: pulse-load 1.2s ease-in-out infinite;
+}
+
+@keyframes pulse-load {
+  0%, 100% { border-color: #1a1a1a; }
+  50% { border-color: #444; }
+}

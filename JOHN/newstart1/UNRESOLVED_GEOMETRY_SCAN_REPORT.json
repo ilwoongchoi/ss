@@ -1,0 +1,161 @@
+{
+  "unresolved_count": 26,
+  "unresolved": [
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "sheet_id:3",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "flash_bridge",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "mediator:synthetic_alpha",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "flash:center_in",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "sheet_id:12",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "sheet_id:4",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "sheet_id:1",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "gateway_peak",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "sheet_id:12",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "sheet_id:2",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "flash_bridge",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "sheet_id:11",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "flash:center_in",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "sheet_id:4",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "sheet_id:13",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "sheet_id:10",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "mediator:synthetic_alpha",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "sheet_id:2",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "sheet_id:1",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "sheet_id:14",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "sheet_id:3",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "core_center",
+      "target": "sheet_id:10",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "gateway_peak",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "sheet_id:11",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "sheet_id:14",
+      "status": "STRUCTURAL_LINK"
+    },
+    {
+      "type": "calculated_missing_vector",
+      "source": "right_branch",
+      "target": "sheet_id:13",
+      "status": "STRUCTURAL_LINK"
+    }
+  ]
+}

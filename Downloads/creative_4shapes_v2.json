@@ -1,0 +1,5666 @@
+[
+  {
+    "num": 1,
+    "element": "H",
+    "profile": "ENFP_M_O",
+    "mbti": "ENFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.8,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.36,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.509,
+        "subshape": "high_gammas",
+        "music_creative": "SPACE ROCK",
+        "profession_tech": "motion graphic designer",
+        "sport_body": "shortboard aerial surfing"
+      },
+      "CONTRAST": {
+        "score": 0.481,
+        "subshape": "high_ds",
+        "music_creative": "minimal / deep techno",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion"
+      },
+      "EMERGENCE": {
+        "score": 0.26,
+        "subshape": "mid",
+        "music_creative": "ecological sketch from imagination",
+        "profession_tech": "biomaterials engineer",
+        "sport_body": "forest trail running"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      }
+    }
+  },
+  {
+    "num": 2,
+    "element": "He",
+    "profile": "ISFP_F_A",
+    "mbti": "ISFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.343,
+        "subshape": "mid",
+        "music_creative": "Play electric guitar, avant pop",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      },
+      "EMERGENCE": {
+        "score": 0.341,
+        "subshape": "high_hg",
+        "music_creative": "Lofi",
+        "profession_tech": "quantum computing researcher",
+        "sport_body": "4d printing"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "subshape": "mid",
+        "music_creative": "clay modelling with hand",
+        "profession_tech": "GIS professional",
+        "sport_body": "urban vegetable community gardening"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "subshape": "mid",
+        "music_creative": "drum machine sampler",
+        "profession_tech": "cryptologist",
+        "sport_body": "inline skating aggressive"
+      }
+    }
+  },
+  {
+    "num": 3,
+    "element": "Li",
+    "profile": "ESFJ_M_O",
+    "mbti": "ESFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.3,
+      "d": 1.0,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.12,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.557,
+        "subshape": "high_dr",
+        "music_creative": "SMOKE JUMPER",
+        "profession_tech": "graffiti",
+        "sport_body": "triathlon"
+      },
+      "FLOW": {
+        "score": 0.372,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "STRUCTURE": {
+        "score": 0.317,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      },
+      "EMERGENCE": {
+        "score": 0.286,
+        "subshape": "mid",
+        "music_creative": "ceramic art",
+        "profession_tech": "Computer art",
+        "sport_body": "flyboarding hover"
+      }
+    }
+  },
+  {
+    "num": 4,
+    "element": "Be",
+    "profile": "INTP_M_O",
+    "mbti": "INTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.15,
+      "d": 0.5,
+      "p": 0.5,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.3
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.42,
+        "subshape": "high_dr",
+        "music_creative": "Judo Clean and Jerk",
+        "profession_tech": "vfx motion graphic artist",
+        "sport_body": "obstacle course racing"
+      },
+      "STRUCTURE": {
+        "score": 0.355,
+        "subshape": "high_nup",
+        "music_creative": "nonogram puzzle",
+        "profession_tech": "data warehouse ETL pipeline engineer",
+        "sport_body": "tent and trees puzzle"
+      },
+      "FLOW": {
+        "score": 0.335,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "EMERGENCE": {
+        "score": 0.28,
+        "subshape": "high_nugamma",
+        "music_creative": "Experimental ambient composition",
+        "profession_tech": "minimalistic architecture",
+        "sport_body": "indoor climbing"
+      }
+    }
+  },
+  {
+    "num": 5,
+    "element": "B",
+    "profile": "ENTP_F_A",
+    "mbti": "ENTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.27,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.304,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "CONTRAST": {
+        "score": 0.292,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "subshape": "high_hg",
+        "music_creative": "improvisational pianist",
+        "profession_tech": "battleship shooting games",
+        "sport_body": "CLAY PIGEON SHOOTING"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      }
+    }
+  },
+  {
+    "num": 6,
+    "element": "C",
+    "profile": "ESTP_M_O",
+    "mbti": "ESTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.24,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.36,
+      "gamma": 0.45,
+      "g": 0.4,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.368,
+        "subshape": "high_ds",
+        "music_creative": "noise ambient / yin yoga",
+        "profession_tech": "taichi",
+        "sport_body": "Swimming"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "subshape": "high_dg",
+        "music_creative": "Free jazz composition (through-composed)",
+        "profession_tech": "independent sw architect (hobby)",
+        "sport_body": "biathlon"
+      },
+      "EMERGENCE": {
+        "score": 0.33,
+        "subshape": "mid",
+        "music_creative": "drone aerial photography",
+        "profession_tech": "vr visual programming",
+        "sport_body": "ice dance"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "subshape": "high_gammas",
+        "music_creative": "longboard surfing",
+        "profession_tech": "schumann resonance dll designer",
+        "sport_body": "WINDSURFING"
+      }
+    }
+  },
+  {
+    "num": 7,
+    "element": "N",
+    "profile": "INTP_M_AB",
+    "mbti": "INTP",
+    "gender": "M",
+    "blood": "AB",
+    "vector": {
+      "r": 0.2,
+      "h": 0.075,
+      "d": 0.25,
+      "p": 0.25,
+      "s": 0.15,
+      "gamma": 0.225,
+      "g": 0.1,
+      "nu": 0.15
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.21,
+        "subshape": "mid",
+        "music_creative": "shoegaze / longboard downhill",
+        "profession_tech": "SEISMOLOGIST",
+        "sport_body": "SURFING FREERIDE"
+      },
+      "STRUCTURE": {
+        "score": 0.177,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      },
+      "FLOW": {
+        "score": 0.167,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "EMERGENCE": {
+        "score": 0.14,
+        "subshape": "mid",
+        "music_creative": "planatary stargazing",
+        "profession_tech": "Landscape painting after work from memory or sunset",
+        "sport_body": "Freeride snowboard"
+      }
+    }
+  },
+  {
+    "num": 8,
+    "element": "O",
+    "profile": "ISTP_M_O",
+    "mbti": "ISTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 0.3,
+      "p": 0.3,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.5
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.365,
+        "subshape": "high_nugamma",
+        "music_creative": "Electronica composition",
+        "profession_tech": "fractal art",
+        "sport_body": "polar trekking"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      },
+      "CONTRAST": {
+        "score": 0.32,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      },
+      "STRUCTURE": {
+        "score": 0.305,
+        "subshape": "high_nup",
+        "music_creative": "fractal art",
+        "profession_tech": "white hacker",
+        "sport_body": "polar trekking"
+      }
+    }
+  },
+  {
+    "num": 9,
+    "element": "F",
+    "profile": "ESTJ_F_AB",
+    "mbti": "ESTJ",
+    "gender": "F",
+    "blood": "AB",
+    "vector": {
+      "r": 0.15,
+      "h": 0.225,
+      "d": 0.12,
+      "p": 0.075,
+      "s": 0.175,
+      "gamma": 0.125,
+      "g": 0.5,
+      "nu": 0.15
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.245,
+        "subshape": "mid",
+        "music_creative": "clay modelling with hand",
+        "profession_tech": "GIS professional",
+        "sport_body": "urban vegetable community gardening"
+      },
+      "EMERGENCE": {
+        "score": 0.233,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "FLOW": {
+        "score": 0.166,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "CONTRAST": {
+        "score": 0.136,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      }
+    }
+  },
+  {
+    "num": 10,
+    "element": "Ne",
+    "profile": "ENFP_F_A",
+    "mbti": "ENFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.45,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.315,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.336,
+        "subshape": "high_rh",
+        "music_creative": "NEW WAVE / site specific atmospheric dance",
+        "profession_tech": "VR AR ENVIRONMENT DESIGN",
+        "sport_body": "KORFBALL ATTACK (indoor wavepool surf)"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "subshape": "high_sr",
+        "music_creative": "Judo Clean and Jerk",
+        "profession_tech": "vfx motion graphic artist",
+        "sport_body": "EXPERIMENTAL POP COMP"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "subshape": "high_hg",
+        "music_creative": "Lofi",
+        "profession_tech": "quantum computing researcher",
+        "sport_body": "4d printing"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "subshape": "mid",
+        "music_creative": "clay modelling with hand",
+        "profession_tech": "GIS professional",
+        "sport_body": "urban vegetable community gardening"
+      }
+    }
+  },
+  {
+    "num": 11,
+    "element": "Na",
+    "profile": "INFJ_F_A",
+    "mbti": "INFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.15,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.375,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.338,
+        "subshape": "high_hg",
+        "music_creative": "Lofi",
+        "profession_tech": "quantum computing researcher",
+        "sport_body": "4d printing"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "subshape": "mid",
+        "music_creative": "indie folk",
+        "profession_tech": "cartographic illustration",
+        "sport_body": "NORDIC SKIING"
+      },
+      "STRUCTURE": {
+        "score": 0.232,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "CONTRAST": {
+        "score": 0.193,
+        "subshape": "mid",
+        "music_creative": "drum machine sampler",
+        "profession_tech": "cryptologist",
+        "sport_body": "inline skating aggressive"
+      }
+    }
+  },
+  {
+    "num": 12,
+    "element": "Mg",
+    "profile": "ESFP_F_O",
+    "mbti": "ESFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.18,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.7,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.3
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.378,
+        "subshape": "high_nugamma",
+        "music_creative": "Electronica composition",
+        "profession_tech": "fractal art",
+        "sport_body": "polar trekking"
+      },
+      "FLOW": {
+        "score": 0.355,
+        "subshape": "mid",
+        "music_creative": "gentle swimming",
+        "profession_tech": "childrens book illustrator",
+        "sport_body": "slack lining"
+      },
+      "CONTRAST": {
+        "score": 0.353,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      }
+    }
+  },
+  {
+    "num": 13,
+    "element": "Al",
+    "profile": "ESFP_M_O",
+    "mbti": "ESFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.24,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.6,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.441,
+        "subshape": "high_ds",
+        "music_creative": "noise rock",
+        "profession_tech": "tactical training",
+        "sport_body": "rugby"
+      },
+      "FLOW": {
+        "score": 0.371,
+        "subshape": "high_gammas",
+        "music_creative": "night time longboard",
+        "profession_tech": "Installation artist",
+        "sport_body": "Darkroom photography"
+      },
+      "EMERGENCE": {
+        "score": 0.312,
+        "subshape": "mid",
+        "music_creative": "ceramic art",
+        "profession_tech": "Computer art",
+        "sport_body": "flyboarding hover"
+      },
+      "STRUCTURE": {
+        "score": 0.27,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      }
+    }
+  },
+  {
+    "num": 14,
+    "element": "Si",
+    "profile": "ISTP_M_O",
+    "mbti": "ISTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 0.3,
+      "p": 0.3,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.5
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.365,
+        "subshape": "high_nugamma",
+        "music_creative": "Electronica composition",
+        "profession_tech": "fractal art",
+        "sport_body": "polar trekking"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "CONTRAST": {
+        "score": 0.32,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      },
+      "STRUCTURE": {
+        "score": 0.305,
+        "subshape": "high_nup",
+        "music_creative": "topology problem set",
+        "profession_tech": "number theory hobby",
+        "sport_body": "chess puzzle composition"
+      }
+    }
+  },
+  {
+    "num": 15,
+    "element": "P",
+    "profile": "ISTP_F_O",
+    "mbti": "ISTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.12,
+      "p": 0.3,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.6
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.455,
+        "subshape": "high_hg",
+        "music_creative": "improvisational pianist",
+        "profession_tech": "battleship shooting games",
+        "sport_body": "CLAY PIGEON SHOOTING"
+      },
+      "STRUCTURE": {
+        "score": 0.403,
+        "subshape": "high_nup",
+        "music_creative": "fractal art",
+        "profession_tech": "white hacker",
+        "sport_body": "polar trekking"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "subshape": "mid",
+        "music_creative": "roller derby avant pop (city pop synth)",
+        "profession_tech": "urban planning",
+        "sport_body": "trail running"
+      },
+      "CONTRAST": {
+        "score": 0.252,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      }
+    }
+  },
+  {
+    "num": 16,
+    "element": "S",
+    "profile": "INFJ_F_A",
+    "mbti": "INFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.15,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.375,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.338,
+        "subshape": "high_hg",
+        "music_creative": "improvisational pianist",
+        "profession_tech": "battleship shooting games",
+        "sport_body": "CLAY PIGEON SHOOTING"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "subshape": "mid",
+        "music_creative": "indie folk",
+        "profession_tech": "cartographic illustration",
+        "sport_body": "NORDIC SKIING"
+      },
+      "STRUCTURE": {
+        "score": 0.232,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "CONTRAST": {
+        "score": 0.193,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      }
+    }
+  },
+  {
+    "num": 17,
+    "element": "Cl",
+    "profile": "ESTJ_F_O",
+    "mbti": "ESTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.24,
+      "p": 0.15,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.491,
+        "subshape": "mid",
+        "music_creative": "clay modelling with hand",
+        "profession_tech": "GIS professional",
+        "sport_body": "urban vegetable community gardening"
+      },
+      "EMERGENCE": {
+        "score": 0.465,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "subshape": "mid",
+        "music_creative": "indie folk",
+        "profession_tech": "cartographic illustration",
+        "sport_body": "NORDIC SKIING"
+      },
+      "CONTRAST": {
+        "score": 0.271,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      }
+    }
+  },
+  {
+    "num": 18,
+    "element": "Ar",
+    "profile": "ENFJ_M_O",
+    "mbti": "ENFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.64,
+      "h": 0.4,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.36,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.459,
+        "subshape": "high_rh",
+        "music_creative": "capoeira",
+        "profession_tech": "festival director",
+        "sport_body": "acrobatic yoga"
+      },
+      "CONTRAST": {
+        "score": 0.43,
+        "subshape": "high_dr",
+        "music_creative": "EXTREME SPORTS EVENT CREATOR",
+        "profession_tech": "airsoft",
+        "sport_body": "BMX racing individual pursuit"
+      },
+      "EMERGENCE": {
+        "score": 0.305,
+        "subshape": "mid",
+        "music_creative": "planatary stargazing",
+        "profession_tech": "Landscape painting after work from memory or sunset",
+        "sport_body": "Freeride snowboard"
+      },
+      "STRUCTURE": {
+        "score": 0.27,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      }
+    }
+  },
+  {
+    "num": 19,
+    "element": "K",
+    "profile": "ENFJ_F_A",
+    "mbti": "ENFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.36,
+      "h": 0.54,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.15,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.338,
+        "subshape": "high_rh",
+        "music_creative": "Contemporary dance music / spontaneous edm djing",
+        "profession_tech": "Real Time databoard visualisation",
+        "sport_body": "icehockey wing"
+      },
+      "EMERGENCE": {
+        "score": 0.315,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary dance choreography",
+        "profession_tech": "IOT Engineer",
+        "sport_body": "bouldering"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      },
+      "CONTRAST": {
+        "score": 0.231,
+        "subshape": "mid",
+        "music_creative": "noise rock",
+        "profession_tech": "tactical training",
+        "sport_body": "rugby"
+      }
+    }
+  },
+  {
+    "num": 20,
+    "element": "Ca",
+    "profile": "ENTJ_M_O",
+    "mbti": "ENTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 1.0,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.12,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.557,
+        "subshape": "high_dr",
+        "music_creative": "mittwork shadow boxing",
+        "profession_tech": "Wood carving",
+        "sport_body": "marksmanship"
+      },
+      "FLOW": {
+        "score": 0.383,
+        "subshape": "mid",
+        "music_creative": "roller derby avant pop (city pop synth)",
+        "profession_tech": "urban planning",
+        "sport_body": "trail running"
+      },
+      "STRUCTURE": {
+        "score": 0.317,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      },
+      "EMERGENCE": {
+        "score": 0.296,
+        "subshape": "mid",
+        "music_creative": "needlepoint canvas work",
+        "profession_tech": "tufting",
+        "sport_body": "running in the nature"
+      }
+    }
+  },
+  {
+    "num": 21,
+    "element": "Sc",
+    "profile": "ENFP_M_O",
+    "mbti": "ENFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.8,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.36,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.509,
+        "subshape": "high_gammas",
+        "music_creative": "longboard cruising",
+        "profession_tech": "cinematic visual concept artist",
+        "sport_body": "snowboard downhill"
+      },
+      "CONTRAST": {
+        "score": 0.481,
+        "subshape": "high_ds",
+        "music_creative": "noise ambient / yin yoga",
+        "profession_tech": "taichi",
+        "sport_body": "Swimming"
+      },
+      "EMERGENCE": {
+        "score": 0.26,
+        "subshape": "mid",
+        "music_creative": "drone aerial photography",
+        "profession_tech": "vr visual programming",
+        "sport_body": "ice dance"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 22,
+    "element": "Ti",
+    "profile": "ESTJ_F_A",
+    "mbti": "ESTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.18,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.368,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      },
+      "EMERGENCE": {
+        "score": 0.349,
+        "subshape": "high_hg",
+        "music_creative": "improvisational pianist",
+        "profession_tech": "battleship shooting games",
+        "sport_body": "CLAY PIGEON SHOOTING"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      }
+    }
+  },
+  {
+    "num": 23,
+    "element": "V",
+    "profile": "ESFP_F_O",
+    "mbti": "ESFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.18,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.7,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.3
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.378,
+        "subshape": "high_nugamma",
+        "music_creative": "Electronica composition",
+        "profession_tech": "fractal art",
+        "sport_body": "polar trekking"
+      },
+      "FLOW": {
+        "score": 0.355,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "CONTRAST": {
+        "score": 0.353,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      }
+    }
+  },
+  {
+    "num": 24,
+    "element": "Cr",
+    "profile": "ENFP_F_A",
+    "mbti": "ENFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.45,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.315,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.336,
+        "subshape": "high_rh",
+        "music_creative": "NEW WAVE / site specific atmospheric dance",
+        "profession_tech": "VR AR ENVIRONMENT DESIGN",
+        "sport_body": "KORFBALL ATTACK (indoor wavepool surf)"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "subshape": "high_sr",
+        "music_creative": "mixed media digital analogue collage",
+        "profession_tech": "rhythm roller skating",
+        "sport_body": "up cycling"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 25,
+    "element": "Mn",
+    "profile": "INFJ_F_O",
+    "mbti": "INFJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.54,
+      "d": 0.2,
+      "p": 0.15,
+      "s": 0.35,
+      "gamma": 0.5,
+      "g": 0.5,
+      "nu": 0.3
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.45,
+        "subshape": "high_nugamma",
+        "music_creative": "Berliner schule composition",
+        "profession_tech": "textile designer",
+        "sport_body": "park/bowls skateboarding"
+      },
+      "FLOW": {
+        "score": 0.417,
+        "subshape": "high_gammas",
+        "music_creative": "solo touring kayak / retrowave",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      },
+      "STRUCTURE": {
+        "score": 0.31,
+        "subshape": "mid",
+        "music_creative": "clay modelling with hand",
+        "profession_tech": "GIS professional",
+        "sport_body": "urban vegetable community gardening"
+      },
+      "CONTRAST": {
+        "score": 0.258,
+        "subshape": "mid",
+        "music_creative": "shoegaze / longboard downhill",
+        "profession_tech": "SEISMOLOGIST",
+        "sport_body": "SURFING FREERIDE"
+      }
+    }
+  },
+  {
+    "num": 26,
+    "element": "Fe",
+    "profile": "ISTJ_F_A",
+    "mbti": "ISTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.3,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.45,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.289,
+        "subshape": "high_hg",
+        "music_creative": "Lofi",
+        "profession_tech": "quantum computing researcher",
+        "sport_body": "4d printing"
+      },
+      "STRUCTURE": {
+        "score": 0.281,
+        "subshape": "high_dg",
+        "music_creative": "Berliner schule composition",
+        "profession_tech": "IOT Engineer",
+        "sport_body": "ice climbing waterfall"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      },
+      "CONTRAST": {
+        "score": 0.246,
+        "subshape": "mid",
+        "music_creative": "drum machine sampler",
+        "profession_tech": "cryptologist",
+        "sport_body": "inline skating aggressive"
+      }
+    }
+  },
+  {
+    "num": 27,
+    "element": "Co",
+    "profile": "ENTJ_F_A",
+    "mbti": "ENTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.3,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.225,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.259,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "CONTRAST": {
+        "score": 0.257,
+        "subshape": "mid",
+        "music_creative": "mountain biking downhill",
+        "profession_tech": "acrylic/paint pour",
+        "sport_body": "trail running steep"
+      },
+      "EMERGENCE": {
+        "score": 0.253,
+        "subshape": "mid",
+        "music_creative": "planatary stargazing",
+        "profession_tech": "Landscape painting after work from memory or sunset",
+        "sport_body": "Freeride snowboard"
+      },
+      "STRUCTURE": {
+        "score": 0.225,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      }
+    }
+  },
+  {
+    "num": 28,
+    "element": "Ni",
+    "profile": "ESFJ_F_A",
+    "mbti": "ESFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.3,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.225,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.266,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "EMERGENCE": {
+        "score": 0.261,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "CONTRAST": {
+        "score": 0.257,
+        "subshape": "mid",
+        "music_creative": "mountain biking downhill",
+        "profession_tech": "acrylic/paint pour",
+        "sport_body": "trail running steep"
+      },
+      "STRUCTURE": {
+        "score": 0.225,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      }
+    }
+  },
+  {
+    "num": 29,
+    "element": "Cu",
+    "profile": "ESTJ_M_O",
+    "mbti": "ESTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 0.6,
+      "p": 0.15,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.4,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.403,
+        "subshape": "high_dr",
+        "music_creative": "motorcross freestyle",
+        "profession_tech": "motorcycle engine rebuild",
+        "sport_body": "metal alloy recycle grid operator"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "EMERGENCE": {
+        "score": 0.33,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "STRUCTURE": {
+        "score": 0.325,
+        "subshape": "high_dg",
+        "music_creative": "glitch opera (structured)",
+        "profession_tech": "Car cpu developer",
+        "sport_body": "marksmanship precision"
+      }
+    }
+  },
+  {
+    "num": 30,
+    "element": "Zn",
+    "profile": "ENFP_F_A",
+    "mbti": "ENFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.45,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.315,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.336,
+        "subshape": "high_rh",
+        "music_creative": "DJ turntablist binaural beat composition",
+        "profession_tech": "game sound designer",
+        "sport_body": "BMX street"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "subshape": "high_sr",
+        "music_creative": "avant pop",
+        "profession_tech": "light artist",
+        "sport_body": "board game competitive"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      }
+    }
+  },
+  {
+    "num": 31,
+    "element": "Ga",
+    "profile": "ISTJ_F_A",
+    "mbti": "ISTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.3,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.45,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.289,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "STRUCTURE": {
+        "score": 0.281,
+        "subshape": "high_dg",
+        "music_creative": "Free jazz composition (through-composed)",
+        "profession_tech": "independent sw architect (hobby)",
+        "sport_body": "biathlon"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "subshape": "mid",
+        "music_creative": "roller derby avant pop (city pop synth)",
+        "profession_tech": "urban planning",
+        "sport_body": "trail running"
+      },
+      "CONTRAST": {
+        "score": 0.246,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      }
+    }
+  },
+  {
+    "num": 32,
+    "element": "Ge",
+    "profile": "ESTJ_F_O",
+    "mbti": "ESTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.24,
+      "p": 0.15,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.491,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      },
+      "EMERGENCE": {
+        "score": 0.465,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "subshape": "mid",
+        "music_creative": "roller derby avant pop (city pop synth)",
+        "profession_tech": "urban planning",
+        "sport_body": "trail running"
+      },
+      "CONTRAST": {
+        "score": 0.271,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      }
+    }
+  },
+  {
+    "num": 33,
+    "element": "As",
+    "profile": "ESTP_M_A",
+    "mbti": "ESTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.18,
+      "h": 0.188,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.27,
+      "gamma": 0.338,
+      "g": 0.3,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.276,
+        "subshape": "mid",
+        "music_creative": "noise rock",
+        "profession_tech": "tactical training",
+        "sport_body": "rugby"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "subshape": "high_dg",
+        "music_creative": "dark textile weaving",
+        "profession_tech": "special forces agent",
+        "sport_body": "SERE training"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "FLOW": {
+        "score": 0.235,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      }
+    }
+  },
+  {
+    "num": 34,
+    "element": "Se",
+    "profile": "ISTJ_M_A",
+    "mbti": "ISTJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.188,
+      "d": 0.75,
+      "p": 0.112,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.18,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.407,
+        "subshape": "high_dr",
+        "music_creative": "Judo Clean and Jerk",
+        "profession_tech": "vfx motion graphic artist",
+        "sport_body": "obstacle course racing"
+      },
+      "FLOW": {
+        "score": 0.27,
+        "subshape": "mid",
+        "music_creative": "Play electric guitar, avant pop",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      },
+      "STRUCTURE": {
+        "score": 0.247,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "EMERGENCE": {
+        "score": 0.224,
+        "subshape": "mid",
+        "music_creative": "drone aerial photography",
+        "profession_tech": "vr visual programming",
+        "sport_body": "ice dance"
+      }
+    }
+  },
+  {
+    "num": 35,
+    "element": "Br",
+    "profile": "ISTJ_M_O",
+    "mbti": "ISTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 1.0,
+      "p": 0.15,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.24,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.542,
+        "subshape": "high_dr",
+        "music_creative": "SMOKE JUMPER",
+        "profession_tech": "graffiti",
+        "sport_body": "triathlon"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "STRUCTURE": {
+        "score": 0.329,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      },
+      "EMERGENCE": {
+        "score": 0.298,
+        "subshape": "mid",
+        "music_creative": "planatary stargazing",
+        "profession_tech": "Landscape painting after work from memory or sunset",
+        "sport_body": "Freeride snowboard"
+      }
+    }
+  },
+  {
+    "num": 36,
+    "element": "Kr",
+    "profile": "ISFJ_F_A",
+    "mbti": "ISFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.202,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.386,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      },
+      "EMERGENCE": {
+        "score": 0.324,
+        "subshape": "mid",
+        "music_creative": "acoustic arrangement",
+        "profession_tech": "acoustic arrangement",
+        "sport_body": "yoga restorative"
+      },
+      "FLOW": {
+        "score": 0.225,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "subshape": "mid",
+        "music_creative": "noise rock",
+        "profession_tech": "tactical training",
+        "sport_body": "rugby"
+      }
+    }
+  },
+  {
+    "num": 37,
+    "element": "Rb",
+    "profile": "INFJ_M_O",
+    "mbti": "INFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.3,
+      "d": 0.5,
+      "p": 0.15,
+      "s": 0.3,
+      "gamma": 0.9,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.485,
+        "subshape": "mid",
+        "music_creative": "Play electric guitar, avant pop",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      },
+      "EMERGENCE": {
+        "score": 0.415,
+        "subshape": "mid",
+        "music_creative": "drone aerial photography",
+        "profession_tech": "vr visual programming",
+        "sport_body": "ice dance"
+      },
+      "CONTRAST": {
+        "score": 0.367,
+        "subshape": "high_dr",
+        "music_creative": "SMOKE JUMPER",
+        "profession_tech": "graffiti",
+        "sport_body": "triathlon"
+      },
+      "STRUCTURE": {
+        "score": 0.24,
+        "subshape": "mid",
+        "music_creative": "clay modelling with hand",
+        "profession_tech": "GIS professional",
+        "sport_body": "urban vegetable community gardening"
+      }
+    }
+  },
+  {
+    "num": 38,
+    "element": "Sr",
+    "profile": "ENTJ_M_O",
+    "mbti": "ENTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 1.0,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.12,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.557,
+        "subshape": "high_dr",
+        "music_creative": "motorcross freestyle",
+        "profession_tech": "motorcycle engine rebuild",
+        "sport_body": "metal alloy recycle grid operator"
+      },
+      "FLOW": {
+        "score": 0.383,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "STRUCTURE": {
+        "score": 0.317,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      },
+      "EMERGENCE": {
+        "score": 0.296,
+        "subshape": "mid",
+        "music_creative": "planatary stargazing",
+        "profession_tech": "Landscape painting after work from memory or sunset",
+        "sport_body": "Freeride snowboard"
+      }
+    }
+  },
+  {
+    "num": 39,
+    "element": "Y",
+    "profile": "ENTJ_F_O",
+    "mbti": "ENTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.4,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.3,
+      "nu": 0.3
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.345,
+        "subshape": "mid",
+        "music_creative": "Play electric guitar, avant pop",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      },
+      "CONTRAST": {
+        "score": 0.342,
+        "subshape": "high_ds",
+        "music_creative": "noise ambient / yin yoga",
+        "profession_tech": "taichi",
+        "sport_body": "Swimming"
+      },
+      "EMERGENCE": {
+        "score": 0.338,
+        "subshape": "high_nugamma",
+        "music_creative": "Experimental ambient composition",
+        "profession_tech": "minimalistic architecture",
+        "sport_body": "indoor climbing"
+      },
+      "STRUCTURE": {
+        "score": 0.3,
+        "subshape": "high_dg",
+        "music_creative": "SF worldbuilding",
+        "profession_tech": "vbeer brewing hobby",
+        "sport_body": "free climbing multipitch"
+      }
+    }
+  },
+  {
+    "num": 40,
+    "element": "Zr",
+    "profile": "INFJ_F_A",
+    "mbti": "INFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.15,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.375,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.338,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "STRUCTURE": {
+        "score": 0.232,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "CONTRAST": {
+        "score": 0.193,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      }
+    }
+  },
+  {
+    "num": 41,
+    "element": "Nb",
+    "profile": "INTP_M_A",
+    "mbti": "INTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.112,
+      "d": 0.375,
+      "p": 0.375,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.225
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.315,
+        "subshape": "high_dr",
+        "music_creative": "Free jazz composition",
+        "profession_tech": "horologist",
+        "sport_body": "free climbing"
+      },
+      "STRUCTURE": {
+        "score": 0.266,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      },
+      "FLOW": {
+        "score": 0.251,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "EMERGENCE": {
+        "score": 0.21,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      }
+    }
+  },
+  {
+    "num": 42,
+    "element": "Mo",
+    "profile": "ISTJ_F_A",
+    "mbti": "ISTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.3,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.45,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.289,
+        "subshape": "high_hg",
+        "music_creative": "symphonic prog",
+        "profession_tech": "Distributed system architecture developer",
+        "sport_body": "lacrosse"
+      },
+      "STRUCTURE": {
+        "score": 0.281,
+        "subshape": "high_dg",
+        "music_creative": "Free jazz composition (through-composed)",
+        "profession_tech": "independent sw architect (hobby)",
+        "sport_body": "biathlon"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      },
+      "CONTRAST": {
+        "score": 0.246,
+        "subshape": "mid",
+        "music_creative": "Black Pottery",
+        "profession_tech": "strategy board game",
+        "sport_body": "Street Skateboarding"
+      }
+    }
+  },
+  {
+    "num": 43,
+    "element": "Tc",
+    "profile": "INTP_F_A",
+    "mbti": "INTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.202,
+      "d": 0.15,
+      "p": 0.375,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.27
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.32,
+        "subshape": "high_gp",
+        "music_creative": "MECCANO HOBBY",
+        "profession_tech": "EMBEDDED SYSTEMS FIRMWARE",
+        "sport_body": "SINGLE SCULL ROWING"
+      },
+      "EMERGENCE": {
+        "score": 0.254,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "CONTRAST": {
+        "score": 0.232,
+        "subshape": "mid",
+        "music_creative": "drum machine sampler",
+        "profession_tech": "cryptologist",
+        "sport_body": "inline skating aggressive"
+      },
+      "FLOW": {
+        "score": 0.216,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      }
+    }
+  },
+  {
+    "num": 44,
+    "element": "Ru",
+    "profile": "INFP_F_O",
+    "mbti": "INFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.458,
+        "subshape": "mid",
+        "music_creative": "indie folk",
+        "profession_tech": "cartographic illustration",
+        "sport_body": "NORDIC SKIING"
+      },
+      "EMERGENCE": {
+        "score": 0.454,
+        "subshape": "high_hg",
+        "music_creative": "Chamber pop",
+        "profession_tech": "precision pen drawing",
+        "sport_body": "Digital forensics"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "subshape": "mid",
+        "music_creative": "mountain biking downhill",
+        "profession_tech": "acrylic/paint pour",
+        "sport_body": "trail running steep"
+      }
+    }
+  },
+  {
+    "num": 45,
+    "element": "Rh",
+    "profile": "ISFJ_F_O",
+    "mbti": "ISFJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.27,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.515,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      },
+      "EMERGENCE": {
+        "score": 0.432,
+        "subshape": "high_nugamma",
+        "music_creative": "Electronica composition",
+        "profession_tech": "fractal art",
+        "sport_body": "polar trekking"
+      },
+      "FLOW": {
+        "score": 0.3,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      }
+    }
+  },
+  {
+    "num": 46,
+    "element": "Pd",
+    "profile": "INTJ_M_A",
+    "mbti": "INTJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.375,
+      "d": 0.375,
+      "p": 0.225,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.112
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.317,
+        "subshape": "high_rh",
+        "music_creative": "Contemporary dance music / spontaneous edm djing",
+        "profession_tech": "Real Time databoard visualisation",
+        "sport_body": "icehockey wing"
+      },
+      "CONTRAST": {
+        "score": 0.292,
+        "subshape": "high_dr",
+        "music_creative": "motorcross freestyle",
+        "profession_tech": "motorcycle engine rebuild",
+        "sport_body": "metal alloy recycle grid operator"
+      },
+      "EMERGENCE": {
+        "score": 0.242,
+        "subshape": "mid",
+        "music_creative": "ceramic art",
+        "profession_tech": "Computer art",
+        "sport_body": "flyboarding hover"
+      },
+      "STRUCTURE": {
+        "score": 0.199,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      }
+    }
+  },
+  {
+    "num": 47,
+    "element": "Ag",
+    "profile": "ESFP_M_O",
+    "mbti": "ESFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.24,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.6,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.441,
+        "subshape": "high_ds",
+        "music_creative": "no wave",
+        "profession_tech": "canyoneering",
+        "sport_body": "open water swimming"
+      },
+      "FLOW": {
+        "score": 0.371,
+        "subshape": "high_gammas",
+        "music_creative": "nighttime cycling",
+        "profession_tech": "wildlife documentary",
+        "sport_body": "inline aerial"
+      },
+      "EMERGENCE": {
+        "score": 0.312,
+        "subshape": "mid",
+        "music_creative": "needlepoint canvas work",
+        "profession_tech": "tufting",
+        "sport_body": "running in the nature"
+      },
+      "STRUCTURE": {
+        "score": 0.27,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      }
+    }
+  },
+  {
+    "num": 48,
+    "element": "Cd",
+    "profile": "ESFP_F_A",
+    "mbti": "ESFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.135,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.283,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary dance choreography",
+        "profession_tech": "IOT Engineer",
+        "sport_body": "bouldering"
+      },
+      "FLOW": {
+        "score": 0.267,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "subshape": "mid",
+        "music_creative": "noise rock",
+        "profession_tech": "tactical training",
+        "sport_body": "rugby"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      }
+    }
+  },
+  {
+    "num": 49,
+    "element": "In",
+    "profile": "ESFP_M_A",
+    "mbti": "ESFP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.18,
+      "h": 0.188,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.45,
+      "gamma": 0.405,
+      "g": 0.15,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.33,
+        "subshape": "high_ds",
+        "music_creative": "noise ambient / yin yoga",
+        "profession_tech": "taichi",
+        "sport_body": "Swimming"
+      },
+      "FLOW": {
+        "score": 0.279,
+        "subshape": "high_gammas",
+        "music_creative": "solo touring kayak / retrowave",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      },
+      "EMERGENCE": {
+        "score": 0.234,
+        "subshape": "mid",
+        "music_creative": "drone aerial photography",
+        "profession_tech": "vr visual programming",
+        "sport_body": "ice dance"
+      },
+      "STRUCTURE": {
+        "score": 0.203,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 50,
+    "element": "Sn",
+    "profile": "ENFJ_F_O",
+    "mbti": "ENFJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.48,
+      "h": 0.72,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.2,
+      "g": 0.5,
+      "nu": 0.3
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.451,
+        "subshape": "high_rh",
+        "music_creative": "FLOW PARKOUR",
+        "profession_tech": "game systems design",
+        "sport_body": "BMX AERIAL"
+      },
+      "EMERGENCE": {
+        "score": 0.42,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "CONTRAST": {
+        "score": 0.308,
+        "subshape": "high_sr",
+        "music_creative": "mixed media digital analogue collage",
+        "profession_tech": "rhythm roller skating",
+        "sport_body": "up cycling"
+      }
+    }
+  },
+  {
+    "num": 51,
+    "element": "Sb",
+    "profile": "ESFP_F_A",
+    "mbti": "ESFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.135,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.283,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary classical / writing mystery novels",
+        "profession_tech": "Leader who leads through debate and persuasion",
+        "sport_body": "EPEE FENCING"
+      },
+      "FLOW": {
+        "score": 0.267,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "subshape": "mid",
+        "music_creative": "shoegaze / longboard downhill",
+        "profession_tech": "SEISMOLOGIST",
+        "sport_body": "SURFING FREERIDE"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      }
+    }
+  },
+  {
+    "num": 52,
+    "element": "Te",
+    "profile": "ENFJ_F_A",
+    "mbti": "ENFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.36,
+      "h": 0.54,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.15,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.338,
+        "subshape": "high_rh",
+        "music_creative": "DJ turntablist binaural beat composition",
+        "profession_tech": "game sound designer",
+        "sport_body": "BMX street"
+      },
+      "EMERGENCE": {
+        "score": 0.315,
+        "subshape": "high_hg",
+        "music_creative": "Lofi",
+        "profession_tech": "quantum computing researcher",
+        "sport_body": "4d printing"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      },
+      "CONTRAST": {
+        "score": 0.231,
+        "subshape": "mid",
+        "music_creative": "drum machine sampler",
+        "profession_tech": "cryptologist",
+        "sport_body": "inline skating aggressive"
+      }
+    }
+  },
+  {
+    "num": 53,
+    "element": "I",
+    "profile": "ISFP_F_O",
+    "mbti": "ISFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.458,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "EMERGENCE": {
+        "score": 0.454,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary dance choreography",
+        "profession_tech": "IOT Engineer",
+        "sport_body": "bouldering"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "subshape": "mid",
+        "music_creative": "noise rock",
+        "profession_tech": "tactical training",
+        "sport_body": "rugby"
+      }
+    }
+  },
+  {
+    "num": 54,
+    "element": "Xe",
+    "profile": "ESFJ_F_A",
+    "mbti": "ESFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.3,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.225,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.266,
+        "subshape": "mid",
+        "music_creative": "indie folk",
+        "profession_tech": "cartographic illustration",
+        "sport_body": "NORDIC SKIING"
+      },
+      "EMERGENCE": {
+        "score": 0.261,
+        "subshape": "mid",
+        "music_creative": "vivarium building",
+        "profession_tech": "web design for her business",
+        "sport_body": "independent fashion designer"
+      },
+      "CONTRAST": {
+        "score": 0.257,
+        "subshape": "mid",
+        "music_creative": "noise rock",
+        "profession_tech": "tactical training",
+        "sport_body": "rugby"
+      },
+      "STRUCTURE": {
+        "score": 0.225,
+        "subshape": "mid",
+        "music_creative": "clay modelling with hand",
+        "profession_tech": "GIS professional",
+        "sport_body": "urban vegetable community gardening"
+      }
+    }
+  },
+  {
+    "num": 55,
+    "element": "Cs",
+    "profile": "ENFJ_M_O",
+    "mbti": "ENFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.64,
+      "h": 0.4,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.36,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.459,
+        "subshape": "high_rh",
+        "music_creative": "DJ turntablist binaural beat composition",
+        "profession_tech": "game sound designer",
+        "sport_body": "BMX street"
+      },
+      "CONTRAST": {
+        "score": 0.43,
+        "subshape": "high_dr",
+        "music_creative": "muay thai",
+        "profession_tech": "TV journalist",
+        "sport_body": "tactical precision fps"
+      },
+      "EMERGENCE": {
+        "score": 0.305,
+        "subshape": "mid",
+        "music_creative": "needlepoint canvas work",
+        "profession_tech": "tufting",
+        "sport_body": "running in the nature"
+      },
+      "STRUCTURE": {
+        "score": 0.27,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      }
+    }
+  },
+  {
+    "num": 56,
+    "element": "Ba",
+    "profile": "INTJ_M_O",
+    "mbti": "INTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.5,
+      "d": 0.5,
+      "p": 0.3,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.422,
+        "subshape": "high_rh",
+        "music_creative": "Contemporary dance music / spontaneous edm djing",
+        "profession_tech": "Real Time databoard visualisation",
+        "sport_body": "icehockey wing"
+      },
+      "CONTRAST": {
+        "score": 0.39,
+        "subshape": "high_dr",
+        "music_creative": "muay thai",
+        "profession_tech": "TV journalist",
+        "sport_body": "tactical precision fps"
+      },
+      "EMERGENCE": {
+        "score": 0.323,
+        "subshape": "mid",
+        "music_creative": "ceramic art",
+        "profession_tech": "Computer art",
+        "sport_body": "flyboarding hover"
+      },
+      "STRUCTURE": {
+        "score": 0.265,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      }
+    }
+  },
+  {
+    "num": 57,
+    "element": "La",
+    "profile": "ISFP_M_O",
+    "mbti": "ISFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.5,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "subshape": "high_rh",
+        "music_creative": " rollerskating park recreational",
+        "profession_tech": "regional designer",
+        "sport_body": "surfing"
+      },
+      "CONTRAST": {
+        "score": 0.383,
+        "subshape": "high_dr",
+        "music_creative": "muay thai",
+        "profession_tech": "TV journalist",
+        "sport_body": "tactical precision fps"
+      },
+      "EMERGENCE": {
+        "score": 0.345,
+        "subshape": "mid",
+        "music_creative": "drone aerial photography",
+        "profession_tech": "vr visual programming",
+        "sport_body": "ice dance"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 58,
+    "element": "Ce",
+    "profile": "INFP_M_O",
+    "mbti": "INFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.5,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "subshape": "high_rh",
+        "music_creative": "j turntablist / Indie rock comp",
+        "profession_tech": "stunt performer",
+        "sport_body": "rhythmic fencing"
+      },
+      "CONTRAST": {
+        "score": 0.383,
+        "subshape": "high_dr",
+        "music_creative": "muay thai",
+        "profession_tech": "TV journalist",
+        "sport_body": "tactical precision fps"
+      },
+      "EMERGENCE": {
+        "score": 0.345,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      }
+    }
+  },
+  {
+    "num": 59,
+    "element": "Pr",
+    "profile": "ENTJ_F_O",
+    "mbti": "ENTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.4,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.3,
+      "nu": 0.3
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.345,
+        "subshape": "mid",
+        "music_creative": "roller derby avant pop (city pop synth)",
+        "profession_tech": "urban planning",
+        "sport_body": "trail running"
+      },
+      "CONTRAST": {
+        "score": 0.342,
+        "subshape": "high_ds",
+        "music_creative": "no wave",
+        "profession_tech": "canyoneering",
+        "sport_body": "open water swimming"
+      },
+      "EMERGENCE": {
+        "score": 0.338,
+        "subshape": "high_nugamma",
+        "music_creative": "Triphop composition / splitboarding snowboard",
+        "profession_tech": "hydrological engineer",
+        "sport_body": "fjord coastal trekking"
+      },
+      "STRUCTURE": {
+        "score": 0.3,
+        "subshape": "high_dg",
+        "music_creative": "Berliner schule composition",
+        "profession_tech": "IOT Engineer",
+        "sport_body": "ice climbing waterfall"
+      }
+    }
+  },
+  {
+    "num": 60,
+    "element": "Nd",
+    "profile": "ESTP_F_O",
+    "mbti": "ESTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.18,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.42,
+      "gamma": 0.25,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.515,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      },
+      "EMERGENCE": {
+        "score": 0.465,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary classical / writing mystery novels",
+        "profession_tech": "Leader who leads through debate and persuasion",
+        "sport_body": "EPEE FENCING"
+      },
+      "FLOW": {
+        "score": 0.301,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      },
+      "CONTRAST": {
+        "score": 0.269,
+        "subshape": "mid",
+        "music_creative": "shoegaze / longboard downhill",
+        "profession_tech": "SEISMOLOGIST",
+        "sport_body": "SURFING FREERIDE"
+      }
+    }
+  },
+  {
+    "num": 61,
+    "element": "Pm",
+    "profile": "INTJ_M_A",
+    "mbti": "INTJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.375,
+      "d": 0.375,
+      "p": 0.225,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.112
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.317,
+        "subshape": "high_rh",
+        "music_creative": "j turntablist / Indie rock comp",
+        "profession_tech": "stunt performer",
+        "sport_body": "rhythmic fencing"
+      },
+      "CONTRAST": {
+        "score": 0.292,
+        "subshape": "high_dr",
+        "music_creative": "Free jazz composition",
+        "profession_tech": "horologist",
+        "sport_body": "free climbing"
+      },
+      "EMERGENCE": {
+        "score": 0.242,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "STRUCTURE": {
+        "score": 0.199,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      }
+    }
+  },
+  {
+    "num": 62,
+    "element": "Sm",
+    "profile": "ESTP_F_A",
+    "mbti": "ESTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.135,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.315,
+      "gamma": 0.188,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.386,
+        "subshape": "mid",
+        "music_creative": "clay modelling with hand",
+        "profession_tech": "GIS professional",
+        "sport_body": "urban vegetable community gardening"
+      },
+      "EMERGENCE": {
+        "score": 0.349,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary classical / writing mystery novels",
+        "profession_tech": "Leader who leads through debate and persuasion",
+        "sport_body": "EPEE FENCING"
+      },
+      "FLOW": {
+        "score": 0.226,
+        "subshape": "mid",
+        "music_creative": "gentle swimming",
+        "profession_tech": "childrens book illustrator",
+        "sport_body": "slack lining"
+      },
+      "CONTRAST": {
+        "score": 0.202,
+        "subshape": "mid",
+        "music_creative": "shoegaze / longboard downhill",
+        "profession_tech": "SEISMOLOGIST",
+        "sport_body": "SURFING FREERIDE"
+      }
+    }
+  },
+  {
+    "num": 63,
+    "element": "Eu",
+    "profile": "INTP_F_O",
+    "mbti": "INTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.27,
+      "d": 0.2,
+      "p": 0.5,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.36
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.427,
+        "subshape": "high_gp",
+        "music_creative": "photogrammetry 3d scanning",
+        "profession_tech": "algorhythm designer",
+        "sport_body": "pacing strategy distance swim"
+      },
+      "EMERGENCE": {
+        "score": 0.338,
+        "subshape": "mid",
+        "music_creative": "acoustic arrangement",
+        "profession_tech": "acoustic arrangement",
+        "sport_body": "yoga restorative"
+      },
+      "CONTRAST": {
+        "score": 0.31,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      },
+      "FLOW": {
+        "score": 0.287,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      }
+    }
+  },
+  {
+    "num": 64,
+    "element": "Gd",
+    "profile": "ENFJ_F_O",
+    "mbti": "ENFJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.48,
+      "h": 0.72,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.2,
+      "g": 0.5,
+      "nu": 0.3
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.451,
+        "subshape": "high_rh",
+        "music_creative": "FLOWBOARDING / MUSIC CONCRETE",
+        "profession_tech": "creative tools developer",
+        "sport_body": "FLOORBALL"
+      },
+      "EMERGENCE": {
+        "score": 0.42,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary classical / writing mystery novels",
+        "profession_tech": "Leader who leads through debate and persuasion",
+        "sport_body": "EPEE FENCING"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      },
+      "CONTRAST": {
+        "score": 0.308,
+        "subshape": "high_sr",
+        "music_creative": "Karate synth pop",
+        "profession_tech": "Gundam model kit",
+        "sport_body": "korfball defence"
+      }
+    }
+  },
+  {
+    "num": 65,
+    "element": "Tb",
+    "profile": "ENFP_F_O",
+    "mbti": "ENFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.6,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.42,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.448,
+        "subshape": "high_rh",
+        "music_creative": "j turntablist / Indie rock comp",
+        "profession_tech": "stunt performer",
+        "sport_body": "rhythmic fencing"
+      },
+      "CONTRAST": {
+        "score": 0.353,
+        "subshape": "high_sr",
+        "music_creative": "mixed media digital analogue collage",
+        "profession_tech": "rhythm roller skating",
+        "sport_body": "up cycling"
+      },
+      "EMERGENCE": {
+        "score": 0.329,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 66,
+    "element": "Dy",
+    "profile": "INTJ_F_A",
+    "mbti": "INTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.225,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.334,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "EMERGENCE": {
+        "score": 0.331,
+        "subshape": "high_hg",
+        "music_creative": "improvisational pianist",
+        "profession_tech": "battleship shooting games",
+        "sport_body": "CLAY PIGEON SHOOTING"
+      },
+      "STRUCTURE": {
+        "score": 0.248,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      },
+      "CONTRAST": {
+        "score": 0.21,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      }
+    }
+  },
+  {
+    "num": 67,
+    "element": "Ho",
+    "profile": "ENTP_F_A",
+    "mbti": "ENTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.27,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.304,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      },
+      "CONTRAST": {
+        "score": 0.292,
+        "subshape": "mid",
+        "music_creative": "mountain biking downhill",
+        "profession_tech": "acrylic/paint pour",
+        "sport_body": "trail running steep"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "subshape": "high_hg",
+        "music_creative": "Chamber pop",
+        "profession_tech": "precision pen drawing",
+        "sport_body": "Digital forensics"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      }
+    }
+  },
+  {
+    "num": 68,
+    "element": "Er",
+    "profile": "ESTJ_F_A",
+    "mbti": "ESTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.18,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.368,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      },
+      "EMERGENCE": {
+        "score": 0.349,
+        "subshape": "high_hg",
+        "music_creative": "Lofi",
+        "profession_tech": "quantum computing researcher",
+        "sport_body": "4d printing"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "subshape": "mid",
+        "music_creative": "drum machine sampler",
+        "profession_tech": "cryptologist",
+        "sport_body": "inline skating aggressive"
+      }
+    }
+  },
+  {
+    "num": 69,
+    "element": "Tm",
+    "profile": "ESTP_M_A",
+    "mbti": "ESTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.18,
+      "h": 0.188,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.27,
+      "gamma": 0.338,
+      "g": 0.3,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.276,
+        "subshape": "mid",
+        "music_creative": "mountain biking downhill",
+        "profession_tech": "acrylic/paint pour",
+        "sport_body": "trail running steep"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "subshape": "high_dg",
+        "music_creative": "dark textile weaving",
+        "profession_tech": "special forces agent",
+        "sport_body": "SERE training"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "subshape": "mid",
+        "music_creative": "needlepoint canvas work",
+        "profession_tech": "tufting",
+        "sport_body": "running in the nature"
+      },
+      "FLOW": {
+        "score": 0.235,
+        "subshape": "mid",
+        "music_creative": "roller derby avant pop (city pop synth)",
+        "profession_tech": "urban planning",
+        "sport_body": "trail running"
+      }
+    }
+  },
+  {
+    "num": 70,
+    "element": "Yb",
+    "profile": "ESFJ_M_O",
+    "mbti": "ESFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.3,
+      "d": 1.0,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.12,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.557,
+        "subshape": "high_dr",
+        "music_creative": "Judo Clean and Jerk",
+        "profession_tech": "vfx motion graphic artist",
+        "sport_body": "obstacle course racing"
+      },
+      "FLOW": {
+        "score": 0.372,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "STRUCTURE": {
+        "score": 0.317,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "EMERGENCE": {
+        "score": 0.286,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      }
+    }
+  },
+  {
+    "num": 71,
+    "element": "Lu",
+    "profile": "INFP_F_O",
+    "mbti": "INFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.458,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "EMERGENCE": {
+        "score": 0.454,
+        "subshape": "high_hg",
+        "music_creative": "improvisational pianist",
+        "profession_tech": "battleship shooting games",
+        "sport_body": "CLAY PIGEON SHOOTING"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      }
+    }
+  },
+  {
+    "num": 72,
+    "element": "Hf",
+    "profile": "ISFJ_M_A",
+    "mbti": "ISFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.112,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.405,
+      "g": 0.3,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.287,
+        "subshape": "high_dr",
+        "music_creative": "motorcross freestyle",
+        "profession_tech": "motorcycle engine rebuild",
+        "sport_body": "metal alloy recycle grid operator"
+      },
+      "FLOW": {
+        "score": 0.268,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "subshape": "high_dg",
+        "music_creative": "Berliner schule composition",
+        "profession_tech": "IOT Engineer",
+        "sport_body": "ice climbing waterfall"
+      },
+      "EMERGENCE": {
+        "score": 0.246,
+        "subshape": "mid",
+        "music_creative": "ceramic art",
+        "profession_tech": "Computer art",
+        "sport_body": "flyboarding hover"
+      }
+    }
+  },
+  {
+    "num": 73,
+    "element": "Ta",
+    "profile": "ESFP_F_A",
+    "mbti": "ESFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.135,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.283,
+        "subshape": "high_hg",
+        "music_creative": "improvisational pianist",
+        "profession_tech": "battleship shooting games",
+        "sport_body": "CLAY PIGEON SHOOTING"
+      },
+      "FLOW": {
+        "score": 0.267,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "CONTRAST": {
+        "score": 0.265,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "subshape": "mid",
+        "music_creative": "clay modelling with hand",
+        "profession_tech": "GIS professional",
+        "sport_body": "urban vegetable community gardening"
+      }
+    }
+  },
+  {
+    "num": 74,
+    "element": "W",
+    "profile": "ISTP_F_A",
+    "mbti": "ISTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.09,
+      "p": 0.225,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.45
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.341,
+        "subshape": "high_hg",
+        "music_creative": "symphonic prog",
+        "profession_tech": "Distributed system architecture developer",
+        "sport_body": "lacrosse"
+      },
+      "STRUCTURE": {
+        "score": 0.302,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "subshape": "mid",
+        "music_creative": "indie folk",
+        "profession_tech": "cartographic illustration",
+        "sport_body": "NORDIC SKIING"
+      },
+      "CONTRAST": {
+        "score": 0.189,
+        "subshape": "mid",
+        "music_creative": "Black Pottery",
+        "profession_tech": "strategy board game",
+        "sport_body": "Street Skateboarding"
+      }
+    }
+  },
+  {
+    "num": 75,
+    "element": "Re",
+    "profile": "INTJ_F_O",
+    "mbti": "INTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.3,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "subshape": "mid",
+        "music_creative": "gentle swimming",
+        "profession_tech": "childrens book illustrator",
+        "sport_body": "slack lining"
+      },
+      "EMERGENCE": {
+        "score": 0.442,
+        "subshape": "high_hg",
+        "music_creative": "improvisational pianist",
+        "profession_tech": "battleship shooting games",
+        "sport_body": "CLAY PIGEON SHOOTING"
+      },
+      "STRUCTURE": {
+        "score": 0.331,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "CONTRAST": {
+        "score": 0.28,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      }
+    }
+  },
+  {
+    "num": 76,
+    "element": "Os",
+    "profile": "ENFJ_M_A",
+    "mbti": "ENFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.48,
+      "h": 0.3,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.27,
+      "g": 0.15,
+      "nu": 0.188
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.344,
+        "subshape": "high_rh",
+        "music_creative": "j turntablist / Indie rock comp",
+        "profession_tech": "stunt performer",
+        "sport_body": "rhythmic fencing"
+      },
+      "CONTRAST": {
+        "score": 0.323,
+        "subshape": "high_dr",
+        "music_creative": "EXTREME SPORTS EVENT CREATOR",
+        "profession_tech": "airsoft",
+        "sport_body": "BMX racing individual pursuit"
+      },
+      "EMERGENCE": {
+        "score": 0.229,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "STRUCTURE": {
+        "score": 0.203,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      }
+    }
+  },
+  {
+    "num": 77,
+    "element": "Ir",
+    "profile": "INTP_M_A",
+    "mbti": "INTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.112,
+      "d": 0.375,
+      "p": 0.375,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.225
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.315,
+        "subshape": "high_dr",
+        "music_creative": "muay thai",
+        "profession_tech": "TV journalist",
+        "sport_body": "tactical precision fps"
+      },
+      "STRUCTURE": {
+        "score": 0.266,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      },
+      "FLOW": {
+        "score": 0.251,
+        "subshape": "mid",
+        "music_creative": "roller derby avant pop (city pop synth)",
+        "profession_tech": "urban planning",
+        "sport_body": "trail running"
+      },
+      "EMERGENCE": {
+        "score": 0.21,
+        "subshape": "mid",
+        "music_creative": "needlepoint canvas work",
+        "profession_tech": "tufting",
+        "sport_body": "running in the nature"
+      }
+    }
+  },
+  {
+    "num": 78,
+    "element": "Pt",
+    "profile": "ESFJ_F_A",
+    "mbti": "ESFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.3,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.225,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.266,
+        "subshape": "mid",
+        "music_creative": "Play electric guitar, avant pop",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      },
+      "EMERGENCE": {
+        "score": 0.261,
+        "subshape": "mid",
+        "music_creative": "drone aerial photography",
+        "profession_tech": "vr visual programming",
+        "sport_body": "ice dance"
+      },
+      "CONTRAST": {
+        "score": 0.257,
+        "subshape": "mid",
+        "music_creative": "mountain biking downhill",
+        "profession_tech": "acrylic/paint pour",
+        "sport_body": "trail running steep"
+      },
+      "STRUCTURE": {
+        "score": 0.225,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 79,
+    "element": "Au",
+    "profile": "ISFJ_F_A",
+    "mbti": "ISFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.202,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.386,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      },
+      "EMERGENCE": {
+        "score": 0.324,
+        "subshape": "mid",
+        "music_creative": "planatary stargazing",
+        "profession_tech": "Landscape painting after work from memory or sunset",
+        "sport_body": "Freeride snowboard"
+      },
+      "FLOW": {
+        "score": 0.225,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      }
+    }
+  },
+  {
+    "num": 80,
+    "element": "Hg",
+    "profile": "INFJ_M_A",
+    "mbti": "INFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.225,
+      "d": 0.375,
+      "p": 0.112,
+      "s": 0.225,
+      "gamma": 0.675,
+      "g": 0.15,
+      "nu": 0.188
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.364,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "EMERGENCE": {
+        "score": 0.311,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "CONTRAST": {
+        "score": 0.276,
+        "subshape": "high_dr",
+        "music_creative": "SMOKE JUMPER",
+        "profession_tech": "graffiti",
+        "sport_body": "triathlon"
+      },
+      "STRUCTURE": {
+        "score": 0.18,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 81,
+    "element": "Tl",
+    "profile": "ISFJ_F_O",
+    "mbti": "ISFJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.27,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.515,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "EMERGENCE": {
+        "score": 0.432,
+        "subshape": "high_nugamma",
+        "music_creative": "Electronica composition",
+        "profession_tech": "fractal art",
+        "sport_body": "polar trekking"
+      },
+      "FLOW": {
+        "score": 0.3,
+        "subshape": "mid",
+        "music_creative": "Play electric guitar, avant pop",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      }
+    }
+  },
+  {
+    "num": 82,
+    "element": "Pb",
+    "profile": "ENFJ_M_A",
+    "mbti": "ENFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.48,
+      "h": 0.3,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.27,
+      "g": 0.15,
+      "nu": 0.188
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.344,
+        "subshape": "high_rh",
+        "music_creative": "NEW WAVE / site specific atmospheric dance",
+        "profession_tech": "VR AR ENVIRONMENT DESIGN",
+        "sport_body": "KORFBALL ATTACK (indoor wavepool surf)"
+      },
+      "CONTRAST": {
+        "score": 0.323,
+        "subshape": "high_dr",
+        "music_creative": "Judo Clean and Jerk",
+        "profession_tech": "vfx motion graphic artist",
+        "sport_body": "obstacle course racing"
+      },
+      "EMERGENCE": {
+        "score": 0.229,
+        "subshape": "mid",
+        "music_creative": "ecological sketch from imagination",
+        "profession_tech": "biomaterials engineer",
+        "sport_body": "forest trail running"
+      },
+      "STRUCTURE": {
+        "score": 0.203,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 83,
+    "element": "Bi",
+    "profile": "ISTP_M_A",
+    "mbti": "ISTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.188,
+      "d": 0.225,
+      "p": 0.225,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.375
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.274,
+        "subshape": "high_nugamma",
+        "music_creative": "Ghibli adjacent / nighttime drone photography",
+        "profession_tech": "cinematic visual concept artist",
+        "sport_body": "snowboard downhill"
+      },
+      "FLOW": {
+        "score": 0.27,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "CONTRAST": {
+        "score": 0.24,
+        "subshape": "mid",
+        "music_creative": "mountain biking downhill",
+        "profession_tech": "acrylic/paint pour",
+        "sport_body": "trail running steep"
+      },
+      "STRUCTURE": {
+        "score": 0.229,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      }
+    }
+  },
+  {
+    "num": 84,
+    "element": "Po",
+    "profile": "ESTP_F_A",
+    "mbti": "ESTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.135,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.315,
+      "gamma": 0.188,
+      "g": 0.75,
+      "nu": 0.225
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.386,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "EMERGENCE": {
+        "score": 0.349,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "FLOW": {
+        "score": 0.226,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "CONTRAST": {
+        "score": 0.202,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      }
+    }
+  },
+  {
+    "num": 85,
+    "element": "At",
+    "profile": "ISTJ_F_O",
+    "mbti": "ISTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.4,
+      "p": 0.15,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.6,
+      "nu": 0.3
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.385,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "STRUCTURE": {
+        "score": 0.375,
+        "subshape": "high_dg",
+        "music_creative": "SF worldbuilding",
+        "profession_tech": "vbeer brewing hobby",
+        "sport_body": "free climbing multipitch"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "CONTRAST": {
+        "score": 0.327,
+        "subshape": "high_ds",
+        "music_creative": "Noise pop composition",
+        "profession_tech": "Conservation architect",
+        "sport_body": "Freeride snowboard"
+      }
+    }
+  },
+  {
+    "num": 86,
+    "element": "Rn",
+    "profile": "ENTP_M_O",
+    "mbti": "ENTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.48,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.6,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.488,
+        "subshape": "high_ds",
+        "music_creative": "HAUNTOLOGY COMPOSITION",
+        "profession_tech": "dark textile",
+        "sport_body": "abseiling"
+      },
+      "FLOW": {
+        "score": 0.433,
+        "subshape": "high_gammas",
+        "music_creative": "SPACE ROCK",
+        "profession_tech": "motion graphic designer",
+        "sport_body": "shortboard aerial surfing"
+      },
+      "EMERGENCE": {
+        "score": 0.26,
+        "subshape": "mid",
+        "music_creative": "vivarium building",
+        "profession_tech": "web design for her business",
+        "sport_body": "independent fashion designer"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 87,
+    "element": "Fr",
+    "profile": "INFJ_M_O",
+    "mbti": "INFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.3,
+      "d": 0.5,
+      "p": 0.15,
+      "s": 0.3,
+      "gamma": 0.9,
+      "g": 0.2,
+      "nu": 0.25
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.485,
+        "subshape": "mid",
+        "music_creative": "roller derby avant pop (city pop synth)",
+        "profession_tech": "urban planning",
+        "sport_body": "trail running"
+      },
+      "EMERGENCE": {
+        "score": 0.415,
+        "subshape": "mid",
+        "music_creative": "needlepoint canvas work",
+        "profession_tech": "tufting",
+        "sport_body": "running in the nature"
+      },
+      "CONTRAST": {
+        "score": 0.367,
+        "subshape": "high_dr",
+        "music_creative": "EXTREME SPORTS EVENT CREATOR",
+        "profession_tech": "airsoft",
+        "sport_body": "BMX racing individual pursuit"
+      },
+      "STRUCTURE": {
+        "score": 0.24,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      }
+    }
+  },
+  {
+    "num": 88,
+    "element": "Ra",
+    "profile": "INTJ_F_O",
+    "mbti": "INTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.3,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "subshape": "mid",
+        "music_creative": "indie folk",
+        "profession_tech": "cartographic illustration",
+        "sport_body": "NORDIC SKIING"
+      },
+      "EMERGENCE": {
+        "score": 0.442,
+        "subshape": "high_hg",
+        "music_creative": "symphonic prog",
+        "profession_tech": "Distributed system architecture developer",
+        "sport_body": "lacrosse"
+      },
+      "STRUCTURE": {
+        "score": 0.331,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      },
+      "CONTRAST": {
+        "score": 0.28,
+        "subshape": "mid",
+        "music_creative": "Black Pottery",
+        "profession_tech": "strategy board game",
+        "sport_body": "Street Skateboarding"
+      }
+    }
+  },
+  {
+    "num": 89,
+    "element": "Ac",
+    "profile": "INTP_M_O",
+    "mbti": "INTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.15,
+      "d": 0.5,
+      "p": 0.5,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.3
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.42,
+        "subshape": "high_dr",
+        "music_creative": "Free jazz composition",
+        "profession_tech": "horologist",
+        "sport_body": "free climbing"
+      },
+      "STRUCTURE": {
+        "score": 0.355,
+        "subshape": "high_nup",
+        "music_creative": "topology problem set",
+        "profession_tech": "number theory hobby",
+        "sport_body": "chess puzzle composition"
+      },
+      "FLOW": {
+        "score": 0.335,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "EMERGENCE": {
+        "score": 0.28,
+        "subshape": "high_nugamma",
+        "music_creative": "Electronica composition",
+        "profession_tech": "fractal art",
+        "sport_body": "polar trekking"
+      }
+    }
+  },
+  {
+    "num": 90,
+    "element": "Th",
+    "profile": "ESTP_M_O",
+    "mbti": "ESTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.24,
+      "h": 0.25,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.36,
+      "gamma": 0.45,
+      "g": 0.4,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.368,
+        "subshape": "high_ds",
+        "music_creative": "Noise pop composition",
+        "profession_tech": "Conservation architect",
+        "sport_body": "Freeride snowboard"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "subshape": "high_dg",
+        "music_creative": "Berliner schule composition",
+        "profession_tech": "IOT Engineer",
+        "sport_body": "ice climbing waterfall"
+      },
+      "EMERGENCE": {
+        "score": 0.33,
+        "subshape": "mid",
+        "music_creative": "planatary stargazing",
+        "profession_tech": "Landscape painting after work from memory or sunset",
+        "sport_body": "Freeride snowboard"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "subshape": "high_gammas",
+        "music_creative": "solo touring kayak / retrowave",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      }
+    }
+  },
+  {
+    "num": 91,
+    "element": "Pa",
+    "profile": "INFP_F_A",
+    "mbti": "INFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.343,
+        "subshape": "mid",
+        "music_creative": "Play electric guitar, avant pop",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      },
+      "EMERGENCE": {
+        "score": 0.341,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary dance choreography",
+        "profession_tech": "IOT Engineer",
+        "sport_body": "bouldering"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "subshape": "mid",
+        "music_creative": "noise rock",
+        "profession_tech": "tactical training",
+        "sport_body": "rugby"
+      }
+    }
+  },
+  {
+    "num": 92,
+    "element": "U",
+    "profile": "ISTP_F_A",
+    "mbti": "ISTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.09,
+      "p": 0.225,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.45
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.341,
+        "subshape": "high_hg",
+        "music_creative": "improvisational pianist",
+        "profession_tech": "battleship shooting games",
+        "sport_body": "CLAY PIGEON SHOOTING"
+      },
+      "STRUCTURE": {
+        "score": 0.302,
+        "subshape": "mid",
+        "music_creative": "clay modelling with hand",
+        "profession_tech": "GIS professional",
+        "sport_body": "urban vegetable community gardening"
+      },
+      "FLOW": {
+        "score": 0.249,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "CONTRAST": {
+        "score": 0.189,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      }
+    }
+  },
+  {
+    "num": 93,
+    "element": "Np",
+    "profile": "ISFP_F_A",
+    "mbti": "ISFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.343,
+        "subshape": "mid",
+        "music_creative": "indie folk",
+        "profession_tech": "cartographic illustration",
+        "sport_body": "NORDIC SKIING"
+      },
+      "EMERGENCE": {
+        "score": 0.341,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary dance choreography",
+        "profession_tech": "IOT Engineer",
+        "sport_body": "bouldering"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "subshape": "mid",
+        "music_creative": "noise rock",
+        "profession_tech": "tactical training",
+        "sport_body": "rugby"
+      }
+    }
+  },
+  {
+    "num": 94,
+    "element": "Pu",
+    "profile": "ISFP_M_O",
+    "mbti": "ISFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.5,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "subshape": "high_rh",
+        "music_creative": " rollerskating park recreational",
+        "profession_tech": "regional designer",
+        "sport_body": "surfing"
+      },
+      "CONTRAST": {
+        "score": 0.383,
+        "subshape": "high_dr",
+        "music_creative": "mittwork shadow boxing",
+        "profession_tech": "Wood carving",
+        "sport_body": "marksmanship"
+      },
+      "EMERGENCE": {
+        "score": 0.345,
+        "subshape": "mid",
+        "music_creative": "drone aerial photography",
+        "profession_tech": "vr visual programming",
+        "sport_body": "ice dance"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "subshape": "mid",
+        "music_creative": "clay modelling with hand",
+        "profession_tech": "GIS professional",
+        "sport_body": "urban vegetable community gardening"
+      }
+    }
+  },
+  {
+    "num": 95,
+    "element": "Am",
+    "profile": "INFP_F_A",
+    "mbti": "INFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.343,
+        "subshape": "mid",
+        "music_creative": "Play electric guitar, avant pop",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      },
+      "EMERGENCE": {
+        "score": 0.341,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      }
+    }
+  },
+  {
+    "num": 96,
+    "element": "Cm",
+    "profile": "ISFP_F_A",
+    "mbti": "ISFP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.343,
+        "subshape": "mid",
+        "music_creative": "gentle swimming",
+        "profession_tech": "childrens book illustrator",
+        "sport_body": "slack lining"
+      },
+      "EMERGENCE": {
+        "score": 0.341,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary classical / writing mystery novels",
+        "profession_tech": "Leader who leads through debate and persuasion",
+        "sport_body": "EPEE FENCING"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "CONTRAST": {
+        "score": 0.204,
+        "subshape": "mid",
+        "music_creative": "shoegaze / longboard downhill",
+        "profession_tech": "SEISMOLOGIST",
+        "sport_body": "SURFING FREERIDE"
+      }
+    }
+  },
+  {
+    "num": 97,
+    "element": "Bk",
+    "profile": "ISTJ_M_O",
+    "mbti": "ISTJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 1.0,
+      "p": 0.15,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.24,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.542,
+        "subshape": "high_dr",
+        "music_creative": "Judo Clean and Jerk",
+        "profession_tech": "vfx motion graphic artist",
+        "sport_body": "obstacle course racing"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "STRUCTURE": {
+        "score": 0.329,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      },
+      "EMERGENCE": {
+        "score": 0.298,
+        "subshape": "mid",
+        "music_creative": "ceramic art",
+        "profession_tech": "Computer art",
+        "sport_body": "flyboarding hover"
+      }
+    }
+  },
+  {
+    "num": 98,
+    "element": "Cf",
+    "profile": "ENTP_M_A",
+    "mbti": "ENTP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.36,
+      "h": 0.188,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.45,
+      "gamma": 0.338,
+      "g": 0.15,
+      "nu": 0.112
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.366,
+        "subshape": "high_ds",
+        "music_creative": "glitch opera",
+        "profession_tech": "circuit bending",
+        "sport_body": "soil piezoenergy engineer"
+      },
+      "FLOW": {
+        "score": 0.325,
+        "subshape": "high_gammas",
+        "music_creative": "SPACE ROCK",
+        "profession_tech": "motion graphic designer",
+        "sport_body": "shortboard aerial surfing"
+      },
+      "EMERGENCE": {
+        "score": 0.195,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "STRUCTURE": {
+        "score": 0.188,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      }
+    }
+  },
+  {
+    "num": 99,
+    "element": "Es",
+    "profile": "ESFJ_M_A",
+    "mbti": "ESFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.225,
+      "d": 0.75,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.338,
+      "g": 0.09,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.418,
+        "subshape": "high_dr",
+        "music_creative": "EXTREME SPORTS EVENT CREATOR",
+        "profession_tech": "airsoft",
+        "sport_body": "BMX racing individual pursuit"
+      },
+      "FLOW": {
+        "score": 0.279,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "STRUCTURE": {
+        "score": 0.238,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      },
+      "EMERGENCE": {
+        "score": 0.215,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      }
+    }
+  },
+  {
+    "num": 100,
+    "element": "Fm",
+    "profile": "INTP_F_A",
+    "mbti": "INTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.202,
+      "d": 0.15,
+      "p": 0.375,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.27
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.32,
+        "subshape": "high_gp",
+        "music_creative": "NEOCLASSICAL composition",
+        "profession_tech": "3D GRAPHICS DEVELOPER",
+        "sport_body": "tennis baseline strategy"
+      },
+      "EMERGENCE": {
+        "score": 0.254,
+        "subshape": "mid",
+        "music_creative": "planatary stargazing",
+        "profession_tech": "Landscape painting after work from memory or sunset",
+        "sport_body": "Freeride snowboard"
+      },
+      "CONTRAST": {
+        "score": 0.232,
+        "subshape": "mid",
+        "music_creative": "progressive techno",
+        "profession_tech": "cryptographer",
+        "sport_body": "fjord coastal trekking"
+      },
+      "FLOW": {
+        "score": 0.216,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      }
+    }
+  },
+  {
+    "num": 101,
+    "element": "Md",
+    "profile": "ENFP_F_O",
+    "mbti": "ENFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.6,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.42,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.448,
+        "subshape": "high_rh",
+        "music_creative": "NEW WAVE / site specific atmospheric dance",
+        "profession_tech": "VR AR ENVIRONMENT DESIGN",
+        "sport_body": "KORFBALL ATTACK (indoor wavepool surf)"
+      },
+      "CONTRAST": {
+        "score": 0.353,
+        "subshape": "high_sr",
+        "music_creative": "mixed media digital analogue collage",
+        "profession_tech": "rhythm roller skating",
+        "sport_body": "up cycling"
+      },
+      "EMERGENCE": {
+        "score": 0.329,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary classical / writing mystery novels",
+        "profession_tech": "Leader who leads through debate and persuasion",
+        "sport_body": "EPEE FENCING"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 102,
+    "element": "No",
+    "profile": "ISFJ_M_A",
+    "mbti": "ISFJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.112,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.405,
+      "g": 0.3,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.287,
+        "subshape": "high_dr",
+        "music_creative": "mittwork shadow boxing",
+        "profession_tech": "Wood carving",
+        "sport_body": "marksmanship"
+      },
+      "FLOW": {
+        "score": 0.268,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "STRUCTURE": {
+        "score": 0.255,
+        "subshape": "high_dg",
+        "music_creative": "SF worldbuilding",
+        "profession_tech": "vbeer brewing hobby",
+        "sport_body": "free climbing multipitch"
+      },
+      "EMERGENCE": {
+        "score": 0.246,
+        "subshape": "mid",
+        "music_creative": "planatary stargazing",
+        "profession_tech": "Landscape painting after work from memory or sunset",
+        "sport_body": "Freeride snowboard"
+      }
+    }
+  },
+  {
+    "num": 103,
+    "element": "Lr",
+    "profile": "ESTP_F_O",
+    "mbti": "ESTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.18,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.42,
+      "gamma": 0.25,
+      "g": 1.0,
+      "nu": 0.3
+    },
+    "shapes": {
+      "STRUCTURE": {
+        "score": 0.515,
+        "subshape": "mid",
+        "music_creative": "bookbinding",
+        "profession_tech": "tax planner (coordinator)",
+        "sport_body": "3 cushion billiards"
+      },
+      "EMERGENCE": {
+        "score": 0.465,
+        "subshape": "high_hg",
+        "music_creative": "Chamber pop",
+        "profession_tech": "precision pen drawing",
+        "sport_body": "Digital forensics"
+      },
+      "FLOW": {
+        "score": 0.301,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "CONTRAST": {
+        "score": 0.269,
+        "subshape": "mid",
+        "music_creative": "mountain biking downhill",
+        "profession_tech": "acrylic/paint pour",
+        "sport_body": "trail running steep"
+      }
+    }
+  },
+  {
+    "num": 104,
+    "element": "Rf",
+    "profile": "ENTP_F_O",
+    "mbti": "ENTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.36,
+      "h": 0.45,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.7,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.406,
+        "subshape": "high_rh",
+        "music_creative": "Contemporary dance music / spontaneous edm djing",
+        "profession_tech": "Real Time databoard visualisation",
+        "sport_body": "icehockey wing"
+      },
+      "CONTRAST": {
+        "score": 0.389,
+        "subshape": "high_sr",
+        "music_creative": "avant pop",
+        "profession_tech": "light artist",
+        "sport_body": "board game competitive"
+      },
+      "EMERGENCE": {
+        "score": 0.329,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      }
+    }
+  },
+  {
+    "num": 105,
+    "element": "Db",
+    "profile": "ENTJ_M_A",
+    "mbti": "ENTJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.188,
+      "d": 0.75,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.405,
+      "g": 0.09,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.418,
+        "subshape": "high_dr",
+        "music_creative": "muay thai",
+        "profession_tech": "TV journalist",
+        "sport_body": "tactical precision fps"
+      },
+      "FLOW": {
+        "score": 0.287,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      },
+      "STRUCTURE": {
+        "score": 0.238,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      },
+      "EMERGENCE": {
+        "score": 0.222,
+        "subshape": "mid",
+        "music_creative": "acoustic arrangement",
+        "profession_tech": "acoustic arrangement",
+        "sport_body": "yoga restorative"
+      }
+    }
+  },
+  {
+    "num": 106,
+    "element": "Sg",
+    "profile": "INFP_M_O",
+    "mbti": "INFP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.5,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.2,
+      "nu": 0.15
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.445,
+        "subshape": "high_rh",
+        "music_creative": "j turntablist / Indie rock comp",
+        "profession_tech": "stunt performer",
+        "sport_body": "rhythmic fencing"
+      },
+      "CONTRAST": {
+        "score": 0.383,
+        "subshape": "high_dr",
+        "music_creative": "muay thai",
+        "profession_tech": "TV journalist",
+        "sport_body": "tactical precision fps"
+      },
+      "EMERGENCE": {
+        "score": 0.345,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "STRUCTURE": {
+        "score": 0.25,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 107,
+    "element": "Bh",
+    "profile": "ISFP_M_A",
+    "mbti": "ISFP",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.375,
+      "d": 0.375,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.405,
+      "g": 0.15,
+      "nu": 0.112
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.334,
+        "subshape": "high_rh",
+        "music_creative": "DJ turntablist binaural beat composition",
+        "profession_tech": "game sound designer",
+        "sport_body": "BMX street"
+      },
+      "CONTRAST": {
+        "score": 0.287,
+        "subshape": "high_dr",
+        "music_creative": "Free jazz composition",
+        "profession_tech": "horologist",
+        "sport_body": "free climbing"
+      },
+      "EMERGENCE": {
+        "score": 0.259,
+        "subshape": "mid",
+        "music_creative": "needlepoint canvas work",
+        "profession_tech": "tufting",
+        "sport_body": "running in the nature"
+      },
+      "STRUCTURE": {
+        "score": 0.188,
+        "subshape": "mid",
+        "music_creative": "precision pen drawing",
+        "profession_tech": "INTERIOR DESIGN RENDER",
+        "sport_body": "inline skating slalom"
+      }
+    }
+  },
+  {
+    "num": 108,
+    "element": "Hs",
+    "profile": "ISTP_M_O",
+    "mbti": "ISTP",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.25,
+      "d": 0.3,
+      "p": 0.3,
+      "s": 0.3,
+      "gamma": 0.45,
+      "g": 0.2,
+      "nu": 0.5
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.365,
+        "subshape": "high_nugamma",
+        "music_creative": "Berliner schule composition",
+        "profession_tech": "textile designer",
+        "sport_body": "park/bowls skateboarding"
+      },
+      "FLOW": {
+        "score": 0.36,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "CONTRAST": {
+        "score": 0.32,
+        "subshape": "mid",
+        "music_creative": "shoegaze / longboard downhill",
+        "profession_tech": "SEISMOLOGIST",
+        "sport_body": "SURFING FREERIDE"
+      },
+      "STRUCTURE": {
+        "score": 0.305,
+        "subshape": "high_nup",
+        "music_creative": "fractal art",
+        "profession_tech": "white hacker",
+        "sport_body": "polar trekking"
+      }
+    }
+  },
+  {
+    "num": 109,
+    "element": "Mt",
+    "profile": "ISTJ_F_O",
+    "mbti": "ISTJ",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.4,
+      "p": 0.15,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.6,
+      "nu": 0.3
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.385,
+        "subshape": "high_hg",
+        "music_creative": "improvisational pianist",
+        "profession_tech": "battleship shooting games",
+        "sport_body": "CLAY PIGEON SHOOTING"
+      },
+      "STRUCTURE": {
+        "score": 0.375,
+        "subshape": "high_dg",
+        "music_creative": "glitch opera (structured)",
+        "profession_tech": "Car cpu developer",
+        "sport_body": "marksmanship precision"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "subshape": "mid",
+        "music_creative": "rollerskating park recreational",
+        "profession_tech": "independent fashion designer",
+        "sport_body": "yoga vinyasa afterwork"
+      },
+      "CONTRAST": {
+        "score": 0.327,
+        "subshape": "high_ds",
+        "music_creative": "noise ambient",
+        "profession_tech": "salt paint art",
+        "sport_body": "nature photography"
+      }
+    }
+  },
+  {
+    "num": 110,
+    "element": "Ds",
+    "profile": "ENTJ_M_A",
+    "mbti": "ENTJ",
+    "gender": "M",
+    "blood": "A",
+    "vector": {
+      "r": 0.3,
+      "h": 0.188,
+      "d": 0.75,
+      "p": 0.188,
+      "s": 0.225,
+      "gamma": 0.405,
+      "g": 0.09,
+      "nu": 0.188
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.418,
+        "subshape": "high_dr",
+        "music_creative": "EXTREME SPORTS EVENT CREATOR",
+        "profession_tech": "airsoft",
+        "sport_body": "BMX racing individual pursuit"
+      },
+      "FLOW": {
+        "score": 0.287,
+        "subshape": "mid",
+        "music_creative": "roller derby avant pop (city pop synth)",
+        "profession_tech": "urban planning",
+        "sport_body": "trail running"
+      },
+      "STRUCTURE": {
+        "score": 0.238,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      },
+      "EMERGENCE": {
+        "score": 0.222,
+        "subshape": "mid",
+        "music_creative": "needlepoint canvas work",
+        "profession_tech": "tufting",
+        "sport_body": "running in the nature"
+      }
+    }
+  },
+  {
+    "num": 111,
+    "element": "Rg",
+    "profile": "ENTP_F_A",
+    "mbti": "ENTP",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.27,
+      "h": 0.338,
+      "d": 0.15,
+      "p": 0.188,
+      "s": 0.525,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.304,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "CONTRAST": {
+        "score": 0.292,
+        "subshape": "mid",
+        "music_creative": "mountain biking downhill",
+        "profession_tech": "acrylic/paint pour",
+        "sport_body": "trail running steep"
+      },
+      "EMERGENCE": {
+        "score": 0.247,
+        "subshape": "high_hg",
+        "music_creative": "Chamber pop",
+        "profession_tech": "precision pen drawing",
+        "sport_body": "Digital forensics"
+      },
+      "STRUCTURE": {
+        "score": 0.237,
+        "subshape": "mid",
+        "music_creative": "felt making",
+        "profession_tech": "soil scientist",
+        "sport_body": "cart racing precision"
+      }
+    }
+  },
+  {
+    "num": 112,
+    "element": "Cn",
+    "profile": "ISTP_F_O",
+    "mbti": "ISTP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.45,
+      "d": 0.12,
+      "p": 0.3,
+      "s": 0.35,
+      "gamma": 0.25,
+      "g": 0.5,
+      "nu": 0.6
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.455,
+        "subshape": "high_hg",
+        "music_creative": "Folktronica composition Adventure racing",
+        "profession_tech": "Biophillic architectural design",
+        "sport_body": "biathlon"
+      },
+      "STRUCTURE": {
+        "score": 0.403,
+        "subshape": "high_nup",
+        "music_creative": "fractal art",
+        "profession_tech": "white hacker",
+        "sport_body": "polar trekking"
+      },
+      "FLOW": {
+        "score": 0.333,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "CONTRAST": {
+        "score": 0.252,
+        "subshape": "mid",
+        "music_creative": "cliff diving",
+        "profession_tech": "industrial graphic design",
+        "sport_body": "postrock / Hammock"
+      }
+    }
+  },
+  {
+    "num": 113,
+    "element": "Nh",
+    "profile": "INFJ_F_A",
+    "mbti": "INFJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.405,
+      "d": 0.15,
+      "p": 0.112,
+      "s": 0.262,
+      "gamma": 0.375,
+      "g": 0.375,
+      "nu": 0.225
+    },
+    "shapes": {
+      "EMERGENCE": {
+        "score": 0.338,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary classical / writing mystery novels",
+        "profession_tech": "Leader who leads through debate and persuasion",
+        "sport_body": "EPEE FENCING"
+      },
+      "FLOW": {
+        "score": 0.313,
+        "subshape": "mid",
+        "music_creative": "progressive rock",
+        "profession_tech": "roller skating (park recreational)",
+        "sport_body": "taebo class"
+      },
+      "STRUCTURE": {
+        "score": 0.232,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      },
+      "CONTRAST": {
+        "score": 0.193,
+        "subshape": "mid",
+        "music_creative": "shoegaze / longboard downhill",
+        "profession_tech": "SEISMOLOGIST",
+        "sport_body": "SURFING FREERIDE"
+      }
+    }
+  },
+  {
+    "num": 114,
+    "element": "Fl",
+    "profile": "ISFP_F_O",
+    "mbti": "ISFP",
+    "gender": "F",
+    "blood": "O",
+    "vector": {
+      "r": 0.3,
+      "h": 0.9,
+      "d": 0.2,
+      "p": 0.25,
+      "s": 0.35,
+      "gamma": 0.3,
+      "g": 0.5,
+      "nu": 0.18
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.458,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "EMERGENCE": {
+        "score": 0.454,
+        "subshape": "high_hg",
+        "music_creative": "Contemporary classical / writing mystery novels",
+        "profession_tech": "Leader who leads through debate and persuasion",
+        "sport_body": "EPEE FENCING"
+      },
+      "STRUCTURE": {
+        "score": 0.316,
+        "subshape": "mid",
+        "music_creative": "traditional music transcription",
+        "profession_tech": "archival research",
+        "sport_body": "racketball"
+      },
+      "CONTRAST": {
+        "score": 0.272,
+        "subshape": "mid",
+        "music_creative": "shoegaze / longboard downhill",
+        "profession_tech": "SEISMOLOGIST",
+        "sport_body": "SURFING FREERIDE"
+      }
+    }
+  },
+  {
+    "num": 115,
+    "element": "Mc",
+    "profile": "ISFJ_M_O",
+    "mbti": "ISFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.15,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.4,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.383,
+        "subshape": "high_dr",
+        "music_creative": "muay thai",
+        "profession_tech": "TV journalist",
+        "sport_body": "tactical precision fps"
+      },
+      "FLOW": {
+        "score": 0.357,
+        "subshape": "mid",
+        "music_creative": "roller derby avant pop (city pop synth)",
+        "profession_tech": "urban planning",
+        "sport_body": "trail running"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "subshape": "high_dg",
+        "music_creative": "Berliner schule composition",
+        "profession_tech": "IOT Engineer",
+        "sport_body": "ice climbing waterfall"
+      },
+      "EMERGENCE": {
+        "score": 0.328,
+        "subshape": "mid",
+        "music_creative": "needlepoint canvas work",
+        "profession_tech": "tufting",
+        "sport_body": "running in the nature"
+      }
+    }
+  },
+  {
+    "num": 116,
+    "element": "Lv",
+    "profile": "ENTJ_F_A",
+    "mbti": "ENTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.338,
+      "d": 0.3,
+      "p": 0.188,
+      "s": 0.262,
+      "gamma": 0.225,
+      "g": 0.225,
+      "nu": 0.225
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.259,
+        "subshape": "mid",
+        "music_creative": "Amb folk composition",
+        "profession_tech": "software product manager (technical)",
+        "sport_body": "artistic swimming"
+      },
+      "CONTRAST": {
+        "score": 0.257,
+        "subshape": "mid",
+        "music_creative": "shoegaze / longboard downhill",
+        "profession_tech": "SEISMOLOGIST",
+        "sport_body": "SURFING FREERIDE"
+      },
+      "EMERGENCE": {
+        "score": 0.253,
+        "subshape": "mid",
+        "music_creative": "marbling art ebru",
+        "profession_tech": "netball wing attack",
+        "sport_body": "alps hiking"
+      },
+      "STRUCTURE": {
+        "score": 0.225,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      }
+    }
+  },
+  {
+    "num": 117,
+    "element": "Ts",
+    "profile": "ISFJ_M_O",
+    "mbti": "ISFJ",
+    "gender": "M",
+    "blood": "O",
+    "vector": {
+      "r": 0.4,
+      "h": 0.15,
+      "d": 0.5,
+      "p": 0.25,
+      "s": 0.3,
+      "gamma": 0.54,
+      "g": 0.4,
+      "nu": 0.25
+    },
+    "shapes": {
+      "CONTRAST": {
+        "score": 0.383,
+        "subshape": "high_dr",
+        "music_creative": "mittwork shadow boxing",
+        "profession_tech": "Wood carving",
+        "sport_body": "marksmanship"
+      },
+      "FLOW": {
+        "score": 0.357,
+        "subshape": "mid",
+        "music_creative": "tango",
+        "profession_tech": "Interface designer",
+        "sport_body": "beach volleyball"
+      },
+      "STRUCTURE": {
+        "score": 0.34,
+        "subshape": "high_dg",
+        "music_creative": "dark textile weaving",
+        "profession_tech": "special forces agent",
+        "sport_body": "SERE training"
+      },
+      "EMERGENCE": {
+        "score": 0.328,
+        "subshape": "mid",
+        "music_creative": "planatary stargazing",
+        "profession_tech": "Landscape painting after work from memory or sunset",
+        "sport_body": "Freeride snowboard"
+      }
+    }
+  },
+  {
+    "num": 118,
+    "element": "Og",
+    "profile": "INTJ_F_A",
+    "mbti": "INTJ",
+    "gender": "F",
+    "blood": "A",
+    "vector": {
+      "r": 0.225,
+      "h": 0.675,
+      "d": 0.15,
+      "p": 0.225,
+      "s": 0.262,
+      "gamma": 0.188,
+      "g": 0.375,
+      "nu": 0.135
+    },
+    "shapes": {
+      "FLOW": {
+        "score": 0.334,
+        "subshape": "mid",
+        "music_creative": "Play electric guitar, avant pop",
+        "profession_tech": "light artist",
+        "sport_body": "paddleboard"
+      },
+      "EMERGENCE": {
+        "score": 0.331,
+        "subshape": "high_hg",
+        "music_creative": "Chamber pop",
+        "profession_tech": "precision pen drawing",
+        "sport_body": "Digital forensics"
+      },
+      "STRUCTURE": {
+        "score": 0.248,
+        "subshape": "mid",
+        "music_creative": "watchmaking",
+        "profession_tech": "precision instrument calibration",
+        "sport_body": "competitive rubiks cube"
+      },
+      "CONTRAST": {
+        "score": 0.21,
+        "subshape": "mid",
+        "music_creative": "mountain biking downhill",
+        "profession_tech": "acrylic/paint pour",
+        "sport_body": "trail running steep"
+      }
+    }
+  }
+]

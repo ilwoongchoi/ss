@@ -1,0 +1,504 @@
+﻿====================================================================================================
+GENERATED 47 MISSING CIRCUIT NODES
+====================================================================================================
+
+## NEW NODES
+
+ID  | Node Name                        | Gate         | Particle       | Element    | 8D | Location           | Mirror
+------------------------------------------------------------------------------------------------------------------------
+283 | bladder                         | tristate    | neutrino      | Te(52)    | 8D: r-dim| bladder           | -
+284 | diaphragm                       | tristate    | photon        | I(53)     | 8D: r-dim| diaphragm         | -
+285 | left_ankle                      | AND         | z_boson       | Br(35)    | 8D: r-dim| left_ankle        | right ankle
+286 | left_arm                        | AND         | gluon         | Ga(31)    | 8D: g-dim| left_arm          | right arm
+287 | left_cheek                      | MUX         | electron      | K(19)     | 8D: s-dim| left_cheek        | right cheek
+288 | left_clavicle                   | AND         | proton        | Mo(42)    | 8D: r-dim| left_clavicle     | right clavicle
+289 | left_dorsal_foot                | AND         | electron      | Sr(38)    | 8D: r-dim| left_dorsal_foot  | right dorsal foot
+290 | left_eye_inner                  | MUX         | photon        | Cu(29)    | 8D: s-dim| left_eye_inner    | right eye inner
+291 | left_fingers                    | AND         | photon        | Se(34)    | 8D: g-dim| left_fingers      | right fingers
+292 | left_hand                       | AND         | proton        | As(33)    | 8D: g-dim| left_hand         | right hand
+293 | left_jaw                        | AND         | tau           | Ti(22)    | 8D: r-dim| left_jaw          | right jaw
+294 | left_kidney                     | tristate    | higgs         | Y(39)     | 8D: r-dim| left_kidney       | right kidney
+295 | left_lung                       | tristate    | photon        | Zr(40)    | 8D: h-dim| left_lung         | right lung
+296 | left_nose                       | MUX         | quark         | Si(14)    | 8D: d-dim| left_nose         | right nose
+297 | left_popliteal                  | AND         | neutrino      | Kr(36)    | 8D: r-dim| left_popliteal    | right popliteal
+298 | left_shoulder                   | AND         | w_boson       | Zn(30)    | 8D: gamma-dim| left_shoulder     | right shoulder
+299 | left_temple                     | MUX         | muon          | Mn(25)    | 8D: h-dim| left_temple       | right temple
+300 | left_testis                     | AND         | z_boson       | Tc(43)    | 8D: r-dim| left_testis       | right testis
+301 | left_tibial                     | AND         | muon          | Rb(37)    | 8D: r-dim| left_tibial       | right tibial
+302 | left_upper_back                 | AND         | w_boson       | Nb(41)    | 8D: gamma-dim| left_upper_back   | right upper back
+303 | left_wrist                      | AND         | neutrino      | Ge(32)    | 8D: g-dim| left_wrist        | right wrist
+304 | nose_center                     | MUX         | graviton      | Ca(20)    | 8D: d-dim| nose_center       | -
+305 | prostate                        | tristate    | z_boson       | Xe(54)    | 8D: r-dim| prostate          | -
+306 | right_abdomen                   | AND         | higgs         | Cd(48)    | 8D: r-dim| right_abdomen     | left abdomen
+307 | right_ankle                     | AND         | z_boson       | Br(35)    | 8D: r-dim| right_ankle       | left ankle
+308 | right_calf                      | AND         | tau           | In(49)    | 8D: r-dim| right_calf        | left calf
+309 | right_cheek                     | MUX         | electron      | K(19)     | 8D: s-dim| right_cheek       | left cheek
+310 | right_clavicle                  | AND         | proton        | Mo(42)    | 8D: r-dim| right_clavicle    | left clavicle
+311 | right_dorsal_foot               | AND         | electron      | Sr(38)    | 8D: r-dim| right_dorsal_foot | left dorsal foot
+312 | right_femoral                   | OR          | proton        | Fe(26)    | 8D: r-dim| right_femoral     | left femoral
+313 | right_forehead                  | AND         | electron      | Ru(44)    | 8D: r-dim| right_forehead    | left forehead
+314 | right_genital                   | AND         | proton        | Rh(45)    | 8D: d-dim| right_genital     | left genital
+315 | right_jaw                       | AND         | tau           | Ti(22)    | 8D: r-dim| right_jaw         | left jaw
+316 | right_kidney                    | tristate    | higgs         | Y(39)     | 8D: r-dim| right_kidney      | left kidney
+317 | right_knee                      | AND         | graviton      | Sn(50)    | 8D: r-dim| right_knee        | left knee
+318 | right_lung                      | tristate    | photon        | Zr(40)    | 8D: h-dim| right_lung        | left lung
+319 | right_neck                      | AND         | muon          | Pd(46)    | 8D: r-dim| right_neck        | left neck
+320 | right_nipple                    | AND         | gluon         | Ag(47)    | 8D: r-dim| right_nipple      | left nipple
+321 | right_nose                      | MUX         | quark         | Si(14)    | 8D: d-dim| right_nose        | left nose
+322 | right_popliteal                 | AND         | neutrino      | Kr(36)    | 8D: r-dim| right_popliteal   | left popliteal
+323 | right_shoulder                  | AND         | w_boson       | Zn(30)    | 8D: gamma-dim| right_shoulder    | left shoulder
+324 | right_testis                    | AND         | z_boson       | Tc(43)    | 8D: r-dim| right_testis      | left testis
+325 | right_tibial                    | AND         | muon          | Rb(37)    | 8D: r-dim| right_tibial      | left tibial
+326 | right_upper_back                | AND         | w_boson       | Nb(41)    | 8D: gamma-dim| right_upper_back  | left upper back
+327 | right_waist                     | AND         | neutrino      | Sb(51)    | 8D: nu-dim| right_waist       | left waist
+328 | spleen                          | tristate    | strange_quark | Cs(55)    | 8D: r-dim| spleen            | -
+329 | uterus                          | tristate    | higgs         | Ba(56)    | 8D: r-dim| uterus            | -
+
+## NEW NODES BY PARTICLE
+
+  electron: 5 ??left_cheek, left_dorsal_foot, right_cheek, right_dorsal_foot, right_forehead
+  gluon: 2 ??left_arm, right_nipple
+  graviton: 2 ??nose_center, right_knee
+  higgs: 4 ??left_kidney, right_abdomen, right_kidney, uterus
+  muon: 4 ??left_temple, left_tibial, right_neck, right_tibial
+  neutrino: 5 ??bladder, left_popliteal, left_wrist, right_popliteal, right_waist
+  photon: 5 ??diaphragm, left_eye_inner, left_fingers, left_lung, right_lung
+  proton: 5 ??left_clavicle, left_hand, right_clavicle, right_femoral, right_genital
+  quark: 2 ??left_nose, right_nose
+  strange_quark: 1 ??spleen
+  tau: 3 ??left_jaw, right_calf, right_jaw
+  w_boson: 4 ??left_shoulder, left_upper_back, right_shoulder, right_upper_back
+  z_boson: 5 ??left_ankle, left_testis, prostate, right_ankle, right_testis
+
+## NEW NODES BY 8D DIMENSION
+
+  d: 4 ??left_nose, nose_center, right_genital, right_nose
+  g: 4 ??left_arm, left_fingers, left_hand, left_wrist
+  gamma: 4 ??left_shoulder, left_upper_back, right_shoulder, right_upper_back
+  h: 3 ??left_lung, left_temple, right_lung
+  nu: 1 ??right_waist
+  r: 28 ??bladder, diaphragm, left_ankle, left_clavicle, left_dorsal_foot, left_jaw, left_kidney, left_popliteal, left_testis, left_tibial, prostate, right_abdomen, right_ankle, right_calf, right_clavicle, right_dorsal_foot, right_femoral, right_forehead, right_jaw, right_kidney, right_knee, right_neck, right_nipple, right_popliteal, right_testis, right_tibial, spleen, uterus
+  s: 3 ??left_cheek, left_eye_inner, right_cheek
+
+## NEW NODES BY GATE TYPE
+
+  AND: 30 ??left_ankle, left_arm, left_clavicle, left_dorsal_foot, left_fingers, left_hand, left_jaw, left_popliteal, left_shoulder, left_testis, left_tibial, left_upper_back, left_wrist, right_abdomen, right_ankle, right_calf, right_clavicle, right_dorsal_foot, right_forehead, right_genital, right_jaw, right_knee, right_neck, right_nipple, right_popliteal, right_shoulder, right_testis, right_tibial, right_upper_back, right_waist
+  MUX: 7 ??left_cheek, left_eye_inner, left_nose, left_temple, nose_center, right_cheek, right_nose
+  OR: 1 ??right_femoral
+  tristate: 9 ??bladder, diaphragm, left_kidney, left_lung, prostate, right_kidney, right_lung, spleen, uterus
+
+## MIRROR PAIR ANALYSIS
+
+  [CENTER] bladder (no mirror)
+  [CENTER] diaphragm (no mirror)
+  [BOTH MISSING] left_ankle ??right_ankle (both sides empty)
+  [MIRROR EXISTS] left_arm ??right arm (right side has node)
+  [BOTH MISSING] left_cheek ??right_cheek (both sides empty)
+  [BOTH MISSING] left_clavicle ??right_clavicle (both sides empty)
+  [BOTH MISSING] left_dorsal_foot ??right_dorsal_foot (both sides empty)
+  [MIRROR EXISTS] left_eye_inner ??right eye inner (right side has node)
+  [MIRROR EXISTS] left_fingers ??right fingers (right side has node)
+  [MIRROR EXISTS] left_hand ??right hand (right side has node)
+  [BOTH MISSING] left_jaw ??right_jaw (both sides empty)
+  [BOTH MISSING] left_kidney ??right_kidney (both sides empty)
+  [BOTH MISSING] left_lung ??right_lung (both sides empty)
+  [BOTH MISSING] left_nose ??right_nose (both sides empty)
+  [BOTH MISSING] left_popliteal ??right_popliteal (both sides empty)
+  [BOTH MISSING] left_shoulder ??right_shoulder (both sides empty)
+  [MIRROR EXISTS] left_temple ??right temple (right side has node)
+  [BOTH MISSING] left_testis ??right_testis (both sides empty)
+  [BOTH MISSING] left_tibial ??right_tibial (both sides empty)
+  [BOTH MISSING] left_upper_back ??right_upper_back (both sides empty)
+  [MIRROR EXISTS] left_wrist ??right wrist (right side has node)
+  [CENTER] nose_center (no mirror)
+  [CENTER] prostate (no mirror)
+  [CENTER] spleen (no mirror)
+  [CENTER] uterus (no mirror)
+
+## SUGGESTED WIRING FOR NEW NODES
+
+  bladder [tristate]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Te(52), particle=neutrino
+    LOCATION: bladder
+    8D: r-dim
+
+  diaphragm [tristate]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=I(53), particle=photon
+    LOCATION: diaphragm
+    8D: r-dim
+
+  left_ankle [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Br(35), particle=z_boson
+    LOCATION: left ankle
+    8D: r-dim
+
+  left_arm [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in g-dim pathway)
+    PHYSICS: element=Ga(31), particle=gluon
+    LOCATION: left arm
+    8D: g-dim
+
+  left_cheek [MUX]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in s-dim pathway)
+    PHYSICS: element=K(19), particle=electron
+    LOCATION: left cheek
+    8D: s-dim
+
+  left_clavicle [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Mo(42), particle=proton
+    LOCATION: left clavicle
+    8D: r-dim
+
+  left_dorsal_foot [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Sr(38), particle=electron
+    LOCATION: left dorsal foot
+    8D: r-dim
+
+  left_eye_inner [MUX]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in s-dim pathway)
+    PHYSICS: element=Cu(29), particle=photon
+    LOCATION: left eye inner
+    8D: s-dim
+
+  left_fingers [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in g-dim pathway)
+    PHYSICS: element=Se(34), particle=photon
+    LOCATION: left fingers
+    8D: g-dim
+
+  left_hand [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in g-dim pathway)
+    PHYSICS: element=As(33), particle=proton
+    LOCATION: left hand
+    8D: g-dim
+
+  left_jaw [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Ti(22), particle=tau
+    LOCATION: left jaw
+    8D: r-dim
+
+  left_kidney [tristate]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Y(39), particle=higgs
+    LOCATION: left kidney
+    8D: r-dim
+
+  left_lung [tristate]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in h-dim pathway)
+    PHYSICS: element=Zr(40), particle=photon
+    LOCATION: left lung
+    8D: h-dim
+
+  left_nose [MUX]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in d-dim pathway)
+    PHYSICS: element=Si(14), particle=quark
+    LOCATION: left nose
+    8D: d-dim
+
+  left_popliteal [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Kr(36), particle=neutrino
+    LOCATION: left popliteal
+    8D: r-dim
+
+  left_shoulder [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in gamma-dim pathway)
+    PHYSICS: element=Zn(30), particle=w_boson
+    LOCATION: left shoulder
+    8D: gamma-dim
+
+  left_temple [MUX]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in h-dim pathway)
+    PHYSICS: element=Mn(25), particle=muon
+    LOCATION: left temple
+    8D: h-dim
+
+  left_testis [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Tc(43), particle=z_boson
+    LOCATION: left testis
+    8D: r-dim
+
+  left_tibial [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Rb(37), particle=muon
+    LOCATION: left tibial
+    8D: r-dim
+
+  left_upper_back [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in gamma-dim pathway)
+    PHYSICS: element=Nb(41), particle=w_boson
+    LOCATION: left upper back
+    8D: gamma-dim
+
+  left_wrist [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in g-dim pathway)
+    PHYSICS: element=Ge(32), particle=neutrino
+    LOCATION: left wrist
+    8D: g-dim
+
+  nose_center [MUX]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in d-dim pathway)
+    PHYSICS: element=Ca(20), particle=graviton
+    LOCATION: nose center
+    8D: d-dim
+
+  prostate [tristate]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Xe(54), particle=z_boson
+    LOCATION: prostate
+    8D: r-dim
+
+  right_abdomen [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Cd(48), particle=higgs
+    LOCATION: right abdomen
+    8D: r-dim
+
+  right_ankle [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Br(35), particle=z_boson
+    LOCATION: right ankle
+    8D: r-dim
+
+  right_calf [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=In(49), particle=tau
+    LOCATION: right calf
+    8D: r-dim
+
+  right_cheek [MUX]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in s-dim pathway)
+    PHYSICS: element=K(19), particle=electron
+    LOCATION: right cheek
+    8D: s-dim
+
+  right_clavicle [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Mo(42), particle=proton
+    LOCATION: right clavicle
+    8D: r-dim
+
+  right_dorsal_foot [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Sr(38), particle=electron
+    LOCATION: right dorsal foot
+    8D: r-dim
+
+  right_femoral [OR]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Fe(26), particle=proton
+    LOCATION: right femoral
+    8D: r-dim
+
+  right_forehead [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Ru(44), particle=electron
+    LOCATION: right forehead
+    8D: r-dim
+
+  right_genital [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in d-dim pathway)
+    PHYSICS: element=Rh(45), particle=proton
+    LOCATION: right genital
+    8D: d-dim
+
+  right_jaw [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Ti(22), particle=tau
+    LOCATION: right jaw
+    8D: r-dim
+
+  right_kidney [tristate]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Y(39), particle=higgs
+    LOCATION: right kidney
+    8D: r-dim
+
+  right_knee [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Sn(50), particle=graviton
+    LOCATION: right knee
+    8D: r-dim
+
+  right_lung [tristate]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in h-dim pathway)
+    PHYSICS: element=Zr(40), particle=photon
+    LOCATION: right lung
+    8D: h-dim
+
+  right_neck [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Pd(46), particle=muon
+    LOCATION: right neck
+    8D: r-dim
+
+  right_nipple [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Ag(47), particle=gluon
+    LOCATION: right nipple
+    8D: r-dim
+
+  right_nose [MUX]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in d-dim pathway)
+    PHYSICS: element=Si(14), particle=quark
+    LOCATION: right nose
+    8D: d-dim
+
+  right_popliteal [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Kr(36), particle=neutrino
+    LOCATION: right popliteal
+    8D: r-dim
+
+  right_shoulder [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in gamma-dim pathway)
+    PHYSICS: element=Zn(30), particle=w_boson
+    LOCATION: right shoulder
+    8D: gamma-dim
+
+  right_testis [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Tc(43), particle=z_boson
+    LOCATION: right testis
+    8D: r-dim
+
+  right_tibial [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Rb(37), particle=muon
+    LOCATION: right tibial
+    8D: r-dim
+
+  right_upper_back [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in gamma-dim pathway)
+    PHYSICS: element=Nb(41), particle=w_boson
+    LOCATION: right upper back
+    8D: gamma-dim
+
+  right_waist [AND]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in nu-dim pathway)
+    PHYSICS: element=Sb(51), particle=neutrino
+    LOCATION: right waist
+    8D: nu-dim
+
+  spleen [tristate]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Cs(55), particle=strange_quark
+    LOCATION: spleen
+    8D: r-dim
+
+  uterus [tristate]:
+    in0 ??observer_leftd2.out0
+    in1 ??observer_leftd2.out0
+    out ??(connect to downstream nodes in r-dim pathway)
+    PHYSICS: element=Ba(56), particle=higgs
+    LOCATION: uterus
+    8D: r-dim
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+Original nodes: 282
+New nodes generated: 47
+Total nodes: 329
+Empty regions filled: 47
+Particles covered: 13
+8D dimensions covered: 7

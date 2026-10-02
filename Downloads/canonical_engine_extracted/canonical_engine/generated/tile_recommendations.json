@@ -1,0 +1,832 @@
+{
+  "hour_00": {
+    "Sync": {
+      "vec8": {
+        "r": 0.514,
+        "h": 0.444,
+        "d": 0.41600000000000004,
+        "p": 0.624,
+        "s": 0.5840000000000001,
+        "gamma": 0.47200000000000003,
+        "g": 0.444,
+        "nu": 0.41600000000000004
+      },
+      "tile_name": "Sync",
+      "tile_name_kr": "동기화",
+      "description": "현재 시간에 맞춘 타일 — Circadian Sync",
+      "circuit_meaning": "마스터 클록 동기화 (Master Clock Alignment)",
+      "nodes": [
+        "co2",
+        "observer_leftd2",
+        "memory_entropy"
+      ],
+      "dims": [
+        "r",
+        "p"
+      ],
+      "primary_sphere": "Moon",
+      "secondary_sphere": "Sun",
+      "phase": "AB_spark",
+      "active_sphere": "Sun",
+      "stress_pair": "light_dark",
+      "hour": 0,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Stress": {
+      "vec8": {
+        "r": 0.4640000000000001,
+        "h": 0.5439999999999999,
+        "d": 0.44599999999999995,
+        "p": 0.444,
+        "s": 0.48400000000000004,
+        "gamma": 0.47200000000000003,
+        "g": 0.5640000000000001,
+        "nu": 0.43600000000000005
+      },
+      "tile_name": "Stress",
+      "tile_name_kr": "스트레스 성장",
+      "description": "Stress growth tile",
+      "circuit_meaning": "누출 부채 관리 (Leakage Debt Processing)",
+      "nodes": [
+        "sodium",
+        "chlorine_ion_pump",
+        "cysteine"
+      ],
+      "dims": [
+        "h",
+        "d"
+      ],
+      "primary_sphere": "Earth",
+      "secondary_sphere": "Barnard",
+      "phase": "AB_spark",
+      "active_sphere": "Sun",
+      "stress_pair": "light_dark",
+      "hour": 0,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Hysteresis": {
+      "vec8": {
+        "r": 0.48400000000000004,
+        "h": 0.484,
+        "d": 0.49600000000000005,
+        "p": 0.624,
+        "s": 0.524,
+        "gamma": 0.532,
+        "g": 0.5640000000000001,
+        "nu": 0.5660000000000001
+      },
+      "tile_name": "Hysteresis",
+      "tile_name_kr": "히스테리시스",
+      "description": "위상 도약 타일",
+      "circuit_meaning": "경로 의존적 위상 도약 (Suction Point Handler)",
+      "nodes": [
+        "hind_insula",
+        "laterite",
+        "memory_entropy"
+      ],
+      "dims": [
+        "p",
+        "nu"
+      ],
+      "primary_sphere": "Moon",
+      "secondary_sphere": "CoMag",
+      "phase": "AB_spark",
+      "active_sphere": "Sun",
+      "stress_pair": "light_dark",
+      "hour": 0,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Mirror": {
+      "vec8": {
+        "r": 0.48400000000000004,
+        "h": 0.484,
+        "d": 0.49600000000000005,
+        "p": 0.464,
+        "s": 0.674,
+        "gamma": 0.532,
+        "g": 0.38399999999999995,
+        "nu": 0.45600000000000007
+      },
+      "tile_name": "Mirror",
+      "tile_name_kr": "거울",
+      "description": "방금 블록자리 타일 — Reflection/Inversion",
+      "circuit_meaning": "대칭 반전 및 보정 (The Controlled Inverter)",
+      "nodes": [
+        "left_endorphin_non_observer",
+        "left_endorphin_electron_neutrino"
+      ],
+      "dims": [
+        "s",
+        "g"
+      ],
+      "primary_sphere": "Sun",
+      "secondary_sphere": "CoMag",
+      "phase": "AB_spark",
+      "active_sphere": "Sun",
+      "stress_pair": "light_dark",
+      "hour": 0,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Release": {
+      "vec8": {
+        "r": 0.4640000000000001,
+        "h": 0.464,
+        "d": 0.44599999999999995,
+        "p": 0.444,
+        "s": 0.48400000000000004,
+        "gamma": 0.6020000000000001,
+        "g": 0.5640000000000001,
+        "nu": 0.43600000000000005
+      },
+      "tile_name": "Release",
+      "tile_name_kr": "방전",
+      "description": "Release 타일",
+      "circuit_meaning": "에너지 최종 방전 및 착륙 (Proton Landing)",
+      "nodes": [
+        "cytochrome_c_oxidase",
+        "actomyosin",
+        "right_sole_dopamine"
+      ],
+      "dims": [
+        "gamma",
+        "d"
+      ],
+      "primary_sphere": "Earth",
+      "secondary_sphere": "Barnard",
+      "phase": "AB_spark",
+      "active_sphere": "Sun",
+      "stress_pair": "light_dark",
+      "hour": 0,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    }
+  },
+  "hour_06": {
+    "Sync": {
+      "vec8": {
+        "r": 0.424,
+        "h": 0.47600000000000003,
+        "d": 0.44000000000000006,
+        "p": 0.642,
+        "s": 0.552,
+        "gamma": 0.504,
+        "g": 0.468,
+        "nu": 0.42400000000000004
+      },
+      "tile_name": "Sync",
+      "tile_name_kr": "동기화",
+      "description": "현재 시간에 맞춘 타일 — Circadian Sync",
+      "circuit_meaning": "마스터 클록 동기화 (Master Clock Alignment)",
+      "nodes": [
+        "co2",
+        "observer_leftd2",
+        "memory_entropy"
+      ],
+      "dims": [
+        "r",
+        "p"
+      ],
+      "primary_sphere": "Moon",
+      "secondary_sphere": "Sun",
+      "phase": "A_accumulate",
+      "active_sphere": "Earth",
+      "stress_pair": "o2_co2",
+      "hour": 6,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Stress": {
+      "vec8": {
+        "r": 0.42400000000000004,
+        "h": 0.6159999999999999,
+        "d": 0.5,
+        "p": 0.452,
+        "s": 0.452,
+        "gamma": 0.504,
+        "g": 0.5880000000000001,
+        "nu": 0.444
+      },
+      "tile_name": "Stress",
+      "tile_name_kr": "스트레스 성장",
+      "description": "Stress growth tile",
+      "circuit_meaning": "누출 부채 관리 (Leakage Debt Processing)",
+      "nodes": [
+        "sodium",
+        "chlorine_ion_pump",
+        "cysteine"
+      ],
+      "dims": [
+        "h",
+        "d"
+      ],
+      "primary_sphere": "Earth",
+      "secondary_sphere": "Barnard",
+      "phase": "A_accumulate",
+      "active_sphere": "Earth",
+      "stress_pair": "o2_co2",
+      "hour": 6,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Hysteresis": {
+      "vec8": {
+        "r": 0.444,
+        "h": 0.516,
+        "d": 0.52,
+        "p": 0.642,
+        "s": 0.492,
+        "gamma": 0.5640000000000001,
+        "g": 0.5880000000000001,
+        "nu": 0.5840000000000001
+      },
+      "tile_name": "Hysteresis",
+      "tile_name_kr": "히스테리시스",
+      "description": "위상 도약 타일",
+      "circuit_meaning": "경로 의존적 위상 도약 (Suction Point Handler)",
+      "nodes": [
+        "hind_insula",
+        "laterite",
+        "memory_entropy"
+      ],
+      "dims": [
+        "p",
+        "nu"
+      ],
+      "primary_sphere": "Moon",
+      "secondary_sphere": "CoMag",
+      "phase": "A_accumulate",
+      "active_sphere": "Earth",
+      "stress_pair": "o2_co2",
+      "hour": 6,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Mirror": {
+      "vec8": {
+        "r": 0.444,
+        "h": 0.516,
+        "d": 0.52,
+        "p": 0.47200000000000003,
+        "s": 0.6020000000000001,
+        "gamma": 0.5640000000000001,
+        "g": 0.438,
+        "nu": 0.464
+      },
+      "tile_name": "Mirror",
+      "tile_name_kr": "거울",
+      "description": "방금 블록자리 타일 — Reflection/Inversion",
+      "circuit_meaning": "대칭 반전 및 보정 (The Controlled Inverter)",
+      "nodes": [
+        "left_endorphin_non_observer",
+        "left_endorphin_electron_neutrino"
+      ],
+      "dims": [
+        "s",
+        "g"
+      ],
+      "primary_sphere": "Sun",
+      "secondary_sphere": "CoMag",
+      "phase": "A_accumulate",
+      "active_sphere": "Earth",
+      "stress_pair": "o2_co2",
+      "hour": 6,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Release": {
+      "vec8": {
+        "r": 0.42400000000000004,
+        "h": 0.49600000000000005,
+        "d": 0.5,
+        "p": 0.452,
+        "s": 0.452,
+        "gamma": 0.674,
+        "g": 0.5880000000000001,
+        "nu": 0.444
+      },
+      "tile_name": "Release",
+      "tile_name_kr": "방전",
+      "description": "Release 타일",
+      "circuit_meaning": "에너지 최종 방전 및 착륙 (Proton Landing)",
+      "nodes": [
+        "cytochrome_c_oxidase",
+        "actomyosin",
+        "right_sole_dopamine"
+      ],
+      "dims": [
+        "gamma",
+        "d"
+      ],
+      "primary_sphere": "Earth",
+      "secondary_sphere": "Barnard",
+      "phase": "A_accumulate",
+      "active_sphere": "Earth",
+      "stress_pair": "o2_co2",
+      "hour": 6,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    }
+  },
+  "hour_12": {
+    "Sync": {
+      "vec8": {
+        "r": 0.442,
+        "h": 0.452,
+        "d": 0.43200000000000005,
+        "p": 0.732,
+        "s": 0.544,
+        "gamma": 0.464,
+        "g": 0.452,
+        "nu": 0.4640000000000001
+      },
+      "tile_name": "Sync",
+      "tile_name_kr": "동기화",
+      "description": "현재 시간에 맞춘 타일 — Circadian Sync",
+      "circuit_meaning": "마스터 클록 동기화 (Master Clock Alignment)",
+      "nodes": [
+        "co2",
+        "observer_leftd2",
+        "memory_entropy"
+      ],
+      "dims": [
+        "r",
+        "p"
+      ],
+      "primary_sphere": "Moon",
+      "secondary_sphere": "Sun",
+      "phase": "O_accumulate",
+      "active_sphere": "Moon",
+      "stress_pair": "heat_cold",
+      "hour": 12,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Stress": {
+      "vec8": {
+        "r": 0.43200000000000005,
+        "h": 0.5619999999999999,
+        "d": 0.482,
+        "p": 0.49200000000000005,
+        "s": 0.444,
+        "gamma": 0.464,
+        "g": 0.5720000000000001,
+        "nu": 0.48400000000000004
+      },
+      "tile_name": "Stress",
+      "tile_name_kr": "스트레스 성장",
+      "description": "Stress growth tile",
+      "circuit_meaning": "누출 부채 관리 (Leakage Debt Processing)",
+      "nodes": [
+        "sodium",
+        "chlorine_ion_pump",
+        "cysteine"
+      ],
+      "dims": [
+        "h",
+        "d"
+      ],
+      "primary_sphere": "Earth",
+      "secondary_sphere": "Barnard",
+      "phase": "O_accumulate",
+      "active_sphere": "Moon",
+      "stress_pair": "heat_cold",
+      "hour": 12,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Hysteresis": {
+      "vec8": {
+        "r": 0.452,
+        "h": 0.492,
+        "d": 0.512,
+        "p": 0.732,
+        "s": 0.484,
+        "gamma": 0.524,
+        "g": 0.5720000000000001,
+        "nu": 0.674
+      },
+      "tile_name": "Hysteresis",
+      "tile_name_kr": "히스테리시스",
+      "description": "위상 도약 타일",
+      "circuit_meaning": "경로 의존적 위상 도약 (Suction Point Handler)",
+      "nodes": [
+        "hind_insula",
+        "laterite",
+        "memory_entropy"
+      ],
+      "dims": [
+        "p",
+        "nu"
+      ],
+      "primary_sphere": "Moon",
+      "secondary_sphere": "CoMag",
+      "phase": "O_accumulate",
+      "active_sphere": "Moon",
+      "stress_pair": "heat_cold",
+      "hour": 12,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Mirror": {
+      "vec8": {
+        "r": 0.452,
+        "h": 0.492,
+        "d": 0.512,
+        "p": 0.512,
+        "s": 0.5840000000000001,
+        "gamma": 0.524,
+        "g": 0.40199999999999997,
+        "nu": 0.504
+      },
+      "tile_name": "Mirror",
+      "tile_name_kr": "거울",
+      "description": "방금 블록자리 타일 — Reflection/Inversion",
+      "circuit_meaning": "대칭 반전 및 보정 (The Controlled Inverter)",
+      "nodes": [
+        "left_endorphin_non_observer",
+        "left_endorphin_electron_neutrino"
+      ],
+      "dims": [
+        "s",
+        "g"
+      ],
+      "primary_sphere": "Sun",
+      "secondary_sphere": "CoMag",
+      "phase": "O_accumulate",
+      "active_sphere": "Moon",
+      "stress_pair": "heat_cold",
+      "hour": 12,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Release": {
+      "vec8": {
+        "r": 0.43200000000000005,
+        "h": 0.47200000000000003,
+        "d": 0.482,
+        "p": 0.49200000000000005,
+        "s": 0.444,
+        "gamma": 0.5840000000000001,
+        "g": 0.5720000000000001,
+        "nu": 0.48400000000000004
+      },
+      "tile_name": "Release",
+      "tile_name_kr": "방전",
+      "description": "Release 타일",
+      "circuit_meaning": "에너지 최종 방전 및 착륙 (Proton Landing)",
+      "nodes": [
+        "cytochrome_c_oxidase",
+        "actomyosin",
+        "right_sole_dopamine"
+      ],
+      "dims": [
+        "gamma",
+        "d"
+      ],
+      "primary_sphere": "Earth",
+      "secondary_sphere": "Barnard",
+      "phase": "O_accumulate",
+      "active_sphere": "Moon",
+      "stress_pair": "heat_cold",
+      "hour": 12,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    }
+  },
+  "hour_18": {
+    "Sync": {
+      "vec8": {
+        "r": 0.424,
+        "h": 0.46,
+        "d": 0.44800000000000006,
+        "p": 0.642,
+        "s": 0.56,
+        "gamma": 0.49600000000000005,
+        "g": 0.49200000000000005,
+        "nu": 0.43200000000000005
+      },
+      "tile_name": "Sync",
+      "tile_name_kr": "동기화",
+      "description": "현재 시간에 맞춘 타일 — Circadian Sync",
+      "circuit_meaning": "마스터 클록 동기화 (Master Clock Alignment)",
+      "nodes": [
+        "co2",
+        "observer_leftd2",
+        "memory_entropy"
+      ],
+      "dims": [
+        "r",
+        "p"
+      ],
+      "primary_sphere": "Moon",
+      "secondary_sphere": "Sun",
+      "phase": "B_accumulate",
+      "active_sphere": "CoMag",
+      "stress_pair": "matter_nonmatter",
+      "hour": 18,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Stress": {
+      "vec8": {
+        "r": 0.42400000000000004,
+        "h": 0.58,
+        "d": 0.518,
+        "p": 0.452,
+        "s": 0.46,
+        "gamma": 0.49600000000000005,
+        "g": 0.6120000000000001,
+        "nu": 0.452
+      },
+      "tile_name": "Stress",
+      "tile_name_kr": "스트레스 성장",
+      "description": "Stress growth tile",
+      "circuit_meaning": "누출 부채 관리 (Leakage Debt Processing)",
+      "nodes": [
+        "sodium",
+        "chlorine_ion_pump",
+        "cysteine"
+      ],
+      "dims": [
+        "h",
+        "d"
+      ],
+      "primary_sphere": "Earth",
+      "secondary_sphere": "Barnard",
+      "phase": "B_accumulate",
+      "active_sphere": "CoMag",
+      "stress_pair": "matter_nonmatter",
+      "hour": 18,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Hysteresis": {
+      "vec8": {
+        "r": 0.444,
+        "h": 0.5,
+        "d": 0.528,
+        "p": 0.642,
+        "s": 0.5,
+        "gamma": 0.556,
+        "g": 0.6120000000000001,
+        "nu": 0.6020000000000001
+      },
+      "tile_name": "Hysteresis",
+      "tile_name_kr": "히스테리시스",
+      "description": "위상 도약 타일",
+      "circuit_meaning": "경로 의존적 위상 도약 (Suction Point Handler)",
+      "nodes": [
+        "hind_insula",
+        "laterite",
+        "memory_entropy"
+      ],
+      "dims": [
+        "p",
+        "nu"
+      ],
+      "primary_sphere": "Moon",
+      "secondary_sphere": "CoMag",
+      "phase": "B_accumulate",
+      "active_sphere": "CoMag",
+      "stress_pair": "matter_nonmatter",
+      "hour": 18,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Mirror": {
+      "vec8": {
+        "r": 0.444,
+        "h": 0.5,
+        "d": 0.528,
+        "p": 0.47200000000000003,
+        "s": 0.6200000000000001,
+        "gamma": 0.556,
+        "g": 0.492,
+        "nu": 0.47200000000000003
+      },
+      "tile_name": "Mirror",
+      "tile_name_kr": "거울",
+      "description": "방금 블록자리 타일 — Reflection/Inversion",
+      "circuit_meaning": "대칭 반전 및 보정 (The Controlled Inverter)",
+      "nodes": [
+        "left_endorphin_non_observer",
+        "left_endorphin_electron_neutrino"
+      ],
+      "dims": [
+        "s",
+        "g"
+      ],
+      "primary_sphere": "Sun",
+      "secondary_sphere": "CoMag",
+      "phase": "B_accumulate",
+      "active_sphere": "CoMag",
+      "stress_pair": "matter_nonmatter",
+      "hour": 18,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Release": {
+      "vec8": {
+        "r": 0.42400000000000004,
+        "h": 0.48000000000000004,
+        "d": 0.518,
+        "p": 0.452,
+        "s": 0.46,
+        "gamma": 0.656,
+        "g": 0.6120000000000001,
+        "nu": 0.452
+      },
+      "tile_name": "Release",
+      "tile_name_kr": "방전",
+      "description": "Release 타일",
+      "circuit_meaning": "에너지 최종 방전 및 착륙 (Proton Landing)",
+      "nodes": [
+        "cytochrome_c_oxidase",
+        "actomyosin",
+        "right_sole_dopamine"
+      ],
+      "dims": [
+        "gamma",
+        "d"
+      ],
+      "primary_sphere": "Earth",
+      "secondary_sphere": "Barnard",
+      "phase": "B_accumulate",
+      "active_sphere": "CoMag",
+      "stress_pair": "matter_nonmatter",
+      "hour": 18,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    }
+  },
+  "hour_21": {
+    "Sync": {
+      "vec8": {
+        "r": 0.406,
+        "h": 0.452,
+        "d": 0.4640000000000001,
+        "p": 0.624,
+        "s": 0.544,
+        "gamma": 0.47200000000000003,
+        "g": 0.49200000000000005,
+        "nu": 0.42400000000000004
+      },
+      "tile_name": "Sync",
+      "tile_name_kr": "동기화",
+      "description": "현재 시간에 맞춘 타일 — Circadian Sync",
+      "circuit_meaning": "마스터 클록 동기화 (Master Clock Alignment)",
+      "nodes": [
+        "co2",
+        "observer_leftd2",
+        "memory_entropy"
+      ],
+      "dims": [
+        "r",
+        "p"
+      ],
+      "primary_sphere": "Moon",
+      "secondary_sphere": "Sun",
+      "phase": "AB_integration",
+      "active_sphere": "Barnard",
+      "stress_pair": "reset_spark",
+      "hour": 21,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Stress": {
+      "vec8": {
+        "r": 0.41600000000000004,
+        "h": 0.5619999999999999,
+        "d": 0.554,
+        "p": 0.444,
+        "s": 0.444,
+        "gamma": 0.47200000000000003,
+        "g": 0.6120000000000001,
+        "nu": 0.444
+      },
+      "tile_name": "Stress",
+      "tile_name_kr": "스트레스 성장",
+      "description": "Stress growth tile",
+      "circuit_meaning": "누출 부채 관리 (Leakage Debt Processing)",
+      "nodes": [
+        "sodium",
+        "chlorine_ion_pump",
+        "cysteine"
+      ],
+      "dims": [
+        "h",
+        "d"
+      ],
+      "primary_sphere": "Earth",
+      "secondary_sphere": "Barnard",
+      "phase": "AB_integration",
+      "active_sphere": "Barnard",
+      "stress_pair": "reset_spark",
+      "hour": 21,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Hysteresis": {
+      "vec8": {
+        "r": 0.43600000000000005,
+        "h": 0.492,
+        "d": 0.544,
+        "p": 0.624,
+        "s": 0.484,
+        "gamma": 0.532,
+        "g": 0.6120000000000001,
+        "nu": 0.5840000000000001
+      },
+      "tile_name": "Hysteresis",
+      "tile_name_kr": "히스테리시스",
+      "description": "위상 도약 타일",
+      "circuit_meaning": "경로 의존적 위상 도약 (Suction Point Handler)",
+      "nodes": [
+        "hind_insula",
+        "laterite",
+        "memory_entropy"
+      ],
+      "dims": [
+        "p",
+        "nu"
+      ],
+      "primary_sphere": "Moon",
+      "secondary_sphere": "CoMag",
+      "phase": "AB_integration",
+      "active_sphere": "Barnard",
+      "stress_pair": "reset_spark",
+      "hour": 21,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Mirror": {
+      "vec8": {
+        "r": 0.43600000000000005,
+        "h": 0.492,
+        "d": 0.544,
+        "p": 0.464,
+        "s": 0.5840000000000001,
+        "gamma": 0.532,
+        "g": 0.492,
+        "nu": 0.464
+      },
+      "tile_name": "Mirror",
+      "tile_name_kr": "거울",
+      "description": "방금 블록자리 타일 — Reflection/Inversion",
+      "circuit_meaning": "대칭 반전 및 보정 (The Controlled Inverter)",
+      "nodes": [
+        "left_endorphin_non_observer",
+        "left_endorphin_electron_neutrino"
+      ],
+      "dims": [
+        "s",
+        "g"
+      ],
+      "primary_sphere": "Sun",
+      "secondary_sphere": "CoMag",
+      "phase": "AB_integration",
+      "active_sphere": "Barnard",
+      "stress_pair": "reset_spark",
+      "hour": 21,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    },
+    "Release": {
+      "vec8": {
+        "r": 0.41600000000000004,
+        "h": 0.47200000000000003,
+        "d": 0.554,
+        "p": 0.444,
+        "s": 0.444,
+        "gamma": 0.6020000000000001,
+        "g": 0.6120000000000001,
+        "nu": 0.444
+      },
+      "tile_name": "Release",
+      "tile_name_kr": "방전",
+      "description": "Release 타일",
+      "circuit_meaning": "에너지 최종 방전 및 착륙 (Proton Landing)",
+      "nodes": [
+        "cytochrome_c_oxidase",
+        "actomyosin",
+        "right_sole_dopamine"
+      ],
+      "dims": [
+        "gamma",
+        "d"
+      ],
+      "primary_sphere": "Earth",
+      "secondary_sphere": "Barnard",
+      "phase": "AB_integration",
+      "active_sphere": "Barnard",
+      "stress_pair": "reset_spark",
+      "hour": 21,
+      "profile_key": "ENFP_F_O",
+      "layer": "A"
+    }
+  }
+}

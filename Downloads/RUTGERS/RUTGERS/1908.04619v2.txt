@@ -1,0 +1,769 @@
+The Hubble constant tension with next-generation galaxy surveys
+
+Carlos A. P. Bengaly,¹, ², ∗ Chris Clarkson,³, ⁴, ², † and Roy Maartens², ⁵, ‡
+
+¹D´epartement de Physique Th´eorique, Universit´e de Gen`eve,
+
+24 quai Ernest Ansermet, 1211 Gen´eve 4, Switzerland
+
+²Department of Physics & Astronomy, University of the Western Cape, Bellville 7535, South Africa
+³School of Physics & Astronomy, Queen Mary, University of London, United Kingdom
+⁴Department  of Mathematics & Applied Mathematics,
+
+University of Cape Town, Rondebosch 7701, South Africa
+
+⁵Institute of Cosmology & Gravitation, University of Portsmouth, Portsmouth PO1 3FX, United Kingdom
+
+(Dated: May 4, 2020)
+
+The rate at which the universe is expanding today is a fundamental parameter in cosmology which
+governs our understanding of structure formation and dark energy. However, current measurements
+of the Hubble constant, H0, show a significant tension (∼ 4 − 6σ) between early- and late-Universe
+observations. There are ongoing efforts to check the diverse observational results and also to in-
+vestigate possible theoretical ways to resolve the tension – which could point to radical 
+extensions
+
+of the standard model. Here we demonstrate the potential of next-generation spectroscopic galaxy
+surveys to shed light on the Hubble constant tension. Surveys such as those with Euclid and the
+Square Kilometre Array (SKA) are expected to reach sub-percent precision on Baryon Acoustic
+Oscillation (BAO) measurements of the Hubble parameter, with a combined redshift coverage of
+
+0.1 < z < 3. This wide redshift range, together with the high precision and low level of systematics
+in BAO measurements, mean that these surveys will provide independent and tight constraints on
+
+H(z). These H(z) measurements can be extrapolated to z = 0 to provide constraints on H0 using
+a non-parametric regression. To this end we deploy Gaussian processes and we find that Euclid-like
+surveys can reach ∼3% precision on H0, with SKA-like intensity mapping surveys reaching ∼2%.
+When we combine the low-redshift SKA-like Band 2 survey with either its high-redshift Band 1
+counterpart, or with the non-overlapping Euclid-like survey, the precision is predicted to be close 
+to
+
+1% with 40 H(z) data points. This would be sufficient to rule out the current early- or 
+late-Universe
+measurements at a ∼5σ level.
+
+PACS numbers: 98.65.Dx, 98.80.Es
+
+
+I. INTRODUCTION
+
+The Hubble constant H₀ = 100h km s−¹ Mpc−¹ is a
+fundamental cosmological parameter requiring precise
+measurement. However, there is a significant tension be-
+
+tween the Planck measurement from cosmic microwave
+background (CMB) anisotropies, assuming a concor-
+dance model [1] (see also [2]),
+
+HP¹⁸ = 67.36 ± 0.54 km s−¹ Mpc−¹ ,   (1)
+
+and measurements using type Ia supernovae (SNIa) cal-
+ibrated with Cepheid distances [3] (see also [4, 5]),
+
+HR¹⁹ = 74.03 ± 1.42 km s−¹ Mpc−¹ .   (2)
+
+Recent measurements using time delays from lensed
+quasars [6] obtained H₀ = 73.3⁺¹.⁷ km s−¹ Mpc−¹,
+while [7] found H₀ = 69.8 ± 1.9 km s−¹ Mpc−¹ using the
+tip of the red giant branch applied to SNIa, which is inde-
+
+pendent of the Cepheid distance scale - in contrast with
+the H₀ = 72.4±1.9 km s−¹ Mpc−¹ measurement obtained
+
+∗ carlosap87@gmail.com
+
+† chris.clarkson@qmul.ac.uk
+
+‡ roy.maartens@gmail.com
+
+by [8]. Analysis of a compilation of these and other re-
+cent high- and low-redshift measurements shows [9] that
+the discrepancy between P18 and any three independent
+late-Universe measurements is between 4 and 6σ.
+
+Here our focus is not on ways to explain the tension via
+possible observational systematics or theoretical modifi-
+cations to the cosmological model, but on the potential
+of next-generation spectroscopic surveys to provide an
+independent way of ruling out the P18 or R19 measure-
+ment. We take R19 as the representative late-Universe
+measurement, but the method and results apply to other
+such recent measurements or combinations of them that
+are in tension with P18 at a level & 4σ.
+
+Next-generation spectroscopic surveys will measure
+the redshift and angular extents of the baryon acous-
+tic oscillation (BAO) feature, ∆z and ∆θ. The BAO
+radial and transverse physical scales are ∆R (z) =
+
+∆z(z)/(1 + z)H (z) and ∆R⊥(z) = dA(z)∆θ(z), where z
+
+is the observed redshift, H is the radial rate of expansion
+
+of matter [10] and dA is the angular diameter distance.
+These expressions apply in a general cosmology.
+
+In a perturbed Friedmann model, H = H, so that
+
+∆R (z) directly determines H(z), while (1 + z)dA is an
+integral of H−¹, so that ∆R⊥(z) also contains informa-
+tion about H(z). If we have independent determinations
+
+of the radial and transverse scales, we can find H(z) from
+BAO measurements. The radial and transverse BAO
+
+
+2
+
+scales should be equal, after accounting for projection
+and Alcock-Paczynski effects [11]: ∆R = ∆R⊥ ≡ R.
+The physical BAO scale at decoupling Rd = R(zd) is the
+sound horizon, which is estimated with high precision by
+Planck. This estimate is extremely insensitive to physics
+
+at low redshifts, since Rd is determined by the physi-
+cal matter densities Ωch², Ωbh², which are fixed mainly
+by the relative heights of the CMB acoustic peaks. The
+estimate of Rd assumes the ΛCDM cosmology at high
+redshifts [12].
+
+Spectroscopic surveys with Euclid [13] and SKA1 (us-
+ing 21cm intensity mapping) [14] are forecast to deliver
+errors on H(z) that are sub-percent for 0.5 . z . 2 and
+O(1)% for lower and higher z once systematics like fore-
+ground cleaning, in the case of intensity mapping, are
+properly taken into account [15, 16]. We take the fore-
+cast errors on H(z), over the redshift ranges of Euclid-
+like and SKA-like surveys, from [14] (see the left panel of
+their Figure 10). Then we use a non-parametric Gaus-
+sian process to estimate H₀ from a regression analysis on
+the mock H(z) data points, assuming the standard flat
+ΛCDM model (see also [17–19]). The regression produces
+errors on H₀, which we compare to the errors from P18
+and R19 in (1) and (2).
+
+In summary, we aim to answer the following questions:
+How precise are the H₀ estimates that Euclid- and
+SKA-like surveys can obtain? Can these surveys rule
+
+out P18 or R19?
+
+
+II. DATA ANALYSIS
+
+A Gaussian process is a distribution over functions,
+rather than over variables as in the case of a Gaussian dis-
+tribution. This allows us to reconstruct a function from
+data points without assuming a parametrization. We use
+the GAPP (Gaussian Processes in Python) code [20] (see
+also [21]) in order to reconstruct H(z) from data. (For
+other applications of GAPP in cosmology, see e.g. [22–
+25].)
+
+We simulate H(z) data assuming the fiducial model,
+
+FIG. 1. Gaussian-process reconstructed H(z) for Euclid-like
+survey (7) (top) and SKA-like B1+B2 (combined) surveys (8)
+(bottom), showing 2σ (darker) and 3σ (lighter) reconstruction
+uncertainty. We use N = 30 (top) and N1 = 30, N2 = 10
+(bottom), and a fiducial H0 value assuming P18. Error bars
+(1σ) on data points are increased by a factor 10 (top) and 6
+(bottom) for visibility.
+
+When we apply (5) to the reconstructed h(z) from
+mock data, with fiducials given by hP¹⁸ and hR¹⁹, the
+
+
+Hᶠⁱᵈ(z) = Hᶠⁱᵈ Ωm
+
+(1 + z)³ + (1 − Ωm
+
+) 1/2,  (3)
+
+uncertainties do not depend on the fiducial, and so they
+are the same. Then (5) becomes
+
+
+where Hᶠⁱᵈ is chosen as either the P18 or R19 best-fit in
+
+R19
+
+P18
+
+
+(1) or (2). We fix the matter density to the P18 best-fit
+
+T  = ∆hrec = hrec − hrec  ,     (6)
+
+
+(TT, TE, EE+lowE+lensing):
+
+rec
+
+σrec
+
+σrec
+
+
+Ωm = 0.3166 ± 0.0084 .      (4)
+
+where hP¹⁸
+
+and hR¹⁹
+
+are the h measurements recon-
+
+
+The tension between two H₀ measurements is defined
+following [26, 27] as
+
+structed from the mock data, each with the same un-
+certainty σrₑc.
+
+
+∆h
+
+T =  =
+
+ h1
+
+− h₂ 
+
+,    (5)
+
+For the surveys, we use the redshift ranges given in [13,
+14], and we assume a range of values for N , the number
+
+
+σ  [σ(h₁)2 + σ(h₂)2]¹/²
+
+which is valid for an one-dimension Gaussian distribu-
+tion. The current tension between the measured values
+in (1) and (2) is Th = 4.4, corresponding to ∆h = 4.4σ.
+
+of H(z) data points, as follows.
+Euclid-like galaxy survey:
+
+0.6 < z < 2.0 ,  N = 10, 15, 20, 25, 30 .   (7)
+
+
+3
+
+SKA-like intensity mapping survey:
+
+Band 1: 0.35 < z < 3.06 , N = 10, 15, 20, 25, 30 ,
+
+Band 2: 0.1 < z < 0.5 , N = 5, 8, 10 ,
+
+Band 1+2: N₁ = 10, 15, 20, 25, 30 and N₂ = 10 ,  (8)
+
+where Band 1+2 delivers the combined constraining
+power of Band 2 with 10 data points and Band 1 with
+N₁ points.
+
+The H(z) measurement uncertainties are taken from
+the interpolated curves in Figure 10 (left) of [14].
+
+III. RESULTS
+
+A. Measurements of the Hubble Constant
+
+
+The Gaussian-process reconstructed H(z) for Euclid-
+like and SKA-like B1+2 surveys is shown in Figure 1 by
+the 2 and 3σ regions of uncertainty on the reconstruction.
+The data points and their forecast 1σ error bars are also
+shown – where the errors are increased by 10 (Euclid-like)
+and 6 (SKA-like) to enhance visibility. We show N = 30
+for Euclid-like, and N = 30 for SKA-like B1, with a
+fixed N = 10 for SKA-like B2. In these Figures, HP¹⁸ is
+the fiducial; using HR¹⁹ only shifts the reconstructed H₀
+upward, but has no effect on its uncertainty.
+
+Survey    N  σH0 /H0 (%)  Trec
+
+10   3.993   1.669
+
+15   3.705   1.798
+
+Euclid-like   20   3.482   1.914
+
+25   3.303   2.017
+
+30   3.155   2.112
+
+10   2.482   2.684
+
+15   2.321   2.871
+
+SKA-like B1  20   2.178   3.059
+
+25   2.057   3.239
+
+30   1.954   3.410
+
+5   2.498   2.664
+
+SKA-like B2  8   2.175   3.063
+
+10   2.038   3.270
+
+20   1.362   4.895
+
+25   1.302   5.118
+
+SKA-like B1+B2 30   1.260   5.288
+
+(combined)   35   1.227   5.432
+
+40   1.198   5.561
+
+P18    -    0.802    4.390
+
+R19    -    1.981    4.390
+
+TABLE I. Uncertainty of reconstructed H0 and resulting H0
+
+tension (6), for simulated data from surveys (7) and (8).
+
+The reconstructed H₀ and its uncertainty follow from
+the intersection of the reconstruction region with z = 0
+in Figure 1, in the case of HP¹⁸ as fiducial (and similarly
+for HR¹⁹ as fiducial).
+
+FIG. 2. Top: Relative uncertainty on GP-reconstructed H0
+for Euclid- and SKA-like surveys with different numbers of
+data points. Horizontal lines show P18 and R19 measurement
+uncertainties. Bottom: Corresponding tension (6) between
+reconstructions with R19 and P18 fiducials. Horizontal line
+gives   the tension between R19 and P18.
+
+The results for the uncertainty and the tension are
+shown in Table I and illustrated in Figure 2. The individ-
+ual SKA-like B1 and B2 surveys perform better than the
+Euclid-like survey, given that the former includes lower
+and higher redshifts than the latter. With 10 low-z (B2)
+data points and 30 high-z (B1) points, SKA-like surveys
+in B1 and B2 separately can provide H₀ measurements
+
+as precise as R19 (∼ 2.0% precision). Nonetheless, they
+are only able to discriminate between R19 and P18 at
+
+∼3σ.
+
+On the other hand, the combination of B1 + B2 can
+push σH0 /H₀ down to 1.2%, which is close to the P18
+precision. This means that SKA-like B1+2 combined is
+predicted to be able to discriminate between P18 and
+R19 with ∼5σ precision.
+
+The results for SKA- and Euclid-like surveys are com-
+
+petitive with future standard siren measurements from
+gravitational wave events, whose forecasts predict a H₀
+measurement with few percent precision [28–33]. It is es-
+timated that 50 binary neutron star standard sirens could
+resolve the P18–R19 tension [34], comparable to the 10 +
+30 H(z) measurements needed by SKA-like B1+2 com-
+
+
+4
+
+
+FIG. 3. Compilation of H0 measurements, with 1σ error bars,
+shown against 1σ (darker) and 2σ (lighter) error bands for P18
+(left) and R19 (right). From bottom to top: DES clustering
+
++ weak lensing [37]; galaxy ages + SNIa [19]; γ-ray atten-
+uation [35]; SDSS + eBOSS quasars BAO (direct estimate
+of H0) [18]; LIGO binary black hole merger GW170817 [39];
+HII galaxies [36]; TRGB calibrated SNIa [7, 8]; strong lensing
+time delay [6]. Our GP-reconstructed estimates for SKA-like
+B1+B2 combined are: (fiducial P18, in blue) and (fiducial
+R19, in red), where the dots indicate the reconstructed HP¹⁸
+and HR¹⁹.
+
+bined surveys.
+
+Other model-independent methods are: γ-ray attenu-
+ation data [35], giving a measurement with σH0 /H₀ =
+6.2%; Gaussian process regression on galaxy age deter-
+mination of H(z) together with SNIa data, giving [19]
+σH0 /H₀ = 7.1%; HII galaxy data [36], giving σH0 /H₀ =
+4.9%. Methods that depend on assuming a cosmological
+model can deliver greater precision, but at the cost of los-
+ing model-independence. These include: using SDSS and
+eBOSS (quasars) BAO data, giving a direct H0 measure-
+ment (marginalising over Ωm) [38] with σH0 /H₀ = 3.4%;
+using DES clustering combined with weak lensing pro-
+vides σH0 /H₀ = 1.8%.  Figure 3 displays these and
+other measurements, including our forecasts for SKA-like
+B1+B2 combined surveys with P18 and R19 fiducials.
+
+B. Robustness of results
+
+The non-parametric Gaussian process regression that
+we use is not significantly sensitive to the cosmology as-
+sumed to perform the H₀ estimate. We verified this for
+dynamical dark energy extensions of the standard model,
+using wCDM and (w₀, wₐ)CDM models. For example,
+the SKA-like B1+2 combined survey with 40 data points
+
+gives σH0 /H₀ = 1.29% with (w₀, wₐ) = (−1.1, −0.20)
+and 1.26% with (w₀, wₐ) = (−0.9, +0.2). This is com-
+patible with σH0 /H₀ = 1.20% obtained from the fidu-
+cial ΛCDM model (see Table I). These results are consis-
+
+tent with the findings of [40], whose reconstructed cos-
+mological parameters from GP are found to be unbiased
+
+with respect to the cosmological model assumed – un-
+like parameter inference using methods like Monte Carlo
+Markov Chain.
+
+We varied the cosmological parameters p = (Ωm, H₀)
+according to a Gaussian distribution N (p, σp), where the
+parameters and their uncertainties are given by (1), (2)
+and (4). This test checks whether variations around the
+fiducial model within the limits imposed by state-of-the-
+
+art observations can bias our results. We find a negligible
+effect on the reconstructed H₀ error, with an extra vari-
+
+ation of only ∆(σH0 /H₀) . 0.1% for SKA-like B1, which
+produces a change of only ∆Trₑc ∼ 0.03σrₑc. The results
+are qualitatively similar for the other surveys.
+
+We verified the robustness of our results with re-
+spect to changes of the GP covariance function. By
+changing the squared exponential kernel that we used
+to  the Mat´ern(5/2), (7/2) and (9/2) kernels [20, 21], we
+obtained σH0 /H₀ = 1.62%, 1.37%, 1.29%, for SKA-like
+B1+B2 combined with 25 data points. This is compara-
+ble to 1.30% obtained in Table I.
+
+As a final illustration of the effectiveness of our
+method, we show in Fig. 4 the recovered H₀ using stan-
+dard parametric methods, assuming a ΛCDM and the
+CPL dark energy parameterization [w(z) = w₀ + wₐ(1 −
+a)], for simulations of a SKA-like IM B1+B2 surveys with
+
+40 data points total. Assuming 3 different fiducial mod-
+els (ΛCDM as the baseline model, while CPL1 has w₀ =
+
+−0.7, wₐ = +0.4 and CPL2 w₀ = −1.0, wₐ = +0.4), we
+
+see quite different results. For a ΛCDM parameteriza-
+
+tion, the errors are small (σH₀/H₀ = 0.56%), but can
+be significantly biased. Fitting a CPL model does re-
+cover the fiducial H₀ but at the expense of much larger
+errors (σH0 /H₀ = 2.67% for a ΛCDM simulation and
+σH0 /H₀ = 5.95% for CPL1, for instance), and fitting a
+“wrong” model (like fitting a ΛCDM model on a CPL
+simulation) yields biased results. The GP method recov-
+ers  the correct value to within 1σ irrespective of model,
+with the errors quoted above.
+
+IV. CONCLUSIONS
+
+Next-generation spectroscopic surveys are expected to
+provide high precision BAO measurements, delivering
+Hubble rate H(z) data over a wide range of z with a
+low level of systematics. We estimated the potential
+precision from such measurements with Euclid-like and
+SKA-like surveys in estimating H₀ from H(z), using non-
+parametric reconstruction and regression. We simulated
+H(z) data sets following the expected specifications for
+both surveys, and carried out a Gaussian-process recon-
+struction of H(z) from these data, allowing for regression
+down to z = 0. We checked the robustness of our results
+with respect to changes in the cosmological model and in
+the GP covariance functions.
+
+We found that SKA intensity mapping in Bands 1 and
+2 separately can measure H₀ with 2.0 − 2.5% precision,
+better than Euclid-like surveys with 3.2 − 4.0% precision.
+
+
+5
+
+FIG. 4. Marginalised likelihood for the parameter H0 by fitting a H(z) simulation of SKA-like 
+IM-B1+B2, 40 data points
+total, assuming three different cosmological models (see text) to ΛCDM (left) and CPL (middle). 
+Right shows the recovered
+H0 distribution using GP (with a Matern 5/2 covariance function).
+
+
+Although these measurements are not able distinguish
+between the H₀ values from CMB and standard candles
+at higher than 3.5σ, we found that the combination of
+SKA-like Band 1+2 can reach a precision of 1.2%(1.4%)
+
+survey [41], a MeerKAT L-band intensity mapping sur-
+vey [42, 43], and an SKA1 HI galaxy survey [14]. We find
+that:
+
+10% DESI,   0.6 < z < 2 ,  N = 30 ,
+
+
+R19 measurements.
+
+The successful combination of low- and high-redshift
+data in SKA-like surveys suggests an alternative: a com-
+bination of SKA-like Band 2 with Euclid-like surveys,
+which have no overlap between them. With N₂ = 10
+Band 2 data points, and NE Euclid data points, we find
+that the combined constraining power is:
+
+σ          1.37%  NE = 10 ,
+
+H₀
+
+5%  SKA GS,  0.1 < z < 0.5 ,  N = 10 .
+
+(10)
+
+We conclude that Euclid-like galaxy and SKA-like in-
+tensity mapping surveys are forecast to provide the best
+H₀ estimates from GP regression of H(z) measurements,
+allowing in the best cases (SKA-like B1+2, Euclid-like
+
++ SKA-like B2) for resolution of the tension between
+the H₀ measured from early- and late-Universe probes.
+
+
+H0            1.29%  N = 30 .
+
+anonymous referee for constructive criticism. CB and
+RM were supported by by the South African Radio As-
+
+
+This corresponds to a 4.9(5.2)σ precision in distinguish-
+ing between the current P18 and R19 measurements with
+20 (40) total data points. In other words, the combina-
+tion of low-z SKA- and high-z Euclid-like surveys delivers
+precision that is almost as high as SKA-like B1+2.
+
+For comparison, we also computed the precision pre-
+dicted for other spectroscopic surveys: the DESI galaxy
+
+tronomy Observatory (SARAO) and the National Re-
+search Foundation (Grant No. 75415). CB also acknowl-
+edges support from the Swiss National Science Founda-
+tion at the late stage of this work. CC and RM were
+supported by the UK Science & Technology Facilities
+Council Consolidated Grants ST/P000592/1 (CC) and
+ST/N000668/1 (RM).
+
+
+[1] N. Aghanim et al. [Planck Collaboration], “Planck 2018
+results. VI. Cosmological parameters,” arXiv:1807.06209.
+
+[2] P. A. R. Ade et al. [Planck Collaboration], “Planck 2015
+results. XIII. Cosmological parameters,” Astron. Astro-
+phys. 594, A13 (2016) [arXiv:1502.01589].
+
+[3] A. G. Riess, S. Casertano, W. Yuan, L. M. Macri
+and D. Scolnic, “Large Magellanic Cloud Cepheid Stan-
+dards Provide a 1% Foundation for the Determina-
+tion of the Hubble Constant and Stronger Evidence for
+Physics beyond ΛCDM,” Astrophys. J. 876, 85 (2019)
+[arXiv:1903.07603].
+
+[4] A. G. Riess et al., “Milky Way Cepheid Standards for
+Measuring Cosmic Distances and Application to Gaia
+DR2: Implications for the Hubble Constant,” Astrophys.
+
+J. 861, 126 (2018) [arXiv:1804.10655].
+
+[5] A. G. Riess et al., “A 2.4% Determination of the Local
+Value of the Hubble Constant,” Astrophys. J. 826, 56
+(2016) [arXiv:1604.01424].
+
+[6] K. C. Wong et al., “H0LiCOW XIII. A 2.4% measure-
+ment of H0 from lensed quasars: 5.3σ tension between
+early and late-Universe probes,” arXiv:1907.04869.
+
+[7] W. L. Freedman et al., “The Carnegie-Chicago Hubble
+Program. VIII. An Independent Determination of the
+Hubble Constant Based on the Tip of the Red Giant
+Branch,” Astrophys. J. 881, 1 (2019) [arXiv:1907.05922].
+
+[8] W. Yuan, A. G. Riess, L. M. Macri, S. Casertano and
+
+D. Scolnic, “Consistent Calibration of the Tip of the
+Red Giant Branch in the Large Magellanic Cloud on the
+Hubble Space Telescope Photometric System and Impli-
+cations for the Determination of the Hubble Constant,”
+
+
+6
+
+
+Astrophys. J. 886, 61 (2019) [arXiv:1908.00993].
+
+[9] L. Verde, T. Treu and A. G. Riess, “Tensions between
+the Early and the Late Universe,” Nat. Astron. 3, 891
+(2019) [arXiv:1907.10625].
+
+[10] R. Jimenez, R. Maartens, A. R. Khalifeh, R. R. Cald-
+well, A. F. Heavens and L. Verde, “Measuring the Homo-
+geneity of the Universe Using Polarization Drift,” JCAP
+1905, 048 (2019) [arXiv:1902.11298].
+
+[11] F. Lepori, E. Di Dio, M. Viel, C. Baccigalupi and R. Dur-
+rer, “The Alcock Paczynski test with Baryon Acous-
+tic Oscillations: systematic effects for future surveys,”
+JCAP 1702, 020 (2017) [arXiv:1606.03114].
+
+[12] P. Lemos, E. Lee, G. Efstathiou and S. Gratton, “Model
+independent H(z) reconstruction using the cosmic in-
+verse distance ladder,” Mon. Not. Roy. Astron. Soc. 483,
+4803 (2019) [arXiv:1806.06781].
+
+[13] L. Amendola et al., “Cosmology and fundamental physics
+with the Euclid satellite,” Living Rev. Rel. 21, 2 (2018)
+[arXiv:1606.00180].
+
+[14] D. J. Bacon et al. [SKA Collaboration], “Cosmology
+with Phase 1 of the Square Kilometre Array: Red
+Book 2018: Technical specifications and performance
+forecasts,” Publ. Astron. Soc. Austral. 37 (2020), e007
+[arXiv:1811.02743].
+
+[15] P. Bull, “Extending cosmological tests of General Rela-
+tivity with the Square Kilometre Array,” Astrophys. J.
+817, no. 1, 26 (2016) [arXiv:1509.07562].
+
+[16] F. Villaescusa-Navarro, D. Alonso and M. Viel, “Bary-
+onic acoustic oscillations from 21 cm intensity mapping:
+the Square Kilometre Array case,” Mon. Not. Roy. As-
+tron. Soc. 466 (2017) no.3, 2736 [arXiv:1609.00019].
+
+[17] V. C. Busti, C. Clarkson and M. Seikel, “Evidence
+for a Lower Value for H0 from Cosmic Chronometers
+Data?,” Mon. Not. Roy. Astron. Soc. 441, 11 (2014)
+[arXiv:1402.5429].
+
+[18] D. Wang and X. H. Meng, “Model-independent deter-
+mination of H0 using the latest cosmic chronometer
+data,” Sci. China Phys. Mech. Astron. 60, 110411 (2017)
+[arXiv:1610.01202].
+
+[19] A. G´omez-Valent and L. Amendola, “H0 from cosmic
+chronometers and Type Ia supernovae, with Gaussian
+Processes and the novel Weighted Polynomial Regression
+method,” JCAP 1804, 051 (2018) [arXiv:1802.01505].
+
+[20] M. Seikel, C. Clarkson and M. Smith, “Reconstruc-
+tion of dark energy and expansion dynamics us-
+ing Gaussian processes,” JCAP 1206, 036 (2012)
+[arXiv:1204.2832]. GaPP available at http://www.acgc.
+uct.ac.za/~seikel/GAPP/index.html
+
+[21] A. Shafieloo, A. G. Kim and E. V. Linder, “Gaussian
+
+Process Cosmography,” Phys. Rev. D 85, 123530 (2012)
+[arXiv:1204.2272].
+
+[22] S. Yahya, M. Seikel, C. Clarkson, R. Maartens and
+
+M. Smith, “Null tests of the cosmological constant
+using supernovae,” Phys. Rev. D 89, 023503 (2014)
+[arXiv:1308.4099].
+
+[23] J. E. Gonzalez, J. S. Alcaniz and J. C. Carvalho, “Non-
+parametric reconstruction of cosmological matter pertur-
+bations,” JCAP 1604, 016 (2016) [arXiv:1602.01015].
+
+[24] A. M. Pinho, S. Casas and L. Amendola, “Model-
+independent reconstruction of the linear anisotropic
+stress η,” JCAP 1811, 027 (2018) [arXiv:1805.00027].
+
+[25] R. von Marttens, V. Marra, L. Casarini, J. E. Gonzalez
+and J. Alcaniz, “Null test for interactions in the dark sec-
+tor,” Phys. Rev. D 99, 043521 (2019) [arXiv:1812.02333].
+
+[26] D. Camarena and V. Marra, “Impact of the cosmic vari-
+ance on H0 on cosmological analyses,” Phys. Rev. D 98,
+023537 (2018) [arXiv:1805.09900].
+
+[27] C. A. P. Bengaly, U. Andrade and J. S. Alcaniz, Eur.
+Phys. J. C 79, no. 9, 768 (2019) [arXiv:1810.04966].
+
+[28] H. Y. Chen, M. Fishbach and D. E. Holz, “A two
+per cent Hubble constant measurement from standard
+sirens within five years,” Nature 562, 545 (2018)
+[arXiv:1712.06531].
+
+[29] R. Nair, S. Bose and T. D. Saini, “Measuring the
+Hubble constant: Gravitational wave observations meet
+galaxy clustering,” Phys. Rev. D 98, 023502 (2018)
+[arXiv:1804.06085].
+
+[30] S. Vitale and H. Y. Chen, “Measuring the Hubble con-
+stant with neutron star black hole mergers,” Phys. Rev.
+Lett. 121, 021303 (2018) [arXiv:1804.07337].
+
+[31] D. J. Mortlock, S. M. Feeney, H. V. Peiris,
+
+A. R. Williamson and S. M. Nissanke, “Unbiased
+Hubble constant estimation from binary neutron star
+mergers,” Phys. Rev. D 100 (2019) no.10, 103523
+[arXiv:1811.11723].
+
+[32] A. Shafieloo, R. E. Keeley and E. V. Linder, “Will Grav-
+itational Wave Sirens Determine the Hubble Constant?,”
+JCAP 03 (2020) no.03, 019 [arXiv:1812.07775].
+
+[33] X. Zhang, “Gravitational wave standard sirens
+and cosmological parameter measurement,”  Sci.
+China Phys. Mech. Astron. 62 (2019) no.11, 110431
+[arXiv:1905.11122].
+
+[34] S. M. Feeney, H. V. Peiris, A. R. Williamson, S. M. Nis-
+sanke, D. J. Mortlock, J. Alsing and D. Scolnic,
+“Prospects for resolving the Hubble constant tension
+with standard sirens,” Phys. Rev. Lett. 122, 061105
+(2019) [arXiv:1802.03404].
+
+[35] A. Dom´ınguez et al., “A new measurement of the Hubble
+constant and matter content of the Universe using extra-
+galactic background light γ-ray attenuation,” Astrophys.
+
+J. 881, 2 (2019) [arXiv:1903.12097].
+
+[36] D. Fern´andez Arenas et al., “An independent determi-
+nation of the local Hubble constant,” Mon. Not. Roy.
+Astron. Soc. 474, 1250 (2018) [arXiv:1710.05951].
+
+[37] T. M. C. Abbott et al. [DES Collaboration], “Dark En-
+ergy Survey Year 1 Results: A Precise H0 Measurement
+from DES Y1, BAO, and D/H Data,” Mon. Not. Roy.
+Astron. Soc. 480, 3879 (2018) [arXiv:1711.00403].
+
+[38] Y. Wang, L. Xu and G. B. Zhao, “A measurement of the
+Hubble constant using galaxy redshift surveys,” Astro-
+phys. J. 849, 84 (2017) [arXiv:1706.09149].
+
+[39] B. P. Abbott et al. [LIGO, Virgo, 1M2H, Dark En-
+ergy Camera GW-E, DES, DLT40, Las Cumbres, VIN-
+ROUGE, MASTER Collaborations], “A gravitational-
+wave standard siren measurement of the Hubble con-
+stant,” Nature 551, 85 (2017) [arXiv:1710.05835].
+
+[40] R. E. Keeley, A. Shafieloo, B. L’Huillier and E. V. Linder,
+Mon. Not. Roy. Astron. Soc. 491 (2020) no.3, 3983-3989
+[arXiv:1905.10216].
+
+[41] A. Aghamousa et al. [DESI Collaboration], “The DESI
+Experiment Part I: Science,Targeting, and Survey De-
+sign,” arXiv:1611.00036.
+
+[42] M. G. Santos et al. [MeerKLASS Collaboration],
+“MeerKLASS: MeerKAT Large Area Synoptic Survey,”
+arXiv:1709.06099.
+
+[43] M. G. Santos, private communication.
+

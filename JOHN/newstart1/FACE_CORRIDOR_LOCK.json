@@ -1,0 +1,40 @@
+{
+  "lock_type": "emergent_terminal_coordinates",
+  "new_fundamental_constants": false,
+  "control_manifold": "128-grid face",
+  "band": {
+    "y_min": 9.25,
+    "y_max": 14.5
+  },
+  "corridor_mode": "narrow_mediator_band",
+  "corridor_points": [
+    [8.0, 12.0],
+    [8.5, 12.0],
+    [9.0, 9.5],
+    [9.5, 9.5],
+    [10.0, 9.5],
+    [10.5, 12.0],
+    [11.0, 12.0],
+    [11.5, 12.0],
+    [12.0, 12.0],
+    [12.5, 12.0],
+    [13.0, 12.0]
+  ],
+  "loopstart_terminal": [9.5, 9.5],
+  "loopend_terminal": [9.5, 9.5],
+  "mirror_terminal": [6.5, 9.5],
+  "dominance": "right_biased",
+  "promote_scores_to_constants": false,
+  "constraints": [
+    "no new nodes",
+    "no new Betti objects",
+    "preserve single-component closure",
+    "no surface bulge",
+    "right_cortisol_above rule",
+    "right_d2 adjacency priority"
+  ],
+  "scores": {
+    "right_dock_score": 0.4589529370,
+    "left_dock_score": 0.2294764685
+  }
+}

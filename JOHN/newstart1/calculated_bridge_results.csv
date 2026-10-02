@@ -1,0 +1,27 @@
+seam_a,seam_b,contact_score,gap_min_dist,vector,status
+core_center,3,0.0459,3.7229,"[np.float64(0.174), np.float64(-3.619), np.float64(-0.856)]",CALCULATED
+right_branch,flash_bridge,0.0121,7.4297,"[np.float64(-6.765), np.float64(-2.919), np.float64(-0.956)]",CALCULATED
+core_center,mediator:synthetic_alpha,0.0115,7.6274,"[np.float64(2.974), np.float64(-7.019), np.float64(-0.256)]",CALCULATED
+core_center,flash:center_in,0.0112,7.7385,"[np.float64(6.174), np.float64(-4.619), np.float64(-0.656)]",CALCULATED
+core_center,12,0.0111,7.7725,"[np.float64(7.674), np.float64(1.181), np.float64(-0.356)]",CALCULATED
+core_center,4,0.0108,7.8725,"[np.float64(5.074), np.float64(-6.019), np.float64(0.044)]",CALCULATED
+core_center,1,0.0102,8.1246,"[np.float64(2.074), np.float64(-7.819), np.float64(-0.756)]",CALCULATED
+core_center,gateway_peak,0.0102,8.1132,"[np.float64(0.974), np.float64(-8.019), np.float64(-0.756)]",CALCULATED
+right_branch,12,0.0084,8.9504,"[np.float64(-8.865), np.float64(1.181), np.float64(-0.356)]",CALCULATED
+core_center,2,0.0069,9.8624,"[np.float64(3.474), np.float64(-9.219), np.float64(-0.456)]",CALCULATED
+core_center,flash_bridge,0.0064,10.2453,"[np.float64(9.774), np.float64(-2.919), np.float64(-0.956)]",CALCULATED
+core_center,11,0.0062,10.4586,"[np.float64(-2.326), np.float64(-10.119), np.float64(-1.256)]",CALCULATED
+right_branch,flash:center_in,0.0052,11.3666,"[np.float64(-10.365), np.float64(-4.619), np.float64(-0.656)]",CALCULATED
+right_branch,4,0.004,12.949,"[np.float64(-11.465), np.float64(-6.019), np.float64(0.044)]",CALCULATED
+core_center,13,0.0037,13.5561,"[np.float64(-11.126), np.float64(-7.519), np.float64(-1.856)]",CALCULATED
+right_branch,10,0.0032,14.5514,"[np.float64(-5.365), np.float64(-13.519), np.float64(0.444)]",CALCULATED
+right_branch,mediator:synthetic_alpha,0.0029,15.2755,"[np.float64(-13.565), np.float64(-7.019), np.float64(-0.256)]",CALCULATED
+right_branch,2,0.0027,15.9966,"[np.float64(-13.065), np.float64(-9.219), np.float64(-0.456)]",CALCULATED
+right_branch,1,0.0025,16.4604,"[np.float64(-14.465), np.float64(-7.819), np.float64(-0.756)]",CALCULATED
+core_center,14,0.0024,16.9369,"[np.float64(1.474), np.float64(-16.819), np.float64(1.344)]",CALCULATED
+right_branch,3,0.0024,16.7822,"[np.float64(-16.365), np.float64(-3.619), np.float64(-0.856)]",CALCULATED
+core_center,10,0.0022,17.5448,"[np.float64(11.174), np.float64(-13.519), np.float64(0.444)]",CALCULATED
+right_branch,gateway_peak,0.0022,17.5256,"[np.float64(-15.565), np.float64(-8.019), np.float64(-0.756)]",CALCULATED
+right_branch,11,0.0015,21.4443,"[np.float64(-18.865), np.float64(-10.119), np.float64(-1.256)]",CALCULATED
+right_branch,14,0.0013,22.6194,"[np.float64(-15.065), np.float64(-16.819), np.float64(1.344)]",CALCULATED
+right_branch,13,0.0008,28.7286,"[np.float64(-27.665), np.float64(-7.519), np.float64(-1.856)]",CALCULATED

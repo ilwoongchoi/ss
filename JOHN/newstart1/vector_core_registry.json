@@ -1,0 +1,1595 @@
+{
+  "root": "D:\\Users\\user\\Documents\\newstart",
+  "source_count": 82,
+  "signals": {
+    "triad": 39,
+    "gate8": 35,
+    "channel64": 30,
+    "type128": 49,
+    "type146": 81,
+    "spiral": 1838,
+    "vector": 481
+  },
+  "raw_axis_counts": {
+    "stress": 1285.0,
+    "non_stress": 744.0,
+    "assault": 908.0,
+    "hospitality": 978.0
+  },
+  "normalized_axis_weights": {
+    "stress": 0.3282247765006386,
+    "non_stress": 0.1900383141762452,
+    "assault": 0.23192848020434229,
+    "hospitality": 0.24980842911877393
+  },
+  "clusters": {
+    "stress": [
+      "D:\\Users\\user\\Documents\\newstart\\D3_HIGGS_DECODER_FINAL.md",
+      "D:\\Users\\user\\Documents\\newstart\\D3_HIGGS_UNIFIED_THEORY.md",
+      "D:\\Users\\user\\Documents\\newstart\\D3_HIGGS_UNIFIED_THEORY_v2.md",
+      "D:\\Users\\user\\Documents\\newstart\\D3_Higgs_Decoder_Paper.md",
+      "D:\\Users\\user\\Documents\\newstart\\SPIRAL_PHYSICS_MAPPING.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\ADDENDUM_20260310.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\ADDENDUM_20260310_SCIENTIFIC.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\ARCHETYPE_GEOMETRY_OVERLAY.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\COSMIC_GEOMETRY_OVERLAY.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\CREATION_TOOL_ARCHITECTURE.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\EVOLUTIONARY_HISTORY.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_DSL_IMPLEMENTATION.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_EQUATIONS.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_EQUATIONS_v5_uroboros_backup.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_LLM_INJECTION.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_SCIENTIFIC_CORE.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\LLM_GEOMETRY_OPTIMIZATION.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\MOBIUS_CONTINUOUS_GEOMETRY.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\README.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\SKELETAL_CORE.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\UNIFIED_GEOMETRY_EQUATION.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\__init__.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\absolute_constants.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\channel_operator_10d.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\core_02828_operator.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\full_graph\\FULL_GEOMETRY_LOCKED_MISSING.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\hypotheses.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\physics_hierarchy.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\process_ownership_state_model.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\__init__.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\core_constants.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\core_ops.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\grid128.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\renderer3d_core.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime2\\__init__.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime2\\overlay_mapping.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime2\\overlay_runner.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\registry_loader.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\s5_executable_maps.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\source_docs\\GEOMETRY_EQUATIONS.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\trilateral_compatibility_15.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\universal_dynamics_9d.py",
+      "D:\\Users\\user\\Documents\\newstart\\mathematical_representation.md"
+    ],
+    "assault": [
+      "D:\\Users\\user\\Documents\\newstart\\FACE_BODY_SPIRAL_MAPPING.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\face_node_state_machine.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\geometry_3d_renderer.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\motif_locked_step.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\origin_first_dynamics.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\origin_multiregime_dynamics.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\ownership_auto_detect.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\renderer.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\renderers\\validate_geometry_3d_renderer.py"
+    ],
+    "non_stress": [
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\BIO_OVERLAY_SPEC.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_CORE_SPEC.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\engineering_homeostasis_equation.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\final_manifold_renderer.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\geometry_3d_renderer_v5_uroboros_backup.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\interaction_64.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\layer_extension_equation.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\ownership_bridge_model.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime2\\personality128_dynamics.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\source_docs\\Universal Geometry Equation.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\universal_equation.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\vector_pruning.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\\uc544\uc528\ubc1c.py"
+    ],
+    "hospitality": [
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\MASTER_UNIFIED_DYNAMICS_EQUATION.md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\absolute_constants_v5_uroboros_backup.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\chart_operators.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\constant_runtime_bindings.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\d3_gate_decoder.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\dynamics_9d.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\edge_stack_master_equation.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\four_particle_unified_equation.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\interaction_motifs.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\north_pole_renorm.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\d3regime..md",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\shader2d_core.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime2\\d3_modes.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\six_particle_15_edge_geometry.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\sovereign_engine.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\tda_kappa.py",
+      "D:\\Users\\user\\Documents\\newstart\\geometry_package\\universal_metrics.py"
+    ]
+  },
+  "sources": [
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\mathematical_representation.md",
+      "signals": {
+        "triad": 3,
+        "gate8": 25,
+        "channel64": 8,
+        "type128": 12,
+        "type146": 65,
+        "spiral": 464,
+        "vector": 109
+      },
+      "vector_hits": {
+        "stress": 538,
+        "non_stress": 180,
+        "assault": 324,
+        "hospitality": 291
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\SPIRAL_PHYSICS_MAPPING.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 35,
+        "vector": 1
+      },
+      "vector_hits": {
+        "stress": 16,
+        "non_stress": 0,
+        "assault": 4,
+        "hospitality": 2
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\FACE_BODY_SPIRAL_MAPPING.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 2,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 8,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\D3_Higgs_Decoder_Paper.md",
+      "signals": {
+        "triad": 14,
+        "gate8": 5,
+        "channel64": 7,
+        "type128": 16,
+        "type146": 1,
+        "spiral": 68,
+        "vector": 37
+      },
+      "vector_hits": {
+        "stress": 104,
+        "non_stress": 21,
+        "assault": 65,
+        "hospitality": 22
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\D3_HIGGS_DECODER_FINAL.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 28,
+        "vector": 4
+      },
+      "vector_hits": {
+        "stress": 20,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 2
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\D3_HIGGS_UNIFIED_THEORY.md",
+      "signals": {
+        "triad": 9,
+        "gate8": 2,
+        "channel64": 4,
+        "type128": 4,
+        "type146": 3,
+        "spiral": 46,
+        "vector": 12
+      },
+      "vector_hits": {
+        "stress": 55,
+        "non_stress": 17,
+        "assault": 48,
+        "hospitality": 22
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\D3_HIGGS_UNIFIED_THEORY_v2.md",
+      "signals": {
+        "triad": 5,
+        "gate8": 3,
+        "channel64": 3,
+        "type128": 9,
+        "type146": 3,
+        "spiral": 13,
+        "vector": 3
+      },
+      "vector_hits": {
+        "stress": 18,
+        "non_stress": 6,
+        "assault": 17,
+        "hospitality": 9
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\ADDENDUM_20260310.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\ADDENDUM_20260310_SCIENTIFIC.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 1,
+        "vector": 2
+      },
+      "vector_hits": {
+        "stress": 2,
+        "non_stress": 1,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\ARCHETYPE_GEOMETRY_OVERLAY.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 5,
+        "vector": 7
+      },
+      "vector_hits": {
+        "stress": 5,
+        "non_stress": 0,
+        "assault": 1,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\BIO_OVERLAY_SPEC.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 1
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 1,
+        "assault": 0,
+        "hospitality": 1
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\COSMIC_GEOMETRY_OVERLAY.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 22,
+        "vector": 12
+      },
+      "vector_hits": {
+        "stress": 6,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\CREATION_TOOL_ARCHITECTURE.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 4,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 2,
+        "non_stress": 0,
+        "assault": 2,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\EVOLUTIONARY_HISTORY.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 1
+      },
+      "vector_hits": {
+        "stress": 1,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_CORE_SPEC.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 1,
+        "assault": 0,
+        "hospitality": 1
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_DSL_IMPLEMENTATION.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 13,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 6,
+        "non_stress": 4,
+        "assault": 2,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_EQUATIONS.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 53,
+        "vector": 13
+      },
+      "vector_hits": {
+        "stress": 54,
+        "non_stress": 8,
+        "assault": 10,
+        "hospitality": 19
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_EQUATIONS_v5_uroboros_backup.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 17,
+        "vector": 9
+      },
+      "vector_hits": {
+        "stress": 11,
+        "non_stress": 6,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_LLM_INJECTION.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 3,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 3,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\GEOMETRY_SCIENTIFIC_CORE.md",
+      "signals": {
+        "triad": 1,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 5,
+        "vector": 3
+      },
+      "vector_hits": {
+        "stress": 4,
+        "non_stress": 1,
+        "assault": 0,
+        "hospitality": 2
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\LLM_GEOMETRY_OPTIMIZATION.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 3,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 2,
+        "non_stress": 2,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\MASTER_UNIFIED_DYNAMICS_EQUATION.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 1,
+        "type128": 1,
+        "type146": 0,
+        "spiral": 44,
+        "vector": 9
+      },
+      "vector_hits": {
+        "stress": 30,
+        "non_stress": 11,
+        "assault": 2,
+        "hospitality": 54
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\MOBIUS_CONTINUOUS_GEOMETRY.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 11,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 2,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\README.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 1,
+        "vector": 9
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\SKELETAL_CORE.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 8,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 4,
+        "non_stress": 3,
+        "assault": 0,
+        "hospitality": 2
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\UNIFIED_GEOMETRY_EQUATION.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 1,
+        "type146": 0,
+        "spiral": 2,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 2,
+        "non_stress": 0,
+        "assault": 2,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\full_graph\\FULL_GEOMETRY_LOCKED_MISSING.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 1
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\d3regime..md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 1,
+        "type146": 0,
+        "spiral": 237,
+        "vector": 35
+      },
+      "vector_hits": {
+        "stress": 90,
+        "non_stress": 25,
+        "assault": 7,
+        "hospitality": 180
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\source_docs\\GEOMETRY_EQUATIONS.md",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 6,
+        "vector": 1
+      },
+      "vector_hits": {
+        "stress": 5,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\source_docs\\Universal Geometry Equation.md",
+      "signals": {
+        "triad": 7,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 5,
+        "type146": 9,
+        "spiral": 322,
+        "vector": 51
+      },
+      "vector_hits": {
+        "stress": 135,
+        "non_stress": 172,
+        "assault": 163,
+        "hospitality": 113
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\absolute_constants.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 41,
+        "vector": 2
+      },
+      "vector_hits": {
+        "stress": 7,
+        "non_stress": 1,
+        "assault": 4,
+        "hospitality": 3
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\absolute_constants_v5_uroboros_backup.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 14,
+        "vector": 1
+      },
+      "vector_hits": {
+        "stress": 1,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 3
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\channel_operator_10d.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 12,
+        "vector": 6
+      },
+      "vector_hits": {
+        "stress": 7,
+        "non_stress": 0,
+        "assault": 4,
+        "hospitality": 3
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\chart_operators.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 6,
+        "vector": 4
+      },
+      "vector_hits": {
+        "stress": 1,
+        "non_stress": 0,
+        "assault": 1,
+        "hospitality": 9
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\constant_runtime_bindings.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 5,
+        "vector": 1
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 2
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\core_02828_operator.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 2
+      },
+      "vector_hits": {
+        "stress": 6,
+        "non_stress": 0,
+        "assault": 4,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\d3_gate_decoder.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 4,
+        "non_stress": 0,
+        "assault": 4,
+        "hospitality": 7
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\dynamics_9d.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 14,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 5,
+        "non_stress": 0,
+        "assault": 4,
+        "hospitality": 9
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\edge_stack_master_equation.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 94,
+        "vector": 15
+      },
+      "vector_hits": {
+        "stress": 25,
+        "non_stress": 7,
+        "assault": 8,
+        "hospitality": 29
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\engineering_homeostasis_equation.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 6,
+        "assault": 2,
+        "hospitality": 2
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\face_node_state_machine.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 5
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 2,
+        "assault": 10,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\final_manifold_renderer.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 1
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 8,
+        "assault": 2,
+        "hospitality": 2
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\four_particle_unified_equation.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 2,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 2,
+        "vector": 4
+      },
+      "vector_hits": {
+        "stress": 3,
+        "non_stress": 3,
+        "assault": 1,
+        "hospitality": 8
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\geometry_3d_renderer.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 2
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 13,
+        "assault": 15,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\geometry_3d_renderer_v5_uroboros_backup.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 36,
+        "vector": 9
+      },
+      "vector_hits": {
+        "stress": 9,
+        "non_stress": 33,
+        "assault": 16,
+        "hospitality": 8
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\hypotheses.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\interaction_64.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 3,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 2,
+        "non_stress": 20,
+        "assault": 1,
+        "hospitality": 14
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\interaction_motifs.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 2
+      },
+      "vector_hits": {
+        "stress": 2,
+        "non_stress": 28,
+        "assault": 3,
+        "hospitality": 31
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\layer_extension_equation.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 12,
+        "assault": 3,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\motif_locked_step.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 5,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 2,
+        "non_stress": 1,
+        "assault": 7,
+        "hospitality": 2
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\north_pole_renorm.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 3,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 1,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 2
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\origin_first_dynamics.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 1,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 20,
+        "non_stress": 0,
+        "assault": 23,
+        "hospitality": 4
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\origin_multiregime_dynamics.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 3
+      },
+      "vector_hits": {
+        "stress": 1,
+        "non_stress": 0,
+        "assault": 8,
+        "hospitality": 4
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\ownership_auto_detect.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 4
+      },
+      "vector_hits": {
+        "stress": 5,
+        "non_stress": 5,
+        "assault": 14,
+        "hospitality": 9
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\ownership_bridge_model.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 1,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 2,
+        "non_stress": 8,
+        "assault": 0,
+        "hospitality": 6
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\physics_hierarchy.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 9,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\process_ownership_state_model.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 2,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 2,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\registry_loader.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\renderer.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 24,
+        "vector": 1
+      },
+      "vector_hits": {
+        "stress": 6,
+        "non_stress": 0,
+        "assault": 9,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\s5_executable_maps.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\six_particle_15_edge_geometry.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 4
+      },
+      "vector_hits": {
+        "stress": 4,
+        "non_stress": 5,
+        "assault": 4,
+        "hospitality": 17
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\sovereign_engine.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 3,
+        "vector": 5
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 2
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\tda_kappa.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 1
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 1,
+        "hospitality": 9
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\trilateral_compatibility_15.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 1,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 19,
+        "non_stress": 0,
+        "assault": 16,
+        "hospitality": 9
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\universal_dynamics_9d.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 7,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 3,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 1
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\universal_equation.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 2,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 28,
+        "vector": 33
+      },
+      "vector_hits": {
+        "stress": 9,
+        "non_stress": 64,
+        "assault": 26,
+        "hospitality": 52
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\universal_metrics.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 3
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\vector_pruning.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 42
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 1,
+        "assault": 0,
+        "hospitality": 1
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\__init__.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 4
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\\uc544\uc528\ubc1c.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 85,
+        "vector": 9
+      },
+      "vector_hits": {
+        "stress": 18,
+        "non_stress": 63,
+        "assault": 21,
+        "hospitality": 3
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\core_constants.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\core_ops.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\grid128.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\renderer3d_core.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 1
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\shader2d_core.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 1
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime1\\__init__.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime2\\d3_modes.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 3
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime2\\overlay_mapping.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime2\\overlay_runner.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime2\\personality128_dynamics.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 1,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 5,
+        "assault": 2,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\regime2\\__init__.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 0,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 0,
+        "non_stress": 0,
+        "assault": 0,
+        "hospitality": 0
+      }
+    },
+    {
+      "path": "D:\\Users\\user\\Documents\\newstart\\geometry_package\\renderers\\validate_geometry_3d_renderer.py",
+      "signals": {
+        "triad": 0,
+        "gate8": 0,
+        "channel64": 0,
+        "type128": 0,
+        "type146": 0,
+        "spiral": 31,
+        "vector": 0
+      },
+      "vector_hits": {
+        "stress": 6,
+        "non_stress": 0,
+        "assault": 40,
+        "hospitality": 0
+      }
+    }
+  ]
+}

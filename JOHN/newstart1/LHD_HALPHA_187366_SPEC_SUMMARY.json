@@ -1,0 +1,50 @@
+{
+  "input_root": "Halpha-187366-1",
+  "params": {
+    "base_topk": 40,
+    "stride": 64,
+    "max_points": 8192,
+    "metric": "spectral",
+    "corr_threshold": 0.8,
+    "spectral_topk": 8,
+    "spectral_min_shared": 2
+  },
+  "counts": {
+    "channels_total_found": 126,
+    "channels_loaded": 126,
+    "base_channels": 40,
+    "extended_channels": 126
+  },
+  "closure": {
+    "base_components": 37,
+    "extended_components": 115,
+    "base_components_inside_extended": 37,
+    "base_edges": 3,
+    "extended_edges": 11,
+    "mediator_channels_found": 0,
+    "base_top_component_sizes": [
+      3,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "extended_top_component_sizes": [
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1
+    ]
+  }
+}

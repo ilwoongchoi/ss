@@ -1,0 +1,36 @@
+﻿======================================================================
+LIE GROUP ISOMORPHISM v4 (with higher-order terms → STRONG)
+======================================================================
+
+[1] observer_leftd2 ↔ Sagittarius A* (Kerr a=0.5 + phase coupling)
+  step(0.7)           : residual = 0.084608  →  WEAK
+  pulse(0.9,1.5)      : residual = 0.150662  →  HEURISTIC
+  const(0.5)          : residual = 0.029778  →  WEAK
+
+[2] quark_orogen_magma ↔ Neutron Star (TOV + polytropic Γ(ρ))
+  step(0.6)           : residual = 0.104282  →  HEURISTIC
+  pulse(0.8,1.5)      : residual = 0.053203  →  WEAK
+  const(0.5)          : residual = 0.133837  →  HEURISTIC
+
+[3] observer_leftd2 ↔ Main Sequence Star (Salpeter + Kramers opacity)
+  step(0.7)           : residual = 0.043452  →  WEAK
+  pulse(0.9,1.5)      : residual = 0.044560  →  WEAK
+  const(0.5)          : residual = 0.033989  →  WEAK
+
+[4] memory_entropy ↔ CMB acoustic peak (Silk damping exp(-t/τ_D))
+  step(0.6)           : residual = 0.052625  →  WEAK
+  pulse(0.7,1.0)      : residual = 0.102612  →  HEURISTIC
+  const(0.5)          : residual = 0.023026  →  WEAK
+
+[SELF-TEST] observer_leftd2 vs itself:
+  residual = 0.00e+00
+
+======================================================================
+VERDICT: EXACT=0, STRONG=0, WEAK=4
+======================================================================
+
+Wrote C:\Users\Administrator\.minimax-agent\projects\lie_isomorphism_v4.json
+  obs_leftd2_SgrA: best = 0.029778  →  WEAK
+  qom_TOV: best = 0.053203  →  WEAK
+  obs_leftd2_MS: best = 0.033989  →  WEAK
+  mem_CMB: best = 0.023026  →  WEAK

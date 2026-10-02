@@ -1,0 +1,31 @@
+{
+  "query": {
+    "start": "2026-02-08",
+    "end": "2026-03-08",
+    "bbox": [
+      32.0,
+      42.5,
+      -125.0,
+      -114.0
+    ],
+    "base_minmag": 3.0,
+    "ext_minmag": 1.0,
+    "limit": 2000,
+    "max_dist_km": 35.0,
+    "max_dt_days": 10.0
+  },
+  "counts": {
+    "base_events": 33,
+    "ext_events": 1785,
+    "added_events": 1752
+  },
+  "closure": {
+    "base_components": 17,
+    "ext_components": 84,
+    "base_edges_total": 38,
+    "ext_edges_total": 80759,
+    "base_edges_used": 16,
+    "ext_edges_used": 1701,
+    "mediator_candidates_found": 123
+  }
+}

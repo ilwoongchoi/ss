@@ -1,0 +1,308 @@
+{
+  "top_20_by_abs_spark": [
+    {
+      "window": 34,
+      "spark": -0.8885475107491886,
+      "spark_abs": 0.8885475107491886,
+      "vasopressin_female": "on",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "vasopressin_female",
+        "right_acetylcholine",
+        "glucocorticoid",
+        "right_cortisol",
+        "right_alpha_2"
+      ]
+    },
+    {
+      "window": 30,
+      "spark": 0.7755524880686645,
+      "spark_abs": 0.7755524880686645,
+      "vasopressin_female": "on",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "vasopressin_female",
+        "male_oxytocin",
+        "right_acetylcholine",
+        "right_alpha_2"
+      ]
+    },
+    {
+      "window": 25,
+      "spark": 0.7635679327882972,
+      "spark_abs": 0.7635679327882972,
+      "vasopressin_female": "on",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "vasopressin_female",
+        "male_oxytocin",
+        "right_acetylcholine",
+        "right_alpha_2"
+      ]
+    },
+    {
+      "window": 21,
+      "spark": -0.7503654273454216,
+      "spark_abs": 0.7503654273454216,
+      "vasopressin_female": "on",
+      "right_alpha_2": "off",
+      "on_nodes": [
+        "female_gaba_b_latdorsi",
+        "male_left_5ht",
+        "left_estrogen",
+        "right_love",
+        "vasopressin_female",
+        "male_oxytocin",
+        "right_occipitalis_gaba_a"
+      ]
+    },
+    {
+      "window": 38,
+      "spark": 0.728227544893058,
+      "spark_abs": 0.728227544893058,
+      "vasopressin_female": "no_control",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "left_temporalis_5ht1a",
+        "right_dopamine",
+        "left_extraversion",
+        "glucocorticoid",
+        "right_cortisol",
+        "right_alpha_2"
+      ]
+    },
+    {
+      "window": 43,
+      "spark": 0.7134443841447305,
+      "spark_abs": 0.7134443841447305,
+      "vasopressin_female": "no_control",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "left_temporalis_5ht1a",
+        "right_dopamine",
+        "left_extraversion",
+        "glucocorticoid",
+        "right_cortisol",
+        "right_alpha_2"
+      ]
+    },
+    {
+      "window": 29,
+      "spark": -0.7118438092015873,
+      "spark_abs": 0.7118438092015873,
+      "vasopressin_female": "on",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "vasopressin_female",
+        "male_oxytocin",
+        "right_acetylcholine",
+        "right_alpha_2"
+      ]
+    },
+    {
+      "window": 39,
+      "spark": -0.6874434162138099,
+      "spark_abs": 0.6874434162138099,
+      "vasopressin_female": "no_control",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "left_temporalis_5ht1a",
+        "right_dopamine",
+        "left_extraversion",
+        "glucocorticoid",
+        "right_cortisol",
+        "right_alpha_2"
+      ]
+    },
+    {
+      "window": 26,
+      "spark": -0.6811722836507098,
+      "spark_abs": 0.6811722836507098,
+      "vasopressin_female": "on",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "vasopressin_female",
+        "male_oxytocin",
+        "right_acetylcholine",
+        "right_alpha_2"
+      ]
+    },
+    {
+      "window": 35,
+      "spark": 0.6800450529620713,
+      "spark_abs": 0.6800450529620713,
+      "vasopressin_female": "on",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "vasopressin_female",
+        "right_acetylcholine",
+        "glucocorticoid",
+        "right_cortisol",
+        "right_alpha_2"
+      ]
+    },
+    {
+      "window": 47,
+      "spark": -0.6720166921718781,
+      "spark_abs": 0.6720166921718781,
+      "vasopressin_female": "no_control",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "left_temporalis_5ht1a",
+        "right_dopamine",
+        "left_extraversion",
+        "glucocorticoid",
+        "right_cortisol",
+        "right_alpha_2"
+      ]
+    },
+    {
+      "window": 17,
+      "spark": 0.6637643115036691,
+      "spark_abs": 0.6637643115036691,
+      "vasopressin_female": "on",
+      "right_alpha_2": "off",
+      "on_nodes": [
+        "female_gaba_b_latdorsi",
+        "male_left_5ht",
+        "left_estrogen",
+        "right_love",
+        "vasopressin_female",
+        "male_oxytocin",
+        "right_occipitalis_gaba_a"
+      ]
+    },
+    {
+      "window": 51,
+      "spark": 0.6615995424327217,
+      "spark_abs": 0.6615995424327217,
+      "vasopressin_female": "off",
+      "right_alpha_2": "off",
+      "on_nodes": [
+        "left_acetyl_coa",
+        "left_temporalis_5ht1a",
+        "right_dopamine",
+        "muscle_b",
+        "right_androgen",
+        "left_frontalis_d2",
+        "right_acetylcholine",
+        "left_extraversion",
+        "glucocorticoid",
+        "right_cortisol"
+      ]
+    },
+    {
+      "window": 52,
+      "spark": -0.659030104856725,
+      "spark_abs": 0.659030104856725,
+      "vasopressin_female": "off",
+      "right_alpha_2": "off",
+      "on_nodes": [
+        "left_acetyl_coa",
+        "left_temporalis_5ht1a",
+        "right_dopamine",
+        "muscle_b",
+        "right_androgen",
+        "left_frontalis_d2",
+        "right_acetylcholine",
+        "left_extraversion",
+        "glucocorticoid",
+        "right_cortisol"
+      ]
+    },
+    {
+      "window": 33,
+      "spark": 0.6578351362904272,
+      "spark_abs": 0.6578351362904272,
+      "vasopressin_female": "on",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "vasopressin_female",
+        "right_acetylcholine",
+        "glucocorticoid",
+        "right_cortisol",
+        "right_alpha_2"
+      ]
+    },
+    {
+      "window": 16,
+      "spark": -0.643676922533213,
+      "spark_abs": 0.643676922533213,
+      "vasopressin_female": "on",
+      "right_alpha_2": "off",
+      "on_nodes": [
+        "female_gaba_b_latdorsi",
+        "male_left_5ht",
+        "left_estrogen",
+        "right_love",
+        "vasopressin_female",
+        "male_oxytocin",
+        "right_occipitalis_gaba_a"
+      ]
+    },
+    {
+      "window": 48,
+      "spark": 0.6305560256317301,
+      "spark_abs": 0.6305560256317301,
+      "vasopressin_female": "off",
+      "right_alpha_2": "off",
+      "on_nodes": [
+        "left_acetyl_coa",
+        "left_temporalis_5ht1a",
+        "right_dopamine",
+        "muscle_b",
+        "right_androgen",
+        "left_frontalis_d2",
+        "right_acetylcholine",
+        "left_extraversion",
+        "glucocorticoid",
+        "right_cortisol"
+      ]
+    },
+    {
+      "window": 12,
+      "spark": 0.626681450532235,
+      "spark_abs": 0.626681450532235,
+      "vasopressin_female": "on",
+      "right_alpha_2": "off",
+      "on_nodes": [
+        "female_gaba_b_latdorsi",
+        "male_left_5ht",
+        "left_estrogen",
+        "right_love",
+        "vasopressin_female",
+        "male_oxytocin",
+        "right_occipitalis_gaba_a"
+      ]
+    },
+    {
+      "window": 8,
+      "spark": -0.6194859845827817,
+      "spark_abs": 0.6194859845827817,
+      "vasopressin_female": "on",
+      "right_alpha_2": "off",
+      "on_nodes": [
+        "right_love",
+        "vasopressin_female",
+        "male_oxytocin"
+      ]
+    },
+    {
+      "window": 42,
+      "spark": -0.6183161581851758,
+      "spark_abs": 0.6183161581851758,
+      "vasopressin_female": "no_control",
+      "right_alpha_2": "on",
+      "on_nodes": [
+        "left_temporalis_5ht1a",
+        "right_dopamine",
+        "left_extraversion",
+        "glucocorticoid",
+        "right_cortisol",
+        "right_alpha_2"
+      ]
+    }
+  ],
+  "mean_abs_spark_vaso_on": 0.2888924219083349,
+  "mean_abs_spark_vaso_off": 0.21262023568044183
+}

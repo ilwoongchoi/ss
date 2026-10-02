@@ -1,0 +1,39 @@
+﻿======================================================================
+KERNEL v1 — Universal System Mathematical Kernel
+======================================================================
+
+[TEST 1] Particle count: 41 (expected 41)
+[TEST 2] 5+2+1 dim split: body=5 + observer=2 + bridge=1 = 8
+[TEST 3] KAPPA antisymmetry: True
+[TEST 4] 6 soil × 6 foot boundary nodes: 7
+[TEST 5] 6 attractors: ['energy', 'information', 'repair', 'opioid', 'gan_bulkhead', 'cox_retrograde']
+
+[TEST 6] Cycle closure at sample times:
+  t=  0.0h: closed=True, n_active_soils=6/7, fluxes={'Andosol': 1.0, 'Podzol': 0.9619397662556434, 'Cambisol_L': 0.5, 'Cambisol_R': 0.0, 'Histosol': 0.30865828381745525, 'Cryosol': 0.8535533905932737, 'Mollisol': 0.14644660940672627}
+  t=  6.0h: closed=True, n_active_soils=6/7, fluxes={'Andosol': 0.5, 'Podzol': 0.6913417161825449, 'Cambisol_L': 1.0, 'Cambisol_R': 0.5, 'Histosol': 0.03806023374435663, 'Cryosol': 0.14644660940672605, 'Mollisol': 0.8535533905932737}
+  t= 12.0h: closed=True, n_active_soils=5/7, fluxes={'Andosol': 0.0, 'Podzol': 0.03806023374435663, 'Cambisol_L': 0.5, 'Cambisol_R': 1.0, 'Histosol': 0.6913417161825449, 'Cryosol': 0.14644660940672627, 'Mollisol': 0.8535533905932737}
+  t= 18.0h: closed=True, n_active_soils=6/7, fluxes={'Andosol': 0.4999999999999999, 'Podzol': 0.30865828381745525, 'Cambisol_L': 0.0, 'Cambisol_R': 0.5, 'Histosol': 0.9619397662556434, 'Cryosol': 0.8535533905932737, 'Mollisol': 0.14644660940672627}
+  t= 21.0h: closed=True, n_active_soils=6/7, fluxes={'Andosol': 0.8535533905932737, 'Podzol': 0.6913417161825446, 'Cambisol_L': 0.14644660940672605, 'Cambisol_R': 0.14644660940672627, 'Histosol': 0.6913417161825449, 'Cryosol': 1.0, 'Mollisol': 0.0}
+  t=  3.0h: closed=True, n_active_soils=6/7, fluxes={'Andosol': 0.8535533905932737, 'Podzol': 0.9619397662556434, 'Cambisol_L': 0.8535533905932737, 'Cambisol_R': 0.14644660940672627, 'Histosol': 0.038060233744356575, 'Cryosol': 0.4999999999999999, 'Mollisol': 0.5}
+
+[TEST 7] Tensor output for ENTP_M_O at 3 times (4 layer each):
+  t=16.50h, layer=0: r=0.70 h=0.59 d=0.50 p=0.50 s=0.54 gamma=0.50 g=0.52 nu=0.62
+  t=16.50h, layer=1: r=0.70 h=0.60 d=0.50 p=0.50 s=0.54 gamma=0.45 g=0.51 nu=0.72
+  t=16.50h, layer=2: r=0.75 h=0.64 d=0.55 p=0.55 s=0.59 gamma=0.55 g=0.57 nu=0.67
+  t=16.50h, layer=3: r=0.70 h=0.59 d=0.50 p=0.50 s=0.54 gamma=0.50 g=0.52 nu=0.62
+  t= 3.00h, layer=0: r=0.70 h=0.60 d=0.50 p=0.50 s=0.53 gamma=0.50 g=0.54 nu=0.62
+  t= 3.00h, layer=1: r=0.70 h=0.60 d=0.50 p=0.50 s=0.53 gamma=0.45 g=0.54 nu=0.73
+  t= 3.00h, layer=2: r=0.75 h=0.65 d=0.55 p=0.55 s=0.58 gamma=0.55 g=0.59 nu=0.67
+  t= 3.00h, layer=3: r=0.70 h=0.60 d=0.50 p=0.50 s=0.53 gamma=0.50 g=0.54 nu=0.62
+  t= 4.50h, layer=0: r=0.70 h=0.61 d=0.50 p=0.50 s=0.52 gamma=0.50 g=0.53 nu=0.63
+  t= 4.50h, layer=1: r=0.70 h=0.61 d=0.50 p=0.50 s=0.52 gamma=0.45 g=0.53 nu=0.73
+  t= 4.50h, layer=2: r=0.75 h=0.66 d=0.55 p=0.55 s=0.57 gamma=0.55 g=0.58 nu=0.68
+  t= 4.50h, layer=3: r=0.70 h=0.61 d=0.50 p=0.50 s=0.52 gamma=0.50 g=0.53 nu=0.63
+
+[TEST 8] universe_ended at equilibrium and non-equilibrium:
+  Equilibrium: ended=False, components={'phase_antagonism': False, 'axion_crush': True, 'co2_leak': True, 'redox_balance': True, 'p_bistability': True}
+  Non-equilibrium (all 0.5): ended=False, components={'phase_antagonism': False, 'axion_crush': False, 'co2_leak': True, 'redox_balance': True, 'p_bistability': False}
+
+======================================================================
+ALL TESTS PASS — kernel_v1 frozen
+======================================================================

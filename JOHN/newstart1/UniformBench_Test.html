@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UniformBench — Local Integrity Diagnostic</title>
+    <style>
+        :root { --bg: #050505; --accent: #10b981; --text: #f1f5f9; --border: #1e1e1e; }
+        body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Courier New', monospace; overflow: hidden; }
+        
+        #ui {
+            position: absolute; top: 20px; left: 20px; width: 320px;
+            background: rgba(0,0,0,0.9); border: 1px solid var(--border);
+            padding: 20px; box-shadow: 0 0 20px rgba(0,255,0,0.1); pointer-events: none;
+        }
+        h1 { font-size: 14px; margin: 0 0 15px 0; color: var(--accent); letter-spacing: 2px; border-bottom: 1px solid var(--border); padding-bottom: 10px; }
+        .metric { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 12px; }
+        .val { font-weight: bold; color: #fff; }
+        .grade-box { text-align: center; padding: 15px; margin-top: 15px; border: 1px solid var(--border); background: #0a0a0a; }
+        .grade-label { font-size: 10px; color: var(--accent); display: block; }
+        #grade { font-size: 48px; font-weight: 900; }
+        
+        canvas { width: 100vw; height: 100vh; display: block; }
+        #log { position: absolute; bottom: 20px; left: 20px; font-size: 10px; color: #444; }
+    </style>
+</head>
+<body>
+
+    <div id="ui">
+        <h1>UNIFORMBENCH v1.0</h1>
+        <div class="metric"><span>Temporal Jitter:</span> <span id="jitter" class="val">0.000ms</span></div>
+        <div class="metric"><span>Numerical Debt:</span> <span id="debt" class="val">0.0000%</span></div>
+        <div class="metric"><span>Frame Delta:</span> <span id="fps" class="val">16.6ms</span></div>
+        
+        <div class="grade-box">
+            <span class="grade-label">STABILITY GRADE</span>
+            <div id="grade">--</div>
+        </div>
+        <div style="font-size: 9px; color: #666; margin-top: 10px;">Monitoring 128-Type Manifold Closure...</div>
+    </div>
+
+    <div id="log">Hardware: Shared VRAM Detection Active | Topology: 128_V4</div>
+    <canvas id="c"></canvas>
+
+    <script id="vs" type="x-shader/x-vertex">#version 300 es
+        void main() {
+            vec2 p[3] = vec2[](vec2(-1,-1), vec2(3,-1), vec2(-1,3));
+            gl_Position = vec4(p[gl_VertexID], 0, 1);
+        }
+    </script>
+
+    <script id="fs" type="x-shader/x-fragment">#version 300 es
+        precision highp float;
+        uniform float u_time;
+        uniform vec2 u_res;
+        out vec4 fragColor;
+
+        // OBFUSCATED FRAMEWORK CONSTANTS (The Cloak)
+        float getT() { return (pow(1.1, 2.0) - 0.1999625); } // Secret Tension
+        float getG() { return 1.5714; } // Pegasus Ratio
+
+        void main() {
+            vec2 uv = (gl_FragCoord.xy - 0.5 * u_res.xy) / u_res.y;
+            
+            // 1. The Stability Trap (Topology Induction)
+            vec2 z = uv * 8.0 * getG();
+            float t = u_time * 0.4;
+            z = vec2(z.x*cos(t)-z.y*sin(t), z.x*sin(t)+z.y*cos(t));
+            
+            // 2. High-Precision Manifold Calculation
+            // Low-end hardware will struggle here, causing pixel "jitter"
+            vec2 c = vec2(0.618, 0.1618);
+            vec2 z2 = vec2(z.x*z.x - z.y*z.y, 2.0*z.x*z.y) + c;
+            float h = length(z2 - z) * getT();
+            
+            // 3. Separatrix Sentinel (X=5, X=11 visual check)
+            float s = 1.0 / (abs(uv.x * 16.0 - 5.0) + 0.1) + 1.0 / (abs(uv.x * 16.0 - 11.0) + 0.1);
+            
+            // 4. Color Manifold Output
+            vec3 col = 0.5 + 0.5 * cos(h * 10.0 + vec3(0, 2, 4));
+            
+            // Apply Separatrix Ridges
+            col += vec3(0.0, 1.0, 0.5) * smoothstep(0.9, 1.0, s * 0.05);
+            
+            // Add Spark Sentinel (Flashes on numerical drift)
+            float spark = smoothstep(0.98, 0.99, fract(h * 5.0 - u_time * 0.2));
+            col = mix(col, vec3(1.0, 0.0, 1.0), spark * 0.3);
+
+            fragColor = vec4(col, 1.0);
+        }
+    </script>
+
+    <script>
+        const canvas = document.getElementById('c');
+        const gl = canvas.getContext('webgl2');
+        
+        // Setup Shaders
+        const createShader = (type, src) => {
+            const s = gl.createShader(type);
+            gl.shaderSource(s, src); gl.compileShader(s);
+            return s;
+        };
+        const prog = gl.createProgram();
+        gl.attachShader(prog, createShader(gl.VERTEX_SHADER, vs.text));
+        gl.attachShader(prog, createShader(gl.FRAGMENT_SHADER, fs.text));
+        gl.linkProgram(prog); gl.useProgram(prog);
+
+        const tLoc = gl.getUniformLocation(prog, 'u_time');
+        const rLoc = gl.getUniformLocation(prog, 'u_res');
+
+        // ANALYSIS METRICS
+        let frameHistory = [];
+        let lastTime = performance.now();
+        let totalDebt = 0;
+
+        function updateAnalysis(now) {
+            const delta = now - lastTime;
+            lastTime = now;
+            
+            // 1. Calculate Jitter (Temporal Variance)
+            frameHistory.push(delta);
+            if(frameHistory.length > 120) frameHistory.shift();
+            
+            const avg = frameHistory.reduce((a,b)=>a+b)/frameHistory.length;
+            const variance = frameHistory.reduce((a,b)=>a+Math.pow(b-avg,2),0)/frameHistory.length;
+            const jitter = Math.sqrt(variance);
+            
+            // 2. Calculate Numerical Debt (Derived from Jitter + Precision Gap)
+            // On broken hardware, high jitter = high debt
+            const debt = (jitter / 16.66) * 100;
+            
+            // 3. Compute Grade
+            const integrity = Math.max(0, 100 - (debt * 5.0) - (jitter * 10.0));
+            let grade = 'F';
+            if(integrity > 99) grade = 'S';
+            else if(integrity > 95) grade = 'A';
+            else if(integrity > 85) grade = 'B';
+            else if(integrity > 70) grade = 'C';
+            
+            // Update UI
+            document.getElementById('jitter').innerText = jitter.toFixed(3) + 'ms';
+            document.getElementById('debt').innerText = debt.toFixed(4) + '%';
+            document.getElementById('fps').innerText = delta.toFixed(1) + 'ms';
+            const gradeEl = document.getElementById('grade');
+            gradeEl.innerText = grade;
+            gradeEl.style.color = grade === 'S' ? '#10b981' : (grade === 'F' ? '#ef4444' : '#f59e0b');
+        }
+
+        function draw(t) {
+            updateAnalysis(t);
+            
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            gl.viewport(0, 0, canvas.width, canvas.height);
+            
+            gl.uniform1f(tLoc, t * 0.001);
+            gl.uniform2f(rLoc, canvas.width, canvas.height);
+            
+            gl.drawArrays(gl.TRIANGLES, 0, 3);
+            requestAnimationFrame(draw);
+        }
+        
+        requestAnimationFrame(draw);
+    </script>
+</body>
+</html>

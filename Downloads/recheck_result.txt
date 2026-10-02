@@ -1,0 +1,32 @@
+﻿Defined nodes: 278
+
+=== DANGLING WIRES (referenced node not defined) ===
+Total: 5
+
+Line 488 [-> mycorradicin.ctrl0] OUTPUT_TO_UNDEFINED
+  in0 <- carbon.q_bar # SIGNAL: Catabolic state active in1 <- left_endorphin_non_observer.out # SIGNAL: Global recovery baseline out -> mycorradicin.ctrl0 # WIRE: [GEOLOGY: Catabolic carbon] to [PHYSICS: mycorradicin control]. (Catabolic phase gates AM symbiosis lipid metabolism) [REVERSE: Mycorradici...
+
+Line 682 [-> mycorradicin.in0] OUTPUT_TO_UNDEFINED
+  in0 <- cambisol_in0_xor.out # SIGNAL: Organic debris influx (Actomyosin) ctrl0 <- large_igneous_province.out0 # CONTROL: Ferroptotic/ROS-mediated gating out0 -> collagen.in0 # WIRE: [GEOLOGY: Early autophagic vacuole] provides [PHYSICS: structural amino acids]. (Autophagy releases proline and glycin...
+
+Line 777 [<- mycorradicin.out0] INPUT_FROM_UNDEFINED
+  in0 <- mycorradicin.out0 # SIGNAL: C-stress fungal signal in1 <- right_acetylcholine_out0_nand.out # SIGNAL: Vagal cholinergic recovery status out -> mycorradicin_leftd2_and.in0 [REVERSE: [GEOLOGY: Permitted stress drain] ??[PHYSICS: AM symbiosis evaluation] pulls combined metabolic stress/recovery ...
+
+Line 1693 [<- mycorradicin.out0] INPUT_FROM_UNDEFINED
+  in0 <- mycorradicin.out0 # SIGNAL: Fungal-network stress signal in1 <- left_endorphin_non_observer.out # SIGNAL: Global recovery baseline out -> actomyosin.in0 [REVERSE: Actomyosin contraction drain ??mechanical power-stroke demand pulls integrated fungal-network status, reinforcing AM symbiosis-mot...
+
+Line 2361 [<- mycorradicin.out0] INPUT_FROM_UNDEFINED
+    in0 <- mycorradicin.out0 # SIGNAL: C-stress fungal signal
+
+
+=== ORPHAN NODES (defined but never referenced by any wire) ===
+Total: 5
+  caco3
+  cytochrome_c_oxidase_ctrl1_combined
+  cytochrome_c_oxidase_retrograde_tg
+  t_ff_out
+  thorium_straight_drd2s_and
+ALIAS NODE: caco3
+
+=== NODE GATE TYPES ===
+  (279) 

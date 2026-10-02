@@ -1,0 +1,6 @@
+profile,Z,feat,shift_h,r,subshell
+melatonin_pg_mL,36,sin_arg,16.6875,-0.91364001133249,4p
+cortisol_ug_dL,36,sin_arg,22.5,-0.9663950166683559,4p
+GH_ng_mL,112,arg,22.5,0.9168725514935747,6d
+core_temp_C,36,sin_arg,20.25,0.9583581910055334,4p
+testosterone_ng_dL,37,sin_arg,22.125,-0.9760872640986101,5s

@@ -1,0 +1,14 @@
+patch_id,patch_name,universe,component_role,internal_component,extended_component,barrier_status,seam_count
+A,sheet_id:1,Original,Anchor node (A),Main,Unified,None,1
+B,sheet_id:2,Original,Gateway neighbor (B),Main,Unified,True barrier with G,6
+C,sheet_id:3,Original,Flash anchor (C),Main,Unified,None,3
+D,sheet_id:4,Original,Anchor node (D); Relay target,Main,Unified,None,2
+10,sheet_id:10,Original,Stage 2 repair; A-D bridge,Main,Unified,None,2
+11,sheet_id:11,Original,Lane B deprojection,Main,Unified,None,1
+12,sheet_id:12,Original,Stage 2 repair,Main,Unified,None,1
+13,sheet_id:13,Original,Lane C relay origin,Main,Unified,None,1
+14,sheet_id:14,Original,Lane B deprojection,Main,Unified,None,1
+F_prime,flash:center_in,Original,Flash complement,Main,Unified,None,1
+F,flash_bridge,Original,A-B flash bridge,Main,Unified,None,1
+G,gateway_peak,Original,Isolated residual; Internal boundary,Isolated,Unified,True barrier with B,0
+X,mediator:synthetic_alpha,Extended,External mediator,N/A,Unified,Bypasses G-B barrier,2

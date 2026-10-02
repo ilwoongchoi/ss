@@ -1,0 +1,5 @@
+u,v,gap_dist,contact_score,drift_factor_used,source
+mediator:synthetic_alpha,core_center,7.6274,0.0169,2.147,calculate_bridge_vectors.py
+gateway_peak,core_center,8.1132,0.015,1.0,calculate_bridge_vectors.py
+mediator:synthetic_alpha,right_branch,15.2755,0.002,2.147,calculate_bridge_vectors.py
+core_center,right_branch,0.0,0.95,4.61,seam_failure_table.csv (drifted)

@@ -1,0 +1,38 @@
+﻿======================================================================
+CIRCUIT ↔ PHYSICS ISOMORPHISM v3 (Hill form, observational constants)
+======================================================================
+
+[obs_leftd2_SgrA]
+  step(0.7,1.0)           : 0.000000  →  EXACT
+  pulse(0.9,1.5,0.3)      : 0.000000  →  EXACT
+  ramp(0.8,2.0)           : 0.000000  →  EXACT
+  const(0.5)              : 0.000000  →  EXACT
+
+[qom_TOV]
+  step(0.7,1.0)           : 0.000000  →  EXACT
+  pulse(0.9,1.5,0.3)      : 0.000000  →  EXACT
+  ramp(0.8,2.0)           : 0.000000  →  EXACT
+  const(0.5)              : 0.000000  →  EXACT
+
+[obs_leftd2_MS]
+  step(0.7,1.0)           : 0.027529  →  WEAK
+  pulse(0.9,1.5,0.3)      : 0.025216  →  WEAK
+  ramp(0.8,2.0)           : 0.029423  →  WEAK
+  const(0.5)              : 0.041998  →  WEAK
+
+[mem_CMB]
+  step(0.7,1.0)           : 0.048717  →  WEAK
+  pulse(0.9,1.5,0.3)      : 0.022756  →  WEAK
+  ramp(0.8,2.0)           : 0.046092  →  WEAK
+  const(0.5)              : 0.070152  →  WEAK
+
+[SELF-TEST] observer_leftd2 vs itself:
+  residual = 0.00e+00  →  EXACT
+
+Wrote C:\Users\Administrator\.minimax-agent\projects\equation_isomorphism_v3.json
+
+Verdict: PASS
+  EXACT:      2
+  STRONG:     0
+  WEAK:       2
+  HEURISTIC:  0

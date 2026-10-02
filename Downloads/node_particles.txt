@@ -1,0 +1,111 @@
+﻿222: PHYSICS: element=H(1) | particle=Time | color=RED | GROUP=AlkaliMetal | Archetype: Introverted Woman
+223: PHYSICS: element=H(1) | particle=Time | color=RED | GROUP=AlkaliMetal | Archetype: Observer
+299: PHYSICS: element=F(9) | particle=Electromagnetic Wave | color=BLUE | GROUP=Halogen | VECTOR=쿼크가날때림
+324: PHYSICS: element=Na(11) | particle=w_boson | color=RED | GROUP=AlkaliMetal | VECTOR=내가쿼크때림 | ROLE=MasterPermissiveBus
+372: PHYSICS: element=Mg(12) | particle=electron_antineutrino | color=GREEN | GROUP=AlkalineEarth | VECTOR=쿼크가날사랑
+397: PHYSICS: q=element=B(5),particle=Up Quark | q_bar=element=Si(14),particle=graviton | GROUP=Metalloid | VECTOR=중력=질량→MC1R_ON/OFF | Archetype: Extraverted Woman
+412: PHYSICS: element=P(15) | particle=higgs | color=YELLOW | GROUP=Nonmetal
+418: PHYSICS: element=P(15) | particle=higgs | color=YELLOW | GROUP=Nonmetal | VECTOR=글루온이쿼크직접공격(밤)
+435: PHYSICS: element=S(16) | particle=muon_antineutrino | color=YELLOW | GROUP=Nonmetal | VECTOR=글루온이스스로비움(밤)
+466: PHYSICS: element=Ar(18) | particle=gluon | color=WHITE | GROUP=NobleGas
+475: PHYSICS: element=Ar(18) | particle=gluon | color=WHITE | GROUP=NobleGas | ROLE=Observer_Nrf2
+487: PHYSICS: element=Cs(55) | particle=Electromagnetic Wave | color=RED | GROUP=AlkaliMetal
+490: PHYSICS: element=Rb(37) | particle=muon | color=RED | GROUP=AlkaliMetal
+508: PHYSICS: element=Fr(87) | particle=energy | color=RED | GROUP=AlkaliMetal
+509: PHYSICS: element=Cs(55) | particle=strange_quark | color=RED | GROUP=AlkaliMetal
+521: PHYSICS: element=Fr(87) | particle=Observer | color=RED | GROUP=AlkaliMetal | Archetype: Observer
+539: PHYSICS: element=Ca(20) | particle=electron | color=GREEN | GROUP=AlkalineEarth
+559: PHYSICS: element=Ca(20) | particle=electron | color=GREEN | GROUP=AlkalineEarth
+571: PHYSICS: element=Sc(21) | particle=Strange Quark | color=WHITE | GROUP=TransitionMetal | Archetype: Observer
+595: PHYSICS: element=Kr(36) | particle=w boson | color=WHITE | GROUP=NobleGas
+597: PHYSICS: element=Kr(36) | particle=w boson | color=WHITE | GROUP=NobleGas | ROLE=Observer
+620: PHYSICS: element=Mn(25) | particle=Muon Neutrino | color=BLACK | GROUP=TransitionMetal | Archetype: Introverted Man
+621: PHYSICS: element=Mn(25),particle=Muon Neutrino | element2=Lr(103),particle2=none | GROUP=TransitionMetal
+647: PHYSICS: element=Ra(88) | particle=Quark Herself | color=GREEN | GROUP=AlkalineEarth | out_mc1r=element=Zn(30) | Archetype: Introverted Woman
+660: PHYSICS: element=Ge(32) | particle=Z Boson | color=YELLOW | GROUP=Metalloid
+681: PHYSICS: q=element=As(33),particle=GKYIB | q_bar=element=Se(34) | GROUP=Metalloid | Archetype: Extraverted Woman
+716: PHYSICS: out0=element=Br(35),particle=muon_neutrino,color=BLUE | out1=element=Kr(36),particle=photon,color=WHITE | out2=element=Ga(31) | GROUP=Halogen+NobleGas+Semiconductor
+738: PHYSICS: element=Sr(38) | particle=Tau | color=GREEN | GROUP=AlkalineEarth | Archetype: Extraverted Man
+755: PHYSICS: element=Nh(113) | particle=Strange Quark | color=BLACK | GROUP=TransActinide | Archetype: Observer
+777: PHYSICS: element=U(92) | particle=Energy | color=BLACK | GROUP=Actinide | Archetype: Introverted Woman
+826: PHYSICS: element=Pu(94)/Am(95) | particle=Spark (None Proton) | color=YELLOW | GROUP=Actinide
+858: PHYSICS: element=Tc(43)/Ru(44) | particle=Spark (Proton) | color=RED | GROUP=TransitionMetal
+868: PHYSICS: element=Cm(96) | particle=Electron Antineutrino| Particle Vector: 쿼크가 관찰자를 사랑하는것 color=BLACK | GROUP=Actinide
+877: PHYSICS: element=Cm(96) | particle=- | color=BLACK | GROUP=Actinide
+910: PHYSICS: element=Ba(56) | particle=Z Boson | color=GREEN | GROUP=AlkalineEarth
+963: PHYSICS: element=Fm(100) | particle=Right Testosterone | color=RED | GROUP=Actinide | VECTOR=에너지_물순환
+975: PHYSICS: element=At(85) | particle=higgs | color=BLUE | GROUP=Halogen
+1022: PHYSICS: element=Cl(17) | particle=Electron | color=BLUE | GROUP=Halogen | Archetype: Introverted Woman
+1032: PHYSICS: element=Fl(9) | particle=Time | color=GREEN | GROUP=Halogen | Archetype: Introverted Woman
+1048: PHYSICS: q=element=Y(39) | q_bar=element=Zr(40) | particle=neutron_star | color=WHITE | GROUP=TransitionMetal
+1112: PHYSICS: element=Na(11) | particle=w_boson | color=RED | GROUP=AlkaliMetal
+1144: PHYSICS: element=K(19) | particle=Quark Herself | color=RED | GROUP=AlkaliMetal | Archetype: Introverted Woman
+1171: PHYSICS: element=I(53) | particle=Muon Antineutrino | color=BLUE | GROUP=Halogen
+1186: PHYSICS: out_1=element=In(49),particle=Down Quark | out_2=element=Sn(50) | GROUP=PostTransitionMetal | Archetype: Introverted Man
+1201: PHYSICS: element=No(102) | particle=Observer | color=YELLOW | GROUP=Actinide | Archetype: Observer
+1224: PHYSICS: element=Sb(51) | particle=Energy | color=RED | GROUP=Metalloid | Archetype: Introverted Woman
+1240: PHYSICS: element=Es(99) | particle=Tau Neutrino | color=GREEN | GROUP=Actinide
+1263: PHYSICS: element=Th(90)/Pa(91) | particle=Dark Energy | color=BLACK
+1264: PHYSICS: element=Th(90)/Pa(91) | particle=Dark Energy | color=BLACK | GROUP=Actinide | Archetype: Introverted Woman
+1286: PHYSICS: element=Tb(65)/Dy(66) | particle=GKYIB | color=WHITE
+1287: PHYSICS: q=element=Tb(65) | q_bar=element=Dy(66) | particle=GKYIB | color=WHITE | GROUP=Lanthanide | Archetype: Extraverted Woman
+1302: PHYSICS: element=Cf(98) | particle=w_boson | color=RED
+1309: PHYSICS: element=Cf(98) | particle=w_boson | color=RED | GROUP=Actinide | particle VECTOR=.관찰자가 쿼크를 공격하는것
+1384: PHYSICS: element=Ts(117) | particle=left_progesterone | color=BLUE
+1385: PHYSICS: element=Ts(117) | particle=Left Progesterone | color=BLUE | GROUP=Halogen | ROLE=TimeLatch
+1417: PHYSICS: q=element=Pr(59) | q_bar=element=Nd(60) | particle=up_quark | color=RED
+1418: PHYSICS: q=element=Pr(59) | q_bar=element=Nd(60) | particle=up_quark | color=RED | GROUP=Lanthanide | VECTOR=옵시토신_도덕적심판단 — unconditional non-self-serving moral corrector, D flip-flop
+1449: PHYSICS: q=element=Ce(58) | particle=Up Quark | color=WHITE | GROUP=Lanthanide | Archetype: Extraverted Woman
+1453: PHYSICS: q=element=Ce(58) | particle=Up Quark | color=WHITE | GROUP=Lanthanide | VECTOR=쿼크가자아(허상)만들어 | Archetype: Extraverted Woman
+1509: PHYSICS: element=Cn(112) | particle=Axion | color=WHITE
+1510: PHYSICS: element=Cn(112) | particle=Axion | color=WHITE | GROUP=TransActinide | Archetype: Introverted Man
+1517: PHYSICS: element=Ac(89)/Th(90) | particle=Tau Neutrino | color=WHITE
+1528: PHYSICS: element=Fe(26) | particle=Muon Neutrino | color=BLACK | GROUP=TransitionMetal | Archetype: Introverted Man
+1556: PHYSICS: element=Ds(110) | particle=Electron | color=WHITE
+1557: PHYSICS: element=Ds(110) | particle=Electron | color=WHITE | GROUP=TransitionMetal | Archetype: Introverted Woman
+1584: PHYSICS: element=Md(101) | particle=Right Testosterone | color=WHITE | GROUP=Actinide
+1630: PHYSICS: element=V(23)/Cr(24) | particle=graviton | color=BLACK
+1631: PHYSICS: element=V(23)/Cr(24) | particle=graviton | color=BLACK | GROUP=TransitionMetal
+1662: PHYSICS: element=Yb(70)/Lu(71) | particle=charm_quark | color=GREEN
+1663: PHYSICS: element=Yb(70)/Lu(71) | particle=charm_quark | color=GREEN | GROUP=Lanthanide
+1671: PHYSICS: element=Fe(26) | particle=Ego | color=CYAN
+1672: PHYSICS: element=Fe(26) | particle=Ego | color=CYAN | GROUP=TransitionMetal | Archetype: Introverted Woman
+1691: PHYSICS: element=Au(79) | particle=photon | color=YELLOW
+1692: PHYSICS: element=Au(79) | particle=photon | color=YELLOW | GROUP=TransitionMetal
+1718: PHYSICS: element=Os(76)/Ir(77) | particle=Observer | color=BLACK
+1719: PHYSICS: element=Os(76)/Ir(77) | particle=Observer | color=BLACK | GROUP=TransitionMetal | Archetype: Observer
+1745: PHYSICS: element=Cd(48)/Hf(72) | particle=neutron | color=WHITE
+1746: PHYSICS: element=Cd(48)/Hf(72) | particle=neutron | color=WHITE | GROUP=TransitionMetal
+1767: PHYSICS: element=Ni(28)/Cu(29) | particle=Ego | color=CYAN
+1768: PHYSICS: element=Ni(28)/Cu(29) | particle=Ego | color=CYAN | GROUP=TransitionMetal | Archetype: Introverted Woman
+1788: PHYSICS: q=element=Pm(61) | q_bar=element=Sm(62) | particle=down_quark | color=RED
+1789: PHYSICS: q=element=Pm(61) | q_bar=element=Sm(62) | particle=Muon Antineutrino | color=RED | GROUP=Lanthanide
+1811: PHYSICS: element=Pt(78) | particle=graviton | color=BLACK
+1812: PHYSICS: element=Pt(78) | particle=graviton | color=BLACK | GROUP=TransitionMetal
+1838: PHYSICS: element=Ho(67)/Er(68) | particle=Dark Energy | color=BLUE
+1839: PHYSICS: element=Ho(67)/Er(68) | particle=Dark Energy | color=BLUE | GROUP=Lanthanide | Archetype: Introverted Woman
+1980: PHYSICS: element=E119 | particle=expression | color=GREEN
+1988: PHYSICS: element=E120 | particle=precursor | color=WHITE
+1996: PHYSICS: element=E121 | particle=noradrenaline | color=RED
+2004: PHYSICS: element=E122 | particle=dopamine | color=RED
+2012: PHYSICS: element=E123 | particle=cortisol | color=YELLOW
+2020: PHYSICS: element=E124 | particle=satisfaction | color=WHITE
+2028: PHYSICS: element=E125 | particle=vasopressin | color=RED
+2037: PHYSICS: element=E126 | particle=TCA | color=GREEN
+2044: PHYSICS: element=E127 | particle=GABA-B_2 | color=BLUE
+2052: PHYSICS: element=Al(13) | particle=GABA-A | color=RED
+2080: PHYSICS: element=Ga(31) | particle=serotonin_1a | color=GREEN
+2089: PHYSICS: element=Rh(45) | particle=serotonin_1b | color=WHITE
+2240:   # PHYSICS: element=Na(11) | particle=strange_quark | color=RED | GROUP=AlkaliMetal | vector=?닿?諛ㅼ뿉?먯븘鍮꾩? | VECTOR=?곗냼 | ROLE=MasterPermissiveBus | PERSONALITY=ENFJ AB rh- R1a ?숈쑀???⑥옄 援ъ“怨듯븰??吏??嫄댁텞媛)
+2393:   # PHYSICS: element=Mg(12) | particle=electron_antineutrino | color=GREEN | GROUP=AlkalineEarth | vector=荑쇳겕媛?좊궙?먯궗??| VECTOR=荑쇳겕媛?좎궗??| PERSONALITY=INTP O rh- ?꾨옉??Korean mixed, Vietnam edu, Belgium mother) ?ъ옄 AI ?ㅻ━ 肄붾뵒?ㅼ씠??
+2483:   # PHYSICS: particle=(諛ㅼ쓽 ?? | vector=荑쇳겕媛??뿉荑쇳겕蹂댄샇
+2546:   # PHYSICS: particle=right_testosterone | vector=?닿?荑쇳겕諛ㅼ뿉怨듦꺽 | PERSONALITY=INTJ B rh- ?숈쑀???뚯뒳???レ퀏?섑듃 ?⑥옄 二쇰쭚 ?먯쟾嫄? 二쇱쨷 李쎌“
+2582: # PHYSICS: element=Na(11) | particle=electron_neutrino | color=RED | vector=荑쇳겕媛?좊궙?먭났寃?| GROUP=AlkaliMetal | PERSONALITY=ISTJ B rh+ ?곗쫰踰좏겕 ?⑥옄 smart grid 愿由ъ옄
+2711: # PHYSICS: element=Es(99) | particle=tau_neutrino | color=GREEN | vector=?닿???뿉荑쇳겕?щ옉 | GROUP=Actinide | PERSONALITY=ENTJ A rh- 遺곹븳 ?⑥옄 蹂??쒖뒪??媛쒕컻??
+2797:   # PHYSICS: element=Ds(110) | particle=neutron_star | color=WHITE
+2801: # PHYSICS: element=Ds(110) | particle=electron | color=WHITE | vector=?닿???뿉?먯븘蹂댄샇 | GROUP=TransitionMetal | PERSONALITY=INFP AB rh+ ?ㅽ뙏(?곕껙) ?⑥옄 ?濡쒓렇?섑뵿 ?μ쓽??
+2810:   # PHYSICS: particle=right_testosterone | vector=?닿?荑쇳겕諛ㅼ뿉怨듦꺽 | PERSONALITY=INTJ B rh- ?숈쑀???뚯뒳???レ퀏?섑듃 ?⑥옄 二쇰쭚 ?먯쟾嫄? 二쇱쨷 李쎌“
+2853: # PHYSICS: element=Ni(28)/Cu(29) | particle=graviton | color=CYAN | vector=荑쇳겕媛諛ㅼ뿉?먯븘鍮꾩? | GROUP=TransitionMetal | PERSONALITY=ESTP AB rh- ?뚮?瑜??ъ옄 system dynamicist
+2892:   # PHYSICS: q=element=Pm(61) | q_bar=element=Sm(62) | particle=down_quark | color=RED
+2896: # PHYSICS: q=element=Pm(61) | q_bar=element=Sm(62) | particle=muon_antineutrino | color=RED | vector=?닿?諛ㅼ뿉?ㅼ뒪濡쒓났寃?| GROUP=Lanthanide | PERSONALITY=ESTP O rh- 諛붿뒪???ъ옄 諛붿씠?ㅻ찓移댄듃濡쒕땳???붿??덉뼱
+2913:   # PHYSICS: particle=muon_antineutrino | vector=?닿?諛ㅼ뿉?ㅼ뒪濡쒓났寃?| PERSONALITY=ESTP O rh- 諛붿뒪???ъ옄 諛붿씠?ㅻ찓移댄듃濡쒕땳???붿??덉뼱

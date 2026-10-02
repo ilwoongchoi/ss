@@ -1,0 +1,22 @@
+﻿Wrote C:\Users\Administrator\.minimax-agent\projects\circuit84_isomorphism.json
+  Circuit nodes: 84
+  Cosmic candidates: 74
+  Biochem candidates: 97
+  Per-node top-3 cosmic + top-3 biochem isomorphism = 504 mappings
+
+Top 5 isomorphism summaries:
+  [1] observer_leftd2 (particle=observer_leftd2, dim=p)
+      cosmic: [('Main_Sequence_Star', 0.9858), ('Sagittarius_A*', 0.9833), ('Magnetar_SGR_1935', 0.9779)]
+      biochem: [('mitochondrion', 0.9888), ('myosin_filament', 0.9848), ('heart_myocyte', 0.9819)]
+  [2] nonobserver_left_d2 (particle=nonobserver_left_d2, dim=p)
+      cosmic: [('Main_Sequence_Star', 0.9858), ('Sagittarius_A*', 0.9833), ('Magnetar_SGR_1935', 0.9779)]
+      biochem: [('mitochondrion', 0.9888), ('myosin_filament', 0.9848), ('heart_myocyte', 0.9819)]
+  [3] electric_grid_and (particle=strange_quark, dim=r)
+      cosmic: [('Neutron_Star', 0.9629), ('Primordial_BH', 0.9518), ('Black_Hole_SMBH', 0.9428)]
+      biochem: [('DRD2_receptor', 0.9527), ('place_cell', 0.9514), ('grid_cell', 0.9514)]
+  [4] opioid_and (particle=electron_antineutrino, dim=h)
+      cosmic: [('Heliosphere', 0.9651), ('Termination_Shock', 0.9539), ('Heliopause', 0.9445)]
+      biochem: [('adipocyte', 0.9451), ('lysosome', 0.943), ('kidney_nephron', 0.938)]
+  [5] opioid_nor (particle=electron_antineutrino, dim=d)
+      cosmic: [('Saturn', 0.9417), ('Jupiter', 0.941), ('Termination_Shock', 0.9381)]
+      biochem: [('adipocyte', 0.9354), ('intestinal_epithelium', 0.9276), ('astrocyte', 0.9276)]

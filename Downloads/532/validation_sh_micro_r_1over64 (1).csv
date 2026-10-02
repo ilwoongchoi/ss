@@ -1,0 +1,2 @@
+delta_far_minus_near,p_value_gate,err64_mean,err64_std,is_gate_statistically_significant,is_quantization_floor
+,0.0,,,True,False

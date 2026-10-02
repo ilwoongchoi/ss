@@ -1,0 +1,161 @@
+Profile,MBTI,Gender,Blood,RELEASE,STRESS_GROWTH,EXTREME_GROWTH
+INTJ_M_AB,INTJ,M,AB,dark ambient/cinematic-hybrid M-gluon,deconstructed glitch/post-rock M-inverse,industrial drone/structured noise M-A-shift
+INTJ_F_AB,INTJ,F,AB,neo-classical strings/dark ambient-hybrid F-gluon,glitch ambient/cinematic F-inverse,structured dark-folk/noise pop F-A-shift
+INTP_M_AB,INTP,M,AB,fractal piano/drone-hybrid M-gluon,orchestral self-similarity M-inverse,EDM glitch/structured fractal M-A-shift
+INTP_F_AB,INTP,F,AB,minimalist piano/fractal-hybrid F-gluon,cinematic drone/self-similarity F-inverse,structured glitch-pop/ambient F-A-shift
+INFJ_M_AB,INFJ,M,AB,strings ambient/cinematic-hybrid M-gluon,hyperpop synth/dream M-inverse,industrial ambient/structured pop M-A-shift
+INFJ_F_AB,INFJ,F,AB,cello ambient/hauntology-hybrid F-gluon,synth dream pop/neo-classical F-inverse,structured experimental-folk/noise F-A-shift
+INFP_M_AB,INFP,M,AB,dream pop/ambient-hybrid M-gluon,industrial noise/metal M-inverse,orchestral drone/structured dream M-A-shift
+INFP_F_AB,INFP,F,AB,neo-classical dream/folk-hybrid F-gluon,metal noise/industrial F-inverse,structured drone-folk/ambient F-A-shift
+ISTJ_M_AB,ISTJ,M,AB,structured minimal/drone-hybrid M-gluon,orchestral pop/folk M-inverse,deconstructed minimal/structured noise M-A-shift
+ISTJ_F_AB,ISTJ,F,AB,minimalist drone/ambient-hybrid F-gluon,folk orchestral/neo-classical F-inverse,structured ambient-noise/deconstructed F-A-shift
+ISTP_M_AB,ISTP,M,AB,drone noise/minimal-hybrid M-gluon,dance-pop EDM/funk M-inverse,orchestral drone/structured dark M-A-shift
+ISTP_F_AB,ISTP,F,AB,ambient drone/noise-hybrid F-gluon,EDM dance/funk pop F-inverse,structured dark-ambient/orchestral F-A-shift
+ISFJ_M_AB,ISFJ,M,AB,ambient folk/neo-classical-hybrid M-gluon,punk noise/garage M-inverse,deconstructed ambient/structured folk M-A-shift
+ISFJ_F_AB,ISFJ,F,AB,neo-classical folk/ambient-hybrid F-gluon,garage punk/noise rock F-inverse,structured folk-ambient/deconstructed F-A-shift
+ISFP_M_AB,ISFP,M,AB,dream pop/shoegaze-hybrid M-gluon,industrial metal/structured M-inverse,deconstructed dream/structured noise M-A-shift
+ISFP_F_AB,ISFP,F,AB,shoegaze dream/ambient-hybrid F-gluon,metal industrial/structured F-inverse,structured dream-noise/deconstructed F-A-shift
+ENTJ_M_AB,ENTJ,M,AB,industrial noise/metal-hybrid M-gluon,drone piano/fractal M-inverse,orchestral dissonance/structured industrial M-A-shift
+ENTJ_F_AB,ENTJ,F,AB,cinematic noise/dissonance-hybrid F-gluon,piano drone/fractal minimal F-inverse,structured industrial-orchestral/ambient F-A-shift
+ENTP_M_AB,ENTP,M,AB,deconstructed glitch/hyperpop-hybrid M-gluon,dark ambient/drone M-inverse,orchestral glitch/structured synth M-A-shift
+ENTP_F_AB,ENTP,F,AB,glitch pop/synth-hybrid F-gluon,ambient dark/drone post-rock F-inverse,structured synth-glitch/orchestral F-A-shift
+ENFJ_M_AB,ENFJ,M,AB,orchestral cinematic/strings-hybrid M-gluon,ambient neo-classical M-inverse,deconstructed orchestral/structured ambient M-A-shift
+ENFJ_F_AB,ENFJ,F,AB,cinematic strings/orchestral-hybrid F-gluon,neo-classical ambient/dream F-inverse,structured orchestral-ambient/deconstructed F-A-shift
+ENFP_M_AB,ENFP,M,AB,hyperpop synth/deconstructed-hybrid M-gluon,ambient neo-classical M-inverse,industrial synth/structured hyperpop M-A-shift
+ENFP_F_AB,ENFP,F,AB,synth pop/hyperpop-hybrid F-gluon,neo-classical ambient/dream F-inverse,structured synth-industrial/deconstructed F-A-shift
+ESTJ_M_AB,ESTJ,M,AB,structured metal/prog-hybrid M-gluon,dream pop/shoegaze M-inverse,deconstructed metal/structured dissonance M-A-shift
+ESTJ_F_AB,ESTJ,F,AB,prog metal/structured-hybrid F-gluon,shoegaze dream pop F-inverse,structured dissonance-metal/deconstructed F-A-shift
+ESTP_M_AB,ESTP,M,AB,punk noise/garage-hybrid M-gluon,ambient folk/neo-classical M-inverse,orchestral punk/structured noise M-A-shift
+ESTP_F_AB,ESTP,F,AB,garage punk/noise-hybrid F-gluon,folk ambient/neo-classical F-inverse,structured noise-punk/orchestral F-A-shift
+ESFJ_M_AB,ESFJ,M,AB,orchestral pop/folk-hybrid M-gluon,minimal drone/industrial M-inverse,deconstructed folk/structured orchestral M-A-shift
+ESFJ_F_AB,ESFJ,F,AB,folk pop/orchestral-hybrid F-gluon,drone minimal/industrial F-inverse,structured orchestral-folk/deconstructed F-A-shift
+ESFP_M_AB,ESFP,M,AB,dance-pop EDM/funk-hybrid M-gluon,drone noise/minimal M-inverse,orchestral EDM/structured dance M-A-shift
+ESFP_F_AB,ESFP,F,AB,EDM pop/dance-hybrid F-gluon,noise drone/minimal dark F-inverse,structured dance-orchestral/ambient F-A-shift
+INTJ_M_A,INTJ,M,A,dark ambient/post-rock M-gluon,deconstructed glitch M-inverse,industrial drone/structured noise M-B-shift
+INTJ_F_A,INTJ,F,A,neo-classical dark ambient F-gluon,glitch ambient/post-rock F-inverse,structured dark-folk/noise pop F-B-shift
+INTP_M_A,INTP,M,A,drone piano/fractal M-gluon,orchestral cinematic M-inverse,EDM glitch/structured fractal M-B-shift
+INTP_F_A,INTP,F,A,minimalist piano/fractal F-gluon,cinematic drone F-inverse,structured glitch-pop/ambient F-B-shift
+INFJ_M_A,INFJ,M,A,strings ambient/cinematic M-gluon,hyperpop synth M-inverse,industrial ambient/structured pop M-B-shift
+INFJ_F_A,INFJ,F,A,cello ambient/hauntology F-gluon,synth dream pop F-inverse,structured experimental-folk/noise F-B-shift
+INFP_M_A,INFP,M,A,dream pop/ambient M-gluon,industrial noise/metal M-inverse,orchestral drone/structured dream M-B-shift
+INFP_F_A,INFP,F,A,neo-classical dream/folk F-gluon,metal noise/industrial F-inverse,structured drone-folk/ambient F-B-shift
+ISTJ_M_A,ISTJ,M,A,structured minimal/drone M-gluon,orchestral pop/folk M-inverse,deconstructed minimal/structured noise M-B-shift
+ISTJ_F_A,ISTJ,F,A,minimalist drone/ambient F-gluon,folk orchestral F-inverse,structured ambient-noise/deconstructed F-B-shift
+ISTP_M_A,ISTP,M,A,drone noise/minimal M-gluon,dance-pop EDM M-inverse,orchestral drone/structured dark M-B-shift
+ISTP_F_A,ISTP,F,A,ambient drone/noise F-gluon,EDM dance/funk F-inverse,structured dark-ambient/orchestral F-B-shift
+ISFJ_M_A,ISFJ,M,A,ambient folk/neo-classical M-gluon,punk noise/garage M-inverse,deconstructed ambient/structured folk M-B-shift
+ISFJ_F_A,ISFJ,F,A,neo-classical folk/ambient F-gluon,garage punk/noise F-inverse,structured folk-ambient/deconstructed F-B-shift
+ISFP_M_A,ISFP,M,A,dream pop/shoegaze M-gluon,industrial metal/structured M-inverse,deconstructed dream/structured noise M-B-shift
+ISFP_F_A,ISFP,F,A,shoegaze dream/ambient F-gluon,metal industrial/structured F-inverse,structured dream-noise/deconstructed F-B-shift
+ENTJ_M_A,ENTJ,M,A,industrial noise/metal M-gluon,drone piano/fractal M-inverse,orchestral dissonance/structured industrial M-B-shift
+ENTJ_F_A,ENTJ,F,A,cinematic noise/dissonance F-gluon,piano drone/fractal F-inverse,structured industrial-orchestral/ambient F-B-shift
+ENTP_M_A,ENTP,M,A,deconstructed glitch M-gluon,dark ambient/drone M-inverse,orchestral glitch/structured synth M-B-shift
+ENTP_F_A,ENTP,F,A,glitch pop/synth F-gluon,ambient dark/drone F-inverse,structured synth-glitch/orchestral F-B-shift
+ENFJ_M_A,ENFJ,M,A,orchestral cinematic/strings M-gluon,ambient neo-classical M-inverse,deconstructed orchestral/structured ambient M-B-shift
+ENFJ_F_A,ENFJ,F,A,cinematic strings/orchestral F-gluon,neo-classical ambient F-inverse,structured orchestral-ambient/deconstructed F-B-shift
+ENFP_M_A,ENFP,M,A,hyperpop synth M-gluon,ambient neo-classical M-inverse,industrial synth/structured hyperpop M-B-shift
+ENFP_F_A,ENFP,F,A,synth pop/hyperpop F-gluon,neo-classical ambient F-inverse,structured synth-industrial/deconstructed F-B-shift
+ESTJ_M_A,ESTJ,M,A,structured metal/prog M-gluon,dream pop/shoegaze M-inverse,deconstructed metal/structured dissonance M-B-shift
+ESTJ_F_A,ESTJ,F,A,prog metal/structured F-gluon,shoegaze dream pop F-inverse,structured dissonance-metal/deconstructed F-B-shift
+ESTP_M_A,ESTP,M,A,punk noise/garage M-gluon,ambient folk/neo-classical M-inverse,orchestral punk/structured noise M-B-shift
+ESTP_F_A,ESTP,F,A,garage punk/noise F-gluon,folk ambient/neo-classical F-inverse,structured noise-punk/orchestral F-B-shift
+ESFJ_M_A,ESFJ,M,A,orchestral pop/folk M-gluon,minimal drone/industrial M-inverse,deconstructed folk/structured orchestral M-B-shift
+ESFJ_F_A,ESFJ,F,A,folk pop/orchestral F-gluon,drone minimal/industrial F-inverse,structured orchestral-folk/deconstructed F-B-shift
+ESFP_M_A,ESFP,M,A,dance-pop EDM/funk M-gluon,drone noise/minimal M-inverse,orchestral EDM/structured dance M-B-shift
+ESFP_F_A,ESFP,F,A,EDM pop/dance F-gluon,noise drone/minimal F-inverse,structured dance-orchestral/ambient F-B-shift
+INTJ_M_O,INTJ,M,O,dark ambient/drone M-gluon-orig,deconstructed glitch M-inverse-orig,industrial noise/structured dark M-A-orig
+INTJ_F_O,INTJ,F,O,dark ambient/neo-classical F-gluon-orig,glitch ambient F-inverse-orig,structured dark-folk/noise F-A-orig
+INTP_M_O,INTP,M,O,drone piano/fractal M-gluon-orig,orchestral cinematic M-inverse-orig,EDM glitch/structured drone M-A-orig,FLOWBOARDING
+INTP_F_O,INTP,F,A,minimalist piano/drone F-gluon-orig,cinematic strings F-inverse-orig,structured glitch-pop/ambient F-A-orig
+INFJ_M_O,INFJ,M,O,strings ambient/neo-classical M-gluon-orig,hyperpop synth M-inverse-orig,industrial ambient/structured strings M-A-orig
+INFJ_F_O,INFJ,F,O,cello ambient/dream F-gluon-orig,synth dream pop F-inverse-orig,structured experimental-folk/ambient F-A-orig
+INFP_M_O,INFP,M,O,dream pop/ambient folk M-gluon-orig,industrial noise M-inverse-orig,orchestral drone/structured dream M-A-orig
+INFP_F_O,INFP,F,O,neo-classical dream F-gluon-orig,metal noise F-inverse-orig,structured drone-folk/strings F-A-orig
+ISTJ_M_O,ISTJ,M,O,minimal drone/industrial M-gluon-orig,orchestral pop M-inverse-orig,deconstructed minimal/structured noise M-A-orig
+ISTJ_F_O,ISTJ,F,O,minimalist drone/ambient F-gluon-orig,folk orchestral F-inverse-orig,structured ambient-noise/deconstructed F-A-orig
+ISTP_M_O,ISTP,M,O,drone noise/minimal dark M-gluon-orig,dance-pop EDM M-inverse-orig,orchestral drone/structured dark M-A-orig,FLOWBOARDING
+ISTP_F_O,ISTP,F,O,ambient drone/noise F-gluon-orig,EDM dance F-inverse-orig,structured dark-ambient/orchestral F-A-orig
+ISFJ_M_O,ISFJ,M,O,ambient folk/neo-classical M-gluon-orig,punk noise M-inverse-orig,deconstructed ambient/structured folk M-A-orig
+ISFJ_F_O,ISFJ,F,O,neo-classical folk F-gluon-orig,garage punk F-inverse-orig,structured folk-ambient/deconstructed F-A-orig
+ISFP_M_O,ISFP,M,O,dream pop/shoegaze M-gluon-orig,industrial metal M-inverse-orig,deconstructed dream/structured noise M-A-orig
+ISFP_F_O,ISFP,F,O,shoegaze dream/ambient F-gluon-orig,metal industrial F-inverse-orig,structured dream-noise/deconstructed F-A-orig
+ENTJ_M_O,ENTJ,M,O,industrial noise/metal M-gluon-orig,drone piano M-inverse-orig,orchestral dissonance/structured industrial M-A-orig
+ENTJ_F_O,ENTJ,F,O,cinematic noise/dissonance F-gluon-orig,piano drone F-inverse-orig,structured industrial-orchestral/ambient F-A-orig
+ENTP_M_O,ENTP,M,O,deconstructed glitch M-gluon-orig,dark ambient/drone M-inverse-orig,orchestral glitch/structured synth M-A-orig,INLINE AERIAL;NETBALL WING ATTACK
+ENTP_F_O,ENTP,F,O,glitch pop/synth F-gluon-orig,ambient dark F-inverse-orig,structured synth-glitch/orchestral F-A-orig
+ENFJ_M_O,ENFJ,M,O,orchestral cinematic M-gluon-orig,ambient neo-classical M-inverse-orig,deconstructed orchestral/structured ambient M-A-orig
+ENFJ_F_O,ENFJ,F,O,cinematic strings F-gluon-orig,neo-classical ambient F-inverse-orig,structured orchestral-ambient/deconstructed F-A-orig
+ENFP_M_O,ENFP,M,O,hyperpop synth M-gluon-orig,ambient neo-classical M-inverse-orig,industrial synth/structured hyperpop M-A-orig
+ENFP_F_O,ENFP,F,O,synth pop/hyperpop F-gluon-orig,neo-classical ambient F-inverse-orig,structured synth-industrial/deconstructed F-A-orig
+ESTJ_M_O,ESTJ,M,O,structured metal/prog M-gluon-orig,dream pop/shoegaze M-inverse-orig,deconstructed metal/structured dissonance M-A-orig
+ESTJ_F_O,ESTJ,F,O,prog metal/structured F-gluon-orig,shoegaze dream F-inverse-orig,structured dissonance-metal/deconstructed F-A-orig
+ESTP_M_O,ESTP,M,O,punk noise/garage M-gluon-orig,ambient folk M-inverse-orig,orchestral punk/structured noise M-A-orig
+ESTP_F_O,ESTP,F,O,garage punk/noise F-gluon-orig,folk ambient F-inverse-orig,structured noise-punk/orchestral F-A-orig
+ESFJ_M_O,ESFJ,M,O,orchestral pop/folk M-gluon-orig,minimal drone M-inverse-orig,deconstructed folk/structured orchestral M-A-orig
+ESFJ_F_O,ESFJ,F,O,folk pop/orchestral F-gluon-orig,drone minimal F-inverse-orig,structured orchestral-folk/deconstructed F-A-orig
+ESFP_M_O,ESFP,M,O,dance-pop EDM/funk M-gluon-orig,drone noise M-inverse-orig,orchestral EDM/structured dance M-A-orig
+ESFP_F_O,ESFP,F,O,EDM pop/dance F-gluon-orig,noise drone F-inverse-orig,structured dance-orchestral/ambient F-A-orig
+INTJ_M_B,INTJ,M,B,dark ambient/post-rock-experimental M-gluon,deconstructed glitch-experimental M-inverse,industrial drone/structured noise M-AB-shift
+INTJ_F_B,INTJ,F,B,neo-classical dark ambient-experimental F-gluon,glitch ambient/post-rock-experimental F-inverse,structured dark-folk/noise pop F-AB-shift
+INTP_M_B,INTP,M,B,drone piano/fractal-experimental M-gluon,orchestral cinematic-experimental M-inverse,EDM glitch/structured fractal M-AB-shift
+INTP_F_B,INTP,F,B,minimalist piano/fractal-experimental F-gluon,cinematic drone-experimental F-inverse,structured glitch-pop/ambient F-AB-shift
+INFJ_M_B,INFJ,M,B,strings ambient/cinematic-experimental M-gluon,hyperpop synth-experimental M-inverse,industrial ambient/structured pop M-AB-shift
+INFJ_F_B,INFJ,F,B,cello ambient/hauntology-experimental F-gluon,synth dream pop-experimental F-inverse,structured experimental-folk/noise F-AB-shift
+INFP_M_B,INFP,M,B,dream pop/ambient-experimental M-gluon,industrial noise/metal-experimental M-inverse,orchestral drone/structured dream M-AB-shift
+INFP_F_B,INFP,F,B,neo-classical dream/folk-experimental F-gluon,metal noise/industrial-experimental F-inverse,structured drone-folk/ambient F-AB-shift
+ISTJ_M_B,ISTJ,M,B,structured minimal/drone-experimental M-gluon,orchestral pop/folk-experimental M-inverse,deconstructed minimal/structured noise M-AB-shift
+ISTJ_F_B,ISTJ,F,B,minimalist drone/ambient-experimental F-gluon,folk orchestral-experimental F-inverse,structured ambient-noise/deconstructed F-AB-shift
+ISTP_M_B,ISTP,M,B,drone noise/minimal-experimental M-gluon,dance-pop EDM-experimental M-inverse,orchestral drone/structured dark M-AB-shift
+ISTP_F_B,ISTP,F,B,ambient drone/noise-experimental F-gluon,EDM dance/funk-experimental F-inverse,structured dark-ambient/orchestral F-AB-shift
+ISFJ_M_B,ISFJ,M,B,ambient folk/neo-classical-experimental M-gluon,punk noise/garage-experimental M-inverse,deconstructed ambient/structured folk M-AB-shift
+ISFJ_F_B,ISFJ,F,B,neo-classical folk/ambient-experimental F-gluon,garage punk/noise-experimental F-inverse,structured folk-ambient/deconstructed F-AB-shift
+ISFP_M_B,ISFP,M,B,dream pop/shoegaze-experimental M-gluon,industrial metal/structured-experimental M-inverse,deconstructed dream/structured noise M-AB-shift
+ISFP_F_B,ISFP,F,B,shoegaze dream/ambient-experimental F-gluon,metal industrial/structured-experimental F-inverse,structured dream-noise/deconstructed F-AB-shift
+ENTJ_M_B,ENTJ,M,B,industrial noise/metal-experimental M-gluon,drone piano/fractal-experimental M-inverse,orchestral dissonance/structured industrial M-AB-shift
+ENTJ_F_B,ENTJ,F,B,cinematic noise/dissonance-experimental F-gluon,piano drone/fractal-experimental F-inverse,structured industrial-orchestral/ambient F-AB-shift
+ENTP_M_B,ENTP,M,B,deconstructed glitch-experimental M-gluon,dark ambient/drone-experimental M-inverse,orchestral glitch/structured synth M-AB-shift
+ENTP_F_B,ENTP,F,B,glitch pop/synth-experimental F-gluon,ambient dark/drone-experimental F-inverse,structured synth-glitch/orchestral F-AB-shift
+ENFJ_M_B,ENFJ,M,B,orchestral cinematic/strings-experimental M-gluon,ambient neo-classical-experimental M-inverse,deconstructed orchestral/structured ambient M-AB-shift
+ENFJ_F_B,ENFJ,F,B,cinematic strings/orchestral-experimental F-gluon,neo-classical ambient-experimental F-inverse,structured orchestral-ambient/deconstructed F-AB-shift
+ENFP_M_B,ENFP,M,B,hyperpop synth-experimental M-gluon,ambient neo-classical-experimental M-inverse,industrial synth/structured hyperpop M-AB-shift
+ENFP_F_B,ENFP,F,B,synth pop/hyperpop-experimental F-gluon,neo-classical ambient-experimental F-inverse,structured synth-industrial/deconstructed F-AB-shift
+ESTJ_M_B,ESTJ,M,B,structured metal/prog-experimental M-gluon,dream pop/shoegaze-experimental M-inverse,deconstructed metal/structured dissonance M-AB-shift
+ESTJ_F_B,ESTJ,F,B,prog metal/structured-experimental F-gluon,shoegaze dream pop-experimental F-inverse,structured dissonance-metal/deconstructed F-AB-shift
+ESTP_M_B,ESTP,M,B,punk noise/garage-experimental M-gluon,ambient folk/neo-classical-experimental M-inverse,orchestral punk/structured noise M-AB-shift,SNOWBOARD CROSS
+ESTP_F_B,ESTP,F,B,garage punk/noise-experimental F-gluon,folk ambient/neo-classical-experimental F-inverse,structured noise-punk/orchestral F-AB-shift
+ESFJ_M_B,ESFJ,M,B,orchestral pop/folk-experimental M-gluon,minimal drone/industrial-experimental M-inverse,deconstructed folk/structured orchestral M-AB-shift
+ESFJ_F_B,ESFJ,F,B,folk pop/orchestral-experimental F-gluon,drone minimal/industrial-experimental F-inverse,structured orchestral-folk/deconstructed F-AB-shift
+ESFP_M_B,ESFP,M,B,dance-pop EDM/funk-experimental M-gluon,drone noise/minimal-experimental M-inverse,orchestral EDM/structured dance M-AB-shift,SNOWBOARD CROSS
+ESFP_F_B,ESFP,F,B,EDM pop/dance-experimental F-gluon,noise drone/minimal-experimental F-inverse,structured dance-orchestral/ambient F-AB-shift
+INTJ_M_AB2,INTJ,M,AB,dark ambient/cinematic-hybrid M-gluon-recharge,deconstructed glitch/post-rock M-inverse-recharge,industrial drone/structured noise M-A-recharge
+INTJ_F_AB2,INTJ,F,AB,neo-classical strings/dark ambient-hybrid F-gluon-recharge,glitch ambient/cinematic F-inverse-recharge,structured dark-folk/noise pop F-A-recharge
+INTP_M_AB2,INTP,M,AB,fractal piano/drone-hybrid M-gluon-recharge,orchestral self-similarity M-inverse-recharge,EDM glitch/structured fractal M-A-recharge
+INTP_F_AB2,INTP,F,AB,minimalist piano/fractal-hybrid F-gluon-recharge,cinematic drone/self-similarity F-inverse-recharge,structured glitch-pop/ambient F-A-recharge
+INFJ_M_AB2,INFJ,M,AB,strings ambient/cinematic-hybrid M-gluon-recharge,hyperpop synth/dream M-inverse-recharge,industrial ambient/structured pop M-A-recharge
+INFJ_F_AB2,INFJ,F,AB,cello ambient/hauntology-hybrid F-gluon-recharge,synth dream pop/neo-classical F-inverse-recharge,structured experimental-folk/noise F-A-recharge
+INFP_M_AB2,INFP,M,AB,dream pop/ambient-hybrid M-gluon-recharge,industrial noise/metal M-inverse-recharge,orchestral drone/structured dream M-A-recharge
+INFP_F_AB2,INFP,F,AB,neo-classical dream/folk-hybrid F-gluon-recharge,metal noise/industrial F-inverse-recharge,structured drone-folk/ambient F-A-recharge
+ISTJ_M_AB2,ISTJ,M,AB,structured minimal/drone-hybrid M-gluon-recharge,orchestral pop/folk M-inverse-recharge,deconstructed minimal/structured noise M-A-recharge
+ISTJ_F_AB2,ISTJ,F,AB,minimalist drone/ambient-hybrid F-gluon-recharge,folk orchestral/neo-classical F-inverse-recharge,structured ambient-noise/deconstructed F-A-recharge
+ISTP_M_AB2,ISTP,M,AB,drone noise/minimal-hybrid M-gluon-recharge,dance-pop EDM/funk M-inverse-recharge,orchestral drone/structured dark M-A-recharge
+ISTP_F_AB2,ISTP,F,AB,ambient drone/noise-hybrid F-gluon-recharge,EDM dance/funk pop F-inverse-recharge,structured dark-ambient/orchestral F-A-recharge
+ISFJ_M_AB2,ISFJ,M,AB,ambient folk/neo-classical-hybrid M-gluon-recharge,punk noise/garage M-inverse-recharge,deconstructed ambient/structured folk M-A-recharge
+ISFJ_F_AB2,ISFJ,F,AB,neo-classical folk/ambient-hybrid F-gluon-recharge,garage punk/noise rock F-inverse-recharge,structured folk-ambient/deconstructed F-A-recharge
+ISFP_M_AB2,ISFP,M,AB,dream pop/shoegaze-hybrid M-gluon-recharge,industrial metal/structured M-inverse-recharge,deconstructed dream/structured noise M-A-recharge
+ISFP_F_AB2,ISFP,F,AB,shoegaze dream/ambient-hybrid F-gluon-recharge,metal industrial/structured F-inverse-recharge,structured dream-noise/deconstructed F-A-recharge
+ENTJ_M_AB2,ENTJ,M,AB,industrial noise/metal-hybrid M-gluon-recharge,drone piano/fractal M-inverse-recharge,orchestral dissonance/structured industrial M-A-recharge
+ENTJ_F_AB2,ENTJ,F,AB,cinematic noise/dissonance-hybrid F-gluon-recharge,piano drone/fractal minimal F-inverse-recharge,structured industrial-orchestral/ambient F-A-recharge
+ENTP_M_AB2,ENTP,M,AB,deconstructed glitch/hyperpop-hybrid M-gluon-recharge,dark ambient/drone M-inverse-recharge,orchestral glitch/structured synth M-A-recharge
+ENTP_F_AB2,ENTP,F,AB,glitch pop/synth-hybrid F-gluon-recharge,ambient dark/drone post-rock F-inverse-recharge,structured synth-glitch/orchestral F-A-recharge
+ENFJ_M_AB2,ENFJ,M,AB,orchestral cinematic/strings-hybrid M-gluon-recharge,ambient neo-classical M-inverse-recharge,deconstructed orchestral/structured ambient M-A-recharge
+ENFJ_F_AB2,ENFJ,F,AB,cinematic strings/orchestral-hybrid F-gluon-recharge,neo-classical ambient/dream F-inverse-recharge,structured orchestral-ambient/deconstructed F-A-recharge
+ENFP_M_AB2,ENFP,M,AB,hyperpop synth/deconstructed-hybrid M-gluon-recharge,ambient neo-classical M-inverse-recharge,industrial synth/structured hyperpop M-A-recharge
+ENFP_F_AB2,ENFP,F,AB,synth pop/hyperpop-hybrid F-gluon-recharge,neo-classical ambient/dream F-inverse-recharge,structured synth-industrial/deconstructed F-A-recharge
+ESTJ_M_AB2,ESTJ,M,AB,structured metal/prog-hybrid M-gluon-recharge,dream pop/shoegaze M-inverse-recharge,deconstructed metal/structured dissonance M-A-recharge
+ESTJ_F_AB2,ESTJ,F,AB,prog metal/structured-hybrid F-gluon-recharge,shoegaze dream pop F-inverse-recharge,structured dissonance-metal/deconstructed F-A-recharge
+ESTP_M_AB2,ESTP,M,AB,punk noise/garage-hybrid M-gluon-recharge,ambient folk/neo-classical M-inverse-recharge,orchestral punk/structured noise M-A-recharge
+ESTP_F_AB2,ESTP,F,AB,garage punk/noise-hybrid F-gluon-recharge,folk ambient/neo-classical F-inverse-recharge,structured noise-punk/orchestral F-A-recharge
+ESFJ_M_AB2,ESFJ,M,AB,orchestral pop/folk-hybrid M-gluon-recharge,minimal drone/industrial M-inverse-recharge,deconstructed folk/structured orchestral M-A-recharge
+ESFJ_F_AB2,ESFJ,F,AB,folk pop/orchestral-hybrid F-gluon-recharge,drone minimal/industrial F-inverse-recharge,structured orchestral-folk/deconstructed F-A-recharge
+ESFP_M_AB2,ESFP,M,AB,dance-pop EDM/funk-hybrid M-gluon-recharge,drone noise/minimal M-inverse-recharge,orchestral EDM/structured dance M-A-recharge
+ESFP_F_AB2,ESFP,F,AB,EDM pop/dance-hybrid F-gluon-recharge,noise drone/minimal dark F-inverse-recharge,structured dance-orchestral/ambient F-A-recharge

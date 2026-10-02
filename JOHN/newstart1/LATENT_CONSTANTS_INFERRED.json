@@ -1,0 +1,13 @@
+{
+  "model": "flow_t = a*flow_{t-1} + b*flow_{t-20} + d1*humidity + d2*cloud + periodic128_latent",
+  "lag_5_32_of_128": 20,
+  "coefficients": {
+    "alpha_lag1": 0.8826833949445686,
+    "beta_lag20": 0.09338340024237801,
+    "delta_humidity": 0.0705109582149364,
+    "delta_cloud": 0.0018169831788911572
+  },
+  "r2": 0.8537130319479944,
+  "rmse": 0.38247479257523853,
+  "n_samples": 2208
+}

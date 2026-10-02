@@ -1,0 +1,220 @@
+"""
+constants.py - SINGLE SOURCE OF TRUTH for all geometric and physical constants.
+
+MATHEMATICAL FRAMEWORK:
+- SW (Filter) = Green's Function / RG Coarse-graining / Linear Response Kernel
+- BM<->SM (Flash) = Eyring-Kramers Escape Rate / Large Deviations / Heteroclinic Connection
+- BW (Void) = Hodge Harmonic Form / Boundary Condition / Vacuum Background
+"""
+import math
+import numpy as np
+
+# ===================================================================
+# I. FOUNDATIONAL CONSTANTS (Core Sieve)
+# ===================================================================
+PHI = (1 + math.sqrt(5)) / 2                    # Golden Ratio
+ALPHA = 1 / 137.035999084                       # Fine-Structure Constant
+PI = math.pi
+SQRT2 = math.sqrt(2.0)
+
+# Higgs Coupling Constant (C) - derived from geometry
+C = SQRT2 / 5.0                                 # √2/5 ≈ 0.28284271247
+C2 = C * C                                      # 0.08
+
+# Omega (Ω) - maximal spectral radius of K8 Laplacian
+# DERIVED from calibrated Laplacian with C = √2/5
+# λ_max(L(C=√2/5)) = 5.287234 (self-consistent)
+OMEGA = 5.287234
+
+# Betti Numbers (Topological Holes)
+BETTI_0 = 1.0                                   # Observer/Connected Component
+BETTI_5 = 5.0                                   # Entropy sink
+BETTI_7 = 7.0                                   # Big Man (UK/Type O)
+BETTI_11 = 11.0                                 # Small Man (USA/Type B-AB)
+
+# ===================================================================
+# II. QUASAR GEOMETRY & SPACE LOCKS
+# ===================================================================
+TOTAL_DEBT_AREA = 1.322828                      # Quasar Accretion Disk Max Area (12-month cycle)
+LATTICE_3_32 = 3.0 / 32.0                       # Small Woman's Filter (Infrared/PLP)
+TUNNEL_TENSION = 1.0100375                      # Reality Tension (Black Hole Horizon)
+SPARK_ANGLE_DEG = 138.88                        # Refraction Angle (Wormhole Spark)
+SPARK_ANGLE_RAD = math.radians(SPARK_ANGLE_DEG)
+SPARK_LEAP_DIST = 2.5                           # Grid leap distance (16 * 5/32)
+NEUTRON_TIME_SYNC = SPARK_ANGLE_DEG / 360.0     # ≈ 0.385777...
+
+# ===================================================================
+# III. TOPOLOGICAL BRIDGES (The Pegasus Bridge)
+# ===================================================================
+# Renormalization Bridge: Scaling from Quantum to Macro (~42.368)
+RENORMALIZATION_BRIDGE = 10.0 * (PHI**3) + ALPHA
+
+# Phi_PB: Pegasus Bridge (2.078) - UK(7) to USA(11) Isomorphism
+PHI_PB = (BETTI_11 / BETTI_7) * TOTAL_DEBT_AREA
+
+# Omega_LA: Lunar-Alpha Bridge (37.036) - 1/28 to 1.3228 Flux
+OMEGA_LA = TOTAL_DEBT_AREA * 28.0
+
+# Chirality Sieve: 1/18 (Betti 11 + Betti 7)
+CHIRALITY_CONSTANT = 1.0 / (BETTI_11 + BETTI_7)
+
+# ===================================================================
+# IV. BIOLOGICAL RECTIFIERS (D2/Vasopressin/PLP)
+# ===================================================================
+LUNAR_CYCLE = 1.0 / 28.0                        # Local Perturbation (Outer Edge)
+NIGHT_HYSTERESIS = 0.8418                       # Biological Landing Pad
+VERTICAL_MOBIUS_TWIST = 1.0 / 28.0              # Complementary twist
+
+# LEFT PROGESTERONE = 3C = Higgs giving mass to W + Z simultaneously
+# = rebranching trigger threshold
+# Three sub-channels (electroweak triangle, all weight=C):
+#   LEFT EYELID  : vasopressin_female = (higgs, w_boson)  W gets mass
+#   RIGHT EYELID : right_cortisol     = (higgs, z_boson)  Z gets mass
+#   BRIDGE       : right_alpha_2      = (w_boson, z_boson) W-Z coupling
+# 3C = 0.84853 ≈ NIGHT_HYSTERESIS = 0.8418 (diff ≈ α, fine structure correction)
+LEFT_PROGESTERONE = 3.0 * C                     # 3×√2/5 ≈ 0.8485
+# Note: NIGHT_HYSTERESIS (0.8418) = empirical landing value ≈ LEFT_PROGESTERONE - α
+
+# GABA-C Constants (The V-Apex Structure)
+GABA_C_R_CAB = NIGHT_HYSTERESIS / 10.0
+GABA_C_R_CA = (3.0 / 32.0) - (ALPHA / 7.0)      # SW Internal Heat (3/32 filter)
+GABA_C_V_APEX = 1.40488 / 10.0                  # Design Potential Phi/10
+
+# ===================================================================
+# V. EXTERNAL RADIATIVE FORCES
+# ===================================================================
+DAY_FORCE_SOLAR_UV = 1.0
+NIGHT_FORCE_COSMIC_RAY = 0.96875                # 31/32
+DRIVE_FREQUENCY_LOCK = BETTI_11                 # Universal rhythm locked to 11
+
+# ===================================================================
+# VI. GRID DERIVED CONSTANTS
+# ===================================================================
+UNIT_64 = 1.0 / 64.0
+F_1_64 = UNIT_64
+F_1_32 = 1.0 / 32.0
+F_1_16 = 1.0 / 16.0
+F_3_32 = 3.0 / 32.0
+GATE_5_32 = 10.0 * UNIT_64                      # 5/32
+
+# Entropy Debt — decomposed into two physical components:
+#   BREMSSTRAHLUNG_DEBT = 1/64  : radiative EM loss (Node 34, tensor, directional, visible)
+#   DARK_MATTER_DEBT    = 1/256 : non-radiating mass debt (Node 31, scalar, isotropic, hidden)
+#   ratio: dark/brems = 1/4  (dark matter debt = 1/4 of Bremsstrahlung debt)
+BREMSSTRAHLUNG_DEBT = F_1_64                     # 1/64  = 0.015625
+DARK_MATTER_DEBT    = 1.0 / 256.0               # 1/256 = 0.003906
+ENTROPY_DEBT = BREMSSTRAHLUNG_DEBT + DARK_MATTER_DEBT  # 0.019531 ≈ 0.02
+
+# Kappa Stability (THE ANCHOR)
+KAPPA_STABILITY_THRESHOLD = F_1_32              # κ = 1/32 = 0.03125
+
+# Alpha-Kappa Bridge
+ALPHA_KAPPA_BRIDGE = 137.0 / 32.0
+
+# Event Horizon
+EVENT_HORIZON_RADIUS_RS = 5.0 / 16.0
+
+# Loop Strength (Chirality * 100)
+LOOP_STRENGTH_5 = CHIRALITY_CONSTANT * 100.0
+
+# Hysteresis loop area from NMDB data
+HYSTERESIS_LOOP_AREA = 0.15697685963482133
+
+# ===================================================================
+# VII. CLIFFORD TORUS (Observer Geometry)
+# ===================================================================
+CLIFFORD_R1 = 1.0 / SQRT2                       # Extravert plane radius
+CLIFFORD_R2 = 1.0 / SQRT2                       # Introvert plane radius
+
+# ===================================================================
+# VIII. H3/H4/D3 RESIDUAL CONSTANTS (Hierarchical Leakage)
+# ===================================================================
+KAPPA_H2 = F_1_32                               # 1/32 - Anchor
+KAPPA_H3 = F_1_64                               # 1/64 - Void
+KAPPA_H4 = 1.0 / 128.0                          # 1/128 - Deep void
+
+# D3 angle correction derived from H3/H2 leakage ratio
+D3_CORRECTION_FACTOR = KAPPA_H3 / KAPPA_H2      # 0.5
+D3_DELTA_THETA_CW = SPARK_ANGLE_DEG * D3_CORRECTION_FACTOR
+D3_DELTA_THETA_CCW = -SPARK_ANGLE_DEG * D3_CORRECTION_FACTOR
+D3_SPARK_BIG_MAN = SPARK_ANGLE_DEG * (1.0 - D3_CORRECTION_FACTOR)
+D3_SPARK_SMALL_WOMAN = 208.32                   # H3 transition spark
+
+# D3 Time Constants
+TAU_D3_FAST = 3.0
+TAU_D3_SLOW = 3.1228
+LAMBDA_D3 = 10.0 * KAPPA_H3
+
+# PACT thresholds (Fake-3D -> true 3D transition controls)
+PACT_ILLUSION_STRENGTH = 1.0 - KAPPA_H3
+PACT_BREAK_THRESHOLD = D3_CORRECTION_FACTOR
+
+# ===================================================================
+# IX. LC RESONANCE PARAMETERS (Observer Node 32: right_epinephrine)
+# ===================================================================
+# LC circuit: L·d²I/dt² + R·dI/dt + I/C_cap = V(t)
+# Resonant frequency: ω₀ = 1/√(LC)
+LC_INDUCTANCE = BETTI_11 / OMEGA                # L = 11/5.287
+LC_CAPACITANCE = 1.0 / (OMEGA * BETTI_11)       # C = 1/(5.287 * 11)
+LC_RESISTANCE = KAPPA_H2                        # R = 1/32 (damping)
+LC_RESONANT_FREQ = 1.0 / math.sqrt(LC_INDUCTANCE * LC_CAPACITANCE)  # ω₀
+
+# ===================================================================
+# X. ACTIVE ZERO CONSTRAINT (Dopamine × D2 Hyperplane)
+# ===================================================================
+# When dopamine and D2 are both active, their product must be zero
+# This enforces orthogonality in the phase space
+ACTIVE_ZERO_TOLERANCE = 1e-12
+DOPAMINE_D2_COUPLING = C2                       # Coupling strength when non-zero
+
+# ===================================================================
+# XI. EQUILIBRIUM STATES (z* derived from K8 topology)
+# ===================================================================
+# z*=1 (uniform): PROVEN equilibrium.
+#   L@(1,...,1) = 0  =>  1^2 - 1 - 0 = 0  QED
+#   Pre-land-transition state: all particles equally manifest.
+Z_STAR_UNIFORM = 1.0
+
+# z*_physical: current displaced equilibrium (Newton-derived from K8 Laplacian)
+# Matter sector (quark/gluon/higgs) > 1: overweight after land transition
+# Light sector (neutrino/photon/electron) < 1: suppressed
+Z_STAR_PHYSICAL = {
+    'quark':    1.150306,
+    'gluon':    1.150868,
+    'neutrino': 0.105111,   # most suppressed — ghost particle
+    'photon':   0.129221,
+    'electron': 0.160492,
+    'higgs':    1.217453,   # most overweight — mass sector
+    'w_boson':  0.979235,
+    'z_boson':  0.519677,
+}
+
+# right_love return rate: 1/64 per step
+RIGHT_LOVE_RETURN_RATE = F_1_64
+
+# Return spark angle (antipodal of SPARK_ANGLE): 318.88 deg
+# e^(i*318.88) = 0.7533 - 0.6576i  (Im<0 = return direction)
+RETURN_SPARK_ANGLE_DEG = SPARK_ANGLE_DEG + 180.0
+RETURN_SPARK_ANGLE_RAD = math.radians(RETURN_SPARK_ANGLE_DEG)
+
+# ===================================================================
+# XII. CALIBRATED SKELETON (Export Dictionary)
+# ===================================================================
+CALIBRATED_SKELETON = {
+    "W7_AREA": PI / 20.0,
+    "H2_W7": 1.0 / 9.0,
+    "TUNNEL_TENSION": TUNNEL_TENSION,
+    "TOTAL_DEBT_AREA": TOTAL_DEBT_AREA,
+    "SPARK_ANGLE_DEG": SPARK_ANGLE_DEG,
+    "SPARK_LEAP_DIST": SPARK_LEAP_DIST,
+    "DRIFT_DELTA": 0.076,
+    "GABA_C_V_APEX": GABA_C_V_APEX,
+    "RENORMALIZATION_BRIDGE": RENORMALIZATION_BRIDGE,
+    "ALPHA_KAPPA_BRIDGE": ALPHA_KAPPA_BRIDGE,
+    "LOOP_STRENGTH_5": LOOP_STRENGTH_5,
+    "MANIFOLD_CLOSURE": 1.0000424,
+    "EVENT_HORIZON_RADIUS_RS": EVENT_HORIZON_RADIUS_RS,
+    "PHI_PB": PHI_PB,
+    "OMEGA_LA": OMEGA_LA,
+    "LATTICE_3_32": LATTICE_3_32,
+}

@@ -1,0 +1,71 @@
+{
+  "_version": "pdg_final",
+  "_date": "2026-09-09",
+  "_method": "Real PDG 2024 widths as k values, compare pairs by |Δlog10(k)|",
+  "pdg_data": {
+    "muon": {
+      "Gamma_GeV": 2.996e-10,
+      "tau_s": 2.197e-06,
+      "k_1_s": 455000.0
+    },
+    "gluon": {
+      "Gamma_GeV": 0.0,
+      "tau_s": 1e-23,
+      "k_1_s": 1e+23
+    },
+    "w_boson": {
+      "Gamma_GeV": 2.085,
+      "tau_s": 3.16e-25,
+      "k_1_s": 3.16e+24
+    },
+    "z_boson": {
+      "Gamma_GeV": 2.495,
+      "tau_s": 2.64e-25,
+      "k_1_s": 3.79e+24
+    },
+    "higgs": {
+      "Gamma_GeV": 0.00407,
+      "tau_s": 1.62e-22,
+      "k_1_s": 6.17e+21
+    },
+    "tau": {
+      "Gamma_GeV": 2.27e-10,
+      "tau_s": 2.91e-13,
+      "k_1_s": 3440000000000.0
+    },
+    "photon": {
+      "Gamma_GeV": 0.0,
+      "tau_s": 14500000000000.0,
+      "k_1_s": 6.9e-14
+    },
+    "muon_neutrino": {
+      "Gamma_GeV": 0.0,
+      "tau_s": 1e-12,
+      "k_1_s": 1000000000000.0
+    }
+  },
+  "clusters": [
+    [
+      "photon"
+    ],
+    [
+      "muon"
+    ],
+    [
+      "muon_neutrino",
+      "tau"
+    ],
+    [
+      "higgs"
+    ],
+    [
+      "gluon"
+    ],
+    [
+      "w_boson",
+      "z_boson"
+    ]
+  ],
+  "n_strong_pairs": 2,
+  "n_weak_pairs": 5
+}

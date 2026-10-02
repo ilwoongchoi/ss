@@ -1,0 +1,162 @@
+{
+  "_version": "pdg_cycle_v1",
+  "_date": "2026-09-09",
+  "_method": "Gaussian phase matching on 24h toroidal time, particle k -> phase",
+  "particle_to_attractor": {
+    "photon": "information",
+    "muon": "opioid",
+    "muon_neutrino": "repair",
+    "tau": "repair",
+    "higgs": "gan_bulkhead",
+    "gluon": "energy",
+    "w_boson": "cox_retrograde",
+    "z_boson": "cox_retrograde"
+  },
+  "cycle_samples": [
+    {
+      "hour": 0.0,
+      "balance": {
+        "information": 0.9479,
+        "opioid": 0.0174,
+        "repair": 0.0,
+        "gan_bulkhead": 0.0,
+        "energy": 0.0,
+        "cox_retrograde": 0.0347
+      }
+    },
+    {
+      "hour": 2.0,
+      "balance": {
+        "information": 0.4997,
+        "opioid": 0.4997,
+        "repair": 0.0003,
+        "gan_bulkhead": 0.0,
+        "energy": 0.0,
+        "cox_retrograde": 0.0003
+      }
+    },
+    {
+      "hour": 4.0,
+      "balance": {
+        "information": 0.0174,
+        "opioid": 0.9479,
+        "repair": 0.0347,
+        "gan_bulkhead": 0.0,
+        "energy": 0.0,
+        "cox_retrograde": 0.0
+      }
+    },
+    {
+      "hour": 6.0,
+      "balance": {
+        "information": 0.0001,
+        "opioid": 0.3333,
+        "repair": 0.6665,
+        "gan_bulkhead": 0.0001,
+        "energy": 0.0,
+        "cox_retrograde": 0.0
+      }
+    },
+    {
+      "hour": 8.0,
+      "balance": {
+        "information": 0.0,
+        "opioid": 0.009,
+        "repair": 0.982,
+        "gan_bulkhead": 0.009,
+        "energy": 0.0,
+        "cox_retrograde": 0.0
+      }
+    },
+    {
+      "hour": 10.0,
+      "balance": {
+        "information": 0.0,
+        "opioid": 0.0001,
+        "repair": 0.6665,
+        "gan_bulkhead": 0.3333,
+        "energy": 0.0001,
+        "cox_retrograde": 0.0
+      }
+    },
+    {
+      "hour": 12.0,
+      "balance": {
+        "information": 0.0,
+        "opioid": 0.0,
+        "repair": 0.0347,
+        "gan_bulkhead": 0.9479,
+        "energy": 0.0174,
+        "cox_retrograde": 0.0
+      }
+    },
+    {
+      "hour": 14.0,
+      "balance": {
+        "information": 0.0,
+        "opioid": 0.0,
+        "repair": 0.0003,
+        "gan_bulkhead": 0.4997,
+        "energy": 0.4997,
+        "cox_retrograde": 0.0003
+      }
+    },
+    {
+      "hour": 16.0,
+      "balance": {
+        "information": 0.0,
+        "opioid": 0.0,
+        "repair": 0.0,
+        "gan_bulkhead": 0.0174,
+        "energy": 0.9479,
+        "cox_retrograde": 0.0347
+      }
+    },
+    {
+      "hour": 18.0,
+      "balance": {
+        "information": 0.0001,
+        "opioid": 0.0,
+        "repair": 0.0,
+        "gan_bulkhead": 0.0001,
+        "energy": 0.3333,
+        "cox_retrograde": 0.6665
+      }
+    },
+    {
+      "hour": 20.0,
+      "balance": {
+        "information": 0.009,
+        "opioid": 0.0,
+        "repair": 0.0,
+        "gan_bulkhead": 0.0,
+        "energy": 0.009,
+        "cox_retrograde": 0.982
+      }
+    },
+    {
+      "hour": 22.0,
+      "balance": {
+        "information": 0.3333,
+        "opioid": 0.0001,
+        "repair": 0.0,
+        "gan_bulkhead": 0.0,
+        "energy": 0.0001,
+        "cox_retrograde": 0.6665
+      }
+    },
+    {
+      "hour": 24.0,
+      "balance": {
+        "information": 0.9479,
+        "opioid": 0.0174,
+        "repair": 0.0,
+        "gan_bulkhead": 0.0,
+        "energy": 0.0,
+        "cox_retrograde": 0.0347
+      }
+    }
+  ],
+  "cycle_closure_diff": 0.0,
+  "cycle_closed": true
+}

@@ -1,0 +1,30 @@
+﻿======================================================================
+EQUATION ISOMORPHISM VERIFICATION
+======================================================================
+
+[1] observer_leftd2 ↔ Sagittarius A*
+  Residual (constant input): 0.076595  →  WEAK
+  Residual (pulse input):     0.005628  →  STRONG
+  Residual (ramp input):      0.091053  →  WEAK
+
+[2] quark_orogen_magma ↔ Neutron Star (TOV)
+  Residual (step input): 0.117403  →  HEURISTIC
+  Residual (pulse input): 0.040639  →  WEAK
+
+[3] observer_leftd2 ↔ Main Sequence Star (L ∝ M^3.5)
+  Residual (constant): 0.076089  →  WEAK
+  Residual (step):     0.082564  →  WEAK
+
+[4] memory_entropy ↔ CMB acoustic peak (ℓ=220)
+  Residual (constant): 0.002784  →  STRONG
+  Residual (pulse):    0.002784  →  STRONG
+
+[SELF-TEST] Same ODE with same params should give residual 0:
+  observer_leftd2 vs itself: 0.00e+00  →  EXACT
+
+Wrote C:\Users\Administrator\.minimax-agent\projects\equation_isomorphism.json
+
+Verdict: PASS
+  STRONG: 2
+  WEAK:   2
+  HEURISTIC: 0

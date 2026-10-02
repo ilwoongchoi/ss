@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>E8 Quasar Geometry - Final (Full Constants)</title>
+<style>
+    * { margin:0; padding:0; }
+    body { background:#000; overflow:hidden; }
+    canvas { display:block; width:100vw; height:100vh; }
+    #hud { position:fixed; top:14px; left:14px; font-family:'Courier New', monospace; color:white; }
+    #fps { font-size:24px; font-weight:bold; color:#00ff88; text-shadow:0 0 12px #00ff88; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="hud"><div id="fps">FPS: --</div></div>
+
+<script id="vs" type="x-shader/x-vertex">
+precision highp float;
+
+attribute vec3 a_pos;
+uniform mat4 u_proj;
+uniform mat4 u_view;
+uniform float u_time;
+
+varying vec3 v_pos_ws;
+
+/* ==================================================================
+   CONSTANTS (The complete, canonical set, correctly ported)
+   ================================================================== */
+const float PI = 3.14159265358979;
+const float PHI = 1.6180339887;
+const float ALPHA = 0.00729735257;
+const float W7 = PI / 20.0;
+const float H2 = 1.0 / 9.0;
+const float B11_B7 = 11.0 / 7.0;
+const float SPARK_COS = -0.75336;
+const float SPARK_SIN =  0.65760;
+const float DELTA_4 = 4.0;
+const float CHI = 1.0 / 18.0;
+const float KAPPA = 1.0 / 32.0;
+const float GATE_5_32 = 10.0 / 64.0;
+const float F_1_16 = 1.0 / 16.0;
+const float RS = 5.0 / 16.0;
+const float TENSION = 1.0100375;
+const float TUNNEL_TEN = B11_B7 * TENSION; // ~1.587
+const float DEBT = B11_B7 * 0.8418; // ~1.3228
+const float DRIFT = 0.076;
+const float NIGHT_H = 0.8418;
+const float G_4D = 1.0661;
+const float RENORM_GAIN = 0.38066;
+const float V_APEX = 0.139965;
+const float R_CAB = NIGHT_H / 10.0;
+const float R_CA = 0.092734;
+const float TERMINUS_R = 0.1123;
+const float SPARK_LEAP = 2.5;
+const float TIDAL_SIN = 0.22252;
+const float MXW_SHELL = 0.040258;
+const float W7_DATA = 0.15697686;
+const float RESID = W7_DATA - GATE_5_32;
+const float DAY_FORCE_SOLAR_UV = 1.0;
+const float NIGHT_FORCE_COSMIC_RAY = 0.96875;
+const float BLACKHOLE_ACCRETION_DISK_RATIO = 31.0;
+
+
+mat2 rot(float a) { return mat2(cos(a),-sin(a),sin(a),cos(a)); }
+
+float couplingScale() {
+  float gates    = KAPPA + GATE_5_32;
+  float gaba_avg = (R_CAB + R_CA + V_APEX) / 3.0;
+  float lunar    = 1.0 / 28.0;
+  float base     = gates + gaba_avg + lunar + TIDAL_SIN + MXW_SHELL;
+  float scaled   = base * (1.0 + CHI) * (1.0 + TERMINUS_R);
+  scaled        *= 1.0 + (SPARK_LEAP * KAPPA);
+  float debt_r   = DEBT / NIGHT_H;
+  scaled        *= 1.0 + (debt_r * RESID);
+  scaled        *= F_1_16;
+  return 1.0 + scaled;
+}
+
+float height(vec2 p) {
+  p = mod(p + DELTA_4, DELTA_4 * 2.0) - DELTA_4;
+  p = mat2(SPARK_COS, -SPARK_SIN, SPARK_SIN, SPARK_COS) * p;
+  vec2 g = floor(p * 128.0) / 128.0;
+  float h = 0.0;
+  float amp = DEBT * couplingScale();
+  float fr = KAPPA * 2.0;
+  for (int i = 0; i < 5; i++) {
+    g = rot(B11_B7 * 0.1) * g;
+    h += amp * (sin(g.x * fr * TENSION * G_4D) + cos(g.y * fr * TENSION * G_4D));
+    amp *= 0.5;
+    fr  *= 2.0;
+  }
+  h += p.x * DRIFT * 0.1;
+  float r = length(p * H2);
+  h -= exp(-r * r / (RS * 8.0)) * V_APEX * 2.0;
+  h *= 0.5;
+  if (abs(h) > TUNNEL_TEN) {
+    h = -h * 0.7 * RENORM_GAIN;
+  }
+  return h;
+}
+
+void main() {
+    vec3 pos = a_pos;
+    
+    vec2 p_ws = pos.xz;
+    p_ws.x += u_time * 0.5;
+    p_ws.z += u_time * 0.3;
+    
+    pos.y = height(p_ws);
+    
+    v_pos_ws = pos;
+    gl_Position = u_proj * u_view * vec4(pos, 1.0);
+}
+</script>
+
+<script id="fs" type="x-shader/x-fragment">
+#extension GL_OES_standard_derivatives : enable
+precision highp float;
+uniform vec3 u_cam_pos;
+varying vec3 v_pos_ws;
+
+vec3 landColor(float h) {
+  if      (h < -1.2) return vec3(0.03,0.10,0.32);
+  else if (h < -0.3) return vec3(0.06,0.20,0.50);
+  else if (h <  0.1) return vec3(0.38,0.24,0.10);
+  else if (h <  0.8) return vec3(0.10,0.34,0.12);
+  else if (h <  2.0) return vec3(0.36,0.50,0.17);
+  else if (h <  3.5) return vec3(0.60,0.50,0.38);
+  else               return vec3(0.90,0.93,1.00);
+}
+
+void main() {
+    vec3 normal = normalize(cross(dFdx(v_pos_ws), dFdy(v_pos_ws)));
+    vec3 sun_dir = normalize(vec3(0.8, 0.4, -0.2));
+    float diffuse = max(0.0, dot(normal, sun_dir));
+    float ambient = 0.3;
+    vec3 color = landColor(v_pos_ws.y) * (diffuse * 0.7 + ambient);
+    float dist = length(u_cam_pos - v_pos_ws);
+    float fog = exp(-dist * dist * 0.002);
+    color = mix(vec3(0.1, 0.15, 0.2), color, fog);
+    gl_FragColor = vec4(color, 1.0);
+}
+</script>
+
+<script>
+// --- UTILITIES & WEBGL SETUP (Minified) ---
+const mat4={create:()=>new Float32Array(16),perspective:(o,f,a,n,r)=>{const e=1/Math.tan(f/2);o[0]=e/a,o[1]=0,o[2]=0,o[3]=0,o[4]=0,o[5]=e,o[6]=0,o[7]=0,o[8]=0,o[9]=0,o[11]=-1,o[12]=0,o[13]=0,o[15]=0,null!=r&&r!==1/0?(o[10]=(r+n)/(n-r),o[14]=2*r*n/(n-r)):(o[10]=-1,o[14]=-2*n)},lookAt:(o,f,a,n)=>{let r,e,t,l,c,i,u,h,d,m,s,g,p=f[0],v=f[1],y=f[2],b=n[0],x=n[1],_=n[2],w=a[0],M=a[1],C=a[2];u=p-w,h=v-M,d=y-C,m=1/Math.sqrt(u*u+h*h+d*d),u*=m,h*=m,d*=m,r=x*d-_*h,e=_*u-b*d,t=b*h-x*u,m=Math.sqrt(r*r+e*e+t*t),m?(m=1/m,r*=m,e*=m,t*=m):(r=0,e=0,t=0),l=h*t-d*e,c=d*r-u*t,i=u*e-h*r,m=Math.sqrt(l*l+c*c+i*i),m?(m=1/m,l*=m,c*=m,i*=m):(l=0,c=0,i=0),o[0]=r,o[1]=l,o[2]=u,o[3]=0,o[4]=e,o[5]=c,o[6]=h,o[7]=0,o[8]=t,o[9]=i,o[10]=d,o[11]=0,o[12]=-(r*p+e*v+t*y),o[13]=-(l*p+c*v+i*y),o[14]=-(u*p+h*v+d*y),o[15]=1}};
+function createPlaneGeometry(t,e,i,r){const o=[],n=[];t/=2,e/=2;const a=Math.floor(i),l=Math.floor(r),h=a+1;for(let i=0;i<=l;i++){const r=i*e/l-e;for(let e=0;e<=a;e++){const i=e*t/a-t;o.push(i,0,r)}}for(let t=0;t<l;t++)for(let e=0;e<a;e++){const i=e+h*t,r=e+h*(t+1),s=(e+1)+h*(t+1),u=(e+1)+h*t;n.push(i,r,u),n.push(r,s,u)}return{positions:new Float32Array(o),indices:new Uint16Array(n)}}
+const canvas=document.getElementById("c"),gl=canvas.getContext("webgl",{antialias:!0});if(!gl.getExtension("OES_standard_derivatives"))alert("Your browser does not support standard derivatives. Lighting will not work correctly.");const prog=gl.createProgram();function setupShader(t,e){const r=gl.createShader(t);gl.shaderSource(r,e),gl.compileShader(r),gl.getShaderParameter(r,gl.COMPILE_STATUS)||alert("Shader Compile Error: "+gl.getShaderInfoLog(r)),gl.attachShader(prog,r)}setupShader(gl.VERTEX_SHADER,document.getElementById("vs").text),setupShader(gl.FRAGMENT_SHADER,document.getElementById("fs").text),gl.linkProgram(prog),gl.getProgramParameter(prog,gl.LINK_STATUS)||alert("Shader Link Error: "+gl.getProgramInfoLog(prog)),gl.useProgram(prog);const plane=createPlaneGeometry(120,120,256,256),posBuffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,posBuffer),gl.bufferData(gl.ARRAY_BUFFER,plane.positions,gl.STATIC_DRAW);const indexBuffer=gl.createBuffer();gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,indexBuffer),gl.bufferData(gl.ELEMENT_ARRAY_BUFFER,plane.indices,gl.STATIC_DRAW);const aPos=gl.getAttribLocation(prog,"a_pos");gl.enableVertexAttribArray(aPos),gl.vertexAttribPointer(aPos,3,gl.FLOAT,!1,0,0);const uProj=gl.getUniformLocation(prog,"u_proj"),uView=gl.getUniformLocation(prog,"u_view"),uTime=gl.getUniformLocation(prog,"u_time"),uCamPos=gl.getUniformLocation(prog,"u_cam_pos"),projMatrix=mat4.create(),viewMatrix=mat4.create(),camPos=[0,0,0],fpsEl=document.getElementById("fps");let frames=0,lastTime=performance.now();function render(t){const{width:e,height:r}=canvas.getBoundingClientRect();(canvas.width!==e||canvas.height!==r)&&(canvas.width=e,canvas.height=r,gl.viewport(0,0,e,r));const o=t*.0001,n=60;camPos[0]=Math.cos(o)*n,camPos[1]=40,camPos[2]=Math.sin(o)*n,mat4.perspective(projMatrix,45*Math.PI/180,canvas.width/canvas.height,.1,1e3),mat4.lookAt(viewMatrix,camPos,[0,0,0],[0,1,0]),gl.uniformMatrix4fv(uProj,!1,projMatrix),gl.uniformMatrix4fv(uView,!1,viewMatrix),gl.uniform1f(uTime,t*.001),gl.uniform3fv(uCamPos,camPos),gl.enable(gl.DEPTH_TEST),gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT),gl.drawElements(gl.TRIANGLES,plane.indices.length,gl.UNSIGNED_SHORT,0),frames++;const a=t-lastTime;a>=1e3&&(fpsEl.textContent="FPS: "+Math.round(1e3*frames/a),frames=0,lastTime=t),requestAnimationFrame(render)}requestAnimationFrame(render);
+</script>
+</body>
+</html>

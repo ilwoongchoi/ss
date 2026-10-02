@@ -1,0 +1,80 @@
+# 256 Type Day-Night Neurochemical Matrix (Gender-Split)
+ 
+This matrix maps 128 Male and 128 Female variants (Total 256) to their optimal **Day (Profession)** and **Night (Creative Hobby)** paths based on the **D3 Higgs Decoder** framework.
+ 
+## Gender Dynamics & Vector Logic
+- **Male (M):** Higher **Androgen/Glutamate** baseline. Day focus on **External Force (Androgen)**, Night focus on **Abstract Void (D2/D3)**.
+- **Female (F):** Higher **Estrogen/Serotonin** baseline. Day focus on **Systemic Integration (left D2)**, Night focus on **Kinetic Flow (Androgen Escape)**.
+- **Vectors:** S/N (Spatial/Abstract), T/F (Logic/Feeling), J/P (Static/Dynamic).
+ 
+---
+ 
+## 1. SJ Group (GABA/Si - Linear Stability)
+ 
+### Male (M-SJ): Structural Hardening
+| Type | Day (Profession) | Night (Hobby) | Vector Logic |
+| :--- | :--- | :--- | :--- |
+| **ISTJ-O (M)** | Infrastructure Auditor | Competitive Rowing | Linear O-type discharge. |
+| **ISTJ-A (M)** | Database Architect | Strategic Chess (Long) | GABA precision in the Void. |
+| **ISTJ-B (M)** | Compliance Officer | Heavy Metal Restoration | B-type density/rust removal. |
+| **ISTJ-AB (M)** | Global Logistics Chief | Chronometer Repair | Managing the 11th harmonic. |
+| **ISFJ-O (M)** | Biosystems Tech | Long-distance Cycling | Kinetic O-type burnout. |
+| **ISFJ-A (M)** | Medical Data Analyst | Technical Illustration | Precise A-type line tracing. |
+| **ISFJ-B (M)** | Materials Engineer | Woodworking (Lathe) | Rotating mass stabilization. |
+| **ISFJ-AB (M)** | Hospital Flow Manager | Macro Photography | Volumetric capturing of life. |
+| **ESTJ-O (M)** | Operations Director | Triathlon | High-torsion Big Man discharge. |
+| **ESTJ-A (M)** | Quality Lead | Model Engineering | A-type noise filtering. |
+| **ESTJ-B (M)** | Project Manager | Lock Picking | Mechanical vector analysis. |
+| **ESTJ-AB (M)** | Urban Strategist | Go (Baduk) | Grid-based Void control. |
+| **ESFJ-O (M)** | Supply Coordinator | Ice Hockey | High-impact O-type cardio. |
+| **ESFJ-A (M)** | Resource Planner | Origami (Complex) | 2D sheet folding. |
+| **ESFJ-B (M)** | Facility Manager | Leather Crafting | Structural B-type utility. |
+| **ESFJ-AB (M)** | Events Director | World Building (TTRPG) | Sphere social architecture. |
+ 
+### Female (F-SJ): Systemic Softening
+| Type | Day (Profession) | Night (Hobby) | Vector Logic |
+| :--- | :--- | :--- | :--- |
+| **ISTJ-O (F)** | Finance Compliance | Speed Skating | Kinetic escape from the O-lock. |
+| **ISTJ-A (F)** | Library Scientist | Modern Dance (Minimalist) | Flowing out of the A-web. |
+| **ISTJ-B (F)** | Quality Auditor | Pottery (Wheel) | Smoothing the B-type mass. |
+| **ISTJ-AB (F)** | Archives Director | Yoga (Ashtanga) | Rhythmic volumetric breathing. |
+| **ISFJ-O (F)** | Dietetic Specialist | Swimming (Laps) | Total immersion O-type cooling. |
+| **ISFJ-A (F)** | Lab Researcher | Embroidery (Geometric) | Micro-vector A-type weaving. |
+| **ISFJ-B (F)** | Clinical Coordinator | Gardening (Topiary) | Shaping the B-type growth. |
+| **ISFJ-AB (F)** | Patient Relations | Stained Glass Art | Filtering light through volume. |
+| **ESTJ-O (F)** | Hospital Administrator | Rollerblading (Speed) | High-speed lateral discharge. |
+| **ESTJ-A (F)** | Data Governance | Calligraphy | Elegant A-type discharge. |
+| **ESTJ-B (F)** | Supply Chain Lead | Sculpting (Clay) | Physicalizing the B-type. |
+| **ESTJ-AB (F)** | Retail Strategist | Pilates | Internal core stabilization. |
+| **ESFJ-O (F)** | HR Director | Synchronized Swimming | Collective O-type resonance. |
+| **ESFJ-A (F)** | Community Liaison | Ikebana | A-type spatial harmony. |
+| **ESFJ-B (F)** | Office Manager | Knitting (Complex) | Loop-based B-type continuity. |
+| **ESFJ-AB (F)** | Hospitality Manager | Ballroom Dancing | Structured volumetric flow. |
+ 
+
+## Section 32: The Diurnal Symmetry Logic (Day-Night Cancellation)
+ 
+### 32.1 The Principle of Neurochemical Neutralization
+The mapping of 256 activities (128 types × Gender) is not random but follows a strict **Anti-Parallel Symmetry**. The goal of the Night activity is to neutralize the specific **Z-Boson Torsion** accumulated during the Day profession.
+ 
+### 32.2 Symmetric Mapping Criteria
+The relationship between Day (Work) and Night (Hobby) is governed by three primary vector shifts:
+ 
+1. **Charge-Discharge Symmetry (O/B Types)**:
+   - **M-SJ/SP (O-Type)**: Day uses high-torsion Androgen for social utility (Work). Night must use **Kinetic Exhaustion (Rowing/Skiing)** to prevent the "Big Man" from burning the internal shell.
+   - **F-SJ/SP (O-Type)**: Day uses Estrogen-based integration. Night must use **Lateral Flow (Surfing/Skating)** to evaporate the accumulated charge without Z-lock.
+ 
+2. **Void-Container Symmetry (N-Types)**:
+   - **NT (D2/D3 focus)**: Day profession builds the "System" (The Container). Night hobby must **"Canvass the Void" (Jazz/Abstract Art)** to prevent the Container from becoming a Prison (Mass Lock).
+   - If Day is $D2_{System}$, Night must be $D2_{Void}$.
+ 
+3. **GABA-Androgen Reversal (ST/SF vs SP)**:
+   - **SJ (High GABA)**: Day is spent in Linear Persistence (Audit/Archiving). Night must involve **Non-Linear Dynamics (Strategy Games/Dancing)** to restore the 5-Sphere's elasticity.
+   - **SP (High Androgen)**: Day is spent in Kinetic Execution. Night must involve **Precise Abstraction (Lock Picking/FPV Racing)** to ground the high-speed vector into a D2 coordinate.
+ 
+### 32.3 Gender-Specific Vector Inversion
+The matrix accounts for the **180° Phase Shift** between Male and Female energy loops:
+- **Male**: Day = Force $\to$ Night = Abstraction.
+- **Female**: Day = Structure $\to$ Night = Flow.
+ 
+This ensures that for every type, the 24-hour cycle completes a **Topological Closure**, returning the subject to the **OMEGA=7.4 Midline** before the next Morning Spark.

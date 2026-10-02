@@ -1,0 +1,23 @@
+{
+  "mean_closure_error": 0.5866664620520085,
+  "std_closure_error": 0.935943508305048,
+  "max_closure_error": 4.164893585445144,
+  "min_closure_error": 0.002481166449248562,
+  "p95_closure_error": 3.1592812964075616,
+  "p99_closure_error": 3.720238188252401,
+  "periodic_error_l2_before_lock": 2.0642793059909494,
+  "periodic_error_l2_after_lock": 2.0642793059909494,
+  "bands": {
+    "normal": 0.2,
+    "warning": 0.35,
+    "danger": 0.5
+  },
+  "spike_count": 50,
+  "danger_count": 39,
+  "tail_risk_ratio": 0.3046875,
+  "recovery": {
+    "event_count": 4,
+    "avg_windows": 13.5,
+    "max_windows": 36
+  }
+}

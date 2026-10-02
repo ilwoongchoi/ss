@@ -1,0 +1,514 @@
+{
+  "ESTJ_O_M": {
+    "final_x": -0.19,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTJ_O_F": {
+    "final_x": -0.09,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTJ_A_M": {
+    "final_x": -0.18,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTJ_A_F": {
+    "final_x": -0.1,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTJ_B_M": {
+    "final_x": -0.18,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTJ_B_F": {
+    "final_x": -0.1,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTJ_AB_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTJ_AB_F": {
+    "final_x": -0.11,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTJ_O_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTJ_O_F": {
+    "final_x": -0.11,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTJ_A_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTJ_A_F": {
+    "final_x": -0.12,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTJ_B_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTJ_B_F": {
+    "final_x": -0.13,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTJ_AB_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTJ_AB_F": {
+    "final_x": -0.14,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFJ_O_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFJ_O_F": {
+    "final_x": -0.15,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFJ_A_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFJ_A_F": {
+    "final_x": -0.16,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFJ_B_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFJ_B_F": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFJ_AB_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFJ_AB_F": {
+    "final_x": -0.18,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFJ_O_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFJ_O_F": {
+    "final_x": -0.2,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFJ_A_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFJ_A_F": {
+    "final_x": -0.21,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFJ_B_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFJ_B_F": {
+    "final_x": -0.22,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFJ_AB_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFJ_AB_F": {
+    "final_x": -0.23,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTP_O_M": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTP_O_F": {
+    "final_x": -0.01,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTP_A_M": {
+    "final_x": -0.18,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTP_A_F": {
+    "final_x": -0.02,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTP_B_M": {
+    "final_x": -0.18,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTP_B_F": {
+    "final_x": -0.03,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTP_AB_M": {
+    "final_x": -0.09,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESTP_AB_F": {
+    "final_x": -0.05,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTP_O_M": {
+    "final_x": -0.07,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTP_O_F": {
+    "final_x": -0.19,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTP_A_M": {
+    "final_x": -0.04,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTP_A_F": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTP_B_M": {
+    "final_x": -0.01,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTP_B_F": {
+    "final_x": -0.15,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTP_AB_M": {
+    "final_x": -0.18,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENTP_AB_F": {
+    "final_x": -0.13,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFP_O_M": {
+    "final_x": -0.14,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFP_O_F": {
+    "final_x": -0.11,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFP_A_M": {
+    "final_x": -0.1,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFP_A_F": {
+    "final_x": -0.08,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFP_B_M": {
+    "final_x": -0.05,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFP_B_F": {
+    "final_x": -0.05,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFP_AB_M": {
+    "final_x": -0.19,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ESFP_AB_F": {
+    "final_x": -0.01,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFP_O_M": {
+    "final_x": -0.13,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFP_O_F": {
+    "final_x": -0.17,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFP_A_M": {
+    "final_x": -0.06,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFP_A_F": {
+    "final_x": -0.12,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFP_B_M": {
+    "final_x": -0.18,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFP_B_F": {
+    "final_x": -0.07,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFP_AB_M": {
+    "final_x": -0.09,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ENFP_AB_F": {
+    "final_x": -0.0,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISTJ_O_M": {
+    "final_x": -0.11,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISTJ_O_F": {
+    "final_x": -0.02,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISTJ_A_M": {
+    "final_x": -0.02,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISTJ_A_F": {
+    "final_x": -0.14,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISTJ_B_M": {
+    "final_x": -0.1,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISTJ_B_F": {
+    "final_x": -0.06,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISTJ_AB_M": {
+    "final_x": -0.16,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISTJ_AB_F": {
+    "final_x": -0.15,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INTJ_O_M": {
+    "final_x": -0.02,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INTJ_O_F": {
+    "final_x": -0.04,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INTJ_A_M": {
+    "final_x": -0.03,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INTJ_A_F": {
+    "final_x": -0.08,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INTJ_B_M": {
+    "final_x": -0.01,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INTJ_B_F": {
+    "final_x": -0.1,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INTJ_AB_M": {
+    "final_x": -0.1,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INTJ_AB_F": {
+    "final_x": -0.07,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISFJ_O_M": {
+    "final_x": -0.13,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISFJ_O_F": {
+    "final_x": -0.16,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISFJ_A_M": {
+    "final_x": -0.08,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISFJ_A_F": {
+    "final_x": -0.02,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISFJ_B_M": {
+    "final_x": -0.05,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISFJ_B_F": {
+    "final_x": -0.08,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISFJ_AB_M": {
+    "final_x": -0.1,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISFJ_AB_F": {
+    "final_x": -0.12,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INFJ_O_M": {
+    "final_x": -0.1,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INFJ_O_F": {
+    "final_x": -0.03,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INFJ_A_M": {
+    "final_x": 3.85,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INFJ_A_F": {
+    "final_x": 0.65,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INFJ_B_M": {
+    "final_x": 5.9,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INFJ_B_F": {
+    "final_x": 3.21,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "INFJ_AB_M": {
+    "final_x": 6.83,
+    "status": "CRUNCH"
+  },
+  "INFJ_AB_F": {
+    "final_x": 5.69,
+    "status": "SOUTH_BASIN_STALL"
+  },
+  "ISTP_O_M": {
+    "final_x": 12.46,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISTP_O_F": {
+    "final_x": 8.91,
+    "status": "CRUNCH"
+  },
+  "ISTP_A_M": {
+    "final_x": 16.01,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISTP_A_F": {
+    "final_x": 15.36,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISTP_B_M": {
+    "final_x": 16.08,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISTP_B_F": {
+    "final_x": 16.05,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISTP_AB_M": {
+    "final_x": 16.13,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISTP_AB_F": {
+    "final_x": 16.02,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INTP_O_M": {
+    "final_x": 16.1,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INTP_O_F": {
+    "final_x": 16.03,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INTP_A_M": {
+    "final_x": 16.07,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INTP_A_F": {
+    "final_x": 16.04,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INTP_B_M": {
+    "final_x": 16.05,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INTP_B_F": {
+    "final_x": 16.04,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INTP_AB_M": {
+    "final_x": 16.01,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INTP_AB_F": {
+    "final_x": 16.02,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISFP_O_M": {
+    "final_x": 16.16,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISFP_O_F": {
+    "final_x": 16.17,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISFP_A_M": {
+    "final_x": 16.08,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISFP_A_F": {
+    "final_x": 16.11,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISFP_B_M": {
+    "final_x": 16.19,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISFP_B_F": {
+    "final_x": 16.04,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISFP_AB_M": {
+    "final_x": 16.09,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "ISFP_AB_F": {
+    "final_x": 16.15,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INFP_O_M": {
+    "final_x": 16.19,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INFP_O_F": {
+    "final_x": 16.06,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INFP_A_M": {
+    "final_x": 16.08,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INFP_A_F": {
+    "final_x": 16.16,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INFP_B_M": {
+    "final_x": 16.16,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INFP_B_F": {
+    "final_x": 16.07,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INFP_AB_M": {
+    "final_x": 16.05,
+    "status": "NORTH_BASIN_STALL"
+  },
+  "INFP_AB_F": {
+    "final_x": 16.15,
+    "status": "NORTH_BASIN_STALL"
+  }
+}

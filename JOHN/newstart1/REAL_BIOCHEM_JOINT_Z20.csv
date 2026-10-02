@@ -1,0 +1,6 @@
+name,part,feat,r,peak,lit,dp
+melatonin_pg_mL,electron,cos,-0.8550705846235077,5.4375,3.0,2.4375
+cortisol_nmol_L,gluon,mag,-0.7223378164704921,8.4375,8.0625,0.375
+core_temp_C,gluon,mag,0.8137613365071575,18.1875,18.0,0.1875
+growth_hormone_ng_mL,gluon,cos,-0.8319702621788594,0.0,0.9375,-0.9375
+testosterone_nmol_L,gluon,mag,-0.7223378164704921,8.4375,8.0625,0.375

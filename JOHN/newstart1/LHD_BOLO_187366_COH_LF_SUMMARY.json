@@ -1,0 +1,57 @@
+{
+  "input_root": "Bolometer-187366-1",
+  "params": {
+    "base_topk": 40,
+    "stride": 64,
+    "max_points": 32768,
+    "metric": "coherence",
+    "corr_threshold": 0.8,
+    "spectral_topk": 5,
+    "spectral_min_shared": 1,
+    "coh_window": 2048,
+    "coh_step": 1024,
+    "coh_fmin": 1.0,
+    "coh_fmax": 1000.0,
+    "coh_threshold": 0.05,
+    "phase_stability": 0.2,
+    "phase_bias": 0.1
+  },
+  "counts": {
+    "channels_total_found": 60,
+    "channels_loaded": 60,
+    "base_channels": 40,
+    "extended_channels": 60
+  },
+  "closure": {
+    "base_components": 8,
+    "extended_components": 10,
+    "base_components_inside_extended": 5,
+    "base_edges": 34,
+    "extended_edges": 61,
+    "mediator_channels_found": 3,
+    "directed_edges_count": 50,
+    "directed_balance": 1.24,
+    "base_top_component_sizes": [
+      22,
+      7,
+      4,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "extended_top_component_sizes": [
+      48,
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+}

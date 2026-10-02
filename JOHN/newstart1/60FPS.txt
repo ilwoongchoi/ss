@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Canonical Field Landscape</title>
+<style>
+  html, body { margin:0; width:100%; height:100%; overflow:hidden; background:#05080b; }
+  canvas { width:100%; height:100%; display:block; }
+  #hud {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: #d6f1ff;
+    font: 12px/1.35 Consolas, "Courier New", monospace;
+    background: rgba(6, 13, 20, 0.84);
+    border: 1px solid rgba(108, 188, 255, 0.5);
+    padding: 10px 12px;
+    white-space: pre;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+<canvas id="gl"></canvas>
+<div id="hud">initializing...</div>
+
+<script>
+(function () {
+  var canvas = document.getElementById("gl");
+  var hud = document.getElementById("hud");
+
+  var BUDGET = {
+    gridWebGL2: [72],
+    gridWebGL1: [40],
+    renderScaleLevels: [0.75],
+    worldScale: 52.0,
+    heightScale: 8.5,
+    textures: 0,
+    offscreenFBO: 0,
+    targetFPS: 60
+  };
+
+  // Locked mode: no runtime per-device retuning.
+  var ADAPTIVE_RUNTIME_TUNING = false;
+
+  var LAW_CONST = [
+    "const float KAPPA = 0.03125;",
+    "const float SPARK_RAD = 2.42407;",
+    "const float CLOSURE_GAIN = 1.0000424;",
+    "const float GATE_GAIN = 1.0100375;",
+    "const float HYST_LAG = 0.1570796327;",
+    "const float HYST_MEMORY = 0.78;",
+    "const float HYST_STEEP = 2.6;"
+  ].join("\n");
+
+  var LAW_FUNC = [
+    "mat2 rot2(float a) {",
+    "  float c = cos(a), s = sin(a);",
+    "  return mat2(c, -s, s, c);",
+    "}",
+    "",
+    "float tanhFast(float x) {",
+    "  x = clamp(x, -8.0, 8.0);",
+    "  float e2 = exp(-2.0 * x);",
+    "  return (1.0 - e2) / (1.0 + e2);",
+    "}",
+    "",
+    "void evalLaw(vec2 p, out float h, out float gate, out float intrinsic, out float extended) {",
+    "  vec2 q = rot2(SPARK_RAD) * (p * KAPPA);",
+    "  float closure = sin(CLOSURE_GAIN * q.x) * cos(CLOSURE_GAIN * q.y);",
+    "  float gRaw = 0.5 + 0.5 * sin(GATE_GAIN * (0.89 * q.x + 1.13 * q.y));",
+    "  gate = smoothstep(0.32, 0.68, gRaw);",
+    "  float a = sin(q.x + 0.73 * q.y + HYST_LAG);",
+    "  float b = sin(q.x + 0.73 * q.y - HYST_LAG);",
+    "  float hyst = tanhFast(HYST_STEEP * (a - HYST_MEMORY * b));",
+    "  float tunnel = exp(-6.0 * abs(closure));",
+    "  float spark = sin((q.x - q.y) * SPARK_RAD + closure * 1.7);",
+    "  float tunnelSpark = tunnel * spark;",
+    "  float ridge = abs(sin(1.6 * q.x) - cos(1.3 * q.y));",
+    "  float separatrix = exp(-18.0 * abs(gRaw - 0.5));",
+    "  vec2 beamDir = normalize(vec2(0.83, 0.56));",
+    "  float beam = max(dot(normalize(q + vec2(1e-4)), beamDir), 0.0);",
+    "  float alignment = beam * (1.0 - separatrix);",
+    "  intrinsic = gate * (1.0 - separatrix);",
+    "  extended = separatrix * tunnel;",
+    "  h = 0.62 * closure + 0.44 * gate * hyst + 0.31 * tunnelSpark +",
+    "      0.24 * ridge * alignment - 0.22 * separatrix + 0.12 * extended;",
+    "}"
+  ].join("\n");
+
+  var VS300 = [
+    "#version 300 es",
+    "precision highp float;",
+    "layout(location = 0) in vec2 a_grid;",
+    "uniform mat4 u_viewProj;",
+    "uniform float u_worldScale;",
+    "uniform float u_heightScale;",
+    "uniform float u_cellWorld;",
+    "out vec3 v_worldPos;",
+    "out vec3 v_normal;",
+    "out vec3 v_law;",
+    LAW_CONST,
+    LAW_FUNC,
+    "void main() {",
+    "  vec2 p = a_grid * u_worldScale;",
+    "  float h0, gate0, intrinsic0, extended0;",
+    "  evalLaw(p, h0, gate0, intrinsic0, extended0);",
+    "  float eps = max(0.35, u_cellWorld * 0.85);",
+    "  float hx, gx, ix, ex;",
+    "  float hz, gz, iz, ez;",
+    "  evalLaw(p + vec2(eps, 0.0), hx, gx, ix, ex);",
+    "  evalLaw(p + vec2(0.0, eps), hz, gz, iz, ez);",
+    "  vec3 worldPos = vec3(p.x, h0 * u_heightScale, p.y);",
+    "  vec3 dx = vec3(eps, (hx - h0) * u_heightScale, 0.0);",
+    "  vec3 dz = vec3(0.0, (hz - h0) * u_heightScale, eps);",
+    "  vec3 n = normalize(cross(dz, dx));",
+    "  v_worldPos = worldPos;",
+    "  v_normal = n;",
+    "  v_law = vec3(gate0, intrinsic0, extended0);",
+    "  gl_Position = u_viewProj * vec4(worldPos, 1.0);",
+    "}"
+  ].join("\n");
+
+  var FS300 = [
+    "#version 300 es",
+    "precision mediump float;",
+    "in vec3 v_worldPos;",
+    "in vec3 v_normal;",
+    "in vec3 v_law;",
+    "uniform vec3 u_camPos;",
+    "out vec4 outColor;",
+    "void main() {",
+    "  vec3 N = normalize(v_normal);",
+    "  vec3 L = normalize(vec3(0.45, 0.82, 0.35));",
+    "  vec3 V = normalize(u_camPos - v_worldPos);",
+    "  vec3 H = normalize(L + V);",
+    "  float NoL = max(dot(N, L), 0.0);",
+    "  float NoH = max(dot(N, H), 0.0);",
+    "  float gate = clamp(v_law.x, 0.0, 1.0);",
+    "  float intrinsic = clamp(v_law.y, 0.0, 1.0);",
+    "  float extended = clamp(v_law.z, 0.0, 1.0);",
+    "  vec3 closureTint = mix(vec3(0.16,0.17,0.20), vec3(0.34,0.31,0.23), gate);",
+    "  vec3 intrinsicTint = vec3(0.74,0.46,0.18) * intrinsic;",
+    "  vec3 extendedTint = vec3(0.16,0.62,0.72) * extended;",
+    "  vec3 base = closureTint + intrinsicTint + extendedTint;",
+    "  vec3 lit = base * (0.20 + 0.80 * NoL) + vec3(0.22) * pow(NoH, 18.0);",
+    "  float d = length(v_worldPos.xz);",
+    "  float fog = exp(-0.010 * d);",
+    "  vec3 sky = vec3(0.08, 0.13, 0.18);",
+    "  outColor = vec4(mix(sky, lit, fog), 1.0);",
+    "}"
+  ].join("\n");
+
+  var VS100 = [
+    "precision highp float;",
+    "attribute vec2 a_grid;",
+    "uniform mat4 u_viewProj;",
+    "uniform float u_worldScale;",
+    "uniform float u_heightScale;",
+    "uniform float u_cellWorld;",
+    "varying vec3 v_worldPos;",
+    "varying vec3 v_normal;",
+    "varying vec3 v_law;",
+    LAW_CONST,
+    LAW_FUNC,
+    "void main() {",
+    "  vec2 p = a_grid * u_worldScale;",
+    "  float h0, gate0, intrinsic0, extended0;",
+    "  evalLaw(p, h0, gate0, intrinsic0, extended0);",
+    "  float eps = max(0.35, u_cellWorld * 0.85);",
+    "  float hx, gx, ix, ex;",
+    "  float hz, gz, iz, ez;",
+    "  evalLaw(p + vec2(eps, 0.0), hx, gx, ix, ex);",
+    "  evalLaw(p + vec2(0.0, eps), hz, gz, iz, ez);",
+    "  vec3 worldPos = vec3(p.x, h0 * u_heightScale, p.y);",
+    "  vec3 dx = vec3(eps, (hx - h0) * u_heightScale, 0.0);",
+    "  vec3 dz = vec3(0.0, (hz - h0) * u_heightScale, eps);",
+    "  vec3 n = normalize(cross(dz, dx));",
+    "  v_worldPos = worldPos;",
+    "  v_normal = n;",
+    "  v_law = vec3(gate0, intrinsic0, extended0);",
+    "  gl_Position = u_viewProj * vec4(worldPos, 1.0);",
+    "}"
+  ].join("\n");
+
+  var FS100 = [
+    "precision mediump float;",
+    "varying vec3 v_worldPos;",
+    "varying vec3 v_normal;",
+    "varying vec3 v_law;",
+    "uniform vec3 u_camPos;",
+    "void main() {",
+    "  vec3 N = normalize(v_normal);",
+    "  vec3 L = normalize(vec3(0.45, 0.82, 0.35));",
+    "  vec3 V = normalize(u_camPos - v_worldPos);",
+    "  vec3 H = normalize(L + V);",
+    "  float NoL = max(dot(N, L), 0.0);",
+    "  float NoH = max(dot(N, H), 0.0);",
+    "  float gate = clamp(v_law.x, 0.0, 1.0);",
+    "  float intrinsic = clamp(v_law.y, 0.0, 1.0);",
+    "  float extended = clamp(v_law.z, 0.0, 1.0);",
+    "  vec3 closureTint = mix(vec3(0.16,0.17,0.20), vec3(0.34,0.31,0.23), gate);",
+    "  vec3 intrinsicTint = vec3(0.74,0.46,0.18) * intrinsic;",
+    "  vec3 extendedTint = vec3(0.16,0.62,0.72) * extended;",
+    "  vec3 base = closureTint + intrinsicTint + extendedTint;",
+    "  vec3 lit = base * (0.20 + 0.80 * NoL) + vec3(0.22) * pow(NoH, 18.0);",
+    "  float d = length(v_worldPos.xz);",
+    "  float fog = exp(-0.010 * d);",
+    "  vec3 sky = vec3(0.08, 0.13, 0.18);",
+    "  gl_FragColor = vec4(mix(sky, lit, fog), 1.0);",
+    "}"
+  ].join("\n");
+
+  function compileShader(gl, type, src) {
+    var sh = gl.createShader(type);
+    gl.shaderSource(sh, src);
+    gl.compileShader(sh);
+    if (!gl.getShaderParameter(sh, gl.COMPILE_STATUS)) {
+      return { shader: null, error: gl.getShaderInfoLog(sh) || "shader compile error" };
+    }
+    return { shader: sh, error: null };
+  }
+
+  function createProgram(gl, vsSrc, fsSrc) {
+    var v = compileShader(gl, gl.VERTEX_SHADER, vsSrc);
+    if (!v.shader) return { program: null, error: "VS: " + v.error };
+    var f = compileShader(gl, gl.FRAGMENT_SHADER, fsSrc);
+    if (!f.shader) return { program: null, error: "FS: " + f.error };
+    var p = gl.createProgram();
+    gl.attachShader(p, v.shader);
+    gl.attachShader(p, f.shader);
+    gl.linkProgram(p);
+    gl.deleteShader(v.shader);
+    gl.deleteShader(f.shader);
+    if (!gl.getProgramParameter(p, gl.LINK_STATUS)) {
+      return { program: null, error: gl.getProgramInfoLog(p) || "program link error" };
+    }
+    return { program: p, error: null };
+  }
+
+  function perspective(fovy, aspect, near, far) {
+    var f = 1.0 / Math.tan(fovy * 0.5);
+    var nf = 1.0 / (near - far);
+    return new Float32Array([
+      f / aspect, 0, 0, 0,
+      0, f, 0, 0,
+      0, 0, (far + near) * nf, -1,
+      0, 0, (2 * far * near) * nf, 0
+    ]);
+  }
+
+  function lookAt(eye, center, up) {
+    var zx = eye[0] - center[0], zy = eye[1] - center[1], zz = eye[2] - center[2];
+    var zlen = Math.sqrt(zx*zx + zy*zy + zz*zz) || 1.0;
+    var z0 = zx / zlen, z1 = zy / zlen, z2 = zz / zlen;
+
+    var xx = up[1] * z2 - up[2] * z1;
+    var xy = up[2] * z0 - up[0] * z2;
+    var xz = up[0] * z1 - up[1] * z0;
+    var xlen = Math.sqrt(xx*xx + xy*xy + xz*xz) || 1.0;
+    var x0 = xx / xlen, x1 = xy / xlen, x2 = xz / xlen;
+
+    var y0 = z1 * x2 - z2 * x1;
+    var y1 = z2 * x0 - z0 * x2;
+    var y2 = z0 * x1 - z1 * x0;
+
+    return new Float32Array([
+      x0, y0, z0, 0,
+      x1, y1, z1, 0,
+      x2, y2, z2, 0,
+      -(x0 * eye[0] + x1 * eye[1] + x2 * eye[2]),
+      -(y0 * eye[0] + y1 * eye[1] + y2 * eye[2]),
+      -(z0 * eye[0] + z1 * eye[1] + z2 * eye[2]),
+      1
+    ]);
+  }
+
+  function mul4(a, b) {
+    var out = new Float32Array(16);
+    var c, r;
+    for (c = 0; c < 4; c++) {
+      for (r = 0; r < 4; r++) {
+        out[c * 4 + r] =
+          a[0 * 4 + r] * b[c * 4 + 0] +
+          a[1 * 4 + r] * b[c * 4 + 1] +
+          a[2 * 4 + r] * b[c * 4 + 2] +
+          a[3 * 4 + r] * b[c * 4 + 3];
+      }
+    }
+    return out;
+  }
+
+  function buildGrid(res) {
+    var vCount = (res + 1) * (res + 1);
+    var verts = new Float32Array(vCount * 2);
+    var o = 0;
+    var z, x;
+    for (z = 0; z <= res; z++) {
+      for (x = 0; x <= res; x++) {
+        verts[o++] = (x / res) * 2.0 - 1.0;
+        verts[o++] = (z / res) * 2.0 - 1.0;
+      }
+    }
+    var idx = new Uint16Array(res * res * 6);
+    o = 0;
+    for (z = 0; z < res; z++) {
+      for (x = 0; x < res; x++) {
+        var i0 = z * (res + 1) + x;
+        var i1 = i0 + 1;
+        var i2 = i0 + (res + 1);
+        var i3 = i2 + 1;
+        idx[o++] = i0; idx[o++] = i2; idx[o++] = i1;
+        idx[o++] = i1; idx[o++] = i2; idx[o++] = i3;
+      }
+    }
+    return { verts: verts, idx: idx, indexCount: idx.length, vertexCount: vCount };
+  }
+
+  function start(gl, mode, program, levels, usesVAO) {
+    gl.useProgram(program);
+    gl.enable(gl.DEPTH_TEST);
+    gl.disable(gl.CULL_FACE);
+    gl.clearColor(0.05, 0.08, 0.11, 1.0);
+
+    var uViewProj = gl.getUniformLocation(program, "u_viewProj");
+    var uWorldScale = gl.getUniformLocation(program, "u_worldScale");
+    var uHeightScale = gl.getUniformLocation(program, "u_heightScale");
+    var uCellWorld = gl.getUniformLocation(program, "u_cellWorld");
+    var uCamPos = gl.getUniformLocation(program, "u_camPos");
+    var aGrid = usesVAO ? 0 : gl.getAttribLocation(program, "a_grid");
+
+    gl.uniform1f(uWorldScale, BUDGET.worldScale);
+    gl.uniform1f(uHeightScale, BUDGET.heightScale);
+
+    var vb = gl.createBuffer();
+    var ib = gl.createBuffer();
+    var vao = null;
+    if (usesVAO) vao = gl.createVertexArray();
+
+    var proj = new Float32Array(16);
+    var active = 0;
+    var currentRes = levels[active];
+    var renderLevel = 0;
+    var indexCount = 0;
+    var vertexCount = 0;
+    var fpsEma = 60;
+    var frameCounter = 0;
+    var last = performance.now();
+
+    function resize() {
+      var dpr = Math.min(1.0, window.devicePixelRatio || 1);
+      var scale = BUDGET.renderScaleLevels[renderLevel];
+      var w = Math.max(480, Math.floor(window.innerWidth * dpr * scale));
+      var h = Math.max(270, Math.floor(window.innerHeight * dpr * scale));
+      if (canvas.width !== w || canvas.height !== h) {
+        canvas.width = w;
+        canvas.height = h;
+        gl.viewport(0, 0, w, h);
+        proj = perspective(52 * Math.PI / 180, w / h, 0.1, 220.0);
+      }
+    }
+    window.addEventListener("resize", resize);
+    resize();
+
+    function upload(res) {
+      var g = buildGrid(res);
+      currentRes = res;
+      indexCount = g.indexCount;
+      vertexCount = g.vertexCount;
+
+      gl.bindBuffer(gl.ARRAY_BUFFER, vb);
+      gl.bufferData(gl.ARRAY_BUFFER, g.verts, gl.STATIC_DRAW);
+      gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, ib);
+      gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, g.idx, gl.STATIC_DRAW);
+
+      if (usesVAO) {
+        gl.bindVertexArray(vao);
+        gl.bindBuffer(gl.ARRAY_BUFFER, vb);
+        gl.enableVertexAttribArray(0);
+        gl.vertexAttribPointer(0, 2, gl.FLOAT, false, 0, 0);
+        gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, ib);
+        gl.bindVertexArray(null);
+      } else {
+        gl.bindBuffer(gl.ARRAY_BUFFER, vb);
+        gl.enableVertexAttribArray(aGrid);
+        gl.vertexAttribPointer(aGrid, 2, gl.FLOAT, false, 0, 0);
+        gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, ib);
+      }
+      gl.uniform1f(uCellWorld, (2.0 * BUDGET.worldScale) / currentRes);
+    }
+
+    upload(currentRes);
+
+    function maybeLOD() {
+      if (!ADAPTIVE_RUNTIME_TUNING) return;
+      if (frameCounter % 60 !== 0) return;
+      if (fpsEma < 57) {
+        if (active < levels.length - 1) {
+          active++;
+          upload(levels[active]);
+        } else if (renderLevel < BUDGET.renderScaleLevels.length - 1) {
+          renderLevel++;
+          resize();
+        }
+        return;
+      }
+
+      if (fpsEma > 62) {
+        if (renderLevel > 0) {
+          renderLevel--;
+          resize();
+        } else if (active > 0) {
+          active--;
+          upload(levels[active]);
+        }
+      }
+    }
+
+    function frame(now) {
+      resize();
+      var dt = Math.max(1e-3, (now - last) * 0.001);
+      last = now;
+      var fps = 1.0 / dt;
+      fpsEma = fpsEma * 0.90 + fps * 0.10;
+      frameCounter++;
+      maybeLOD();
+
+      var t = now * 0.00013;
+      var eye = [
+        Math.cos(t) * 58.0,
+        21.0 + 1.8 * Math.sin(3.0 * t),
+        Math.sin(t) * 58.0
+      ];
+      var view = lookAt(eye, [0, 0, 0], [0, 1, 0]);
+      var vp = mul4(proj, view);
+
+      gl.uniformMatrix4fv(uViewProj, false, vp);
+      gl.uniform3f(uCamPos, eye[0], eye[1], eye[2]);
+      gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+
+      if (usesVAO) {
+        gl.bindVertexArray(vao);
+      } else {
+        gl.bindBuffer(gl.ARRAY_BUFFER, vb);
+        gl.enableVertexAttribArray(aGrid);
+        gl.vertexAttribPointer(aGrid, 2, gl.FLOAT, false, 0, 0);
+        gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, ib);
+      }
+
+      gl.drawElements(gl.TRIANGLES, indexCount, gl.UNSIGNED_SHORT, 0);
+
+      hud.textContent =
+        "Canonical Field Landscape (" + mode + ")\n" +
+        "FPS EMA: " + fpsEma.toFixed(1) + " target:" + BUDGET.targetFPS + "\n" +
+        "Grid: " + currentRes + "x" + currentRes + " vertices:" + vertexCount + "\n" +
+        "RenderScale: " + BUDGET.renderScaleLevels[renderLevel].toFixed(2) + "\n" +
+        "Runtime tuning: " + (ADAPTIVE_RUNTIME_TUNING ? "ON" : "LOCKED-OFF") + "\n" +
+        "Indices: " + indexCount + "\n" +
+        "CPU: camera matrices only\n" +
+        "GPU: single analytic canonical field\n" +
+        "Textures/FBO: " + BUDGET.textures + " / " + BUDGET.offscreenFBO + "\n" +
+        "Law: closure + gate + hysteresis + tunnel/spark + ridge/separatrix/beam";
+
+      requestAnimationFrame(frame);
+    }
+
+    requestAnimationFrame(frame);
+  }
+
+  function fail(msg) {
+    hud.textContent = "Failed to start renderer:\n" + msg;
+  }
+
+  try {
+    var gl2 = canvas.getContext("webgl2", {
+      antialias: false, alpha: false, depth: true, stencil: false,
+      powerPreference: "high-performance", desynchronized: true
+    });
+    if (gl2) {
+      var p2 = createProgram(gl2, VS300, FS300);
+      if (p2.program) {
+        start(gl2, "webgl2", p2.program, BUDGET.gridWebGL2, true);
+        return;
+      }
+    }
+  } catch (e2) {}
+
+  try {
+    var gl1 = canvas.getContext("webgl", {
+      antialias: false, alpha: false, depth: true, stencil: false,
+      powerPreference: "high-performance"
+    }) || canvas.getContext("experimental-webgl");
+    if (gl1) {
+      var p1 = createProgram(gl1, VS100, FS100);
+      if (p1.program) {
+        start(gl1, "webgl1-fallback", p1.program, BUDGET.gridWebGL1, false);
+        return;
+      }
+      fail(p1.error || "webgl1 shader compile failed");
+      return;
+    }
+  } catch (e1) {}
+
+  fail("No WebGL context available");
+})();
+</script>
+</body>
+</html>

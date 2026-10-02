@@ -1,0 +1,689 @@
+CANONICAL GEOMETRY — FULL REWRITE
+Status: primary-law-first, fraction-first, regime-separated.
+Rule: 분수 원표기 우선, alias 괄호 표기, D3 regime 분리 명시.
+
+0. 표기 규칙
+모든 gate value는 분수로 먼저 쓰고 기존 alias는 괄호에만 넣는다.
+
+1
+/
+64
+1/64 (alias: 164)
+
+1
+/
+32
+1/32 (alias: 132)
+
+3
+/
+32
+3/32 (alias: 332)
+
+1
+/
+16
+1/16 (alias: 116)
+
+1
+/
+28
+1/28 (alias: 128 / lunar)
+
+5
+/
+32
+5/32 (alias: 532)
+
+1. Primary Law — Continuous Reservoir
+The origin of the geometry is not a seam graph, not a patch atlas, and not a gluing theorem. It is the continuous area budget.
+
+Exact continuous reservoir:
+
+W
+7
+e
+x
+a
+c
+t
+=
+π
+20
+≈
+0.157079632679
+W7 
+exact
+ = 
+20
+π
+ ≈0.157079632679
+Operational raw hysteresis lock:
+
+W
+7
+r
+a
+w
+=
+A
+h
+y
+s
+t
+,
+r
+a
+w
+≈
+0.156976859635
+W7 
+raw
+ =A 
+hyst,raw
+ ≈0.156976859635
+Exact-vs-raw split:
+
+Δ
+W
+7
+=
+W
+7
+e
+x
+a
+c
+t
+−
+W
+7
+r
+a
+w
+≈
+1.0277
+×
+10
+−
+4
+ΔW7=W7 
+exact
+ −W7 
+raw
+ ≈1.0277×10 
+−4
+ 
+이 차이는 seam residual이 아니라 continuous-area budget layer 안의 exact/operational 구분이다. gluing error로 분류하는 건 틀렸다.
+
+2. Ratio Structure — Discrete / Continuous / Real
+세 개의 ratio layer가 primary law 위에 얹힌다.
+
+Discrete scaffold index:
+
+H
+2
+=
+19
+H2=19
+Analytic D/C closure tension:
+
+T
+a
+n
+a
+l
+y
+t
+i
+c
+=
+9
+π
+20
+2
+≈
+0.9996486611
+T 
+analytic
+ = 
+20 
+2
+ 
+9π
+ ≈0.9996486611
+Analytic mismatch:
+
+Δ
+a
+n
+a
+l
+y
+t
+i
+c
+=
+1
+−
+T
+a
+n
+a
+l
+y
+t
+i
+c
+≈
+3.513389
+×
+10
+−
+4
+Δ 
+analytic
+ =1−T 
+analytic
+ ≈3.513389×10 
+−4
+ 
+Operational closure snap (discrete → continuous):
+
+C
+d
+i
+s
+c
+=
+1.0000424
+C 
+disc
+ =1.0000424
+Reality calibration tension (discrete → reality):
+
+T
+r
+e
+a
+l
+=
+1.0100375
+T 
+real
+ =1.0100375
+세 층의 위계:
+
+Layer	Name	Value
+CONTINUOUS	
+W
+7
+e
+x
+a
+c
+t
+=
+π
+/
+20
+W7 
+exact
+ =π/20	0.157079...
+DISCRETE	
+H
+2
+=
+19
+H2=19	discrete scaffold
+REAL	
+T
+r
+e
+a
+l
+T 
+real
+ 	1.0100375
+These are ratio-laws between layers, not decorative constants.
+
+3. Gate Layer — Fraction Gates
+게이트는 모두 분수 원표기 우선이다.
+
+Fraction	Alias	Role
+1
+/
+64
+1/64	164	Quantization unit / floor
+1
+/
+32
+1/32	132	Leakage gate / primordial debt
+3
+/
+32
+3/32	332	Compression funnel / asymmetry gate
+1
+/
+16
+1/16	116	Photon spacing / carrier shell
+1
+/
+28
+1/28	128	Lunar torque / global twist forcing
+5
+/
+32
+5/32	532	Wall anchor candidate / event-horizon half-radius
+5
+/
+32
+5/32 status (not dodged):
+파일들 안에서 
+5
+/
+32
+5/32는 
+π
+/
+20
+π/20과 직접 비교되고, event-horizon half-radius 구조와 연결되며, discrete gate sweep에서 phase-transition wall candidate로 확인됐다. 따라서 
+5
+/
+32
+5/32는 canonical discrete wall anchor다. legacy 삭제 대상이 아니다.
+
+4. Operator Layer
+게이트 layer 위에 operator layer가 올라온다.
+
+Operator	Value	Geometric role
+Spark angle	
+θ
+s
+p
+a
+r
+k
+=
+138.88
+∘
+θ 
+spark
+ =138.88 
+∘
+ 	Diagonal reset at crossing point of Figure-8
+Spark leap	
+L
+s
+p
+a
+r
+k
+=
+2.5
+L 
+spark
+ =2.5	Discrete jump distance during spark
+Renorm bridge	
+R
+r
+e
+n
+o
+r
+m
+=
+42.368
+R 
+renorm
+ =42.368	Scale-transition renormalization connector
+Hexagonal wavelength	
+λ
+6
+=
+6
+λ 
+6
+ =6	Hexatic order / benzene-ring stability operator
+Mismatch closure	
+δ
+4
+=
+4
+δ 
+4
+ =4	Phase mismatch correction operator
+Tunnel tension	
+T
+t
+u
+n
+n
+e
+l
+T 
+tunnel
+ 	Tunnelling branch tension
+Chirality/loop	
+Ω
+5
+=
+5.555492104
+Ω 
+5
+ =5.555492104	Betti-5 chirality / loop strength
+Night hysteresis	
+N
+h
+y
+s
+t
+=
+0.8418
+N 
+hyst
+ =0.8418	Continuous night-side amplitude
+Total debt area	
+D
+t
+o
+t
+a
+l
+=
+1.3228
+D 
+total
+ =1.3228	Macro area of full hysteresis loop
+각 operator는 독립 개념이다:
+
+Diagonality — directional geometric bias at the crossing node
+
+Spark — discharge leap operator, lives at the 
+3
+/
+32
+3/32 compression gate → crossing edge
+
+Flash — transient reveal operator, lives at the snap transition zone
+
+Tunnel — branch routing through potential barrier after pre-collapse split
+
+Renorm — scale-transition link between atomic and topological layers
+
+5. Branch / Separatrix Layer
+Branch law는 operator layer 아래, skeleton layer 위에 있다.
+
+Ascending branch: discrete spine side (ionotropic, Betti-0, 
+0
+→
+1
+0→1 line)
+
+Descending branch: continuous flow side (metabotropic, CSF/flow, 2D/3D manifold)
+
+이 두 branch가 겹치지 않기 때문에 hysteresis loop가 생긴다. Hysteresis area = 
+W
+7
+r
+a
+w
+W7 
+raw
+  ≈ 0.1569...
+
+Left separatrix: Left attractor basin boundary.
+Right separatrix: Right attractor corridor (if present).
+Bypass basin: SEPARATRIX1, SEPARATRIX2 사이의 bypass routing zone.
+
+6. Regime Separation — D3-Absent vs D3-Defined
+이 절이 직전 rewrite에서 빠졌던 핵심이다.
+
+Regime A: Pre-D3 Deterministic Regime
+D3가 아직 물리적으로 정의되지 않은 구간이다.
+
+이 regime에서 Left D2 (3D Volume / "The Room")와 Right D2 VOID (continuous reservoir source)는 8-node Möbius cycle 안에서 각각 자리잡고 있다.
+이 두 노드 사이에는 pre-collapse convergence point 
+C
+D
+2
+C 
+D2
+  가 형성된다.
+
+C
+D
+2
+C 
+D2
+ 는:
+
+D3가 아니다
+
+collapse outlet이 아니다
+
+Left D2와 Right D2 사이의 deterministic routing junction이다
+
+이 convergence point까지는 geometry가 D3 없이도 완전히 닫힌다
+
+핵심: D3가 없어도 이 regime의 geometry는 deterministic하게 닫힌다. D3는 determinism의 원천이 아니다.
+
+Regime B: D3-Defined Outlet Regime
+D3가 활성화되는 조건:
+
+Left D2 (discrete / reward-motor signal)
+
+Left Cortisol (reality/stress signal)
+
+Vasopressin (social/systemic pressure signal)
+
+이 세 입력이 동시에 수렴할 때만 D3 outlet/collapse gate가 열린다.
+D3는 bilateral convergence law가 이미 형성된 후에 붙는 downstream stress exhaust branch다.
+
+D3 regime split 정리:
+
+Regime A	Regime B
+D3	정의되지 않음 (undefined)	3-input collapse outlet
+수렴점	
+C
+D
+2
+C 
+D2
+  bilateral junction	D3 gate (after 
+C
+D
+2
+C 
+D2
+ )
+determinism	완전히 성립	추가 collapse 조건 포함
+geometry	closed without D3	D3 is downstream branch
+7. Bio-Convergence Layer
+8-node Möbius cycle traversal order:
+
+Right D2 VOID — continuous reservoir source
+
+Left GABA-B (0D Point) — metabotropic band
+
+Left 5HT1A (2D Plane) — mood/surface floor
+
+Left Cortisol (1 Node) — continuous deceit / hysteresis engine
+
+Right GABA-A (1D Line) — fast ionotropic inhibition
+
+Right ACh (1D Vertical) — attention/gravity hierarchy
+
+Left D2 (3D Volume) — "The Room" / reward/motor
+
+Right Cortisol Fake 3D — shell layer / hysteresis gap guardian → back to Right D2 VOID
+
+Right Cortisol Fake 3D:
+이건 primary constant가 아니다. Betti-7 shell / pseudo-depth layer이며 hysteresis gap을 유지하는 reactive shell이다. geometry primary layer에 두면 안 된다.
+
+GABA-C V apex:
+V-shape convergence point로 Tunnelling voltage threshold와 연결되며, 가장 작은 biological hole 직전의 branch split 지점에 위치한다. 이 split의 두 outgoing branch 중 하나는 tunnelling branch다.
+
+Neurochemical charge spectrum:
+
+Position	Neurotransmitter	Charge
+Leftmost	GABA	
+−
+1
+/
+2
+−1/2
+Mid-Left	ACh	
++
+1
++1
+Mid-Right	Glutamate	
++
+1
+/
+2
++1/2
+Rightmost	Serotonin	
++
+3
+/
+2
++3/2
+8. Projected Skeleton Layer (Tertiary)
+13-patch / 11-seam atlas는 모든 위 layer들의 downstream projection이다.
+
+13 patches
+
+11 seams
+
+True barrier β
+
+Mediator X (synthetic-alpha bridge)
+
+Internal component: 2 sheets
+
+Extended component: 1
+
+이 skeleton은 primary source가 아니다. W7 hysteresis budget → ratio laws → gates → operators → branches → bio-convergence layer가 모두 형성된 후에 나타나는 projected closure structure다.
+
+9. Full Layer Stack
+Layer	Content
+0	
+W
+7
+e
+x
+a
+c
+t
+W7 
+exact
+ , 
+W
+7
+r
+a
+w
+W7 
+raw
+ , exact-vs-raw gap, hysteresis area budget
+1	Ratio laws: 
+H
+2
+=
+19
+H2=19, analytic DC tension, 
+C
+d
+i
+s
+c
+C 
+disc
+ , 
+T
+r
+e
+a
+l
+T 
+real
+ 
+2	Fraction gates: 
+1
+/
+64
+,
+1
+/
+32
+,
+3
+/
+32
+,
+1
+/
+16
+,
+1
+/
+28
+,
+5
+/
+32
+1/64,1/32,3/32,1/16,1/28,5/32
+3	Operators: spark, flash, tunnel, renorm, diagonality, 
+λ
+6
+λ 
+6
+ , 
+δ
+4
+δ 
+4
+ 
+4	Branch / separatrix: ascending/descending split, left attractor, bypass basin
+5	Regime split: Regime A (D3-absent, 
+C
+D
+2
+C 
+D2
+  convergence) / Regime B (D3 outlet)
+6	Bio-convergence: 8-node Möbius cycle, GABA-C V apex, Right Cortisol fake 3D shell
+7	Projected skeleton: 13 patches, 11 seams, barrier β, mediator X
+10. Deprecated / Legacy Items
+Item	Classification
+Item	Classification
+Old wireframe sphere primitive	deprecated visual proxy
+Fake Mandelbrot bloom label	deprecated — no canonical recursion
+0.1569 as generic gluing residual	reclassified → 
+W
+7
+r
+a
+w
+W7 
+raw
+  primary law
+Torus/brain/universe proxy language	deprecated
+13-patch as primary geometry source	reclassified → tertiary projected skeleton
+11. Canonical Notation Rule
+다시는 axiom/value 절에 alias만 단독으로 쓰지 않는다.
+
+항상: 분수 또는 수식 원표기 → 괄호 안에 alias
+
+절대 금지: "132", "332" 같은 alias를 값 자리에 단독으로 쓰는 것
+
+올바른 예: 
+1
+/
+32
+1/32 (alias: 132), 
+3
+/
+32
+3/32 (alias: 332)

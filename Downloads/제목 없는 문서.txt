@@ -1,0 +1,292 @@
+﻿circuitfile1.md 말고 circuitfile.md  이렇게 바꿔. you know which nodes belong to each particles yes?
+
+
+
+
+1. up_quark
+• node: B(5)/Si(14), MC1R_ON/OFF, myosin II thick filament
+• particle vector: 중력=질량→MC1R_ON/OFF 전자가 광자를 공격하는것 -1 -> 0
+• observer vector: 내가낮에쿼크를만드는것
+• element: B(5) q / Si(14) q_bar
+• location: Left Masseter, Left Ventricle
+
+
+2. down_quark
+• node: Pm(61)/Sm(62), drd1_peripheral D-ff
+• particle vector: 쿼크가 포톤을 공격 / 쿼크가 영상 영하 왔다갔다. 쿼크가 스스로를 비우는것. -1 -> 0
+• observer vector: 내가낮에자아를비우는것
+• element: Pm(61) q / Sm(62) q_bar
+• location: Center of right sole, Right Quadriceps, Left Biceps
+
+
+3. charm_quark
+• node: Jejunum/Ileum microvilli, glucose binding
+• particle vector: (circuitfile에 명시적 particle vector 없음, glucose absorption으로 추정)글루온이 스스로를 비워 보호하는것. 1-> 0
+• observer vector: 내가 밤에 스스로 사랑하는것
+• location: Jejunum/Ileum microvilli glycocalyx
+
+
+4. strange_quark
+• node: Na(11), MasterPermissiveBus, Left Insular Cortex
+• particle vector: 쿼크가 스스로를 비워 보호하는것 -1 -> 0
+• observer vector: 내가밤에자아를비우는것
+• element: Na(11) RED AlkaliMetal / Cs(55) RED AlkaliMetal
+• location: Left Insular Cortex (ROI-69)
+
+
+5. electron
+• node: Ca(20), Ds(110), cell lipid bilayer, skull piezoelectric
+• particle vector: 쿼크가 광자를 사랑하는것 -1 -> 0
+• observer vector: 내가밤에자아를비우는것
+• element: Ca(20) GREEN AlkalineEarth / Ds(110) WHITE TransitionMetal
+• location: Cell lipid bilayer, Skull
+
+
+6. muon
+• node: Mn(25), left temporalis, ferritin nanocage
+• particle vector: 글루온(거짓자아)가 스스로를 비우는것 1 -> 0
+• observer vector: 내가 낮에 스스로 공격하는것
+• element: Mn(25) BLACK TransitionMetal
+• location: Left Temporalis (5 points), Hairline
+
+
+7. tau
+• node: tau_antineutrino와 연결, perineal fold, NK1R
+• particle vector: 거짓쿼크가 스스로를 비워서 쿼크를 공격하는것 0 -> -1
+• observer vector: 쿼크가낮에자아를비우는것
+• element: (tau로 명시, 별도 element 없음)
+• location: Perineal fold belt
+
+
+8. electron_neutrino
+• node: Na(11), electron_neutrino, smart grid
+• particle vector: 내가 쿼크를 사랑하는 것1-> 0
+• observer vector: (recovery state superposition)쿼크가 관찰자를 낮에 공격하는것
+• element: Na(11) RED AlkaliMetal
+• location: Right STG (131), Left Lung, PLP Core (135)
+
+
+9. muon_neutrino
+• node: Mn(25), muon_neutrino, ferritin
+• particle vector: 글루온이 스스로를 비우는것 1-> 0
+• observer vector: 쿼크가 낮에 쿼크를 만드는것
+• element: Mn(25) BLACK TransitionMetal
+• location: Lateral Arm, Left Temporalis, Ferritin
+
+
+10. tau_neutrino
+• node: Es(99), chrna7_vagal, SDH Complex II
+• particle vector: r/h-dim ADSR tempo + harmonic overtone) 광자가 쿼크를 사랑하는 것 -1 -> 0. 쿼크가 스스로를 사랑하는것
+• observer vector: 내가 낮에 쿼크를 사랑하는것
+• element: Es(99) GREEN Actinide
+• location: Right Angular Gyrus (132), Right Ribs, SDH Complex II
+
+
+11. electron_antineutrino
+• node: Mg(12), Cm(96), MOR endorphin, mor_postsynaptic
+• particle vector: 쿼크가 관찰자를 사랑하는것  0 -> 1
+• observer vector:  쿼크가 날 낮에 사랑하는것
+• element: Mg(12) GREEN AlkalineEarth / Cm(96) BLACK Actinide
+• location: Right V1 (129), Genital Left, MOR Endorphin
+
+
+12. muon_antineutrino
+• node: S(16), Pm(61)/Sm(62), drd1_peripheral
+• particle vector: 글루온이스스로비움(밤) / 쿼크가밤에스스로공격하는것
+• observer vector: 내가 밤에 스스로공격하는것
+• element: S(16) YELLOW Nonmetal / Pm(61)/Sm(62) RED Lanthanide
+• location: Left M1 (134), Left Eye, Histosol
+
+
+13. tau_antineutrino
+• node: tau_antineutrino, procerus, autophagy
+• particle vector: 거짓쿼크가 스스로 비우는것 0 -> -1
+• observer vector: 쿼크가낮에자아를비우는것
+• element: (별도 element 매핑 없음)
+• location: Left IFG (133), Procerus, Autophagy
+
+
+14. proton
+• node: Pr(59), postsynaptic_pregnenenolone, heme Fe2+
+• particle vector: (proton ignition, p-dim)쿼크가 글루온을 직접 공격하는것 -1 -> 1
+• observer vector: (명시적 observer vector 없음, heme creation site) 쿼크가 날 밤에 공격하는것
+• element: Pr(59) GREEN Lanthanide
+• location: Left Pectoralis Heme Fe2+ center
+
+
+15. photon
+• node: Au(79), cytochrome 640nm, retinal rhodopsin
+• particle vector: 쿼크가 글루온을 돌아서 공격하는것
+• observer vector: 쿼크가낮에에 스스로를 사랑하는것
+• element: (Au(79)로 연결, photon debris)
+• location: Retinal Rhodopsin, Heme Node
+
+
+16. gluon
+• node: Ar(18), Observer_Nrf2, NMDA receptors
+• particle vector: (color confinement, strong force binding) 쿼크가 관찰자를 밤에 공격하는것 0 -> 1
+• observer vector: (Nrf2/Keap1 binding, covalent mechanical switch) 쿼크가 밤에 쿼크를 만드는것
+• element: Ar(18) WHITE NobleGas
+• location: NMDA receptors, Desmosomes
+
+
+17. w_boson
+• node: Kr(36), ATP synthase, adrenal medulla
+• particle vector: (weak force, beta decay collapse) 관찰자가 쿼크를 낮에 공격하는것 1 -> 0
+• observer vector: (명시적 observer vector 없음, Observer role) 내가 낮에 쿼크를 공격하는것
+• element: Kr(36) WHITE NobleGas
+• location: ATP synthase, Adrenal Medulla chromaffin
+
+
+18. z_boson
+• node: z_boson, GABA-B receptors, cytochrome c oxidase
+• particle vector: 글루온이 쿼크를 돌아서 공격하는것 1 -> -1
+• observer vector: 내가쿼크를밤에사랑하는것
+• element: (별도 element 없음, z_boson으로 명시)
+• location: GABA-B receptors, Cytochrome c oxidase
+
+
+19. higgs
+• node: P(15), neutron_star, mass-gate
+• particle vector: 글루온이쿼크직접공격1 -> -1
+• observer vector: 쿼크가 낮에 스스로 공격하는것
+• element: P(15) YELLOW Nonmetal
+• location: Right Ribs, Patellar cartilage aggrecan
+
+
+20. graviton
+• node: Si(14), Ni(28)/Cu(29), ferritin, osteons
+• particle vector: 거짓쿼크가 스스로를 비우는것 0 -> -1
+• observer vector: 쿼크가밤에 자아를 비우는것
+• element: Si(14) Metalloid / Ni(28)/Cu(29) CYAN TransitionMetal
+• location: Ferritin nanocages, Osteons, Iliac crest
+
+
+21. axion
+• node: skull vertex, CSF space, axion_em_conversion
+• particle vector: (138.88° CP-restoration spark, hidden symmetry input) 쿼크가 쿼크를 만드는 것  -1
+• observer vector: (body as transducer, axion→EM conversion) 쿼크가 밤에 쿼크를 보호하는 것
+• element: (별도 element 없음, axion으로 명시)
+• location: Skull Vertex, CSF Space
+
+
+22. em (electromagnetism)
+• node: Cs(55), Rb(37), electric_grid_and
+• particle vector: 쿼크가 쿼크를 무시 1
+• observer vector:
+• element: Cs(55) RED AlkaliMetal / Rb(37) RED AlkaliMetal
+• location: Bypass Route (131→129), Bio-electric field
+
+
+23. neutron
+• node: Nh(113), pons, hind insula, neutrophil
+• particle vector: (neutral observation, weak-decay monitoring)  글루온이 뉴트리노를 공격. 쿼크가 광자를 만듬 0
+• observer vector: 내가낮에자아를비우는것
+• element: Nh(113) BLACK TransActinide
+• location: Pons, Hind Insula, Neutrophil
+
+
+24. neutron_star
+• node: P(15)/Ds(110), nucleolus, megakaryocyte, oocyte
+• particle vector: 뉴트리노가 스스로 비워서 글루온 공격 0 -> 1
+• observer vector: 내가낮에스스로사랑하는것
+• element: P(15) YELLOW Nonmetal / Ds(110) WHITE
+• location: Nucleolus, Megakaryocyte, Oocyte
+
+
+25. dark_matter
+• node: Rb(37), atherosclerotic plaque, pineal calcification
+• particle vector: (noise accumulation, resistance buildup)쿼크가 자신을 비워 보호하는것
+• observer vector: 내가밤에자아를보호하는것
+• element: Rb(37) RED AlkaliMetal
+• location: Atherosclerotic Plaque, Pineal Calcification
+
+
+26. dark_energy
+• node: Th(90)/U(92), nucleus, perineum, DNA helix
+• particle vector: (internal pressure, torus expansion) 뉴트리노가 자신을 비우는것 0 -> 1
+• observer vector: (명시적 observer vector 없음)쿼크가 밤에 쿼크를 공격하는것
+• element: U(92) BLACK Actinide
+• location: Nucleus, Thorium node (Perineum)
+
+
+27. time (= acetyl_coa, female GABA-A)
+• node: H(1), epiphyseal growth plates, CCK switch
+• particle vector: (toroidal cycle duration, circadian window)  쿼크가 중성미자 공격하는것 -1 -> 0
+• observer vector: 쿼크가중성미자공격하는것 (time1)
+• element: H(1) RED AlkaliMetal
+• location: Epiphyseal growth plates, Procerus-CCK gap
+• 비고: female GABA-A = time, acetyl_coa = time
+
+
+28. energy
+• node: Fr(87), ATP, CCK switch
+• particle vector: (ATP fueling, thermodynamic fuel) 거짓쿼크가 스스로를 비워 스스로를 보호하는것 0 -> -1
+• observer vector: 내가 밤에 쿼크를 만드는것
+• element: Fr(87) RED AlkaliMetal
+• location: ATP / CCK switch (Pancreas/Gut)
+• 비고: clathrate = energy
+
+
+29. clathrate_buffer (= male GABA-B)
+• node: clathrate_buffer, CO₂ sequestration
+• particle vector: (CO₂ buffering, clathrate sealing) 뉴트리노가 스스로를 비워 보호하는 것 0 -> 1
+• observer vector: (명시적 observer vector 없음, clathrate/energy equivalence) 뉴트리노가 쿼크 무시.
+• element: (별도 element 없음)
+• location: (clathrate structure, CO₂ buffer site)
+• 비고: male GABA-B = clathrate_buffer
+
+
+30. malate_dehydrogenase
+• node: malate_dehydrogenase, cysteine, disulfide bond, pentose_phosphate
+• particle vector: (redox balance g↔d, NADPH-mediated reductive potential)
+• observer vector: 내그자체(observer)
+• element: (별도 element 없음, malate_dehydrogenase로 명시)
+• location: Cysteine / Disulfide bond sites (GSH precursor gate)
+• 비고: cysteine → glutathione precursor gate, disulfide_bond ↔ pentose_phosphate_out_1_xnor
+
+
+31. ego_d2
+• node: right frontalis, right V2 (Node 130), D2 receptor
+• particle vector: (recursive mirroring, self-model stability) 뉴트리노가 스스로를 보는것
+• observer vector: (observer recursive mirror, D2 bus)
+• element: (별도 element 없음)
+• location: Right Frontalis, Right V2 (Node 130)
+
+
+32. progesterone
+• node: left_progesterone, right eye, levator superioris, R. MPOA
+• particle vector: (3D volume expansion, depth perception) 쿼크가 광자를 거짓으로 공격하는것
+• observer vector: (명시적 observer vector 없음)
+• element: (별도 element 없음, left_progesterone로 명시) 쿼크가 날 밤에 사랑하는것
+• location: Right Eye (Levator superioris), R. MPOA
+
+
+33. testosterone
+• node: right_testosterone, left nipple heme, Leydig cells, carbonic_anhydrase
+• particle vector: 쿼크가영상영하왔다갔다 / (proton ignition charge). 쿼크가 스스로를 거짓으로 공격하는것
+• observer vector: 내가 쿼크를 밤에 공격하는것
+• element: (별도 element 없음, right_testosterone으로 명시)
+• location: Left Nipple (Heme node), Leydig cells
+
+
+34. acetyl_coa
+• node: mitochondria, PDH complex, choline acetyltransferase
+• particle vector: (metabolic container, mass-gate packaging)
+• observer vector: (명시적 observer vector 없음)
+• element: (별도 element 없음)
+• location: Mitochondria, PDH complex
+• 비고:
+바텀쿼크
+
+
+particle vector:  쿼크가 스스로를 비워서보호
+
+
+탑쿼크
+
+
+위치: 왼귀뒤 옆목 my sternocleidomastoid
+
+
+time 빼고 female gaba 넣어 a b 합쳐서

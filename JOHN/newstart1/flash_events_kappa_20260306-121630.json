@@ -1,0 +1,2632 @@
+{
+  "flash_events": [
+    {
+      "time": 2.2600282503531295,
+      "tension_before": 2.0062333039750646,
+      "state_before": 2.0062333039750646,
+      "renorm_before": 1.0,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.4043633127825452,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 2.9000362504531307,
+      "tension_before": 1.0473015150828007,
+      "state_before": -1.0473015150828007,
+      "renorm_before": 0.9767596827520513,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.7331110605579604,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 3.680046000575007,
+      "tension_before": 1.1658559653067588,
+      "state_before": 1.1658559653067588,
+      "renorm_before": 0.9886662787714683,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8160991757147311,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 6.310078875985949,
+      "tension_before": 0.837280598827984,
+      "state_before": 0.837280598827984,
+      "renorm_before": 0.9999991424893852,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5860964191795888,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 9.37011712646408,
+      "tension_before": 1.305274854772089,
+      "state_before": 1.305274854772089,
+      "renorm_before": 0.9999999055168135,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9136923983404622,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 14.21017762722034,
+      "tension_before": 2.0507066889381953,
+      "state_before": 2.0507066889381953,
+      "renorm_before": 0.9999999999897635,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.4354946822567367,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 14.780184752309404,
+      "tension_before": 1.1504097582059087,
+      "state_before": -1.1504097582059087,
+      "renorm_before": 0.9667204982779142,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.8052868307441361,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 15.090188627357842,
+      "tension_before": 0.9313474850423648,
+      "state_before": 0.9313474850423648,
+      "renorm_before": 0.8737117114747689,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6519432395296553,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 17.880223502793786,
+      "tension_before": 0.933522227912572,
+      "state_before": 0.933522227912572,
+      "renorm_before": 0.9999996225867099,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6534655595388004,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 21.610270128376605,
+      "tension_before": 1.4117727400448525,
+      "state_before": 1.4117727400448525,
+      "renorm_before": 0.9999999969602624,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9882409180313967,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 21.720271503393793,
+      "tension_before": 0.9553369886903058,
+      "state_before": -0.9553369886903058,
+      "renorm_before": 0.647717579321542,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.668735892083214,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 24.400305003812548,
+      "tension_before": 2.0290076015251084,
+      "state_before": 2.0290076015251084,
+      "renorm_before": 0.9999993364746326,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.4203053210675758,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 29.630370379629746,
+      "tension_before": 1.175733105171397,
+      "state_before": 1.175733105171397,
+      "renorm_before": 0.9999999999986152,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.823013173619978,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 33.65042063025788,
+      "tension_before": 1.000593544992165,
+      "state_before": 1.000593544992165,
+      "renorm_before": 0.9999999993132155,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7004154814945155,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 37.4604682558532,
+      "tension_before": 0.8781130051222075,
+      "state_before": 0.8781130051222075,
+      "renorm_before": 0.999999997983376,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6146791035855452,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 41.23051538144227,
+      "tension_before": 0.8636523432040342,
+      "state_before": 0.8636523432040342,
+      "renorm_before": 0.9999999975241147,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6045566402428239,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 45.120564007050085,
+      "tension_before": 0.8071909544843878,
+      "state_before": 0.8071909544843878,
+      "renorm_before": 0.9999999986621305,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5650336681390714,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 50.070625882823535,
+      "tension_before": 1.1519346797307126,
+      "state_before": 1.1519346797307126,
+      "renorm_before": 0.9999999999941775,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8063542758114988,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 55.820697758721984,
+      "tension_before": 1.111399678274931,
+      "state_before": 1.111399678274931,
+      "renorm_before": 0.9999999999999039,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7779797747924516,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 61.8207727596595,
+      "tension_before": 1.2624614429768426,
+      "state_before": 1.2624614429768426,
+      "renorm_before": 0.9999999999999732,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8837230100837897,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 61.87077338466731,
+      "tension_before": 0.8755434756911353,
+      "state_before": -0.8755434756911353,
+      "renorm_before": 0.5207641042279276,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6128804329837947,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 63.35079188489856,
+      "tension_before": 1.0803288023151318,
+      "state_before": 1.0803288023151318,
+      "renorm_before": 0.9996873741421354,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7562301616205922,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 67.99084988562358,
+      "tension_before": 0.9248739211617523,
+      "state_before": 0.9248739211617523,
+      "renorm_before": 0.9999999999714448,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6474117448132265,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 73.21091513643921,
+      "tension_before": 1.3889032979412401,
+      "state_before": 1.3889032979412401,
+      "renorm_before": 0.9999999999985424,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.972232308558868,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 73.23091538644233,
+      "tension_before": 0.9687224560752489,
+      "state_before": -0.9687224560752489,
+      "renorm_before": 0.4410428391636422,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6781057192526742,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 73.8009225115314,
+      "tension_before": 0.8646896949050776,
+      "state_before": 0.8646896949050776,
+      "renorm_before": 0.9667204982779142,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6052827864335543,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 77.10096376204703,
+      "tension_before": 0.8006172315789258,
+      "state_before": 0.8006172315789258,
+      "renorm_before": 0.9999999724119467,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5604320621052481,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 80.06100076250954,
+      "tension_before": 0.776468986108721,
+      "state_before": 0.776468986108721,
+      "renorm_before": 0.9999998421958287,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5435282902761046,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 83.80104751309392,
+      "tension_before": 1.2405464839885105,
+      "state_before": 1.2405464839885105,
+      "renorm_before": 0.9999999971122493,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8683825387919574,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 88.70110876385955,
+      "tension_before": 1.7060977239120447,
+      "state_before": 1.7060977239120447,
+      "renorm_before": 0.9999999999924754,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1942684067384313,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 89.10111376392204,
+      "tension_before": 1.0251369115584674,
+      "state_before": -1.0251369115584674,
+      "renorm_before": 0.920406880701842,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.7175958380909272,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 89.91112388904861,
+      "tension_before": 1.100633625030206,
+      "state_before": 1.100633625030206,
+      "renorm_before": 0.9902827507616877,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7704435375211441,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 95.26119076488456,
+      "tension_before": 2.284478883685815,
+      "state_before": 2.284478883685815,
+      "renorm_before": 0.9999999999992518,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.5991352185800705,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 95.79119738996738,
+      "tension_before": 1.334510631045355,
+      "state_before": -1.334510631045355,
+      "renorm_before": 0.9591415023247694,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.9341574417317484,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 96.70120876510957,
+      "tension_before": 1.4156256001714154,
+      "state_before": 1.4156256001714154,
+      "renorm_before": 0.9941819239332365,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9909379201199907,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 100.03125039062988,
+      "tension_before": 1.039055848953437,
+      "state_before": 1.039055848953437,
+      "renorm_before": 0.9999999763466929,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7273390942674058,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 101.171264640808,
+      "tension_before": 0.07180687969400641,
+      "state_before": -0.07180687969400641,
+      "renorm_before": 0.9982117743639336,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.05026481578580449,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 103.89129864123302,
+      "tension_before": 1.7185614129936713,
+      "state_before": 1.7185614129936713,
+      "renorm_before": 0.9999994595544413,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.2029929890955697,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 104.25130314128927,
+      "tension_before": 1.029878268284122,
+      "state_before": -1.029878268284122,
+      "renorm_before": 0.9022805297096762,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.7209147877988854,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 105.22131526644083,
+      "tension_before": 1.274331325594403,
+      "state_before": 1.274331325594403,
+      "renorm_before": 0.9957231794642827,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8920319279160821,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 108.74135926699084,
+      "tension_before": 1.3651132786860956,
+      "state_before": 1.3651132786860956,
+      "renorm_before": 0.9999999910743392,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9555792950802668,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 112.62140776759709,
+      "tension_before": 1.527190011229268,
+      "state_before": 1.527190011229268,
+      "renorm_before": 0.9999999985917163,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0690330078604875,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 112.63140789259866,
+      "tension_before": 1.0663908819310461,
+      "state_before": -1.0663908819310461,
+      "renorm_before": 0.4116240412248865,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.7464736173517322,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 113.72142151776897,
+      "tension_before": 1.379783411290846,
+      "state_before": 1.379783411290846,
+      "renorm_before": 0.9976889768804025,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9658483879035922,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 113.8214227677846,
+      "tension_before": 0.9313343464665931,
+      "state_before": -0.9313343464665931,
+      "renorm_before": 0.6291763992858336,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6519340425266151,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 114.84143551794398,
+      "tension_before": 1.2405979993229692,
+      "state_before": 1.2405979993229692,
+      "renorm_before": 0.9966906777963535,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8684185995260784,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 118.36147951849398,
+      "tension_before": 1.354789122550209,
+      "state_before": 1.354789122550209,
+      "renorm_before": 0.9999999910743392,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9483523857851461,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 118.67148339354242,
+      "tension_before": 0.8093163620204322,
+      "state_before": -0.8093163620204322,
+      "renorm_before": 0.8737117114747689,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.5665214534143025,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 119.47149339366742,
+      "tension_before": 0.9953773186364681,
+      "state_before": 0.9953773186364681,
+      "renorm_before": 0.9897713165912502,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6967641230455276,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 122.89153614420181,
+      "tension_before": 1.3799117022855298,
+      "state_before": 1.3799117022855298,
+      "renorm_before": 0.9999999850925171,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9659381915998708,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 123.17153964424556,
+      "tension_before": 0.8468706478206169,
+      "state_before": -0.8468706478206169,
+      "renorm_before": 0.8527035561740999,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.5928094534744318,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 125.22156526956587,
+      "tension_before": 1.7652140255579623,
+      "state_before": 1.7652140255579623,
+      "renorm_before": 0.9999832015040911,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.2356498178905735,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 129.241615520194,
+      "tension_before": 1.0768364612488526,
+      "state_before": 1.0768364612488526,
+      "renorm_before": 0.9999999993132155,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7537855228741968,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 132.15165189564868,
+      "tension_before": 0.8191232742874145,
+      "state_before": 0.8191232742874145,
+      "renorm_before": 0.9999997960609215,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5733862920011901,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 137.07171339641746,
+      "tension_before": 1.950421602959769,
+      "state_before": 1.950421602959769,
+      "renorm_before": 0.999999999993209,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.3652951220718381,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 137.13171414642684,
+      "tension_before": 1.3507436984738863,
+      "state_before": -1.3507436984738863,
+      "renorm_before": 0.5447258990165312,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.9455205889317203,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 138.59173239665495,
+      "tension_before": 1.5909532204557224,
+      "state_before": 1.5909532204557224,
+      "renorm_before": 0.9996536001574907,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1136672543190056,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 138.89173614670185,
+      "tension_before": 1.0113814179283558,
+      "state_before": -1.0113814179283558,
+      "renorm_before": 0.8670649594471251,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.707966992549849,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 140.0417505218815,
+      "tension_before": 1.193225168395019,
+      "state_before": 1.193225168395019,
+      "renorm_before": 0.9983011856457369,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8352576178765133,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 145.43181789772373,
+      "tension_before": 1.5644341123621732,
+      "state_before": 1.5644341123621732,
+      "renorm_before": 0.9999999999993906,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0951038786535212,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 153.06191327391593,
+      "tension_before": 1.9039186753361719,
+      "state_before": 1.9039186753361719,
+      "renorm_before": 0.9999999999999989,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.3327430727353202,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 153.88192352404405,
+      "tension_before": 1.0578068027533556,
+      "state_before": -1.0578068027533556,
+      "renorm_before": 0.9907686132236033,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.7404647619273489,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 154.8019350241878,
+      "tension_before": 1.0294294248157398,
+      "state_before": 1.0294294248157398,
+      "renorm_before": 0.9944728277365746,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7206005973710179,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 161.57201965024564,
+      "tension_before": 1.6041663224008693,
+      "state_before": 1.6041663224008693,
+      "renorm_before": 0.9999999999999989,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1229164256806083,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 167.70209627620346,
+      "tension_before": 0.9403060434819014,
+      "state_before": 0.9403060434819014,
+      "renorm_before": 0.9999999999999862,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.658214230437331,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 172.91216140201752,
+      "tension_before": 1.127267853079352,
+      "state_before": 1.127267853079352,
+      "renorm_before": 0.9999999999984657,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7890874971555464,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 178.27222840285503,
+      "tension_before": 1.1382115773540533,
+      "state_before": 1.1382115773540533,
+      "renorm_before": 0.9999999999992892,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7967481041478373,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 183.95229940374256,
+      "tension_before": 1.4627533785010625,
+      "state_before": 1.4627533785010625,
+      "renorm_before": 0.9999999999998622,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0239273649507437,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 190.0423755296941,
+      "tension_before": 1.6736503789221886,
+      "state_before": 1.6736503789221886,
+      "renorm_before": 0.999999999999983,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1715552652455319,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 198.09247615595194,
+      "tension_before": 2.879040371516199,
+      "state_before": 2.879040371516199,
+      "renorm_before": 0.9999999999999989,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -2.0153282600613394,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 200.01250015625195,
+      "tension_before": 0.9634563755812778,
+      "state_before": -0.9634563755812778,
+      "renorm_before": 0.9999672762151086,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6744194629068945,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 201.0925136564207,
+      "tension_before": 1.219641881341995,
+      "state_before": 1.219641881341995,
+      "renorm_before": 0.9975673440846342,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8537493169393964,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 204.102551281891,
+      "tension_before": 0.8535803545918731,
+      "state_before": 0.8535803545918731,
+      "renorm_before": 0.9999998778941405,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5975062482143111,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 206.82258528231603,
+      "tension_before": 0.9893689045624559,
+      "state_before": 0.9893689045624559,
+      "renorm_before": 0.9999994595544413,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.692558233193719,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 210.97263715796447,
+      "tension_before": 1.8585143962247683,
+      "state_before": 1.8585143962247683,
+      "renorm_before": 0.9999999996474447,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.3009600773573378,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 211.67264590807386,
+      "tension_before": 0.9182443953024941,
+      "state_before": -0.9182443953024941,
+      "renorm_before": 0.9829162312554806,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6427710767117458,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 215.87269840873012,
+      "tension_before": 3.2283850384623634,
+      "state_before": 3.2283850384623634,
+      "renorm_before": 0.9999999997271994,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -2.259869526923654,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 217.4227177839723,
+      "tension_before": 1.2798582319550686,
+      "state_before": -1.2798582319550686,
+      "renorm_before": 0.9997816817037299,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.895900762368548,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 219.59274490931136,
+      "tension_before": 2.23535498146798,
+      "state_before": 2.23535498146798,
+      "renorm_before": 0.9999909227632782,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.5647484870275858,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 223.89279865998324,
+      "tension_before": 1.2140601719121542,
+      "state_before": 1.2140601719121542,
+      "renorm_before": 0.9999999998366643,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8498421203385079,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 230.27287841098013,
+      "tension_before": 3.175789662335366,
+      "state_before": 3.175789662335366,
+      "renorm_before": 0.9999999999999962,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -2.223052763634756,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 230.99288741109265,
+      "tension_before": 1.8276868113271836,
+      "state_before": -1.8276868113271836,
+      "renorm_before": 0.9845818987080712,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 1.2793807679290283,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 231.51289391117388,
+      "tension_before": 1.5273942837181282,
+      "state_before": 1.5273942837181282,
+      "renorm_before": 0.9569910550787046,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0691759986026896,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 231.52289403617544,
+      "tension_before": 1.066674937799037,
+      "state_before": -1.066674937799037,
+      "renorm_before": 0.4116240412248865,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.7466724564593259,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 232.6329079113489,
+      "tension_before": 1.352164844353466,
+      "state_before": 1.352164844353466,
+      "renorm_before": 0.9979143016345632,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9465153910474261,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 240.3730046625583,
+      "tension_before": 3.523381470463365,
+      "state_before": 3.523381470463365,
+      "renorm_before": 0.9999999999999989,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -2.4663670293243554,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 241.04301303766297,
+      "tension_before": 2.1417644036678247,
+      "state_before": -2.1417644036678247,
+      "renorm_before": 0.9800743329995399,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 1.4992350825674772,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 241.50301878773485,
+      "tension_before": 1.6855399467702419,
+      "state_before": 1.6855399467702419,
+      "renorm_before": 0.9414917434543759,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1798779627391693,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 246.1330766634583,
+      "tension_before": 1.2459169528171419,
+      "state_before": 1.2459169528171419,
+      "renorm_before": 0.9999999999699419,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8721418669719992,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 251.24314053925673,
+      "tension_before": 1.5673368647816568,
+      "state_before": 1.5673368647816568,
+      "renorm_before": 0.9999999999974375,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0971358053471596,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 258.66323329041614,
+      "tension_before": 2.068574414962067,
+      "state_before": 2.068574414962067,
+      "renorm_before": 0.9999999999999989,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.4480020904734467,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 258.70323379042236,
+      "tension_before": 1.4405214713194259,
+      "state_before": -1.4405214713194259,
+      "renorm_before": 0.495541162345187,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 1.008365029923598,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 258.8332354154427,
+      "tension_before": 1.0352455970519108,
+      "state_before": 1.0352455970519108,
+      "renorm_before": 0.6820651153376917,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7246719179363375,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 262.9932874160927,
+      "tension_before": 0.8445371281938957,
+      "state_before": 0.8445371281938957,
+      "renorm_before": 0.9999999996650725,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5911759897357269,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 268.47335591694895,
+      "tension_before": 1.3545794172890842,
+      "state_before": 1.3545794172890842,
+      "renorm_before": 0.999999999999616,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9482055921023589,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 268.8333604170052,
+      "tension_before": 0.8556940357247295,
+      "state_before": -0.8556940357247295,
+      "renorm_before": 0.9022805297096762,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.5989858250073106,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 269.51336891711145,
+      "tension_before": 0.7884909929512676,
+      "state_before": 0.7884909929512676,
+      "renorm_before": 0.9810706163495629,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5519436950658873,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 274.873435917949,
+      "tension_before": 1.2415484635768677,
+      "state_before": 1.2415484635768677,
+      "renorm_before": 0.9999999999992892,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8690839245038073,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 279.92349904373805,
+      "tension_before": 0.8229024289668695,
+      "state_before": 0.8229024289668695,
+      "renorm_before": 0.999999999996514,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5760317002768086,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 286.9035862948287,
+      "tension_before": 1.874498780973988,
+      "state_before": 1.874498780973988,
+      "renorm_before": 0.9999999999999989,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.3121491466817914,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 287.13358916986465,
+      "tension_before": 1.2549264962644382,
+      "state_before": -1.2549264962644382,
+      "renorm_before": 0.8096406402801825,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.8784485473851067,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 287.6935961699521,
+      "tension_before": 1.0406039201486939,
+      "state_before": 1.0406039201486939,
+      "renorm_before": 0.9649689455556991,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7284227441040857,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 292.38365479568495,
+      "tension_before": 1.0849153192937329,
+      "state_before": 1.0849153192937329,
+      "renorm_before": 0.9999999999779046,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.759440723505613,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 296.3837047963099,
+      "tension_before": 0.9245618799316988,
+      "state_before": 0.9245618799316988,
+      "renorm_before": 0.9999999992390199,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6471933159521891,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 300.5137564219553,
+      "tension_before": 1.2075401810731445,
+      "state_before": 1.2075401810731445,
+      "renorm_before": 0.9999999996093569,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8452781267512012,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 305.6238202977537,
+      "tension_before": 1.694462388442343,
+      "state_before": 1.694462388442343,
+      "renorm_before": 0.9999999999974375,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1861236719096402,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 305.8738234227928,
+      "tension_before": 1.0978754911466568,
+      "state_before": -1.0978754911466568,
+      "renorm_before": 0.8282006778528647,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.7685128438026597,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 307.32384154801935,
+      "tension_before": 1.4670901033568207,
+      "state_before": 1.4670901033568207,
+      "renorm_before": 0.9996353685868323,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0269630723497745,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 312.0839010487631,
+      "tension_before": 1.609094608442447,
+      "state_before": 1.609094608442447,
+      "renorm_before": 0.99999999998457,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1263662259097127,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 312.6939086738584,
+      "tension_before": 0.8270813219036891,
+      "state_before": -0.8270813219036891,
+      "renorm_before": 0.9728936378504753,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.5789569253325824,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 313.6139201740022,
+      "tension_before": 1.0506662594439253,
+      "state_before": 1.0506662594439253,
+      "renorm_before": 0.9944728277365746,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7354663816107477,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 316.39395492443657,
+      "tension_before": 0.881313724301763,
+      "state_before": 0.881313724301763,
+      "renorm_before": 0.9999996027228526,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.616919607011234,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 321.98402480031,
+      "tension_before": 2.8118531432732317,
+      "state_before": 2.8118531432732317,
+      "renorm_before": 0.9999999999997816,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.968297200291262,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 322.61403267540845,
+      "tension_before": 1.621971407412241,
+      "state_before": -1.621971407412241,
+      "renorm_before": 0.975536508160054,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 1.1353799851885686,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 323.90404880061,
+      "tension_before": 1.8814925359695207,
+      "state_before": 1.8814925359695207,
+      "renorm_before": 0.9991715307452635,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.3170447751786645,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 328.6641083013538,
+      "tension_before": 1.7369972275034717,
+      "state_before": 1.7369972275034717,
+      "renorm_before": 0.99999999998457,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.2158980592524302,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 329.07411342641785,
+      "tension_before": 1.009594418396139,
+      "state_before": -1.009594418396139,
+      "renorm_before": 0.9243865366667499,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.7067160928772972,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 331.31414142676783,
+      "tension_before": 2.0974283167329526,
+      "state_before": 2.0974283167329526,
+      "renorm_before": 0.9999936610270517,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.4681998217130667,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 332.31415392692406,
+      "tension_before": 0.8693492937876232,
+      "state_before": -0.8693492937876232,
+      "renorm_before": 0.9963331609931895,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6085445056513362,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 334.14417680221004,
+      "tension_before": 1.719144282597942,
+      "state_before": 1.719144282597942,
+      "renorm_before": 0.9999480780396037,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.2034009978185594,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 338.20422755284443,
+      "tension_before": 1.3696563903452563,
+      "state_before": 1.3696563903452563,
+      "renorm_before": 0.9999999994406097,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9587594732416793,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 341.414267678346,
+      "tension_before": 1.0348775795025298,
+      "state_before": 1.0348775795025298,
+      "renorm_before": 0.9999999562267684,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7244143056517708,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 347.1943399292491,
+      "tension_before": 2.6854852869910655,
+      "state_before": 2.6854852869910655,
+      "renorm_before": 0.9999999999999175,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.8798397008937457,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 347.35434192927414,
+      "tension_before": 1.8228627267307038,
+      "state_before": -1.8228627267307038,
+      "renorm_before": 0.7274105782626533,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 1.2760039087114925,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 349.5443693046163,
+      "tension_before": 2.452129715011823,
+      "state_before": 2.452129715011823,
+      "renorm_before": 0.9999918077938585,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.716490800508276,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 350.0743759296991,
+      "tension_before": 1.4684290137760176,
+      "state_before": -1.4684290137760176,
+      "renorm_before": 0.9591415023247694,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 1.0279003096432122,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 350.8243853048163,
+      "tension_before": 1.378331614722981,
+      "state_before": 1.378331614722981,
+      "renorm_before": 0.9867809054048325,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9648321303060866,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 354.5544319303991,
+      "tension_before": 1.0031917868082296,
+      "state_before": 1.0031917868082296,
+      "renorm_before": 0.9999999969602624,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7022342507657607,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 358.1944774309679,
+      "tension_before": 1.103137086101042,
+      "state_before": 1.103137086101042,
+      "renorm_before": 0.9999999951769292,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7721959602707295,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 361.7145214315179,
+      "tension_before": 0.8702905035112736,
+      "state_before": 0.8702905035112736,
+      "renorm_before": 0.9999999910743392,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6092033524578915,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 365.2845660570757,
+      "tension_before": 0.9235536206808813,
+      "state_before": 0.9235536206808813,
+      "renorm_before": 0.9999999930934939,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6464875344766169,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 370.29462868285856,
+      "tension_before": 1.37627361874709,
+      "state_before": 1.37627361874709,
+      "renorm_before": 0.99999999999572,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.963391533122963,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 377.5647195589945,
+      "tension_before": 1.6805809038870472,
+      "state_before": 1.6805809038870472,
+      "renorm_before": 0.9999999999999989,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.176406632720933,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 383.63479543494293,
+      "tension_before": 0.8953506438700664,
+      "state_before": 0.8953506438700664,
+      "renorm_before": 0.9999999999999812,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6267454507090464,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 389.484868560857,
+      "tension_before": 1.3368082261771161,
+      "state_before": 1.3368082261771161,
+      "renorm_before": 0.9999999999999424,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9357657583239812,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 389.90487381092265,
+      "tension_before": 0.8244697381714488,
+      "state_before": -0.8244697381714488,
+      "renorm_before": 0.9281672098334124,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.577128816720014,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 390.8648858110726,
+      "tension_before": 0.8604972131991542,
+      "state_before": 0.8604972131991542,
+      "renorm_before": 0.9954980836466134,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6023480492394079,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 395.9649495618695,
+      "tension_before": 1.182026613063111,
+      "state_before": 1.182026613063111,
+      "renorm_before": 0.9999999999973026,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8274186291441776,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 402.22502781284766,
+      "tension_before": 1.5598397295749644,
+      "state_before": 1.5598397295749644,
+      "renorm_before": 0.999999999999993,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.091887810702475,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 406.78508481356016,
+      "tension_before": 0.8527749743917029,
+      "state_before": 0.8527749743917029,
+      "renorm_before": 0.9999999999569579,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.596942482074192,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 410.8051350641883,
+      "tension_before": 1.2200483166700455,
+      "state_before": 1.2200483166700455,
+      "renorm_before": 0.9999999993132155,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8540338216690319,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 415.2151901898774,
+      "tension_before": 1.3299232726845456,
+      "state_before": 1.3299232726845456,
+      "renorm_before": 0.9999999999070946,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9309462908791818,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 419.6252453155664,
+      "tension_before": 1.4165946262525895,
+      "state_before": 1.4165946262525895,
+      "renorm_before": 0.9999999999070946,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9916162383768126,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 427.75534694183676,
+      "tension_before": 3.723184861971359,
+      "state_before": 3.723184861971359,
+      "renorm_before": 0.9999999999999989,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -2.606229403379951,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 427.9953499418743,
+      "tension_before": 2.5046828990017027,
+      "state_before": -2.5046828990017027,
+      "renorm_before": 0.8191586082661734,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 1.7532780293011918,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 430.0153751921899,
+      "tension_before": 2.9056838014877564,
+      "state_before": 2.9056838014877564,
+      "renorm_before": 0.9999804070611938,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -2.0339786610414294,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 430.1853773172165,
+      "tension_before": 1.9680062837769465,
+      "state_before": -1.9680062837769465,
+      "renorm_before": 0.7410400493495206,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 1.3776043986438624,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 431.56539456743207,
+      "tension_before": 2.163973241502847,
+      "state_before": 2.163973241502847,
+      "renorm_before": 0.9994778577412273,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.5147812690519928,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 431.95539944249305,
+      "tension_before": 1.3248689557232531,
+      "state_before": -1.3248689557232531,
+      "renorm_before": 0.9162177691598337,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.9274082690062772,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 431.9653995674946,
+      "tension_before": 0.9298006049930302,
+      "state_before": 0.9298006049930302,
+      "renorm_before": 0.4116240412248865,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6508604234951211,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 434.6854335679196,
+      "tension_before": 1.0580525619642347,
+      "state_before": 1.0580525619642347,
+      "renorm_before": 0.9999994595544413,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7406367933749642,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 437.52546906836335,
+      "tension_before": 1.0559260033245776,
+      "state_before": 1.0559260033245776,
+      "renorm_before": 0.9999997079647905,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7391482023272044,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 441.1955149439368,
+      "tension_before": 1.602161186340212,
+      "state_before": 1.602161186340212,
+      "renorm_before": 0.9999999958648196,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1215128304381483,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 444.3255540694259,
+      "tension_before": 0.8945616135087984,
+      "state_before": 0.8945616135087984,
+      "renorm_before": 0.999999934018867,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6261931294561588,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 446.8555856948212,
+      "tension_before": 0.9535477937284863,
+      "state_before": 0.9535477937284863,
+      "renorm_before": 0.9999985678007176,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6674834556099404,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 449.3256165702071,
+      "tension_before": 0.8465451924951143,
+      "state_before": 0.8465451924951143,
+      "renorm_before": 0.99999805167313,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.59258163474658,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 451.7956474455931,
+      "tension_before": 0.9060728192906818,
+      "state_before": 0.9060728192906818,
+      "renorm_before": 0.99999805167313,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6342509735034773,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 454.5556819460243,
+      "tension_before": 1.0129083464703694,
+      "state_before": 1.0129083464703694,
+      "renorm_before": 0.9999995598037147,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7090358425292586,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 459.00573757171964,
+      "tension_before": 1.8378412448477717,
+      "state_before": 1.8378412448477717,
+      "renorm_before": 0.999999999924328,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.2864888713934401,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 459.64574557181965,
+      "tension_before": 0.9782398135866721,
+      "state_before": -0.9782398135866721,
+      "renorm_before": 0.9767596827520513,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6847678695106705,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 462.1657770722134,
+      "tension_before": 2.0123422682618544,
+      "state_before": 2.0123422682618544,
+      "renorm_before": 0.999998492421808,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.408639587783298,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 462.30577882223525,
+      "tension_before": 1.3640205327583395,
+      "state_before": -1.3640205327583395,
+      "renorm_before": 0.697961859570807,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.9548143729308376,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 463.73579669745874,
+      "tension_before": 1.6529512999034481,
+      "state_before": 1.6529512999034481,
+      "renorm_before": 0.9995959762734984,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1570659099324136,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 464.185802322529,
+      "tension_before": 0.9702839233450632,
+      "state_before": -0.9702839233450632,
+      "renorm_before": 0.938412361530922,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6791987463415442,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 467.1558394479931,
+      "tension_before": 2.111709384662117,
+      "state_before": 2.111709384662117,
+      "renorm_before": 0.9999998500860373,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.478196569263482,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 473.5859198239978,
+      "tension_before": 1.5446743556056806,
+      "state_before": 1.5446743556056806,
+      "renorm_before": 0.9999999999999971,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0812720489239762,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 480.1260015750197,
+      "tension_before": 1.6016386314768276,
+      "state_before": 1.6016386314768276,
+      "renorm_before": 0.9999999999999983,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1211470420337792,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 480.6660083251041,
+      "tension_before": 0.945747190901301,
+      "state_before": -0.945747190901301,
+      "renorm_before": 0.9611844272085309,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6620230336309106,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 482.15602695033687,
+      "tension_before": 1.1846909834449608,
+      "state_before": 1.1846909834449608,
+      "renorm_before": 0.9997030054350287,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8292836884114725,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 482.2560282003525,
+      "tension_before": 0.8090529679994346,
+      "state_before": -0.8090529679994346,
+      "renorm_before": 0.6291763992858336,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.5663370775996042,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 483.4360429505369,
+      "tension_before": 0.9586057904615919,
+      "state_before": 0.9586057904615919,
+      "renorm_before": 0.9985434790430137,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6710240533231143,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 487.7560969512119,
+      "tension_before": 0.8461383143306993,
+      "state_before": 0.8461383143306993,
+      "renorm_before": 0.9999999998525896,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5922968200314894,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 492.1261515768947,
+      "tension_before": 0.8999160985130883,
+      "state_before": 0.8999160985130883,
+      "renorm_before": 0.9999999998859366,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6299412689591618,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 497.26621582769786,
+      "tension_before": 1.0669792579348603,
+      "state_before": 1.0669792579348603,
+      "renorm_before": 0.999999999997803,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7468854805544022,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 502.4562807035088,
+      "tension_before": 1.0301583977424358,
+      "state_before": 1.0301583977424358,
+      "renorm_before": 0.9999999999982999,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.721110878419705,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 506.7463343291791,
+      "tension_before": 0.7953259405490739,
+      "state_before": 0.7953259405490739,
+      "renorm_before": 0.9999999998280678,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5567281583843517,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 511.046388079851,
+      "tension_before": 1.083163162086065,
+      "state_before": 1.083163162086065,
+      "renorm_before": 0.9999999998366643,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7582142134602454,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 515.8664483306042,
+      "tension_before": 1.2166898813198,
+      "state_before": 1.2166898813198,
+      "renorm_before": 0.9999999999886576,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8516829169238599,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 520.166502081276,
+      "tension_before": 1.0985536598676569,
+      "state_before": 1.0985536598676569,
+      "renorm_before": 0.9999999998366643,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7689875619073597,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 523.5465443318042,
+      "tension_before": 0.8464434864847818,
+      "state_before": 0.8464434864847818,
+      "renorm_before": 0.9999999816975218,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5925104405393472,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 526.3865798322479,
+      "tension_before": 0.8402630872741801,
+      "state_before": 0.8402630872741801,
+      "renorm_before": 0.9999997079647905,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5881841610919261,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 529.1766147076838,
+      "tension_before": 0.8954166761119547,
+      "state_before": 0.8954166761119547,
+      "renorm_before": 0.9999996225867099,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6267916732783683,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 531.7466468330854,
+      "tension_before": 0.7774604519966524,
+      "state_before": 0.7774604519966524,
+      "renorm_before": 0.9999988334647333,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5442223163976566,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 534.7566844585557,
+      "tension_before": 1.1684699972448327,
+      "state_before": 1.1684699972448327,
+      "renorm_before": 0.9999998778941405,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8179289980713829,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 538.1767272090901,
+      "tension_before": 1.237398490092023,
+      "state_before": 1.237398490092023,
+      "renorm_before": 0.9999999850925171,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.866178943064416,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 541.8767734596682,
+      "tension_before": 1.4118140008967137,
+      "state_before": 1.4118140008967137,
+      "renorm_before": 0.9999999964545998,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9882698006276995,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 547.3668420855261,
+      "tension_before": 2.518265148008701,
+      "state_before": 2.518265148008701,
+      "renorm_before": 0.9999999999996352,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.7627856036060905,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 547.7468468355854,
+      "tension_before": 1.5733880647740484,
+      "state_before": -1.5733880647740484,
+      "renorm_before": 0.9118081780629828,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 1.1013716453418338,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 549.9168739609245,
+      "tension_before": 2.4258749910864443,
+      "state_before": 2.4258749910864443,
+      "renorm_before": 0.9999909227632782,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.698112493760511,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 554.0569257115714,
+      "tension_before": 0.9833558733007273,
+      "state_before": 0.9833558733007273,
+      "renorm_before": 0.9999999996288891,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.688349111310509,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 558.7569844623058,
+      "tension_before": 2.2882355585090077,
+      "state_before": 2.2882355585090077,
+      "renorm_before": 0.9999999999790093,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.6017648909563054,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 562.9570369629621,
+      "tension_before": 0.9943769116728124,
+      "state_before": 0.9943769116728124,
+      "renorm_before": 0.9999999997271994,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6960638381709686,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 565.7070713383918,
+      "tension_before": 0.9283511979914193,
+      "state_before": 0.9283511979914193,
+      "renorm_before": 0.9999995366354891,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6498458385939935,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 569.037112963912,
+      "tension_before": 1.2408316673665238,
+      "state_before": 1.2408316673665238,
+      "renorm_before": 0.9999999763466929,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8685821671565667,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 572.8371604645058,
+      "tension_before": 1.1913086970312323,
+      "state_before": 1.1913086970312323,
+      "renorm_before": 0.9999999978772379,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8339160879218626,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 576.3672045900573,
+      "tension_before": 0.9856871299028835,
+      "state_before": 0.9856871299028835,
+      "renorm_before": 0.9999999915206222,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6899809909320185,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 580.3972549656871,
+      "tension_before": 1.224994139705964,
+      "state_before": 1.224994139705964,
+      "renorm_before": 0.9999999993475547,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8574958977941748,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 584.3273040913011,
+      "tension_before": 0.9028025620334814,
+      "state_before": 0.9028025620334814,
+      "renorm_before": 0.999999998910297,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.631961793423437,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 587.7273465918324,
+      "tension_before": 0.768995573926369,
+      "state_before": 0.768995573926369,
+      "renorm_before": 0.9999999834820134,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5382969017484582,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 591.827397842473,
+      "tension_before": 1.0355911773784408,
+      "state_before": 1.0355911773784408,
+      "renorm_before": 0.9999999995443731,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7249138241649085,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 596.6174577182214,
+      "tension_before": 1.015441290315517,
+      "state_before": 1.015441290315517,
+      "renorm_before": 0.9999999999867708,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7108089032208619,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 603.8475480943512,
+      "tension_before": 1.7380784003281224,
+      "state_before": 1.7380784003281224,
+      "renorm_before": 0.9999999999999989,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.2166548802296857,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 610.2476280953512,
+      "tension_before": 0.943795241145929,
+      "state_before": 0.943795241145929,
+      "renorm_before": 0.9999999999999967,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6606566688021503,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 614.5476818460231,
+      "tension_before": 0.8416776889598266,
+      "state_before": 0.8416776889598266,
+      "renorm_before": 0.9999999998366643,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5891743822718786,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 618.2577282216027,
+      "tension_before": 0.7454437188496468,
+      "state_before": 0.7454437188496468,
+      "renorm_before": 0.9999999966318698,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5218106031947527,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 622.5677820972762,
+      "tension_before": 1.1626790986545892,
+      "state_before": 1.1626790986545892,
+      "renorm_before": 0.9999999998448311,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8138753690582123,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 627.6578457230715,
+      "tension_before": 1.3426874559163424,
+      "state_before": 1.3426874559163424,
+      "renorm_before": 0.9999999999971606,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9398812191414396,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 627.8178477230965,
+      "tension_before": 0.896679612230046,
+      "state_before": -0.896679612230046,
+      "renorm_before": 0.7274105782626533,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6276757285610322,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 629.8078725984075,
+      "tension_before": 1.491262621081055,
+      "state_before": 1.491262621081055,
+      "renorm_before": 0.999977147760541,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0438838347567383,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 630.2478780984762,
+      "tension_before": 0.8793094617653469,
+      "state_before": -0.8793094617653469,
+      "renorm_before": 0.9351709068746548,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6155166232357427,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 632.7279090988637,
+      "tension_before": 1.7634768772494953,
+      "state_before": 1.7634768772494953,
+      "renorm_before": 0.9999981490894736,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.2344338140746467,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 636.8679608495106,
+      "tension_before": 0.876467228597691,
+      "state_before": 0.876467228597691,
+      "renorm_before": 0.9999999996288891,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6135270600183836,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 640.6580082251028,
+      "tension_before": 1.444238923617567,
+      "state_before": 1.444238923617567,
+      "renorm_before": 0.9999999977655136,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0109672465322967,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 644.1780522256528,
+      "tension_before": 1.0001643550673622,
+      "state_before": 1.0001643550673622,
+      "renorm_before": 0.9999999910743392,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7001150485471536,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 647.3080913511419,
+      "tension_before": 1.1402668203467368,
+      "state_before": 1.1402668203467368,
+      "renorm_before": 0.999999934018867,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7981867742427157,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 651.2681408517607,
+      "tension_before": 1.647677995528864,
+      "state_before": 1.647677995528864,
+      "renorm_before": 0.999999999065716,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1533745968702047,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 655.4381929774122,
+      "tension_before": 1.4811092356582571,
+      "state_before": 1.4811092356582571,
+      "renorm_before": 0.9999999996818189,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.03677646496078,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 659.8282478530982,
+      "tension_before": 1.7993046749896,
+      "state_before": 1.7993046749896,
+      "renorm_before": 0.9999999998970578,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.2595132724927198,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 664.0683008537607,
+      "tension_before": 1.4691072647485754,
+      "state_before": 1.4691072647485754,
+      "renorm_before": 0.9999999997778023,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0283750853240028,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 667.0983387292341,
+      "tension_before": 0.8896805469944022,
+      "state_before": 0.8896805469944022,
+      "renorm_before": 0.9999998897994617,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6227763828960815,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 672.198402480031,
+      "tension_before": 2.5323401691055754,
+      "state_before": 2.5323401691055754,
+      "renorm_before": 0.9999999999973026,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.7726381183739026,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 673.158414480181,
+      "tension_before": 1.2376367804152828,
+      "state_before": -1.2376367804152828,
+      "renorm_before": 0.9954980836466134,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.8663457462906979,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 673.6484206052576,
+      "tension_before": 1.0939859082055092,
+      "state_before": 1.0939859082055092,
+      "renorm_before": 0.9498364835441956,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7657901357438565,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 676.5084563557044,
+      "tension_before": 0.9039367969162547,
+      "state_before": 0.9039367969162547,
+      "renorm_before": 0.9999997364382235,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6327557578413783,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 679.9384992312404,
+      "tension_before": 1.3057477173614838,
+      "state_before": 1.3057477173614838,
+      "renorm_before": 0.9999999858378912,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9140234021530386,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 684.7285591069889,
+      "tension_before": 1.6289768821021393,
+      "state_before": 1.6289768821021393,
+      "renorm_before": 0.9999999999867708,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1402838174714975,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 685.0185627320342,
+      "tension_before": 1.0340833113100252,
+      "state_before": -1.0340833113100252,
+      "renorm_before": 0.8600683783653948,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.7238583179170176,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 685.2885661070763,
+      "tension_before": 0.8155047177697173,
+      "state_before": 0.8155047177697173,
+      "renorm_before": 0.8449511117622104,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5708533024388021,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 688.5286066075826,
+      "tension_before": 1.0236178697891725,
+      "state_before": 1.0236178697891725,
+      "renorm_before": 0.9999999624699255,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7165325088524207,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 692.2786534831686,
+      "tension_before": 0.9998716261568986,
+      "state_before": 0.9998716261568986,
+      "renorm_before": 0.9999999972566368,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.699910138309829,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 696.3987049838123,
+      "tension_before": 1.0683580290472061,
+      "state_before": 1.0683580290472061,
+      "renorm_before": 0.9999999995887967,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7478506203330443,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 701.5287691096139,
+      "tension_before": 1.2656167529179039,
+      "state_before": 1.2656167529179039,
+      "renorm_before": 0.9999999999976873,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8859317270425326,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 709.6188702358779,
+      "tension_before": 1.9935061388367514,
+      "state_before": 1.9935061388367514,
+      "renorm_before": 0.9999999999999989,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.395454297185726,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 710.1388767359592,
+      "tension_before": 1.2490216448835392,
+      "state_before": -1.2490216448835392,
+      "renorm_before": 0.9569910550787046,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.8743151514184774,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 712.3689046113077,
+      "tension_before": 1.5701823222970042,
+      "state_before": 1.5701823222970042,
+      "renorm_before": 0.9999933273968965,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0991276256079028,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 712.7789097363717,
+      "tension_before": 0.9910384584532388,
+      "state_before": -0.9910384584532388,
+      "renorm_before": 0.9243865366667499,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.6937269209172671,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 713.6589207365092,
+      "tension_before": 0.9485338280153939,
+      "state_before": 0.9485338280153939,
+      "renorm_before": 0.9932140824414479,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6639736796107757,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 716.6389579869748,
+      "tension_before": 0.33197992455485736,
+      "state_before": 0.33197992455485736,
+      "renorm_before": 0.9999998575817355,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.23238594718840014,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 720.1990024875311,
+      "tension_before": 0.9348884171445889,
+      "state_before": 0.9348884171445889,
+      "renorm_before": 0.9999999927299935,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6544218920012123,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 724.8390604882561,
+      "tension_before": 0.9630684670441534,
+      "state_before": 0.9630684670441534,
+      "renorm_before": 0.9999999999714448,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6741479269309073,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 729.139114238928,
+      "tension_before": 0.9038255681617008,
+      "state_before": 0.9038255681617008,
+      "renorm_before": 0.9999999998366643,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6326778977131905,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 733.9491743646796,
+      "tension_before": 1.2812470186129103,
+      "state_before": 1.2812470186129103,
+      "renorm_before": 0.9999999999880607,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8968729130290372,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 734.3691796147452,
+      "tension_before": 0.7582228835574,
+      "state_before": -0.7582228835574,
+      "renorm_before": 0.9281672098334124,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.53075601849018,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 736.9392117401468,
+      "tension_before": 1.5910296779098572,
+      "state_before": 1.5910296779098572,
+      "renorm_before": 0.9999988334647333,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.1137207745369,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 741.0992637407968,
+      "tension_before": 0.7938584949912278,
+      "state_before": 0.7938584949912278,
+      "renorm_before": 0.9999999996650725,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.5557009464938595,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 746.419330241628,
+      "tension_before": 2.1045921803046252,
+      "state_before": 2.1045921803046252,
+      "renorm_before": 0.9999999999991274,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.4732145262132377,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 746.6893336166702,
+      "tension_before": 1.3738939594416912,
+      "state_before": -1.3738939594416912,
+      "renorm_before": 0.8449511117622104,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.9617257716091838,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 746.739334241678,
+      "tension_before": 0.9731087623564355,
+      "state_before": 0.9731087623564355,
+      "renorm_before": 0.5207641042279276,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6811761336495048,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 751.7893973674671,
+      "tension_before": 2.070738676086596,
+      "state_before": 2.070738676086596,
+      "renorm_before": 0.999999999996514,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.449517073260617,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 757.2994662433281,
+      "tension_before": 1.818670872593707,
+      "state_before": 1.818670872593707,
+      "renorm_before": 0.9999999999996707,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.2730696108155948,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 761.5695196189953,
+      "tension_before": 1.3759676466511537,
+      "state_before": 1.3759676466511537,
+      "renorm_before": 0.9999999998094933,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.9631773526558075,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 766.6195827447843,
+      "tension_before": 2.246067439740387,
+      "state_before": 2.246067439740387,
+      "renorm_before": 0.999999999996514,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.5722472078182708,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 767.5195939949249,
+      "tension_before": 1.0464096314611206,
+      "state_before": -1.0464096314611206,
+      "renorm_before": 0.9938757094034067,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": 0.7324867420227844,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 769.7996224952811,
+      "tension_before": 2.13826761899067,
+      "state_before": 2.13826761899067,
+      "renorm_before": 0.999994836866915,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.4967873332934691,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 773.6296703708796,
+      "tension_before": 0.9954357520156403,
+      "state_before": 0.9954357520156403,
+      "renorm_before": 0.9999999981799969,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6968050264109481,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 777.7797222465281,
+      "tension_before": 1.9156046795025377,
+      "state_before": 1.9156046795025377,
+      "renorm_before": 0.9999999996474447,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.3409232756517764,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 781.9697746221827,
+      "tension_before": 1.2834541728153832,
+      "state_before": 1.2834541728153832,
+      "renorm_before": 0.9999999997128415,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.8984179209707682,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 785.0498131226641,
+      "tension_before": 0.9314038174958454,
+      "state_before": 0.9314038174958454,
+      "renorm_before": 0.9999999147289241,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.6519826722470917,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 788.0398504981313,
+      "tension_before": 1.0546412417605586,
+      "state_before": 1.0546412417605586,
+      "renorm_before": 0.9999998647026487,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.738248869232391,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 791.3098913736421,
+      "tension_before": 1.0771606492625447,
+      "state_before": 1.0771606492625447,
+      "renorm_before": 0.9999999678226524,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.7540124544837813,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 794.3199289991124,
+      "tension_before": 0.8200987771271943,
+      "state_before": 0.8200987771271943,
+      "renorm_before": 0.9999998778941405,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -0.574069143989036,
+      "renorm_after": 0.3806568854998805
+    },
+    {
+      "time": 798.5399817497719,
+      "tension_before": 1.510043354637312,
+      "state_before": 1.510043354637312,
+      "renorm_before": 0.9999999997537975,
+      "kappa_at_flash": 0.03125,
+      "in_band": true,
+      "state_after": -1.0570303482461183,
+      "renorm_after": 0.3806568854998805
+    }
+  ],
+  "parameters": {
+    "r": 0.1117,
+    "q0": 0.975,
+    "kappa_eff": 0.03125,
+    "in_band": true,
+    "spark_threshold": 1.0100375,
+    "recovery_rate": 0.05
+  }
+}

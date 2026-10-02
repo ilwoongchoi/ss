@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>128 Personality Face Grid — Sovereign Engine</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#07070f;color:#ddd;font-family:'Courier New',monospace;display:flex;height:100vh;overflow:hidden}
+#left{flex:1;position:relative;display:flex;align-items:center;justify-content:center}
+#right{width:310px;background:#0c0c1a;border-left:1px solid #1a1a3a;display:flex;flex-direction:column;overflow:hidden}
+#controls{padding:10px;border-bottom:1px solid #1a1a3a;flex-shrink:0}
+#controls h3{color:#0ff;font-size:11px;letter-spacing:2px;margin-bottom:8px}
+.filter-group{margin-bottom:8px}
+.filter-group label{font-size:9px;color:#888;display:block;margin-bottom:4px;letter-spacing:1px}
+.filter-group .btns{display:flex;gap:3px;flex-wrap:wrap}
+button.fb{padding:3px 8px;font-size:9px;font-family:'Courier New',monospace;border:1px solid #333;background:#111;color:#999;cursor:pointer;transition:all .15s;border-radius:2px}
+button.fb:hover{border-color:#0ff;color:#0ff}
+button.fb.active{background:#0ff;color:#000;border-color:#0ff}
+button.fb.blood-O.active{background:#ff4444;border-color:#ff4444;color:#000}
+button.fb.blood-A.active{background:#44ff88;border-color:#44ff88;color:#000}
+button.fb.blood-B.active{background:#4488ff;border-color:#4488ff;color:#000}
+button.fb.blood-AB.active{background:#cc44ff;border-color:#cc44ff;color:#000}
+#info{flex:1;overflow-y:auto;padding:12px}
+#info h3{color:#0ff;font-size:11px;letter-spacing:2px;margin-bottom:10px}
+#node-detail{font-size:10px;line-height:1.8}
+#node-detail .nd-header{font-size:14px;font-weight:bold;color:#fff;margin-bottom:8px;letter-spacing:1px}
+#node-detail .nd-row{display:flex;justify-content:space-between;border-bottom:1px solid #1a1a2a;padding:3px 0}
+#node-detail .nd-key{color:#888}
+#node-detail .nd-val{color:#0ff;text-align:right}
+#node-detail .nd-spark{color:#ff0;font-size:11px;margin-top:8px;padding:6px;border:1px solid #ff0;background:#1a1500}
+#node-detail .nd-empty{color:#444;font-style:italic;margin-top:20px;text-align:center;line-height:2}
+#stats{padding:8px 12px;border-top:1px solid #1a1a3a;font-size:9px;color:#555;flex-shrink:0}
+svg#face{max-width:100%;max-height:100%}
+.node-dot{cursor:pointer;transition:r .1s,opacity .1s}
+.node-dot:hover{opacity:1!important}
+#tooltip{position:fixed;pointer-events:none;background:rgba(0,0,0,.9);border:1px solid #0ff;padding:6px 10px;font-size:10px;color:#0ff;border-radius:3px;display:none;z-index:999;max-width:200px;line-height:1.6}
+#title-bar{position:absolute;top:10px;left:50%;transform:translateX(-50%);text-align:center;pointer-events:none}
+#title-bar h2{font-size:12px;letter-spacing:3px;color:#0ff;text-shadow:0 0 10px #0ff}
+#title-bar p{font-size:9px;color:#555;letter-spacing:1px;margin-top:2px}
+.legend{position:absolute;bottom:10px;left:10px;font-size:9px;line-height:1.8;color:#666}
+.legend span{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
+</style>
+</head>
+<body>
+
+<div id="left">
+  <div id="title-bar">
+    <h2>128-TYPE FACE GRID</h2>
+    <p>Sovereign Engine · Ω=7.4 · θ=138.88°</p>
+  </div>
+  <svg id="face" viewBox="0 0 700 750" xmlns="http://www.w3.org/2000/svg"></svg>
+  <div class="legend">
+    <div><span style="background:#ff4444"></span>Blood O</div>
+    <div><span style="background:#44ff88"></span>Blood A</div>
+    <div><span style="background:#4488ff"></span>Blood B</div>
+    <div><span style="background:#cc44ff"></span>Blood AB</div>
+    <div style="margin-top:4px"><span style="background:#aaa;border-radius:0;transform:rotate(45deg)"></span>○ = Male · ◇ = Female</div>
+  </div>
+</div>
+
+<div id="right">
+  <div id="controls">
+    <h3>FILTER</h3>
+    <div class="filter-group">
+      <label>BLOOD TYPE</label>
+      <div class="btns">
+        <button class="fb blood-O active" data-filter="blood" data-val="O">O</button>
+        <button class="fb blood-A active" data-filter="blood" data-val="A">A</button>
+        <button class="fb blood-B active" data-filter="blood" data-val="B">B</button>
+        <button class="fb blood-AB active" data-filter="blood" data-val="AB">AB</button>
+      </div>
+    </div>
+    <div class="filter-group">
+      <label>GENDER</label>
+      <div class="btns">
+        <button class="fb active" data-filter="gender" data-val="M">MALE</button>
+        <button class="fb active" data-filter="gender" data-val="F">FEMALE</button>
+      </div>
+    </div>
+    <div class="filter-group">
+      <label>E/I</label>
+      <div class="btns">
+        <button class="fb active" data-filter="ei" data-val="E">E-TYPE</button>
+        <button class="fb active" data-filter="ei" data-val="I">I-TYPE</button>
+      </div>
+    </div>
+    <div class="filter-group">
+      <label>J/P</label>
+      <div class="btns">
+        <button class="fb active" data-filter="jp" data-val="J">J</button>
+        <button class="fb active" data-filter="jp" data-val="P">P</button>
+      </div>
+    </div>
+    <div class="filter-group">
+      <label>S/N</label>
+      <div class="btns">
+        <button class="fb active" data-filter="sn" data-val="S">S</button>
+        <button class="fb active" data-filter="sn" data-val="N">N</button>
+      </div>
+    </div>
+    <div class="filter-group">
+      <label>T/F</label>
+      <div class="btns">
+        <button class="fb active" data-filter="tf" data-val="T">T</button>
+        <button class="fb active" data-filter="tf" data-val="F">F</button>
+      </div>
+    </div>
+  </div>
+  <div id="info">
+    <h3>NODE INSPECTOR</h3>
+    <div id="node-detail">
+      <div class="nd-empty">Click any node<br>to inspect</div>
+    </div>
+  </div>
+  <div id="stats" id="stats-bar">128 nodes visible</div>
+</div>
+
+<div id="tooltip"></div>
+
+<script>
+// ── RAW DATA from 128_GRID_MASTER_CALC.json ────────────────────────────────
+const RAW = {"ESTJ_O_M":{"omega":5.072,"terminal_x":1.66},"ESTJ_O_F":{"omega":5.1078,"terminal_x":1.77},"ESTJ_A_M":{"omega":5.144,"terminal_x":1.88},"ESTJ_A_F":{"omega":5.1806,"terminal_x":1.99},"ESTJ_B_M":{"omega":5.2174,"terminal_x":2.09},"ESTJ_B_F":{"omega":5.2546,"terminal_x":2.2},"ESTJ_AB_M":{"omega":5.2922,"terminal_x":2.31},"ESTJ_AB_F":{"omega":5.33,"terminal_x":2.42},"ENTJ_O_M":{"omega":5.3682,"terminal_x":2.53},"ENTJ_O_F":{"omega":5.4066,"terminal_x":2.63},"ENTJ_A_M":{"omega":5.4454,"terminal_x":2.74},"ENTJ_A_F":{"omega":5.4843,"terminal_x":2.85},"ENTJ_B_M":{"omega":5.5236,"terminal_x":2.95},"ENTJ_B_F":{"omega":5.563,"terminal_x":3.06},"ENTJ_AB_M":{"omega":5.6026,"terminal_x":3.16},"ENTJ_AB_F":{"omega":5.6424,"terminal_x":3.27},"ESFJ_O_M":{"omega":5.6634,"terminal_x":3.33},"ESFJ_O_F":{"omega":5.7034,"terminal_x":3.43},"ESFJ_A_M":{"omega":5.7435,"terminal_x":3.54},"ESFJ_A_F":{"omega":5.7836,"terminal_x":3.64},"ESFJ_B_M":{"omega":5.8236,"terminal_x":3.75},"ESFJ_B_F":{"omega":5.8635,"terminal_x":3.85},"ESFJ_AB_M":{"omega":5.9033,"terminal_x":3.96},"ESFJ_AB_F":{"omega":5.9428,"terminal_x":4.06},"ENFJ_O_M":{"omega":5.9819,"terminal_x":4.16},"ENFJ_O_F":{"omega":6.0205,"terminal_x":4.27},"ENFJ_A_M":{"omega":6.0586,"terminal_x":4.37},"ENFJ_A_F":{"omega":6.0959,"terminal_x":4.47},"ENFJ_B_M":{"omega":6.1324,"terminal_x":4.58},"ENFJ_B_F":{"omega":6.1678,"terminal_x":4.68},"ENFJ_AB_M":{"omega":6.202,"terminal_x":4.78},"ENFJ_AB_F":{"omega":6.2347,"terminal_x":4.89},"ESTP_O_M":{"omega":6.2789,"terminal_x":5.03},"ESTP_O_F":{"omega":6.3072,"terminal_x":5.13},"ESTP_A_M":{"omega":6.3332,"terminal_x":5.23},"ESTP_A_F":{"omega":6.3568,"terminal_x":5.33},"ESTP_B_M":{"omega":6.3776,"terminal_x":5.43},"ESTP_B_F":{"omega":6.3956,"terminal_x":5.53},"ESTP_AB_M":{"omega":6.4103,"terminal_x":5.63},"ESTP_AB_F":{"omega":6.4217,"terminal_x":5.73},"ENTP_O_M":{"omega":6.4296,"terminal_x":5.83},"ENTP_O_F":{"omega":6.4339,"terminal_x":5.93},"ENTP_A_M":{"omega":6.4346,"terminal_x":6.03},"ENTP_A_F":{"omega":6.4317,"terminal_x":6.13},"ENTP_B_M":{"omega":6.4254,"terminal_x":6.23},"ENTP_B_F":{"omega":6.4156,"terminal_x":6.32},"ENTP_AB_M":{"omega":6.4027,"terminal_x":6.42},"ENTP_AB_F":{"omega":6.3869,"terminal_x":6.52},"ESFP_O_M":{"omega":6.3755,"terminal_x":6.58},"ESFP_O_F":{"omega":6.3552,"terminal_x":6.67},"ESFP_A_M":{"omega":6.3325,"terminal_x":6.77},"ESFP_A_F":{"omega":6.3078,"terminal_x":6.87},"ESFP_B_M":{"omega":6.2812,"terminal_x":6.96},"ESFP_B_F":{"omega":6.2531,"terminal_x":7.06},"ESFP_AB_M":{"omega":6.2237,"terminal_x":7.15},"ESFP_AB_F":{"omega":6.1931,"terminal_x":7.24},"ENFP_O_M":{"omega":6.1616,"terminal_x":7.34},"ENFP_O_F":{"omega":6.1293,"terminal_x":7.43},"ENFP_A_M":{"omega":6.0965,"terminal_x":7.52},"ENFP_A_F":{"omega":6.0632,"terminal_x":7.62},"ENFP_B_M":{"omega":6.0296,"terminal_x":7.71},"ENFP_B_F":{"omega":5.9959,"terminal_x":7.8},"ENFP_AB_M":{"omega":5.962,"terminal_x":7.89},"ENFP_AB_F":{"omega":5.9283,"terminal_x":7.98},"ISTJ_O_M":{"omega":5.8889,"terminal_x":8.08},"ISTJ_O_F":{"omega":5.8565,"terminal_x":8.17},"ISTJ_A_M":{"omega":5.8246,"terminal_x":8.25},"ISTJ_A_F":{"omega":5.7937,"terminal_x":8.33},"ISTJ_B_M":{"omega":5.764,"terminal_x":8.41},"ISTJ_B_F":{"omega":5.7351,"terminal_x":8.49},"ISTJ_AB_M":{"omega":5.7046,"terminal_x":8.57},"ISTJ_AB_F":{"omega":5.6729,"terminal_x":8.65},"INTJ_O_M":{"omega":5.6401,"terminal_x":8.74},"INTJ_O_F":{"omega":5.6064,"terminal_x":8.83},"INTJ_A_M":{"omega":5.572,"terminal_x":8.92},"INTJ_A_F":{"omega":5.5369,"terminal_x":9.01},"INTJ_B_M":{"omega":5.501,"terminal_x":9.11},"INTJ_B_F":{"omega":5.4645,"terminal_x":9.21},"INTJ_AB_M":{"omega":5.4273,"terminal_x":9.31},"INTJ_AB_F":{"omega":5.3894,"terminal_x":9.42},"ISFJ_O_M":{"omega":5.3434,"terminal_x":9.54},"ISFJ_O_F":{"omega":5.3033,"terminal_x":9.66},"ISFJ_A_M":{"omega":5.2623,"terminal_x":9.78},"ISFJ_A_F":{"omega":5.2202,"terminal_x":9.9},"ISFJ_B_M":{"omega":5.1768,"terminal_x":10.02},"ISFJ_B_F":{"omega":5.1316,"terminal_x":10.16},"ISFJ_AB_M":{"omega":5.0841,"terminal_x":10.3},"ISFJ_AB_F":{"omega":5.0334,"terminal_x":10.46},"INFJ_O_M":{"omega":4.9771,"terminal_x":10.63},"INFJ_O_F":{"omega":4.9119,"terminal_x":10.84},"INFJ_A_M":{"omega":4.8621,"terminal_x":11.0},"INFJ_A_F":{"omega":4.8227,"terminal_x":11.13},"INFJ_B_M":{"omega":4.7792,"terminal_x":11.27},"INFJ_B_F":{"omega":4.7365,"terminal_x":11.42},"INFJ_AB_M":{"omega":4.6979,"terminal_x":11.55},"INFJ_AB_F":{"omega":4.6668,"terminal_x":11.66},"ISTP_O_M":{"omega":4.642,"terminal_x":11.75},"ISTP_O_F":{"omega":4.6049,"terminal_x":11.88},"ISTP_A_M":{"omega":4.5687,"terminal_x":12.01},"ISTP_A_F":{"omega":4.5339,"terminal_x":12.14},"ISTP_B_M":{"omega":4.5005,"terminal_x":12.27},"ISTP_B_F":{"omega":4.4684,"terminal_x":12.39},"ISTP_AB_M":{"omega":4.4374,"terminal_x":12.51},"ISTP_AB_F":{"omega":4.4075,"terminal_x":12.62},"INTP_O_M":{"omega":4.3785,"terminal_x":12.74},"INTP_O_F":{"omega":4.3503,"terminal_x":12.85},"INTP_A_M":{"omega":4.3228,"terminal_x":12.96},"INTP_A_F":{"omega":4.2961,"terminal_x":13.07},"INTP_B_M":{"omega":4.27,"terminal_x":13.18},"INTP_B_F":{"omega":4.2445,"terminal_x":13.28},"INTP_AB_M":{"omega":4.2195,"terminal_x":13.39},"INTP_AB_F":{"omega":4.1951,"terminal_x":13.49},"ISFP_O_M":{"omega":4.1611,"terminal_x":13.64},"ISFP_O_F":{"omega":4.1376,"terminal_x":13.74},"ISFP_A_M":{"omega":4.1144,"terminal_x":13.84},"ISFP_A_F":{"omega":4.0916,"terminal_x":13.95},"ISFP_B_M":{"omega":4.0692,"terminal_x":14.05},"ISFP_B_F":{"omega":4.0471,"terminal_x":14.15},"ISFP_AB_M":{"omega":4.0252,"terminal_x":14.25},"ISFP_AB_F":{"omega":4.0037,"terminal_x":14.35},"INFP_O_M":{"omega":3.9825,"terminal_x":14.45},"INFP_O_F":{"omega":3.9615,"terminal_x":14.55},"INFP_A_M":{"omega":3.9408,"terminal_x":14.65},"INFP_A_F":{"omega":3.9203,"terminal_x":14.75},"INFP_B_M":{"omega":3.9,"terminal_x":14.85},"INFP_B_F":{"omega":3.8799,"terminal_x":14.95},"INFP_AB_M":{"omega":3.8601,"terminal_x":15.05},"INFP_AB_F":{"omega":3.8404,"terminal_x":15.15}};
+
+// ── BLOOD COLORS & NEURO MAPPING ──────────────────────────────────────────
+const BLOOD_COLOR = {O:'#ff4444',A:'#44ff88',B:'#4488ff',AB:'#cc44ff'};
+const BLOOD_Y = {O:2,A:6,B:10,AB:14};
+const BLOOD_NEURO = {O:'Cortisol / Pregnenolone',A:'GABA-A / Acetylcholine',B:'Dopamine / Norepinephrine',AB:'Endorphin / Oxytocin'};
+const BLOOD_ZONE = {O:'Forehead',A:'Eye / Brow zone',B:'Nose / Zygomatic',AB:'Philtrum / Chin'};
+const SPARK_ANGLE = 2.4239; // 138.88°
+const SPARK_LEAP = 2.32;
+
+// ── PARSE ALL 128 NODES ───────────────────────────────────────────────────
+const NODES = [];
+for (const [key, d] of Object.entries(RAW)) {
+  const parts = key.split('_');
+  const mbti = parts[0], blood = parts[1], gender = parts[2];
+  const jp = mbti[3];
+  const y_base = BLOOD_Y[blood];
+  const y = y_base + (jp === 'J' ? 1 : -1);
+  const x = d.terminal_x;
+  const spine_dist = (x + y) - 16;
+  const spark_ready = Math.abs(spine_dist) > SPARK_LEAP;
+  NODES.push({
+    key, mbti, blood, gender, omega: d.omega, x, y,
+    jp, ei: mbti[0], sn: mbti[1], tf: mbti[2],
+    spine_dist, spark_ready,
+    color: BLOOD_COLOR[blood]
+  });
+}
+
+// ── SVG COORDINATE MAPPING ────────────────────────────────────────────────
+// Grid: x=[0,16] → svgX=[30,670], y=[0,16] → svgY=[30,720] (y DOWN = anatomically correct)
+const SVG_W = 700, SVG_H = 750;
+const PAD_L = 30, PAD_R = 30, PAD_T = 60, PAD_B = 30;
+const GW = SVG_W - PAD_L - PAD_R;  // 640
+const GH = SVG_H - PAD_T - PAD_B;  // 660
+
+function gx(x) { return PAD_L + (x / 16) * GW; }
+function gy(y) { return PAD_T + (y / 16) * GH; }
+
+// ── BUILD SVG ─────────────────────────────────────────────────────────────
+const svg = document.getElementById('face');
+
+function makeSVGEl(tag, attrs) {
+  const el = document.createElementNS('http://www.w3.org/2000/svg', tag);
+  for (const [k,v] of Object.entries(attrs)) el.setAttribute(k, v);
+  return el;
+}
+
+// Background
+svg.appendChild(makeSVGEl('rect',{x:0,y:0,width:SVG_W,height:SVG_H,fill:'#07070f'}));
+
+// ── Grid lines (faint) ────────────────────────────────────────────────────
+for (let i = 0; i <= 16; i++) {
+  svg.appendChild(makeSVGEl('line',{x1:gx(i),y1:gy(0),x2:gx(i),y2:gy(16),stroke:'#181828',
+    'stroke-width':'0.5'}));
+  svg.appendChild(makeSVGEl('line',{x1:gx(0),y1:gy(i),x2:gx(16),y2:gy(i),stroke:'#181828',
+    'stroke-width':'0.5'}));
+}
+
+// ── Blood zone bands (horizontal) ────────────────────────────────────────
+const ZONES = [{blood:'O',y1:1,y2:3.5},{blood:'A',y1:5,y2:7.5},{blood:'B',y1:9,y2:11.5},{blood:'AB',y1:13,y2:15.5}];
+for (const z of ZONES) {
+  const r = makeSVGEl('rect',{x:gx(0),y:gy(z.y1),width:GW,height:gy(z.y2)-gy(z.y1),
+    fill:BLOOD_COLOR[z.blood],opacity:'0.04',rx:'3'});
+  svg.appendChild(r);
+  const lbl = makeSVGEl('text',{x:gx(0)+4,y:gy((z.y1+z.y2)/2)+4,'font-size':'9',
+    fill:BLOOD_COLOR[z.blood],opacity:'0.4','font-family':'Courier New'});
+  lbl.textContent = `Blood ${z.blood} · ${BLOOD_ZONE[z.blood]}`;
+  svg.appendChild(lbl);
+}
+
+// ── FACE OUTLINE (anatomical, 16×16 grid units) ───────────────────────────
+// Cranium oval: center x=8, y=6, rx=5.5, ry=6.5
+const faceGroup = makeSVGEl('g',{id:'face-anatomy',opacity:'0.18'});
+// Head shape
+const head = makeSVGEl('ellipse',{
+  cx:gx(8), cy:gy(7),
+  rx:(5.5/16)*GW, ry:(6.5/16)*GH,
+  fill:'none', stroke:'#aaa', 'stroke-width':'1.5'
+});
+faceGroup.appendChild(head);
+// Jaw narrowing — additional path
+const jaw = makeSVGEl('path',{
+  d:`M ${gx(4.2)} ${gy(11)} Q ${gx(5)} ${gy(14.5)} ${gx(8)} ${gy(15)} Q ${gx(11)} ${gy(14.5)} ${gx(11.8)} ${gy(11)}`,
+  fill:'none',stroke:'#aaa','stroke-width':'1.2'
+});
+faceGroup.appendChild(jaw);
+// Left eye (viewer left, x≈4.5-5.5, y≈5.5-6.5)
+const lEye = makeSVGEl('ellipse',{cx:gx(5),cy:gy(6),rx:(0.8/16)*GW,ry:(0.4/16)*GH,
+  fill:'none',stroke:'#88aaff','stroke-width':'1'});
+faceGroup.appendChild(lEye);
+// Right eye (viewer right, x≈10.5-11.5, y≈5.5-6.5)
+const rEye = makeSVGEl('ellipse',{cx:gx(11),cy:gy(6),rx:(0.8/16)*GW,ry:(0.4/16)*GH,
+  fill:'none',stroke:'#88aaff','stroke-width':'1'});
+faceGroup.appendChild(rEye);
+// Left eyebrow
+const lBrow = makeSVGEl('path',{d:`M ${gx(4.2)} ${gy(5.2)} Q ${gx(5)} ${gy(4.8)} ${gx(5.8)} ${gy(5.2)}`,
+  fill:'none',stroke:'#888','stroke-width':'1'});
+faceGroup.appendChild(lBrow);
+// Right eyebrow
+const rBrow = makeSVGEl('path',{d:`M ${gx(10.2)} ${gy(5.2)} Q ${gx(11)} ${gy(4.8)} ${gx(11.8)} ${gy(5.2)}`,
+  fill:'none',stroke:'#888','stroke-width':'1'});
+faceGroup.appendChild(rBrow);
+// Nose bridge
+const noseBridge = makeSVGEl('path',{d:`M ${gx(7.6)} ${gy(6.5)} L ${gx(7.2)} ${gy(9)} Q ${gx(7.0)} ${gy(9.5)} ${gx(7.5)} ${gy(9.8)} Q ${gx(8)} ${gy(10.0)} ${gx(8.5)} ${gy(9.8)} Q ${gx(9.0)} ${gy(9.5)} ${gx(8.8)} ${gy(9)} L ${gx(8.4)} ${gy(6.5)}`,
+  fill:'none',stroke:'#888','stroke-width':'1'});
+faceGroup.appendChild(noseBridge);
+// Mouth
+const mouth = makeSVGEl('path',{d:`M ${gx(6.2)} ${gy(12.5)} Q ${gx(8)} ${gy(13.2)} ${gx(9.8)} ${gy(12.5)}`,
+  fill:'none',stroke:'#888','stroke-width':'1.2'});
+faceGroup.appendChild(mouth);
+// Philtrum (Node 146 landmark)
+const philtrum = makeSVGEl('path',{d:`M ${gx(7.5)} ${gy(11.2)} L ${gx(7.2)} ${gy(12.3)} M ${gx(8.5)} ${gy(11.2)} L ${gx(8.8)} ${gy(12.3)}`,
+  fill:'none',stroke:'#cc44ff','stroke-width':'0.8'});
+faceGroup.appendChild(philtrum);
+svg.appendChild(faceGroup);
+
+// ── PLP SPINE: x+y=16 → (y=16-x) → from (x=0,y=16) to (x=16,y=0) ─────
+const spine = makeSVGEl('line',{
+  x1:gx(0), y1:gy(16), x2:gx(16), y2:gy(0),
+  stroke:'#ff9900', 'stroke-width':'1.5', opacity:'0.5',
+  'stroke-dasharray':'4,4'
+});
+svg.appendChild(spine);
+const spineLbl = makeSVGEl('text',{x:gx(0.3),y:gy(15.4),'font-size':'8',fill:'#ff9900',
+  opacity:'0.7','font-family':'Courier New'});
+spineLbl.textContent = 'PLP SPINE  x+y=16';
+svg.appendChild(spineLbl);
+
+// ── BIFURCATION RIDGES ─────────────────────────────────────────────────
+for (const rx of [5, 11]) {
+  const line = makeSVGEl('line',{
+    x1:gx(rx),y1:gy(0),x2:gx(rx),y2:gy(16),
+    stroke:'#00cc99','stroke-width':'1',opacity:'0.4','stroke-dasharray':'6,3'
+  });
+  svg.appendChild(line);
+  const lbl = makeSVGEl('text',{x:gx(rx)+3,y:gy(0.5),'font-size':'8',fill:'#00cc99',
+    opacity:'0.6','font-family':'Courier New'});
+  lbl.textContent = `x=${rx}`;
+  svg.appendChild(lbl);
+}
+
+// ── MIDLINE ────────────────────────────────────────────────────────────
+const midline = makeSVGEl('line',{
+  x1:gx(8),y1:gy(0),x2:gx(8),y2:gy(16),
+  stroke:'#ffffff','stroke-width':'0.5',opacity:'0.15'
+});
+svg.appendChild(midline);
+
+// ── AXIS LABELS ────────────────────────────────────────────────────────
+const xLbl = makeSVGEl('text',{x:gx(1),y:gy(16)+18,'font-size':'9',fill:'#555','font-family':'Courier New'});
+xLbl.textContent = '← E-TYPE (LEFT FACE)';
+svg.appendChild(xLbl);
+const xLbl2 = makeSVGEl('text',{x:gx(9),y:gy(16)+18,'font-size':'9',fill:'#555','font-family':'Courier New'});
+xLbl2.textContent = 'I-TYPE (RIGHT FACE) →';
+svg.appendChild(xLbl2);
+
+// ── NODE 145 & 146 SPECIAL MARKERS ────────────────────────────────────
+// Node 145: Pregnenolone, Zygomaticus Minor @ (x≈5.8, y=1) — O-P zone
+const n145x = gx(5.8), n145y = gy(1.8);
+const n145ring = makeSVGEl('circle',{cx:n145x,cy:n145y,r:'10',fill:'none',stroke:'#ffff00',
+  'stroke-width':'1.5',opacity:'0.7'});
+svg.appendChild(n145ring);
+const n145lbl = makeSVGEl('text',{x:n145x+12,y:n145y+4,'font-size':'8',fill:'#ffff00',
+  'font-family':'Courier New'});
+n145lbl.textContent = '⬦145 PREG';
+svg.appendChild(n145lbl);
+
+// Node 146: Left Love, Philtrum @ (x≈7.5, y=15) — AB-J zone
+const n146x = gx(7.5), n146y = gy(14.5);
+const n146ring = makeSVGEl('circle',{cx:n146x,cy:n146y,r:'10',fill:'none',stroke:'#ff00ff',
+  'stroke-width':'1.5',opacity:'0.7'});
+svg.appendChild(n146ring);
+const n146lbl = makeSVGEl('text',{x:n146x+12,y:n146y+4,'font-size':'8',fill:'#ff00ff',
+  'font-family':'Courier New'});
+n146lbl.textContent = '⬦146 LOVE β⁺';
+svg.appendChild(n146lbl);
+
+// ── DRAW ALL 128 NODES ─────────────────────────────────────────────────
+const nodeEls = [];
+const tooltip = document.getElementById('tooltip');
+
+for (const node of NODES) {
+  const cx = gx(node.x);
+  const cy = gy(node.y);
+  const color = node.color;
+  const r = node.spark_ready ? 5.5 : 4.5;
+  const alpha = 0.85;
+
+  let el;
+  if (node.gender === 'M') {
+    // Circle for Male
+    el = makeSVGEl('circle',{
+      cx, cy, r,
+      fill: color,
+      opacity: String(alpha),
+      stroke: node.spark_ready ? '#ffff00' : 'none',
+      'stroke-width': '1.5',
+      class: 'node-dot'
+    });
+  } else {
+    // Diamond for Female (rotated rect)
+    const s = r * 1.3;
+    el = makeSVGEl('rect',{
+      x: cx - s, y: cy - s,
+      width: s*2, height: s*2,
+      fill: color,
+      opacity: String(alpha * 0.8),
+      stroke: node.spark_ready ? '#ffff00' : 'none',
+      'stroke-width': '1.5',
+      transform: `rotate(45,${cx},${cy})`,
+      class: 'node-dot'
+    });
+  }
+
+  el.addEventListener('mouseenter', (e) => {
+    tooltip.style.display = 'block';
+    tooltip.innerHTML = `<b>${node.mbti}</b> · ${node.blood} · ${node.gender}<br>Ω = ${node.omega.toFixed(4)}<br>Face (${node.x.toFixed(2)}, ${node.y})<br>${node.spark_ready ? '⚡ SPARK READY' : ''}`;
+  });
+  el.addEventListener('mousemove', (e) => {
+    tooltip.style.left = (e.clientX + 14) + 'px';
+    tooltip.style.top  = (e.clientY - 10) + 'px';
+  });
+  el.addEventListener('mouseleave', () => { tooltip.style.display = 'none'; });
+  el.addEventListener('click', () => showNodeDetail(node));
+
+  el._node = node;
+  svg.appendChild(el);
+  nodeEls.push(el);
+}
+
+// ── NODE DETAIL PANEL ─────────────────────────────────────────────────
+function showNodeDetail(node) {
+  const d = document.getElementById('node-detail');
+  const spineSign = node.spine_dist >= 0 ? '+' : '';
+  const xZone = node.x < 5 ? 'EJ outer LEFT' :
+                node.x < 8 ? 'EP/NF LEFT' :
+                node.x < 10 ? 'IJ near midline' :
+                node.x < 12 ? 'INFJ zone' : 'IP outer RIGHT';
+  const startX = (node.ei==='E' ? (node.gender==='M' ? 12.5 : 3.5) : (node.gender==='M' ? 9.5 : 6.5)).toFixed(1);
+  d.innerHTML = `
+    <div class="nd-header" style="color:${node.color}">${node.mbti} · ${node.blood} · ${node.gender}</div>
+    <div class="nd-row"><span class="nd-key">Ω (omega)</span><span class="nd-val">${node.omega.toFixed(4)}</span></div>
+    <div class="nd-row"><span class="nd-key">Face X (terminal)</span><span class="nd-val">${node.x.toFixed(2)}</span></div>
+    <div class="nd-row"><span class="nd-key">Face Y</span><span class="nd-val">${node.y} (${BLOOD_ZONE[node.blood]})</span></div>
+    <div class="nd-row"><span class="nd-key">X start</span><span class="nd-val">${startX} → ${node.x.toFixed(2)}</span></div>
+    <div class="nd-row"><span class="nd-key">Zone</span><span class="nd-val">${xZone}</span></div>
+    <div class="nd-row"><span class="nd-key">PLP spine dist</span><span class="nd-val">${spineSign}${node.spine_dist.toFixed(2)}</span></div>
+    <div class="nd-row"><span class="nd-key">Neurochemical</span><span class="nd-val" style="font-size:9px">${BLOOD_NEURO[node.blood]}</span></div>
+    <div class="nd-row"><span class="nd-key">E/I</span><span class="nd-val">${node.ei==='E' ? 'Extrovert → crosses midline' : 'Introvert → holds hemisphere'}</span></div>
+    <div class="nd-row"><span class="nd-key">J/P</span><span class="nd-val">${node.jp==='J' ? 'J +1 (constructive)' : 'P −1 (swirl)'}</span></div>
+    <div class="nd-row"><span class="nd-key">ΔS tier</span><span class="nd-val">${getDeltaS(node.mbti)}</span></div>
+    ${node.spark_ready ? `<div class="nd-spark">⚡ SPARK READY<br>|spine_dist| ${Math.abs(node.spine_dist).toFixed(2)} > ${SPARK_LEAP}<br>θ = 138.88° → β⁺ decay</div>` : ''}
+  `;
+}
+
+function getDeltaS(mbti) {
+  const m = mbti.slice(1,3);
+  if (m==='NF') return 'NF · ΔS→0 (void, activates FIRST)';
+  if (m==='NT') return 'NT · ΔS~0.15-0.5 (torque)';
+  if (m==='SF') return 'SF · ΔS~0.5-0.85 (mass)';
+  return 'ST · ΔS~0.85-1.0 (anchor, activates LAST)';
+}
+
+// ── FILTER LOGIC ──────────────────────────────────────────────────────
+const activeFilters = {blood:new Set(['O','A','B','AB']),gender:new Set(['M','F']),
+  ei:new Set(['E','I']),jp:new Set(['J','P']),sn:new Set(['S','N']),tf:new Set(['T','F'])};
+
+document.querySelectorAll('button.fb').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const f = btn.dataset.filter, v = btn.dataset.val;
+    if (activeFilters[f].has(v)) {
+      if (activeFilters[f].size > 1) { activeFilters[f].delete(v); btn.classList.remove('active'); }
+    } else {
+      activeFilters[f].add(v); btn.classList.add('active');
+    }
+    applyFilters();
+  });
+});
+
+function applyFilters() {
+  let vis = 0;
+  for (const el of nodeEls) {
+    const n = el._node;
+    const show = activeFilters.blood.has(n.blood) &&
+                 activeFilters.gender.has(n.gender) &&
+                 activeFilters.ei.has(n.ei) &&
+                 activeFilters.jp.has(n.jp) &&
+                 activeFilters.sn.has(n.sn) &&
+                 activeFilters.tf.has(n.tf);
+    el.style.display = show ? '' : 'none';
+    if (show) vis++;
+  }
+  document.getElementById('stats').textContent = `${vis} / 128 nodes visible`;
+}
+
+// ── SPARK PULSE ANIMATION ─────────────────────────────────────────────
+let t = 0;
+function animate() {
+  t += 0.02;
+  for (const el of nodeEls) {
+    const n = el._node;
+    if (!n.spark_ready) continue;
+    const pulse = 0.5 + 0.5 * Math.sin(t * 3 + n.x);
+    el.setAttribute('opacity', (0.6 + 0.4 * pulse).toFixed(2));
+  }
+  requestAnimationFrame(animate);
+}
+animate();
+</script>
+</body>
+</html>

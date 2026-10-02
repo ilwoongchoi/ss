@@ -1,0 +1,50 @@
+digraph UNIVERSAL_GEOMETRY {
+    rankdir=LR;
+    node [shape=ellipse, style=filled, fillcolor=lightblue];
+
+    subgraph cluster_big_woman {
+        label = "Component A: Big Woman (Main Body Manifold)";
+        fillcolor = lightyellow;
+        style = filled;
+        "1" [label="Sheet 1"];
+        "2" [label="Sheet 2"];
+        "3" [label="Sheet 3"];
+        "4" [label="Sheet 4"];
+        "10" [label="Sheet 10"];
+        "11" [label="Sheet 11"];
+        "12" [label="Sheet 12"];
+        "13" [label="Sheet 13"];
+        "14" [label="Sheet 14"];
+        "flash:center_in" [fillcolor=lightgreen];
+        "flash_bridge" [fillcolor=lightgreen];
+        "gateway_peak" [fillcolor=gold];
+        "mediator:synthetic_alpha" [fillcolor=gold];
+
+        # Applied Edges (Main Body Closure)
+        "1" -> "10";
+        "10" -> "3";
+        "10" -> "4";
+        "1" -> "11";
+        "gateway_peak" -> "mediator:synthetic_alpha";
+        "mediator:synthetic_alpha" -> "4";
+        "flash_bridge" -> "3";
+        "flash:center_in" -> "flash_bridge";
+        "13" -> "flash_bridge";
+        # ... and others from SEAM_GLUE_MAP
+    }
+
+    subgraph cluster_small_man {
+        label = "Component B: Small Man (Engine Island)";
+        fillcolor = lightpink;
+        style = filled;
+        "core_center" [fillcolor=red, fontcolor=white];
+        "right_branch" [fillcolor=red, fontcolor=white];
+
+        # The Funnel Axis (Calculated/Failure Score: 0.95)
+        "core_center" -> "right_branch" [label="0.95 (Funnel Axis)", color=red, penwidth=2];
+    }
+
+    # The GAP: Missing Structural Bridges
+    "mediator:synthetic_alpha" -> "core_center" [label="Score: 0.0169 (Gap: 7.6)", style=dotted, color=gray];
+    "gateway_peak" -> "core_center" [label="Score: 0.015 (Gap: 8.1)", style=dotted, color=gray];
+}

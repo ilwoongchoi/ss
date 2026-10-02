@@ -1,0 +1,72 @@
+{
+  "_version": "v3.0",
+  "_date": "2026-09-09",
+  "_method": "Hill-form continuous ODE + RK4 + observational constants",
+  "tests": {
+    "obs_leftd2_SgrA": {
+      "best": 0.0,
+      "grade": "EXACT"
+    },
+    "qom_TOV": {
+      "best": 0.0,
+      "grade": "EXACT"
+    },
+    "obs_leftd2_MS": {
+      "best": 0.025216131247674255,
+      "grade": "WEAK"
+    },
+    "mem_CMB": {
+      "best": 0.02275599846268904,
+      "grade": "WEAK"
+    }
+  },
+  "observational_constants": {
+    "Sagittarius_A*": {
+      "mass_M_sun": 4297000.0,
+      "schwarzschild_radius_m": 12700000000.0,
+      "distance_pc": 8178,
+      "spin_a": 0.5,
+      "accretion_rate_msun_yr": 1e-05,
+      "S_star_period_yr": 16
+    },
+    "Main_Sequence_Sun": {
+      "mass_M_sun": 1.0,
+      "luminosity_L_sun": 1.0,
+      "L_M_exponent": 3.5,
+      "lifetime_Gyr": 10,
+      "mass_fraction_H_X": 0.7
+    },
+    "CMB_acoustic": {
+      "T_K": 2.7255,
+      "first_peak_ell": 220.0,
+      "second_peak_ell": 540.0,
+      "third_peak_ell": 810.0,
+      "acoustic_scale_ell_A": 302.5,
+      "omega_b": 0.0224,
+      "omega_c": 0.12
+    },
+    "Neutron_Star_TOV": {
+      "max_mass_M_sun": 2.17,
+      "R_1.4_Msun_km": 11.0,
+      "L_max_radius_km": 12.5,
+      "central_density_nuclear": 5.0
+    },
+    "observer_leftd2": {
+      "baseline_tonic_Hz": 4.0,
+      "saturation_half_max": 0.5,
+      "hill_coefficient": 2.0
+    },
+    "memory_entropy": {
+      "novelty_threshold": 0.5,
+      "mismatch_response_ms": 50
+    }
+  },
+  "summary": {
+    "n_tests": 4,
+    "n_strong": 0,
+    "n_weak": 2,
+    "n_heuristic": 0,
+    "n_exact": 2,
+    "verdict": "PASS"
+  }
+}

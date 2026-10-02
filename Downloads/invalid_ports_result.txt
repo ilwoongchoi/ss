@@ -1,0 +1,183 @@
+﻿=== INVALID PORT REFERENCES ===
+Total: 60
+
+Line 373: autophagy.enable ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- observer_leftd2.out0 # SIGNAL: Bio-electric Spark Convergence in1 <- left_genital_d2_out0_nand.out # SIGNAL: Reset from reward peak in2 <- nonobserver_left_d2.out # SIGNAL: Reset from spatial clarity status out0 -> observer_leftd2.in0 # WIRE: ...
+
+Line 395: autophagy.ctrl0 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- mc1r.q_bar # SIGNAL: MC1R inactive state (cAMP Low) in1 <- left_endorphin_non_observer.out # SIGNAL: Global recovery baseline out -> autophagy.ctrl0 # WIRE: [GEOLOGY: MC1R-OFF phase] permits [PHYSICS: Inflammatory autophagy mode]. (Low cAMP/PK...
+
+Line 893: autophagy.in0 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- mycorradicin_autophagy_intermediate_and.out # SIGNAL: High-stress/O2 mediated trigger in1 <- mycorradicin_leftd2_and.out # SIGNAL: Baseline metabolic trigger out -> autophagy.in0 [REVERSE: [GEOLOGY: Autophagy trigger feedback] ??[PHYSICS: SR l...
+
+Line 1451: autophagy.out0 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- fold_belt.out0 # SIGNAL: Surface structural tension in1 <- autophagy.out0 # SIGNAL: Bulk autophagic status out0 -> monazite.in0 # WIRE: Mangrove O2-loss to monazite MUX input0 (radial O2 loss provides oxidized iron plaque substrate for nucleot...
+
+Line 2371: autophagy.enable ??valid ports: q,q_bar,r,reset,s,set
+    out0  -> autophagy.enable             # WIRE: [BIOCHEMISTRY: 汝?endorphin/MOR Gi/o activation permits autophagy ??MOR ??Gi/o ??cAMP suppression ??PKA inhibition ??AMPK activation ??TSC2 ??Rheb inhibition ??mTORC1 inhibition ??ULK1 dephosphorylation ...
+
+Line 3345: autophagy.out0 ??valid ports: q,q_bar,r,reset,s,set
+    in0  <- autophagy.out0
+
+Line 3347: autophagy.in0 ??valid ports: q,q_bar,r,reset,s,set
+    out0  -> autophagy.in0
+
+Line 3977: autophagy.enable ??valid ports: q,q_bar,r,reset,s,set
+    out -> autophagy.enable         # WIRE: [BIOCHEMISTRY: Organic-acid-driven dissolution triggers autophagic recycling of damaged membrane/CaCO??debris] [GEOLOGY: Dissolved carbonate and organic matter trigger sediment recycling] [PHYSICS: Entropy in...
+
+Line 3223: basin.in0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    out0  -> basin.in0
+
+Line 3393: carbon.out0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    in0  <- carbon.out0
+
+Line 3395: carbon.in0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    out0  -> carbon.in0
+
+Line 5288: carbon.out0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    in1  <- carbon.out0                # SIGNAL: Bone/labyrinth structural carbon matrix
+
+Line 5393: carbon.out0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    ctrl0 <- carbon.out0                 # CONTROL: Structural carbon matrix determines whether the grit point is rigid
+
+Line 206: chlorine_ion_pump.out0 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- chlorine_ion_pump.out0 # SIGNAL: Chloride-mediated oxidative stress in1 <- left_endorphin_non_observer.out # SIGNAL: Global recovery baseline out -> heme.in0 # WIRE: Cl-mediated oxidative stress XOR observer to heme HO-1 input (chloride channe...
+
+Line 847: chlorine_ion_pump.out0 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- chlorine_ion_pump.out0 # SIGNAL: Chloride-mediated action potential in1 <- left_endorphin_non_observer.out # SIGNAL: Global recovery baseline out -> sodium.in1 [REVERSE: [GEOLOGY: Sodium drain] ??[PHYSICS: membrane depolarization evaluation] p...
+
+Line 927: chlorine_ion_pump.enable ??valid ports: q,q_bar,r,reset,s,set
+  water_out0_nand [NAND: water out0 output]: in0 <- water.out0 # SIGNAL: Cytosolic proton pool status in1 <- left_endorphin_non_observer.out # SIGNAL: Global recovery baseline out -> outer_core_convection.in1 # WIRE: [GEOLOGY: Cytosolic proton pool] fe...
+
+Line 1004: chlorine_ion_pump.out0 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- chlorine_ion_pump.out0 # SIGNAL: Chloride-mediated gas exchange status ctrl0 <- carbon_q_or.out # CONTROL: Anabolic carbon state selection out0 -> heath_aerenchyma_out0_and.in0 # WIRE: [GEOLOGY: Aerenchyma O2 availability] to [PHYSICS: metabol...
+
+Line 1017: chlorine_ion_pump.in0 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- podzol.out0 # SIGNAL: Acidic lysosomal matrix status in1 <- left_endorphin_non_observer.out # SIGNAL: Global recovery baseline out -> chlorine_ion_pump.in0 [REVERSE: [GEOLOGY: Chlorine pump drain] ??[PHYSICS: Cl- flux demand] pulls [GEOLOGY: p...
+
+Line 1604: chlorine_ion_pump.out1 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- ferritin_in0_xor.out # SIGNAL: Iron sequestration status (Ferritin-L) ctrl0 <- ferritin_ctrl0_or.out # CONTROL: Multi-factor storage gating out0 -> cytochrome_c_oxidase_in1_xor.in0 # WIRE: Stored iron to COX retrograde XOR input0 (ferritin-L i...
+
+Line 1921: chlorine_ion_pump.out0 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- male_right_oxytocin_q_or.out # SIGNAL: Social/Bonding status in1 <- right_cortisol.out0 # SIGNAL: Nuclear cortisol status in2 <- chlorine_ion_pump.out0 # SIGNAL: Chloride-mediated stress status out -> co2_ctrl1_combined.in1 [REVERSE: CO2 ctrl ...
+
+Line 1927: chlorine_ion_pump.ctrl0 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- chlorine_ion_pump.out1 # SIGNAL: Cl-pump self-inhibition feedback in1 <- female_gaba_b.out0 # SIGNAL: Postsynaptic GABA-B status out -> chlorine_ion_pump.ctrl0 [REVERSE: Chlorine pump feedback ??chloride gating pulls integrated inhibition driv...
+
+Line 1927: chlorine_ion_pump.out1 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- chlorine_ion_pump.out1 # SIGNAL: Cl-pump self-inhibition feedback in1 <- female_gaba_b.out0 # SIGNAL: Postsynaptic GABA-B status out -> chlorine_ion_pump.ctrl0 [REVERSE: Chlorine pump feedback ??chloride gating pulls integrated inhibition driv...
+
+Line 3042: chrna7_vagal.out ??valid ports: ctrl0,ctrl1,ctrl2,in0,in1,in2,in3,out0,out1
+    ctrl0 <- chrna7_vagal.out        # CONTROL: vagal ACh
+
+Line 3495: chrna7_vagal.out ??valid ports: ctrl0,ctrl1,ctrl2,in0,in1,in2,in3,out0,out1
+    in0  <- chrna7_vagal.out
+
+Line 3701: cytochrome_c_oxidase.out ??valid ports: ctrl0,ctrl1,ctrl2,in0,in1,in2,in3,out0,out1,out2
+    in0  <- cytochrome_c_oxidase.out
+
+Line 5052: cytochrome_c_oxidase_in1_xor.in2 ??valid ports: in0,in1,out,out0
+    out0 -> cytochrome_c_oxidase_in1_xor.in2  # WIRE: [BIOCHEMISTRY: Curry/frozen-onion/rice intestinal retrograde stress feeds COX retrograde XOR] [GEOLOGY: Hot-spot kitchen fluid flows into slab-rollback metamorphic front] [PHYSICS: Postprandial spic...
+
+Line 2131: esr1_ach_temporalis_and.out ??valid ports: ctrl0,ctrl1,ctrl2,in0,in1,in2,in3,out0,out1
+  in0 <- esr1_ach_temporalis_and.out # SIGNAL: Temporalis ACh+ESR1 convergence in1 <- male_gaba_a.out0 # SIGNAL: Tonic GABA-A inhibition status out -> esr1_expression_2.out # WIRE: GABA-A-gated ESR1 expression to ESR1 Expression 2 output (tonic inhibit...
+
+Line 3209: fold_belt.out ??valid ports: ctrl0,ctrl1,ctrl2,in0,in1,in2,in3,out0,out1,out2
+    in0  <- fold_belt.out
+
+Line 3284: fold_belt.out ??valid ports: ctrl0,ctrl1,ctrl2,in0,in1,in2,in3,out0,out1,out2
+    in0  <- fold_belt.out
+
+Line 3025: glp1.in0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    out0  -> glp1.in0                # WIRE: Vega ??GLP-1 satiety
+
+Line 3568: glp1.out ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    ctrl0 <- glp1.out
+
+Line 3570: glp1.in0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    out0  -> glp1.in0
+
+Line 1377: gluon_orogen.in0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+  in0 <- male_right_oxytocin.q # SIGNAL: Ego-bias suppression status (Pr) in1 <- left_endorphin_non_observer.out # SIGNAL: Global recovery baseline out -> sulforaphane.in1 # WIRE: Oxytocin to sulforaphane tristate input1 (moral-corrector status feeds N...
+
+Line 3051: heme.out ??valid ports: ctrl0,ctrl1,ctrl2,in0,in1,in2,in3,out0,out1,out2
+    in0  <- heme.out                 # SIGNAL: heme redox
+
+Line 3446: hind_insula.out ??valid ports: ctrl0,ctrl1,ctrl2,in0,in1,in2,in3,out0,out1
+    in0  <- hind_insula.out
+
+Line 3121: laterite.in0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    out0  -> laterite.in0
+
+Line 3782: laterite.out0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    ctrl0 <- laterite.out0
+
+Line 3784: laterite.in0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    out0  -> laterite.in0
+
+Line 3567: male_right_oxytocin.out ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    in0  <- male_right_oxytocin.out
+
+Line 3569: male_right_oxytocin.in0 ??valid ports: clk,d,enable,preset,q,q_bar,r,reset,s
+    out0  -> male_right_oxytocin.in0
+
+Line 1409: manganese_nodule.enable ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- gluon_orogen.q in1 <- left_endorphin_non_observer.out out -> lower_mantle.enable # WIRE: Stress fiber stable to lower_mantle D-flip-flop enable (cytoskeletal stability permits mitochondrial matrix state updates ??stress fiber integrity is prer...
+
+Line 3712: manganese_nodule.out0 ??valid ports: q,q_bar,r,reset,s,set
+    ctrl0 <- manganese_nodule.out0
+
+Line 3714: manganese_nodule.in0 ??valid ports: q,q_bar,r,reset,s,set
+    out0  -> manganese_nodule.in0
+
+Line 224: oxidised_manganese.out1 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- heme_in0_xor.out # SIGNAL: Oxidative stress input (HO-1) ctrl0 <- oxidised_manganese.out1 # CONTROL: Mn-driven redox gating out0 -> methylation_in1_xor.in0 # WIRE: [GEOLOGY: Heme degradation] releasing [PHYSICS: Hydrogen/CO flux] to [GEOLOGY: ...
+
+Line 269: oxidised_manganese.out1 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- water_vapour_in0_xor.out # SIGNAL: Convection/Hydration input ctrl0 <- oxidised_manganese.out1 # CONTROL: Mn-driven water-splitting gate out0 -> clay_gouge.in1 # WIRE: [GEOLOGY: Tropospheric hydration] feeds [PHYSICS: Fault-zone clay matrix] s...
+
+Line 744: oxidised_manganese.in1 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- andosol.out0 # SIGNAL: Buffered ROS/Redox status in1 <- left_endorphin_non_observer.out # SIGNAL: Global recovery baseline out -> oxidised_manganese.in1 # WIRE: [GEOLOGY: Buffered redox status] feeds [PHYSICS: Mn-redox latch ch1]. (Andosol ROS...
+
+Line 1239: oxidised_manganese.clk ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- co2_in0_xor.out # SIGNAL: Respiratory CO2 status ctrl0 <- memory_entropy_out_co2_nor.out # CONTROL: Hippocampal mismatch selection out0 -> hind_insula.in1 # WIRE: [GEOLOGY: Volcanic CO2 degassing flux] pressurizes [GEOLOGY: hind_insula interoc...
+
+Line 1252: oxidised_manganese.ctrl1 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- glp1.q_bar # SIGNAL: Dy(66) deconfined inactive state in1 <- left_endorphin_non_observer.out # SIGNAL: Global recovery baseline out -> craton_in0_xor.in0 # WIRE: [GEOLOGY: HREE Dy-enriched fluid infiltrates craton nuclear scaffold ??xenotime s...
+
+Line 1287: oxidised_manganese.out1 ??valid ports: q,q_bar,r,reset,s,set
+  in0 <- cck.out0 # SIGNAL: Postprandial satiety drive in1 <- oxidised_manganese.out1 # SIGNAL: Mn-redox permissive status in2 <- observer_leftd2.out0 # SIGNAL: Master permissive bus voltage out -> cck_ctrl_or.in0 # WIRE: CCK satiety + Mn-redox + maste...
+
+Line 2718: oxidised_manganese.out1 ??valid ports: q,q_bar,r,reset,s,set
+    in1 <- oxidised_manganese.out1 # SIGNAL: Mn?猿쯠O??OEC Mn(III)/Mn(IV) redox permissive ??Kok cycle S-state electron transfer (gluon strong field)
+
+Line 1328: proton_pump.out ??valid ports: ctrl0,ctrl1,ctrl2,in0,in1,in2,in3,out0,out1,out2
+  in2 <- proton_pump.out # SIGNAL: Observer proton pump output (D2 stress + master bus + silicon collagen + laterite iron-storage)
+
+Line 4310: right_sole_dopamine_d_or.in3 ??valid ports: in0,in1,in2,out,out0
+    out0 -> right_sole_dopamine_d_or.in3  # WIRE: [BIOCHEMISTRY: Semen buffer provides D-input for reproductive motor programs] [GEOLOGY: Hydrothermal gel provides structural data] [PHYSICS: Colloidal D-state]
+
+Line 4335: right_sole_dopamine_d_or.in4 ??valid ports: in0,in1,in2,out,out0
+    out0 -> right_sole_dopamine_d_or.in4  # WIRE: [BIOCHEMISTRY: Strawberry sugar/water D-input for quick motor energy] [GEOLOGY: Acid-sulfate water D-state] [PHYSICS: Mixed buffer D-state]
+
+Line 4287: right_sole_dopamine_enable_or.in3 ??valid ports: in0,in1,in2,out,out0
+    out -> right_sole_dopamine_enable_or.in3  # WIRE: [BIOCHEMISTRY: Grape neutralization enables motor readiness after anthocyanin stress] [GEOLOGY: Organic ligand buffering enables reactivation] [PHYSICS: Electron donation opens channel]
+
+Line 4360: right_sole_dopamine_enable_or.in4 ??valid ports: in0,in1,in2,out,out0
+    out0 -> right_sole_dopamine_enable_or.in4  # WIRE: [BIOCHEMISTRY: Sweat cooling/evaporation enables motor endurance] [GEOLOGY: Hydrothermal discharge enables crustal cooling] [PHYSICS: Latent heat channel opens]
+
+Line 4243: right_sole_dopamine_reset_or.in3 ??valid ports: in0,in1,in2,out,out0
+    out -> right_sole_dopamine_reset_or.in3  # WIRE: [BIOCHEMISTRY: V1B self-harm catabolism resets motor to minimal survival mode] [GEOLOGY: Slab self-destruction resets cratonic motor] [PHYSICS: Stress-fracture reset removes kinetic energy]
+
+Line 4389: right_sole_dopamine_reset_or.in4 ??valid ports: in0,in1,in2,out,out0
+    out0 -> right_sole_dopamine_reset_or.in4  # WIRE: [BIOCHEMISTRY: Ammonia toxicity triggers motor reset until detoxified] [GEOLOGY: Alkaline brine forces cratonic quiescence] [PHYSICS: Proton sink drains displacement current]
+
+Line 67: succinate_dehydrogenase.ctrl2 ??valid ports: clk,ctrl0,ctrl1,d,enable,in0,in1,in2,in3,out,out0,out1,preset,q,q_bar,r,reset,s,set
+  in0 <- electric_grid_and.out # [FORWARD: Grid Ignition Spark] [REVERSE: Potential Mirror Drain] in1 <- nitrogenase_metabolic_and.out # [FORWARD: Central Metabolic Spark] [REVERSE: Pressure Mirror Sink] out -> succinate_dehydrogenase.ctrl2 # WIRE: Bio...
+
+Line 93: succinate_dehydrogenase.out2 ??valid ports: clk,ctrl0,ctrl1,d,enable,in0,in1,in2,in3,out,out0,out1,preset,q,q_bar,r,reset,s,set
+  Ga(31) ??succinate_dehydrogenase.out2 ??semiconductor phase-switch (hypoxia sensor)
+
+Line 697: succinate_dehydrogenase.out2 ??valid ports: clk,ctrl0,ctrl1,d,enable,in0,in1,in2,in3,out,out0,out1,preset,q,q_bar,r,reset,s,set
+  in0 <- succinate_dehydrogenase.out2 # SIGNAL: SDH-Soil path status in1 <- left_endorphin_non_observer.out # SIGNAL: Global recovery baseline out -> andosol.ctrl0 # WIRE: SDH-soil to andosol MUX control0 (SDH out2 selects andosol redox pathway ??Krebs...
+

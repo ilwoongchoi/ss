@@ -1,0 +1,554 @@
+{
+  "heme_in0_xor": {
+    "domain": 2
+  },
+  "heme_in1_xor": {
+    "domain": 2
+  },
+  "heme": {
+    "domain": 2
+  },
+  "cytochrome_c_oxidase_in0_xor": {
+    "domain": 2
+  },
+  "cytochrome_c_oxidase_in1_xor": {
+    "domain": 2
+  },
+  "cytochrome_c_oxidase": {
+    "domain": 2
+  },
+  "water_vapour_in0_xor": {
+    "domain": 2
+  },
+  "water_vapour_in1_xor": {
+    "domain": 2
+  },
+  "water_vapour": {
+    "domain": 2
+  },
+  "steel_in0_xor": {
+    "domain": 2
+  },
+  "steel_in1_xor": {
+    "domain": 7
+  },
+  "steel": {
+    "domain": 2
+  },
+  "clay_gouge": {
+    "domain": 7
+  },
+  "quark_orogen_magma": {
+    "domain": 2
+  },
+  "observer_leftd2": {
+    "domain": 7
+  },
+  "nonobserver_left_d2": {
+    "domain": 2
+  },
+  "left_endorphin_non_observer": {
+    "domain": 2
+  },
+  "observer_left_endorphin_electron_antineutrino": {
+    "domain": 7
+  },
+  "plume_in0_xor": {
+    "domain": 2
+  },
+  "mc1r_q_or": {
+    "domain": 2
+  },
+  "mc1r_q_bar_or": {
+    "domain": 2
+  },
+  "mc1r": {
+    "domain": 2
+  },
+  "methanogenesis_out0_nand": {
+    "domain": 2
+  },
+  "methanogenesis": {
+    "domain": 3
+  },
+  "histosol_in0_xor": {
+    "domain": 2
+  },
+  "histosol_in1_xor": {
+    "domain": 7
+  },
+  "histosol": {
+    "domain": 2
+  },
+  "histosol_ctrl1_and": {
+    "domain": 2
+  },
+  "histosol_ctrl1_or": {
+    "domain": 2
+  },
+  "sulforaphane": {
+    "domain": 3
+  },
+  "aurora": {
+    "domain": 5
+  },
+  "glymphatic_system": {
+    "domain": 8
+  },
+  "cysteine": {
+    "domain": 9
+  },
+  "memory_entropy_out_hind_insula_xnor": {
+    "domain": 2
+  },
+  "memory_entropy_out_co2_nor": {
+    "domain": 2
+  },
+  "memory_entropy": {
+    "domain": 3
+  },
+  "hind_insula_out0_nand": {
+    "domain": 4
+  },
+  "hind_insula": {
+    "domain": 2
+  },
+  "carbon_q_or": {
+    "domain": 2
+  },
+  "carbon_q_bar_or": {
+    "domain": 5
+  },
+  "carbon": {
+    "domain": 2
+  },
+  "fold_belt_in0_xor": {
+    "domain": 2
+  },
+  "fold_belt_in1_xor": {
+    "domain": 2
+  },
+  "fold_belt": {
+    "domain": 2
+  },
+  "fold_belt_ctrl1_and": {
+    "domain": 2
+  },
+  "fold_belt_ctrl1_or": {
+    "domain": 2
+  },
+  "substance_p_out_mc1r_xnor": {
+    "domain": 2
+  },
+  "substance_p_out_autophagy_xor": {
+    "domain": 2
+  },
+  "substance_p": {
+    "domain": 7
+  },
+  "methionine": {
+    "domain": 7
+  },
+  "podzol_out1_and": {
+    "domain": 2
+  },
+  "adapter_protein_q_or": {
+    "domain": 2
+  },
+  "adapter_protein_q_bar_or": {
+    "domain": 2
+  },
+  "adapter_protein": {
+    "domain": 2
+  },
+  "succinate_dehydrogenase_out0_nand": {
+    "domain": 2
+  },
+  "succinate_dehydrogenase_out1_or": {
+    "domain": 2
+  },
+  "succinate_dehydrogenase_out2_nand": {
+    "domain": 2
+  },
+  "succinate_dehydrogenase": {
+    "domain": 2
+  },
+  "collagen_out0_nand": {
+    "domain": 7
+  },
+  "collagen": {
+    "domain": 2
+  },
+  "andosol_out0_nand": {
+    "domain": 11
+  },
+  "andosol": {
+    "domain": 2
+  },
+  "cambisol_in0_xor": {
+    "domain": 2
+  },
+  "cambisol_in1_xor": {
+    "domain": 10
+  },
+  "cambisol": {
+    "domain": 2
+  },
+  "NaCl_in0_xor": {
+    "domain": 2
+  },
+  "NaCl_in1_xor": {
+    "domain": 11
+  },
+  "NaCl": {
+    "domain": 2
+  },
+  "sodium_in0_xor": {
+    "domain": 2
+  },
+  "sodium_in1_xor": {
+    "domain": 7
+  },
+  "sodium": {
+    "domain": 2
+  },
+  "mycorradicin": {
+    "domain": 11
+  },
+  "mycorradicin_right_acetylcholine_or": {
+    "domain": 2
+  },
+  "mycorradicin_leftd2_and": {
+    "domain": 2
+  },
+  "mycorradicin_autophagy_intermediate_and": {
+    "domain": 2
+  },
+  "mycorradicin_autophagy_input_or": {
+    "domain": 2
+  },
+  "copper_iron_complex": {
+    "domain": 8
+  },
+  "autophagy": {
+    "domain": 2
+  },
+  "water_out0_nand": {
+    "domain": 2
+  },
+  "water": {
+    "domain": 11
+  },
+  "nitrogenase_out_1_xnor": {
+    "domain": 2
+  },
+  "nitrogenase_out_2_nor": {
+    "domain": 9
+  },
+  "nitrogenase": {
+    "domain": 2
+  },
+  "nitrogenase_in_main_and": {
+    "domain": 2
+  },
+  "nitrogenase_in_main_or": {
+    "domain": 2
+  },
+  "chlorine_ion_pump": {
+    "domain": 3
+  },
+  "heath_aerenchyma": {
+    "domain": 11
+  },
+  "heath_aerenchyma_out0_and": {
+    "domain": 2
+  },
+  "podzol_out0_nand": {
+    "domain": 2
+  },
+  "podzol": {
+    "domain": 2
+  },
+  "lower_mantle_q_or": {
+    "domain": 2
+  },
+  "lower_mantle_q_bar_or": {
+    "domain": 2
+  },
+  "lower_mantle": {
+    "domain": 2
+  },
+  "basin_q_or": {
+    "domain": 2
+  },
+  "basin_q_bar_or": {
+    "domain": 2
+  },
+  "basin": {
+    "domain": 2
+  },
+  "left_genital_d2_out0_nand": {
+    "domain": 7
+  },
+  "left_genital_d2": {
+    "domain": 2
+  },
+  "caco3_pyrite_lactate_and": {
+    "domain": 2
+  },
+  "caco3_leftd2_podzol_observer_and": {
+    "domain": 2
+  },
+  "caco3_final_and": {
+    "domain": 3
+  },
+  "caco3_laterite_and": {
+    "domain": 2
+  },
+  "laterite_d_and": {
+    "domain": 2
+  },
+  "laterite_d_or": {
+    "domain": 2
+  },
+  "manganese_nodule": {
+    "domain": 7
+  },
+  "pentose_phosphate_out_1_xnor": {
+    "domain": 2
+  },
+  "pentose_phosphate_out_2_nor": {
+    "domain": 2
+  },
+  "pentose_phosphate": {
+    "domain": 2
+  },
+  "disulfide_bond": {
+    "domain": 12
+  },
+  "peonidine_in0_xor": {
+    "domain": 2
+  },
+  "peonidine_in1_xor": {
+    "domain": 8
+  },
+  "peonidine": {
+    "domain": 2
+  },
+  "right_acetylcholine_out0_nand": {
+    "domain": 7
+  },
+  "right_acetylcholine": {
+    "domain": 2
+  },
+  "co2_in0_xor": {
+    "domain": 2
+  },
+  "co2_in1_xor": {
+    "domain": 2
+  },
+  "co2": {
+    "domain": 10
+  },
+  "glp1_q_or": {
+    "domain": 2
+  },
+  "glp1_q_bar_or": {
+    "domain": 2
+  },
+  "glp1": {
+    "domain": 2
+  },
+  "cck": {
+    "domain": 7
+  },
+  "cck_cox_ctrl_and": {
+    "domain": 2
+  },
+  "laterite_q_or": {
+    "domain": 2
+  },
+  "laterite_q_bar_or": {
+    "domain": 11
+  },
+  "laterite": {
+    "domain": 2
+  },
+  "outer_core_convection": {
+    "domain": 10
+  },
+  "male_right_oxytocin_q_or": {
+    "domain": 2
+  },
+  "male_right_oxytocin_q_bar_or": {
+    "domain": 2
+  },
+  "male_right_oxytocin": {
+    "domain": 2
+  },
+  "gluon_orogen_clk": {
+    "domain": 2
+  },
+  "gluon_orogen_q_or": {
+    "domain": 2
+  },
+  "gluon_orogen_q_bar_or": {
+    "domain": 2
+  },
+  "gluon_orogen": {
+    "domain": 2
+  },
+  "lactate_dehydrogenase": {
+    "domain": 2
+  },
+  "lactate_caco3_and": {
+    "domain": 2
+  },
+  "mangrove_aerenchyma": {
+    "domain": 2
+  },
+  "thorium_out0_nand": {
+    "domain": 2
+  },
+  "monazite_thorium_and": {
+    "domain": 2
+  },
+  "water_oxidised_manganese_monazite_and": {
+    "domain": 2
+  },
+  "water_oxidised_manganese_monazite_manganese_oxygen_complex_or": {
+    "domain": 11
+  },
+  "monazite": {
+    "domain": 2
+  },
+  "thorium": {
+    "domain": 10
+  },
+  "magnetite_out0_nand": {
+    "domain": 2
+  },
+  "magnetite": {
+    "domain": 11
+  },
+  "oxidised_manganese_set_and": {
+    "domain": 2
+  },
+  "oxidised_manganese_reset_and": {
+    "domain": 2
+  },
+  "oxidised_manganese": {
+    "domain": 11
+  },
+  "manganese_oxygen_complex": {
+    "domain": 11
+  },
+  "pi_electron_cloud_out0_nand": {
+    "domain": 11
+  },
+  "pi_electron_cloud": {
+    "domain": 2
+  },
+  "pi_electron_cloud_in0_and": {
+    "domain": 2
+  },
+  "pi_electron_cloud_in0_or": {
+    "domain": 2
+  },
+  "ferritin_in0_xor": {
+    "domain": 2
+  },
+  "ferritin_in1_xor": {
+    "domain": 4
+  },
+  "ferritin": {
+    "domain": 2
+  },
+  "ferritin_ctrl0_and": {
+    "domain": 2
+  },
+  "ferritin_ctrl0_or": {
+    "domain": 2
+  },
+  "methylation_in0_xor": {
+    "domain": 2
+  },
+  "methylation_in1_xor": {
+    "domain": 9
+  },
+  "methylation": {
+    "domain": 10
+  },
+  "sulfur_iron_complex": {
+    "domain": 2
+  },
+  "large_igneous_province_in0_xor": {
+    "domain": 2
+  },
+  "large_igneous_province_in1_xor": {
+    "domain": 2
+  },
+  "large_igneous_province": {
+    "domain": 9
+  },
+  "subduction_zone_in0_xor": {
+    "domain": 2
+  },
+  "subduction_zone_in1_xor": {
+    "domain": 10
+  },
+  "subduction_zone": {
+    "domain": 2
+  },
+  "monazite_out0_nand": {
+    "domain": 2
+  },
+  "craton_in0_xor": {
+    "domain": 2
+  },
+  "craton_in1_xor": {
+    "domain": 9
+  },
+  "craton": {
+    "domain": 2
+  },
+  "pyrite_in0_xor": {
+    "domain": 2
+  },
+  "pyrite_in1_xor": {
+    "domain": 10
+  },
+  "pyrite": {
+    "domain": 2
+  },
+  "right_sole_dopamine_q_or": {
+    "domain": 2
+  },
+  "right_sole_dopamine_q_bar_or": {
+    "domain": 2
+  },
+  "right_sole_dopamine": {
+    "domain": 2
+  },
+  "observer_right_sole_dopamine": {
+    "domain": 2
+  },
+  "plume_out0_nand": {
+    "domain": 9
+  },
+  "plume": {
+    "domain": 2
+  },
+  "actomyosin_ctrl": {
+    "domain": 2
+  },
+  "actomyosin_in0_xor": {
+    "domain": 2
+  },
+  "actomyosin_in1_xor": {
+    "domain": 9
+  },
+  "actomyosin": {
+    "domain": 2
+  }
+}

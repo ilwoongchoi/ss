@@ -1,0 +1,142 @@
+================================================================================
+4 STRESS ENERGY PAIRS → 5-SPHERE TOROIDAL CIRCULATION
+================================================================================
+
+■ 4 Stress Pairs (8D Decomposition)
+--------------------------------------------------------------------------------
+  산소/이산화탄소 스트레스 (O₂/CO₂ Stress)
+    dims: ('h', 'p')
+    낮: h — female GABA-B CO₂ sensor (osmotic stress)
+    밤: p — hypoxic / low-water oxygen stress
+    pole_a: Earth(h) = CO₂/osmotic
+    pole_b: Moon(p) = oxygen/salt
+    toroidal: Earth→Moon  phase=A_accumulate  hours=(3, 9)
+    attractors: ('Information', 'Repair')
+
+  물질/비물질 스트레스 (Matter/Non-matter Stress)
+    dims: ('s', 'g')
+    낮: s — right sole dopamine C mass / osmotic sense
+    밤: g — 무질량 sensor (male osmotic) / cold-sense binding
+    pole_a: Sun(s) = mass/brightness
+    pole_b: Barnard(g) = binding density/무질량
+    toroidal: CoMag→Barnard  phase=B_accumulate  hours=(15, 21)
+    attractors: ('Energy', 'Information')
+
+  열/냉기 스트레스 (Heat/Cold Stress)
+    dims: ('nu', 'r')
+    낮: nu — male GABA-A temperature sensor (heat)
+    밤: r — 무질량 stress / acid sensor (cold)
+    pole_a: Moon(nu) = heat/self-similarity
+    pole_b: Sun(r) = cold/rhythm
+    toroidal: Moon→CoMag  phase=O_accumulate  hours=(9, 15)
+    attractors: ('Information', 'Energy')
+
+  빛/암흑 스트레스 (Light/Dark Stress)
+    dims: ('gamma', 'd')
+    낮: gamma — right D2 UV sensor (light)
+    밤: d — light stress / photonic load (darkness inversion)
+    pole_a: Earth(gamma) = light/spatial expansion
+    pole_b: Barnard(d) = dark/dissonance
+    toroidal: Sun→Earth  phase=AB_spark  hours=(0, 3)
+    attractors: ('Energy', 'Repair')
+
+■ 5-Sphere Toroidal Cycle
+--------------------------------------------------------------------------------
+  [1] Sun→Earth  (AB_spark, 0-3h)
+      stress: 빛/암흑 스트레스
+      H(Proton) dims=('r', 's') → O(Photon) dims=('gamma', 'h')
+      flow: Light energy: proton spark → oxygen repair ignition
+      desc: 정보 스파크가 수리 엔진을 점화 — s(brightness)→gamma(expansion)
+      circuit: heme → steel (2 hops)
+        path: heme → steel
+
+  [2] Earth→Moon  (A_accumulate, 3-9h)
+      stress: 산소/이산화탄소 스트레스
+      O(Photon) dims=('gamma', 'h') → C(Z-boson) dims=('p', 'nu')
+      flow: O₂/CO₂ exchange: oxygen repair → carbon clock accumulation
+      desc: 수리가 시간/스케줄에 축적 — h(CO₂)→p(oxygen)
+      circuit: succinate_dehydrogenase → carbon (5 hops)
+        path: succinate_dehydrogenase → succinate_dehydrogenase_out0_nand → hind_insula → hind_insula_out0_nand → carbon
+
+  [3] Moon→CoMag  (O_accumulate, 9-15h)
+      stress: 열/냉기 스트레스
+      C(Z-boson) dims=('p', 'nu') → S(W-boson/Gluon) dims=('g', 'gamma')
+      flow: Thermal gradient: carbon clock heat → sulfur bridge coupling
+      desc: 시간이 결합 브릿지로 전환 — nu(heat)→g(binding)
+      circuit: co2 → sulforaphane (5 hops)
+        path: co2 → hind_insula → hind_insula_out0_nand → sodium → sulforaphane
+
+  [4] CoMag→Barnard  (B_accumulate, 15-21h)
+      stress: 물질/비물질 스트레스
+      S(W-boson/Gluon) dims=('g', 'gamma') → Fe(Quark/Higgs) dims=('g', 'd')
+      flow: Matter compression: sulfur binding → iron mass storage
+      desc: 결합 에너지가 질량 저장소로 압축 — g(binding)→d(dissonance/mass)
+      circuit: histosol → heme (3 hops)
+        path: histosol → manganese_oxygen_complex → heme
+
+  [5] Barnard→Sun  (AB_integration, 21-3h)
+      stress: reset_spark
+      Fe(Quark/Higgs) dims=('g', 'd') → H(Proton) dims=('r', 's')
+      flow: Reset spark (138.88°): iron mass → proton spark recharge
+      desc: 질량 저장이 다음 정보 스파크 충전 — d(dark)→r(cold/rhythm), g→s
+      circuit: ferritin → cytochrome_c_oxidase (3 hops)
+        path: ferritin → cytochrome_c_oxidase_in1_xor → cytochrome_c_oxidase
+
+■ Toroidal Energy Flow Diagram
+--------------------------------------------------------------------------------
+  Sun(H) ──Light/Dark──→ Earth(O) ──O₂/CO₂──→ Moon(C) ──Heat/Cold──→ CoMag(S) ──Matter/Non-matter──→ Barnard(Fe)
+    ↑                                                                                    │
+    │                              ← Reset/Spark (138.88°) ←────────────────────────────│
+    └── r(cold), s(brightness) ←── d(dark), g(binding) ←──────────────────────────────┘
+
+■ 3 Attractors
+--------------------------------------------------------------------------------
+  Energy Attractor (dims=('r', 'g', 'gamma'), sphere=Barnard)
+    loop: observer_leftd2 → carbon → succinate_dehydrogenase → autophagy → nacl → actomyosin → observer_leftd2
+    breakdown: Fatigue, Depression, Hypometabolism
+
+  Information Attractor (dims=('h', 'nu', 's'), sphere=Sun)
+    loop: mc1r → glymphatic_system → cysteine → memory_entropy → hind_insula → carbon → mc1r
+    breakdown: Anxiety, Schizophrenia, OCD
+
+  Repair Attractor (dims=('p', 'd', 'g'), sphere=Earth)
+    loop: carbon → mycorradicin → autophagy → collagen → methionine → substance_p → mc1r → carbon
+    breakdown: Chronic inflammation, Long COVID, HSV, Lyme
+
+■ Hourly Energy Flow (24h)
+--------------------------------------------------------------------------------
+  00:00  AB_spark          빛/암흑 스트레스             Sun     →Earth     dims=('gamma', 'd')
+  01:00  AB_spark          빛/암흑 스트레스             Sun     →Earth     dims=('gamma', 'd')
+  02:00  AB_spark          빛/암흑 스트레스             Sun     →Earth     dims=('gamma', 'd')
+  03:00  A_accumulate      산소/이산화탄소 스트레스         Earth   →Moon      dims=('h', 'p')
+  04:00  A_accumulate      산소/이산화탄소 스트레스         Earth   →Moon      dims=('h', 'p')
+  05:00  A_accumulate      산소/이산화탄소 스트레스         Earth   →Moon      dims=('h', 'p')
+  06:00  A_accumulate      산소/이산화탄소 스트레스         Earth   →Moon      dims=('h', 'p')
+  07:00  A_accumulate      산소/이산화탄소 스트레스         Earth   →Moon      dims=('h', 'p')
+  08:00  A_accumulate      산소/이산화탄소 스트레스         Earth   →Moon      dims=('h', 'p')
+  09:00  O_accumulate      열/냉기 스트레스             Moon    →CoMag     dims=('nu', 'r')
+  10:00  O_accumulate      열/냉기 스트레스             Moon    →CoMag     dims=('nu', 'r')
+  11:00  O_accumulate      열/냉기 스트레스             Moon    →CoMag     dims=('nu', 'r')
+  12:00  O_accumulate      열/냉기 스트레스             Moon    →CoMag     dims=('nu', 'r')
+  13:00  O_accumulate      열/냉기 스트레스             Moon    →CoMag     dims=('nu', 'r')
+  14:00  O_accumulate      열/냉기 스트레스             Moon    →CoMag     dims=('nu', 'r')
+  15:00  B_accumulate      물질/비물질 스트레스           CoMag   →Barnard   dims=('s', 'g')
+  16:00  B_accumulate      물질/비물질 스트레스           CoMag   →Barnard   dims=('s', 'g')
+  17:00  B_accumulate      물질/비물질 스트레스           CoMag   →Barnard   dims=('s', 'g')
+  18:00  B_accumulate      물질/비물질 스트레스           CoMag   →Barnard   dims=('s', 'g')
+  19:00  B_accumulate      물질/비물질 스트레스           CoMag   →Barnard   dims=('s', 'g')
+  20:00  B_accumulate      물질/비물질 스트레스           CoMag   →Barnard   dims=('s', 'g')
+  21:00  AB_integration    reset_spark           Barnard →Sun       dims=()
+  22:00  AB_integration    reset_spark           Barnard →Sun       dims=()
+  23:00  AB_integration    reset_spark           Barnard →Sun       dims=()
+
+■ Cross-Map: Stress Pair ↔ Sphere ↔ Attractor
+--------------------------------------------------------------------------------
+  Light/Dark    → Sun→Earth    → Energy + Repair
+  O₂/CO₂        → Earth→Moon   → Information + Repair
+  Heat/Cold     → Moon→CoMag   → Information + Energy
+  Matter/Non-m  → CoMag→Barnard→ Energy + Information
+  Reset/Spark   → Barnard→Sun  → All 3 (closure)
+
+  Each stress pair bridges exactly 2 attractors.
+  The 5th transition (reset) closes all 3 into a single toroidal manifold.

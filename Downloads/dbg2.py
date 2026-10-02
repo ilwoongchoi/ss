@@ -1,0 +1,23 @@
+import sqlite3
+conn = sqlite3.connect(r'c:\Users\User\Downloads\chilterns_results.gpkg')
+cur = conn.cursor()
+layers = ['AW_250m_buffer','gap_raw','gap_phi','AW_connectivity_opportunities','opp_centroids','opp_with_distance','road_10m_buffer','AW_final_opportunities','gap_heath_raw','gap_heath_phi','AW_heath_opportunities','heath_opp_with_distance','AW_final_opportunities_heath','gap_lm_raw','gap_lm_phi','AW_LM_opportunities','lm_opp_with_distance','AW_final_opportunities_meadows']
+for t in layers:
+    cur.execute(f'SELECT COUNT(*) FROM "{t}"')
+    print(f"{t}: {cur.fetchone()[0]}")
+print("\n--- road_10m_buffer cols ---")
+cur.execute('PRAGMA table_info(road_10m_buffer)')
+print([c[1] for c in cur.fetchall()])
+print("\n--- opp_with_distance cols ---")
+cur.execute('PRAGMA table_info(opp_with_distance)')
+print([c[1] for c in cur.fetchall()])
+print("\n--- AW_connectivity_opportunities cols ---")
+cur.execute('PRAGMA table_info(AW_connectivity_opportunities)')
+print([c[1] for c in cur.fetchall()])
+print("\n--- gap_phi cols ---")
+cur.execute('PRAGMA table_info(gap_phi)')
+print([c[1] for c in cur.fetchall()])
+print("\n--- AW_final_opportunities cols ---")
+cur.execute('PRAGMA table_info(AW_final_opportunities)')
+print([c[1] for c in cur.fetchall()])
+conn.close()

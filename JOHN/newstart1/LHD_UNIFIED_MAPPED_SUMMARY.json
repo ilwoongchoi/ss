@@ -1,0 +1,415 @@
+{
+  "total_edges": 8444,
+  "by_src": {
+    "BOLO": 1415,
+    "HALPHA": 7029
+  },
+  "contact_top1": 0.95,
+  "gap_min": 0.0,
+  "drift_range": [
+    1.0000000000000002,
+    4.61
+  ],
+  "top50": [
+    {
+      "src": "HALPHA",
+      "a": 80,
+      "b": 116,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.8690223112233604
+    },
+    {
+      "src": "HALPHA",
+      "a": 81,
+      "b": 125,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.083307629761168
+    },
+    {
+      "src": "HALPHA",
+      "a": 20,
+      "b": 78,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.5882405789543144
+    },
+    {
+      "src": "HALPHA",
+      "a": 89,
+      "b": 107,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.5905016174922395
+    },
+    {
+      "src": "HALPHA",
+      "a": 48,
+      "b": 116,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.9948396848650012
+    },
+    {
+      "src": "HALPHA",
+      "a": 21,
+      "b": 34,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.8285303560181307
+    },
+    {
+      "src": "HALPHA",
+      "a": 110,
+      "b": 119,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.083307629761168
+    },
+    {
+      "src": "HALPHA",
+      "a": 8,
+      "b": 121,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 2.182109154991568
+    },
+    {
+      "src": "HALPHA",
+      "a": 44,
+      "b": 105,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.932441301880868
+    },
+    {
+      "src": "HALPHA",
+      "a": 33,
+      "b": 54,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.0000000000000002
+    },
+    {
+      "src": "HALPHA",
+      "a": 11,
+      "b": 125,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.890169302215571
+    },
+    {
+      "src": "HALPHA",
+      "a": 65,
+      "b": 72,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.487029794623329
+    },
+    {
+      "src": "HALPHA",
+      "a": 75,
+      "b": 101,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.0000000000000002
+    },
+    {
+      "src": "HALPHA",
+      "a": 114,
+      "b": 115,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.155811724690583
+    },
+    {
+      "src": "HALPHA",
+      "a": 14,
+      "b": 106,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.0000000000000002
+    },
+    {
+      "src": "HALPHA",
+      "a": 16,
+      "b": 94,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.0000000000000002
+    },
+    {
+      "src": "HALPHA",
+      "a": 3,
+      "b": 33,
+      "mapped_contact_score": 0.95,
+      "mapped_gap_dist": 0.0,
+      "mapped_drift_factor_used": 1.083307629761168
+    },
+    {
+      "src": "HALPHA",
+      "a": 44,
+      "b": 46,
+      "mapped_contact_score": 0.9440006488760322,
+      "mapped_gap_dist": 0.0966699241499693,
+      "mapped_drift_factor_used": 1.1416759209068712
+    },
+    {
+      "src": "HALPHA",
+      "a": 24,
+      "b": 61,
+      "mapped_contact_score": 0.9381855688621964,
+      "mapped_gap_dist": 0.1903706148159454,
+      "mapped_drift_factor_used": 2.3121382362986447
+    },
+    {
+      "src": "HALPHA",
+      "a": 18,
+      "b": 23,
+      "mapped_contact_score": 0.9347277338128612,
+      "mapped_gap_dist": 0.2460880824278906,
+      "mapped_drift_factor_used": 1.205920818696979
+    },
+    {
+      "src": "HALPHA",
+      "a": 55,
+      "b": 118,
+      "mapped_contact_score": 0.9060033533269318,
+      "mapped_gap_dist": 0.7089354179899292,
+      "mapped_drift_factor_used": 1.7533728069512322
+    },
+    {
+      "src": "HALPHA",
+      "a": 1,
+      "b": 53,
+      "mapped_contact_score": 0.9001079368674177,
+      "mapped_gap_dist": 0.8039306016685224,
+      "mapped_drift_factor_used": 2.183960380294496
+    },
+    {
+      "src": "HALPHA",
+      "a": 14,
+      "b": 40,
+      "mapped_contact_score": 0.8950627221105183,
+      "mapped_gap_dist": 0.8852261481020847,
+      "mapped_drift_factor_used": 1.8256464851051757
+    },
+    {
+      "src": "HALPHA",
+      "a": 31,
+      "b": 113,
+      "mapped_contact_score": 0.8784801474481594,
+      "mapped_gap_dist": 1.1524277506916043,
+      "mapped_drift_factor_used": 1.595617091371022
+    },
+    {
+      "src": "HALPHA",
+      "a": 9,
+      "b": 68,
+      "mapped_contact_score": 0.8778520719126304,
+      "mapped_gap_dist": 1.162548180905711,
+      "mapped_drift_factor_used": 1.599968543779429
+    },
+    {
+      "src": "HALPHA",
+      "a": 59,
+      "b": 114,
+      "mapped_contact_score": 0.8706608563270941,
+      "mapped_gap_dist": 1.2784230898475464,
+      "mapped_drift_factor_used": 1.6497909466734533
+    },
+    {
+      "src": "BOLO",
+      "a": 1,
+      "b": 39,
+      "mapped_contact_score": 0.8385029960774731,
+      "mapped_gap_dist": 1.7965954466440497,
+      "mapped_drift_factor_used": 1.872588031604277
+    },
+    {
+      "src": "HALPHA",
+      "a": 56,
+      "b": 74,
+      "mapped_contact_score": 0.8333525804699821,
+      "mapped_gap_dist": 1.8795861361084276,
+      "mapped_drift_factor_used": 1.5413574371540086
+    },
+    {
+      "src": "BOLO",
+      "a": 49,
+      "b": 57,
+      "mapped_contact_score": 0.8322237177455982,
+      "mapped_gap_dist": 1.897775948921005,
+      "mapped_drift_factor_used": 1.2499230519044675
+    },
+    {
+      "src": "HALPHA",
+      "a": 21,
+      "b": 77,
+      "mapped_contact_score": 0.8296711220344001,
+      "mapped_gap_dist": 1.9389069360374709,
+      "mapped_drift_factor_used": 2.257622608272772
+    },
+    {
+      "src": "HALPHA",
+      "a": 79,
+      "b": 96,
+      "mapped_contact_score": 0.8226526630864737,
+      "mapped_gap_dist": 2.051998148757985,
+      "mapped_drift_factor_used": 1.9824028003160368
+    },
+    {
+      "src": "HALPHA",
+      "a": 5,
+      "b": 38,
+      "mapped_contact_score": 0.8212368362407934,
+      "mapped_gap_dist": 2.0748119282740074,
+      "mapped_drift_factor_used": 1.3332306816656354
+    },
+    {
+      "src": "HALPHA",
+      "a": 50,
+      "b": 123,
+      "mapped_contact_score": 0.8199587844115505,
+      "mapped_gap_dist": 2.0954056843052324,
+      "mapped_drift_factor_used": 2.3217821937291565
+    },
+    {
+      "src": "HALPHA",
+      "a": 25,
+      "b": 46,
+      "mapped_contact_score": 0.8063462313292982,
+      "mapped_gap_dist": 2.31475015119125,
+      "mapped_drift_factor_used": 1.7380594157367089
+    },
+    {
+      "src": "HALPHA",
+      "a": 109,
+      "b": 112,
+      "mapped_contact_score": 0.8047795551929803,
+      "mapped_gap_dist": 2.3399946251578374,
+      "mapped_drift_factor_used": 2.1062318208545325
+    },
+    {
+      "src": "BOLO",
+      "a": 7,
+      "b": 37,
+      "mapped_contact_score": 0.8038345766400566,
+      "mapped_gap_dist": 2.3552214393827158,
+      "mapped_drift_factor_used": 2.79167520043379
+    },
+    {
+      "src": "HALPHA",
+      "a": 5,
+      "b": 121,
+      "mapped_contact_score": 0.8005021004828988,
+      "mapped_gap_dist": 2.408918949444597,
+      "mapped_drift_factor_used": 2.450312813616308
+    },
+    {
+      "src": "HALPHA",
+      "a": 15,
+      "b": 72,
+      "mapped_contact_score": 0.7982336831522325,
+      "mapped_gap_dist": 2.445470857603452,
+      "mapped_drift_factor_used": 2.465297951204116
+    },
+    {
+      "src": "HALPHA",
+      "a": 55,
+      "b": 75,
+      "mapped_contact_score": 0.7924795033984875,
+      "mapped_gap_dist": 2.538190238224056,
+      "mapped_drift_factor_used": 2.191449421249549
+    },
+    {
+      "src": "HALPHA",
+      "a": 52,
+      "b": 64,
+      "mapped_contact_score": 0.7720087655115961,
+      "mapped_gap_dist": 2.868043356991153,
+      "mapped_drift_factor_used": 1.5967234457610835
+    },
+    {
+      "src": "HALPHA",
+      "a": 26,
+      "b": 99,
+      "mapped_contact_score": 0.7637209707336805,
+      "mapped_gap_dist": 3.0015878813899395,
+      "mapped_drift_factor_used": 1.6603507450616648
+    },
+    {
+      "src": "HALPHA",
+      "a": 11,
+      "b": 23,
+      "mapped_contact_score": 0.7500501452596592,
+      "mapped_gap_dist": 3.2218713144367896,
+      "mapped_drift_factor_used": 1.7653048043054378
+    },
+    {
+      "src": "HALPHA",
+      "a": 70,
+      "b": 83,
+      "mapped_contact_score": 0.7493752562786169,
+      "mapped_gap_dist": 3.2327460682658096,
+      "mapped_drift_factor_used": 1.3347254793657104
+    },
+    {
+      "src": "HALPHA",
+      "a": 32,
+      "b": 74,
+      "mapped_contact_score": 0.7484611082494564,
+      "mapped_gap_dist": 3.2474760980331503,
+      "mapped_drift_factor_used": 2.4964190319888973
+    },
+    {
+      "src": "HALPHA",
+      "a": 16,
+      "b": 102,
+      "mapped_contact_score": 0.7461870892963264,
+      "mapped_gap_dist": 3.2841182673565044,
+      "mapped_drift_factor_used": 2.8091171238773947
+    },
+    {
+      "src": "HALPHA",
+      "a": 56,
+      "b": 117,
+      "mapped_contact_score": 0.7440805193537662,
+      "mapped_gap_dist": 3.3180622643581703,
+      "mapped_drift_factor_used": 2.526768763863589
+    },
+    {
+      "src": "HALPHA",
+      "a": 45,
+      "b": 94,
+      "mapped_contact_score": 0.7323737927043374,
+      "mapped_gap_dist": 3.5066973940346973,
+      "mapped_drift_factor_used": 2.6078756705834047
+    },
+    {
+      "src": "HALPHA",
+      "a": 106,
+      "b": 124,
+      "mapped_contact_score": 0.7294927627130422,
+      "mapped_gap_dist": 3.553120572971439,
+      "mapped_drift_factor_used": 1.4960903565765171
+    },
+    {
+      "src": "HALPHA",
+      "a": 3,
+      "b": 53,
+      "mapped_contact_score": 0.709678164954489,
+      "mapped_gap_dist": 3.872401045609392,
+      "mapped_drift_factor_used": 2.075249746605322
+    },
+    {
+      "src": "HALPHA",
+      "a": 39,
+      "b": 55,
+      "mapped_contact_score": 0.6967751149881813,
+      "mapped_gap_dist": 4.080313007381895,
+      "mapped_drift_factor_used": 2.854511533821375
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+01:00 phase=AB_spark
+  -> co2                       | left   back       | right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)
+  -> memory_entropy            | right  other      | hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)
+06:00 phase=A_accumulate
+  -> laterite                  | left   foot       | left calf between thumb toe and magnetite (inferred: left gastrocnemius / left medial calf)
+12:00 phase=O_accumulate
+  -> memory_entropy            | right  other      | hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)
+  -> peonidine                 | right  brain      | just outside co2 to the right in the brain (inferred: right parieto-occipital junction / right angular gyrus)
+18:00 phase=B_accumulate
+  -> hind_insula               | right  other      | right posterior insula, lateral and posterior to memory_entropy
+  -> co2                       | left   back       | right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)
+23:00 phase=AB_charge
+  -> co2                       | left   back       | right back of head on left inner occipitalis muscle vertical strip just below top (inferred: right occipital cortex / right occipitalis muscle vertical strip)
+  -> memory_entropy            | right  other      | hind of cysteine; choice point between cysteine and disulfide paths (inferred: posterior right vmPFC / right posterior cingulate)

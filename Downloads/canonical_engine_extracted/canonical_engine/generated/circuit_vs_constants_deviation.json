@@ -1,0 +1,267 @@
+{
+  "dims": [
+    "r",
+    "h",
+    "d",
+    "p",
+    "s",
+    "gamma",
+    "g",
+    "nu"
+  ],
+  "seed": "observer loop bootstrapped to 1.0 (only seed the engine has)",
+  "full_circuit_8d": {
+    "r": 0.0,
+    "h": 1.0,
+    "d": 1.0,
+    "p": 1.0,
+    "s": 1.0,
+    "gamma": 1.0,
+    "g": 1.0,
+    "nu": 1.0
+  },
+  "tiles": {
+    "Sync": {
+      "nodes": [
+        "co2",
+        "observer_leftd2",
+        "memory_entropy"
+      ],
+      "primary_constant": "W7",
+      "secondary_constant": "OMEGA",
+      "circuit_8d": {
+        "r": 0.0,
+        "h": 0.0,
+        "d": 0.0,
+        "p": 1.0,
+        "s": 0.0,
+        "gamma": 0.0,
+        "g": 0.0,
+        "nu": 0.0
+      },
+      "reference_8d_mean": {
+        "r": 0.4308,
+        "h": 0.4744,
+        "d": 0.3144,
+        "p": 0.4472,
+        "s": 0.502,
+        "gamma": 0.3912,
+        "g": 0.3672,
+        "nu": 0.4516
+      },
+      "deviation": {
+        "r": 0.4308,
+        "h": 0.4744,
+        "d": 0.3144,
+        "p": 0.5528,
+        "s": 0.502,
+        "gamma": 0.3912,
+        "g": 0.3672,
+        "nu": 0.4516
+      },
+      "total_deviation": 3.4844,
+      "worst_dim": "p",
+      "worst_dev": 0.5528
+    },
+    "Stress": {
+      "nodes": [
+        "sodium",
+        "chlorine_ion_pump",
+        "cysteine"
+      ],
+      "primary_constant": "KAPPA_1_32",
+      "secondary_constant": "BETTI_5",
+      "circuit_8d": {
+        "r": 0.0,
+        "h": 0.0,
+        "d": 0.0,
+        "p": 0.0,
+        "s": 0.0,
+        "gamma": 0.0,
+        "g": 0.0,
+        "nu": 0.0
+      },
+      "reference_8d_mean": {
+        "r": 0.4448,
+        "h": 0.5724,
+        "d": 0.5524,
+        "p": 0.3772,
+        "s": 0.446,
+        "gamma": 0.3772,
+        "g": 0.5912,
+        "nu": 0.3816
+      },
+      "deviation": {
+        "r": 0.4448,
+        "h": 0.5724,
+        "d": 0.5524,
+        "p": 0.3772,
+        "s": 0.446,
+        "gamma": 0.3772,
+        "g": 0.5912,
+        "nu": 0.3816
+      },
+      "total_deviation": 3.7428,
+      "worst_dim": "g",
+      "worst_dev": 0.5912
+    },
+    "Hysteresis": {
+      "nodes": [
+        "hind_insula",
+        "laterite",
+        "memory_entropy"
+      ],
+      "primary_constant": "SPARK_ANGLE_DEG",
+      "secondary_constant": "DELTA_CLOSURE",
+      "circuit_8d": {
+        "r": 0.0,
+        "h": 0.0,
+        "d": 1.0,
+        "p": 0.0,
+        "s": 0.0,
+        "gamma": 0.0,
+        "g": 0.0,
+        "nu": 0.0
+      },
+      "reference_8d_mean": {
+        "r": 0.5708,
+        "h": 0.4324,
+        "d": 0.3564,
+        "p": 0.6992,
+        "s": 0.348,
+        "gamma": 0.2792,
+        "g": 0.3252,
+        "nu": 0.5776
+      },
+      "deviation": {
+        "r": 0.5708,
+        "h": 0.4324,
+        "d": 0.6436,
+        "p": 0.6992,
+        "s": 0.348,
+        "gamma": 0.2792,
+        "g": 0.3252,
+        "nu": 0.5776
+      },
+      "total_deviation": 3.876,
+      "worst_dim": "p",
+      "worst_dev": 0.6992
+    },
+    "Mirror": {
+      "nodes": [
+        "left_endorphin_non_observer",
+        "left_endorphin_electron_neutrino"
+      ],
+      "primary_constant": "H2",
+      "secondary_constant": "BETTI_7",
+      "circuit_8d": {
+        "r": 0.0,
+        "h": 0.0,
+        "d": 0.0,
+        "p": 0.0,
+        "s": 0.0,
+        "gamma": 0.0,
+        "g": 0.0,
+        "nu": 0.0
+      },
+      "reference_8d_mean": {
+        "r": 0.3048,
+        "h": 0.5024,
+        "d": 0.5944,
+        "p": 0.3072,
+        "s": 0.46,
+        "gamma": 0.3632,
+        "g": 0.6472,
+        "nu": 0.3816
+      },
+      "deviation": {
+        "r": 0.3048,
+        "h": 0.5024,
+        "d": 0.5944,
+        "p": 0.3072,
+        "s": 0.46,
+        "gamma": 0.3632,
+        "g": 0.6472,
+        "nu": 0.3816
+      },
+      "total_deviation": 3.5608,
+      "worst_dim": "g",
+      "worst_dev": 0.6472
+    },
+    "Release": {
+      "nodes": [
+        "cytochrome_c_oxidase",
+        "actomyosin",
+        "right_sole_dopamine"
+      ],
+      "primary_constant": "CLOSURE_TENSION",
+      "secondary_constant": "SPARK_MAGNITUDE",
+      "circuit_8d": {
+        "r": 0.0,
+        "h": 0.0,
+        "d": 0.0,
+        "p": 1.0,
+        "s": 0.0,
+        "gamma": 0.0,
+        "g": 0.0,
+        "nu": 0.0
+      },
+      "reference_8d_mean": {
+        "r": 0.6688,
+        "h": 0.5024,
+        "d": 0.5104,
+        "p": 0.6012,
+        "s": 0.488,
+        "gamma": 0.7412,
+        "g": 0.5212,
+        "nu": 0.4376
+      },
+      "deviation": {
+        "r": 0.6688,
+        "h": 0.5024,
+        "d": 0.5104,
+        "p": 0.3988,
+        "s": 0.488,
+        "gamma": 0.7412,
+        "g": 0.5212,
+        "nu": 0.4376
+      },
+      "total_deviation": 4.2684,
+      "worst_dim": "gamma",
+      "worst_dev": 0.7412
+    }
+  },
+  "tile_deviation_ranking": [
+    {
+      "tile": "Release",
+      "total_deviation": 4.2684
+    },
+    {
+      "tile": "Hysteresis",
+      "total_deviation": 3.876
+    },
+    {
+      "tile": "Stress",
+      "total_deviation": 3.7428
+    },
+    {
+      "tile": "Mirror",
+      "total_deviation": 3.5608
+    },
+    {
+      "tile": "Sync",
+      "total_deviation": 3.4844
+    }
+  ],
+  "mean_deviation_per_dim": {
+    "r": 0.484,
+    "h": 0.4968,
+    "d": 0.523,
+    "p": 0.467,
+    "s": 0.4488,
+    "gamma": 0.4304,
+    "g": 0.4904,
+    "nu": 0.446
+  },
+  "overall_mean_deviation": 0.4733
+}

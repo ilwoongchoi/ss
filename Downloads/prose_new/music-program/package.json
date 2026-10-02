@@ -1,0 +1,24 @@
+{
+  "name": "toroidal-music-program",
+  "version": "1.0.0",
+  "description": "8D parameter-driven music tile generation program with calibration stage",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.toroidal.musicprogram",
+    "productName": "Toroidal Music Program",
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "dependencies": {
+    "soundfont-player": "^0.12.0"
+  }
+}

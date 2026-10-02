@@ -1,0 +1,160 @@
+{
+  "assignments": [
+    {
+      "source": "core_center",
+      "target": "sheet_id:3",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "right_branch",
+      "target": "flash_bridge",
+      "type": "calculated_missing_vector",
+      "bucket": "flash_anchor_dock"
+    },
+    {
+      "source": "core_center",
+      "target": "mediator:synthetic_alpha",
+      "type": "calculated_missing_vector",
+      "bucket": "boundary_to_core_corridor"
+    },
+    {
+      "source": "core_center",
+      "target": "flash:center_in",
+      "type": "calculated_missing_vector",
+      "bucket": "flash_anchor_dock"
+    },
+    {
+      "source": "core_center",
+      "target": "sheet_id:12",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "core_center",
+      "target": "sheet_id:4",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "core_center",
+      "target": "sheet_id:1",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "core_center",
+      "target": "gateway_peak",
+      "type": "calculated_missing_vector",
+      "bucket": "boundary_to_core_corridor"
+    },
+    {
+      "source": "right_branch",
+      "target": "sheet_id:12",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "core_center",
+      "target": "sheet_id:2",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "core_center",
+      "target": "flash_bridge",
+      "type": "calculated_missing_vector",
+      "bucket": "flash_anchor_dock"
+    },
+    {
+      "source": "core_center",
+      "target": "sheet_id:11",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "right_branch",
+      "target": "flash:center_in",
+      "type": "calculated_missing_vector",
+      "bucket": "flash_anchor_dock"
+    },
+    {
+      "source": "right_branch",
+      "target": "sheet_id:4",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "core_center",
+      "target": "sheet_id:13",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "right_branch",
+      "target": "sheet_id:10",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "right_branch",
+      "target": "mediator:synthetic_alpha",
+      "type": "calculated_missing_vector",
+      "bucket": "boundary_to_core_corridor"
+    },
+    {
+      "source": "right_branch",
+      "target": "sheet_id:2",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "right_branch",
+      "target": "sheet_id:1",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "core_center",
+      "target": "sheet_id:14",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "right_branch",
+      "target": "sheet_id:3",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "core_center",
+      "target": "sheet_id:10",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "right_branch",
+      "target": "gateway_peak",
+      "type": "calculated_missing_vector",
+      "bucket": "boundary_to_core_corridor"
+    },
+    {
+      "source": "right_branch",
+      "target": "sheet_id:11",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "right_branch",
+      "target": "sheet_id:14",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    },
+    {
+      "source": "right_branch",
+      "target": "sheet_id:13",
+      "type": "calculated_missing_vector",
+      "bucket": "engine_to_big_woman_transition"
+    }
+  ]
+}

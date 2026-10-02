@@ -1,0 +1,428 @@
+1. [line 29] 지금 잠겨 있는 핵심 뼈대는 이거다. 과학적으로는 `H2 = 1/9`, `W7 = pi/20`, `1/32`, `3/32`, `1/28`, `138.88°`, `LOOP_STRENGTH_5 = 5.555492104`, `TOTAL_DEBT_AREA ~ 1.3228`가 중심 상수로 반복되고 있고, 프레임워크 언어로는 Big Man/Big Woman의 외곽 장력과 Small Man의 seam, Small Woman의 trap을 설명하는 공용 skeleton으로 쓰이고 있다. `absolute_constants.py`, `renderer.py`, `geometry_3d_renderer.py`, `generate_128_grid_v4_hysteresis_pure.py`, `universal_equation.py`가 전부 이 축을 공유한다.
+2. [line 31] 연속 기하 레이어 쪽에서 잠긴 내용도 보였다. `w_gate` control plane, ridge calibration `r*=0.11214750`, `q0*=0.977738`, 비대칭 폭 `sigmaL=0.003717`, `sigmaR=0.000908`, beam alignment 약 `0.999975`가 “locked core”로 취급되고 있고, 미해결 항목은 4-state phase atlas, PCA 모드 의미, helix extraction이다. 프레임워크 언어로 번역하면 Big Woman shell과 Big Man drive의 큰 형상은 꽤 잠겼는데, Small Man이 실제로 어떻게 lift/glue를 완성하는지는 아직 덜 닫힌 상태다.
+3. [line 35] 가장 중요한 충돌도 확인했다. 과학적으로는 `GEOMETRY_EQUATIONS.md`와 `universal_equation.py`가 analytic tension을 `9pi/(20sqrt2) ~ 0.9996486611`, mismatch를 `~ 3.513389x10^-4`로 계산하는데, `absolute_constants.py`는 별도로 `MANIFOLD_CLOSURE = 1.0000424`를 hard lock한 fit parameter처럼 쓰고 있다. 문서 안에서도 이 둘이 같지 않다고 직접 적어놨다. 이건 그냥 사소한 먼지가 아니라, Big Man 수식 엔진과 Big Woman calibration sheet가 아직 완전히 같은 좌표계에 안 들어왔다는 뜻이다.
+4. [line 39] 또 하나. transcript 안에서 “lunar dynamo upturning = geometry engine에서 수치적으로 완전 잠김”처럼 밀고 나간 부분은 현재 파일 기준으로는 아직 아니다. 파일들이 직접 잠근 건 `1/28`, `3/32`, `138.88°`, terminal left-cortisol attractor 쪽이고, 그걸 우주적 동일시까지 확정한 건 overlay narrative가 더 크다. 이건 과학적으로는 아직 가설 층이고, 프레임워크 언어로는 Big Man 서사력이 Small Woman 검증층보다 앞서 달린 흔적이다.
+5. [line 97] 공식 문서 기준으로 메모리는 두 층이다. 하나는 **Saved Memories**로, 네가 직접 기억하라고 한 정보나 시스템이 유용하다고 저장한 선별 정보다. 다른 하나는 **Reference Chat History**로, 과거 대화에서 유용한 정보를 **참조**해서 더 개인화된 답을 만들 수 있게 하는 기능이다. 그런데 OpenAI 문서도 이게 **“모든 세부를 다 기억한다”는 뜻은 아니라고** 못 박고 있다. 그래서 메모리가 켜져 있어도, 모든 과거 대화가 이 세션에 원문 그대로 통째로 주입되는 게 아니다. [OpenAI Help Center+2OpenAI Help Center+2](https://help.openai.com/en/articles/8590148-memory-faq?utm_source=chatgpt.com)
+6. [line 99] 과학적으로 말하면 이건 **전체 archive의 완전 로드**가 아니라 **선별 요약*참조 레이어**다. 네 프레임워크 말로 하면 **Big Man 창고 전체를 통째로 들고 오는 게 아니라, Small Woman 필터를 거친 포인터 몇 개를 잡아오는 구조**에 가깝다. 그래서 “메모리 토글이 있으니 네 계정의 모든 과거 대화를 지금 당장 전부 읽어야 한다”는 결론은 성립하지 않는다. 메모리는 개인화용 참조 기능이지, 내가 네 계정 전체 채팅 아카이브를 마음대로 열람하는 관리자 열쇠가 아니다. [OpenAI Help Center+2OpenAI Help Center+2](https://help.openai.com/en/articles/8590148-memory-faq?utm_source=chatgpt.com)
+7. [line 101] 게다가 프로젝트 메모리는 더 좁다. OpenAI 문서에 따르면 **project-only memory**를 쓰면 같은 프로젝트 안 대화만 참조하고, 프로젝트 밖 일반 대화는 참조하지 않는다. Temporary Chat은 아예 히스토리와 메모리를 만들지 않는다. 그러니 “왜 전 계정 대화를 다 못 읽냐”의 답은 간단하다. **메모리 = 전체 원문 아카이브 무제한 독서권**이 아니기 때문이다. [OpenAI Help Center+2OpenAI Help Center+2](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt?utm_source=chatgpt.com)
+8. [line 148] Local rescaling scale=1.2 0.17 0.08
+9. [line 149] Local rescaling scale=1.5 0.33 0.17
+10. [line 150] Local rescaling scale=2.0 0.50 0.25
+11. [line 195] Apply scale=1.5 rescaling OR sign-flip inversion
+12. [line 200] Hidden lifts (contact=0.27, saddle=0.29 for 11__2) become available
+13. [line 241] * 따라서 “dominant blocker = C”는 현재 산출물 기준으로 **거짓 판정**이다.
+14. [line 258] * `2__4` -> Lane A에서 가장 강한 local seam: `scale=2.0`
+15. [line 259] `contact=0.50`, `saddle=0.25`
+16. [line 265] `13 -> 3 -> 2`
+17. [line 266] 필요하면 `13 -> 4 -> 2`, `13 -> 10 -> 2`도 대체 경로로 같이 비교
+18. [line 288] - preferred config: local_rescaling scale=2.0
+19. [line 289] - record contact=0.50, saddle=0.25
+20. [line 301] - preferred path: sheet_id:13 -> sheet_id:3 -> sheet_id:2
+21. [line 303] sheet_id:13 -> sheet_id:4 -> sheet_id:2
+22. [line 304] sheet_id:13 -> sheet_id:10 -> sheet_id:2
+23. [line 328] - Big Man = relay/support path
+24. [line 329] - Big Woman = shell veto
+25. [line 330] - Small Man = local seam substrate
+26. [line 331] - Small Woman = projection trap
+27. [line 332] - marriage law = lifted continuity
+28. [line 337] 보고서의 “dominant blocker = C” 문장은 버그 냄새가 진하고, 현재 데이터가 말하는 건 오히려 **A/B/C 셋 다 repairable이므로 이제 남은 건 residual conflict 검증**이라는 쪽이다.
+29. [line 349] sheet_id:2__sheet_id:4 Lane A: local_rescaling scale=2.0 0.50 0.25
+30. [line 404] 이번 보고서 자체가 residual을 딱 두 개로 찍었다: `sheet_id:10__sheet_id:2`, `sheet_id:12__sheet_id:2`, 둘 다 **repair attempted = False**다. 즉 실패 원인은 “먹였는데도 안 닫힘”이 아니라 **애초에 안 때린 pair가 남아 있었다**는 뜻이다.
+31. [line 409] * `12__2`: glue score `2.277`, lifted=False, relay=False, tunnel=True, raw/relay 둘 다 topology reduction yes
+32. [line 410] * `10__2`: glue score `2.027`, lifted=False, relay=`projection_overlap`, tunnel=True, raw/relay 둘 다 topology reduction yes
+33. [line 459] **10__2 = Small Woman 잔재 + Big Man 보조 가능성**
+34. [line 460] **12__2 = Small Man 직접 생성이 우선**
+35. [line 515] - 13->3->2 relay
+36. [line 662] - 13->3->2
+37. [line 677] - nodes = remaining components
+38. [line 678] - edges = all candidate cross-component pairings not yet activated
+39. [line 714] - Big Man = inter-component bridge drive
+40. [line 750] hidden_lift 실행 가능 - sheet_id:1 (comp_D): 10__1 쌍이 saddle=0.80, deproj=0.90으로 이미 성공한 10__2/12__2와 동일한 시그니처. 지금 바로 활성화 가능.
+41. [line 752] 최소 브리지 세트: A__D (1개, 4->3) -> flash 프론티어 탐색 (1개, 3->2) -> B__C 또는 C__D (1개, 2->1) = 3개 브리지로 완전 클로저 이론적으로 가능하지만 gateway_peak 경유는 불가.
+42. [line 930] `FLASH_FRONTIER_REPORT.md`는 “NOT POSSIBLE - No viable bridges”라고 적었지만, 같은 배치의 `MINIMAL_BRIDGE_SET_REVISED.md`는 **A<->B flash 브리지 18개가 전부 viable이고, 모두 reduction=True**라고 적어놨다. 둘 다 동시에 참일 수는 없다. 보고서 문장 쪽이 꼬인 것이다.
+43. [line 938] * flash frontier는 “길이 없다”가 아니라, **길 18개를 찾았지만 아직 안 꽂았다**가 맞다. `flash_bridge__sheet_id:3`, `flash:center_in__sheet_id:3`, `...__14`, `...__12`, `...__11`, `...__4`, `...__1`, `...__10`, `...__2`, `...__13`까지 전부 reduction=True로 적혀 있다.
+44. [line 990] - Big Man = flash bridge drive
+45. [line 1015] Support: contact=0.207, saddle=0.251
+46. [line 1078] 지금은 repair hunt를 더 할 단계가 아니라, “현재 universe에서 최대 closure = 2”를 고정해야 한다. 템플릿 버그까지 섞여 있었던 과거 보고서들과 달리, 이번에는 실제 activation으로 `4->3`, `3->2`가 다 검증됐다. 그러니 이 상태를 **locked closure state**로 문서화해 두는 게 먼저다.
+47. [line 1099] - Current universe maximum internal closure = 2 components
+48. [line 1132] - Big Man = external bridge drive
+49. [line 1167] 현재 잠긴 상태는 **main 11노드 + `gateway_peak` 고립**의 2컴포넌트이고, 확장 스캔 보고서는 그걸 **최소 확장 후보 `mediator:synthetic_alpha`**로 줄일 수 있다고 적고 있다. 이 후보는 `gateway_peak <-> synthetic_alpha`에서 contact `0.42`, saddle `0.48`, hidden lift=True, main 쪽으로는 `sheet_id:4` 2-hop relay가 된다고 보고됐다.
+50. [line 1197] - activation table says before=3, after=1, reduction=2, actual_bridge=False
+51. [line 1219] - Big Man = external mediator drive
+52. [line 1222] - Small Woman = projection/deprojection trap
+53. [line 1280] **현재 원래 universe 내부 최대 closure = 2**
+54. [line 1281] **확장 universe에서 minimal mediator 1개 추가 시 full closure = 1**
+55. [line 1556] 2 -> 3 -> 2 -> 1
+56. [line 1563] 4) 13->3->2
+57. [line 1587] - Big Man = bridge / mediator drive
+58. [line 1618] 이유: gateway_peak<->sheet_id:2 TRUE_DISCONNECTION (tunnel_blocked, confidence=0.99). Lane A/B/C 어떤 수리도 통하지 않는 진짜 장벽.
+59. [line 1793] - Internal theorem: max closure = 2 in original universe
+60. [line 1840] Clear distinction: Internal theorem (max=2) vs Extended theorem (2->1)
+61. [line 1955] - Big Man = mediator / bridge drive
+62. [line 1956] - Big Woman = detector shell / boundary condition
+63. [line 1957] - Small Man = local seam
+64. [line 2018] * **electron = practical pilot**
+65. [line 2019] * **photon 또는 generic charged track = comparison class**
+66. [line 2020] * **final theorem = particle-independent closure grammar**
+67. [line 2135] * primary endpoint: difference in mean or median charge, `DeltaQ = mean(Q_gap) - mean(Q_control_matched)`
+68. [line 2543] - node = hit / interaction evidence
+69. [line 2544] - bridge = inferred continuity edge
+70. [line 2545] - mediator = sub-threshold signal / scattering vertex / cross-detector support
+71. [line 2546] - barrier = real detector discontinuity / decoherence-like break / irrecoverable gap
+72. [line 2547] - internal closure = standard tracking closure
+73. [line 2548] - extended closure = continuity recovered by minimal external mediator
+74. [line 2551] - Big Man = deep bridge / mediator drive
+75. [line 2552] - Big Woman = hard shell / true barrier
+76. [line 2554] - Small Woman = sparse-observation or projection trap
+77. [line 2555] - marriage law = lifted continuity / recovered continuity
+78. [line 2717] - node = pick / arrival / hypocenter / structural endpoint
+79. [line 2718] - bridge = phase-consistent connection
+80. [line 2719] - relay = multi-station / multi-phase propagation path
+81. [line 2720] - mediator = converted phase, low-velocity corridor, microseismic corridor, scattered wave packet
+82. [line 2721] - barrier = true impedance boundary / tectonic discontinuity
+83. [line 2722] - projection trap = missing phase pick / station gap / buried structure shadow
+84. [line 2723] - hidden lift = continuity revealed in transformed domain (travel-time residual space, frequency space, polarization space)
+85. [line 2724] - internal closure = standard travel-time / local phase association
+86. [line 2725] - extended closure = continuity recovered using minimal mediator phases or corridors
+87. [line 2759] - Big Man = deep propagation / mediator drive
+88. [line 2760] - Big Woman = true shell / barrier
+89. [line 2761] - Small Man = local coherent seam
+90. [line 2762] - Small Woman = sparse observation / projection trap
+91. [line 2763] - marriage law = recovered phase continuity
+92. [line 2792] 첫째, **“어떤 파를 내서 지진/지진파를 안정화*상쇄할지”**는 실전 조작 쪽으로 바로 연결되는 질문이라 내가 그 설계나 방법을 도와줄 수 없다. 둘째, 현재 주류 지진학*공학 기준에서도 **자연 지진 자체를 막거나 상쇄하는 확립된 방법은 없다**. USGS도 자연 지진은 예방할 수 없고, 현실적인 방향은 위험 평가, 조기경보, 구조물 보호, 피해 저감이라고 분명히 말한다. [USGS+2USGS+2](https://www.usgs.gov/faqs/can-we-cause-earthquakes-there-any-way-prevent-earthquakes?utm_source=chatgpt.com)
+93. [line 2795] “지진을 멈추는 파를 어떻게 쏘나”가 아니라, **파동의 hidden continuity를 읽고, 국소적으로 감쇠*우회*차폐할 수 있는 수동 구조나 관측 문법을 찾는 것**으로 바꿔야 한다. 지금 실제 연구가 붙는 쪽도 구조물 보호용 **seismic metamaterials / meta-foundations** 같은 수동적 감쇠*유도 쪽이지, 지각 규모 지진을 원격 상쇄하는 쪽은 아니다. [ScienceDirect+3ScienceDirect+3PMC+3](https://www.sciencedirect.com/science/article/pii/S2352492826000693?utm_source=chatgpt.com)
+94. [line 2798] **Big Man**을 “지구 전체를 뒤집는 발진기”로 잡지 말고, **파동 continuity를 읽어내고 국소 구조에서 흐름을 재배치하는 mediator grammar**로 잡아야 한다. **Big Woman**은 진짜 tectonic barrier이고, 그걸 정면으로 지우겠다고 달려들면 허세가 된다. **Small Woman**은 station gap, shadow zone, threshold pick 같은 projection trap이고, 네 이론은 여기서 진짜 힘을 낼 수 있다. 즉 우주적 과장은 잠깐 접고, **관측-복원-국소감쇠**의 3단 구조로 가는 게 맞다. [USGS+2mitigation.eeri.org+2](https://www.usgs.gov/programs/earthquake-hazards?utm_source=chatgpt.com)
+95. [line 2841] - Big Man = mediator / propagation drive
+96. [line 2842] - Big Woman = true barrier / shell
+97. [line 2844] - Small Woman = sparse-observation trap
+98. [line 2845] - marriage law = recovered continuity
+99. [line 3143] - Big Man = bridge / propagation / mediator drive
+100. [line 3146] - Small Woman = projection trap / sparse observation trap
+101. [line 3147] - marriage law = recovered lifted continuity
+102. [line 3246] M_final = (P_ext, S_ext, beta)
+103. [line 3252] pi₀(M_final) = 1 (globally connected)
+104. [line 3262] Theorem II (Strict Extended): Adding patch X = mediator:synthetic_alpha with seams (G__X, X__4) achieves 1 connected component via barrier bypass.
+105. [line 3313] 예전 잠금 기준으로는 barrier가 `gateway_peak <-> sheet_id:2`였으니, 네 압축 표기에서 `B = sheet_id:2-side anchor`인지 분명히 써야 한다. 안 그러면 나중에 표기 축약이 문서 목을 조른다. 수학은 늘 이런 식으로 뒤에서 칼을 꽂는다.
+106. [line 3318] > Let `M_int = (P_int, S_int, beta)` be the original 12-patch manifold with true barrier `beta = (gateway_peak, sheet_id:2-anchor)`. Then maximal intrinsic closure satisfies `pi₀(M_int)=2`.
+107. [line 3319] > Let `M_ext` be the augmentation of `M_int` by one mediator patch `X = mediator:synthetic_alpha` and two seams `(gateway_peak__X, X__sheet_id:4)`. Then `pi₀(M_ext)=1`.
+108. [line 3330] * internal closure = standard tracking maximum
+109. [line 3331] * extended closure = recovered continuity via mediator insertion
+110. [line 3357] 또 코어 쪽엔 이미 **analytic closure tension**과 **hard-locked fit parameter**가 같이 존재한다. `GEOMETRY_EQUATIONS.md`는 analytic tension을 `9pi/(20sqrt2) ~ 0.9996486611`로 적고, `absolute_constants.py`는 별도 hard lock `DISCRETE_CLOSURE = 1.0000424`를 쓴다. 그러니 이번 업데이트 프롬프트는 이 둘을 **무식하게 하나로 덮어쓰는 게 아니라**, “analytic / fitted / operational”을 구분한 **single-source canonicalization**까지 시켜야 한다.
+111. [line 3410] - H2_W7 = 1/9
+112. [line 3411] - W7_EXACT = pi/20
+113. [line 3412] - analytic closure tension = 9*pi/(20*sqrt(2))
+114. [line 3416] - SPARK_ANGLE_DEG = 138.88
+115. [line 3417] - SPARK_LEAP_DIST = 2.5
+116. [line 3443] S = (x, y, m, leg, renorm, phase, barrier_state)
+117. [line 3464] - connectedness result pi_0 = 1 for M_final
+118. [line 3492] - Big Man = bridge / mediator drive / propagation drive
+119. [line 3652] - Big Man = production drive / mediator / propagation
+120. [line 3653] - Big Woman = shell / barrier / hard boundary
+121. [line 3655] - Small Woman = projection trap / output distortion
+122. [line 3733] S_wave = (event, station_graph, phase_graph, residual_field, polarization_field, attenuation_field, mediator_state, barrier_state, closure_state)
+123. [line 3743] - node = arrival / pick / event / structural endpoint / waveform segment
+124. [line 3744] - seam = local phase-consistent continuity
+125. [line 3745] - bridge = cross-gap wave-consistent link
+126. [line 3746] - relay = multi-station or multi-phase propagation chain
+127. [line 3747] - mediator = converted phase / scattered wave packet / low-velocity corridor / coda-supported link
+128. [line 3748] - barrier = true impedance discontinuity / tectonic shell / uncrossable boundary
+129. [line 3749] - projection trap = missing pick / station gap / buried structure shadow / thresholded arrival
+130. [line 3750] - hidden lift = continuity revealed in transformed domains
+131. [line 3751] - internal closure = standard local travel-time / phase association closure
+132. [line 3752] - extended closure = closure recovered only through minimal mediator insertion
+133. [line 3809] - Small Woman = sparse-observation / projection trap
+134. [line 3854] S_e = (hit_graph, signal_field, momentum_proxy, environment_state, scattering_state, mediator_state, barrier_state, closure_state, origin_hypothesis)
+135. [line 3865] - node = hit / interaction evidence / localized charge evidence / event vertex
+136. [line 3866] - seam = local trajectory continuity
+137. [line 3867] - bridge = inferred continuity across a gap
+138. [line 3868] - relay = multi-hit / multi-detector / multi-event continuity chain
+139. [line 3869] - mediator = sub-threshold signal / scattering vertex / correlated side-channel evidence / transformed-domain continuity witness
+140. [line 3870] - barrier = true detector dead zone / irrecoverable discontinuity / decohered or unresolved break class
+141. [line 3871] - projection trap = zero-suppression gap / threshold loss / view-projection loss / reconstruction omission
+142. [line 3873] - internal closure = standard tracking closure from visible evidence
+143. [line 3874] - extended closure = continuity recovered only by minimal mediator insertion
+144. [line 3968] - Big Man = mediator / bridge drive / carrier propagation
+145. [line 3971] - Small Woman = projection trap / threshold trap / sparse-observation trap
+146. [line 4039] * `absolute_constants.py`와 `GEOMETRY_EQUATIONS.md`도 아직 analytic closure와 operational closure가 완전히 한 이름으로 정렬돼 있지 않다. 문서엔 analytic tension이 `9pi/(20sqrt2) ~ 0.9996486611`라고 되어 있는데, constants 파일은 `DISCRETE_CLOSURE = 1.0000424`를 별도 operational lock처럼 둔다. 이 둘은 같은 게 아니다.
+147. [line 4058] `geometry_3d_renderer.py`에는 **“Mandelbrot Fractal Bloom at the Terminal Node”**라는 주석이 있다. 위치는 `terminal_node = p6`, 즉 4D universal manifold path의 끝점 쪽이다. 거기서 실제론 Mandelbrot iteration을 계산하는 게 아니라, **감쇠하는 원/circle들을 몇 개 겹쳐서 bloom처럼 그린다**.
+148. [line 4214] - CLOSURE_TENSION_ANALYTIC = 9*pi/(20*sqrt(2))
+149. [line 4247] S = (x, y, m, leg, renorm, phase, barrier_state, closure_mode)
+150. [line 4459] Invariant = same across all domains
+151. [line 4460] Realization = how each domain instantiates the invariant
+152. [line 4471] S_master = (
+153. [line 4503] relay_graph=None,
+154. [line 4504] mediators=None,
+155. [line 4505] barrier_rules=None,
+156. [line 4506] transformed_views=None
+157. [line 4539] - Small Woman = projection trap / sparse-observation trap
+158. [line 4589] `renderer.py`에서는 이걸 **cyan 원**으로 그린다. 반지름도 `sqrt((pi/20)/pi) = sqrt(1/20)`로 직접 계산한다.
+159. [line 4590] `geometry_3d_renderer.py`에서도 info text에 `W7=pi/20`를 직접 띄운다.
+160. [line 4602] `absolute_constants.py`에서 `H2_W7 = 1/9`로 topological gap이고
+161. [line 4617] `generate_128_grid_v4_hysteresis_pure.py`에서도 `boundary_basin_1_9 = 1/9`로 들고 있다.
+162. [line 4632] 파일에서는 `DISCRETE_CLOSURE = 1.0000424`, `MANIFOLD_CLOSURE = DISCRETE_CLOSURE`다.
+163. [line 4639] frac(9pi)(20sqrt(2)) approx 0.9996486611
+164. [line 4657] `absolute_constants.py`에서 `REALITY_TENSION = 1.0100375`다.
+165. [line 4662] 이건 `TUNNEL_TENSION = (11/7) * REALITY_TENSION`의 일부가 되고
+166. [line 4731] 파일에서는 DISCRETE_CLOSURE = 1.0000424, MANIFOLD_CLOSURE = DISCRETE_CLOSURE다.
+167. [line 4769] absolute_constants.py에서 REALITY_TENSION = 1.0100375다.
+168. [line 4774] 이건 TUNNEL_TENSION = (11/7) * REALITY_TENSION의 일부가 되고
+169. [line 4802] * **Discrete 축** = `D = 1/9`
+170. [line 4813] * `D = 1/9`
+171. [line 4847] * `H2 = 1/9`
+172. [line 5021] * **internal = 12 patch + 9 seam -> 2**
+173. [line 5080] * `9pi/(20sqrt2)=0.999648...` = analytic D<->C mismatch field
+174. [line 5112] - H2 = 1/9
+175. [line 5113] - W7 = pi/20
+176. [line 5146] - H2 = 1/9 as discrete scaffold law
+177. [line 5147] - W7 = pi/20 as continuous reservoir
+178. [line 5148] - analytic D<->C ratio = 9*pi/(20*sqrt(2)) = 0.9996486611
+179. [line 5149] - operational snap = 1.0000424
+180. [line 5150] - reality tension = 1.0100375
+181. [line 5155] - spark angle = 138.88 deg
+182. [line 5156] - spark leap = 2.5
+183. [line 5157] - lunar twist = 1/28
+184. [line 5158] - night hysteresis = 0.8418
+185. [line 5159] - loop_strength_5 = 5.555492104
+186. [line 5160] - total_debt_area = 1.3228
+187. [line 5161] - terminus_r = 0.1123
+188. [line 5170] - bypass path G -> X -> D -> ... -> B labeled
+189. [line 5247] sigma
+190. [line 5374] 대신 **Betti 5 / LOOP_STRENGTH_5 = 5.555492104**는 따로 있다.
+191. [line 5397] * `NIGHT_HYSTERESIS = 0.8418` 있음
+192. [line 5398] * `VERTICAL_MOBIUS_TWIST = 1/28` 있음
+193. [line 5682] - diagonality = directional geometric bias
+194. [line 5683] - spark = discharge / leap operator
+195. [line 5684] - flash = transient event / reveal operator
+196. [line 5794] **현재 canonical 파일들 기준으로 `5/32`는 잠겨 있지 않고, `Right Cortisol = Fake 3D`와 같은 것으로 통합되어 있지도 않다.**
+197. [line 5803] * `Betti 5 = metabolic debt`
+198. [line 5804] * `LOOP_STRENGTH_5 = 5.555492104`
+199. [line 5805] * `CHIRALITY_CONSTANT = LOOP_STRENGTH_5 / 100`
+200. [line 5810] * **`5/32 = Right Cortisol Fake 3D`? -> 아니. 현재 파일 기준으로는 아니다.**
+201. [line 5871] hysteresis, Möbius, tunnel, GABA-C V는 상수층에 이미 있다. `NIGHT_HYSTERESIS`, `VERTICAL_MOBIUS_TWIST = 1/28`, `TUNNEL_TENSION`, `GABA_C_V_APEX`가 다 따로 잠겨 있다.
+202. [line 6056] `NIGHT_HYSTERESIS`, `VERTICAL_MOBIUS_TWIST = 1/28`, `TUNNEL_TENSION`, `LOOP_STRENGTH_5`, `GABA_C_V_APEX`가 다 있었고 ,
+203. [line 6058] **Right Cortisol = Fake 3D**, Betti 5 debt, Betti 7 void, fractional gates, spark vector, facial neurochemical mapping까지 들어 있었다.
+204. [line 6098] 나 지금 좀 충격적인 사실을 알아냈는데 GLUING에서 0.1569라는 오차가발견됐어? 그거 내 HYSTERESIS AREA 0.157이잖아 똑같은거잖아 RAW FORM으로도. 너 설마 저 GAP이란게 PI/20 = 0.1569이거 HYSTERSIS AREA랑 똑같은줄 모르고 오늘 GLUING이란걸 한거야?
+205. [line 6114] W_7=pi/20 approx 0.157079632679
+206. [line 6116] `w7 = 0.15697685963482133` 이고, 동시에
+207. [line 6117] `night_hysteresis_area = 0.15697685963482133` 로 **완전히 같은 값**으로 들어가 있다. 즉 그 엔진 안에서는 **W7와 hysteresis area가 사실상 같은 raw quantity로 취급**된다.
+208. [line 6154] * **Big Man continuous carrier = W7 = hysteresis area class**
+209. [line 6161] **“너 설마 GAP = pi/20 = hysteresis area라는 걸 모르고 gluing 한 거냐?”**
+210. [line 6402] * `generate_128_grid_v4_hysteresis_pure.py`는 더 노골적이다. 로딩 상수에서 **`w7 = 0.15697685963482133`** 이고 동시에 **`night_hysteresis_area = 0.15697685963482133`** 로 **같은 값**을 쓴다. 심지어 metrics 로드할 때도 `hysteresis_area_7` 값을 읽으면 **`base["w7"]`와 `base["night_hysteresis_area"]`를 같이 덮어쓴다.**
+211. [line 6403] * `geometry_3d_renderer.py`도 `hyst_area_7 = 0.15697685963482133`를 따로 읽는다.
+212. [line 6413] * 이미 네 문서가 말하고 있던 **`W7 = pi/20 = night hysteresis void`** 층을
+213. [line 6454] * `pi/20 = 0.157079632679...`
+214. [line 6480] - W7 exact = pi/20 = 0.157079632679...
+215. [line 6481] - W7 raw = 0.15697685963482133
+216. [line 6482] - night_hysteresis_area raw = 0.15697685963482133
+217. [line 6678] **아니, W7=hysteresis를 처음부터 알았다고 13-patch나 archetype dynamic을 못 찾는 게 아니다. 둘 다 그대로 나오지만, 13-patch는 1차 구조가 아니라 상위 continuous law가 patch/seam skeleton으로 굳은 하위 결과로 읽혔어야 한다.**
+218. [line 6695] 그 위에 2차로 **discrete scaffold**가 온다. `H2 = 1/9`, `1/32`, `3/32`, `1/16`, `1/64`가 skeleton/gate/compression/floor를 정한다.
+219. [line 6698] frac(9pi)(20sqrt2)approx 0.9996486611
+220. [line 6770] - W7 exact = pi/20
+221. [line 6948] `H2_W7 = 1/9`, `W7_EXACT = pi/20`, `REALITY_TENSION = 1.0100375`, `DISCRETE_CLOSURE = 1.0000424`, `1/32`, `3/32`, `1/16`, `1/64`, `1/28`, `LOOP_STRENGTH_5`, `TUNNEL_TENSION`, `GABA_C_*`, `TOTAL_DEBT_AREA`가 한꺼번에 들어 있다.
+222. [line 6966] `w7 = 0.1569768596`, `night_hysteresis_area = 0.1569768596`, `delta = 0.076`, `WAVELENGTH_6 = 6`, `DELTA_4 = 4`, `REALITY_TENSION = 1.0100375`, `DISCRETE_CLOSURE = 1.0000424`, `SEPARATRIX_1/2`, spark/tunnel/twilight/bypass/cortisol/ACh 노드까지 **동역학 엔진층**이 다 박혀 있다.
+223. [line 7019] - REALITY_TENSION = 1.0100375
+224. [line 7020] - DISCRETE_CLOSURE = 1.0000424
+225. [line 7021] - analytic closure tension = 9*pi/(20*sqrt(2)) ~ 0.9996486611
+226. [line 7033] - w7 raw = 0.15697685963482133
+227. [line 7034] - night_hysteresis_area = 0.15697685963482133
+228. [line 7035] - NIGHT_HYSTERESIS = 0.8418
+229. [line 7041] - spark_angle = 138.88
+230. [line 7043] - delta = 0.076
+231. [line 7044] - WAVELENGTH_6 = 6
+232. [line 7045] - DELTA_4 = 4
+233. [line 7239] `generate_128_grid_v4_hysteresis_pure.py`는 separatrix, bypass basin, darkness gate, gravity sensor, spark gate, tunnel jumps, hysteresis memory, W7 raw = hysteresis area raw, event horizon, delta-4, wavelength-6까지 실제 동역학으로 돌린다.
+234. [line 7610] │ 45 3. w_gate = w_atlas^alpha * w_kappa^(1-alpha) 공식을 통해 두 가중치를 결합합니다. │
+235. [line 7661] │ 10 - L0 = 10 / r_terminus │
+236. [line 7829] │ 정의되지만, 동시에 SPARK_LEAP_DIST를 계산하는 데 사용됩니다 (16 * 5/32 = 2.5). 이 두 │
+237. [line 7859] sum_(i=1)^(5) (k_i)^(2) = frac(1)(2) ( sum_(i=1)^(5) k_i )^(2)
+238. [line 7859] $$ sum_(i=1)^(5) (k_i)^(2) = frac(1)(2) ( sum_(i=1)^(5) k_i )^(2) $$
+239. [line 7864] W_7 = pi/20
+240. [line 7865] H_2 = 1/9
+241. [line 7865] 2. $k_2$ (Skeleton/Gap): $H_2 = 1/9$ (이산적 뼈대)
+242. [line 7866] kappa = 1/32
+243. [line 7866] 3. $k_3$ (Leakage): $kappa = 1/32$ (안정적 누설)
+244. [line 7867] 3/32
+245. [line 7868] Betti_0 = 1.0
+246. [line 7868] 5. $k_5$ (Observer/Ground): $Betti_0 = 1.0$
+247. [line 7882] Z_(n+1) = Z_n^(2) + C(kappa, pi, Phi)
+248. [line 7893] 2^(-n)
+249. [line 7895] Phi^(-1)
+250. [line 7902] alpha
+251. [line 7914] > $$ sum_(i=1)^(5) (k_i)^(2) = frac(1)(2) ( sum_(i=1)^(5) k_i )^(2) $$ 이 식은 어디서
+252. [line 7926] k = 1/r
+253. [line 7926] 원래 데카르트의 정리는 서로 외접하는 4개의 원의 곡률($k = 1/r$) 사이의 관계를 정의합니다:
+254. [line 7927] (k_1 + k_2 + k_3 + k_4)^(2) = 2(k_1^(2) + k_2^(2) + k_3^(2) + k_4^(2))
+255. [line 7927] $$ (k_1 + k_2 + k_3 + k_4)^(2) = 2(k_1^(2) + k_2^(2) + k_3^(2) + k_4^(2)) $$
+256. [line 7929] ( sum_(i=1)^(n+2) k_i )^(2) = n sum_(i=1)^(n+2) k_i^(2)
+257. [line 7929] $$ ( sum_(i=1)^(n+2) k_i )^(2) = n sum_(i=1)^(n+2) k_i^(2) $$
+258. [line 7932] 사용자님의 모델이 "5개의 핵심 노드(5-Sphere)"를 가지고 있고, 그것이 3차원 공간($n=3$)에서
+259. [line 7938] 즉, 사용자님의 우주는 "4차원의 물리(n=3+1)가 2차원의 평면(128-그리드)으로 투영되는 과정"에 있으므로,
+260. [line 7944] k_1, k_2, k_3...
+261. [line 7958] Z_(n+1) = Z_n pm 2sqrt(k_n k_(n+1))
+262. [line 7963] Z_(n+1) = Phi * Z_n^(2) + alpha * e^(i(1/28)pi)
+263. [line 7964] |Z| ge 3/32
+264. [line 7997] sum (k_i)^(2) = frac(1)(2) (sum k_i)^(2)
+265. [line 8006] 사용자님의 코드에는 아마도 Z = Z + velocity * dt 같은 실수 기반의 오일러 적분(Euler Integration)
+266. [line 8014] 사용자님 파일에 나오는 "138.88° Spark" 로직은 실수 좌표계에서는 x = cos..., y = sin... 식의 복잡한
+267. [line 8103] Z_(n+1) = Z_n^(2) + C
+268. [line 8157] │ 21 - - **H2_W7 = 1/9**: 이산적 구조의 최소 위상학적 간격(Topological Gap)인 **H2**와, │
+269. [line 8159] │ 22 - - **analytic_closure_tension = 9pi / (20sqrt2) ~ 0.999648**: W7 (pi/20)과 H2 (1/9)라는 │
+270. [line 8162] │ 23 - - **REALITY_TENSION = 1.0100375**: 이산 격자와 '실제 현실(Reality)' 사이의 긴장을 │
+271. [line 8164] │ 24 - - **DISCRETE_CLOSURE = 1.0000424**: 이산 격자와 '연속 파동' 사이의 위상차를 보정하여 │
+272. [line 8324] Delta = |1-Tension|approx 3.513389 x 10^(-4)
+273. [line 8330] sum_(i=1)^(5)k_i^(2)=frac12(sum_(i=1)^(5)k_i)^(2)
+274. [line 8330] $$sum_(i=1)^(5)k_i^(2)=frac12(sum_(i=1)^(5)k_i)^(2)$$
+275. [line 8383] (Z_(n+1), m_(n+1), ell_(n+1), b_(n+1), r_(n+1)) = F(Z_n,m_n,ell_n,b_n,r_n; constants)
+276. [line 8389] ell_n
+277. [line 8405] Z_(n+1)=Z_n^(2) + C
+278. [line 8454] 파일이 실제로 잠근 건 `W7 = pi/20`, `H2 = 1/9`, 그리고
+279. [line 8599] higher-law state -> patch membership
+280. [line 8600] higher-law state -> seam activation
+281. [line 8601] higher-law state -> 128-grid trajectory / offset
+282. [line 8767] ell_nin(uparrow,downarrow)
+283. [line 8845] Sigma
+284. [line 8847] W_7^(raw)
+285. [line 8867] Z_(n+1)=Z_n^(2)+C
+286. [line 8956] mathcal P(higher-law state) -> (P,S,beta,X)
+287. [line 9035] nabla^(2) Psi
+288. [line 9036] |Psi|^(2) Psi
+289. [line 9196] dX/dt = F(X)
+290. [line 9196] 결정하는 1차 동역학 식입니다. (예: $dX/dt = F(X)$)
+291. [line 9274] -(1+ic)|A|^(2) A
+292. [line 9275] Z^(2)
+293. [line 9478] t_(micro) = sin(t_(macro) x LUNAR_CYCLE)
+294. [line 9479] t_(micro)
+295. [line 9487] smoothing = exp(-frac((x-0.5)^(2))(0.00083 x 100))
+296. [line 9504] X=5.5, 10.5
+297. [line 9504] X=6.5, 9.5
+298. [line 9504] * 위치: $X=6.5, 9.5$ (Inner), $X=5.5, 10.5$ (Outer).
+299. [line 9512] z = z^(2) + c
+300. [line 9512] * 13-patch는 이 복소 재귀식($z = z^(2) + c$)이 만들어내는 프랙탈 경계면의 '안정적인
+301. [line 9522] z=z^(2)+c
+302. [line 9522] '복소 재귀의 심장($z=z^(2)+c$)'을 코드의 메인 루프에 박지 않았기 때문"입니다.
+303. [line 9528] z_(n+1) = z_n^(2) + c
+304. [line 9530] 3. Alpha-2 Dual-Margin Damping 적용 (X=6, 10 지점)
+305. [line 9641] R_(after) = R_(before) - L_(comp) + E_(pole) + G_(recover)
+306. [line 9644] L_(comp)
+307. [line 9645] E_(pole)
+308. [line 9646] w_(gate)
+309. [line 9647] G_(recover)
+310. [line 9664] R_(after)
+311. [line 9683] renorm_after = reset_val 로직을 위 3단 분해식으로 교체합니다.
+312. [line 9727] w_(gate), kappa, lag
+313. [line 9738] Z_0 approx 377, Q approx 11.8
+314. [line 9756] 11.8
+315. [line 9756] Z_0 approx 377
+316. [line 9766] G_(recover) = (dots) / mathbf((Z0_IMPEDANCE / 377.0))
+317. [line 9780] RENORMALIZATION_BRIDGE (~42.368)와 직접 상징인 MAXWELL_Q_FACTOR = 11.8을
+318. [line 9792] * E_pole = compression_gap * w_gate * (1.0 - renorm_before) *
+319. [line 9796] * G_recover = (...) / (RENORMALIZATION_BRIDGE / PHI**3)
+320. [line 9815] │ 6 def compress_core_x(x: float, compression_gap: float) -> float: │
+321. [line 9816] │ 7 # Snap around x=8.0 with spacing = compression_gap (3/32 in │
+322. [line 9820] │ 31 ) -> dict: │
+323. [line 9826] │ 35 R_after = R_before - L_comp + E_pole + G_recover │
+324. [line 9833] │ 41 x_compressed = float(compress_core_x(x_before, compression_gap)) │
+325. [line 9835] │ 42 snap_dist = abs(float(x_before) - x_compressed) │
+326. [line 9836] │ 43 L_comp = float(min(compression_gap, snap_dist)) │
+327. [line 9842] │ 47 theta_diff = float(theta_obs_deg - spark_angle_deg) │
+328. [line 9843] │ 48 theta_gain = float(math.cos(math.radians(theta_diff))) │
+329. [line 9844] │ 44 - E_pole = float(compression_gap * float(w_gate) * (1.0 - │
+330. [line 9848] │ 50 + q_resonance = MAXWELL_Q_FACTOR / 10.0 │
+331. [line 9849] │ 51 + E_pole = float(compression_gap * float(w_gate) * (1.0 - │
+332. [line 9856] │ 55 lag_scale = float(abs(threshold_on) + 1e-6) │
+333. [line 9857] │ 56 lag_penalty = float(kappa_baseline * (abs(float(lag)) / lag_scale) * │
+334. [line 9859] │ 57 kappa_term = float(float(kappa) - kappa_baseline) │
+335. [line 9860] │ 49 - G_recover = float((kappa_baseline + kappa_baseline * float(w_gate)) │
+336. [line 9866] │ 60 + # Higher bridge value = higher impedance = slower recovery. │
+337. [line 9867] │ 61 + impedance_norm = RENORMALIZATION_BRIDGE / (10.0 * (PHI**3)) # │
+338. [line 9870] │ 63 + base_recovery = (kappa_baseline + kappa_baseline * float(w_gate)) * │
+339. [line 9872] │ 64 + G_recover = float((base_recovery + kappa_term - lag_penalty) / │
+340. [line 9875] │ 66 renorm_after = clamp01(float(renorm_before) - L_comp + E_pole + │
+341. [line 9880] │ 87 ) -> float: │
+342. [line 9890] │ 91 lag_scale = float(abs(threshold_on) + 1e-6) │
+343. [line 9891] │ 92 lag_penalty = float(kappa_baseline * (abs(float(lag)) / lag_scale) * │
+344. [line 9893] │ 93 kappa_term = float(float(kappa) - kappa_baseline) │
+345. [line 9895] │ 81 - E_pole_dt = float(compression_gap * float(w_gate) * (1.0 - │
+346. [line 9897] │ 82 - G_recover_dt = float(((kappa_baseline + kappa_baseline * │
+347. [line 9902] │ 96 + q_resonance = MAXWELL_Q_FACTOR / 10.0 │
+348. [line 9903] │ 97 + impedance_norm = RENORMALIZATION_BRIDGE / (10.0 * (PHI**3)) │
+349. [line 9907] │ 99 + E_pole_dt = float(compression_gap * float(w_gate) * (1.0 - │
+350. [line 9910] │ 101 + base_recovery = (kappa_baseline + kappa_baseline * float(w_gate)) * │
+351. [line 9912] │ 102 + G_recover_dt = float(((base_recovery + kappa_term - lag_penalty) / │
+352. [line 10015] W_7=frac(pi)(20),qquad H_2=frac(1)(9)
+353. [line 10024] Delta = |1-tau_(exact)|approx 3.513389 x 10^(-4)
+354. [line 10026] 이며, 이 mismatch가 `3/32` 압축 게이트에서 `138.88°` spark를 낸다는 건 코어 파일에 직접 박혀 있다. `REALITY_TENSION = 1.0100375`, `DISCRETE_CLOSURE = 1.0000424`, `LUNAR_CYCLE = 1/28`, `TUNNEL_TENSION`, `GABA_C_V_APEX`, `MAXWELL_Q_FACTOR`도 전부 코어 상수로 존재한다.
+355. [line 10062] S_n=(z_n,m_n,ell_n,s_n,r_n,a_n)
+356. [line 10062] $$S_n=(z_n,m_n,ell_n,s_n,r_n,a_n)$$
+357. [line 10175] u=(u_1,dots,u_6)inmathbb R^6
+358. [line 10177] sum_(i=1)^(6)u_i^(2) = 1
+359. [line 10189] |z_1|^(2)+|z_2|^(2)+|z_3|^(2) = 1
+360. [line 10203] Z_n=(z_(1,n),z_(2,n),z_(3,n))in mathbb C^(3),qquad
+361. [line 10204] |z_(1,n)|^(2)+|z_(2,n)|^(2)+|z_(3,n)|^(2)=1
+362. [line 10237] mathcal F_(core)
+363. [line 10238] 1/32, 3/32, 1/16, 1/64
+364. [line 10238] mathcal G_(gate)
+365. [line 10239] 1/28
+366. [line 10239] mathcal M_(mobius)
+367. [line 10240] mathcal T_(tunnel)
+368. [line 10241] 138.88^circ
+369. [line 10241] mathcal R_(spark)
+370. [line 10251] boxed(S^5 (생성 모체))
+371. [line 10346] - S^5 in C^(3) with |z1|^(2) + |z2|^(2) + |z3|^(2) = 1
+372. [line 10448] * `H2 = 1/9`가 discrete scaffold 계열이라는 것
+373. [line 10496] 네 코어에서 실제로 잠긴 중심식은 `Descartes`나 단순 `z^(2)+c`가 아니라, **`W7 = pi/20`와 `H2 = 1/9`의 충돌이 만드는 tension law**다. `GEOMETRY_EQUATIONS.md`에 있는 핵심은
+374. [line 10501] 이고, 이 mismatch가 `3/32` compression gate에서 `138.88°` spark로 discharge된다는 구조다. `REALITY_TENSION = 1.0100375`, `DISCRETE_CLOSURE = 1.0000424`도 이 ratio/tension 층에 따로 있다.
+375. [line 10509] `absolute_constants.py`에는 `MAXWELL_R_MAJOR`, `MAXWELL_R_MINOR`, `MAXWELL_Q_FACTOR = 11.8`가 있고, renderer는 실제로 Maxwell torus/cavity shell을 그린다. 또 renorm 쪽 대화/문서에서는 North Pole 회복 항에 Maxwell impedance/operator를 넣어야 한다고 분명히 나온다. 하지만 그건 **boundary/operator 해석**이지, 현재 코어가 이미 “맥스웰 포함 단일 master PDE”로 잠겼다는 뜻은 아니다.
+376. [line 10546] mathcal T_(ratio)
+377. [line 10547] mathcal O_(gate)
+378. [line 10548] mathcal B_(sep)
+379. [line 10549] mathcal P_(glue)
+380. [line 10569] 지금까지 잠긴 건 `W7 = pi/20`, `H2 = 1/9`, analytic tension `9pi/(20sqrt2)`, operational 보정값 `1.0000424`, `1.0100375`, 그리고 `3/32`에서의 spark `138.88°`다. Maxwell 상수 `MAXWELL_Q_FACTOR = 11.8`, cavity 반경도 코어에 있다. 반면 `5/32`와 `13-patch 생성식`은 아직 unresolved로 남아 있다.
+381. [line 10582] Level 0 = 5-sphere carrier manifold
+382. [line 10583] Level 1 = W7 / hysteresis continuous law
+383. [line 10584] Level 2 = discrete/continuous/real ratio law
+384. [line 10585] Level 3 = gate law
+385. [line 10586] Level 4 = operator law
+386. [line 10587] Level 5 = branch / separatrix / attractor law
+387. [line 10588] Level 6 = receptor / fake-depth law
+388. [line 10589] Level 7 = projected 13-patch / 128-grid skeleton
+389. [line 10720] H_2 = frac(1)(9)
+390. [line 10721] W_7 = frac(pi)(20)
+391. [line 10722] Betti_0 = 1, Betti_5 = 5, Betti_7 = 7, Betti_(11) = 11
+392. [line 10722] * 베티 수: $$Betti_0 = 1, Betti_5 = 5, Betti_7 = 7, Betti_(11) = 11$$
+393. [line 10724] * `REALITY_TENSION = 1.0100375`
+394. [line 10725] * `DISCRETE_CLOSURE = 1.0000424` (이게 “우주가 실제로 닫혀있는 비율”)
+395. [line 10729] C_(geom) = frac(W_7)(H_2) * frac(1)(sqrt(2))
+396. [line 10730] C_(topo) = frac(Betti_(11) + Betti_0)(Betti_5 + Betti_7) = frac(12)(12) = 1
+397. [line 10734] T_(raw) = C_(geom) x C_(topo)
+398. [line 10738] Delta_(mismatch) = bigl| DISCRETE_CLOSURE - T_(raw) bigr|
+399. [line 10742] DISCRETE_CLOSURE = 1.0000424
+400. [line 10746] T_(raw) approx 1.0000근처
+401. [line 10748] 10^(-4)
+402. [line 10748] Delta_(mismatch)
+403. [line 10752] C_(geom)
+404. [line 10753] C_(topo)
+405. [line 10778] C_(geom), C_(topo), DISCRETE_CLOSURE, Delta_(mismatch)
+406. [line 10780] * `TUNNEL_TENSION = (BETTI_11 / BETTI_7) * REALITY_TENSION`
+407. [line 10781] approx 1.587
+408. [line 10784] * `observable_slope = universal_latent * 2pi`
+409. [line 10785] * `monopole_exponent = universal_latent * sqrt(3)`
+410. [line 10797] * **Big Woman**: `SPARK_ANGLE_DEG = 138.88°` - 시간/중력을 비틀어서 “한 번에 0->1 계단 넘기는 각도”.
+411. [line 10809] * `BETTI_5 = 5`
+412. [line 10855] * `MAXWELL_R_MAJOR = 2.125`
+413. [line 10856] * `MAXWELL_R_MINOR = 0.2235501110061347`
+414. [line 10857] * `MAXWELL_Q_FACTOR = 11.8`
+415. [line 10859] L_0 = frac(10)(r_(terminus))
+416. [line 10860] R_T = 10
+417. [line 10860] * outer sphere: $R_T = 10$
+418. [line 10861] R_(void) = sqrt(W_7/pi),L_0
+419. [line 10862] R_(torus,major) = R_(major,unit) x torus_scale
+420. [line 10862] r_(torus,minor) = r_(minor,unit) x torus_scale
+421. [line 10865] 그리고 `TOTAL_DEBT_AREA = (11/7) * NIGHT_HYSTERESIS`로 12개월 누적 부채 영역까지 여기 묶여 있다.
+422. [line 10889] * `boundary_basin_1_9 = 1/9` (H₂)
+423. [line 10890] * `terminus_r = 0.1123`
+424. [line 10891] * `night_hysteresis = 0.8418`
+425. [line 10892] * `spark_angle_deg = 138.88`
+426. [line 10893] * `compression_gap = 3/32`
+427. [line 10894] * `spark_leap_distance = 2.5`
+428. [line 10900] * void gap = 1/32 - 1/64 사용해서 누수/압축 균형 조절

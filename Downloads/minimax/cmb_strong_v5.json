@@ -1,0 +1,25 @@
+{
+  "_version": "v5.0",
+  "_date": "2026-09-09",
+  "_method": "3rd-order: 3 Lorentzian peaks at l=220,537,810 (Planck 2018 fixed) × Gaussian Silk damping. 18 measured points.",
+  "_planck_ref": "arXiv:1907.12875",
+  "fit_cmb_3peak": {
+    "A1_uK2": 5193.313712125449,
+    "A2_uK2": 1227.1105036243919,
+    "A3_uK2": 217.0904033636858,
+    "l_D_silk": 1800,
+    "chi2_n": 0.1513227261645486
+  },
+  "ca1_to_cmb_match": {
+    "l_ahp": 1490,
+    "residual_chi2_n": 0.17912927041937088
+  },
+  "lie_group_3rd_order": "GL(3,R) × R+",
+  "comparison": {
+    "v2_1peak_1order": 0.0077,
+    "v3_1peak_1order_silk_b": 0.008,
+    "v4_1peak_planck_fit": 0.3774,
+    "v5_3peak_planck_fit": 0.1513227261645486
+  },
+  "n_planck_data_points": 19
+}
