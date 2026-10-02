@@ -284,9 +284,9 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 
 ### 16. GADOLINIUM (Gd-64) / Bion at NODE 4
 
-**Physics foundation (user definition):** bion = quasiparticle similar to an exciton, i.e. a neutral bound pair (electron–hole-like) that carries energy but no net charge. It is a user-defined term here; "bion" is not a standard named quasiparticle, so the exciton analogy is the working definition. (This replaces my earlier instanton reading.)
+**Physics foundation (verified against external sources):** bion = a bound state of two solitons (a soliton–antisoliton pair), the solitonic solution of the Born–Infeld model; also appears as a breather-like bound pair in sine-Gordon-type nonlinear field theories. Listed as a quasiparticle in Wikipedia's "List of quasiparticles". The user's "similar to exciton" refers to its bound-pair structure: a bion is a neutral bound pair of two opposite topological objects, just as an exciton is a neutral bound pair of electron + hole. It carries energy but no net charge/topological number.
 
-**Decay type:** Eu(63, D meson) → Gd(64, bion): +1 proton; weakly decaying meson → neutral exciton-like bound state (condensation into a locked electron–hole-type pair).
+**Decay type:** Eu(63, D meson) → Gd(64, bion): +1 proton; weakly decaying meson → neutral soliton–antisoliton bound state (condensation into a locked pair; exciton-like in that it is a neutral bound pair of two opposites).
 
 **Enthalpy/entropy:** deep binding, ΔS ≈ 0 (the bound pair is locked, no net charge to dissipate) ✓ NODE 4 pattern (In, Cs, Pr, Sm).
 
@@ -304,7 +304,7 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 
 **Route logic:** Sm (NODE 4) ⇢ Eu (NODE 3) → Gd (NODE 4) closes the 62-63-64 triple (NODE 4 → 3 → 4) and matches the carbon latch pair.
 
-**Known weakness:** The "bion" assignment and its exciton-like definition are not cross-referenced in the repo.
+**Note:** The bion↔Gd link itself is the user's assignment (not in the repo files), but the particle is real and externally sourced: bound soliton–antisoliton pair (Born–Infeld; cf. Wikipedia, List of quasiparticles).
 
 ---
 
