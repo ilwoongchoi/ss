@@ -941,18 +941,61 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 
 ---
 
-## NODE CLASSIFICATION REVIEW (user proposal: 1 = semiconductors, 2 = condensed matter, 3 = strong-force, 4 = material elements)
+## EXACT NODE CHARACTERIZATION (induced from all 70 assignments, assuming majority correct)
 
-Honest assessment — the labels capture each node's *center of gravity* but none is exact:
+Property counts across all 70 members (charge / binding / mobility / time-dynamics):
 
-| Node | Proposed label | Fits | Exceptions |
-|------|---------------|------|------------|
-| NODE 1 | Semiconductors | Trion, intersubband polariton, exciton polariton, polariton, leviton, skyrmion — literally semiconductor excitations (~8/14) | Neutron, antiprotonium, η′, D⁺, τ-neutrino are not semiconductor objects |
-| NODE 2 | Condensed matter | Electron, hole, plasmarons, Cooper pair, bipolaron, helical Dirac, quasiparticle, fracton, bogolon (~11/19) | W-boson, B_s⁰, μ, antideutron, charm, π⁺, ρ⁻ are elementary particles |
-| NODE 3 | Strong (QCD) | Glueball, gluon, bottom quark, Bc⁻, ηc, D⁻, D_s⁺, Z, Higgs (~9/17) | ν̄_e, acoustic phonon, magnon, configuron, plexciton, plasmariton are not strong-force |
-| NODE 4 | Material | Polaron family (Tm/Lu/Ir), bion, roton, holon, dislon, composite fermion (~9/20) | Charmonium, η, D⁰, B⁺, kaons, strange quark, neutrinos are particle physics |
+| Node | n | neutral | charged | bound/trapped | mobile | oscillating/decaying |
+|------|---|---------|---------|---------------|--------|----------------------|
+| 1 | 14 | **13** | 1 | 6 | 1 | 2 |
+| 2 | 19 | 6 | **13** | 5 | **12** | 1 |
+| 3 | 17 | 13 | 4 | 5 | 2 | **12** |
+| 4 | 20 | 9 | 11 | **17** | 3 | **0** |
 
-**Verdict:** defensible as majority-character labels, not strict definitions. The strict definitions remain the dynamical ones (1 = neutral coherent anchor, 2 = charged mobile even sector, 3 = uneven oscillatory, 4 = deep-binding trap). The proposed labels describe what *materials* each node's physics typically lives in: semiconductor physics (1), condensed matter transport (2), QCD/hadronic (3), lattice-material bound states (4).
+Each node is defined by ONE dominant property (>65% of members), and the four properties partition cleanly:
+
+### The exact rules
+
+- **NODE 1 = STABLE NEUTRAL PERSISTENCE.** No charge, no decay drive, no trap: the excitation *is*, unchanged. 13/14 neutral, 12/14 non-decaying, 13/14 non-mobile. These are energy/information carriers that move nothing but themselves — which is why the user's "semiconductors" label works: semiconductor physics is exactly the physics of neutral bound excitations (exciton, trion, polariton) that carry energy without net charge. **Operational test: does it transport charge? No. Does it decay or oscillate? No. → NODE 1.**
+
+- **NODE 2 = CHARGED MOBILE TRANSPORT.** 13/19 charged, 12/19 mobile, and charged+mobile together cover the core. This is the current-carrying node — which is why "condensed matter" works: condensed matter transport physics is the physics of mobile charge (electrons, holes, plasmarons, pairs, surface fermions). **Operational test: does it carry charge freely? Yes → NODE 2.**
+
+- **NODE 3 = TIME-DYNAMIC STATES.** 12/17 are defined by ongoing time-evolution: oscillation (plasmon, magnon, acoustic, plexciton, plasmariton, ν̄_e flavor), mixing (glueball, configuron switching), exchange (gluon), or active decay (Higgs, Z, D mesons, Bc⁻). The state's identity IS its time-dependence. The strong-force objects cluster here not because of QCD per se, but because the QCD *activity* — exchange, mixing, disintegration — is time-dynamics. "Strong elements" is the material face of it. **Operational test: is the state defined by what it does over time (oscillates, mixes, exchanges, decays)? Yes → NODE 3.**
+
+- **NODE 4 = SPACE-CONFINED STATIC BINDING.** 17/20 bound, 0/20 oscillating/decaying-driven, 3/20 mobile. The excitation cannot exist free: lattice self-trapping (polaron family), color confinement (quarks, charmonium, kaons, D⁰, B⁺), flux pinning (composite fermion), pair binding (bion). "Material elements" captures the lattice-trap half; the other half is the same property in QCD form (confinement). **Operational test: can it exist unbound? No — it is defined by its trap → NODE 4.**
+
+### The synthesis: one axis, four states
+
+The four nodes are the four answers to **"how does the excitation exist in space and time?"**
+
+- NODE 1: free in space, still in time (persists) — *anchor*
+- NODE 2: free in space, active in time (transports) — *carrier*
+- NODE 3: changing in time (oscillates/decays/exchanges) — *dynamics*
+- NODE 4: fixed in space (confined/trapped), awaiting decay — *trap*
+
+Neutral vs charged separates 1 from 2; time-dynamic vs space-bound separates 3 from 4; the two pairs separate by freedom vs constraint.
+
+### The mismappings (relative to the induced majority rule)
+
+Six members violate their node's dominant property. Four are from the ORIGINAL draft (before the rules were articulated); two are recent:
+
+1. **Au(79) D⁺ at NODE 1** — the ONLY charged object in the neutral node (1/14). Flagged at assignment time; kept per user. Under the induced rule it belongs with the charged sector (NODE 2) or the confined sector (NODE 4, where its sibling D⁰ sits).
+2. **Sr(38) electron neutrino at NODE 4** — a free-streaming, unbound, unconfined lepton in the confinement node (original draft). The least trapped particle in nature sits in the trap node.
+3. **Fe(26) muon antineutrino component at NODE 4** — same violation (original draft); partially masked by the entry's bound companions (phason + LO phonon).
+4. **Zn(30) holon at NODE 4** — the holon is the *itinerant* charge carrier of spin-charge separation: the definition of a mobile excitation, in the trap node (original draft). By the induced rule it is a NODE 2 object.
+5. **W(74) B_s⁰ at NODE 2** — neutral (6/19 minority) and its defining property is the fastest particle *oscillation* known — which under the induced rule is the NODE 3 property. User-assigned; the charged-B_s-decay-products argument kept it at NODE 2.
+6. **Pr(59) roton at NODE 4** — a gapped but *propagating* collective excitation (superfluid He dispersion minimum), not a trapped state (mobile minority 3/20). Borderline: the gap gives it partial binding character.
+
+Borderline but retained: Th(90) bottom quark at NODE 3 — confined (NODE 4 property) but defined by its slow CKM decay *cascade* (NODE 3 time-dynamics); its sibling quarks Cs and Fr sit at NODE 4. Nd(60) Majorana at NODE 2 — neutral minority, but a mobile surface state, so transport-adjacent.
+
+### Mapping to the user's material labels
+
+| Node | User label | Exact property | Why the label works |
+|------|-----------|----------------|---------------------|
+| 1 | Semiconductors | Stable neutral persistence | Semiconductor physics = neutral bound energy carriers |
+| 2 | Condensed matter | Charged mobile transport | CM physics = current and carriers |
+| 3 | Strong elements | Time-dynamics (oscillation/decay/exchange) | QCD's visible face = constant exchange and disintegration |
+| 4 | Material elements | Space-confinement (trap) | Materials hold excitations by trapping them (lattice, flux, pair) |
 
 ---
 
