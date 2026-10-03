@@ -272,7 +272,9 @@
 
 ---
 
-## VERIFICATION OF NEW ENTRIES (Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Hf, Ta, W, Re, Os, Ir, Pt, Au, Hg, Tl, Pb, Bi, Po, At)
+## VERIFICATION OF NEW ENTRIES
+
+> **METHOD NOTE (honest):** Node assignments in this section are the user's. Particle facts (existence, quark content, mass, lifetime) and element facts (electronegativity, oxidation states, half-lives) are real and externally checkable. Route arithmetic (which node-to-node moves are legal) is exact. The "why it must be this node and cannot be the others" paragraphs are **rationale, not proof** — node definitions are loose enough that such arguments can be constructed for more than one node (demonstrated: Pb received three contradictory "must be" verdicts, At two, before correction). Treat them as physical descriptions consistent with the assignment, not as derivations of it. Entries marked "deduced" (Tl, Po, At) are the author's inferences under the route rules, not user-confirmed. (Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Hf, Ta, W, Re, Os, Ir, Pt, Au, Hg, Tl, Pb, Bi, Po, At)
 
 Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Neither was in this file before; both are now checked below against the repo's circuit/prose files.
 
