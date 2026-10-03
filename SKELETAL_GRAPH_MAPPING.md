@@ -20,6 +20,7 @@
      Ir / Small polaron
      Tl / B+ meson
      Bi / Composite fermion
+     At / K-short meson
                          |
            dark photon routes (H1,H2,H3,H4)
            = entropic/enthalpic energy dissipation
@@ -42,7 +43,6 @@
    Eu (D_s meson)                  Nd (majorana fermion)
    Hf (configuron)
    Hg (electron antineutrino)
-   At (K-short meson)
                                    Ho (electron plasmaron)
                                    Yb (electron quasiparticle)
                                    W (strange neutral B meson)
@@ -784,27 +784,27 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 
 ---
 
-### 37. ASTATINE (At-85) / K-short Meson (K_S) at NODE 3 — deduced from progression + transition rules
+### 37. ASTATINE (At-85) / K-short Meson (K_S) at NODE 4 — deduced (corrected: 2→3 forbidden, NODE 3 assignment was a rule violation)
 
 **Kaon distinctions (confirmed):** charged kaon (K⁺/K⁻, 493.7 MeV, τ=12.4 ns), neutral kaon K⁰ (flavor state, ds̄), **K-short K_S = (ds̄+s d̄)/√2, CP≈+1, τ≈0.09 ns, decays → 2π (fast, CP-allowed)**, and K-long K_L = (ds̄−s d̄)/√2, CP≈−1, τ≈51 ns (slow, → 3π). All four distinct; K_S/K_L are the physical CP eigenstates.
 
-**Progression:** Po(84) is at NODE 2. Viable exits: {1, 4} direct; 2→3 is forbidden directly, but reachable via 2→1→3. The particle decides.
+**Progression:** Po(84) is at NODE 2. Viable exits: {1, 4} only (2→3 forbidden — no detours; the progression moves to an adjacent node only). The particle decides between 1 and 4.
 
-**Why it must be NODE 3 (and cannot be the other three):**
-- **Cannot be NODE 1:** K_S is the *least* persistent neutral meson in existence — shortest-lived of the kaon system (0.09 ns). NODE 1 anchors are longevity/persistence states (neutron, soliton, Au's D⁺). The anchor node cannot hold the most ephemeral object on the graph.
-- **Cannot be NODE 4:** NODE 4's bound states are long-lived *until* a suppressed weak decay (Ta D⁰, Tl B⁺ — CKM-suppressed, maximally stable). K_S is the inverse: the *CP-allowed, maximally fast* disintegration channel. A trap already wide open is not a trap.
-- **Cannot be NODE 2:** route-forbidden from Po directly (2→3); and K_S's defining physics is disintegration dynamics, not even-sector mobile-carrier transport.
-- **Must be NODE 3:** the uneven-disintegration node. K_S is the canonical fast uneven decay (→ 2π), born from the K⁰–K̄⁰ *oscillation* system — oscillation AND disintegration in one object, NODE 3's exact dual character. Element side: astatine is the rarest natural element, every isotope vanishing almost immediately (longest T½ = 8.1 h) — the most ephemeral element maps to the most ephemeral kaon. Circuit layer: At(85) drives nitrogenase out_1 = breaking the N≡N triple bond — a disintegration act, consistent.
+**Why it must be NODE 4 (and cannot be the other three):**
+- **Cannot be NODE 3:** *route-forbidden* from NODE 2 (2→3 does not exist). And on the physics: the oscillation in the kaon system belongs to the **parent K⁰–K̄⁰ mixing**, not to K_S — K_S is what the oscillating system *decays into*. Assigning K_S to the oscillation node conflates the oscillating parent with its decay product. K_S itself does not oscillate; it is the fixed CP ≈ +1 eigenstate.
+- **Cannot be NODE 1:** K_S is the *least* persistent neutral meson in existence (τ ≈ 0.09 ns). NODE 1 anchors are longevity/persistence states (neutron, soliton, Au's D⁺). The anchor node cannot hold the most ephemeral object on the graph.
+- **Cannot be NODE 2:** although reached from NODE 2, staying at NODE 2 fails — K_S is a deeply QCD-confined bound state (497.6 MeV), not a mobile carrier or even-sector condensed-matter state. NODE 2's members are itinerant or mobile-paired objects.
+- **Must be NODE 4:** K_S *is* a deeply bound, QCD-confined neutral meson — and its short lifetime is not instability of the binding but the **CP-allowed weak-decay channel standing open**. NODE 4 is the weak-decay endpoint node (In charmonium, Sm η, Ta D⁰, Tl B⁺): its states are bound states whose entire character is defined by *how* the weak decay exits. K_S is the kaon family's weak-decay endpoint with the channel fully open — trap sector, exit open. It pairs with K_L (the CP-forbidden, suppressed, long-lived endpoint) exactly as the open vs suppressed channels of one bound system. Element side: astatine's isotopes all decay from a *bound nuclear ground state* — the ephemerality is decay *from* a bound state, which is NODE 4's pattern (bound, decay-defined), not NODE 3's (cycling, ongoing). Circuit layer: At(85) drives nitrogenase out_1 = the N≡N triple bond breaking — a bound-triple-bond rupture event, consistent with a decay-defined bound state.
 
-**Decay type:** Po(84, helical Dirac fermion) → At(85, K_S): +1 proton; protected mobile topological carrier → fast-disintegrating neutral meson. ✓ Protection lost, state enters the disintegration sector.
+**Decay type:** Po(84, helical Dirac fermion) → At(85, K_S): +1 proton; protected mobile topological carrier → deeply bound neutral meson with open decay channel. ✓ Mobile protection collapses into confinement — carrier sector to trap sector, the direct 2→4 route.
 
 **Enthalpy/entropy:** ΔH = 497.6 MeV; ΔS >> 0 (fast multi-channel disintegration, maximal for a meson of its mass). ✓ NODE 3 high-dissipation oscillatory pattern.
 
-**Oxidoreductive transition:** Po (Po²⁺/Po⁴⁺, volatile) → At (At⁻/At⁰/At⁺/At⁵⁺ all trace, no stable chemistry — the halogen with no persistent state). ✓ Maximal impermanence on the element side.
+**Oxidoreductive transition:** Po (Po²⁺/Po⁴⁺, volatile) → At (At⁻/At⁰/At⁺/At⁵⁺ all trace). ✓ No persistent chemistry: every state is a decay-pending bound configuration — the element-level mirror of a bound state defined by its open decay channel.
 
 **Electronegativity:** Po 2.0 → At 2.2. ✓ Small rise into the halogen edge.
 
-**Dark photon route:** Po (NODE 2) → At (NODE 3) via 2→1→3 (2→3 direct forbidden). ✓ Protected surface current unraveled into fast disintegration.
+**Dark photon route:** Po (NODE 2) → At (NODE 4) — direct legal route (2→4). ✓ Protected surface current captured into the bound weak-decay endpoint.
 
 ---
 
@@ -823,20 +823,20 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 ---
 
 ### NODE 3: LOWER LEFT (Uneven Redox Oscillatory Hadrons)
-- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **Hg(80) Electron Antineutrino** ✓ VERIFIED → **At(85) K-Short Meson** ✓ VERIFIED
+- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **Hg(80) Electron Antineutrino** ✓ VERIFIED
 - ✓ All uneven, all oscillatory or redox-active
 
 ---
 
 ### NODE 4: TOP-MIDDLE (Deep Binding Weak-Decay Fundamental/Composite)
-- Fe(26) Muon-antineutrino → Zn(30) Holon → Se(34) Negative-dislon → Sr(38) Electron-neutrino → In(49) Charmonium → Cs(55) Down-Quark → **Pr(59) Roton** ✓ VERIFIED → **Sm(62) Eta Meson** ✓ VERIFIED → **Gd(64) Bion** ✓ VERIFIED → **Tm(69) Polaron** ✓ VERIFIED → **Lu(71) Hole Polaron** ✓ VERIFIED → **Ta(73) Neutral D Meson** ✓ VERIFIED → **Ir(77) Small Polaron** ✓ VERIFIED → **Tl(81) B⁺ Meson** ✓ VERIFIED → **Bi(83) Composite Fermion** ✓ VERIFIED
+- Fe(26) Muon-antineutrino → Zn(30) Holon → Se(34) Negative-dislon → Sr(38) Electron-neutrino → In(49) Charmonium → Cs(55) Down-Quark → **Pr(59) Roton** ✓ VERIFIED → **Sm(62) Eta Meson** ✓ VERIFIED → **Gd(64) Bion** ✓ VERIFIED → **Tm(69) Polaron** ✓ VERIFIED → **Lu(71) Hole Polaron** ✓ VERIFIED → **Ta(73) Neutral D Meson** ✓ VERIFIED → **Ir(77) Small Polaron** ✓ VERIFIED → **Tl(81) B⁺ Meson** ✓ VERIFIED → **Bi(83) Composite Fermion** ✓ VERIFIED → **At(85) K-Short Meson** ✓ VERIFIED
 - ✓ All deep binding, all low entropy, all weak-decay or superfluid-coherent
 
 ---
 
 ## SYSTEM-WIDE TOTAL: 45 ELEMENTS MAPPED
 
-The graph contains **59 elements in total**: NODE 1 = 13 (Cl, K, Ge, Kr, Sb, I, La, Pm, Tb, Dy, Er, Os, Au), NODE 2 = 18 (Ar, Mn, Co, Ni, Ga, Br, Y, Te, Ba, Nd, Ce, Ho, Yb, W, Re, Pt, Pb, Po), NODE 3 = 13 (Ca, Sc, Ti, V, Cr, Cu, As, Sn, Xe, Eu, Hf, Hg, At), NODE 4 = 15 (Fe, Zn, Se, Sr, In, Cs, Pr, Sm, Gd, Tm, Lu, Ta, Ir, Tl, Bi).
+The graph contains **59 elements in total**: NODE 1 = 13 (Cl, K, Ge, Kr, Sb, I, La, Pm, Tb, Dy, Er, Os, Au), NODE 2 = 18 (Ar, Mn, Co, Ni, Ga, Br, Y, Te, Ba, Nd, Ce, Ho, Yb, W, Re, Pt, Pb, Po), NODE 3 = 12 (Ca, Sc, Ti, V, Cr, Cu, As, Sn, Xe, Eu, Hf, Hg), NODE 4 = 16 (Fe, Zn, Se, Sr, In, Cs, Pr, Sm, Gd, Tm, Lu, Ta, Ir, Tl, Bi, At).
 
 Of these 59, **37 are the "new entries"** verified in this appended series (the counts below refer to those 31 only): In, Sn, Sb, Te, I, Xe, Cs, Ba, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Hf, Ta, W, Re, Os, Ir, Pt, Au, Hg, Tl, Pb, Bi, Po, At. The other 22 were placed in the original drafts before this verification series.
 
@@ -882,7 +882,7 @@ Of these 59, **37 are the "new entries"** verified in this appended series (the 
 | **Pb Bipolaron** | **Tl** | **Pb** | **Release from trap into paired-carrier sector** | **Even 2-body, localized hopping, ±2e** |
 | **Bi Composite Fermion** | **Pb** | **Bi** | **Lattice trap → topological flux trap** | **Electron + flux quanta, FQH ν=1/2** |
 | **Po Helical Dirac Fermion** | **Bi** | **Po** | **Trap → protected mobile surface state** | **Spin-momentum locked, massless Dirac** |
-| **At K_S** | **Po** | **At** | **Protection lost → fast disintegration** | **Shortest-lived kaon, τ=0.09 ns, →2π** |
+| **At K_S** | **Po** | **At** | **Carrier → confined weak-decay endpoint** | **Shortest-lived kaon, τ=0.09 ns, →2π** |
 
 ✓ **All 37 entries: complete radioactive decay coverage (baryogenesis, uneven, even, condensation, topological, fermionic, pseudoscalar)**
 
@@ -926,7 +926,7 @@ Of these 59, **37 are the "new entries"** verified in this appended series (the 
 | NODE 2 | **Pb (bipolaron)** | **meV–eV pair binding** | **>0 activated hopping** | **Even-sector paired carrier, trapped variant** |
 | NODE 4 | **Bi (composite fermion)** | **meV–10s meV (e²/ℓ_B)** | **≈0 topological** | **Flux-trapped, incompressible** |
 | NODE 2 | **Po (helical Dirac fermion)** | **≈0 gap (massless)** | **>0 mobile, protected** | **Topological surface carrier** |
-| NODE 3 | **At (K_S)** | **497.6 MeV** | **>>0 fast disintegration** | **CP-allowed → 2π, oscillation-born** |
+| NODE 4 | **At (K_S)** | **497.6 MeV** | **≈0 bound, open channel** | **CP-allowed → 2π, weak-decay endpoint** |
 
 ✓ **Pattern CONFIRMED:** NODE 1 ultra-low, NODE 2 HIGH (maximum at Ce/Nd), NODE 3 mixed, NODE 4 maximum-binding
 
@@ -958,7 +958,7 @@ Of these 59, **37 are the "new entries"** verified in this appended series (the 
 | Tl → Pb | NODE 4 → NODE 2 | Released into carrier sector (only 4→1 forbidden) |
 | Pb → Bi | NODE 2 → NODE 4 | Carrier drawn into topological flux trap |
 | Bi → Po | NODE 4 → NODE 2 | Trap released as spin-locked surface current |
-| Po → At | NODE 2 → 1 → NODE 3 | Protection unraveled into fast disintegration (2→3 direct forbidden) |
+| Po → At | NODE 2 → NODE 4 | Surface current captured into bound decay endpoint |
 | Ba → Nd | H3-H4 (NODE 2 internal) | Charge neutralization (Majorana parity) |
 | Nd → Pm | H3-H4 (NODE 2→1) | Condensed to e⁻-h⁺ topological |
 | All NODE 1↔2↔3 | Circulation complete | Dark photon cycles verified |
