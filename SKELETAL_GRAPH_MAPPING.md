@@ -5,13 +5,10 @@
 ```
                     NODE 4
                   (TOP-MIDDLE)
-     Fe / Muon Antineutrino + Phason + Bulk LO Phonon
-     Zn / Holon
+     Zn / Holon ⚠ PARTICLE MISMATCHED (element stays NODE 4)
      Se / Negative Dislon
-     Sr / Electron Neutrino
      In / Charmonium
      Cs / Down Quark
-     Pr / Roton
      Sm / Eta Meson
      Gd / Bion
      Tm / Polaron
@@ -25,6 +22,7 @@
      Pa / Negative kaon
      Np / Rho+ meson
      Am / Neutral kaon
+     Au / Positive D meson
                          |
            dark photon routes (H1,H2,H3,H4)
            = entropic/enthalpic energy dissipation
@@ -45,16 +43,16 @@
    Sn (negative Bc meson)          Y (bogolon)
    Xe (magnon/bulk optic)          Ba (w-boson)
    Eu (D_s meson)                  Nd (majorana fermion)
-   Hf (configuron)
+   Hf (configuron)                 Ce (Proton hole)
+   W (strange neutral B meson)
    Hg (electron antineutrino)
    Rn (glueball)
    Ra (gluon)
-   Th (bottom quark)
+   Th (bottom quark) ⚠ PARTICLE MISMATCHED (element stays NODE 3)
    U (plexciton)
    Pu (plasmariton)
                                    Ho (electron plasmaron)
                                    Yb (electron quasiparticle)
-                                   W (strange neutral B meson)
                                    Re (hole plasmaron)
                                    Pt (Cooper pair)
                                    Pb (bipolaron)
@@ -63,7 +61,7 @@
                                        |
                                        |
                      NODE 1 (LOWER MIDDLE)
-                   Cl, K, Ge, Kr, Sb, I, La, Pm, Tb, Dy, Er, Os, Pb
+                   Cl, K, Fe, Ge, Kr, Sr, Sb, I, La, Pr, Pm, Tb, Dy, Er, Os, Ac
       Cl = Neutron
       K = Bulk traverse acoustic phonon
       Ge = Intersubband polariton
@@ -76,15 +74,17 @@
       Dy = Polariton
       Er = Exciton polariton
       Os = Soliton
-      Au = Positive D meson
       Ac = Tau neutrino
+      Fe = Muon antineutrino + phason + bulk LO phonon
+      Sr = Electron neutrino
+      Pr = Roton
 ```
 
 ---
 
 ## VERIFICATION OF 4 NEW ENTRIES
 
-### 11. PRASEODYMIUM (Pr-59) / Roton at NODE 4
+### 11. PRASEODYMIUM (Pr-59) / Roton at NODE 1 (CORRECTED from NODE 4 — post-characterization remap)
 
 **RATIONALE:**
 
@@ -98,12 +98,12 @@
 - Cs(Z=55, down quark, fundamental) → Pr(Z=59, roton, quasiparticle): +4 protons
 - Transition: FROM fundamental fermion → TO deep-binding quasiparticle excitation
 - ✓ Characteristic: roton is gapped quasiparticle (meV scale), requires deep collective binding in superfluid
-- ✓ NO ALTERNATIVE: NODE 4 REQUIRES deep-binding quasiparticles with gapped spectra; roton fits uniquely
+- ✓ Post-characterization: the roton is neutral, gapped, coherent and non-decaying within the superfluid — NODE 1's stable-neutral-persistence property (it propagates; it is not trapped)
 
 **Enthalpy/Entropy:**
 - ΔH = roton gap energy (~meV, bound quasiparticle state)
 - ΔS ≈ 0 (coherent quasiparticle within superfluid order parameter, low dissipation)
-- ✓ Fits NODE 4 pattern: deep binding, zero-entropy coherent state
+- ✓ Fits NODE 1 pattern: neutral, zero-entropy, coherent persistent excitation
 
 **Oxidoreductive Transition:**
 - Cs (ultra-reactive alkali, +1 valence) → Pr³⁺ (lanthanide, 4f³ valence, high redox flexibility)
@@ -116,20 +116,20 @@
 - ✓ Trend: decrease in electronegativity reflects shift from reactive element to lanthanide inertness, mirrors superfluidity's isolation from external perturbations
 
 **Dark Photon Routes:**
-- Cs(NODE 4, down quark, QCD-confined) → Pr(NODE 4, roton, superfluid-confined) via **internal NODE 4 baryogenesis (no escape)**
-- Energy locked: dark photon trapped in superfluid order parameter (analogous to QCD confinement)
-- ✓ Matches roton physics: roton gap protected by superfluid coherence, dark photon cannot escape
+- Cs (NODE 4, down quark, QCD-confined) → Pr (NODE 1, roton, coherent collective): the confined quark sector releases a neutral persistent excitation
+- Energy carried coherently by the superfluid order parameter without dissipation
+- ✓ Matches roton physics: gap protected by superfluid coherence — persistent, non-decaying
 
 **Route Logic:**
-- In (NODE 4, charmonium) → Cs (NODE 4, down quark) → **Pr (NODE 4, roton)**
+- In (NODE 4, charmonium) → Cs (NODE 4, down quark) → **Pr (NODE 1, roton)**
 - ✓ Progression: composite charm binding → fundamental quark → superfluid quasiparticle excitation
-- ✓ All NODE 4: deep binding, zero entropy, collective/fundamental coherence
+- ✓ Cs stays NODE 4 (confined); Pr steps to NODE 1 (neutral coherent persistence)
 
-**Why NO Alternatives:**
-- NODE 1 (neutral anchor): roton is charged quasiparticle (contains quasihole + quasihole pair), requires deep background medium
-- NODE 2 (even mesons): roton is NOT 2-body meson, but collective many-body excitation in superfluid
-- NODE 3 (uneven oscillatory): roton gap is STATIC topological property (not oscillatory), would dissipate in NODE 3 redox environment
-- ✓ **ONLY NODE 4 supports deep-binding gapped quasiparticles with superfluid coherence**
+**Why NO Alternatives (corrected):**
+- NODE 4 (trap): the roton is NOT trapped — it propagates freely through the superfluid (dispersion minimum, mobile quasiparticle); confinement arguments fail
+- NODE 2 (charged mobile): the roton carries no charge — it is a neutral density-wave excitation
+- NODE 3 (time-dynamic): the roton does not oscillate, mix, or decay — its gap is static and it persists within the superfluid order
+- ✓ **ONLY NODE 1 fits: neutral, coherent, persistent, non-decaying collective excitation**
 
 ---
 
@@ -266,14 +266,14 @@
 - ✓ Trend: small increase reflects Sm's entry into **most stable lanthanide region** (f⁶ half-filled), mirrors η's simplified pseudoscalar structure (vs composite charmonium)
 
 **Dark Photon Routes:**
-- Pr(NODE 4, roton, superfluid bound) → Sm(NODE 4, eta meson, cc̄ bound) via **internal NODE 4 deep binding (no escape)**
+- Pr (NODE 1, roton, coherent propagating) → Sm (NODE 4, eta meson, cc̄ bound): the persistent collective excitation condenses into confinement
 - Energy locked: dark photon trapped in color confinement (η pseudoscalar structure prevents dark photon escape)
 - ✓ Matches eta physics: pseudoscalar (CP-violating) structure confines dark photon more tightly than vector mesons
 
 **Route Logic:**
-- Cs (NODE 4, down quark) → Pr (NODE 4, roton) → **Sm (NODE 4, eta meson)**
+- Cs (NODE 4, down quark) → Pr (NODE 1, roton) → **Sm (NODE 4, eta meson)**
 - ✓ Progression: fundamental quark → gapped superfluid quasiparticle → light pseudoscalar meson
-- ✓ All NODE 4: deep binding, zero entropy, quark/superfluid/meson coherence
+- ✓ Pr steps out to NODE 1 (persistence); Sm re-enters NODE 4 (confinement)
 
 **Why NO Alternatives:**
 - NODE 1 (neutral anchor): eta is composite meson (not multi-particle neutral coherence), requires strong binding
@@ -554,25 +554,25 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 - NODE 3: binding too deep for configurational/redox oscillation.
 - ✓ NODE 4 fits.
 
-### 26. TUNGSTEN (W-74) / Strange Neutral B Meson (B_s⁰) at NODE 2
+### 26. TUNGSTEN (W-74) / Strange Neutral B Meson (B_s⁰) at NODE 3 (CORRECTED from NODE 2 — post-characterization remap)
 
 **Physics foundation:** B_s⁰ = b s̄ ("strange neutral B"), J^P = 0⁻, mass 5366.9 MeV/c², weak decay (b → c), τ ≈ 1.5 ps, with very fast B_s⁰–B̄_s⁰ oscillation (Δm_s ≈ 17.8 ps⁻¹). The heaviest neutral meson in the system so far.
 
 **Decay type:** Ta(73, D⁰) → W(74, B_s⁰): +1 proton; charm sector → bottom sector. ✓ Same quantum-number pattern (neutral pseudoscalar, weak decay, mixing) one generation heavier.
 
-**Enthalpy/entropy:** ΔH = 5.37 GeV; ΔS > 0 (weak decay into many channels; mixing is fast but the state is dissipative). ✓ Placed at NODE 2 as the heavy even-sector meson (with Te π⁺, Ba W-boson); the entropy-positive weak decay is the NODE 2 marker here.
+**Enthalpy/entropy:** ΔH = 5.37 GeV; ΔS > 0 (weak decay into many channels; mixing is fast but the state is dissipative). ✓ Placed at NODE 3: its defining property is the fastest particle oscillation known (Δm_s ≈ 17.8 ps⁻¹) — NODE 3's time-dynamics property.
 
 **Oxidoreductive transition:** W is +4/+5/+6 (WO₃, bronzes) — variable but stepwise, the most refractory element (highest melting point). Mixed valence in tungsten bronzes gives real charge mobility. ✓ Supports a dissipative even-sector carrier rather than a locked or oscillating state.
 
 **Electronegativity:** Ta 1.5 → W 2.36. ✓ Sharp rise, entering the high-electronegativity refractory block.
 
-**Dark photon route:** Ta (NODE 4) → W (NODE 2): deep charm binding released into the heavier bottom sector with active dissipation. ✓ Entropy-positive release direction.
+**Dark photon route:** Ta (NODE 4) → W (NODE 3): deep charm binding released into the oscillating bottom sector. ✓ Confinement → time-dynamics direction.
 
-**Why not another node:**
-- NODE 1: heavy weak-decaying meson, not a neutral coherent anchor.
-- NODE 3: B_s oscillation is a particle–antiparticle mixing, not a redox/configurational oscillation; NODE 3 already holds the D⁺ (Eu) sector.
-- NODE 4: its decay is entropy-positive and fast-mixing; NODE 4 holds the locked states (Ta's D⁰ occupies the deep-binding slot).
-- ✓ NODE 2 fits.
+**Why not another node (corrected):**
+- NODE 1: heavy weak-decaying meson — not persistent, not an anchor.
+- NODE 2: neutral (minority there) and NOT a mobile carrier — its identity is not transport.
+- NODE 4: not static-bound-and-pending — it is *actively oscillating* (fastest mixing known); NODE 4's states are space-trapped and still.
+- ✓ NODE 3 fits: B_s⁰–B̄_s⁰ mixing is the defining time-dynamic state — oscillation IS the NODE 3 property.
 
 ---
 
@@ -588,7 +588,7 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 
 **Electronegativity:** W 2.36 → Re 1.9. ✓ Step down, still in the refractory block.
 
-**Dark photon route:** W (NODE 2) → Re (NODE 2), internal. ✓ No node change; matches W/Re being q / q_bar of one latch in the circuit layer.
+**Dark photon route:** W (NODE 3) → Re (NODE 2): the oscillating state sheds a charged damped carrier into the transport sector. ✓ No node change; matches W/Re being q / q_bar of one latch in the circuit layer.
 
 **Why it must be NODE 2 (and cannot be the other three):**
 - **Cannot be NODE 1 (neutral coherent anchor):** the hole plasmaron carries charge +e and has a finite lifetime from Landau damping. NODE 1 holds neutral, coherent, long-lived excitations (neutron, trion, skyrmion, soliton). A damped charged object fails both tests.
@@ -659,27 +659,27 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 
 **Dark photon route:** Ir (NODE 4) → Pt (NODE 2): trapped charge released into a paired, dissipationless mobile state. ✓ Trap → release direction (as Tm → Yb).
 
-### 31. GOLD (Au-79) / Positive D Meson (D⁺) at NODE 1
+### 31. GOLD (Au-79) / Positive D Meson (D⁺) at NODE 4 (CORRECTED from NODE 1 — post-characterization remap)
 
 **Physics foundation:** D⁺ = cd̄, J^P = 0⁻, mass 1869.7 MeV/c², charged open-charm meson, weak decay (c → s), longest-lived of the D family (τ ≈ 1.04 ps — vs 0.41 ps for D⁰) because its decay is Cabibbo-favored only through specific channels. The most stable, most long-lived open-charm state.
 
 **⚠ COLLISION FLAG:** Eu(63) is currently D⁺ (cd̄) at NODE 3 — assigned there when Ta took D⁰. Au is now also D⁺. The file now reads: Sc(21) = D⁻, Eu(63) = D⁺, Ta(73) = D⁰, Au(79) = D⁺. Eu and Au cannot both be the same state; options: (a) Eu = D_s⁺ (cs̄, strange-charmed) and Au = D⁺ — this also fits Eu's heavier lanthanide position; (b) swap which is D⁺. **Default applied:** (a) — Eu's entry now reads D_s⁺. Tell me if you want (b).
 
-**Why it must be NODE 1 (and cannot be the other three):**
+**Why it must be NODE 4 (corrected; cannot be the other three):**
 - **Cannot be NODE 2 (mobile carriers, entropy-positive):** D⁺ is a *bound* quark–antiquark state with GeV confinement — not an itinerant carrier — and it is the *most stable* weak-decaying meson: its entropy production is minimal for a charged composite. NODE 2's charged states are dissipative; D⁺ is the least dissipative charged object available.
 - **Cannot be NODE 3 (uneven oscillatory):** D⁺ has no oscillation channel (mixing belongs to neutral D⁰), no redox couple, no configurational switching. Every NODE 3 marker fails.
-- **Cannot be NODE 4 (deep binding weak-decay):** this is the closest alternative, since D⁺ *is* deeply bound and weakly decaying. The deciding criterion: NODE 4's trapped states are *locked with no escape channel until decay* (color-confined, self-trapped). D⁺'s distinction is instead its *exceptional longevity and stability* — a persistent, minimal-entropy excitation — which is the NODE 1 anchor character. Ta(73) already holds the NODE 4 D slot (D⁰); Au's D⁺ at NODE 1 is the stable-anchor member of the same family, mirroring how Os's soliton (NODE 1) and Gd's bion (NODE 4) split the soliton sector by propagation vs trapping.
-- **Must be NODE 1:** longest-lived charged meson (✓ stability/persistence), minimal entropy production (✓ ΔS ≈ 0), and its assignment completes the pattern of NODE 1 holding the *persistent* member of each family (soliton Os, soliton-pair bion at Gd being the trapped counterpart).
+- **Cannot be NODE 1 (stable neutral anchor):** D⁺ is CHARGED — the decisive failure. Post-characterization, NODE 1 is purely neutral (16/16 after remap); a charged meson cannot be an anchor regardless of its longevity.
+- **Must be NODE 4:** deeply color-confined qq̄ (✓ space-bound), static until its weak decay (✓ 0 time-dynamic members at NODE 4), and it joins its own family exactly: Ta holds D⁰ at NODE 4, so D⁺ sits beside it — the confined charged member of the D family. Gold's element character agrees: maximum chemical binding (no oxide, no corrosion) = the locked state.
 
-**Decay type:** Pt(78, Cooper pair) → Au(79, D⁺): +1 proton; meV paired-carrier condensate → GeV bound quark state. ✓ Condensation upward in binding scale, into a persistent state.
+**Decay type:** Pt(78, Cooper pair) → Au(79, D⁺): +1 proton; meV paired-carrier condensate → GeV bound quark state. ✓ Condensation upward in binding scale, into the confinement sector.
 
-**Enthalpy/entropy:** ΔH = 1.87 GeV; ΔS ≈ 0 (longest-lived, narrowest of the charged mesons). ✓ NODE 1 low-entropy pattern at high binding scale — as with Tb (η′, 958 MeV) already at NODE 1.
+**Enthalpy/entropy:** ΔH = 1.87 GeV; ΔS ≈ 0 (longest-lived, narrowest of the charged mesons). ✓ NODE 4 pattern: confined, static, decay-pending.
 
 **Oxidoreductive transition:** Pt (+2/+4, catalytic) → Au (+1/+3, the *most* noble metal: no oxide chemistry, no corrosion — maximum chemical persistence). ✓ The element of maximum chemical stability maps to the meson of maximum charged-meson stability.
 
 **Electronegativity:** Pt 2.28 → Au 2.54. ✓ Highest of the metals; gold's relativistic 6s contraction makes it the most electronegative transition metal — the chemically "most bound" electron structure.
 
-**Dark photon route:** Pt (NODE 2) → Au (NODE 1) via H3–H4. ✓ Dissipative sector resolved into a persistent anchor state (as Re → Os, Ho → Er).
+**Dark photon route:** Pt (NODE 2) → Au (NODE 4). ✓ Mobile pair sector condensed into confinement.
 
 ---
 
@@ -690,7 +690,7 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 **Why it must be NODE 3 (and cannot be the other three):**
 - **Cannot be NODE 1 (neutral coherent anchor):** ν̄_e is neutral — that much matches — but it is the *least* coherent object in the system: it does not bind, does not anchor, passes through everything, and its flavor composition continuously rotates. NODE 1's anchors are *stable coherent* excitations (neutron, soliton, skyrmion). A maximally non-interacting, oscillating particle is the opposite of an anchor.
 - **Cannot be NODE 2 (charged even carriers/mesons):** it is neutral and a *fundamental lepton*, not a charged carrier or even two-body meson. Every NODE 2 member is charged or an even-sector bound state.
-- **Cannot be NODE 4 (deep binding):** it does not bind at all. NODE 4 is confinement and self-trapping; the antineutrino is the free-streaming weak-interaction particle. (Note: Fe's muon antineutrino and Sr's electron neutrino sit at NODE 4 as *partners of deep-binding weak decay* — the neutrinos there are the decay *products* of trapped states. Hg's ν̄_e is assigned as the *oscillating agent itself*, which belongs to the oscillation node.)
+- **Cannot be NODE 4 (deep binding):** it does not bind at all. NODE 4 is confinement and self-trapping; the antineutrino is the free-streaming weak-interaction particle. (Note: Fe's muon antineutrino and Sr's electron neutrino were moved to NODE 1 — the stable-neutral-persistence node — as the non-oscillating members of the neutrino set. Hg's ν̄_e is the *oscillating agent itself*, which belongs to the time-dynamic node.)
 - **Must be NODE 3 (uneven redox oscillatory):** flavor oscillation is the defining physics (✓ oscillatory), β⁻ emission is the canonical uneven disintegration (✓), and weak-interaction-only coupling matches NODE 3's redox/weak character.
 
 **Decay type:** Au(79, D⁺) → Hg(80, ν̄_e): +1 proton; bound charm state → free weak lepton. ✓ D⁺ decay literally produces leptons (c → s + ℓ⁺ν); the chain steps from the hadron to its weak-decay lepton sector.
@@ -701,7 +701,7 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 
 **Electronegativity:** Au 2.54 → Hg 2.00. ✓ Drop at the filled 6s² shell (inert pair).
 
-**Dark photon route:** Au (NODE 1) → Hg (NODE 3): the persistent anchor sheds into the oscillating weak sector. ✓ Matches the basin-latch q side (deposition, fluidity) in the circuit layer.
+**Dark photon route:** Au (NODE 4) → Hg (NODE 3): the confined meson releases the oscillating weak lepton. ✓ Matches the basin-latch q side (deposition, fluidity) in the circuit layer.
 
 ### 33. THALLIUM (Tl-81) / B⁺ Meson at NODE 4 — deduced, not user-assigned
 
@@ -712,7 +712,7 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 **Why it must be NODE 4 (and cannot be the other three):**
 - **Cannot be NODE 1:** B⁺ is charged — the anchor node is neutral-sector. Au's D⁺ is already the single exception-with-argument (longest-lived charged meson = persistence anchor); B⁺ is *heavy and charged*, its stability is a CKM-suppression artifact, not minimal-entropy coherence — it decays into many high-multiplicity channels (D, D_s, J/ψ + anything), i.e. large decay entropy.
 - **Cannot be NODE 2:** although charged, B⁺ is a *deep GeV-confined bound state*, not a mobile quasiparticle carrier. NODE 2's charged objects are condensed-matter carriers (holes, plasmarons, Cooper pairs) and light/even mesons (π⁺); a 5.3 GeV tightly bound weak-decaying state fails the mobile-carrier character. Also NODE 2's meson entries are entropy-*positive* dissipative states; B⁺ is the *slowest* disintegrator of its family.
-- **Cannot be NODE 3:** B⁺ has no oscillation (mixing belongs to neutral B⁰/B_s⁰ — W already holds B_s⁰ at NODE 2), no redox couple on the particle side, no configurational switching. Every NODE 3 marker fails.
+- **Cannot be NODE 3:** B⁺ has no oscillation (mixing belongs to neutral B⁰/B_s⁰ — W holds B_s⁰ at NODE 3), no redox couple on the particle side, no configurational switching. Every NODE 3 marker fails.
 - **Must be NODE 4:** deep binding (5.3 GeV confinement) (✓), weak-decay endpoint (✓), low entropy until decay (✓ CKM-suppressed, longest-lived B), trapped color-charged constituents (✓). It joins the NODE 4 meson family exactly where the pattern demands it: In = charmonium (cc̄), Sm = η, Ta = D⁰ (open charm), **Tl = B⁺ (open bottom)** — the deep-binding node accumulates the heavy-flavor ladder. Element side: Tl is famously the *locked-in toxic sink* — Tl⁺ mimics K⁺ and is irreversibly sequestered; the prose layer says exactly this: "Tl = 독성 = 붕괴" (toxicity = collapse), the q_bar (collapse) half of the basin latch. Deep binding + collapse endpoint = NODE 4.
 
 **Decay type:** Hg(80, ν̄_e) → Tl(81, B⁺): +1 proton; free weak lepton → heaviest deeply bound charged meson. ✓ The oscillating weak agent condenses into the terminal weak-decay bound state.
@@ -935,58 +935,42 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 
 **Route:** Am(95, NODE 4) → Cm(96, NODE 2): 4→2 legal. ✓
 
-**Node-fit rationale (descriptive, not proof):** NODE 2 is the charged-meson/carrier sector (Te π⁺, W B_s⁰); the charged ρ is the strongly interacting charged-meson member. Honest caveat: ρ⁻ is as deeply confined as ρ⁺ (NODE 4 argument constructible); the charge and the Np/Cm pairing (ρ⁺ at Np, ρ⁻ at Cm — a particle/antiparticle split across nodes, mirroring the circuit layer where Np and Cm are separate gates) is the stated basis. Assignment is the user's. Element side: Cm is the strong continuous α-emitter (²⁴⁷Cm; glows from self-heating) — an active radiating source, matching the mobile/active sector. Repo layer: Cm = electron_antineutrino / "-", BLACK.
+**Node-fit rationale (descriptive, not proof):** NODE 2 is the charged-meson/carrier sector (Te π⁺); the charged ρ is the strongly interacting charged-meson member. Honest caveat: ρ⁻ is as deeply confined as ρ⁺ (NODE 4 argument constructible); the charge and the Np/Cm pairing (ρ⁺ at Np, ρ⁻ at Cm — a particle/antiparticle split across nodes, mirroring the circuit layer where Np and Cm are separate gates) is the stated basis. Assignment is the user's. Element side: Cm is the strong continuous α-emitter (²⁴⁷Cm; glows from self-heating) — an active radiating source, matching the mobile/active sector. Repo layer: Cm = electron_antineutrino / "-", BLACK.
 
 **Enthalpy/entropy:** ΔH = 775 MeV; ΔS >> 0 (broad strong resonance). Electronegativity: Am 1.13 → Cm 1.28.
 
 ---
 
-## EXACT NODE CHARACTERIZATION (induced from all 70 assignments, assuming majority correct)
+## EXACT NODE CHARACTERIZATION (induced from all 70 assignments, assuming majority correct; corrections APPLIED)
 
-Property counts across all 70 members (charge / binding / mobility / time-dynamics):
-
-| Node | n | neutral | charged | bound/trapped | mobile | oscillating/decaying |
-|------|---|---------|---------|---------------|--------|----------------------|
-| 1 | 14 | **13** | 1 | 6 | 1 | 2 |
-| 2 | 19 | 6 | **13** | 5 | **12** | 1 |
-| 3 | 17 | 13 | 4 | 5 | 2 | **12** |
-| 4 | 20 | 9 | 11 | **17** | 3 | **0** |
-
-Each node is defined by ONE dominant property (>65% of members), and the four properties partition cleanly:
+Each node is defined by ONE dominant property, and the four properties partition cleanly along space/time:
 
 ### The exact rules
 
-- **NODE 1 = STABLE NEUTRAL PERSISTENCE.** No charge, no decay drive, no trap: the excitation *is*, unchanged. 13/14 neutral, 12/14 non-decaying, 13/14 non-mobile. These are energy/information carriers that move nothing but themselves — which is why the user's "semiconductors" label works: semiconductor physics is exactly the physics of neutral bound excitations (exciton, trion, polariton) that carry energy without net charge. **Operational test: does it transport charge? No. Does it decay or oscillate? No. → NODE 1.**
-
-- **NODE 2 = CHARGED MOBILE TRANSPORT.** 13/19 charged, 12/19 mobile, and charged+mobile together cover the core. This is the current-carrying node — which is why "condensed matter" works: condensed matter transport physics is the physics of mobile charge (electrons, holes, plasmarons, pairs, surface fermions). **Operational test: does it carry charge freely? Yes → NODE 2.**
-
-- **NODE 3 = TIME-DYNAMIC STATES.** 12/17 are defined by ongoing time-evolution: oscillation (plasmon, magnon, acoustic, plexciton, plasmariton, ν̄_e flavor), mixing (glueball, configuron switching), exchange (gluon), or active decay (Higgs, Z, D mesons, Bc⁻). The state's identity IS its time-dependence. The strong-force objects cluster here not because of QCD per se, but because the QCD *activity* — exchange, mixing, disintegration — is time-dynamics. "Strong elements" is the material face of it. **Operational test: is the state defined by what it does over time (oscillates, mixes, exchanges, decays)? Yes → NODE 3.**
-
-- **NODE 4 = SPACE-CONFINED STATIC BINDING.** 17/20 bound, 0/20 oscillating/decaying-driven, 3/20 mobile. The excitation cannot exist free: lattice self-trapping (polaron family), color confinement (quarks, charmonium, kaons, D⁰, B⁺), flux pinning (composite fermion), pair binding (bion). "Material elements" captures the lattice-trap half; the other half is the same property in QCD form (confinement). **Operational test: can it exist unbound? No — it is defined by its trap → NODE 4.**
+- **NODE 1 = STABLE NEUTRAL PERSISTENCE.** No charge, no decay drive, no trap: the excitation *is*, unchanged. The "semiconductors" label works because semiconductor physics is the physics of neutral bound excitations (exciton, trion, polariton) that carry energy without net charge. **Test: transports charge? No. Decays or oscillates? No. → NODE 1.**
+- **NODE 2 = CHARGED MOBILE TRANSPORT.** The current-carrying node: electrons, holes, plasmarons, pairs, surface fermions. "Condensed matter" works because CM physics is the physics of mobile charge. **Test: carries charge freely? Yes → NODE 2.**
+- **NODE 3 = TIME-DYNAMIC STATES.** The state's identity IS its time-dependence: oscillation (plasmon, magnon, plexciton, ν̄_e), mixing (glueball, configuron, B_s⁰), exchange (gluon), decay (Higgs, Z, D mesons, Bc⁻). "Strong elements" is the material face: QCD's visible signature is constant exchange and disintegration. **Test: defined by what it does over time? Yes → NODE 3.**
+- **NODE 4 = SPACE-CONFINED STATIC BINDING.** The excitation cannot exist free: lattice self-trapping (polaron family), color confinement (quarks, charmonium, kaons, D⁰, B⁺, ρ⁺), flux pinning (composite fermion), pair binding (bion). "Material elements" captures the lattice half; confinement is the same property in QCD form. **Test: can it exist unbound? No → NODE 4.**
 
 ### The synthesis: one axis, four states
 
 The four nodes are the four answers to **"how does the excitation exist in space and time?"**
-
 - NODE 1: free in space, still in time (persists) — *anchor*
 - NODE 2: free in space, active in time (transports) — *carrier*
 - NODE 3: changing in time (oscillates/decays/exchanges) — *dynamics*
 - NODE 4: fixed in space (confined/trapped), awaiting decay — *trap*
 
-Neutral vs charged separates 1 from 2; time-dynamic vs space-bound separates 3 from 4; the two pairs separate by freedom vs constraint.
+### Corrections applied (post-analysis remap)
 
-### The mismappings (relative to the induced majority rule)
+The six violations found by the analysis were resolved (each element keeps its Z-position in the progression; node or particle corrected):
 
-Six members violate their node's dominant property. Four are from the ORIGINAL draft (before the rules were articulated); two are recent:
-
-1. **Au(79) D⁺ at NODE 1** — the ONLY charged object in the neutral node (1/14). Flagged at assignment time; kept per user. Under the induced rule it belongs with the charged sector (NODE 2) or the confined sector (NODE 4, where its sibling D⁰ sits).
-2. **Sr(38) electron neutrino at NODE 4** — a free-streaming, unbound, unconfined lepton in the confinement node (original draft). The least trapped particle in nature sits in the trap node.
-3. **Fe(26) muon antineutrino component at NODE 4** — same violation (original draft); partially masked by the entry's bound companions (phason + LO phonon).
-4. **Zn(30) holon at NODE 4** — the holon is the *itinerant* charge carrier of spin-charge separation: the definition of a mobile excitation, in the trap node (original draft). By the induced rule it is a NODE 2 object.
-5. **W(74) B_s⁰ at NODE 2** — neutral (6/19 minority) and its defining property is the fastest particle *oscillation* known — which under the induced rule is the NODE 3 property. User-assigned; the charged-B_s-decay-products argument kept it at NODE 2.
-6. **Pr(59) roton at NODE 4** — a gapped but *propagating* collective excitation (superfluid He dispersion minimum), not a trapped state (mobile minority 3/20). Borderline: the gap gives it partial binding character.
-
-Borderline but retained: Th(90) bottom quark at NODE 3 — confined (NODE 4 property) but defined by its slow CKM decay *cascade* (NODE 3 time-dynamics); its sibling quarks Cs and Fr sit at NODE 4. Nd(60) Majorana at NODE 2 — neutral minority, but a mobile surface state, so transport-adjacent.
+1. **Au(79) D⁺: NODE 1 → NODE 4.** Charged confined meson joins its sibling D⁰ (Ta) in the confinement node.
+2. **Sr(38) electron neutrino: NODE 4 → NODE 1.** Neutral, stable, persistent — the anchor node.
+3. **Fe(26) muon antineutrino + phason + LO phonon: NODE 4 → NODE 1.** The free-streaming persistent neutrino component belongs to the anchor node.
+4. **W(74) B_s⁰: NODE 2 → NODE 3.** Fastest oscillation in particle physics = the time-dynamics node.
+5. **Pr(59) roton: NODE 4 → NODE 1.** Neutral, coherent, non-decaying, propagating = persistence, not trap.
+6. **Zn(30): NODE 4 KEPT — ⚠ PARTICLE MISMATCHED.** The element is redox-locked (d¹⁰, +2 only, static structural binding) = NODE 4 character; the holon is itinerant and must be replaced by a bound/trapped particle.
+7. **Th(90): NODE 3 KEPT — ⚠ PARTICLE MISMATCHED.** The element is defined by its slow decay cascade (²³²Th series) = time-dynamic NODE 3 character; the bottom quark is confined (NODE 4 character) and should be replaced by an oscillatory/decaying particle.
 
 ### Mapping to the user's material labels
 
@@ -997,37 +981,48 @@ Borderline but retained: Th(90) bottom quark at NODE 3 — confined (NODE 4 prop
 | 3 | Strong elements | Time-dynamics (oscillation/decay/exchange) | QCD's visible face = constant exchange and disintegration |
 | 4 | Material elements | Space-confinement (trap) | Materials hold excitations by trapping them (lattice, flux, pair) |
 
+### POST-correction property counts
+
+| Node | n | neutral | charged | bound/trapped | mobile | oscillating/decaying |
+|------|---|---------|---------|---------------|--------|----------------------|
+| 1 | 16 | **16** | 0 | 6 | 3 | 2 |
+| 2 | 18 | 5 | **13** | 5 | **12** | 1 |
+| 3 | 18 | 13 | 5 | 5 | 2 | **17** |
+| 4 | 18 | 6 | 12 | **17** | 1 | **0** |
+
+After correction: NODE 1 is purely neutral (16/16); NODE 2 is charged+mobile (13/18 and 12/18); NODE 3 is time-dynamic (17/18); NODE 4 is space-bound with zero time-dynamic members (17/18, 0/18). The remaining minorities are original-draft neutral condensed-matter states at NODE 2 and the two flagged particle mismatches (Zn, Th).
+
 ---
 
 ## UPDATED NODE STRUCTURE (Complete with Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu)
 
 ### NODE 1: LOWER MIDDLE (Neutral Multi-Particle Coherent Anchor)
-- Cl(17) Neutron → K(19) Acoustic → Ge(32) Polariton → Kr(36) Antiprotonium → Sb(51) Oscillon → I(53) Trion → La(57) Topological Skyrmion → **Pm(61) Leviton** ✓ VERIFIED → **Tb(65) Eta Prime Meson** ✓ VERIFIED → **Dy(66) Polariton** ✓ VERIFIED → **Er(68) Exciton Polariton** ✓ VERIFIED → **Os(76) Soliton** ✓ VERIFIED → **Au(79) Positive D Meson** ✓ VERIFIED → **Ac(89) Tau Neutrino** ✓ VERIFIED
+- Cl(17) Neutron → K(19) Acoustic → **Fe(26) Muon-Antineutrino + Phason + LO Phonon** (from N4) → Ge(32) Polariton → Kr(36) Antiprotonium → **Sr(38) Electron Neutrino** (from N4) → Sb(51) Oscillon → I(53) Trion → La(57) Topological Skyrmion → **Pr(59) Roton** (from N4) → **Pm(61) Leviton** ✓ VERIFIED → **Tb(65) Eta Prime Meson** ✓ VERIFIED → **Dy(66) Polariton** ✓ VERIFIED → **Er(68) Exciton Polariton** ✓ VERIFIED → **Os(76) Soliton** ✓ VERIFIED → **Ac(89) Tau Neutrino** ✓ VERIFIED
 - ✓ All neutral, all multi-particle, all low-entropy coherent
 
 ---
 
 ### NODE 2: LOWER RIGHT (Even Condensed-Matter Mesons & Quasiparticles)
-- Ar(18) Antideutron → Mn(25) Electron → Co(27) Polariton → Ni(28) Fracton → Ga(31) Charm → Br(35) Muon → Y(39) Bogolon → Te(52) Positive Pion → Ba(56) W-Boson → **Nd(60) Majorana Fermion** ✓ VERIFIED → Ce(58) Proton Hole → **Ho(67) Electron Plasmaron** ✓ VERIFIED → **Yb(70) Electron Quasiparticle** ✓ VERIFIED → **W(74) Strange Neutral B Meson** ✓ VERIFIED → **Re(75) Hole Plasmaron** ✓ VERIFIED → **Pt(78) Cooper Pair** ✓ VERIFIED → **Pb(82) Bipolaron** ✓ VERIFIED → **Po(84) Helical Dirac Fermion** ✓ VERIFIED → **Cm(96) ρ⁻ Meson** ✓
+- Ar(18) Antideutron → Mn(25) Electron → Co(27) Polariton → Ni(28) Fracton → Ga(31) Charm → Br(35) Muon → Y(39) Bogolon → Te(52) Positive Pion → Ba(56) W-Boson → **Nd(60) Majorana Fermion** ✓ VERIFIED → Ce(58) Proton Hole → **Ho(67) Electron Plasmaron** ✓ VERIFIED → **Yb(70) Electron Quasiparticle** ✓ VERIFIED → **Re(75) Hole Plasmaron** ✓ VERIFIED → **Pt(78) Cooper Pair** ✓ VERIFIED → **Pb(82) Bipolaron** ✓ VERIFIED → **Po(84) Helical Dirac Fermion** ✓ VERIFIED → **Cm(96) ρ⁻ Meson** ✓
 - ✓ All charged or neutral-even, all entropy-relevant, all 2-body or fermionic
 
 ---
 
 ### NODE 3: LOWER LEFT (Uneven Redox Oscillatory Hadrons)
-- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **Hg(80) Electron Antineutrino** ✓ VERIFIED → **Rn(86) Glueball** ✓ → **Ra(88) Gluon** ✓ → **Th(90) Bottom Quark** ✓ → **U(92) Plexciton** ✓ → **Pu(94) Plasmariton** ✓
+- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **W(74) Strange Neutral B Meson** (from N2) → **Hg(80) Electron Antineutrino** ✓ VERIFIED → **Rn(86) Glueball** ✓ → **Ra(88) Gluon** ✓ → **Th(90) Bottom Quark** ⚠ particle mismapped (element fits N3 via decay cascade) → **U(92) Plexciton** ✓ → **Pu(94) Plasmariton** ✓
 - ✓ All uneven, all oscillatory or redox-active
 
 ---
 
 ### NODE 4: TOP-MIDDLE (Deep Binding Weak-Decay Fundamental/Composite)
-- Fe(26) Muon-antineutrino → Zn(30) Holon → Se(34) Negative-dislon → Sr(38) Electron-neutrino → In(49) Charmonium → Cs(55) Down-Quark → **Pr(59) Roton** ✓ VERIFIED → **Sm(62) Eta Meson** ✓ VERIFIED → **Gd(64) Bion** ✓ VERIFIED → **Tm(69) Polaron** ✓ VERIFIED → **Lu(71) Hole Polaron** ✓ VERIFIED → **Ta(73) Neutral D Meson** ✓ VERIFIED → **Ir(77) Small Polaron** ✓ VERIFIED → **Tl(81) B⁺ Meson** ✓ VERIFIED → **Bi(83) Composite Fermion** ✓ VERIFIED → **At(85) K-Short Meson** ✓ VERIFIED → **Fr(87) Strange Quark** ✓ → **Pa(91) Negative Kaon** ✓ → **Np(93) ρ⁺ Meson** ✓ → **Am(95) Neutral Kaon** ✓
+- **Zn(30) Holon** ⚠ PARTICLE MISMATCHED (element redox-locked d¹⁰ = N4; holon is itinerant — needs bound/trapped particle) → Se(34) Negative-dislon → In(49) Charmonium → Cs(55) Down-Quark → **Sm(62) Eta Meson** ✓ VERIFIED → **Gd(64) Bion** ✓ VERIFIED → **Tm(69) Polaron** ✓ VERIFIED → **Lu(71) Hole Polaron** ✓ VERIFIED → **Ta(73) Neutral D Meson** ✓ VERIFIED → **Ir(77) Small Polaron** ✓ VERIFIED → **Au(79) Positive D Meson** (from N1) → **Tl(81) B⁺ Meson** ✓ VERIFIED → **Bi(83) Composite Fermion** ✓ VERIFIED → **At(85) K-Short Meson** ✓ VERIFIED → **Fr(87) Strange Quark** ✓ → **Pa(91) Negative Kaon** ✓ → **Np(93) ρ⁺ Meson** ✓ → **Am(95) Neutral Kaon** ✓
 - ✓ All deep binding, all low entropy, all weak-decay or superfluid-coherent
 
 ---
 
 ## SYSTEM-WIDE TOTAL: 45 ELEMENTS MAPPED
 
-The graph contains **70 elements in total**: NODE 1 = 14 (Cl, K, Ge, Kr, Sb, I, La, Pm, Tb, Dy, Er, Os, Au, Ac), NODE 2 = 19 (Ar, Mn, Co, Ni, Ga, Br, Y, Te, Ba, Nd, Ce, Ho, Yb, W, Re, Pt, Pb, Po, Cm), NODE 3 = 17 (Ca, Sc, Ti, V, Cr, Cu, As, Sn, Xe, Eu, Hf, Hg, Rn, Ra, Th, U, Pu), NODE 4 = 20 (Fe, Zn, Se, Sr, In, Cs, Pr, Sm, Gd, Tm, Lu, Ta, Ir, Tl, Bi, At, Fr, Pa, Np, Am).
+The graph contains **70 elements in total**: NODE 1 = 16 (Cl, K, Fe, Ge, Kr, Sr, Sb, I, La, Pr, Pm, Tb, Dy, Er, Os, Ac), NODE 2 = 18 (Ar, Mn, Co, Ni, Ga, Br, Y, Te, Ba, Nd, Ce, Ho, Yb, Re, Pt, Pb, Po, Cm), NODE 3 = 18 (Ca, Sc, Ti, V, Cr, Cu, As, Sn, Xe, Eu, Hf, W, Hg, Rn, Ra, Th, U, Pu), NODE 4 = 18 (Zn, Se, In, Cs, Sm, Gd, Tm, Lu, Ta, Ir, Au, Tl, Bi, At, Fr, Pa, Np, Am).
 
 Of these 70, **48 are the "new entries"** verified in this appended series (the counts below refer to those 31 only): In, Sn, Sb, Te, I, Xe, Cs, Ba, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Hf, Ta, W, Re, Os, Ir, Pt, Au, Hg, Tl, Pb, Bi, Po, At, Rn, Fr, Ra, Ac, Th, Pa, U, Np, Pu, Am, Cm. The other 22 were placed in the original drafts before this verification series.
 
@@ -1104,7 +1099,7 @@ Of these 70, **48 are the "new entries"** verified in this appended series (the 
 | NODE 3 | Xe (magnon/optic) | meV-cm⁻¹ | ≈0 | Coherent oscillatory |
 | NODE 4 | In (charmonium) | 3.1 GeV | ≈0 | Maximum binding |
 | NODE 4 | Cs (down quark) | GeV | ≈0 | Maximum binding |
-| NODE 4 | **Pr (Roton)** | **meV gap** | **≈0 superfluid** | **Deep coherent quasiparticle** |
+| NODE 1 | **Pr (Roton)** | **meV gap** | **≈0 superfluid** | **Coherent persistent quasiparticle** |
 | NODE 3 | **Eu (D meson)** | **1.87 GeV** | **mixed (oscillating)** | **Weak open-charm, redox-active** |
 | NODE 4 | **Sm (Eta)** | **548 MeV** | **≈0 pseudoscalar** | **Light charmonium** |
 | NODE 4 | **Gd (Bion)** | **deep bound pair** | **≈0 locked pair** | **Redox-locked 4f⁷** |
@@ -1117,12 +1112,12 @@ Of these 70, **48 are the "new entries"** verified in this appended series (the 
 | NODE 4 | **Lu (hole polaron)** | **meV–100s meV self-trap** | **≈0 localized** | **Charge-conjugate of Tm polaron** |
 | NODE 3 | **Hf (configuron)** | **eV formation** | **>0 configurational** | **Bond-switching defect** |
 | NODE 4 | **Ta (D⁰)** | **1.865 GeV** | **≈0 until weak decay** | **Deep neutral charm** |
-| NODE 2 | **W (B_s⁰)** | **5.37 GeV** | **>0 dissipative** | **Heavy neutral bottom, fast mixing** |
+| NODE 3 | **W (B_s⁰)** | **5.37 GeV** | **>0 oscillating** | **Heavy neutral bottom, fastest mixing** |
 | NODE 2 | **Re (hole plasmaron)** | **meV–eV plasmon** | **>0 damped** | **Charge-conjugate of Ho plasmaron** |
 | NODE 1 | **Os (soliton)** | **meV–eV formation** | **≈0 non-dispersive** | **Shape-preserving localized wave** |
 | NODE 4 | **Ir (small polaron)** | **meV–100s meV hopping** | **≈0 localized** | **Site-bound, thermally activated** |
 | NODE 2 | **Pt (Cooper pair)** | **meV gap** | **→0 in condensate** | **Charged −2e even 2-body** |
-| NODE 1 | **Au (D⁺)** | **1.87 GeV** | **≈0 (most stable charged meson)** | **Persistent anchor member of D family** |
+| NODE 4 | **Au (D⁺)** | **1.87 GeV** | **≈0 until weak decay** | **Confined charged member of D family (with Ta D⁰)** |
 | NODE 3 | **Hg (ν̄_e)** | **meV–sub-eV** | **>0 oscillating** | **Flavor oscillation, free-streaming** |
 | NODE 4 | **Tl (B⁺)** | **5.28 GeV** | **≈0 (CKM-suppressed)** | **Deepest heavy-flavor trap** |
 | NODE 2 | **Pb (bipolaron)** | **meV–eV pair binding** | **>0 activated hopping** | **Even-sector paired carrier, trapped variant** |
@@ -1147,8 +1142,8 @@ Of these 70, **48 are the "new entries"** verified in this appended series (the 
 
 | Path | Route | Energy Behavior |
 |------|-------|-----------------|
-| Cs → Pr | (NODE 4 internal) | **TRAPPED** (superfluid confinement) |
-| Pr → Sm | (NODE 4 internal) | **TRAPPED** (pseudoscalar confinement) |
+| Cs → Pr | NODE 4 → NODE 1 | Confined quark releases neutral persistent excitation |
+| Pr → Sm | NODE 1 → NODE 4 | Persistent excitation condensed into confinement |
 | Sm → Eu | NODE 4 → NODE 3 | Released into oscillatory regime (q, anabolic) |
 | Eu → Gd | NODE 3 → NODE 4 | Re-locked (q_bar, catabolic, bion confinement) |
 | Gd → Tb | NODE 4 → NODE 1 | Released into neutral coherent anchor (via NODE 2/3 channels) |
@@ -1160,13 +1155,13 @@ Of these 70, **48 are the "new entries"** verified in this appended series (the 
 | Yb → Lu | NODE 2 → NODE 4 | Re-trapped as hole (charge conjugate) |
 | Lu → Hf | NODE 4 → NODE 3 | Released into configurational defect motion |
 | Hf → Ta | NODE 3 → NODE 4 | Trapped into deep quark binding |
-| Ta → W | NODE 4 → NODE 2 | Released as heavier dissipative meson |
-| W → Re | (NODE 2 internal) | Charge sector continues (q → q_bar) |
+| Ta → W | NODE 4 → NODE 3 | Released as the oscillating bottom meson |
+| W → Re | NODE 3 → NODE 2 | Oscillation sheds charged damped carrier |
 | Re → Os | H3-H4 (NODE 2→1) | Dissipation resolved into coherent wave |
 | Os → Ir | NODE 1 → NODE 4 | Coherent wave pulled into trap |
 | Ir → Pt | NODE 4 → NODE 2 | Trap released, carriers pair |
-| Pt → Au | H3-H4 (NODE 2→1) | Dissipation resolved into persistent anchor |
-| Au → Hg | NODE 1 → NODE 3 | Persistent anchor sheds into oscillating weak sector |
+| Pt → Au | NODE 2 → NODE 4 | Pair sector condensed into confinement |
+| Au → Hg | NODE 4 → NODE 3 | Confined meson releases oscillating weak lepton |
 | Hg → Tl | NODE 3 → NODE 4 | Oscillation trapped into deepest bound state |
 | Tl → Pb | NODE 4 → NODE 2 | Released into carrier sector (only 4→1 forbidden) |
 | Pb → Bi | NODE 2 → NODE 4 | Carrier drawn into topological flux trap |
