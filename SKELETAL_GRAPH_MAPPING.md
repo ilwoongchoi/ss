@@ -68,7 +68,7 @@
    No (surface acoustic phonon)
    Rf (fracton)
    Hs (bottomonium/upsilon)
-   Fl (Bs0 meson) ⚠ collides with W(74) Bs0
+   Fl (anti-strange neutral B meson, B̄_s⁰)
                                    Ho (electron plasmaron)
                                    Yb (electron quasiparticle)
                                    Re (hole plasmaron)
@@ -988,7 +988,7 @@ The six violations found by the analysis were resolved (each element keeps its Z
 1. **Au(79) D⁺: NODE 1 → NODE 4.** Charged confined meson joins its sibling D⁰ (Ta) in the confinement node.
 2. **Sr(38) electron neutrino: NODE 4 → NODE 1.** Neutral, stable, persistent — the anchor node.
 3. **Fe(26) muon antineutrino + phason + LO phonon: NODE 4 → NODE 1.** The free-streaming persistent neutrino component belongs to the anchor node.
-4. **W(74) B_s⁰: NODE 2 → NODE 3.** Fastest oscillation in particle physics = the time-dynamics node.
+4. **W(74) strange neutral B meson (B_s⁰ = b s̄): NODE 2 → NODE 3.** Fastest oscillation in particle physics = the time-dynamics node.
 5. **Pr(59) roton: NODE 4 → NODE 1.** Neutral, coherent, non-decaying, propagating = persistence, not trap.
 6. **Zn(30): NODE 4 KEPT — ⚠ PARTICLE MISMATCHED.** The element is redox-locked (d¹⁰, +2 only, static structural binding) = NODE 4 character; the holon is itinerant and must be replaced by a bound/trapped particle.
 7. **Th(90): NODE 3 KEPT — ⚠ PARTICLE MISMATCHED.** The element is defined by its slow decay cascade (²³²Th series) = time-dynamic NODE 3 character; the bottom quark is confined (NODE 4 character) and should be replaced by an oscillatory/decaying particle.
@@ -1315,17 +1315,17 @@ Deterministic from the element alone; the particle check below is consistent (su
 
 ---
 
-### 66. FLEROVIUM (Fl-114) / B_s⁰ Meson ⚠ COLLIDES WITH W(74) — NODE 3 by particle-primary
+### 66. FLEROVIUM (Fl-114) / Anti-Strange Neutral B Meson (B̄_s⁰) at NODE 3 — particle-primary
 
-**Physics foundation (verified):** B_s⁰ = b s̄, J^P = 0⁻, 5366.9 MeV, weak decay (τ ≈ 1.5 ps), and the **fastest-oscillating particle known**: B_s⁰–B̄_s⁰ mixing at Δm_s ≈ 17.8 ps⁻¹.
+**Physics foundation (verified):** B̄_s⁰ = s b̄ — the **antiparticle** of W(74)'s strange neutral B meson (B_s⁰ = b s̄). Same mass (5366.9 MeV), same lifetime (τ ≈ 1.5 ps), and the two are the two poles of the fastest oscillation in particle physics (B_s⁰–B̄_s⁰ mixing, Δm_s ≈ 17.8 ps⁻¹). Distinct states: opposite strangeness (S = +1 vs −1), opposite bottomness.
 
 **Node assignment (particle-primary, Rf–Og range):**
 1. Route: Nh (N2) → Fl (N3) — allowed (all bans lifted in this range).
 2. Oscillation is the defining property → time-dynamic → NODE 3. (Neutral: not N2. Decays: not N1. Actively mixing, not static: not N4.)
 
-**⚠ COLLISION:** W(74) already holds B_s⁰ — moved to NODE 3 in the correction pass for the same oscillation reason. Same particle, same node. Options: (a) Fl = **B̄_s⁰**, the antiparticle — the oscillation's other pole, physically distinct; (b) remap one. Flagged, awaiting ruling. Queue: Zn, Th, Er, Fm, Ds, Fl.
+**Resolution (per user):** W(74) holds the **strange neutral B meson (B_s⁰, b s̄)**; Fl(114) holds the **anti-strange neutral B meson (B̄_s⁰, s b̄)** — the two poles of one oscillation, distinct quantum states. No collision. Together they make NODE 3 the home of the oscillation itself: the two states whose perpetual interconversion defines time-dynamics.
 
-**Decay type:** Nh(113, Dirac electron) → Fl(114, B_s⁰): +1 proton; free relativistic carrier → heaviest oscillating neutral meson. ✓ Carrier condensed into the oscillating bottom-strange state.
+**Decay type:** Nh(113, Dirac electron) → Fl(114, B̄_s⁰): +1 proton; free relativistic carrier → the oscillation's anti-pole. ✓ Carrier condensed into the oscillating bottom-strange system (W holds the B_s⁰ pole).
 
 **Enthalpy/entropy:** ΔH = 5.37 GeV; ΔS > 0 (mixing + decay). Element: Fl synthetic (²⁸⁹Fl T½ ≈ 2 s). Electronegativity: Nh 1.3 → Fl 1.3. ✓ Flat.
 
@@ -1348,7 +1348,7 @@ Deterministic from the element alone; the particle check below is consistent (su
 ---
 
 ### NODE 3: LOWER LEFT (Uneven Redox Oscillatory Hadrons)
-- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **W(74) Strange Neutral B Meson** (from N2) → **Hg(80) Electron Antineutrino** ✓ VERIFIED → **Rn(86) Glueball** ✓ → **Ra(88) Gluon** ✓ → **Th(90) Bottom Quark** ⚠ particle mismapped (element fits N3 via decay cascade) → **U(92) Plexciton** ✓ → **Pu(94) Plasmariton** ✓ → **Cf(98) Exciton** ✓ → **Fm(100) Exciton-Polariton** ⚠ particle mismapped → **No(102) Surface Acoustic Phonon** ✓ → **Rf(104) Fracton** ✓ → **Hs(108) Bottomonium Υ** ✓ (by elimination) → **Fl(114) B_s⁰ Meson** ⚠ collides with W(74)
+- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **W(74) Strange Neutral B Meson** (from N2) → **Hg(80) Electron Antineutrino** ✓ VERIFIED → **Rn(86) Glueball** ✓ → **Ra(88) Gluon** ✓ → **Th(90) Bottom Quark** ⚠ particle mismapped (element fits N3 via decay cascade) → **U(92) Plexciton** ✓ → **Pu(94) Plasmariton** ✓ → **Cf(98) Exciton** ✓ → **Fm(100) Exciton-Polariton** ⚠ particle mismapped → **No(102) Surface Acoustic Phonon** ✓ → **Rf(104) Fracton** ✓ → **Hs(108) Bottomonium Υ** ✓ (by elimination) → **Fl(114) Anti-Strange Neutral B Meson (B̄_s⁰)** ✓
 - ✓ All uneven, all oscillatory or redox-active
 
 ---
@@ -1396,7 +1396,7 @@ Of these 88, **66 are the "new entries"** verified in this appended series (the 
 | **Lu Hole Polaron** | **Yb** | **Lu** | **Charge conjugation + re-trapping** | **Full 4f¹⁴ shell, hole self-bound** |
 | **Hf Configuron** | **Lu** | **Hf** | **Release into configurational defect** | **Broken-bond excitation, bond switching** |
 | **Ta D⁰** | **Hf** | **Ta** | **Condensation into deep quark binding** | **Neutral open-charm, weak decay** |
-| **W B_s⁰** | **Ta** | **W** | **Charm → bottom sector** | **Strange neutral B, fast mixing** |
+| **W Strange Neutral B Meson (B_s⁰)** | **Ta** | **W** | **Charm → bottom sector** | **Strange neutral B, fast mixing** |
 | **Re Hole Plasmaron** | **W** | **Re** | **Neutral → charged dressed carrier** | **Hole + plasmon bound state** |
 | **Os Soliton** | **Re** | **Os** | **Dissipation resolved into coherent wave** | **Non-dispersive, shape-preserving** |
 | **Ir Small Polaron** | **Os** | **Ir** | **Propagating → site-bound (into trap)** | **Localized hopping, Ir³⁺/Ir⁴⁺, NODE 4** |
@@ -1436,7 +1436,7 @@ Of these 88, **66 are the "new entries"** verified in this appended series (the 
 | **Rg Negative polaron** | **Ds** | **Rg** | **Charge conjugation within trap** | **Self-trapped electron; completes polaron set** |
 | **Cn Dropleton** | **Rg** | **Cn** | **Trapped carrier → bound liquid cluster** | **Quantum droplet, ~4e+4h, 2014 GaAs** |
 | **Nh Dirac electron** | **Cn** | **Nh** | **Bound cluster → free relativistic carrier** | **Massless Dirac cone, graphene-type** |
-| **Fl B_s⁰ ⚠** | **Nh** | **Fl** | **Carrier → oscillating neutral meson** | **Fastest mixing; collides with W(74)** |
+| **Fl B̄_s⁰** | **Nh** | **Fl** | **Carrier → oscillation anti-pole** | **Antiparticle of W's B_s⁰; pair splits the mixing** |
 
 ✓ **All 66 entries: complete radioactive decay coverage (baryogenesis, uneven, even, condensation, topological, fermionic, pseudoscalar)**
 
@@ -1469,7 +1469,7 @@ Of these 88, **66 are the "new entries"** verified in this appended series (the 
 | NODE 4 | **Lu (hole polaron)** | **meV–100s meV self-trap** | **≈0 localized** | **Charge-conjugate of Tm polaron** |
 | NODE 3 | **Hf (configuron)** | **eV formation** | **>0 configurational** | **Bond-switching defect** |
 | NODE 4 | **Ta (D⁰)** | **1.865 GeV** | **≈0 until weak decay** | **Deep neutral charm** |
-| NODE 3 | **W (B_s⁰)** | **5.37 GeV** | **>0 oscillating** | **Heavy neutral bottom, fastest mixing** |
+| NODE 3 | **W (strange neutral B meson, B_s⁰ = b s̄)** | **5.37 GeV** | **>0 oscillating** | **Fastest mixing known** |
 | NODE 2 | **Re (hole plasmaron)** | **meV–eV plasmon** | **>0 damped** | **Charge-conjugate of Ho plasmaron** |
 | NODE 1 | **Os (soliton)** | **meV–eV formation** | **≈0 non-dispersive** | **Shape-preserving localized wave** |
 | NODE 4 | **Ir (small polaron)** | **meV–100s meV hopping** | **≈0 localized** | **Site-bound, thermally activated** |
@@ -1508,7 +1508,7 @@ Of these 88, **66 are the "new entries"** verified in this appended series (the 
 | NODE 4 | **Rg (negative polaron)** | **meV–100s meV self-trap** | **≈0 localized** | **Self-trapped electron carrier** |
 | NODE 4 | **Cn (dropleton)** | **meV per pair** | **≈0 liquid order** | **Bound neutral liquid cluster** |
 | NODE 2 | **Nh (Dirac electron)** | **≈0 gap (massless)** | **>0 ultra-relativistic** | **Bulk Dirac-cone carrier** |
-| NODE 3 | **Fl (B_s⁰ ⚠)** | **5.37 GeV** | **>0 fastest mixing** | **Oscillation-defined; collision pending** |
+| NODE 3 | **Fl (B̄_s⁰)** | **5.37 GeV** | **>0 fastest mixing** | **Anti-pole of the B_s oscillation** |
 
 ✓ **Pattern CONFIRMED:** NODE 1 ultra-low, NODE 2 HIGH (maximum at Ce/Nd), NODE 3 mixed, NODE 4 maximum-binding
 
