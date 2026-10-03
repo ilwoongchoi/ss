@@ -39,6 +39,8 @@
        3 -> 1, 4
        4 -> 2, 3
      Forbidden: 2 <-> 3 direct, and ALL of 4 -> 1.
+     EXCEPTION (user ruling): for Z = 104-118 (Rf-Og) nodes are assigned
+     primarily by PARTICLE mapping, and 4 -> 1 is ALLOWED in this range.
            /                          \
           /                            \
      NODE 3                          NODE 2
@@ -61,7 +63,6 @@
    Fm (exciton-polariton) ⚠ PARTICLE MISMATCHED (element stays NODE 3)
    No (surface acoustic phonon)
    Rf (fracton)
-   Sg (hopfion) ⚠ PARTICLE MISMATCHED (element stays NODE 3)
    Hs (bottomonium/upsilon) ⚠ PARTICLE MISMATCHED (element stays NODE 3)
                                    Ho (electron plasmaron)
                                    Yb (electron quasiparticle)
@@ -73,7 +74,7 @@
                                        |
                                        |
                      NODE 1 (LOWER MIDDLE)
-                   Cl, K, Fe, Ge, Kr, Sr, Sb, I, La, Pr, Pm, Tb, Dy, Er, Os, Ac
+                   Cl, K, Fe, Ge, Kr, Sr, Sb, I, La, Pr, Pm, Tb, Dy, Er, Os, Ac, Sg
       Cl = Neutron
       K = Bulk traverse acoustic phonon
       Ge = Intersubband polariton
@@ -90,6 +91,7 @@
       Fe = Muon antineutrino + phason + bulk LO phonon
       Sr = Electron neutrino
       Pr = Roton
+      Sg = Hopfion
 ```
 
 ---
@@ -985,7 +987,7 @@ The six violations found by the analysis were resolved (each element keeps its Z
 7. **Th(90): NODE 3 KEPT — ⚠ PARTICLE MISMATCHED.** The element is defined by its slow decay cascade (²³²Th series) = time-dynamic NODE 3 character; the bottom quark is confined (NODE 4 character) and should be replaced by an oscillatory/decaying particle.
 8. **Er(68): NODE 1 KEPT — ⚠ PARTICLE MISMATCHED.** Exciton-polariton collided with Fm(100); both need new, distinct particles. Er's element side (redox-stable, coherent 1.5 µm emission, the relaxation half of the Ho/Er pair) fits NODE 1's persistence.
 9. **Fm(100): NODE 3 KEPT — ⚠ PARTICLE MISMATCHED.** Same collision from the other side. The node stands without the particle: route from Es (N4) only reaches {2,3}, N2 is charged-transport (no fit for fermium), and the element is decay-defined (time-dynamic) = NODE 3.
-10. **Sg(106): NODE 3 KEPT — ⚠ PARTICLE MISMATCHED.** The element is decay-defined (time-dynamic = N3); the hopfion is a static localized topological texture (N1 character, kin to La's skyrmion). Particle enters the remap queue.
+10. **Sg(106): NODE 3 → NODE 1 (resolved).** Under the Rf–Og particle-primary rule and the 4→1 exception, the hopfion (static topological texture, kin to La's skyrmion) takes its natural node. No mismatch remains.
 
 ### Mapping to the user's material labels
 
@@ -1170,37 +1172,36 @@ Deterministic from the element alone; the particle check below is consistent (su
 
 ---
 
-### 58. SEABORGIUM (Sg-106) / Hopfion at NODE 3 — deduced under the characterized node rules (element-first)
+### 58. SEABORGIUM (Sg-106) / Hopfion at NODE 1 (particle-primary, Rf–Og range rule; 4→1 exception used)
 
-**Node assignment (element-first):**
-1. Route: from Db (N4), exits are {2, 3}.
-2. NODE 2 eliminated: Sg is a short-lived synthetic metal (²⁷¹Sg T½ ≈ 2.4 min) — no charge-carrier character.
-3. NODE 3 confirmed: decay-defined transactinide = time-dynamic.
+**Node assignment (particle-primary, per the Rf–Og range rule):**
+1. Route: Db (N4) → Sg (N1) uses the 4→1 exception allowed for this range.
+2. The hopfion is a localized static topological texture — neutral, coherent, persistent (topologically protected) — NODE 1's stable-neutral-persistence property exactly. It joins its 2D cousin: La's skyrmion (N1).
 
-**Particle check (reference):** hopfion = real quasiparticle: the 3D topological soliton characterized by the Hopf invariant, observed in chiral magnets, liquid crystals and photonics; the 3D analog of the skyrmion. **⚠ PARTICLE MISMATCHED (per user):** the hopfion is a localized static topological texture — NODE 1 character (its 2D cousin the skyrmion sits at N1 with La) — but Sg the element is decay-defined (²⁷¹Sg T½ ≈ 2.4 min) and stays NODE 3 on element-first grounds. Hopfion enters the remap queue (Zn, Th, Er, Fm, Sg). ("hpfion" read as hopfion.)
+**Particle check (reference):** hopfion = real quasiparticle: the 3D topological soliton characterized by the Hopf invariant, observed in chiral magnets, liquid crystals and photonics; the 3D analog of the skyrmion. **Note:** under element-first rules Sg would sit at NODE 3 (decay-defined); under the particle-primary rule for the Rf–Og range the hopfion's topology governs and Sg is NODE 1. Recorded per the range rule. ("hpfion" read as hopfion.)
 
 **Decay type:** Db(105, ω) → Sg(106, hopfion): +1 proton; confined vector meson → 3D topological texture. ✓ Confinement released into topological structure.
 
 **Enthalpy/entropy:** ΔH ≈ topological texture formation energy; ΔS ≈ 0 (coherent texture). Element: Sg synthetic, group 6 (²⁷¹Sg T½ ≈ 2.4 min). Electronegativity: Db 1.3 → Sg 1.3. ✓ Flat.
 
-**Dark photon route:** Db (NODE 4) → Sg (NODE 3) — direct legal route (4→3). ✓ Vector confinement released into topological texture dynamics.
+**Dark photon route:** Db (NODE 4) → Sg (NODE 1) — 4→1 exception (allowed in Rf–Og range). ✓ Vector confinement settles into a persistent topological anchor.
 
 ---
 
 ### 59. BOHRIUM (Bh-107) / Positive Bc Meson (Bc⁺) at NODE 4 — deduced under the characterized node rules (element-first)
 
-**Node assignment (element-first):**
-1. Route: from Sg (N3), exits are {1, 4}.
-2. NODE 1 eliminated: Bh is a decaying synthetic transactinide (²⁷⁰Bh T½ ≈ 1 min) — not persistent.
-3. NODE 4 by elimination.
+**Node assignment (both methods agree — deterministic NODE 4):**
+1. Route: from Sg (N1), exits are {2, 3, 4}.
+2. Particle-primary (Rf–Og rule): Bc⁺ = c b̄ is a color-confined double-heavy meson — cannot exist unbound → NODE 4 confinement test, decisive.
+3. Element agrees: Bh decays (not persistent → not N1), no carrier character (not N2), static-bound not oscillating (not N3).
 
 **Particle check (reference, consistent):** Bc⁺ = c b̄, ~6.27 GeV, J^P = 0⁻, weak decay (τ ≈ 0.51 ps) — the only meson combining two *different* heavy flavors (charm + bottom). Color-confined, cannot exist unbound → passes N4's confinement test. Recorded precisely as **Bc⁺**: the antiparticle of Sn(50)'s Bc⁻ (N3) — the heavy-quarkonium pair splits across nodes, charm-bottom sector. Graph links: built from Th's bottom sector + Ga's charm sector.
 
-**Decay type:** Sg(106, hopfion) → Bh(107, Bc⁺): +1 proton; topological texture → confined double-heavy meson. ✓ Texture condensed into two-flavor confinement.
+**Decay type:** Sg(106, hopfion) → Bh(107, Bc⁺): +1 proton; topological anchor texture → confined double-heavy meson. ✓ Anchor condensed into two-flavor confinement.
 
 **Enthalpy/entropy:** ΔH = 6.27 GeV; ΔS ≈ 0 until weak decay. Element: Bh synthetic, group 7 (²⁷⁰Bh T½ ≈ 1 min). Electronegativity: Sg 1.3 → Bh 1.3. ✓ Flat.
 
-**Dark photon route:** Sg (NODE 3) → Bh (NODE 4) — direct legal route (3→4). ✓ Topological texture trapped into double-heavy confinement.
+**Dark photon route:** Sg (NODE 1) → Bh (NODE 4) — direct legal route (1→4). ✓ Topological anchor trapped into double-heavy confinement.
 
 ---
 
@@ -1224,7 +1225,7 @@ Deterministic from the element alone; the particle check below is consistent (su
 ## UPDATED NODE STRUCTURE (Complete with Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu)
 
 ### NODE 1: LOWER MIDDLE (Neutral Multi-Particle Coherent Anchor)
-- Cl(17) Neutron → K(19) Acoustic → **Fe(26) Muon-Antineutrino + Phason + LO Phonon** (from N4) → Ge(32) Polariton → Kr(36) Antiprotonium → **Sr(38) Electron Neutrino** (from N4) → Sb(51) Oscillon → I(53) Trion → La(57) Topological Skyrmion → **Pr(59) Roton** (from N4) → **Pm(61) Leviton** ✓ VERIFIED → **Tb(65) Eta Prime Meson** ✓ VERIFIED → **Dy(66) Polariton** ✓ VERIFIED → **Er(68) Exciton Polariton** ⚠ particle mismapped → **Os(76) Soliton** ✓ VERIFIED → **Ac(89) Tau Neutrino** ✓ VERIFIED
+- Cl(17) Neutron → K(19) Acoustic → **Fe(26) Muon-Antineutrino + Phason + LO Phonon** (from N4) → Ge(32) Polariton → Kr(36) Antiprotonium → **Sr(38) Electron Neutrino** (from N4) → Sb(51) Oscillon → I(53) Trion → La(57) Topological Skyrmion → **Pr(59) Roton** (from N4) → **Pm(61) Leviton** ✓ VERIFIED → **Tb(65) Eta Prime Meson** ✓ VERIFIED → **Dy(66) Polariton** ✓ VERIFIED → **Er(68) Exciton Polariton** ⚠ particle mismapped → **Os(76) Soliton** ✓ VERIFIED → **Ac(89) Tau Neutrino** ✓ VERIFIED → **Sg(106) Hopfion** ✓ (4→1 exception)
 - ✓ All neutral, all multi-particle, all low-entropy coherent
 
 ---
@@ -1236,7 +1237,7 @@ Deterministic from the element alone; the particle check below is consistent (su
 ---
 
 ### NODE 3: LOWER LEFT (Uneven Redox Oscillatory Hadrons)
-- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **W(74) Strange Neutral B Meson** (from N2) → **Hg(80) Electron Antineutrino** ✓ VERIFIED → **Rn(86) Glueball** ✓ → **Ra(88) Gluon** ✓ → **Th(90) Bottom Quark** ⚠ particle mismapped (element fits N3 via decay cascade) → **U(92) Plexciton** ✓ → **Pu(94) Plasmariton** ✓ → **Cf(98) Exciton** ✓ → **Fm(100) Exciton-Polariton** ⚠ particle mismapped → **No(102) Surface Acoustic Phonon** ✓ → **Rf(104) Fracton** ✓ → **Sg(106) Hopfion** ⚠ particle mismapped → **Hs(108) Bottomonium Υ** ⚠ particle mismapped
+- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **W(74) Strange Neutral B Meson** (from N2) → **Hg(80) Electron Antineutrino** ✓ VERIFIED → **Rn(86) Glueball** ✓ → **Ra(88) Gluon** ✓ → **Th(90) Bottom Quark** ⚠ particle mismapped (element fits N3 via decay cascade) → **U(92) Plexciton** ✓ → **Pu(94) Plasmariton** ✓ → **Cf(98) Exciton** ✓ → **Fm(100) Exciton-Polariton** ⚠ particle mismapped → **No(102) Surface Acoustic Phonon** ✓ → **Rf(104) Fracton** ✓ → **Hs(108) Bottomonium Υ** ⚠ particle mismapped
 - ✓ All uneven, all oscillatory or redox-active
 
 ---
@@ -1249,7 +1250,7 @@ Deterministic from the element alone; the particle check below is consistent (su
 
 ## SYSTEM-WIDE TOTAL: 45 ELEMENTS MAPPED
 
-The graph contains **82 elements in total**: NODE 1 = 16 (Cl, K, Fe, Ge, Kr, Sr, Sb, I, La, Pr, Pm, Tb, Dy, Er, Os, Ac), NODE 2 = 18 (Ar, Mn, Co, Ni, Ga, Br, Y, Te, Ba, Nd, Ce, Ho, Yb, Re, Pt, Pb, Po, Cm), NODE 3 = 24 (Ca, Sc, Ti, V, Cr, Cu, As, Sn, Xe, Eu, Hf, W, Hg, Rn, Ra, Th, U, Pu, Cf, Fm, No, Rf, Sg, Hs), NODE 4 = 24 (Zn, Se, In, Cs, Sm, Gd, Tm, Lu, Ta, Ir, Au, Tl, Bi, At, Fr, Pa, Np, Am, Bk, Es, Md, Lr, Db, Bh).
+The graph contains **82 elements in total**: NODE 1 = 17 (Cl, K, Fe, Ge, Kr, Sr, Sb, I, La, Pr, Pm, Tb, Dy, Er, Os, Ac, Sg), NODE 2 = 18 (Ar, Mn, Co, Ni, Ga, Br, Y, Te, Ba, Nd, Ce, Ho, Yb, Re, Pt, Pb, Po, Cm), NODE 3 = 23 (Ca, Sc, Ti, V, Cr, Cu, As, Sn, Xe, Eu, Hf, W, Hg, Rn, Ra, Th, U, Pu, Cf, Fm, No, Rf, Hs), NODE 4 = 24 (Zn, Se, In, Cs, Sm, Gd, Tm, Lu, Ta, Ir, Au, Tl, Bi, At, Fr, Pa, Np, Am, Bk, Es, Md, Lr, Db, Bh).
 
 Of these 82, **60 are the "new entries"** verified in this appended series (the counts below refer to those 31 only): In, Sn, Sb, Te, I, Xe, Cs, Ba, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Hf, Ta, W, Re, Os, Ir, Pt, Au, Hg, Tl, Pb, Bi, Po, At, Rn, Fr, Ra, Ac, Th, Pa, U, Np, Pu, Am, Cm, Bk, Cf, Es, Fm, Md, No, Lr, Rf, Db, Sg, Bh, Hs. The other 22 were placed in the original drafts before this verification series.
 
@@ -1383,7 +1384,7 @@ Of these 82, **60 are the "new entries"** verified in this appended series (the 
 | NODE 4 | **Lr (cascade hyperon)** | **1.32 GeV** | **≈0 until cascade** | **Confined doubly-strange baryon** |
 | NODE 3 | **Rf (fracton)** | **meV–eV** | **>0 constrained** | **Restricted-mobility excitation** |
 | NODE 4 | **Db (ω)** | **782.7 MeV** | **≈0 until decay** | **Neutral confined vector, →3π** |
-| NODE 3 | **Sg (hopfion ⚠)** | **texture energy** | **≈0 coherent** | **3D topological soliton; remap pending** |
+| NODE 1 | **Sg (hopfion)** | **texture energy** | **≈0 coherent** | **3D topological soliton, protected** |
 | NODE 3 | **Hs (Υ ⚠)** | **9.46 GeV** | **≈0 narrow** | **Bottomonium; remap pending** |
 
 ✓ **Pattern CONFIRMED:** NODE 1 ultra-low, NODE 2 HIGH (maximum at Ce/Nd), NODE 3 mixed, NODE 4 maximum-binding
@@ -1437,8 +1438,8 @@ Of these 82, **60 are the "new entries"** verified in this appended series (the 
 | No → Lr | NODE 3 → NODE 4 | Surface oscillation trapped into terminal confined shell |
 | Lr → Rf | NODE 4 → NODE 3 | Terminal shell released into constrained dynamics |
 | Rf → Db | NODE 3 → NODE 4 | Constrained dynamics trapped into vector confinement |
-| Db → Sg | NODE 4 → NODE 3 | Vector confinement released into topological texture |
-| Sg → Bh | NODE 3 → NODE 4 | Texture trapped into double-heavy confinement |
+| Db → Sg | NODE 4 → NODE 1 (exception) | Vector confinement settles into topological anchor |
+| Sg → Bh | NODE 1 → NODE 4 | Topological anchor condensed into double-heavy confinement |
 | Bh → Hs | NODE 4 → NODE 3 | Double-heavy confinement released into decay sector |
 | Ba → Nd | H3-H4 (NODE 2 internal) | Charge neutralization (Majorana parity) |
 | Nd → Pm | H3-H4 (NODE 2→1) | Condensed to e⁻-h⁺ topological |
