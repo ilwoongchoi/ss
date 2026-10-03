@@ -52,7 +52,7 @@
    Th (bottom quark) ⚠ PARTICLE MISMATCHED (element stays NODE 3)
    U (plexciton)
    Pu (plasmariton)
-   Cf (phi meson)
+   Cf (exciton)
                                    Ho (electron plasmaron)
                                    Yb (electron quasiparticle)
                                    Re (hole plasmaron)
@@ -1014,21 +1014,21 @@ After correction: NODE 1 is purely neutral (16/16); NODE 2 is charged+mobile (13
 
 ---
 
-### 50. CALIFORNIUM (Cf-98) / φ Meson at NODE 3 — deduced under the characterized node rules
+### 50. CALIFORNIUM (Cf-98) / Exciton at NODE 3 — deduced under the characterized node rules (particle corrected from φ meson per user)
 
-**Physics foundation:** φ(1020) = nearly pure ss̄ ("hidden strangeness"), vector meson J^PC = 1⁻⁻, mass 1019.4 MeV, Γ ≈ 4.25 MeV — narrow *only because* the dominant 3π channel is OZI-suppressed, forcing decay into K⁺K⁻. The canonical OZI-rule meson: its identity is a decay-channel struggle.
+**Physics foundation:** exciton = neutral bound electron–hole pair (Coulomb-bound, meV binding), bosonic, coherent — but defined by its lifecycle: formation → diffusion through the lattice → **recombination** (radiative or non-radiative decay, ns–µs). It transports energy without transporting charge.
 
 **Node assignment by the exact rules:**
-- NODE 1 excluded: neutral but decays (strong, τ ≈ 1.5×10⁻²² s) — not persistent.
-- NODE 2 excluded: neutral, confined — no charge transport.
-- NODE 4 excluded: progression must move off Bk's NODE 4, and φ's defining property is not static binding but its *decay dynamics* (suppressed vs allowed channels).
-- NODE 3 ✓ (route 4→3 legal): a state defined by time-dynamic decay structure — the OZI suppression struggle. Graph-internal link: φ = ss̄ is built from Fr(87)'s strange sector. Element side: ²⁵²Cf is the spontaneous-fission neutron source — an element defined by active disintegration.
+- NODE 2 excluded: neutral — no charge transport (fails the defining test of the carrier node).
+- NODE 4 excluded: progression must move off Bk's NODE 4, and the exciton is not space-trapped — internally bound, but it *diffuses freely*; N4's members are pinned.
+- NODE 1 excluded: it recombines — decay is its destiny, failing the persistence test ("decays or oscillates? yes"). This is the exciton's natural-looking home (its coherent relatives live there: trion at I, exciton polariton at Er), but coherence alone is not enough — N1 requires non-decay.
+- NODE 3 ✓ (route 4→3 legal): the exciton's identity is its formation–diffusion–**recombination** cycle — a neutral bound pair defined by decay dynamics = the time-dynamic node. The graph's exciton family now splits by character like the solitons did: mobile-coherent at N1 (Er exciton polariton), trapped pair at N4 (Gd bion), decay-cycle member at N3 (Cf bare exciton). Element side: ²⁵²Cf spontaneous fission — the element defined by active disintegration, matching the decay-defined particle.
 
-**Decay type:** Bk(97, ρ⁰) → Cf(98, φ): +1 proton; light-flavor vector → hidden-strangeness vector. ✓ uū/dd̄ → ss̄: strangeness enters the meson (mirrors Fr's s quark upstream).
+**Decay type:** Bk(97, ρ⁰) → Cf(98, exciton): +1 proton; confined QCD resonance → condensed-matter bound pair with its own decay channel. ✓ Decay-defined to decay-defined, QCD scale → meV scale.
 
-**Enthalpy/entropy:** ΔH = 1019.4 MeV; ΔS > 0 (decaying, though OZI-narrowed). Element: Cf synthetic, spontaneous fission (²⁵²Cf, T½ = 2.65 y). Electronegativity: Bk 1.3 → Cf 1.3. ✓ Flat.
+**Enthalpy/entropy:** ΔH ≈ meV (binding energy); ΔS > 0 (recombination-limited). Element: Cf synthetic, spontaneous fission (²⁵²Cf, T½ = 2.65 y). Electronegativity: Bk 1.3 → Cf 1.3. ✓ Flat.
 
-**Dark photon route:** Bk (NODE 4) → Cf (NODE 3) — direct legal route (4→3). ✓ Static confinement released into active decay dynamics.
+**Dark photon route:** Bk (NODE 4) → Cf (NODE 3) — direct legal route (4→3). ✓ Static confinement released into a decay-cycle excitation.
 
 ---
 
@@ -1047,7 +1047,7 @@ After correction: NODE 1 is purely neutral (16/16); NODE 2 is charged+mobile (13
 ---
 
 ### NODE 3: LOWER LEFT (Uneven Redox Oscillatory Hadrons)
-- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **W(74) Strange Neutral B Meson** (from N2) → **Hg(80) Electron Antineutrino** ✓ VERIFIED → **Rn(86) Glueball** ✓ → **Ra(88) Gluon** ✓ → **Th(90) Bottom Quark** ⚠ particle mismapped (element fits N3 via decay cascade) → **U(92) Plexciton** ✓ → **Pu(94) Plasmariton** ✓ → **Cf(98) φ Meson** ✓
+- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **W(74) Strange Neutral B Meson** (from N2) → **Hg(80) Electron Antineutrino** ✓ VERIFIED → **Rn(86) Glueball** ✓ → **Ra(88) Gluon** ✓ → **Th(90) Bottom Quark** ⚠ particle mismapped (element fits N3 via decay cascade) → **U(92) Plexciton** ✓ → **Pu(94) Plasmariton** ✓ → **Cf(98) Exciton** ✓
 - ✓ All uneven, all oscillatory or redox-active
 
 ---
@@ -1119,7 +1119,7 @@ Of these 72, **50 are the "new entries"** verified in this appended series (the 
 | **Am K⁰** | **Pu** | **Am** | **Hybrid → confined flavor eigenstate** | **Oscillating parent of K_S/K_L** |
 | **Cm ρ⁻** | **Am** | **Cm** | **Neutral kaon → charged vector meson** | **Antiparticle of Np's ρ⁺** |
 | **Bk ρ⁰** | **Cm** | **Bk** | **Charged vector → neutral vector** | **Neutral confined member of ρ triplet** |
-| **Cf φ** | **Bk** | **Cf** | **Light vector → hidden strangeness** | **ss̄, OZI-suppressed, Γ=4.25 MeV** |
+| **Cf Exciton** | **Bk** | **Cf** | **QCD resonance → bound e-h pair** | **Neutral, mobile, recombination-decaying** |
 
 ✓ **All 50 entries: complete radioactive decay coverage (baryogenesis, uneven, even, condensation, topological, fermionic, pseudoscalar)**
 
@@ -1176,7 +1176,7 @@ Of these 72, **50 are the "new entries"** verified in this appended series (the 
 | NODE 4 | **Am (K⁰)** | **497.6 MeV** | **≈0 in superposition** | **Flavor eigenstate, confined** |
 | NODE 2 | **Cm (ρ⁻)** | **775 MeV** | **>>0 broad resonance** | **Charged antiparticle of ρ⁺** |
 | NODE 4 | **Bk (ρ⁰)** | **775 MeV** | **>>0 broad resonance** | **Neutral confined vector** |
-| NODE 3 | **Cf (φ)** | **1019.4 MeV** | **>0 decay-defined** | **OZI-suppressed hidden strangeness** |
+| NODE 3 | **Cf (exciton)** | **meV binding** | **>0 recombination** | **Decay-cycle neutral pair** |
 
 ✓ **Pattern CONFIRMED:** NODE 1 ultra-low, NODE 2 HIGH (maximum at Ce/Nd), NODE 3 mixed, NODE 4 maximum-binding
 
@@ -1221,7 +1221,7 @@ Of these 72, **50 are the "new entries"** verified in this appended series (the 
 | Pu → Am | NODE 3 → NODE 4 | Hybrid trapped into flavor superposition |
 | Am → Cm | NODE 4 → NODE 2 | Neutral confined state released as charged meson |
 | Cm → Bk | NODE 2 → NODE 4 | Charged meson captured into neutral confinement |
-| Bk → Cf | NODE 4 → NODE 3 | Static confinement released into decay dynamics |
+| Bk → Cf | NODE 4 → NODE 3 | Static confinement released into a decay-cycle excitation |
 | Ba → Nd | H3-H4 (NODE 2 internal) | Charge neutralization (Majorana parity) |
 | Nd → Pm | H3-H4 (NODE 2→1) | Condensed to e⁻-h⁺ topological |
 | All NODE 1↔2↔3 | Circulation complete | Dark photon cycles verified |
