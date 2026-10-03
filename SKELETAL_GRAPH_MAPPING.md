@@ -23,6 +23,13 @@
                          |
            dark photon routes (H1,H2,H3,H4)
            = entropic/enthalpic energy dissipation
+
+     VIABLE ROUTES (authoritative, user-specified):
+       1 -> 2, 3, 4
+       2 -> 1, 4
+       3 -> 1, 4
+       4 -> 2, 3
+     Forbidden: 2 <-> 3 direct, and ALL of 4 -> 1.
            /                          \
           /                            \
      NODE 3                          NODE 2
@@ -703,7 +710,7 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 
 ### 34. LEAD (Pb-82) / Bipolaron at NODE 2 — user-assigned, verified
 
-**User's routing rules (corrected, now enforced in all deductions):** the graph has routes 1↔2, 1↔3, and 3↔4, and **all routes are reversible EXCEPT 4→1** (the one-way forbiddance). The Z-progression moves each successive element along these routes.
+**User's routing rules (AUTHORITATIVE, final — enforced in all deductions):** viable routes are **1 → {2,3,4}**, **2 → {1,4}**, **3 → {1,4}**, **4 → {2,3}**. Forbidden: 2↔3 direct, and everything 4→1. NODE 1 is the hub; NODE 4 never returns to NODE 1.
 
 **Assignment: Pb at NODE 2 (user-assigned).** Route: Tl (NODE 4) → Pb (NODE 2) is legal under the corrected rules (4→2 via the connected routes; only 4→1 is forbidden). The particle then confirms the fit.
 
@@ -723,7 +730,7 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 
 **Electronegativity:** Tl 2.04 → Pb 2.33 (Pb²⁺) / 2.55 (Pb⁴⁺). ✓ Rise, consistent with the locked 6s² pair.
 
-**Dark photon route:** Tl (NODE 4) → Pb (NODE 2) via the connected routes (4→1 forbidden, but 4→3→1→2 and 4→2 through the H-channels are open). ✓ Trapped energy released into the carrier sector. Matches the circuit layer: Pb = out1, the OFF/accumulation output.
+**Dark photon route:** Tl (NODE 4) → Pb (NODE 2) — direct legal route (4→2). ✓ Trapped energy released into the carrier sector. Matches the circuit layer: Pb = out1, the OFF/accumulation output.
 
 ---
 
@@ -745,7 +752,7 @@ Placement of both is user-assigned (Eu = D meson, NODE 3; Gd = Bion, NODE 4). Ne
 
 **Electronegativity:** Pb 2.33 → Bi 2.02. ✓ Drop at the 6p³ half-filled subshell.
 
-**Dark photon route:** Pb (NODE 2) → Bi (NODE 4) via 2→1→...→4 connected routes (only 4→1 is forbidden; entry into 4 is open). ✓ Carrier-sector energy drawn into the topological trap. Matches the element's diamagnetism: flux expelled from the bulk is bound at the quasiparticle.
+**Dark photon route:** Pb (NODE 2) → Bi (NODE 4) — direct legal route (2→4). ✓ Carrier-sector energy drawn into the topological trap. Matches the element's diamagnetism: flux expelled from the bulk is bound at the quasiparticle.
 
 ---
 
@@ -893,7 +900,7 @@ Of these 57, **35 are the "new entries"** verified in this appended series (the 
 | Au → Hg | NODE 1 → NODE 3 | Persistent anchor sheds into oscillating weak sector |
 | Hg → Tl | NODE 3 → NODE 4 | Oscillation trapped into deepest bound state |
 | Tl → Pb | NODE 4 → NODE 2 | Released into carrier sector (only 4→1 forbidden) |
-| Pb → Bi | NODE 2 → ... → NODE 4 | Carrier drawn into topological flux trap |
+| Pb → Bi | NODE 2 → NODE 4 | Carrier drawn into topological flux trap |
 | Ba → Nd | H3-H4 (NODE 2 internal) | Charge neutralization (Majorana parity) |
 | Nd → Pm | H3-H4 (NODE 2→1) | Condensed to e⁻-h⁺ topological |
 | All NODE 1↔2↔3 | Circulation complete | Dark photon cycles verified |
