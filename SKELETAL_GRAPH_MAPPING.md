@@ -1096,10 +1096,11 @@ After correction: NODE 1 is purely neutral (16/16); NODE 2 is charged+mobile (13
 
 **Physics foundation (verified):** surface transverse acoustic phonon = quantized transverse sound wave confined to a surface/interface (Rayleigh-type family). Neutral, propagating, and oscillatory *by definition* — a phonon is a quantized oscillation. Chosen over the Ω⁻ baryon (see below).
 
-**Node assignment by the exact rules:**
-- NODE 2 excluded: neutral — no charge transport.
-- NODE 4 excluded: progression moves off Md's NODE 4; a surface wave propagates, it is not pinned.
-- NODE 3 ✓ (route 4→3 legal): oscillation is the state's definition = the time-dynamic node. Matches N3's neutral time-dynamic majority (plasmon V, magnon Xe, plexciton U). Family link: K(19) holds the **bulk** transverse acoustic phonon at NODE 1 — No is its **surface** counterpart, the bulk/surface split across nodes (same pattern as soliton Os/N1 vs bion Gd/N4).
+**Node assignment (element-first, per corrected method — element decides the node, particle is reference):**
+1. Route: from Md (N4) only {2, 3} reachable.
+2. NODE 2 eliminated on element grounds: No is a short-lived radioactive metal — no charge-carrier character.
+3. NODE 3 confirmed on element grounds: ²⁵⁹No (T½ = 58 min) is decay-defined (time-dynamic), and No has a genuine redox peculiarity — the unexpectedly stable No²⁺ state (real No²⁺/No³⁺ couple, like Yb) = redox activity, NODE 3's original character.
+Deterministic from the element alone; the particle check below is consistent (surface acoustic phonon = oscillation by definition, neutral — fits the time-dynamic, neutral-majority node). Matches N3's neutral time-dynamic majority (plasmon V, magnon Xe, plexciton U). Family link: K(19) holds the **bulk** transverse acoustic phonon at NODE 1 — No is its **surface** counterpart, the bulk/surface split across nodes (same pattern as soliton Os/N1 vs bion Gd/N4).
 
 **Alternative rejected (Ω⁻ baryon):** charged (−e) and free-propagating → would land at NODE 2 (charged mobile transport, with Br's muon and Ba's W-boson). Rejected because the Ω⁻'s defining identity — forbidden from strong decay by strangeness conservation, weak-decay-only — is a decay-suppression drama that belongs to the time-dynamic node, where it would sit as a charged minority. The phonon is the cleaner fit. (Available if you prefer it: Ω⁻ → NODE 2.)
 
