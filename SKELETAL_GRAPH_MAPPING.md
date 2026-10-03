@@ -54,7 +54,7 @@
    U (plexciton)
    Pu (plasmariton)
    Cf (exciton)
-   Fm (exciton-polariton)
+   Fm (exciton-polariton) ⚠ PARTICLE MISMATCHED (element stays NODE 3)
                                    Ho (electron plasmaron)
                                    Yb (electron quasiparticle)
                                    Re (hole plasmaron)
@@ -76,7 +76,7 @@
       Pm = Leviton
       Tb = Eta prime meson
       Dy = Polariton
-      Er = Exciton polariton
+      Er = Exciton polariton ⚠ PARTICLE MISMATCHED
       Os = Soliton
       Ac = Tau neutrino
       Fe = Muon antineutrino + phason + bulk LO phonon
@@ -975,6 +975,8 @@ The six violations found by the analysis were resolved (each element keeps its Z
 5. **Pr(59) roton: NODE 4 → NODE 1.** Neutral, coherent, non-decaying, propagating = persistence, not trap.
 6. **Zn(30): NODE 4 KEPT — ⚠ PARTICLE MISMATCHED.** The element is redox-locked (d¹⁰, +2 only, static structural binding) = NODE 4 character; the holon is itinerant and must be replaced by a bound/trapped particle.
 7. **Th(90): NODE 3 KEPT — ⚠ PARTICLE MISMATCHED.** The element is defined by its slow decay cascade (²³²Th series) = time-dynamic NODE 3 character; the bottom quark is confined (NODE 4 character) and should be replaced by an oscillatory/decaying particle.
+8. **Er(68): NODE 1 KEPT — ⚠ PARTICLE MISMATCHED.** Exciton-polariton collided with Fm(100); both need new, distinct particles. Er's element side (redox-stable, coherent 1.5 µm emission, the relaxation half of the Ho/Er pair) fits NODE 1's persistence.
+9. **Fm(100): NODE 3 KEPT — ⚠ PARTICLE MISMATCHED.** Same collision from the other side. The node stands without the particle: route from Es (N4) only reaches {2,3}, N2 is charged-transport (no fit for fermium), and the element is decay-defined (time-dynamic) = NODE 3.
 
 ### Mapping to the user's material labels
 
@@ -1052,7 +1054,7 @@ After correction: NODE 1 is purely neutral (16/16); NODE 2 is charged+mobile (13
 
 ---
 
-### 52. FERMIUM (Fm-100) / Exciton-Polariton at NODE 3 — deduced under the characterized node rules
+### 52. FERMIUM (Fm-100) / Exciton-Polariton ⚠ PARTICLE MISMATCHED — NODE 3 stands on element + route grounds
 
 **Physics foundation (verified):** exciton-polariton = strong coupling of a photon with an exciton; the defining signature is **Rabi oscillation** — the state beats between its exciton and photon components at the splitting frequency — plus photon leakage (finite cavity lifetime). Neutral, mobile, coherent.
 
@@ -1061,7 +1063,7 @@ After correction: NODE 1 is purely neutral (16/16); NODE 2 is charged+mobile (13
 - NODE 4 excluded: progression must move off Es's NODE 4; and the polariton propagates, it is not pinned.
 - NODE 3 ✓ (route 4→3 legal): Rabi beating between two components + leakage decay = time-dynamics, the node's defining property. Same family as the other beating hybrids here: U (plexciton), Pu (plasmariton).
 
-**⚠ Family flag:** Er(68) is already "exciton polariton" at NODE 1, assigned on coherence/condensation grounds. Default resolution: emphasis split — Er = the coherent-condensate aspect (N1), Fm = the Rabi-oscillating aspect (N3) — same pattern as Os soliton (N1) vs Gd bion (N4). Tell me if you want a physical distinction instead (e.g. condensate vs bare polariton).
+**⚠ PARTICLE MISMATCHED (per user):** the exciton-polariton assignment collides with Er(68) — both flagged for particle remapping. The NODE 3 assignment for Fm stands independently of the particle: the route from Es (N4) can only reach {2, 3}, N2 is the charged-carrier node (fits nothing about fermium), and the element itself is time-dynamic (²⁵⁵/²⁵⁷Fm, actively decaying synthetic actinide). New particle pending.
 
 **Decay type:** Es(99, biexciton) → Fm(100, exciton-polariton): +1 proton; bound pair of pairs → light-coupled oscillating hybrid. ✓ Deepest binding opens into light-coupled oscillation.
 
@@ -1074,7 +1076,7 @@ After correction: NODE 1 is purely neutral (16/16); NODE 2 is charged+mobile (13
 ## UPDATED NODE STRUCTURE (Complete with Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu)
 
 ### NODE 1: LOWER MIDDLE (Neutral Multi-Particle Coherent Anchor)
-- Cl(17) Neutron → K(19) Acoustic → **Fe(26) Muon-Antineutrino + Phason + LO Phonon** (from N4) → Ge(32) Polariton → Kr(36) Antiprotonium → **Sr(38) Electron Neutrino** (from N4) → Sb(51) Oscillon → I(53) Trion → La(57) Topological Skyrmion → **Pr(59) Roton** (from N4) → **Pm(61) Leviton** ✓ VERIFIED → **Tb(65) Eta Prime Meson** ✓ VERIFIED → **Dy(66) Polariton** ✓ VERIFIED → **Er(68) Exciton Polariton** ✓ VERIFIED → **Os(76) Soliton** ✓ VERIFIED → **Ac(89) Tau Neutrino** ✓ VERIFIED
+- Cl(17) Neutron → K(19) Acoustic → **Fe(26) Muon-Antineutrino + Phason + LO Phonon** (from N4) → Ge(32) Polariton → Kr(36) Antiprotonium → **Sr(38) Electron Neutrino** (from N4) → Sb(51) Oscillon → I(53) Trion → La(57) Topological Skyrmion → **Pr(59) Roton** (from N4) → **Pm(61) Leviton** ✓ VERIFIED → **Tb(65) Eta Prime Meson** ✓ VERIFIED → **Dy(66) Polariton** ✓ VERIFIED → **Er(68) Exciton Polariton** ⚠ particle mismapped → **Os(76) Soliton** ✓ VERIFIED → **Ac(89) Tau Neutrino** ✓ VERIFIED
 - ✓ All neutral, all multi-particle, all low-entropy coherent
 
 ---
@@ -1086,7 +1088,7 @@ After correction: NODE 1 is purely neutral (16/16); NODE 2 is charged+mobile (13
 ---
 
 ### NODE 3: LOWER LEFT (Uneven Redox Oscillatory Hadrons)
-- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **W(74) Strange Neutral B Meson** (from N2) → **Hg(80) Electron Antineutrino** ✓ VERIFIED → **Rn(86) Glueball** ✓ → **Ra(88) Gluon** ✓ → **Th(90) Bottom Quark** ⚠ particle mismapped (element fits N3 via decay cascade) → **U(92) Plexciton** ✓ → **Pu(94) Plasmariton** ✓ → **Cf(98) Exciton** ✓ → **Fm(100) Exciton-Polariton** ✓
+- Ca(20) Higgs → Sc(21) D⁻ meson → Ti(22) Polariton → V(23) Plasmon → Cr(24) Acoustic → Cu(29) Z-boson → As(33) Eta-c → Sn(50) Bc⁻ → Xe(54) Magnon/Optic → **Eu(63) D Meson (D_s⁺)** ✓ VERIFIED → **Hf(72) Configuron** ✓ VERIFIED → **W(74) Strange Neutral B Meson** (from N2) → **Hg(80) Electron Antineutrino** ✓ VERIFIED → **Rn(86) Glueball** ✓ → **Ra(88) Gluon** ✓ → **Th(90) Bottom Quark** ⚠ particle mismapped (element fits N3 via decay cascade) → **U(92) Plexciton** ✓ → **Pu(94) Plasmariton** ✓ → **Cf(98) Exciton** ✓ → **Fm(100) Exciton-Polariton** ⚠ particle mismapped
 - ✓ All uneven, all oscillatory or redox-active
 
 ---
