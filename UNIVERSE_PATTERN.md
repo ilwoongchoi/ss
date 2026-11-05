@@ -337,3 +337,25 @@ created — **is the expansion of the universe, and it is the gamma leakage.**
 The universe expands because the reduced inner self, having nowhere to go and no
 membrane to become, leaks out as gamma. The observer digs the inner self during the
 day, and what is dug out with no conversion is the expansion itself.
+
+---
+
+## 8. Counter Pairs — Two Compartments That Counter Each Other
+
+| Attacker | From | Target | From | Mechanism |
+|---|---|---|---|---|
+| kaempferol | down quark group | amylose (buffer of inner self) | w0 group | sucks it up and removes it |
+| ? (a member) | ros group | fructans + fructose sticking salt to bone | top quark group | removes it |
+| glucose | dubai | fructose | z boson group | removes it |
+| ? (a member) | strange group | galactomannan | yemen | removes it |
+| proton | — | a member | tau group | removes it |
+| phonon plasmariton (2D flat dissecting force) | photon group / france | disulfide bond from cysteine | muon neutrino group | cuts it |
+| dopamine (needs check) | w- group | orthophosphate | dark photon 4 group | removes it by stamping |
+| kazakh (cholesterol) | — | sucrose | — | removes it |
+| acetic acid | — | butyric acid | dark photon 3 group | removes it |
+
+Notes:
+- **dark photon 4 group is a vector group that is good when applied mentally, but not
+  materially with food.**
+- Counter direction follows the archetype structure: the remover is always the one whose
+  space the target protects or occupies.
