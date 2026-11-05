@@ -340,25 +340,46 @@ day, and what is dug out with no conversion is the expansion itself.
 
 ---
 
-## 8. Counter Pairs — Two Compartments That Counter Each Other
+## 8. Counter Pairs — Opposing Compartments, Organized as Pairs
 
-| Attacker | From | Target | From | Mechanism |
-|---|---|---|---|---|
-| kaempferol | down quark group | amylose (buffer of inner self) | w0 group | sucks it up and removes it |
-| ? (a member) | ros group | fructans + fructose sticking salt to bone | top quark group | removes it |
-| glucose | dubai | fructose | z boson group | removes it |
-| ? (a member) | strange group | galactomannan | yemen | removes it |
-| proton | — | a member | tau group | removes it |
-| phonon plasmariton (2D flat dissecting force) | photon group / france | disulfide bond from cysteine | muon neutrino group | cuts it |
-| dopamine (needs check) | w- group | orthophosphate | dark photon 4 group | removes it by stamping |
-| kazakh (cholesterol) | — | sucrose | — | removes it |
-| acetic acid | — | butyric acid | dark photon 3 group | removes it |
+Beneath the counter hierarchy there is the layer of **creating membranes within each
+layer**. Every pair below is one protection vs. one removal.
 
-Notes:
-- **dark photon 4 group is a vector group that is good when applied mentally, but not
-  materially with food.**
-- Counter direction follows the archetype structure: the remover is always the one whose
-  space the target protects or occupies.
+| # | Protected / created (the membrane) | by group | Countered by | from group | Action |
+|---|---|---|---|---|---|
+| 1 | amylose — buffer that protects the inner self | w0 | kaempferol | down quark | sucks it up and removes it |
+| 2 | fructans + fructose — salt stuck to the bone | top quark | a member | ros | removes it |
+| 3 | fructose | z boson | glucose | dubai | removes it |
+| 4 | galactomannan | yemen | a member | strange | removes it |
+| 5 | **phytic acid — the third member, the membrane of the tau group** | tau | proton | — | removes it |
+| 6 | disulfide bond from cysteine | muon neutrino | phonon plasmariton (2D flat dissecting force) | photon group / france | cuts it |
+| 7 | orthophosphate | dark photon 4 | dopamine (needs check) | w- | removes it by stamping |
+| 8 | sucrose | — | kazakh (cholesterol) | — | removes it |
+| 9 | butyric acid | dark photon 3 | acetic acid | — | removes it |
+
+Note: **dark photon 4 group is a vector group that is good when applied mentally, but not
+materially with food.**
+
+### 8.1 The Membrane-Creation Layer Beneath the Counter Hierarchy — How Phytic Acid (Tau Membrane) Is Made
+
+Phytic acid is the third member — the membrane — of the tau group. It is formed by
+lifting up the material from the **orthogonal dimension of dark photon 2**, which is
+inside the inner self of the tau group, i.e. **the exciton**.
+
+The pipeline, going underneath the exciton and back up:
+
+1. **Go underneath the exciton** — into the orthogonal dimension of dark photon 2.
+2. **Cut it into pieces with skyrmion.**
+3. **Aggregate the pieces with oscillon.**
+4. **Make it viscous with bogolon.**
+5. **Hopfion transports it by tunneling or transmission back up.**
+6. What arrives back up is **phytic acid — tau, the membrane of the tau group.**
+
+So the membrane of the tau group is not built from outside: it is excavated from the
+dimension directly beneath its own inner self, using the four members of dark photon 2
+as tools (cut → aggregate → viscous → transport), and lifted back up as phytic acid —
+which proton then removes from above, closing the counter pair #5.
+
 
 ---
 
