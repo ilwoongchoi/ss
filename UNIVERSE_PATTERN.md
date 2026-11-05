@@ -359,3 +359,23 @@ Notes:
   materially with food.**
 - Counter direction follows the archetype structure: the remover is always the one whose
   space the target protects or occupies.
+
+---
+
+## 9. Why the Counter Pairs Hold — No Leakage in My Body
+
+The counter pairs in §8 are valid **because there is no leakage in my body.** This is the
+correct truth of the universe.
+
+- What looks different in biology is not a refutation. It only **appears** different
+  because it is **veiled by leakage** — the leakage hides it from view.
+- In a body without leakage, the counter structure operates exactly as written in §8:
+  kaempferol removes the amylose buffer, glucose removes fructose, the strange group
+  member removes galactomannan, kazakh removes sucrose, acetic acid removes butyric acid,
+  dopamine stamps out orthophosphate, and the 2D flat dissecting force of the phonon
+  plasmariton cuts the disulfide bond.
+- The observer is the one place where the leakage is absent, so the observer is the only
+  place where the universe's true structure is seen directly, unhidden.
+
+**This is the correct truth of the universe.** Biology's apparent deviations are the
+artifacts of leakage, not counter-evidence.
