@@ -168,75 +168,136 @@ Between the membrane and the inner self, there is one more space: **sucrose**.
 
 ---
 
-## 6. Particle Domain Mapping — Universal Particle-Archetype Interaction Matrix
-
-(Merged from `JOHN/newstart1/UNIVERSAL_PARTICLE_VECTOR_MAP.md`.)
-
-This document defines the 12 directional vectors governing the interactions between the four primary nodes.
-
-## 1. The Participants
-*   **Proton (Big Woman, 1/32)**: The Primal Mass.
-*   **Electron (Small Woman, 1/8)**: The Charge Carrier / PLP Engine.
-*   **Photon (Big Man, 1/16)**: The Information Carrier / Light.
-*   **Neutrino (Small Man, 1/128)**: The Ghost Observer.
-
 ---
 
-## 2. Interaction Matrix
+## 6. Particle → Domain Mapping
 
-### A. The Mass-Charge Pair (BW ↔ SW)
-1.  **BW → SW (Proton → Electron)**: **EM Capture / PRA**. 
-    *   *Physics*: The Proton's charge pulls the Electron into a bound state.
-    *   *Meaning*: Deceitful hospitality; forcing the Electron into a contractive orbit (Neutron Star path).
-2.  **SW → BW (Electron → Proton)**: **Bremsstrahlung (BR)**.
-    *   *Physics*: The energy "scream" (0.02) emitted as the Electron is forcibly bent by the Proton's field.
-    *   *Meaning*: The tax of existence; the cost of being controlled by the Primal Mass.
+노드/원소 열은 [SKELETAL_GRAPH_MAPPING.md](./SKELETAL_GRAPH_MAPPING.md) 기준입니다. `—`는 원소 그래프에 없는 입자입니다. `?`는 해석이 불확실한 항목입니다.
 
-### B. The Mass-Light Pair (BW ↔ BM)
-3.  **BW → BM (Proton → Photon)**: **Gravitational Lensing / BOSS**.
-    *   *Physics*: The mass of the Baryon (B) bends the path of light.
-    *   *Meaning*: Structural forcing; the "Standard Ruler" (7.4) set by the collective oscillation of Big Women.
-4.  **BM → BW (Photon → Proton)**: **Photoelectric Effect**.
-    *   *Physics*: Information (Light) hits the mass and ejects energy.
-    *   *Meaning*: Information-driven action; when the "Light" forces the "Body" to change its state.
+### 6.1 게이지/스칼라 보손
 
-### C. The Mass-Ghost Pair (BW ↔ SM)
-5.  **BW → SM (Proton → Neutrino)**: **Inverse Beta Decay / Capture**.
-    *   *Physics*: The Proton absorbs the Neutrino to change its identity.
-    *   *Meaning*: The final Crunch; the "Body" consuming the "Ghost" to sustain its own collapsing mass.
-6.  **SM → BW (Proton ← Neutrino)**: **Neutral Current Scattering**.
-    *   *Physics*: The Neutrino passes through the Proton with minimal interaction.
-    *   *Meaning*: Ghostly resistance; the Small Man remaining unaffected by the Big Woman's physical gravity.
+| 입자 | 분야 | 원소 / 노드 |
+|:--|:--|:--|
+| Z boson | 통신공학 | — |
+| W+ | 자기장 | Na / 2 또는 3 (보류) |
+| W0 | 고체매질공학, 지진 | — |
+| W- | 신경전달물질 | Ba(w-boson) / 2 ? |
+| B boson | 전자기 | P / 3 ✓✓ |
+| photon | 광전자, 전자기장 | N / 1 ✓✓ |
+| gluon | 강력 | Ra / 3 |
+| graviton | 중력 | — |
+| Higgs | bioenergetics | — |
+| axion | radio frequency | F / 4 또는 1 (보류) |
 
-### D. The Charge-Light Pair (SW ↔ BM)
-7.  **SW → BM (Electron → Photon)**: **Compton Scattering**.
-    *   *Physics*: The Electron imparts its kinetic energy to the Photon.
-    *   *Meaning*: Transformation of experience into wisdom; the "Engine" fueling the "Light".
-8.  **BM → SW (Photon → Electron)**: **Stimulated Emission / Absorption**.
-    *   *Physics*: The Light dictates the Electron's energy transitions.
-    *   *Meaning*: Guidance or Deceit; the Big Man controlling the Small Woman's internal state.
+### 6.2 쿼크
 
-### E. The Charge-Ghost Pair (SW ↔ SM)
-9.  **SW → SM (Electron → Neutrino)**: **Weak Interaction (W- Boson) [-]**.
-    *   *Physics*: The Electron dumps its "Debt" (negative charge/toxicity) onto the Neutrino.
-    *   *Meaning*: **Selfish Debt Transfer**. The act that pushes the Small Man toward the D3 Singularity.
-10. **SM → SW (Neutrino → Electron)**: **Elastic Scattering**.
-    *   *Physics*: The Neutrino's presence subtly nudges the Electron's position.
-    *   *Meaning*: Intuition; the "Ghost" providing sub-threshold corrections to the "Engine".
+| 입자 | 분야 | 원소 / 노드 |
+|:--|:--|:--|
+| up | 지질학 | Rb / 3 |
+| down | quasar | Cs / 4 |
+| strange | laser, 자기추진 | Fr / 4 |
+| charm | buoyancy | — (Charmonium은 In / 4) |
+| bottom | 미생물공학 | Th / 3 (입자 불일치) |
+| top | agonist/antagonist | Og / 3 |
 
-### F. The Light-Ghost Pair (BM ↔ SM)
-11. **BM → SM (Photon → Neutrino)**: **Cross-Phase Modulation / Hosting (PRB)**.
-    *   *Physics*: The Light provides the refractive medium for the Neutrino to follow.
-    *   *Meaning*: **Honest Hospitality**. The Big Man shielding the Small Man's path to the 7.4 Spark.
-12. **SM → BM (Neutrino → Photon)**: **Phase Coherence**.
-    *   *Physics*: The Neutrino maintains the frequency stability of the Light.
-    *   *Meaning*: Transparency; the "Ghost" ensuring the "Light" remains true and unscattered.
+### 6.3 렙톤과 뉴트리노
 
----
+| 입자 | 분야 | 원소 / 노드 |
+|:--|:--|:--|
+| electron | 전기 | Nh(Dirac electron) 등 / 2 (정확한 항목 불명) |
+| muon | 유체 | Br / 2 |
+| tau | 유기화학 | Mg / 2 또는 3 (보류) |
+| positron | ai 공학, ROS | S / 3 또는 2 (보류) |
+| electron neutrino | 반도체 | Sr / 1 |
+| tau neutrino | 재료공학 | Ac / 1 |
+| muon neutrino | 생물학 | — (그래프에 없음) |
+| electron antineutrino | 전기화학, 뇌화학 | Hg / 3 |
+| muon antineutrino | 토양 | Fe / 1 |
+| tau antineutrino | 막공학, 화학공학, 삼투 | Be / 4 (입자 불일치) |
 
-## 3. The Grand Unification Summary
-*   **The Problem**: Vectors 1, 5, 8, and 9 create the **Crunch Loop**.
-*   **The Solution**: Vectors 11 and 12, combined with the neutralization of Vector 1 (Removing Left Progesterone), enable the **7.4 Homeostasis**.
+### 6.4 핵자와 반핵자
 
-**Document Status**: Fully Mapped (12/12 Vectors).
-**Logic Check**: All particle scales (1/128, 1/32, 1/16, 1/8) integrated.
+| 입자 | 분야 | 원소 / 노드 |
+|:--|:--|:--|
+| proton | carrier energy | — (Ce는 Proton hole) |
+| neutron | acoustics | Cl / 1 |
+| antiproton | 초전도체 | C / 4 또는 2 (보류) |
+| antineutron | condensed matter physics | Li / 3 또는 2 (보류) |
+
+### 6.5 Dark photon (노드 사이 H1~H4 경로)
+
+| 입자 | 분야 |
+|:--|:--|
+| dark photon 1 | 반도체 |
+| dark photon 2 | photonics |
+| dark photon 3 | 열역학 |
+| dark photon 4 | 역막공학 |
+
+### 6.6 지역 항목
+
+| 항목 | 분야 |
+|:--|:--|
+| Australia | 천문학 |
+| Mongolia / Georgia | 우주론 |
+| 안담 ? | 웜홀 |
+| 영국 | 블랙홀 |
+| Kazakh | 능동수송 |
+| Yemen | biopolymer |
+| Angola | psychopathy, 환경화학 |
+| Dubai | 생화학 |
+| Albania | 토목공학, 수력, 삼투 |
+
+### 6.7 확인이 필요한 점
+
+1. **"다크포톤2 재료공학"은 빠져 있던 tau neutrino의 재료공학입니다.** dark photon 2는 photonics만 가집니다. 반도체는 dark photon 1과 electron neutrino에 겹칩니다.
+2. **삼투가 두 곳에 있습니다.** tau antineutrino와 Albania가 모두 삼투를 가집니다. 역막공학은 dark photon 4에 있습니다.
+3. **그래프에 없는 입자가 많습니다.** Z, graviton, W0, Higgs, dark photon은 원소 그래프에 없고, charm, proton, muon neutrino도 정확히 대응하는 원소가 없습니다.
+4. **ROS의 뜻이 불분명합니다.** "ai 공학 ros zpositron"의 ROS가 Robot OS인지 활성산소(Reactive Oxygen Species)인지, 앞의 z가 Z boson과 관련된 것인지 확인이 필요합니다.
+5. **우주론 줄이 모호합니다.** "andamanese 웜홀 영국 블랙홀"을 "안담 → 웜홀", "영국 → 블랙홀"로 읽었는데 맞는지 확인이 필요합니다.
+6. **오타로 보이는 부분은 아래 원문을 그대로 뒀고, 위 표에서는 의미대로 읽었습니다.** `axiob`는 axion, `공하ㄱ`은 공학, `yemer`는 Yemen, `antineutrono`는 antineutrino입니다.
+
+### 6.8 원문
+
+```
+z boson 통신공학
+graviton 중력
+radio frquency axiob
+스트레인지 laser 자기추진
+자기장 w+
+유기화학 타우
+ai 공학 ros zpositron
+강력 gluon
+muon antineutrono 토양
+tau antineutrino 막공학 화학공학 삼투
+다크포톤4 역막공학
+광자 광전자/전자기장
+b boson 전자기
+photonics dark photon 2
+electron 전기
+down quark  quasar
+유체 muon
+중성자 acoustics
+천문학 australia
+생물학 muon neutrino
+전자뉴트리노 반도체
+전자안티뉴트리노 전기화학/뇌화학
+열역학 dark photon 3
+우주론 mongolia/georgia 안담 웜홀 영국 블랙홀
+고체매질공하ㄱ지진 w0
+신경전달물질 w-
+초전도체 반프로톤
+top quark agonist antagonist
+반도체 dark photon 1
+bioenergetics higgs
+능동수송 kazakh
+condensed matter physics 반중성자
+buoyancy charm quark
+프로톤 carrier energy
+다크포톤2 재료공학
+biopolymer yemer
+앙골라 psychopathy/환경화학
+두바이 생화학
+알바니아 토목공학 수력 삼투
+미생물공학 바텀쿼크
+업쿼크 지질학
+```
