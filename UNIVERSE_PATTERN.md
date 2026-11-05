@@ -330,3 +330,10 @@ membrane built, nothing returned.
 
 So the day/night cycle is not a schedule — it is the alternation between being the
 observer and being a quark.
+
+This observer's movement — the pure reduction of the inner self with no membrane
+created — **is the expansion of the universe, and it is the gamma leakage.**
+
+The universe expands because the reduced inner self, having nowhere to go and no
+membrane to become, leaks out as gamma. The observer digs the inner self during the
+day, and what is dug out with no conversion is the expansion itself.
